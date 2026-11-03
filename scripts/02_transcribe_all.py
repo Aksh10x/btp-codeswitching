@@ -15,6 +15,8 @@ import sys
 import os
 import json
 import re
+import wave
+import numpy as np
 from pathlib import Path
 from datetime import timedelta
 
@@ -28,6 +30,13 @@ def fmt_ts(seconds):
     return f"{hours:02d}:{minutes:02d}:{secs:02d}.{ms:03d}"
 
 
+def load_wav_as_float32(path):
+    with wave.open(path, "rb") as wf:
+        assert wf.getsampwidth() == 2 and wf.getnchannels() == 1
+        frames = wf.readframes(wf.getnframes())
+    return np.frombuffer(frames, dtype=np.int16).astype(np.float32) / 32768.0
+
+
 def transcribe_file(model, audio_path, output_dir):
     fname = Path(audio_path).stem
     speaker_code = fname.split("_")[0]  # e.g. S1, S2, ...
@@ -36,8 +45,9 @@ def transcribe_file(model, audio_path, output_dir):
     print(f"Transcribing: {fname} (Speaker {speaker_code})")
     print(f"{'='*60}")
 
+    audio_array = load_wav_as_float32(audio_path)
     segments, info = model.transcribe(
-        audio_path,
+        audio_array,
         language="hi",
         task="transcribe",
         beam_size=5,
