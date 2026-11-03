@@ -16,3 +16,24 @@ This project investigates sociolinguistic code-switching and morphological trans
 - `scripts/`: Audio extraction, signal analysis, transcription, and linguistic analysis pipelines.
 - `transcripts/`: Verbatim unnormalized transcripts with word-level timestamps and speaker turns.
 - `analysis/`: Companion linguistic reports, candidate switch points, and agreement site tallies.
+- `docs/`: Progress reports and presentation materials.
+
+## Running the Pipeline
+
+```bash
+# 1. Place recordings in a data folder (e.g., ~/Desktop/BTP/) with subfolders:
+#    "BTP videos/", "BTP videos 2/", "BTP videos 3/"
+
+# 2. Run the full pipeline:
+bash scripts/run_pipeline.sh ~/Desktop/BTP
+
+# Or run steps individually:
+bash scripts/01_extract_audio.sh ~/Desktop/BTP
+python3 scripts/02_transcribe_all.py ~/Desktop/BTP/extracted_audio ~/Desktop/BTP/transcripts
+python3 scripts/03_linguistic_analysis.py ~/Desktop/BTP/transcripts ~/Desktop/BTP/analysis
+```
+
+### Requirements
+- Python 3.8+
+- ffmpeg / ffprobe
+- `pip install openai-whisper faster-whisper numpy`
