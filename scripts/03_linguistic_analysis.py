@@ -99,6 +99,17 @@ PAST_TENSE_ROMAN = {
     "liye": "m_pl", "diye": "m_pl", "dekhe": "m_pl", "sune": "m_pl",
 }
 
+# Words that match verb/adjective patterns but are NOT verbs or adjectives
+# Language names, nouns, etc. that happen to end in -ी/-ा/-े
+NOT_VERBS = {
+    "हिंदी", "बेंगॉली", "बेगोली", "बेंगली", "बेंगुली", "बांग्ला",
+    "इंग्लिश", "इंग्रीश", "इंग्रीय",
+    "नेगलीयस", "शर्षकीत", "पीएस", "थािंदी",
+    "कहां", "कहाँ", "यहीं", "वहीं", "वहां", "यहां",
+    "इसलिए", "इसीलिए",
+    "बाकी", "सहब्दे", "नामिक", "उठागे",
+}
+
 # Ergative "ne" marker patterns
 NE_PATTERN_DEVANAGARI = r'\bने\b'
 NE_PATTERN_ROMAN = r'\bne\b'
@@ -145,6 +156,28 @@ BENGALI_ROMAN_MARKERS = {
 }
 
 
+HALLUCINATION_PATTERNS = [
+    re.compile(r"transcribe exactly what is said", re.IGNORECASE),
+    re.compile(r"the speaker may switch between", re.IGNORECASE),
+    re.compile(r"a lady and her husband", re.IGNORECASE),
+    re.compile(r"she asks a man if he can", re.IGNORECASE),
+    re.compile(r"hesitations,?\s*false starts", re.IGNORECASE),
+    re.compile(r"सब्सक्राइब\s*(करें|करना|कर)", re.IGNORECASE),
+]
+
+
+def _is_hallucinated_segment(seg):
+    text = seg.get("text", "").strip()
+    for pat in HALLUCINATION_PATTERNS:
+        if pat.search(text):
+            return True
+    ascii_chars = sum(1 for c in text if c.isascii() and c.isalpha())
+    total_alpha = sum(1 for c in text if c.isalpha())
+    if total_alpha > 0 and ascii_chars / total_alpha > 0.8 and total_alpha > 10:
+        return True
+    return False
+
+
 def analyze_transcript(transcript_json_path, analysis_dir):
     with open(transcript_json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -179,6 +212,9 @@ def analyze_transcript(transcript_json_path, analysis_dir):
     switch_points = 0
 
     for seg in segments:
+        if _is_hallucinated_segment(seg):
+            continue
+
         text = seg["text"]
         start = seg["start"]
         end = seg["end"]
@@ -213,7 +249,10 @@ def analyze_transcript(transcript_json_path, analysis_dir):
             elif word_lower in BENGALI_ROMAN_MARKERS:
                 is_bengali_candidate = True
             elif prob < 0.4:
-                is_bengali_candidate = True
+                # Low-prob words are candidates, but skip pure English words
+                # (those are likely Whisper hallucinations, not Bengali)
+                if not (word.isascii() and word.isalpha()):
+                    is_bengali_candidate = True
 
             if is_bengali_candidate:
                 candidate_bengali_words += 1
@@ -230,6 +269,11 @@ def analyze_transcript(transcript_json_path, analysis_dir):
         for w_data in words:
             word = w_data["word"].strip()
             word_lower = word.lower()
+
+            # Skip words that look like verbs but aren't
+            word_clean = word.rstrip(".,!?;:")
+            if word_clean in NOT_VERBS:
+                continue
 
             # Check Devanagari patterns
             for pattern, gender in PAST_TENSE_PATTERNS_DEVANAGARI:

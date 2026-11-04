@@ -37,6 +37,34 @@ def load_wav_as_float32(path):
     return np.frombuffer(frames, dtype=np.int16).astype(np.float32) / 32768.0
 
 
+HALLUCINATION_PATTERNS = [
+    re.compile(r"transcribe exactly what is said", re.IGNORECASE),
+    re.compile(r"the speaker may switch between", re.IGNORECASE),
+    re.compile(r"a lady and her husband", re.IGNORECASE),
+    re.compile(r"she asks a man if he can", re.IGNORECASE),
+    re.compile(r"hesitations,?\s*false starts", re.IGNORECASE),
+    re.compile(r"do not correct grammar", re.IGNORECASE),
+    re.compile(r"hindi.*bengali.*code.?switch", re.IGNORECASE),
+    re.compile(r"सब्सक्राइब\s*(करें|करना|कर)", re.IGNORECASE),
+]
+
+
+def _is_hallucination(seg):
+    text = seg.text.strip()
+    if not text:
+        return True
+    for pat in HALLUCINATION_PATTERNS:
+        if pat.search(text):
+            return True
+    ascii_chars = sum(1 for c in text if c.isascii() and c.isalpha())
+    total_alpha = sum(1 for c in text if c.isalpha())
+    if total_alpha > 0 and ascii_chars / total_alpha > 0.8 and total_alpha > 10:
+        return True
+    if seg.no_speech_prob and seg.no_speech_prob > 0.6 and seg.avg_logprob and seg.avg_logprob < -1.0:
+        return True
+    return False
+
+
 def transcribe_file(model, audio_path, output_dir):
     fname = Path(audio_path).stem
     speaker_code = fname.split("_")[0]  # e.g. S1, S2, ...
@@ -58,13 +86,7 @@ def transcribe_file(model, audio_path, output_dir):
             min_silence_duration_ms=500,
             speech_pad_ms=200,
         ),
-        condition_on_previous_text=True,
-        initial_prompt=(
-            "This is a Hindi interview with possible Bengali code-switching. "
-            "The speaker may switch between Hindi and Bengali mid-sentence. "
-            "Transcribe exactly what is said including hesitations, false starts, "
-            "and repetitions. Do not correct grammar or normalize dialect forms."
-        ),
+        condition_on_previous_text=False,
     )
 
     print(f"  Detected language: {info.language} (prob: {info.language_probability:.3f})")
@@ -73,8 +95,12 @@ def transcribe_file(model, audio_path, output_dir):
     all_segments = []
     all_words = []
     full_text_lines = []
+    skipped_hallucinations = 0
 
     for seg in segments:
+        if _is_hallucination(seg):
+            skipped_hallucinations += 1
+            continue
         seg_data = {
             "id": seg.id,
             "start": round(seg.start, 3),
@@ -107,6 +133,9 @@ def transcribe_file(model, audio_path, output_dir):
         line = f"[{fmt_ts(seg.start)} -> {fmt_ts(seg.end)}] {seg.text.strip()}{confidence_flag}"
         full_text_lines.append(line)
         print(f"  {line}")
+
+    if skipped_hallucinations > 0:
+        print(f"  [filtered] {skipped_hallucinations} hallucinated segment(s) removed")
 
     # Save JSON with all data
     json_out = {
