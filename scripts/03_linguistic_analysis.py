@@ -162,7 +162,11 @@ HALLUCINATION_PATTERNS = [
     re.compile(r"a lady and her husband", re.IGNORECASE),
     re.compile(r"she asks a man if he can", re.IGNORECASE),
     re.compile(r"hesitations,?\s*false starts", re.IGNORECASE),
-    re.compile(r"सब्सक्राइब\s*(करें|करना|कर)", re.IGNORECASE),
+    re.compile(r"do not correct grammar", re.IGNORECASE),
+    re.compile(r"hindi.*bengali.*code.?switch", re.IGNORECASE),
+    re.compile(r"^सब्सक्राइब[\s,\.]*$"),
+    re.compile(r"^सब्सक्राइब\s+सब्सक्राइब"),
+    re.compile(r"सब्सक्राइब\s*(करें|करना|कर)"),
 ]
 
 
@@ -465,13 +469,13 @@ def generate_cross_speaker_summary(all_analyses, analysis_dir):
         }
         summary["speakers"].append(speaker_row)
 
-        for key in summary["totals"]:
-            if key in s:
-                summary["totals"][key] += s[key]
-            elif key == "past_tense_verbs":
-                summary["totals"][key] += s.get("past_tense_verbs_found", 0)
-            elif key == "adjective_noun_pairs":
-                summary["totals"][key] += s.get("adjective_noun_pairs_found", 0)
+        summary["totals"]["total_words"] += s.get("total_words", 0)
+        summary["totals"]["total_duration_s"] += s.get("duration_s", 0)
+        summary["totals"]["candidate_bengali_words"] += s.get("candidate_bengali_words", 0)
+        summary["totals"]["candidate_switch_points"] += s.get("candidate_switch_points", 0)
+        summary["totals"]["past_tense_verbs"] += s.get("past_tense_verbs_found", 0)
+        summary["totals"]["adjective_noun_pairs"] += s.get("adjective_noun_pairs_found", 0)
+        summary["totals"]["ne_occurrences"] += s.get("ne_occurrences", 0)
 
     summary["totals"]["agreement_sites_total"] = (
         summary["totals"]["past_tense_verbs"]

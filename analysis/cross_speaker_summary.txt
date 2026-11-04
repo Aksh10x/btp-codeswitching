@@ -17,13 +17,13 @@ S6           305s    357       26     7.3%         4     16     1    0          
 S7           330s    451       34     7.5%         4     16     1    0          17
 S8           216s    278        1     0.4%         2     11     0    0          11
 ----------------------------------------------------------------------------------
-TOTAL          0s   2967      188                 20    165    18    0         183
+TOTAL       2568s   2967      188                 20    165    18    0         183
 
 
 DATA SUFFICIENCY ASSESSMENT
 ----------------------------------------
   Speakers: 9
-  Total speech: 0.0 minutes
+  Total speech: 42.8 minutes
   Total words: 2967
   Agreement sites: 183
   Bengali candidate words: 188
