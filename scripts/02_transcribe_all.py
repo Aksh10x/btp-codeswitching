@@ -45,7 +45,9 @@ HALLUCINATION_PATTERNS = [
     re.compile(r"hesitations,?\s*false starts", re.IGNORECASE),
     re.compile(r"do not correct grammar", re.IGNORECASE),
     re.compile(r"hindi.*bengali.*code.?switch", re.IGNORECASE),
-    re.compile(r"सब्सक्राइब\s*(करें|करना|कर)", re.IGNORECASE),
+    re.compile(r"^सब्सक्राइब[\s,\.]*$"),
+    re.compile(r"^सब्सक्राइब\s+सब्सक्राइब"),
+    re.compile(r"सब्सक्राइब\s*(करें|करना|कर)"),
 ]
 
 
@@ -216,14 +218,32 @@ def main():
     print("Model loaded.")
 
     results = []
+    skipped = 0
     for wav in wav_files:
         # Skip the preamble file
         if "preamble" in wav.stem.lower():
             print(f"\n[skip] {wav.name} (preamble/setup clip)")
             continue
 
+        # Resume mode: skip if transcript JSON already exists
+        existing_json = os.path.join(output_dir, f"{wav.stem}_transcript.json")
+        if os.path.exists(existing_json):
+            try:
+                with open(existing_json, "r", encoding="utf-8") as f:
+                    existing = json.load(f)
+                if existing.get("segments"):
+                    print(f"\n[resume] {wav.stem} already transcribed ({existing['total_segments']} segments), skipping")
+                    results.append(existing)
+                    skipped += 1
+                    continue
+            except (json.JSONDecodeError, KeyError):
+                pass
+
         result = transcribe_file(model, str(wav), output_dir)
         results.append(result)
+
+    if skipped:
+        print(f"\n  Resumed: skipped {skipped} already-transcribed file(s)")
 
     # Summary
     summary_path = os.path.join(output_dir, "transcription_summary.json")
