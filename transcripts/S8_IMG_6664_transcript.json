@@ -1,0 +1,1813 @@
+{
+  "file": "S8_IMG_6664",
+  "speaker_code": "S8",
+  "source_audio": "BTPVIDS/extracted_audio/S8_IMG_6664.wav",
+  "whisper_model": "large-v3",
+  "detected_language": "hi",
+  "language_probability": 1,
+  "duration_s": 216.4,
+  "WARNING": "This is an UNVERIFIED machine transcript. Whisper silently corrects agreement errors (e.g. 'kitab gira' -> 'kitab giri') and converts Bengali words to similar-sounding Hindi. Every segment MUST be checked against the audio by a human listener before use in analysis.",
+  "total_segments": 13,
+  "total_words": 278,
+  "complete": true,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.54,
+      "end": 14.68,
+      "text": "कि यह क्या है यह दरवाजा है यह चेयर है यह फैम है पुन पास है यह एक किताब है यह घर है इसमें खिलकी है पानी",
+      "avg_logprob": -0.257,
+      "no_speech_prob": 0.1463,
+      "words": [
+        {
+          "word": "कि",
+          "start": 0.54,
+          "end": 0.68,
+          "probability": 0.6008
+        },
+        {
+          "word": "यह",
+          "start": 0.68,
+          "end": 1.0,
+          "probability": 0.7775
+        },
+        {
+          "word": "क्या",
+          "start": 1.0,
+          "end": 1.22,
+          "probability": 0.8804
+        },
+        {
+          "word": "है",
+          "start": 1.22,
+          "end": 1.4,
+          "probability": 0.842
+        },
+        {
+          "word": "यह",
+          "start": 1.4,
+          "end": 2.06,
+          "probability": 0.7167
+        },
+        {
+          "word": "दरवाजा",
+          "start": 2.06,
+          "end": 2.52,
+          "probability": 0.8416
+        },
+        {
+          "word": "है",
+          "start": 2.52,
+          "end": 2.76,
+          "probability": 0.7738
+        },
+        {
+          "word": "यह",
+          "start": 2.76,
+          "end": 3.3,
+          "probability": 0.747
+        },
+        {
+          "word": "चेयर",
+          "start": 3.7,
+          "end": 4.28,
+          "probability": 0.5644
+        },
+        {
+          "word": "है",
+          "start": 4.28,
+          "end": 4.68,
+          "probability": 0.706
+        },
+        {
+          "word": "यह",
+          "start": 5.14,
+          "end": 5.62,
+          "probability": 0.6914
+        },
+        {
+          "word": "फैम",
+          "start": 5.62,
+          "end": 6.0,
+          "probability": 0.5303
+        },
+        {
+          "word": "है",
+          "start": 6.0,
+          "end": 6.28,
+          "probability": 0.7423
+        },
+        {
+          "word": "पुन",
+          "start": 6.28,
+          "end": 6.78,
+          "probability": 0.5462
+        },
+        {
+          "word": "पास",
+          "start": 6.78,
+          "end": 7.1,
+          "probability": 0.8434
+        },
+        {
+          "word": "है",
+          "start": 7.1,
+          "end": 7.28,
+          "probability": 0.5472
+        },
+        {
+          "word": "यह",
+          "start": 7.28,
+          "end": 8.18,
+          "probability": 0.9403
+        },
+        {
+          "word": "एक",
+          "start": 8.32,
+          "end": 8.84,
+          "probability": 0.7001
+        },
+        {
+          "word": "किताब",
+          "start": 8.84,
+          "end": 9.22,
+          "probability": 0.9125
+        },
+        {
+          "word": "है",
+          "start": 9.22,
+          "end": 9.48,
+          "probability": 0.8987
+        },
+        {
+          "word": "यह",
+          "start": 9.98,
+          "end": 11.18,
+          "probability": 0.8453
+        },
+        {
+          "word": "घर",
+          "start": 11.18,
+          "end": 11.64,
+          "probability": 0.8483
+        },
+        {
+          "word": "है",
+          "start": 11.64,
+          "end": 11.82,
+          "probability": 0.9684
+        },
+        {
+          "word": "इसमें",
+          "start": 12.54,
+          "end": 13.4,
+          "probability": 0.7726
+        },
+        {
+          "word": "खिलकी",
+          "start": 13.4,
+          "end": 13.78,
+          "probability": 0.6873
+        },
+        {
+          "word": "है",
+          "start": 13.78,
+          "end": 13.98,
+          "probability": 0.6976
+        },
+        {
+          "word": "पानी",
+          "start": 13.98,
+          "end": 14.68,
+          "probability": 0.9627
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 15.53,
+      "end": 29.9,
+      "text": "का ग्लास है रोटी है खाना है कार्ड है और हाथ है पाचोंडी चावी है अब दिए इन दोनों फोटो में क्या फर्क है",
+      "avg_logprob": -0.257,
+      "no_speech_prob": 0.1463,
+      "words": [
+        {
+          "word": "का",
+          "start": 15.53,
+          "end": 15.75,
+          "probability": 0.9912
+        },
+        {
+          "word": "ग्लास",
+          "start": 15.75,
+          "end": 15.99,
+          "probability": 0.9289
+        },
+        {
+          "word": "है",
+          "start": 15.99,
+          "end": 16.27,
+          "probability": 0.8177
+        },
+        {
+          "word": "रोटी",
+          "start": 16.27,
+          "end": 17.15,
+          "probability": 0.9284
+        },
+        {
+          "word": "है",
+          "start": 17.42,
+          "end": 17.68,
+          "probability": 0.9627
+        },
+        {
+          "word": "खाना",
+          "start": 18.3,
+          "end": 19.72,
+          "probability": 0.8089
+        },
+        {
+          "word": "है",
+          "start": 19.72,
+          "end": 19.94,
+          "probability": 0.9681
+        },
+        {
+          "word": "कार्ड",
+          "start": 19.94,
+          "end": 20.8,
+          "probability": 0.8423
+        },
+        {
+          "word": "है",
+          "start": 21.52,
+          "end": 21.74,
+          "probability": 0.967
+        },
+        {
+          "word": "और",
+          "start": 21.74,
+          "end": 22.12,
+          "probability": 0.774
+        },
+        {
+          "word": "हाथ",
+          "start": 23.32,
+          "end": 23.68,
+          "probability": 0.9775
+        },
+        {
+          "word": "है",
+          "start": 23.68,
+          "end": 23.98,
+          "probability": 0.8056
+        },
+        {
+          "word": "पाचोंडी",
+          "start": 23.98,
+          "end": 25.36,
+          "probability": 0.7183
+        },
+        {
+          "word": "चावी",
+          "start": 25.36,
+          "end": 25.86,
+          "probability": 0.8674
+        },
+        {
+          "word": "है",
+          "start": 25.86,
+          "end": 26.12,
+          "probability": 0.925
+        },
+        {
+          "word": "अब",
+          "start": 26.12,
+          "end": 26.96,
+          "probability": 0.7652
+        },
+        {
+          "word": "दिए",
+          "start": 27.56,
+          "end": 27.98,
+          "probability": 0.559
+        },
+        {
+          "word": "इन",
+          "start": 27.98,
+          "end": 28.24,
+          "probability": 0.9279
+        },
+        {
+          "word": "दोनों",
+          "start": 28.24,
+          "end": 28.52,
+          "probability": 0.9982
+        },
+        {
+          "word": "फोटो",
+          "start": 28.52,
+          "end": 28.86,
+          "probability": 0.9868
+        },
+        {
+          "word": "में",
+          "start": 28.86,
+          "end": 29.08,
+          "probability": 0.9355
+        },
+        {
+          "word": "क्या",
+          "start": 29.08,
+          "end": 29.26,
+          "probability": 0.9947
+        },
+        {
+          "word": "फर्क",
+          "start": 29.26,
+          "end": 29.62,
+          "probability": 0.9295
+        },
+        {
+          "word": "है",
+          "start": 29.62,
+          "end": 29.9,
+          "probability": 0.9846
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 85.23,
+      "end": 87.59,
+      "text": "आपका जन्म भी",
+      "avg_logprob": -0.7211,
+      "no_speech_prob": 0.2131,
+      "words": [
+        {
+          "word": "आपका",
+          "start": 85.23,
+          "end": 86.63,
+          "probability": 0.6917
+        },
+        {
+          "word": "जन्म",
+          "start": 86.63,
+          "end": 86.89,
+          "probability": 0.8232
+        },
+        {
+          "word": "भी",
+          "start": 86.89,
+          "end": 87.59,
+          "probability": 0.9117
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 93.09,
+      "end": 114.63,
+      "text": "सब्सक्राइब और और कोई भाषा आती है हिंदी आता है थोड़ा थोड़ा थोड़ा थोड़ा सुनकर क्योंकि हम लोगों का",
+      "avg_logprob": -0.2259,
+      "no_speech_prob": 0.7633,
+      "words": [
+        {
+          "word": "सब्सक्राइब",
+          "start": 93.09,
+          "end": 94.13,
+          "probability": 0.8748
+        },
+        {
+          "word": "और",
+          "start": 94.13,
+          "end": 95.17,
+          "probability": 0.5685
+        },
+        {
+          "word": "और",
+          "start": 95.41,
+          "end": 95.65,
+          "probability": 0.7093
+        },
+        {
+          "word": "कोई",
+          "start": 95.65,
+          "end": 95.73,
+          "probability": 0.5616
+        },
+        {
+          "word": "भाषा",
+          "start": 95.73,
+          "end": 95.95,
+          "probability": 0.9595
+        },
+        {
+          "word": "आती",
+          "start": 95.95,
+          "end": 96.21,
+          "probability": 0.6639
+        },
+        {
+          "word": "है",
+          "start": 96.21,
+          "end": 96.51,
+          "probability": 0.9383
+        },
+        {
+          "word": "हिंदी",
+          "start": 96.51,
+          "end": 97.17,
+          "probability": 0.7935
+        },
+        {
+          "word": "आता",
+          "start": 97.17,
+          "end": 97.45,
+          "probability": 0.7699
+        },
+        {
+          "word": "है",
+          "start": 97.45,
+          "end": 98.13,
+          "probability": 0.961
+        },
+        {
+          "word": "थोड़ा",
+          "start": 98.13,
+          "end": 98.93,
+          "probability": 0.9756
+        },
+        {
+          "word": "थोड़ा",
+          "start": 98.93,
+          "end": 99.45,
+          "probability": 0.8636
+        },
+        {
+          "word": "थोड़ा",
+          "start": 99.45,
+          "end": 100.71,
+          "probability": 0.8495
+        },
+        {
+          "word": "थोड़ा",
+          "start": 100.71,
+          "end": 102.65,
+          "probability": 0.8795
+        },
+        {
+          "word": "सुनकर",
+          "start": 102.65,
+          "end": 113.41,
+          "probability": 0.8488
+        },
+        {
+          "word": "क्योंकि",
+          "start": 113.41,
+          "end": 113.73,
+          "probability": 0.9691
+        },
+        {
+          "word": "हम",
+          "start": 113.73,
+          "end": 113.91,
+          "probability": 0.9891
+        },
+        {
+          "word": "लोगों",
+          "start": 113.91,
+          "end": 114.11,
+          "probability": 0.8786
+        },
+        {
+          "word": "का",
+          "start": 114.11,
+          "end": 114.63,
+          "probability": 0.8959
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 124.03,
+      "end": 131.43,
+      "text": "आप दिन में कितना टाइम हिंदी यूज करते हो जब तक मैं यह काम पर रही तब तक हिंदी और एक स्टूडेंट को पढ़ाती",
+      "avg_logprob": -0.2044,
+      "no_speech_prob": 0.3585,
+      "words": [
+        {
+          "word": "आप",
+          "start": 124.03,
+          "end": 124.59,
+          "probability": 0.6379
+        },
+        {
+          "word": "दिन",
+          "start": 124.59,
+          "end": 125.15,
+          "probability": 0.8562
+        },
+        {
+          "word": "में",
+          "start": 125.15,
+          "end": 125.33,
+          "probability": 0.9651
+        },
+        {
+          "word": "कितना",
+          "start": 125.33,
+          "end": 125.65,
+          "probability": 0.9809
+        },
+        {
+          "word": "टाइम",
+          "start": 125.65,
+          "end": 125.91,
+          "probability": 0.8957
+        },
+        {
+          "word": "हिंदी",
+          "start": 125.91,
+          "end": 126.17,
+          "probability": 0.8252
+        },
+        {
+          "word": "यूज",
+          "start": 126.17,
+          "end": 126.47,
+          "probability": 0.9141
+        },
+        {
+          "word": "करते",
+          "start": 126.47,
+          "end": 126.91,
+          "probability": 0.9608
+        },
+        {
+          "word": "हो",
+          "start": 126.91,
+          "end": 127.11,
+          "probability": 0.8703
+        },
+        {
+          "word": "जब",
+          "start": 127.11,
+          "end": 127.91,
+          "probability": 0.7737
+        },
+        {
+          "word": "तक",
+          "start": 127.91,
+          "end": 128.19,
+          "probability": 0.9908
+        },
+        {
+          "word": "मैं",
+          "start": 128.19,
+          "end": 128.41,
+          "probability": 0.7769
+        },
+        {
+          "word": "यह",
+          "start": 128.41,
+          "end": 128.63,
+          "probability": 0.8703
+        },
+        {
+          "word": "काम",
+          "start": 128.63,
+          "end": 128.95,
+          "probability": 0.8072
+        },
+        {
+          "word": "पर",
+          "start": 128.95,
+          "end": 129.13,
+          "probability": 0.9214
+        },
+        {
+          "word": "रही",
+          "start": 129.13,
+          "end": 129.31,
+          "probability": 0.6635
+        },
+        {
+          "word": "तब",
+          "start": 129.31,
+          "end": 129.65,
+          "probability": 0.8098
+        },
+        {
+          "word": "तक",
+          "start": 129.65,
+          "end": 129.83,
+          "probability": 0.9874
+        },
+        {
+          "word": "हिंदी",
+          "start": 129.83,
+          "end": 130.11,
+          "probability": 0.957
+        },
+        {
+          "word": "और",
+          "start": 130.11,
+          "end": 130.39,
+          "probability": 0.9843
+        },
+        {
+          "word": "एक",
+          "start": 130.39,
+          "end": 130.53,
+          "probability": 0.8916
+        },
+        {
+          "word": "स्टूडेंट",
+          "start": 130.53,
+          "end": 130.89,
+          "probability": 0.9177
+        },
+        {
+          "word": "को",
+          "start": 130.89,
+          "end": 131.07,
+          "probability": 0.9871
+        },
+        {
+          "word": "पढ़ाती",
+          "start": 131.07,
+          "end": 131.43,
+          "probability": 0.9396
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 131.43,
+      "end": 139.27,
+      "text": "हूं थोड़ा हिंदी यूज करते हैं और यहां पर क्या जॉब रोल क्या रोल इधर ऑफिस पर्पर्स कुछ भी काम होता है",
+      "avg_logprob": -0.2044,
+      "no_speech_prob": 0.3585,
+      "words": [
+        {
+          "word": "हूं",
+          "start": 131.43,
+          "end": 131.65,
+          "probability": 0.9044
+        },
+        {
+          "word": "थोड़ा",
+          "start": 131.65,
+          "end": 132.13,
+          "probability": 0.9324
+        },
+        {
+          "word": "हिंदी",
+          "start": 132.13,
+          "end": 132.69,
+          "probability": 0.7873
+        },
+        {
+          "word": "यूज",
+          "start": 132.69,
+          "end": 133.69,
+          "probability": 0.8352
+        },
+        {
+          "word": "करते",
+          "start": 133.69,
+          "end": 134.21,
+          "probability": 0.8824
+        },
+        {
+          "word": "हैं",
+          "start": 134.21,
+          "end": 134.31,
+          "probability": 0.8331
+        },
+        {
+          "word": "और",
+          "start": 134.31,
+          "end": 134.83,
+          "probability": 0.8081
+        },
+        {
+          "word": "यहां",
+          "start": 134.83,
+          "end": 135.11,
+          "probability": 0.9767
+        },
+        {
+          "word": "पर",
+          "start": 135.11,
+          "end": 135.25,
+          "probability": 0.9959
+        },
+        {
+          "word": "क्या",
+          "start": 135.25,
+          "end": 135.39,
+          "probability": 0.9813
+        },
+        {
+          "word": "जॉब",
+          "start": 135.39,
+          "end": 135.91,
+          "probability": 0.9237
+        },
+        {
+          "word": "रोल",
+          "start": 135.91,
+          "end": 136.53,
+          "probability": 0.5748
+        },
+        {
+          "word": "क्या",
+          "start": 136.53,
+          "end": 136.71,
+          "probability": 0.7922
+        },
+        {
+          "word": "रोल",
+          "start": 136.71,
+          "end": 137.37,
+          "probability": 0.6927
+        },
+        {
+          "word": "इधर",
+          "start": 137.37,
+          "end": 137.53,
+          "probability": 0.7686
+        },
+        {
+          "word": "ऑफिस",
+          "start": 137.53,
+          "end": 137.85,
+          "probability": 0.9544
+        },
+        {
+          "word": "पर्पर्स",
+          "start": 137.85,
+          "end": 138.27,
+          "probability": 0.7615
+        },
+        {
+          "word": "कुछ",
+          "start": 138.27,
+          "end": 138.53,
+          "probability": 0.7667
+        },
+        {
+          "word": "भी",
+          "start": 138.53,
+          "end": 138.61,
+          "probability": 0.832
+        },
+        {
+          "word": "काम",
+          "start": 138.61,
+          "end": 138.91,
+          "probability": 0.9708
+        },
+        {
+          "word": "होता",
+          "start": 138.91,
+          "end": 139.13,
+          "probability": 0.9837
+        },
+        {
+          "word": "है",
+          "start": 139.13,
+          "end": 139.27,
+          "probability": 0.9863
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 139.27,
+      "end": 149.05,
+      "text": "सब देखना पड़ता है मैं स्ट्रीन का कुछ प्रॉब्लेंट कंप्लेंट नहीं सब और कुछ नहीं बनाती हूं मेरा हस्बेन भी",
+      "avg_logprob": -0.3042,
+      "no_speech_prob": 0.0701,
+      "words": [
+        {
+          "word": "सब",
+          "start": 139.27,
+          "end": 139.39,
+          "probability": 0.6747
+        },
+        {
+          "word": "देखना",
+          "start": 139.39,
+          "end": 140.47,
+          "probability": 0.9233
+        },
+        {
+          "word": "पड़ता",
+          "start": 140.47,
+          "end": 140.79,
+          "probability": 0.9389
+        },
+        {
+          "word": "है",
+          "start": 140.79,
+          "end": 140.81,
+          "probability": 0.986
+        },
+        {
+          "word": "मैं",
+          "start": 140.81,
+          "end": 141.35,
+          "probability": 0.6389
+        },
+        {
+          "word": "स्ट्रीन",
+          "start": 141.35,
+          "end": 141.67,
+          "probability": 0.5686
+        },
+        {
+          "word": "का",
+          "start": 141.67,
+          "end": 141.91,
+          "probability": 0.823
+        },
+        {
+          "word": "कुछ",
+          "start": 141.91,
+          "end": 142.03,
+          "probability": 0.9889
+        },
+        {
+          "word": "प्रॉब्लेंट",
+          "start": 142.03,
+          "end": 142.99,
+          "probability": 0.9292
+        },
+        {
+          "word": "कंप्लेंट",
+          "start": 142.99,
+          "end": 143.51,
+          "probability": 0.8586
+        },
+        {
+          "word": "नहीं",
+          "start": 143.51,
+          "end": 143.73,
+          "probability": 0.6331
+        },
+        {
+          "word": "सब",
+          "start": 143.73,
+          "end": 143.95,
+          "probability": 0.6962
+        },
+        {
+          "word": "और",
+          "start": 143.95,
+          "end": 144.55,
+          "probability": 0.6105
+        },
+        {
+          "word": "कुछ",
+          "start": 144.55,
+          "end": 144.77,
+          "probability": 0.8885
+        },
+        {
+          "word": "नहीं",
+          "start": 144.77,
+          "end": 145.03,
+          "probability": 0.8026
+        },
+        {
+          "word": "बनाती",
+          "start": 145.03,
+          "end": 148.15,
+          "probability": 0.7483
+        },
+        {
+          "word": "हूं",
+          "start": 148.15,
+          "end": 148.37,
+          "probability": 0.7234
+        },
+        {
+          "word": "मेरा",
+          "start": 148.37,
+          "end": 148.53,
+          "probability": 0.8867
+        },
+        {
+          "word": "हस्बेन",
+          "start": 148.53,
+          "end": 148.89,
+          "probability": 0.7897
+        },
+        {
+          "word": "भी",
+          "start": 148.89,
+          "end": 149.05,
+          "probability": 0.8568
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 149.05,
+      "end": 157.59,
+      "text": "बनाता है इस बार द्यूटी में आ जाती है तो तब अपने बनाता है और क्या-क्या बनाते हो घर में जैसे डाल चावल",
+      "avg_logprob": -0.3042,
+      "no_speech_prob": 0.0701,
+      "words": [
+        {
+          "word": "बनाता",
+          "start": 149.05,
+          "end": 149.39,
+          "probability": 0.9668
+        },
+        {
+          "word": "है",
+          "start": 149.39,
+          "end": 149.63,
+          "probability": 0.9787
+        },
+        {
+          "word": "इस",
+          "start": 149.63,
+          "end": 151.19,
+          "probability": 0.4466
+        },
+        {
+          "word": "बार",
+          "start": 151.19,
+          "end": 151.69,
+          "probability": 0.42
+        },
+        {
+          "word": "द्यूटी",
+          "start": 151.69,
+          "end": 152.05,
+          "probability": 0.7516
+        },
+        {
+          "word": "में",
+          "start": 152.05,
+          "end": 152.39,
+          "probability": 0.9728
+        },
+        {
+          "word": "आ",
+          "start": 152.39,
+          "end": 152.61,
+          "probability": 0.8285
+        },
+        {
+          "word": "जाती",
+          "start": 152.61,
+          "end": 152.87,
+          "probability": 0.905
+        },
+        {
+          "word": "है",
+          "start": 152.87,
+          "end": 153.03,
+          "probability": 0.7581
+        },
+        {
+          "word": "तो",
+          "start": 153.03,
+          "end": 153.09,
+          "probability": 0.5995
+        },
+        {
+          "word": "तब",
+          "start": 153.09,
+          "end": 153.37,
+          "probability": 0.8126
+        },
+        {
+          "word": "अपने",
+          "start": 153.37,
+          "end": 153.71,
+          "probability": 0.5949
+        },
+        {
+          "word": "बनाता",
+          "start": 153.71,
+          "end": 154.05,
+          "probability": 0.7898
+        },
+        {
+          "word": "है",
+          "start": 154.05,
+          "end": 154.21,
+          "probability": 0.8399
+        },
+        {
+          "word": "और",
+          "start": 154.21,
+          "end": 154.41,
+          "probability": 0.8551
+        },
+        {
+          "word": "क्या",
+          "start": 154.41,
+          "end": 154.61,
+          "probability": 0.9239
+        },
+        {
+          "word": "-क्या",
+          "start": 154.61,
+          "end": 154.83,
+          "probability": 0.9114
+        },
+        {
+          "word": "बनाते",
+          "start": 154.83,
+          "end": 155.25,
+          "probability": 0.9656
+        },
+        {
+          "word": "हो",
+          "start": 155.25,
+          "end": 155.41,
+          "probability": 0.7668
+        },
+        {
+          "word": "घर",
+          "start": 155.41,
+          "end": 155.55,
+          "probability": 0.8338
+        },
+        {
+          "word": "में",
+          "start": 155.55,
+          "end": 155.79,
+          "probability": 0.7244
+        },
+        {
+          "word": "जैसे",
+          "start": 155.79,
+          "end": 156.31,
+          "probability": 0.8034
+        },
+        {
+          "word": "डाल",
+          "start": 156.31,
+          "end": 156.89,
+          "probability": 0.8692
+        },
+        {
+          "word": "चावल",
+          "start": 156.89,
+          "end": 157.59,
+          "probability": 0.9556
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 157.59,
+      "end": 166.65,
+      "text": "मचली ज्यादा तक हम लोग का नॉनवेज होता है और हेच कम होता है और आप अपना रूटीन बताओगी मुझे सुबह से",
+      "avg_logprob": -0.1434,
+      "no_speech_prob": 0.188,
+      "words": [
+        {
+          "word": "मचली",
+          "start": 157.59,
+          "end": 157.93,
+          "probability": 0.6348
+        },
+        {
+          "word": "ज्यादा",
+          "start": 157.93,
+          "end": 158.73,
+          "probability": 0.8934
+        },
+        {
+          "word": "तक",
+          "start": 158.73,
+          "end": 158.95,
+          "probability": 0.9065
+        },
+        {
+          "word": "हम",
+          "start": 158.95,
+          "end": 159.41,
+          "probability": 0.8879
+        },
+        {
+          "word": "लोग",
+          "start": 159.41,
+          "end": 159.63,
+          "probability": 0.9434
+        },
+        {
+          "word": "का",
+          "start": 159.63,
+          "end": 159.77,
+          "probability": 0.5541
+        },
+        {
+          "word": "नॉनवेज",
+          "start": 159.77,
+          "end": 160.11,
+          "probability": 0.7621
+        },
+        {
+          "word": "होता",
+          "start": 160.11,
+          "end": 160.39,
+          "probability": 0.9801
+        },
+        {
+          "word": "है",
+          "start": 160.39,
+          "end": 160.61,
+          "probability": 0.9972
+        },
+        {
+          "word": "और",
+          "start": 160.61,
+          "end": 161.17,
+          "probability": 0.548
+        },
+        {
+          "word": "हेच",
+          "start": 161.17,
+          "end": 161.41,
+          "probability": 0.6819
+        },
+        {
+          "word": "कम",
+          "start": 161.41,
+          "end": 161.67,
+          "probability": 0.9388
+        },
+        {
+          "word": "होता",
+          "start": 161.67,
+          "end": 161.93,
+          "probability": 0.9827
+        },
+        {
+          "word": "है",
+          "start": 161.93,
+          "end": 162.17,
+          "probability": 0.959
+        },
+        {
+          "word": "और",
+          "start": 162.17,
+          "end": 163.57,
+          "probability": 0.773
+        },
+        {
+          "word": "आप",
+          "start": 163.57,
+          "end": 164.39,
+          "probability": 0.9893
+        },
+        {
+          "word": "अपना",
+          "start": 164.39,
+          "end": 164.75,
+          "probability": 0.9976
+        },
+        {
+          "word": "रूटीन",
+          "start": 164.75,
+          "end": 165.19,
+          "probability": 0.9571
+        },
+        {
+          "word": "बताओगी",
+          "start": 165.19,
+          "end": 165.75,
+          "probability": 0.959
+        },
+        {
+          "word": "मुझे",
+          "start": 165.75,
+          "end": 165.95,
+          "probability": 0.9331
+        },
+        {
+          "word": "सुबह",
+          "start": 165.95,
+          "end": 166.37,
+          "probability": 0.9793
+        },
+        {
+          "word": "से",
+          "start": 166.37,
+          "end": 166.65,
+          "probability": 0.9935
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 166.65,
+      "end": 174.33,
+      "text": "लेकर अभी तक आपने क्या किया मतलब सुबह से उठने से सुबह उठने से चालू होता है कपड़ा दोना बर्तन पोछा जारू",
+      "avg_logprob": -0.1434,
+      "no_speech_prob": 0.188,
+      "words": [
+        {
+          "word": "लेकर",
+          "start": 166.65,
+          "end": 166.85,
+          "probability": 0.8308
+        },
+        {
+          "word": "अभी",
+          "start": 166.85,
+          "end": 167.01,
+          "probability": 0.9538
+        },
+        {
+          "word": "तक",
+          "start": 167.01,
+          "end": 167.21,
+          "probability": 0.9912
+        },
+        {
+          "word": "आपने",
+          "start": 167.21,
+          "end": 167.47,
+          "probability": 0.9889
+        },
+        {
+          "word": "क्या",
+          "start": 167.47,
+          "end": 167.73,
+          "probability": 0.9958
+        },
+        {
+          "word": "किया",
+          "start": 167.73,
+          "end": 167.99,
+          "probability": 0.9934
+        },
+        {
+          "word": "मतलब",
+          "start": 167.99,
+          "end": 168.25,
+          "probability": 0.9314
+        },
+        {
+          "word": "सुबह",
+          "start": 168.25,
+          "end": 168.47,
+          "probability": 0.9835
+        },
+        {
+          "word": "से",
+          "start": 168.47,
+          "end": 168.63,
+          "probability": 0.9852
+        },
+        {
+          "word": "उठने",
+          "start": 168.63,
+          "end": 168.91,
+          "probability": 0.9441
+        },
+        {
+          "word": "से",
+          "start": 168.91,
+          "end": 169.15,
+          "probability": 0.9777
+        },
+        {
+          "word": "सुबह",
+          "start": 169.15,
+          "end": 169.93,
+          "probability": 0.8171
+        },
+        {
+          "word": "उठने",
+          "start": 169.93,
+          "end": 170.29,
+          "probability": 0.9597
+        },
+        {
+          "word": "से",
+          "start": 170.29,
+          "end": 170.49,
+          "probability": 0.9984
+        },
+        {
+          "word": "चालू",
+          "start": 170.49,
+          "end": 170.83,
+          "probability": 0.9493
+        },
+        {
+          "word": "होता",
+          "start": 170.83,
+          "end": 170.99,
+          "probability": 0.9925
+        },
+        {
+          "word": "है",
+          "start": 170.99,
+          "end": 171.09,
+          "probability": 0.9923
+        },
+        {
+          "word": "कपड़ा",
+          "start": 171.09,
+          "end": 171.49,
+          "probability": 0.9173
+        },
+        {
+          "word": "दोना",
+          "start": 171.49,
+          "end": 171.97,
+          "probability": 0.8623
+        },
+        {
+          "word": "बर्तन",
+          "start": 171.97,
+          "end": 172.61,
+          "probability": 0.8822
+        },
+        {
+          "word": "पोछा",
+          "start": 172.61,
+          "end": 173.53,
+          "probability": 0.7348
+        },
+        {
+          "word": "जारू",
+          "start": 173.53,
+          "end": 174.33,
+          "probability": 0.8011
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 174.33,
+      "end": 184.59,
+      "text": "घर का सब काम एक अनुख पूजा मेरा सबसे इंपोर्टेंट काम है पूजा पूजा करना बच्चे का बाल बान फिस्फुल छोड़ना घर का",
+      "avg_logprob": -0.2155,
+      "no_speech_prob": 0.1877,
+      "words": [
+        {
+          "word": "घर",
+          "start": 174.33,
+          "end": 174.91,
+          "probability": 0.5481
+        },
+        {
+          "word": "का",
+          "start": 174.91,
+          "end": 175.21,
+          "probability": 0.8765
+        },
+        {
+          "word": "सब",
+          "start": 175.21,
+          "end": 175.57,
+          "probability": 0.9509
+        },
+        {
+          "word": "काम",
+          "start": 175.57,
+          "end": 176.05,
+          "probability": 0.9636
+        },
+        {
+          "word": "एक",
+          "start": 176.05,
+          "end": 176.83,
+          "probability": 0.5856
+        },
+        {
+          "word": "अनुख",
+          "start": 176.83,
+          "end": 177.07,
+          "probability": 0.5964
+        },
+        {
+          "word": "पूजा",
+          "start": 177.07,
+          "end": 177.43,
+          "probability": 0.89
+        },
+        {
+          "word": "मेरा",
+          "start": 177.43,
+          "end": 177.75,
+          "probability": 0.9613
+        },
+        {
+          "word": "सबसे",
+          "start": 177.75,
+          "end": 178.03,
+          "probability": 0.9831
+        },
+        {
+          "word": "इंपोर्टेंट",
+          "start": 178.03,
+          "end": 178.55,
+          "probability": 0.9471
+        },
+        {
+          "word": "काम",
+          "start": 178.55,
+          "end": 178.75,
+          "probability": 0.798
+        },
+        {
+          "word": "है",
+          "start": 178.75,
+          "end": 178.91,
+          "probability": 0.5868
+        },
+        {
+          "word": "पूजा",
+          "start": 178.91,
+          "end": 179.39,
+          "probability": 0.9818
+        },
+        {
+          "word": "पूजा",
+          "start": 179.39,
+          "end": 180.53,
+          "probability": 0.8873
+        },
+        {
+          "word": "करना",
+          "start": 180.53,
+          "end": 181.05,
+          "probability": 0.9969
+        },
+        {
+          "word": "बच्चे",
+          "start": 181.05,
+          "end": 181.41,
+          "probability": 0.9508
+        },
+        {
+          "word": "का",
+          "start": 181.41,
+          "end": 181.77,
+          "probability": 0.975
+        },
+        {
+          "word": "बाल",
+          "start": 181.77,
+          "end": 182.19,
+          "probability": 0.9601
+        },
+        {
+          "word": "बान",
+          "start": 182.19,
+          "end": 182.45,
+          "probability": 0.6881
+        },
+        {
+          "word": "फिस्फुल",
+          "start": 182.45,
+          "end": 182.95,
+          "probability": 0.6136
+        },
+        {
+          "word": "छोड़ना",
+          "start": 182.95,
+          "end": 183.51,
+          "probability": 0.9748
+        },
+        {
+          "word": "घर",
+          "start": 183.51,
+          "end": 184.39,
+          "probability": 0.8091
+        },
+        {
+          "word": "का",
+          "start": 184.39,
+          "end": 184.59,
+          "probability": 0.9917
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 184.59,
+      "end": 194.95,
+      "text": "खाना जब मेरे सेकंड में ड्यूटी रहता है तो तब उसका खाना आना तैयारी करके सब लोग आते हैं यह भी जाकर घर",
+      "avg_logprob": -0.2155,
+      "no_speech_prob": 0.1877,
+      "words": [
+        {
+          "word": "खाना",
+          "start": 184.59,
+          "end": 184.89,
+          "probability": 0.9901
+        },
+        {
+          "word": "जब",
+          "start": 184.89,
+          "end": 185.05,
+          "probability": 0.9516
+        },
+        {
+          "word": "मेरे",
+          "start": 185.05,
+          "end": 185.53,
+          "probability": 0.8167
+        },
+        {
+          "word": "सेकंड",
+          "start": 185.53,
+          "end": 186.07,
+          "probability": 0.7832
+        },
+        {
+          "word": "में",
+          "start": 186.07,
+          "end": 186.53,
+          "probability": 0.9092
+        },
+        {
+          "word": "ड्यूटी",
+          "start": 186.53,
+          "end": 186.75,
+          "probability": 0.9832
+        },
+        {
+          "word": "रहता",
+          "start": 186.75,
+          "end": 187.03,
+          "probability": 0.9903
+        },
+        {
+          "word": "है",
+          "start": 187.03,
+          "end": 187.15,
+          "probability": 0.997
+        },
+        {
+          "word": "तो",
+          "start": 187.15,
+          "end": 187.25,
+          "probability": 0.9772
+        },
+        {
+          "word": "तब",
+          "start": 187.25,
+          "end": 187.51,
+          "probability": 0.914
+        },
+        {
+          "word": "उसका",
+          "start": 187.51,
+          "end": 188.05,
+          "probability": 0.9704
+        },
+        {
+          "word": "खाना",
+          "start": 188.05,
+          "end": 188.59,
+          "probability": 0.9915
+        },
+        {
+          "word": "आना",
+          "start": 188.59,
+          "end": 188.79,
+          "probability": 0.9719
+        },
+        {
+          "word": "तैयारी",
+          "start": 188.79,
+          "end": 189.15,
+          "probability": 0.9769
+        },
+        {
+          "word": "करके",
+          "start": 189.15,
+          "end": 189.49,
+          "probability": 0.9575
+        },
+        {
+          "word": "सब",
+          "start": 189.49,
+          "end": 189.79,
+          "probability": 0.9743
+        },
+        {
+          "word": "लोग",
+          "start": 189.79,
+          "end": 189.95,
+          "probability": 0.9587
+        },
+        {
+          "word": "आते",
+          "start": 189.95,
+          "end": 190.37,
+          "probability": 0.6227
+        },
+        {
+          "word": "हैं",
+          "start": 190.37,
+          "end": 191.55,
+          "probability": 0.8606
+        },
+        {
+          "word": "यह",
+          "start": 191.55,
+          "end": 192.55,
+          "probability": 0.5295
+        },
+        {
+          "word": "भी",
+          "start": 192.55,
+          "end": 192.55,
+          "probability": 0.5945
+        },
+        {
+          "word": "जाकर",
+          "start": 192.55,
+          "end": 194.51,
+          "probability": 0.649
+        },
+        {
+          "word": "घर",
+          "start": 194.51,
+          "end": 194.95,
+          "probability": 0.8855
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 198.89,
+      "end": 211.73,
+      "text": "आप बच्चों से मैं लोगों का बास है बच्चों ने लड़की हिंदी इंग्लिश में पढ़ता है तो कभी कभी हम लोगों जैसे मजाक-मस्ती में",
+      "avg_logprob": -0.3902,
+      "no_speech_prob": 0.0457,
+      "words": [
+        {
+          "word": "आप",
+          "start": 198.89,
+          "end": 199.65,
+          "probability": 0.5184
+        },
+        {
+          "word": "बच्चों",
+          "start": 199.65,
+          "end": 200.23,
+          "probability": 0.8205
+        },
+        {
+          "word": "से",
+          "start": 200.23,
+          "end": 200.35,
+          "probability": 0.9619
+        },
+        {
+          "word": "मैं",
+          "start": 200.35,
+          "end": 201.31,
+          "probability": 0.4307
+        },
+        {
+          "word": "लोगों",
+          "start": 201.31,
+          "end": 202.51,
+          "probability": 0.6839
+        },
+        {
+          "word": "का",
+          "start": 202.51,
+          "end": 202.53,
+          "probability": 0.7259
+        },
+        {
+          "word": "बास",
+          "start": 202.53,
+          "end": 203.11,
+          "probability": 0.4767
+        },
+        {
+          "word": "है",
+          "start": 203.11,
+          "end": 203.31,
+          "probability": 0.775
+        },
+        {
+          "word": "बच्चों",
+          "start": 203.31,
+          "end": 204.87,
+          "probability": 0.8198
+        },
+        {
+          "word": "ने",
+          "start": 204.87,
+          "end": 206.41,
+          "probability": 0.3447
+        },
+        {
+          "word": "लड़की",
+          "start": 206.41,
+          "end": 206.97,
+          "probability": 0.7208
+        },
+        {
+          "word": "हिंदी",
+          "start": 206.97,
+          "end": 207.29,
+          "probability": 0.9222
+        },
+        {
+          "word": "इंग्लिश",
+          "start": 207.29,
+          "end": 207.89,
+          "probability": 0.8724
+        },
+        {
+          "word": "में",
+          "start": 207.89,
+          "end": 208.09,
+          "probability": 0.8578
+        },
+        {
+          "word": "पढ़ता",
+          "start": 208.09,
+          "end": 208.37,
+          "probability": 0.9557
+        },
+        {
+          "word": "है",
+          "start": 208.37,
+          "end": 208.53,
+          "probability": 0.9949
+        },
+        {
+          "word": "तो",
+          "start": 208.53,
+          "end": 208.67,
+          "probability": 0.98
+        },
+        {
+          "word": "कभी",
+          "start": 208.67,
+          "end": 209.05,
+          "probability": 0.884
+        },
+        {
+          "word": "कभी",
+          "start": 209.05,
+          "end": 209.33,
+          "probability": 0.4956
+        },
+        {
+          "word": "हम",
+          "start": 209.33,
+          "end": 209.65,
+          "probability": 0.9491
+        },
+        {
+          "word": "लोगों",
+          "start": 209.65,
+          "end": 209.99,
+          "probability": 0.9417
+        },
+        {
+          "word": "जैसे",
+          "start": 209.99,
+          "end": 210.43,
+          "probability": 0.8293
+        },
+        {
+          "word": "मजाक",
+          "start": 210.43,
+          "end": 211.03,
+          "probability": 0.8583
+        },
+        {
+          "word": "-मस्ती",
+          "start": 211.03,
+          "end": 211.33,
+          "probability": 0.8843
+        },
+        {
+          "word": "में",
+          "start": 211.33,
+          "end": 211.73,
+          "probability": 0.955
+        }
+      ]
+    }
+  ]
+}

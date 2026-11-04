@@ -1,0 +1,131 @@
+{
+  "file": "S8_IMG_6664",
+  "speaker_code": "S8",
+  "source_transcript": "transcripts/S8_IMG_6664_transcript.json",
+  "WARNING": "Based on UNVERIFIED Whisper output. Whisper silently corrects agreement errors and converts Bengali to Hindi. Every flagged item MUST be verified against the audio.",
+  "low_confidence_segments": [
+    {
+      "start": 85.23,
+      "end": 87.59,
+      "text": "आपका जन्म भी",
+      "avg_logprob": -0.7211,
+      "no_speech_prob": 0.2131,
+      "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
+    }
+  ],
+  "candidate_bengali_stretches": [
+    {
+      "word": "ने",
+      "start": 204.87,
+      "end": 206.41,
+      "probability": 0.3447,
+      "segment_text": "आप बच्चों से मैं लोगों का बास है बच्चों ने लड़की हिंदी इंग्लिश में पढ़ता है तो कभी कभी हम लोगों जैसे मजाक-मस्ती में",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    }
+  ],
+  "past_tense_verbs": [
+    {
+      "verb": "खिलकी",
+      "gender_form": "f_sg",
+      "start": 13.4,
+      "end": 13.78,
+      "segment_text": "कि यह क्या है यह दरवाजा है यह चेयर है यह फैम है पुन पास है यह एक किताब है यह घर है इसमें खिलकी है पानी",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "दिए",
+      "gender_form": "m_pl",
+      "start": 27.56,
+      "end": 27.98,
+      "segment_text": "का ग्लास है रोटी है खाना है कार्ड है और हाथ है पाचोंडी चावी है अब दिए इन दोनों फोटो में क्या फर्क है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रही",
+      "gender_form": "f_sg",
+      "start": 129.13,
+      "end": 129.31,
+      "segment_text": "आप दिन में कितना टाइम हिंदी यूज करते हो जब तक मैं यह काम पर रही तब तक हिंदी और एक स्टूडेंट को पढ़ाती",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "पढ़ाती",
+      "gender_form": "m_sg",
+      "start": 131.07,
+      "end": 131.43,
+      "segment_text": "आप दिन में कितना टाइम हिंदी यूज करते हो जब तक मैं यह काम पर रही तब तक हिंदी और एक स्टूडेंट को पढ़ाती",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बनाती",
+      "gender_form": "m_sg",
+      "start": 145.03,
+      "end": 148.15,
+      "segment_text": "सब देखना पड़ता है मैं स्ट्रीन का कुछ प्रॉब्लेंट कंप्लेंट नहीं सब और कुछ नहीं बनाती हूं मेरा हस्बेन भी",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बनाता",
+      "gender_form": "m_sg",
+      "start": 149.05,
+      "end": 149.39,
+      "segment_text": "बनाता है इस बार द्यूटी में आ जाती है तो तब अपने बनाता है और क्या-क्या बनाते हो घर में जैसे डाल चावल",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बनाता",
+      "gender_form": "m_sg",
+      "start": 153.71,
+      "end": 154.05,
+      "segment_text": "बनाता है इस बार द्यूटी में आ जाती है तो तब अपने बनाता है और क्या-क्या बनाते हो घर में जैसे डाल चावल",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बनाते",
+      "gender_form": "m_sg",
+      "start": 154.83,
+      "end": 155.25,
+      "segment_text": "बनाता है इस बार द्यूटी में आ जाती है तो तब अपने बनाता है और क्या-क्या बनाते हो घर में जैसे डाल चावल",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "मचली",
+      "gender_form": "f_sg",
+      "start": 157.59,
+      "end": 157.93,
+      "segment_text": "मचली ज्यादा तक हम लोग का नॉनवेज होता है और हेच कम होता है और आप अपना रूटीन बताओगी मुझे सुबह से",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "किया",
+      "gender_form": "m_sg",
+      "start": 167.73,
+      "end": 167.99,
+      "segment_text": "लेकर अभी तक आपने क्या किया मतलब सुबह से उठने से सुबह उठने से चालू होता है कपड़ा दोना बर्तन पोछा जारू",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "लड़की",
+      "gender_form": "f_sg",
+      "start": 206.41,
+      "end": 206.97,
+      "segment_text": "आप बच्चों से मैं लोगों का बास है बच्चों ने लड़की हिंदी इंग्लिश में पढ़ता है तो कभी कभी हम लोगों जैसे मजाक-मस्ती में",
+      "note": "Agreement site — verify gender matches subject/object"
+    }
+  ],
+  "adjective_noun_pairs": [],
+  "ne_occurrences": [],
+  "summary": {
+    "total_words": 278,
+    "total_segments": 13,
+    "duration_s": 216.4,
+    "low_confidence_segments": 1,
+    "low_confidence_words": 3,
+    "candidate_bengali_words": 1,
+    "candidate_switch_points": 2,
+    "past_tense_verbs_found": 11,
+    "adjective_noun_pairs_found": 0,
+    "ne_occurrences": 0,
+    "note": "All counts are from UNVERIFIED Whisper output. Actual counts will differ after human verification — likely more Bengali words (Whisper converts them to Hindi) and more agreement errors (Whisper corrects them)."
+  }
+}

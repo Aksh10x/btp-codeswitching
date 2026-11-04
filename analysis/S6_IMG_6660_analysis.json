@@ -1,0 +1,397 @@
+{
+  "file": "S6_IMG_6660",
+  "speaker_code": "S6",
+  "source_transcript": "transcripts/S6_IMG_6660_transcript.json",
+  "WARNING": "Based on UNVERIFIED Whisper output. Whisper silently corrects agreement errors and converts Bengali to Hindi. Every flagged item MUST be verified against the audio.",
+  "low_confidence_segments": [
+    {
+      "start": 79.11,
+      "end": 92.57,
+      "text": "ភात्च बंदों महिला खबाब चाहिए यह दर्ज आफ ऐसी वराजम सेलिटी पर शोरू कर सकते थे",
+      "avg_logprob": -1.2367,
+      "no_speech_prob": 0.5806,
+      "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
+    },
+    {
+      "start": 93.68,
+      "end": 106.62,
+      "text": "मैं वह महिला ग्लास है जाता हुआ था दिस्टु अथियन यह है कि या बढ़ी आ पनी गिर गया ग्लास है",
+      "avg_logprob": -1.2367,
+      "no_speech_prob": 0.5806,
+      "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
+    },
+    {
+      "start": 206.77,
+      "end": 224.65,
+      "text": "कि भूल सकता है मैं भूल सकता हूं या भूल सकता हूं थोड़े हवाइक आदम तेलगो भी थोड़ा-थोड़ा इसभी तौर से",
+      "avg_logprob": -0.9583,
+      "no_speech_prob": 0.2121,
+      "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
+    }
+  ],
+  "candidate_bengali_stretches": [
+    {
+      "word": "ភात्च",
+      "start": 79.11,
+      "end": 79.17,
+      "probability": 0.0436,
+      "segment_text": "ភात्च बंदों महिला खबाब चाहिए यह दर्ज आफ ऐसी वराजम सेलिटी पर शोरू कर सकते थे",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "बंदों",
+      "start": 79.17,
+      "end": 80.27,
+      "probability": 0.397,
+      "segment_text": "ភात्च बंदों महिला खबाब चाहिए यह दर्ज आफ ऐसी वराजम सेलिटी पर शोरू कर सकते थे",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "यह",
+      "start": 83.84,
+      "end": 84.78,
+      "probability": 0.3872,
+      "segment_text": "ភात्च बंदों महिला खबाब चाहिए यह दर्ज आफ ऐसी वराजम सेलिटी पर शोरू कर सकते थे",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "आफ",
+      "start": 87.98,
+      "end": 88.22,
+      "probability": 0.2691,
+      "segment_text": "ភात्च बंदों महिला खबाब चाहिए यह दर्ज आफ ऐसी वराजम सेलिटी पर शोरू कर सकते थे",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "ऐसी",
+      "start": 88.22,
+      "end": 88.54,
+      "probability": 0.2565,
+      "segment_text": "ភात्च बंदों महिला खबाब चाहिए यह दर्ज आफ ऐसी वराजम सेलिटी पर शोरू कर सकते थे",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "वराजम",
+      "start": 88.54,
+      "end": 89.22,
+      "probability": 0.228,
+      "segment_text": "ភात्च बंदों महिला खबाब चाहिए यह दर्ज आफ ऐसी वराजम सेलिटी पर शोरू कर सकते थे",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "शोरू",
+      "start": 91.51,
+      "end": 91.81,
+      "probability": 0.2524,
+      "segment_text": "ភात्च बंदों महिला खबाब चाहिए यह दर्ज आफ ऐसी वराजम सेलिटी पर शोरू कर सकते थे",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "थे",
+      "start": 92.21,
+      "end": 92.57,
+      "probability": 0.3313,
+      "segment_text": "ភात्च बंदों महिला खबाब चाहिए यह दर्ज आफ ऐसी वराजम सेलिटी पर शोरू कर सकते थे",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "है",
+      "start": 95.24,
+      "end": 95.42,
+      "probability": 0.2442,
+      "segment_text": "मैं वह महिला ग्लास है जाता हुआ था दिस्टु अथियन यह है कि या बढ़ी आ पनी गिर गया ग्लास है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "दिस्टु",
+      "start": 97.05,
+      "end": 97.79,
+      "probability": 0.3117,
+      "segment_text": "मैं वह महिला ग्लास है जाता हुआ था दिस्टु अथियन यह है कि या बढ़ी आ पनी गिर गया ग्लास है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "अथियन",
+      "start": 97.79,
+      "end": 98.15,
+      "probability": 0.2407,
+      "segment_text": "मैं वह महिला ग्लास है जाता हुआ था दिस्टु अथियन यह है कि या बढ़ी आ पनी गिर गया ग्लास है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "या",
+      "start": 102.99,
+      "end": 103.45,
+      "probability": 0.3947,
+      "segment_text": "मैं वह महिला ग्लास है जाता हुआ था दिस्टु अथियन यह है कि या बढ़ी आ पनी गिर गया ग्लास है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "आ",
+      "start": 103.75,
+      "end": 104.65,
+      "probability": 0.3784,
+      "segment_text": "मैं वह महिला ग्लास है जाता हुआ था दिस्टु अथियन यह है कि या बढ़ी आ पनी गिर गया ग्लास है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "पनी",
+      "start": 104.86,
+      "end": 105.52,
+      "probability": 0.3285,
+      "segment_text": "मैं वह महिला ग्लास है जाता हुआ था दिस्टु अथियन यह है कि या बढ़ी आ पनी गिर गया ग्लास है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "को",
+      "start": 155.83,
+      "end": 156.05,
+      "probability": 0.1643,
+      "segment_text": "बैंगोली बच्चपन से घर में बोलते क्या है और भाषा यूज करते हैं घर में नहीं जनरली बैंगोली को भी नहीं",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "भी",
+      "start": 156.05,
+      "end": 157.09,
+      "probability": 0.3847,
+      "segment_text": "बैंगोली बच्चपन से घर में बोलते क्या है और भाषा यूज करते हैं घर में नहीं जनरली बैंगोली को भी नहीं",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "हंसे",
+      "start": 197.04,
+      "end": 197.18,
+      "probability": 0.334,
+      "segment_text": "और हंसे दिन में काम भी उस होती होती है? अल का student को बात करती है, हिंदी में, वो उस में करता हूँ",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "उस",
+      "start": 198.06,
+      "end": 198.16,
+      "probability": 0.2869,
+      "segment_text": "और हंसे दिन में काम भी उस होती होती है? अल का student को बात करती है, हिंदी में, वो उस में करता हूँ",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "को",
+      "start": 200.79,
+      "end": 201.21,
+      "probability": 0.3766,
+      "segment_text": "और हंसे दिन में काम भी उस होती होती है? अल का student को बात करती है, हिंदी में, वो उस में करता हूँ",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "कि",
+      "start": 206.77,
+      "end": 207.57,
+      "probability": 0.3079,
+      "segment_text": "कि भूल सकता है मैं भूल सकता हूं या भूल सकता हूं थोड़े हवाइक आदम तेलगो भी थोड़ा-थोड़ा इसभी तौर से",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "या",
+      "start": 211.88,
+      "end": 212.16,
+      "probability": 0.3336,
+      "segment_text": "कि भूल सकता है मैं भूल सकता हूं या भूल सकता हूं थोड़े हवाइक आदम तेलगो भी थोड़ा-थोड़ा इसभी तौर से",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "हवाइक",
+      "start": 214.31,
+      "end": 214.61,
+      "probability": 0.0958,
+      "segment_text": "कि भूल सकता है मैं भूल सकता हूं या भूल सकता हूं थोड़े हवाइक आदम तेलगो भी थोड़ा-थोड़ा इसभी तौर से",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "आदम",
+      "start": 214.61,
+      "end": 215.01,
+      "probability": 0.3536,
+      "segment_text": "कि भूल सकता है मैं भूल सकता हूं या भूल सकता हूं थोड़े हवाइक आदम तेलगो भी थोड़ा-थोड़ा इसभी तौर से",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "इसभी",
+      "start": 216.76,
+      "end": 218.24,
+      "probability": 0.3134,
+      "segment_text": "कि भूल सकता है मैं भूल सकता हूं या भूल सकता हूं थोड़े हवाइक आदम तेलगो भी थोड़ा-थोड़ा इसभी तौर से",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "से",
+      "start": 219.23,
+      "end": 224.65,
+      "probability": 0.2516,
+      "segment_text": "कि भूल सकता है मैं भूल सकता हूं या भूल सकता हूं थोड़े हवाइक आदम तेलगो भी थोड़ा-थोड़ा इसभी तौर से",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "के",
+      "start": 289.2,
+      "end": 289.88,
+      "probability": 0.3333,
+      "segment_text": "कुछ साफा वगैरह करना था बंखों को उपया के बाद जुबर को लांच करके थोड़ा बुद्ध रेस लिए फिर दो बाजे",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    }
+  ],
+  "past_tense_verbs": [
+    {
+      "verb": "पहली",
+      "gender_form": "f_sg",
+      "start": 35.76,
+      "end": 36.0,
+      "segment_text": "जो दिमाग में पहली आता है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "किया",
+      "gender_form": "m_sg",
+      "start": 73.74,
+      "end": 74.16,
+      "segment_text": "यह फोटो देखने और उसने पता आपको बताना है कि इस बंदे ने क्या किया तो एक्सप्लेन करना पुझे सेंटेंस में लोग भी खबर",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "हुआ",
+      "gender_form": "m_sg",
+      "start": 95.88,
+      "end": 96.08,
+      "segment_text": "मैं वह महिला ग्लास है जाता हुआ था दिस्टु अथियन यह है कि या बढ़ी आ पनी गिर गया ग्लास है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "गया",
+      "gender_form": "m_sg",
+      "start": 105.8,
+      "end": 106.04,
+      "segment_text": "मैं वह महिला ग्लास है जाता हुआ था दिस्टु अथियन यह है कि या बढ़ी आ पनी गिर गया ग्लास है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहे",
+      "gender_form": "m_pl",
+      "start": 109.48,
+      "end": 109.6,
+      "segment_text": "बोईटी उल्टो करे रहे हैं। चेहा भेंगे गया है। बाखा भेंगे गया है। जालना खोला अवस्ताह है।",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "गया",
+      "gender_form": "m_sg",
+      "start": 112.36,
+      "end": 112.5,
+      "segment_text": "बोईटी उल्टो करे रहे हैं। चेहा भेंगे गया है। बाखा भेंगे गया है। जालना खोला अवस्ताह है।",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "गया",
+      "gender_form": "m_sg",
+      "start": 115.1,
+      "end": 115.22,
+      "segment_text": "बोईटी उल्टो करे रहे हैं। चेहा भेंगे गया है। बाखा भेंगे गया है। जालना खोला अवस्ताह है।",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "खोला",
+      "gender_form": "m_sg",
+      "start": 118.7,
+      "end": 119.14,
+      "segment_text": "बोईटी उल्टो करे रहे हैं। चेहा भेंगे गया है। बाखा भेंगे गया है। जालना खोला अवस्ताह है।",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "की",
+      "gender_form": "f_sg",
+      "start": 125.16,
+      "end": 125.36,
+      "segment_text": "आर? नहीं दादा आप तहाँ से आपका पैटराउंड की आया है? मैं तो बंगलारी हूँ।",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "आया",
+      "gender_form": "m_sg",
+      "start": 125.36,
+      "end": 125.56,
+      "segment_text": "आर? नहीं दादा आप तहाँ से आपका पैटराउंड की आया है? मैं तो बंगलारी हूँ।",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बैंगोली",
+      "gender_form": "f_sg",
+      "start": 149.17,
+      "end": 150.15,
+      "segment_text": "बैंगोली बच्चपन से घर में बोलते क्या है और भाषा यूज करते हैं घर में नहीं जनरली बैंगोली को भी नहीं",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "जनरली",
+      "gender_form": "f_sg",
+      "start": 155.11,
+      "end": 155.51,
+      "segment_text": "बैंगोली बच्चपन से घर में बोलते क्या है और भाषा यूज करते हैं घर में नहीं जनरली बैंगोली को भी नहीं",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बैंगोली",
+      "gender_form": "f_sg",
+      "start": 155.51,
+      "end": 155.83,
+      "segment_text": "बैंगोली बच्चपन से घर में बोलते क्या है और भाषा यूज करते हैं घर में नहीं जनरली बैंगोली को भी नहीं",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "हुआ",
+      "gender_form": "m_sg",
+      "start": 231.94,
+      "end": 232.04,
+      "segment_text": "मेरे को ऐसा फिल नहीं हुआ तो देखिए एक जगह जब काम कर सकता हूं तो थोड़ा बहुत बाता चीज होता है लेकिन स्टूडेंट का वियावियर बहुत अच्छा है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "आई",
+      "gender_form": "f_sg",
+      "start": 240.46,
+      "end": 240.66,
+      "segment_text": "जब आप इस विद्ने ने जॉइंग किये थे यहाँ पर तो क्या प्रॉब्लम आई थी आप?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "लिए",
+      "gender_form": "m_pl",
+      "start": 293.58,
+      "end": 293.72,
+      "segment_text": "कुछ साफा वगैरह करना था बंखों को उपया के बाद जुबर को लांच करके थोड़ा बुद्ध रेस लिए फिर दो बाजे",
+      "note": "Agreement site — verify gender matches subject/object"
+    }
+  ],
+  "adjective_noun_pairs": [
+    {
+      "adjective": "अच्छा",
+      "gender_form": "m",
+      "alternate_form": "अच्छी",
+      "start": 236.7,
+      "end": 237.02,
+      "segment_text": "मेरे को ऐसा फिल नहीं हुआ तो देखिए एक जगह जब काम कर सकता हूं तो थोड़ा बहुत बाता चीज होता है लेकिन स्टूडेंट का वियावियर बहुत अच्छा है",
+      "note": "Check if adjective agrees with following noun's grammatical gender"
+    }
+  ],
+  "ne_occurrences": [],
+  "summary": {
+    "total_words": 357,
+    "total_segments": 21,
+    "duration_s": 304.7,
+    "low_confidence_segments": 3,
+    "low_confidence_words": 59,
+    "candidate_bengali_words": 26,
+    "candidate_switch_points": 4,
+    "past_tense_verbs_found": 16,
+    "adjective_noun_pairs_found": 1,
+    "ne_occurrences": 0,
+    "note": "All counts are from UNVERIFIED Whisper output. Actual counts will differ after human verification — likely more Bengali words (Whisper converts them to Hindi) and more agreement errors (Whisper corrects them)."
+  }
+}

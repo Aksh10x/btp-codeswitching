@@ -1,13 +1,13 @@
 {
-  "total_files": 4,
+  "total_files": 9,
   "model": "faster-whisper large-v3 (int8)",
   "files": [
     {
       "file": "S1_IMG_6647",
       "speaker": "S1",
       "duration_s": 231.19,
-      "segments": 5,
-      "words": 33,
+      "segments": 11,
+      "words": 174,
       "language": "hi",
       "language_prob": 1
     },
@@ -15,8 +15,17 @@
       "file": "S1_IMG_6648",
       "speaker": "S1",
       "duration_s": 76.67,
-      "segments": 27,
-      "words": 130,
+      "segments": 9,
+      "words": 108,
+      "language": "hi",
+      "language_prob": 1
+    },
+    {
+      "file": "S2_IMG_6650",
+      "speaker": "S2",
+      "duration_s": 309.36,
+      "segments": 30,
+      "words": 424,
       "language": "hi",
       "language_prob": 1
     },
@@ -25,7 +34,34 @@
       "speaker": "S3",
       "duration_s": 370.95,
       "segments": 27,
-      "words": 381,
+      "words": 400,
+      "language": "hi",
+      "language_prob": 1
+    },
+    {
+      "file": "S4_IMG_6652",
+      "speaker": "S4",
+      "duration_s": 341.03,
+      "segments": 18,
+      "words": 302,
+      "language": "hi",
+      "language_prob": 1
+    },
+    {
+      "file": "S5_IMG_6654",
+      "speaker": "S5",
+      "duration_s": 387.66,
+      "segments": 34,
+      "words": 473,
+      "language": "hi",
+      "language_prob": 1
+    },
+    {
+      "file": "S6_IMG_6660",
+      "speaker": "S6",
+      "duration_s": 304.7,
+      "segments": 21,
+      "words": 357,
       "language": "hi",
       "language_prob": 1
     },
@@ -33,8 +69,17 @@
       "file": "S7_NewRecording7",
       "speaker": "S7",
       "duration_s": 330.15,
-      "segments": 22,
-      "words": 367,
+      "segments": 20,
+      "words": 451,
+      "language": "hi",
+      "language_prob": 1
+    },
+    {
+      "file": "S8_IMG_6664",
+      "speaker": "S8",
+      "duration_s": 216.4,
+      "segments": 13,
+      "words": 278,
       "language": "hi",
       "language_prob": 1
     }

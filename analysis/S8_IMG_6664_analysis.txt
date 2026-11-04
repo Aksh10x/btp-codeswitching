@@ -1,0 +1,41 @@
+LINGUISTIC ANALYSIS — S8_IMG_6664 (Speaker S8)
+======================================================================
+WARNING: Based on unverified Whisper output. See JSON for details.
+======================================================================
+
+--- SUMMARY ---
+  total_words: 278
+  total_segments: 13
+  duration_s: 216.4
+  low_confidence_segments: 1
+  low_confidence_words: 3
+  candidate_bengali_words: 1
+  candidate_switch_points: 2
+  past_tense_verbs_found: 11
+  adjective_noun_pairs_found: 0
+  ne_occurrences: 0
+
+  NOTE: All counts are from UNVERIFIED Whisper output. Actual counts will differ after human verification — likely more Bengali words (Whisper converts them to Hindi) and more agreement errors (Whisper corrects them).
+
+--- LOW CONFIDENCE SEGMENTS (candidate Bengali/unclear) ---
+  [85.2s - 87.6s] logprob=-0.72: आपका जन्म भी
+
+--- CANDIDATE BENGALI WORDS (1 found) ---
+  [204.9s] "ने" (prob=0.34) in: आप बच्चों से मैं लोगों का बास है बच्चों ने लड़की हिंदी इंग्ल...
+
+--- PAST TENSE VERBS (11 found) ---
+  [13.4s] "खिलकी" (f_sg) in: कि यह क्या है यह दरवाजा है यह चेयर है यह फैम है पुन पास है य...
+  [27.6s] "दिए" (m_pl) in: का ग्लास है रोटी है खाना है कार्ड है और हाथ है पाचोंडी चावी ...
+  [129.1s] "रही" (f_sg) in: आप दिन में कितना टाइम हिंदी यूज करते हो जब तक मैं यह काम पर ...
+  [131.1s] "पढ़ाती" (m_sg) in: आप दिन में कितना टाइम हिंदी यूज करते हो जब तक मैं यह काम पर ...
+  [145.0s] "बनाती" (m_sg) in: सब देखना पड़ता है मैं स्ट्रीन का कुछ प्रॉब्लेंट कंप्लेंट नही...
+  [149.1s] "बनाता" (m_sg) in: बनाता है इस बार द्यूटी में आ जाती है तो तब अपने बनाता है और ...
+  [153.7s] "बनाता" (m_sg) in: बनाता है इस बार द्यूटी में आ जाती है तो तब अपने बनाता है और ...
+  [154.8s] "बनाते" (m_sg) in: बनाता है इस बार द्यूटी में आ जाती है तो तब अपने बनाता है और ...
+  [157.6s] "मचली" (f_sg) in: मचली ज्यादा तक हम लोग का नॉनवेज होता है और हेच कम होता है और...
+  [167.7s] "किया" (m_sg) in: लेकर अभी तक आपने क्या किया मतलब सुबह से उठने से सुबह उठने से...
+  [206.4s] "लड़की" (f_sg) in: आप बच्चों से मैं लोगों का बास है बच्चों ने लड़की हिंदी इंग्ल...
+
+--- ADJECTIVE-NOUN PAIRS (0 found) ---
+
+--- ERGATIVE 'ne' OCCURRENCES (0 found) ---

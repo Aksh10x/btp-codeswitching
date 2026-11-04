@@ -7,26 +7,27 @@ WARNING: All counts from unverified Whisper output (lower bounds).
 
 Speaker  Duration  Words  Bengali %Bengali  Switches  PastV   Adj   ne  AgrmtSites
 ----------------------------------------------------------------------------------
-S1           231s     33       25    75.8%         0      0     0    0           0
-S1            77s    130        6     4.6%         0     16     2    0          18
-S3           371s    381       94    24.7%         4     23     1    0          24
-S7           330s    367       58    15.8%         2     24     1    0          25
+S1           231s    174        7     4.0%         2     13     1    0          14
+S1            77s    108        8     7.4%         2      5     2    0           7
+S2           309s    424       14     3.3%         0     28     6    0          34
+S3           371s    400       44    11.0%         4     27     3    0          30
+S4           341s    302       36    11.9%         2     28     0    0          28
+S5           388s    473       18     3.8%         0     21     4    0          25
+S6           305s    357       26     7.3%         4     16     1    0          17
+S7           330s    451       34     7.5%         4     16     1    0          17
+S8           216s    278        1     0.4%         2     11     0    0          11
 ----------------------------------------------------------------------------------
-TOTAL          0s    911      183                  6     63     4    0          67
+TOTAL          0s   2967      188                 20    165    18    0         183
 
 
 DATA SUFFICIENCY ASSESSMENT
 ----------------------------------------
-  Speakers: 4
+  Speakers: 9
   Total speech: 0.0 minutes
-  Total words: 911
-  Agreement sites: 67
-  Bengali candidate words: 183
-  Switch points: 6
+  Total words: 2967
+  Agreement sites: 183
+  Bengali candidate words: 188
+  Switch points: 20
 
   VERDICT: SUFFICIENT for descriptive analysis. Statistical comparison
   across speakers possible if sites are distributed across speakers.
-
-  CODE-SWITCHING: Very few switch points detected. May reflect
-  Whisper's tendency to normalize Bengali->Hindi, or genuinely
-  limited switching in the data. Human verification critical.

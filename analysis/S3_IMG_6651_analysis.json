@@ -1,995 +1,635 @@
 {
   "file": "S3_IMG_6651",
   "speaker_code": "S3",
-  "source_transcript": "BTPVIDS/transcripts/S3_IMG_6651_transcript.json",
+  "source_transcript": "transcripts/S3_IMG_6651_transcript.json",
   "WARNING": "Based on UNVERIFIED Whisper output. Whisper silently corrects agreement errors and converts Bengali to Hindi. Every flagged item MUST be verified against the audio.",
   "low_confidence_segments": [
     {
-      "start": 256.51,
-      "end": 286.39,
-      "text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "avg_logprob": -0.9704,
-      "no_speech_prob": 0.0001,
+      "start": 47.72,
+      "end": 67.68,
+      "text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "avg_logprob": -1.1039,
+      "no_speech_prob": 0.0819,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
     },
     {
-      "start": 315.52,
-      "end": 324.28,
-      "text": "इसलिए हम लोग फॉर मैं बोल नहीं सकते हुआ पाकुल संगह से बोलने से थोड़ा तरह पर � mas Hundat",
-      "avg_logprob": -1.443,
-      "no_speech_prob": 0.0054,
+      "start": 67.68,
+      "end": 83.77,
+      "text": "एक पचक है छह कूंठ थे फैन भी तूटा है गृद्धू ऑल्ड विंद्व है और कुट गया ग्रास टूटा है",
+      "avg_logprob": -1.1039,
+      "no_speech_prob": 0.0819,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
     },
     {
-      "start": 331.78,
-      "end": 337.92,
-      "text": "बेंगली बोल गुहार के समस्याsyam ए class get",
-      "avg_logprob": -1.443,
-      "no_speech_prob": 0.0054,
+      "start": 321.42,
+      "end": 323.64,
+      "text": "लेकिन बोलने से थोड़ा तत्लीप होता है",
+      "avg_logprob": -1.1478,
+      "no_speech_prob": 0.3865,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
     },
     {
-      "start": 339.18,
-      "end": 340.08,
-      "text": "जानेun",
-      "avg_logprob": -1.443,
-      "no_speech_prob": 0.0054,
+      "start": 323.64,
+      "end": 329.14,
+      "text": "लेकिन हमरे भी तुमरे राइते रिते हो चाल नहीं हो सकते",
+      "avg_logprob": -1.1478,
+      "no_speech_prob": 0.3865,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
     },
     {
-      "start": 340.08,
-      "end": 341.72,
-      "text": "जाने जाने",
-      "avg_logprob": -1.443,
-      "no_speech_prob": 0.0054,
+      "start": 329.14,
+      "end": 337.86,
+      "text": "कि ओं या हो हुई कर दो",
+      "avg_logprob": -1.1478,
+      "no_speech_prob": 0.3865,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
     },
     {
-      "start": 341.72,
-      "end": 343.18,
-      "text": "जाने जाने",
-      "avg_logprob": -1.443,
-      "no_speech_prob": 0.0054,
+      "start": 345.92,
+      "end": 351.22,
+      "text": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है",
+      "avg_logprob": -0.718,
+      "no_speech_prob": 0.4136,
+      "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
+    },
+    {
+      "start": 356.48,
+      "end": 367.23,
+      "text": "और जो तुम लोगों बेंगुले पोलने से तुमबारों का ग्रामर बहुत है कि आपका चाहिए",
+      "avg_logprob": -0.718,
+      "no_speech_prob": 0.4136,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
     }
   ],
   "candidate_bengali_stretches": [
     {
-      "word": "Transcribe",
-      "start": 47.58,
-      "end": 47.94,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "अब",
+      "start": 24.48,
+      "end": 25.04,
+      "probability": 0.3598,
+      "segment_text": "अब इन दोनों में फर्क है",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "exactly",
-      "start": 49.4,
-      "end": 49.4,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "इन",
+      "start": 47.72,
+      "end": 48.04,
+      "probability": 0.2566,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "what",
-      "start": 49.4,
-      "end": 49.66,
-      "probability": 0.1429,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "कांगी",
+      "start": 49.5,
+      "end": 49.9,
+      "probability": 0.2609,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "is",
-      "start": 49.66,
-      "end": 49.68,
-      "probability": 0.0602,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "खेरो",
+      "start": 49.9,
+      "end": 50.24,
+      "probability": 0.1243,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "said",
-      "start": 49.68,
-      "end": 50.1,
-      "probability": 0.0209,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "से",
+      "start": 50.24,
+      "end": 50.24,
+      "probability": 0.1919,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "including",
-      "start": 50.1,
-      "end": 50.12,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "दो",
+      "start": 52.22,
+      "end": 52.5,
+      "probability": 0.392,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "hesitations,",
-      "start": 50.12,
-      "end": 50.36,
-      "probability": 0.1063,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "रॉम",
+      "start": 52.5,
+      "end": 53.2,
+      "probability": 0.2294,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "false",
-      "start": 50.38,
-      "end": 50.4,
-      "probability": 0.0001,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "ली",
+      "start": 55.74,
+      "end": 56.26,
+      "probability": 0.1555,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "starts,",
-      "start": 51.7,
-      "end": 51.88,
-      "probability": 0.0006,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "तक",
+      "start": 56.26,
+      "end": 57.14,
+      "probability": 0.1602,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "and",
-      "start": 51.88,
-      "end": 51.88,
-      "probability": 0.3325,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "बंधन",
+      "start": 57.14,
+      "end": 57.58,
+      "probability": 0.3672,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "Transcribe",
-      "start": 91.82,
-      "end": 93.22,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "है",
+      "start": 57.58,
+      "end": 57.62,
+      "probability": 0.2576,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "exactly",
-      "start": 93.22,
-      "end": 93.22,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "सशादार",
+      "start": 62.9,
+      "end": 63.92,
+      "probability": 0.1397,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "what",
-      "start": 93.22,
-      "end": 93.68,
-      "probability": 0.1893,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "कि",
+      "start": 63.92,
+      "end": 64.6,
+      "probability": 0.0695,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "is",
-      "start": 93.68,
-      "end": 95.08,
-      "probability": 0.0521,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "एक",
+      "start": 64.6,
+      "end": 65.96,
+      "probability": 0.3186,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "said",
-      "start": 95.08,
-      "end": 97.52,
-      "probability": 0.062,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "थे",
+      "start": 67.4,
+      "end": 67.68,
+      "probability": 0.3565,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "including",
-      "start": 97.52,
-      "end": 102.32,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "पचक",
+      "start": 69.86,
+      "end": 70.22,
+      "probability": 0.212,
+      "segment_text": "एक पचक है छह कूंठ थे फैन भी तूटा है गृद्धू ऑल्ड विंद्व है और कुट गया ग्रास टूटा है",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "hesitations,",
-      "start": 102.32,
-      "end": 102.32,
-      "probability": 0.1248,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "छह",
+      "start": 70.46,
+      "end": 71.14,
+      "probability": 0.2952,
+      "segment_text": "एक पचक है छह कूंठ थे फैन भी तूटा है गृद्धू ऑल्ड विंद्व है और कुट गया ग्रास टूटा है",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "false",
-      "start": 102.32,
-      "end": 102.32,
-      "probability": 0.0005,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "कूंठ",
+      "start": 72.86,
+      "end": 73.2,
+      "probability": 0.3145,
+      "segment_text": "एक पचक है छह कूंठ थे फैन भी तूटा है गृद्धू ऑल्ड विंद्व है और कुट गया ग्रास टूटा है",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "starts,",
-      "start": 102.32,
-      "end": 102.32,
-      "probability": 0.0003,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "थे",
+      "start": 73.2,
+      "end": 73.42,
+      "probability": 0.2718,
+      "segment_text": "एक पचक है छह कूंठ थे फैन भी तूटा है गृद्धू ऑल्ड विंद्व है और कुट गया ग्रास टूटा है",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "and",
-      "start": 102.32,
-      "end": 102.32,
-      "probability": 0.2224,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "तो",
+      "start": 98.86,
+      "end": 99.04,
+      "probability": 0.2664,
+      "segment_text": "कि आपको यहां काम करते हुए सबसे मुश्किल दिन काम करते तो कितने साल हो गए और क्या मुश्किल आती है",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "Transcribe",
-      "start": 131.78,
-      "end": 132.1,
-      "probability": 0.0001,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "असम",
+      "start": 107.72,
+      "end": 108.04,
+      "probability": 0.2627,
+      "segment_text": "सब तुम कोई ऑफिस का असम होता होगा । क्योंकि आपके लिए बहुत मुश्किल होता होगा । क्या-क्या परेशानी",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "exactly",
-      "start": 132.1,
-      "end": 132.1,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "से",
+      "start": 119.02,
+      "end": 119.16,
+      "probability": 0.2675,
+      "segment_text": "आती हो नहीं हो जो भी काम आता है हम अब से बहुत सारा लूट ज्यादा हुआ था ।",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "what",
-      "start": 132.1,
-      "end": 132.26,
-      "probability": 0.2968,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "हम",
+      "start": 151.16,
+      "end": 151.32,
+      "probability": 0.3503,
+      "segment_text": "हम लोगों से कब आते हो कब जाते हैं 8 गंटा अभी छह से दो गजे तक तो जाते जाते हैं टू ठट्टी हो जाए राफ्ट टर्न है और रिबेनिंग होने से दो गजे से दस बच्चे और घर पर आपके खाना कौन मिलाता है कि आप अपनी फामिली के बारे में आप कुछ बत",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "is",
-      "start": 132.26,
-      "end": 132.32,
-      "probability": 0.0508,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "8",
+      "start": 153.65,
+      "end": 154.09,
+      "probability": 0.3351,
+      "segment_text": "हम लोगों से कब आते हो कब जाते हैं 8 गंटा अभी छह से दो गजे तक तो जाते जाते हैं टू ठट्टी हो जाए राफ्ट टर्न है और रिबेनिंग होने से दो गजे से दस बच्चे और घर पर आपके खाना कौन मिलाता है कि आप अपनी फामिली के बारे में आप कुछ बत",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "said",
-      "start": 132.32,
-      "end": 132.32,
-      "probability": 0.0302,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "है",
+      "start": 159.19,
+      "end": 159.59,
+      "probability": 0.3643,
+      "segment_text": "हम लोगों से कब आते हो कब जाते हैं 8 गंटा अभी छह से दो गजे तक तो जाते जाते हैं टू ठट्टी हो जाए राफ्ट टर्न है और रिबेनिंग होने से दो गजे से दस बच्चे और घर पर आपके खाना कौन मिलाता है कि आप अपनी फामिली के बारे में आप कुछ बत",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "including",
-      "start": 132.32,
-      "end": 132.32,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "कि",
+      "start": 166.8,
+      "end": 167.04,
+      "probability": 0.2421,
+      "segment_text": "हम लोगों से कब आते हो कब जाते हैं 8 गंटा अभी छह से दो गजे तक तो जाते जाते हैं टू ठट्टी हो जाए राफ्ट टर्न है और रिबेनिंग होने से दो गजे से दस बच्चे और घर पर आपके खाना कौन मिलाता है कि आप अपनी फामिली के बारे में आप कुछ बत",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "hesitations,",
-      "start": 132.32,
-      "end": 132.32,
-      "probability": 0.0646,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "कब",
+      "start": 211.8,
+      "end": 212.36,
+      "probability": 0.3529,
+      "segment_text": "आपने कब से बोलनी चाहूंगी तो नहीं बोल नहीं पाती हो थोड़ा",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "false",
-      "start": 132.32,
-      "end": 132.32,
-      "probability": 0.0002,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "तो",
+      "start": 213.54,
+      "end": 213.9,
+      "probability": 0.398,
+      "segment_text": "आपने कब से बोलनी चाहूंगी तो नहीं बोल नहीं पाती हो थोड़ा",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "starts,",
-      "start": 132.32,
-      "end": 132.32,
-      "probability": 0.0006,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "and",
-      "start": 132.32,
-      "end": 132.32,
-      "probability": 0.1932,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "Transcribe",
-      "start": 162.57,
-      "end": 162.61,
-      "probability": 0.0001,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "exactly",
-      "start": 162.61,
-      "end": 162.61,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "what",
-      "start": 162.61,
-      "end": 162.61,
-      "probability": 0.1387,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "is",
-      "start": 162.61,
-      "end": 162.61,
-      "probability": 0.0329,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "said",
-      "start": 162.61,
-      "end": 162.61,
-      "probability": 0.0602,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "including",
-      "start": 162.61,
-      "end": 162.61,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "hesitations,",
-      "start": 162.61,
-      "end": 162.61,
-      "probability": 0.1081,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "false",
-      "start": 162.61,
-      "end": 162.61,
-      "probability": 0.0005,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "starts,",
-      "start": 162.61,
-      "end": 162.61,
-      "probability": 0.0004,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "and",
-      "start": 162.63,
-      "end": 162.63,
-      "probability": 0.2197,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "Transcribe",
-      "start": 193.53,
-      "end": 194.93,
-      "probability": 0.0001,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "exactly",
-      "start": 194.93,
-      "end": 194.93,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "what",
-      "start": 194.93,
-      "end": 194.93,
-      "probability": 0.1753,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "is",
-      "start": 194.93,
-      "end": 194.93,
-      "probability": 0.0383,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "said",
-      "start": 194.93,
-      "end": 194.93,
-      "probability": 0.0437,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "including",
-      "start": 194.93,
-      "end": 194.93,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "hesitations,",
-      "start": 194.93,
-      "end": 194.93,
-      "probability": 0.1191,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "false",
-      "start": 194.93,
-      "end": 194.93,
-      "probability": 0.0004,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "starts,",
-      "start": 194.93,
-      "end": 194.93,
-      "probability": 0.0003,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "and",
-      "start": 194.93,
-      "end": 194.93,
-      "probability": 0.306,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "Transcribe",
-      "start": 204.22,
-      "end": 204.66,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "exactly",
-      "start": 204.66,
-      "end": 204.66,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "what",
-      "start": 204.66,
-      "end": 205.82,
-      "probability": 0.1306,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "is",
-      "start": 205.82,
-      "end": 205.82,
-      "probability": 0.0312,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "said",
-      "start": 205.82,
-      "end": 205.82,
-      "probability": 0.0475,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "including",
-      "start": 205.82,
-      "end": 205.82,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "hesitations,",
-      "start": 205.82,
-      "end": 205.82,
-      "probability": 0.0905,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "false",
-      "start": 205.92,
-      "end": 205.92,
-      "probability": 0.0003,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "starts,",
-      "start": 205.92,
-      "end": 205.92,
-      "probability": 0.0003,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "and",
-      "start": 205.92,
-      "end": 205.94,
-      "probability": 0.2063,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "Transcribe",
-      "start": 206.02,
-      "end": 206.46,
-      "probability": 0.2917,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "exactly",
-      "start": 206.46,
-      "end": 206.46,
-      "probability": 0.241,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "ने",
-      "start": 256.99,
-      "end": 257.17,
-      "probability": 0.2597,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "बाद",
-      "start": 257.17,
-      "end": 257.17,
-      "probability": 0.3326,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "यहां",
-      "start": 257.97,
-      "end": 258.21,
-      "probability": 0.3793,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
+      "word": "था",
+      "start": 246.82,
+      "end": 247.0,
+      "probability": 0.2975,
+      "segment_text": "था बड़ा बड़ा ठीक है तो एक तो बेंगुली सिखते हैं और दूसरा कौन सा दूसरी इंग्लिश ने",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
       "word": "ने",
       "start": 259.19,
-      "end": 259.57,
-      "probability": 0.3613,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
+      "end": 259.63,
+      "probability": 0.227,
+      "segment_text": "था बड़ा बड़ा ठीक है तो एक तो बेंगुली सिखते हैं और दूसरा कौन सा दूसरी इंग्लिश ने",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "समय",
-      "start": 259.57,
-      "end": 259.57,
-      "probability": 0.2466,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
+      "word": "को",
+      "start": 267.67,
+      "end": 268.55,
+      "probability": 0.107,
+      "segment_text": "को सबको सबस्क्राइब",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "पीएस",
-      "start": 260.29,
-      "end": 260.67,
-      "probability": 0.291,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
+      "word": "हो",
+      "start": 325.5,
+      "end": 325.66,
+      "probability": 0.2277,
+      "segment_text": "लेकिन हमरे भी तुमरे राइते रिते हो चाल नहीं हो सकते",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "किया",
-      "start": 260.67,
-      "end": 261.05,
-      "probability": 0.3444,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
+      "word": "चाल",
+      "start": 325.66,
+      "end": 327.86,
+      "probability": 0.368,
+      "segment_text": "लेकिन हमरे भी तुमरे राइते रिते हो चाल नहीं हो सकते",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "लायल",
-      "start": 263.03,
-      "end": 263.85,
-      "probability": 0.3202,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "है",
-      "start": 264.69,
-      "end": 265.01,
-      "probability": 0.2708,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "ग्रवीन",
-      "start": 265.01,
-      "end": 265.61,
-      "probability": 0.2648,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "हम",
-      "start": 265.61,
-      "end": 267.15,
-      "probability": 0.0614,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "थीस",
-      "start": 269.75,
-      "end": 269.97,
-      "probability": 0.3345,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "तलस्तु",
-      "start": 273.11,
-      "end": 273.69,
-      "probability": 0.3955,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "ही",
-      "start": 274.13,
-      "end": 277.05,
-      "probability": 0.1529,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "स्विधा",
-      "start": 277.05,
-      "end": 286.39,
-      "probability": 0.32,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "उसको",
-      "start": 288.19,
-      "end": 291.15,
-      "probability": 0.2986,
-      "segment_text": "चाहिए अगर आप उसको लगता है लेकिन थर्ड नेगलीयस विशेष बेंगली शर्षकीत हिंदी चॉइस कर रहे हैं",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "नेगलीयस",
-      "start": 296.54,
-      "end": 296.96,
-      "probability": 0.3999,
-      "segment_text": "चाहिए अगर आप उसको लगता है लेकिन थर्ड नेगलीयस विशेष बेंगली शर्षकीत हिंदी चॉइस कर रहे हैं",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "मैं",
-      "start": 317.02,
-      "end": 317.24,
-      "probability": 0.3263,
-      "segment_text": "इसलिए हम लोग फॉर मैं बोल नहीं सकते हुआ पाकुल संगह से बोलने से थोड़ा तरह पर � mas Hundat",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "पर",
-      "start": 323.12,
-      "end": 323.36,
-      "probability": 0.3161,
-      "segment_text": "इसलिए हम लोग फॉर मैं बोल नहीं सकते हुआ पाकुल संगह से बोलने से थोड़ा तरह पर � mas Hundat",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "�",
-      "start": 323.36,
-      "end": 323.36,
-      "probability": 0.3344,
-      "segment_text": "इसलिए हम लोग फॉर मैं बोल नहीं सकते हुआ पाकुल संगह से बोलने से थोड़ा तरह पर � mas Hundat",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "mas",
-      "start": 323.36,
-      "end": 323.74,
-      "probability": 0.0,
-      "segment_text": "इसलिए हम लोग फॉर मैं बोल नहीं सकते हुआ पाकुल संगह से बोलने से थोड़ा तरह पर � mas Hundat",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "Hundat",
-      "start": 323.74,
-      "end": 324.28,
-      "probability": 0.0002,
-      "segment_text": "इसलिए हम लोग फॉर मैं बोल नहीं सकते हुआ पाकुल संगह से बोलने से थोड़ा तरह पर � mas Hundat",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "गुहार",
-      "start": 333.22,
-      "end": 333.82,
-      "probability": 0.2549,
-      "segment_text": "बेंगली बोल गुहार के समस्याsyam ए class get",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "के",
-      "start": 333.82,
-      "end": 334.24,
-      "probability": 0.0837,
-      "segment_text": "बेंगली बोल गुहार के समस्याsyam ए class get",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "समस्याsyam",
-      "start": 334.24,
-      "end": 334.96,
-      "probability": 0.3915,
-      "segment_text": "बेंगली बोल गुहार के समस्याsyam ए class get",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "ए",
-      "start": 334.96,
-      "end": 337.44,
-      "probability": 0.1587,
-      "segment_text": "बेंगली बोल गुहार के समस्याsyam ए class get",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "class",
-      "start": 337.44,
-      "end": 337.44,
-      "probability": 0.0,
-      "segment_text": "बेंगली बोल गुहार के समस्याsyam ए class get",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "get",
-      "start": 337.44,
-      "end": 337.92,
-      "probability": 0.0001,
-      "segment_text": "बेंगली बोल गुहार के समस्याsyam ए class get",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "जानेun",
-      "start": 339.18,
-      "end": 340.08,
-      "probability": 0.2449,
-      "segment_text": "जानेun",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "जाने",
-      "start": 340.08,
-      "end": 341.24,
-      "probability": 0.3987,
-      "segment_text": "जाने जाने",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "वो",
-      "start": 346.64,
-      "end": 346.76,
-      "probability": 0.3207,
-      "segment_text": "तुम लोग में समझ आ रहे थे कि आप किस बारे में बात कर रहे हैं वो या थोड़े थोड़े जैसे हिंदी वर्ड्स यूज़ करते हो ना तो हमें फिर बाकी का सेंटेंस समझ में आने लग जाता है",
+      "word": "हो",
+      "start": 328.52,
+      "end": 328.68,
+      "probability": 0.2638,
+      "segment_text": "लेकिन हमरे भी तुमरे राइते रिते हो चाल नहीं हो सकते",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
       "word": "कि",
-      "start": 366.39,
-      "end": 366.39,
-      "probability": 0.2108,
-      "segment_text": "कि उसको जोड़ना चाहिए वहां भाई भाई हुआ है",
+      "start": 329.14,
+      "end": 329.22,
+      "probability": 0.2027,
+      "segment_text": "कि ओं या हो हुई कर दो",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "ओं",
+      "start": 329.22,
+      "end": 329.38,
+      "probability": 0.2236,
+      "segment_text": "कि ओं या हो हुई कर दो",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "या",
+      "start": 329.38,
+      "end": 330.5,
+      "probability": 0.3214,
+      "segment_text": "कि ओं या हो हुई कर दो",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "हो",
+      "start": 330.5,
+      "end": 332.52,
+      "probability": 0.0249,
+      "segment_text": "कि ओं या हो हुई कर दो",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "कर",
+      "start": 335.28,
+      "end": 337.6,
+      "probability": 0.0571,
+      "segment_text": "कि ओं या हो हुई कर दो",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "भी",
+      "start": 345.92,
+      "end": 346.76,
+      "probability": 0.3666,
+      "segment_text": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "तो",
+      "start": 346.76,
+      "end": 346.76,
+      "probability": 0.3204,
+      "segment_text": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "निस्कर",
+      "start": 347.44,
+      "end": 348.4,
+      "probability": 0.3158,
+      "segment_text": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "है",
+      "start": 351.06,
+      "end": 351.22,
+      "probability": 0.3336,
+      "segment_text": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "है",
+      "start": 361.6,
+      "end": 362.08,
+      "probability": 0.3261,
+      "segment_text": "और जो तुम लोगों बेंगुले पोलने से तुमबारों का ग्रामर बहुत है कि आपका चाहिए",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     }
   ],
   "past_tense_verbs": [
     {
-      "verb": "किया",
+      "verb": "रहा",
       "gender_form": "m_sg",
-      "start": 226.27,
-      "end": 226.53,
-      "segment_text": "उसमें थोड़ा स्टाइड किया इंग्रीय थोड़ा इतना अच्छा भी बोल नहीं पाती हो थोड़ा और आप कितनी भाषा बोल लेते हो बेंगॉली इंडी इंग्रीय समय में आ रहा है लेकिन रिप्लाई देना थोड़ा प्रॉब्लम हो आपको पूरा ताई भी खड़ा प",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "बेंगॉली",
-      "gender_form": "f_sg",
-      "start": 234.48,
-      "end": 235.54,
-      "segment_text": "उसमें थोड़ा स्टाइड किया इंग्रीय थोड़ा इतना अच्छा भी बोल नहीं पाती हो थोड़ा और आप कितनी भाषा बोल लेते हो बेंगॉली इंडी इंग्रीय समय में आ रहा है लेकिन रिप्लाई देना थोड़ा प्रॉब्लम हो आपको पूरा ताई भी खड़ा प",
+      "start": 37.4,
+      "end": 37.6,
+      "segment_text": "अब ये क्या कर रहा है",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
       "verb": "रहा",
       "gender_form": "m_sg",
-      "start": 237.5,
+      "start": 39.67,
+      "end": 39.95,
+      "segment_text": "खना खा रहा है, रोटी खा रहा है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहा",
+      "gender_form": "m_sg",
+      "start": 40.95,
+      "end": 41.17,
+      "segment_text": "खना खा रहा है, रोटी खा रहा है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहा",
+      "gender_form": "m_sg",
+      "start": 44.66,
+      "end": 44.84,
+      "segment_text": "और ये क्या कर रहा है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहा",
+      "gender_form": "m_sg",
+      "start": 46.84,
+      "end": 46.94,
+      "segment_text": "ये भी राइस खा रहा है, लंच कर रहा है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहा",
+      "gender_form": "m_sg",
+      "start": 47.54,
+      "end": 47.62,
+      "segment_text": "ये भी राइस खा रहा है, लंच कर रहा है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "ली",
+      "gender_form": "f_sg",
+      "start": 55.74,
+      "end": 56.26,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "गलिया",
+      "gender_form": "m_sg",
+      "start": 66.26,
+      "end": 66.7,
+      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "गया",
+      "gender_form": "m_sg",
+      "start": 81.39,
+      "end": 81.77,
+      "segment_text": "एक पचक है छह कूंठ थे फैन भी तूटा है गृद्धू ऑल्ड विंद्व है और कुट गया ग्रास टूटा है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "हुए",
+      "gender_form": "m_pl",
+      "start": 94.82,
+      "end": 95.0,
+      "segment_text": "कि आपको यहां काम करते हुए सबसे मुश्किल दिन काम करते तो कितने साल हो गए और क्या मुश्किल आती है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "गए",
+      "gender_form": "m_pl",
+      "start": 99.7,
+      "end": 99.8,
+      "segment_text": "कि आपको यहां काम करते हुए सबसे मुश्किल दिन काम करते तो कितने साल हो गए और क्या मुश्किल आती है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "लिए",
+      "gender_form": "m_pl",
+      "start": 111.16,
+      "end": 111.3,
+      "segment_text": "सब तुम कोई ऑफिस का असम होता होगा । क्योंकि आपके लिए बहुत मुश्किल होता होगा । क्या-क्या परेशानी",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "हुआ",
+      "gender_form": "m_sg",
+      "start": 127.5,
+      "end": 127.74,
+      "segment_text": "आती हो नहीं हो जो भी काम आता है हम अब से बहुत सारा लूट ज्यादा हुआ था ।",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "गया",
+      "gender_form": "m_sg",
+      "start": 138.58,
+      "end": 138.82,
+      "segment_text": "नहीं जैसे आपका टाइम थोड़ा फ्री हो गया उस टाइम मुश्किल होता होगा थोड़ा सा थोड़ा घर का प्रॉब्लम होता",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "नॉर्मली",
+      "gender_form": "f_sg",
+      "start": 148.04,
+      "end": 148.8,
+      "segment_text": "है ख़ला होना पकाना यह सुगह 7 बजे से रात 10 बजे तरह आप नॉर्मली कितने तरह पर काम करते हैं तो सुगह आप",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "मिलाता",
+      "gender_form": "m_sg",
+      "start": 166.12,
+      "end": 166.64,
+      "segment_text": "हम लोगों से कब आते हो कब जाते हैं 8 गंटा अभी छह से दो गजे तक तो जाते जाते हैं टू ठट्टी हो जाए राफ्ट टर्न है और रिबेनिंग होने से दो गजे से दस बच्चे और घर पर आपके खाना कौन मिलाता है कि आप अपनी फामिली के बारे में आप कुछ बत",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "फामिली",
+      "gender_form": "f_sg",
+      "start": 169.16,
+      "end": 169.58,
+      "segment_text": "हम लोगों से कब आते हो कब जाते हैं 8 गंटा अभी छह से दो गजे तक तो जाते जाते हैं टू ठट्टी हो जाए राफ्ट टर्न है और रिबेनिंग होने से दो गजे से दस बच्चे और घर पर आपके खाना कौन मिलाता है कि आप अपनी फामिली के बारे में आप कुछ बत",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "ओरिजिनली",
+      "gender_form": "f_sg",
+      "start": 199.46,
+      "end": 200.5,
+      "segment_text": "तभी आप अखेले रहते हो घर पर अखेले रहते हो आप चोटा लड़का अच्छा रहता है और आप कहां से हो ओरिजिनली खड़ापुर में जनन हुआ",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "हुआ",
+      "gender_form": "m_sg",
+      "start": 201.64,
+      "end": 202.14,
+      "segment_text": "तभी आप अखेले रहते हो घर पर अखेले रहते हो आप चोटा लड़का अच्छा रहता है और आप कहां से हो ओरिजिनली खड़ापुर में जनन हुआ",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बिंगॉली",
+      "gender_form": "f_sg",
+      "start": 234.84,
+      "end": 235.46,
+      "segment_text": "बिंगॉली हिंदी इंग्रीस समझ में आ रहा थी कि रिप्लाइज न थोड़ा प्रॉब्लम है और आपको पूरा टाइल भी खड़कपड़ में गया",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहा",
+      "gender_form": "m_sg",
+      "start": 237.52,
       "end": 237.68,
-      "segment_text": "उसमें थोड़ा स्टाइड किया इंग्रीय थोड़ा इतना अच्छा भी बोल नहीं पाती हो थोड़ा और आप कितनी भाषा बोल लेते हो बेंगॉली इंडी इंग्रीय समय में आ रहा है लेकिन रिप्लाई देना थोड़ा प्रॉब्लम हो आपको पूरा ताई भी खड़ा प",
+      "segment_text": "बिंगॉली हिंदी इंग्रीस समझ में आ रहा थी कि रिप्लाइज न थोड़ा प्रॉब्लम है और आपको पूरा टाइल भी खड़कपड़ में गया",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
-      "verb": "बेगोली",
-      "gender_form": "f_sg",
-      "start": 256.73,
-      "end": 256.99,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "बेंगॉली",
-      "gender_form": "f_sg",
-      "start": 259.91,
-      "end": 260.29,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "पीएस",
-      "gender_form": "f_sg",
-      "start": 260.29,
-      "end": 260.67,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "किया",
+      "verb": "गया",
       "gender_form": "m_sg",
-      "start": 260.67,
-      "end": 261.05,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
+      "start": 246.62,
+      "end": 246.82,
+      "segment_text": "बिंगॉली हिंदी इंग्रीस समझ में आ रहा थी कि रिप्लाइज न थोड़ा प्रॉब्लम है और आपको पूरा टाइल भी खड़कपड़ में गया",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
-      "verb": "थािंदी",
+      "verb": "शर्ष्कील",
       "gender_form": "f_sg",
-      "start": 271.03,
-      "end": 272.83,
-      "segment_text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
+      "start": 302.56,
+      "end": 303.26,
+      "segment_text": "शर्ष्कील हिंदी",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
-      "verb": "नेगलीयस",
+      "verb": "थर्ली",
       "gender_form": "f_sg",
-      "start": 296.54,
-      "end": 296.96,
-      "segment_text": "चाहिए अगर आप उसको लगता है लेकिन थर्ड नेगलीयस विशेष बेंगली शर्षकीत हिंदी चॉइस कर रहे हैं",
+      "start": 316.8,
+      "end": 317.18,
+      "segment_text": "इसलिए हम लोग थर्ली ना बोल नहीं सकते हाँ",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
-      "verb": "बेंगली",
+      "verb": "तत्लीप",
       "gender_form": "f_sg",
-      "start": 297.74,
-      "end": 299.62,
-      "segment_text": "चाहिए अगर आप उसको लगता है लेकिन थर्ड नेगलीयस विशेष बेंगली शर्षकीत हिंदी चॉइस कर रहे हैं",
+      "start": 322.84,
+      "end": 323.18,
+      "segment_text": "लेकिन बोलने से थोड़ा तत्लीप होता है",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
-      "verb": "शर्षकीत",
+      "verb": "हुई",
       "gender_form": "f_sg",
-      "start": 299.62,
-      "end": 303.28,
-      "segment_text": "चाहिए अगर आप उसको लगता है लेकिन थर्ड नेगलीयस विशेष बेंगली शर्षकीत हिंदी चॉइस कर रहे हैं",
+      "start": 332.52,
+      "end": 335.28,
+      "segment_text": "कि ओं या हो हुई कर दो",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
-      "verb": "हिंदी",
-      "gender_form": "f_sg",
-      "start": 303.28,
-      "end": 303.58,
-      "segment_text": "चाहिए अगर आप उसको लगता है लेकिन थर्ड नेगलीयस विशेष बेंगली शर्षकीत हिंदी चॉइस कर रहे हैं",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "रहे",
-      "gender_form": "m_pl",
-      "start": 304.58,
-      "end": 304.74,
-      "segment_text": "चाहिए अगर आप उसको लगता है लेकिन थर्ड नेगलीयस विशेष बेंगली शर्षकीत हिंदी चॉइस कर रहे हैं",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हमारे",
-      "gender_form": "m_pl",
-      "start": 311.8,
-      "end": 312.24,
-      "segment_text": "और हम लगे जो इंग्रीश था ना एक ही सब्सक्राइब है लेकिन हमारे से हिंदी होता है एक ही सब्सक्राइब होता है",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हिंदी",
-      "gender_form": "f_sg",
-      "start": 312.48,
-      "end": 312.76,
-      "segment_text": "और हम लगे जो इंग्रीश था ना एक ही सब्सक्राइब है लेकिन हमारे से हिंदी होता है एक ही सब्सक्राइब होता है",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "इसलिए",
-      "gender_form": "m_pl",
-      "start": 315.52,
-      "end": 316.42,
-      "segment_text": "इसलिए हम लोग फॉर मैं बोल नहीं सकते हुआ पाकुल संगह से बोलने से थोड़ा तरह पर � mas Hundat",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हुआ",
+      "verb": "वाकिया",
       "gender_form": "m_sg",
-      "start": 318.52,
-      "end": 318.82,
-      "segment_text": "इसलिए हम लोग फॉर मैं बोल नहीं सकते हुआ पाकुल संगह से बोलने से थोड़ा तरह पर � mas Hundat",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "बेंगली",
-      "gender_form": "f_sg",
-      "start": 331.78,
-      "end": 332.68,
-      "segment_text": "बेंगली बोल गुहार के समस्याsyam ए class get",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "रहे",
-      "gender_form": "m_pl",
-      "start": 345.42,
-      "end": 345.58,
-      "segment_text": "तुम लोग में समझ आ रहे थे कि आप किस बारे में बात कर रहे हैं वो या थोड़े थोड़े जैसे हिंदी वर्ड्स यूज़ करते हो ना तो हमें फिर बाकी का सेंटेंस समझ में आने लग जाता है",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "रहे",
-      "gender_form": "m_pl",
-      "start": 346.64,
-      "end": 346.64,
-      "segment_text": "तुम लोग में समझ आ रहे थे कि आप किस बारे में बात कर रहे हैं वो या थोड़े थोड़े जैसे हिंदी वर्ड्स यूज़ करते हो ना तो हमें फिर बाकी का सेंटेंस समझ में आने लग जाता है",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हिंदी",
-      "gender_form": "f_sg",
-      "start": 347.54,
-      "end": 347.82,
-      "segment_text": "तुम लोग में समझ आ रहे थे कि आप किस बारे में बात कर रहे हैं वो या थोड़े थोड़े जैसे हिंदी वर्ड्स यूज़ करते हो ना तो हमें फिर बाकी का सेंटेंस समझ में आने लग जाता है",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "बाकी",
-      "gender_form": "f_sg",
-      "start": 349.48,
-      "end": 349.9,
-      "segment_text": "तुम लोग में समझ आ रहे थे कि आप किस बारे में बात कर रहे हैं वो या थोड़े थोड़े जैसे हिंदी वर्ड्स यूज़ करते हो ना तो हमें फिर बाकी का सेंटेंस समझ में आने लग जाता है",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हुआ",
-      "gender_form": "m_sg",
-      "start": 368.73,
-      "end": 368.99,
-      "segment_text": "कि उसको जोड़ना चाहिए वहां भाई भाई हुआ है",
+      "start": 349.28,
+      "end": 350.02,
+      "segment_text": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है",
       "note": "Agreement site — verify gender matches subject/object"
     }
   ],
@@ -998,23 +638,41 @@
       "adjective": "अच्छा",
       "gender_form": "m",
       "alternate_form": "अच्छी",
-      "start": 229.52,
-      "end": 229.78,
-      "segment_text": "उसमें थोड़ा स्टाइड किया इंग्रीय थोड़ा इतना अच्छा भी बोल नहीं पाती हो थोड़ा और आप कितनी भाषा बोल लेते हो बेंगॉली इंडी इंग्रीय समय में आ रहा है लेकिन रिप्लाई देना थोड़ा प्रॉब्लम हो आपको पूरा ताई भी खड़ा प",
+      "start": 193.83,
+      "end": 194.51,
+      "segment_text": "तभी आप अखेले रहते हो घर पर अखेले रहते हो आप चोटा लड़का अच्छा रहता है और आप कहां से हो ओरिजिनली खड़ापुर में जनन हुआ",
+      "note": "Check if adjective agrees with following noun's grammatical gender"
+    },
+    {
+      "adjective": "बड़ा",
+      "gender_form": "m",
+      "alternate_form": "बड़ी",
+      "start": 247.0,
+      "end": 248.18,
+      "segment_text": "था बड़ा बड़ा ठीक है तो एक तो बेंगुली सिखते हैं और दूसरा कौन सा दूसरी इंग्लिश ने",
+      "note": "Check if adjective agrees with following noun's grammatical gender"
+    },
+    {
+      "adjective": "बड़ा",
+      "gender_form": "m",
+      "alternate_form": "बड़ी",
+      "start": 248.18,
+      "end": 248.64,
+      "segment_text": "था बड़ा बड़ा ठीक है तो एक तो बेंगुली सिखते हैं और दूसरा कौन सा दूसरी इंग्लिश ने",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     }
   ],
   "ne_occurrences": [],
   "summary": {
-    "total_words": 381,
+    "total_words": 400,
     "total_segments": 27,
     "duration_s": 370.95,
-    "low_confidence_segments": 6,
-    "low_confidence_words": 77,
-    "candidate_bengali_words": 94,
+    "low_confidence_segments": 7,
+    "low_confidence_words": 97,
+    "candidate_bengali_words": 44,
     "candidate_switch_points": 4,
-    "past_tense_verbs_found": 23,
-    "adjective_noun_pairs_found": 1,
+    "past_tense_verbs_found": 27,
+    "adjective_noun_pairs_found": 3,
     "ne_occurrences": 0,
     "note": "All counts are from UNVERIFIED Whisper output. Actual counts will differ after human verification — likely more Bengali words (Whisper converts them to Hindi) and more agreement errors (Whisper corrects them)."
   }

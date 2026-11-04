@@ -1,0 +1,417 @@
+{
+  "file": "S2_IMG_6650",
+  "speaker_code": "S2",
+  "source_transcript": "transcripts/S2_IMG_6650_transcript.json",
+  "WARNING": "Based on UNVERIFIED Whisper output. Whisper silently corrects agreement errors and converts Bengali to Hindi. Every flagged item MUST be verified against the audio.",
+  "low_confidence_segments": [],
+  "candidate_bengali_stretches": [
+    {
+      "word": "सीओर",
+      "start": 41.2,
+      "end": 41.66,
+      "probability": 0.1827,
+      "segment_text": "नहीं नहीं यह थाली थाली खाने का थाली थाली करें यह कार है हैंट सीओर फिंगर अब इन दोनों में फर्क क्या",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "ट्विड",
+      "start": 52.58,
+      "end": 53.16,
+      "probability": 0.3121,
+      "segment_text": "और क्या है यह बीग है यह ट्विड इसमाल है यह से और यह इसलिए क्या कर रहा है यह खाना खा रहा है और तो यह है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "इसमाल",
+      "start": 53.16,
+      "end": 53.46,
+      "probability": 0.3438,
+      "segment_text": "और क्या है यह बीग है यह ट्विड इसमाल है यह से और यह इसलिए क्या कर रहा है यह खाना खा रहा है और तो यह है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "से",
+      "start": 57.23,
+      "end": 57.65,
+      "probability": 0.2164,
+      "segment_text": "और क्या है यह बीग है यह ट्विड इसमाल है यह से और यह इसलिए क्या कर रहा है यह खाना खा रहा है और तो यह है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "और",
+      "start": 57.8,
+      "end": 60.42,
+      "probability": 0.3718,
+      "segment_text": "और क्या है यह बीग है यह ट्विड इसमाल है यह से और यह इसलिए क्या कर रहा है यह खाना खा रहा है और तो यह है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "है",
+      "start": 71.9,
+      "end": 72.46,
+      "probability": 0.3376,
+      "segment_text": "और क्या है यह बीग है यह ट्विड इसमाल है यह से और यह इसलिए क्या कर रहा है यह खाना खा रहा है और तो यह है",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "आप",
+      "start": 160.57,
+      "end": 160.85,
+      "probability": 0.3391,
+      "segment_text": "फिर भी थोड़ा थोड़ा इंग्लिज और थोड़ा भांग लावी आप सब लोगों के साथ मिल तरह ठीक है लेकिन वह तेली ग्णाम मुझको",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "तरह",
+      "start": 161.97,
+      "end": 163.09,
+      "probability": 0.3994,
+      "segment_text": "फिर भी थोड़ा थोड़ा इंग्लिज और थोड़ा भांग लावी आप सब लोगों के साथ मिल तरह ठीक है लेकिन वह तेली ग्णाम मुझको",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "ग्णाम",
+      "start": 165.71,
+      "end": 166.25,
+      "probability": 0.1742,
+      "segment_text": "फिर भी थोड़ा थोड़ा इंग्लिज और थोड़ा भांग लावी आप सब लोगों के साथ मिल तरह ठीक है लेकिन वह तेली ग्णाम मुझको",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "रखते",
+      "start": 183.94,
+      "end": 184.68,
+      "probability": 0.3912,
+      "segment_text": "अब शुद्ध रखते हैं बहुत सुद्ध बहुत स्टूडेंट भी हासी मज़ाक भी करते हैं और अच्छे भी है बहुत अच्छे है और",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "बोरुदी",
+      "start": 209.28,
+      "end": 209.78,
+      "probability": 0.3343,
+      "segment_text": "बांगलाई बोरुदी",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "है",
+      "start": 210.1,
+      "end": 210.28,
+      "probability": 0.3804,
+      "segment_text": "बंगल है अच्छा बूम थी उठ लांग पूंछी उठे आप अमार वास्तव पर लंग तार पर ऐसे एवर ए ब्रेकफ़ास बनालाम तार पर",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "बूम",
+      "start": 211.08,
+      "end": 211.8,
+      "probability": 0.3751,
+      "segment_text": "बंगल है अच्छा बूम थी उठ लांग पूंछी उठे आप अमार वास्तव पर लंग तार पर ऐसे एवर ए ब्रेकफ़ास बनालाम तार पर",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "2000",
+      "start": 293.94,
+      "end": 294.54,
+      "probability": 0.316,
+      "segment_text": "2000 साले",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    }
+  ],
+  "past_tense_verbs": [
+    {
+      "verb": "लिए",
+      "gender_form": "m_pl",
+      "start": 22.43,
+      "end": 22.75,
+      "segment_text": "यह हाउस है विंडोस है ग्लास है और चापटी डिनर क्या नहीं अच्छे अच्छा चापा लिए इसमें क्या है वह बोलना",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "थाली",
+      "gender_form": "f_sg",
+      "start": 30.17,
+      "end": 30.85,
+      "segment_text": "नहीं नहीं यह थाली थाली खाने का थाली थाली करें यह कार है हैंट सीओर फिंगर अब इन दोनों में फर्क क्या",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "थाली",
+      "gender_form": "f_sg",
+      "start": 30.85,
+      "end": 31.33,
+      "segment_text": "नहीं नहीं यह थाली थाली खाने का थाली थाली करें यह कार है हैंट सीओर फिंगर अब इन दोनों में फर्क क्या",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "थाली",
+      "gender_form": "f_sg",
+      "start": 32.37,
+      "end": 32.65,
+      "segment_text": "नहीं नहीं यह थाली थाली खाने का थाली थाली करें यह कार है हैंट सीओर फिंगर अब इन दोनों में फर्क क्या",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "थाली",
+      "gender_form": "f_sg",
+      "start": 32.65,
+      "end": 33.25,
+      "segment_text": "नहीं नहीं यह थाली थाली खाने का थाली थाली करें यह कार है हैंट सीओर फिंगर अब इन दोनों में फर्क क्या",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहा",
+      "gender_form": "m_sg",
+      "start": 67.26,
+      "end": 67.46,
+      "segment_text": "और क्या है यह बीग है यह ट्विड इसमाल है यह से और यह इसलिए क्या कर रहा है यह खाना खा रहा है और तो यह है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहा",
+      "gender_form": "m_sg",
+      "start": 68.92,
+      "end": 69.06,
+      "segment_text": "और क्या है यह बीग है यह ट्विड इसमाल है यह से और यह इसलिए क्या कर रहा है यह खाना खा रहा है और तो यह है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहा",
+      "gender_form": "m_sg",
+      "start": 73.78,
+      "end": 73.96,
+      "segment_text": "रोटी खा रहा है, चावल खा रहा है, डोर खोल रहा है, किताब पढ़ रहा है, पानी ग्लास में धाल रहा है, डोर हम लोग बंगाली रोग हो रहे हैं,",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहा",
+      "gender_form": "m_sg",
+      "start": 80.04,
+      "end": 80.24,
+      "segment_text": "रोटी खा रहा है, चावल खा रहा है, डोर खोल रहा है, किताब पढ़ रहा है, पानी ग्लास में धाल रहा है, डोर हम लोग बंगाली रोग हो रहे हैं,",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहा",
+      "gender_form": "m_sg",
+      "start": 85.28,
+      "end": 85.48,
+      "segment_text": "रोटी खा रहा है, चावल खा रहा है, डोर खोल रहा है, किताब पढ़ रहा है, पानी ग्लास में धाल रहा है, डोर हम लोग बंगाली रोग हो रहे हैं,",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहा",
+      "gender_form": "m_sg",
+      "start": 89.33,
+      "end": 89.57,
+      "segment_text": "रोटी खा रहा है, चावल खा रहा है, डोर खोल रहा है, किताब पढ़ रहा है, पानी ग्लास में धाल रहा है, डोर हम लोग बंगाली रोग हो रहे हैं,",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहा",
+      "gender_form": "m_sg",
+      "start": 97.83,
+      "end": 98.07,
+      "segment_text": "रोटी खा रहा है, चावल खा रहा है, डोर खोल रहा है, किताब पढ़ रहा है, पानी ग्लास में धाल रहा है, डोर हम लोग बंगाली रोग हो रहे हैं,",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बंगाली",
+      "gender_form": "f_sg",
+      "start": 99.17,
+      "end": 99.73,
+      "segment_text": "रोटी खा रहा है, चावल खा रहा है, डोर खोल रहा है, किताब पढ़ रहा है, पानी ग्लास में धाल रहा है, डोर हम लोग बंगाली रोग हो रहे हैं,",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहे",
+      "gender_form": "m_pl",
+      "start": 100.33,
+      "end": 100.87,
+      "segment_text": "रोटी खा रहा है, चावल खा रहा है, डोर खोल रहा है, किताब पढ़ रहा है, पानी ग्लास में धाल रहा है, डोर हम लोग बंगाली रोग हो रहे हैं,",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "तेली",
+      "gender_form": "f_sg",
+      "start": 164.19,
+      "end": 165.71,
+      "segment_text": "फिर भी थोड़ा थोड़ा इंग्लिज और थोड़ा भांग लावी आप सब लोगों के साथ मिल तरह ठीक है लेकिन वह तेली ग्णाम मुझको",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "आपकी",
+      "gender_form": "f_sg",
+      "start": 194.5,
+      "end": 194.64,
+      "segment_text": "जैसे मैं आपकी मतलब डेडी लाइफ के बारे में पूछूंगी तो आप सुबह से अभी तक आपने क्या क्या किया आप बताना चाहूँ",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "किया",
+      "gender_form": "m_sg",
+      "start": 198.32,
+      "end": 198.54,
+      "segment_text": "जैसे मैं आपकी मतलब डेडी लाइफ के बारे में पूछूंगी तो आप सुबह से अभी तक आपने क्या क्या किया आप बताना चाहूँ",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बोरुदी",
+      "gender_form": "f_sg",
+      "start": 209.28,
+      "end": 209.78,
+      "segment_text": "बांगलाई बोरुदी",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "उठे",
+      "gender_form": "m_pl",
+      "start": 213.7,
+      "end": 214.0,
+      "segment_text": "बंगल है अच्छा बूम थी उठ लांग पूंछी उठे आप अमार वास्तव पर लंग तार पर ऐसे एवर ए ब्रेकफ़ास बनालाम तार पर",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बनालाम",
+      "gender_form": "m_sg",
+      "start": 219.1,
+      "end": 219.68,
+      "segment_text": "बंगल है अच्छा बूम थी उठ लांग पूंछी उठे आप अमार वास्तव पर लंग तार पर ऐसे एवर ए ब्रेकफ़ास बनालाम तार पर",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहे",
+      "gender_form": "m_pl",
+      "start": 238.16,
+      "end": 238.38,
+      "segment_text": "और आपका होम डिस्टिक है आप कहां से हो आप कहां रहे हो अमारे मी जन्म होते दुर्गापुरे वर्धमान दुर्गापुरे तब",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "अमारे",
+      "gender_form": "m_pl",
+      "start": 239.08,
+      "end": 239.88,
+      "segment_text": "और आपका होम डिस्टिक है आप कहां से हो आप कहां रहे हो अमारे मी जन्म होते दुर्गापुरे वर्धमान दुर्गापुरे तब",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बांगली",
+      "gender_form": "f_sg",
+      "start": 254.3,
+      "end": 254.98,
+      "segment_text": "हम बांगली अच्छा और आप इंडियो कब से बोल रहे हो हिंदी आवर एक टो सब्जेक्ट थी छी लो तो अपने ओटा ठीक है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहे",
+      "gender_form": "m_pl",
+      "start": 257.58,
+      "end": 257.82,
+      "segment_text": "हम बांगली अच्छा और आप इंडियो कब से बोल रहे हो हिंदी आवर एक टो सब्जेक्ट थी छी लो तो अपने ओटा ठीक है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बोली",
+      "gender_form": "f_sg",
+      "start": 263.56,
+      "end": 264.0,
+      "segment_text": "हिंदी बोली और शीखे हुँ छी और लिखते हुँ पाड़ी और पढ़ते हुँ पाड़ी तो आपने कितने साल हिंदी पढ़ी है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "पढ़ी",
+      "gender_form": "f_sg",
+      "start": 270.52,
+      "end": 270.88,
+      "segment_text": "हिंदी बोली और शीखे हुँ छी और लिखते हुँ पाड़ी और पढ़ते हुँ पाड़ी तो आपने कितने साल हिंदी पढ़ी है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "गए",
+      "gender_form": "m_pl",
+      "start": 284.8,
+      "end": 284.98,
+      "segment_text": "आपने एट से हिंदी पर शालू गए ठीक है",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "गए",
+      "gender_form": "m_pl",
+      "start": 288.86,
+      "end": 289.0,
+      "segment_text": "और आपको यहाँ खड़पुर में रहते वे कितने साल हो गए",
+      "note": "Agreement site — verify gender matches subject/object"
+    }
+  ],
+  "adjective_noun_pairs": [
+    {
+      "adjective": "अच्छा",
+      "gender_form": "m",
+      "alternate_form": "अच्छी",
+      "start": 18.05,
+      "end": 20.97,
+      "segment_text": "यह हाउस है विंडोस है ग्लास है और चापटी डिनर क्या नहीं अच्छे अच्छा चापा लिए इसमें क्या है वह बोलना",
+      "note": "Check if adjective agrees with following noun's grammatical gender"
+    },
+    {
+      "adjective": "अच्छा",
+      "gender_form": "m",
+      "alternate_form": "अच्छी",
+      "start": 210.28,
+      "end": 211.08,
+      "segment_text": "बंगल है अच्छा बूम थी उठ लांग पूंछी उठे आप अमार वास्तव पर लंग तार पर ऐसे एवर ए ब्रेकफ़ास बनालाम तार पर",
+      "note": "Check if adjective agrees with following noun's grammatical gender"
+    },
+    {
+      "adjective": "अच्छा",
+      "gender_form": "m",
+      "alternate_form": "अच्छी",
+      "start": 253.62,
+      "end": 253.74,
+      "segment_text": "और आप घर पर क्या लैंग्वेजेस बोल लेते हो और क्या क्या अमिय बेशीरफागी बांगला यूज करी है अच्छा है",
+      "note": "Check if adjective agrees with following noun's grammatical gender"
+    },
+    {
+      "adjective": "अच्छा",
+      "gender_form": "m",
+      "alternate_form": "अच्छी",
+      "start": 254.98,
+      "end": 255.68,
+      "segment_text": "हम बांगली अच्छा और आप इंडियो कब से बोल रहे हो हिंदी आवर एक टो सब्जेक्ट थी छी लो तो अपने ओटा ठीक है",
+      "note": "Check if adjective agrees with following noun's grammatical gender"
+    },
+    {
+      "adjective": "अच्छा",
+      "gender_form": "m",
+      "alternate_form": "अच्छी",
+      "start": 279.96,
+      "end": 280.52,
+      "segment_text": "थारो अमिव एड थी के हिंदी चालू करेची यह अपने नीज़े पढ़ते पारी अब स्टूडेंट देर को पढ़िए ची अच्छा ठीक है तो",
+      "note": "Check if adjective agrees with following noun's grammatical gender"
+    },
+    {
+      "adjective": "अच्छा",
+      "gender_form": "m",
+      "alternate_form": "अच्छी",
+      "start": 308.73,
+      "end": 309.33,
+      "segment_text": "अच्छा",
+      "note": "Check if adjective agrees with following noun's grammatical gender"
+    }
+  ],
+  "ne_occurrences": [],
+  "summary": {
+    "total_words": 424,
+    "total_segments": 30,
+    "duration_s": 309.36,
+    "low_confidence_segments": 0,
+    "low_confidence_words": 0,
+    "candidate_bengali_words": 14,
+    "candidate_switch_points": 0,
+    "past_tense_verbs_found": 28,
+    "adjective_noun_pairs_found": 6,
+    "ne_occurrences": 0,
+    "note": "All counts are from UNVERIFIED Whisper output. Actual counts will differ after human verification — likely more Bengali words (Whisper converts them to Hindi) and more agreement errors (Whisper corrects them)."
+  }
+}

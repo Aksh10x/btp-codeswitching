@@ -1,715 +1,443 @@
 {
   "file": "S7_NewRecording7",
   "speaker_code": "S7",
-  "source_transcript": "BTPVIDS/transcripts/S7_NewRecording7_transcript.json",
+  "source_transcript": "transcripts/S7_NewRecording7_transcript.json",
   "WARNING": "Based on UNVERIFIED Whisper output. Whisper silently corrects agreement errors and converts Bengali to Hindi. Every flagged item MUST be verified against the audio.",
   "low_confidence_segments": [
     {
-      "start": 55.64,
-      "end": 67.36,
-      "text": "The speaker may switch between Hindi and Bengali mid-sentence.",
-      "avg_logprob": -1.5094,
-      "no_speech_prob": 0.1972,
+      "start": 34.15,
+      "end": 46.66,
+      "text": "तो मुद्दे ना पाती का � anymore अईएग92 फोटोस में आपको क्या फर्क दिखता पहली नजर में आपके फोटोस देखो दोनों",
+      "avg_logprob": -0.7715,
+      "no_speech_prob": 0.1901,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
     },
     {
-      "start": 67.36,
-      "end": 72.85,
-      "text": "A lady and her husband have a conversation.",
-      "avg_logprob": -1.5094,
-      "no_speech_prob": 0.1972,
+      "start": 46.66,
+      "end": 60.8,
+      "text": "शेमे बट इनका यह और यह दोनों सेम है पर इन बॉकियाय कर में हो लूं तो इसमें जो थे इस नहीं दोनों फोटोस सेम",
+      "avg_logprob": -0.7715,
+      "no_speech_prob": 0.1901,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
     },
     {
-      "start": 72.85,
-      "end": 75.49,
-      "text": "She asks a man if he can answer her in one sentence.",
-      "avg_logprob": -1.5094,
-      "no_speech_prob": 0.1972,
+      "start": 121.01,
+      "end": 128.03,
+      "text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
+      "avg_logprob": -1.252,
+      "no_speech_prob": 0.0563,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
     },
     {
-      "start": 75.81,
-      "end": 84.83,
-      "text": "She asks a man if he can answer her in one sentence.",
-      "avg_logprob": -1.5094,
-      "no_speech_prob": 0.1972,
-      "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
-    },
-    {
-      "start": 84.83,
-      "end": 94.55,
-      "text": "रहा है इस फोटो में चazuje दो ने Fucking बच्चा किताब पढ़ रहा है इस फोटो में एक लेडी ग्लास में पानी डाल दो",
-      "avg_logprob": -0.7098,
-      "no_speech_prob": 0.1926,
-      "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
-    },
-    {
-      "start": 94.55,
-      "end": 105.43,
-      "text": "है इसमें क्या हुआ कि ग्लास निक्टे पाल्टी होगा पानी कहीं गई थैंक बुल्टा गातर पत्र रखे बोजी",
-      "avg_logprob": -0.7098,
-      "no_speech_prob": 0.1926,
+      "start": 128.03,
+      "end": 134.25,
+      "text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "avg_logprob": -1.252,
+      "no_speech_prob": 0.0563,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
     }
   ],
   "candidate_bengali_stretches": [
     {
-      "word": "Transcribe",
-      "start": 16.09,
-      "end": 16.83,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "ना",
+      "start": 34.19,
+      "end": 34.39,
+      "probability": 0.3551,
+      "segment_text": "तो मुद्दे ना पाती का � anymore अईएग92 फोटोस में आपको क्या फर्क दिखता पहली नजर में आपके फोटोस देखो दोनों",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "exactly",
-      "start": 17.93,
-      "end": 17.93,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "पाती",
+      "start": 35.62,
+      "end": 36.66,
+      "probability": 0.2157,
+      "segment_text": "तो मुद्दे ना पाती का � anymore अईएग92 फोटोस में आपको क्या फर्क दिखता पहली नजर में आपके फोटोस देखो दोनों",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "what",
-      "start": 17.93,
-      "end": 17.93,
-      "probability": 0.1803,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "का",
+      "start": 38.09,
+      "end": 38.45,
+      "probability": 0.2705,
+      "segment_text": "तो मुद्दे ना पाती का � anymore अईएग92 फोटोस में आपको क्या फर्क दिखता पहली नजर में आपके फोटोस देखो दोनों",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "is",
-      "start": 17.93,
-      "end": 17.93,
-      "probability": 0.0546,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "अईएग92",
+      "start": 39.94,
+      "end": 41.56,
+      "probability": 0.3372,
+      "segment_text": "तो मुद्दे ना पाती का � anymore अईएग92 फोटोस में आपको क्या फर्क दिखता पहली नजर में आपके फोटोस देखो दोनों",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "said",
-      "start": 17.93,
-      "end": 18.27,
-      "probability": 0.0306,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "शेमे",
+      "start": 46.66,
+      "end": 47.56,
+      "probability": 0.2806,
+      "segment_text": "शेमे बट इनका यह और यह दोनों सेम है पर इन बॉकियाय कर में हो लूं तो इसमें जो थे इस नहीं दोनों फोटोस सेम",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "including",
-      "start": 18.27,
-      "end": 18.27,
-      "probability": 0.0,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "बॉकियाय",
+      "start": 49.58,
+      "end": 50.2,
+      "probability": 0.2361,
+      "segment_text": "शेमे बट इनका यह और यह दोनों सेम है पर इन बॉकियाय कर में हो लूं तो इसमें जो थे इस नहीं दोनों फोटोस सेम",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "hesitations,",
-      "start": 18.27,
-      "end": 18.27,
-      "probability": 0.0448,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "कर",
+      "start": 50.2,
+      "end": 50.46,
+      "probability": 0.3819,
+      "segment_text": "शेमे बट इनका यह और यह दोनों सेम है पर इन बॉकियाय कर में हो लूं तो इसमें जो थे इस नहीं दोनों फोटोस सेम",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "false",
-      "start": 19.54,
-      "end": 20.74,
-      "probability": 0.0001,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "हो",
+      "start": 50.58,
+      "end": 50.68,
+      "probability": 0.366,
+      "segment_text": "शेमे बट इनका यह और यह दोनों सेम है पर इन बॉकियाय कर में हो लूं तो इसमें जो थे इस नहीं दोनों फोटोस सेम",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "starts,",
-      "start": 22.03,
-      "end": 22.33,
-      "probability": 0.0003,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "युक्ते",
+      "start": 121.23,
+      "end": 121.75,
+      "probability": 0.3593,
+      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "and",
-      "start": 23.17,
-      "end": 23.43,
-      "probability": 0.3454,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "हो",
+      "start": 121.75,
+      "end": 121.75,
+      "probability": 0.3767,
+      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "Transcribe",
-      "start": 41.62,
-      "end": 42.36,
-      "probability": 0.3786,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "विच्चों",
+      "start": 124.75,
+      "end": 125.29,
+      "probability": 0.3611,
+      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "exactly",
-      "start": 42.36,
-      "end": 42.36,
-      "probability": 0.2862,
-      "segment_text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "word": "घेश",
+      "start": 125.29,
+      "end": 125.29,
+      "probability": 0.1657,
+      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "The",
-      "start": 55.64,
-      "end": 56.16,
-      "probability": 0.0002,
-      "segment_text": "The speaker may switch between Hindi and Bengali mid-sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "speaker",
-      "start": 56.16,
-      "end": 56.16,
-      "probability": 0.0,
-      "segment_text": "The speaker may switch between Hindi and Bengali mid-sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "may",
-      "start": 56.16,
-      "end": 56.16,
-      "probability": 0.0011,
-      "segment_text": "The speaker may switch between Hindi and Bengali mid-sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "switch",
-      "start": 56.16,
-      "end": 56.68,
-      "probability": 0.0024,
-      "segment_text": "The speaker may switch between Hindi and Bengali mid-sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "between",
-      "start": 56.68,
-      "end": 56.68,
-      "probability": 0.0048,
-      "segment_text": "The speaker may switch between Hindi and Bengali mid-sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "Hindi",
-      "start": 56.68,
-      "end": 56.9,
-      "probability": 0.0002,
-      "segment_text": "The speaker may switch between Hindi and Bengali mid-sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "mid",
-      "start": 61.24,
-      "end": 61.38,
-      "probability": 0.0,
-      "segment_text": "The speaker may switch between Hindi and Bengali mid-sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "A",
-      "start": 67.36,
-      "end": 67.38,
-      "probability": 0.0104,
-      "segment_text": "A lady and her husband have a conversation.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "lady",
-      "start": 67.38,
-      "end": 70.94,
-      "probability": 0.0024,
-      "segment_text": "A lady and her husband have a conversation.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "and",
-      "start": 72.39,
-      "end": 72.39,
-      "probability": 0.0053,
-      "segment_text": "A lady and her husband have a conversation.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "her",
-      "start": 72.39,
-      "end": 72.39,
-      "probability": 0.1965,
-      "segment_text": "A lady and her husband have a conversation.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "have",
-      "start": 72.39,
-      "end": 72.53,
-      "probability": 0.0801,
-      "segment_text": "A lady and her husband have a conversation.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "a",
-      "start": 72.53,
-      "end": 72.63,
-      "probability": 0.2758,
-      "segment_text": "A lady and her husband have a conversation.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "conversation.",
-      "start": 72.63,
-      "end": 72.85,
-      "probability": 0.1425,
-      "segment_text": "A lady and her husband have a conversation.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "She",
-      "start": 72.85,
-      "end": 72.85,
-      "probability": 0.0261,
-      "segment_text": "She asks a man if he can answer her in one sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "asks",
-      "start": 72.85,
-      "end": 72.85,
-      "probability": 0.0684,
-      "segment_text": "She asks a man if he can answer her in one sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "a",
-      "start": 72.85,
-      "end": 72.97,
-      "probability": 0.0991,
-      "segment_text": "She asks a man if he can answer her in one sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "man",
-      "start": 72.97,
-      "end": 72.97,
-      "probability": 0.2586,
-      "segment_text": "She asks a man if he can answer her in one sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "if",
-      "start": 72.97,
-      "end": 74.31,
-      "probability": 0.056,
-      "segment_text": "She asks a man if he can answer her in one sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "can",
-      "start": 74.33,
-      "end": 74.33,
-      "probability": 0.0698,
-      "segment_text": "She asks a man if he can answer her in one sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "answer",
-      "start": 74.33,
-      "end": 74.69,
-      "probability": 0.0086,
-      "segment_text": "She asks a man if he can answer her in one sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "her",
-      "start": 74.69,
-      "end": 74.69,
-      "probability": 0.0596,
-      "segment_text": "She asks a man if he can answer her in one sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "in",
-      "start": 74.69,
-      "end": 74.69,
-      "probability": 0.0741,
-      "segment_text": "She asks a man if he can answer her in one sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "She",
-      "start": 75.81,
-      "end": 76.27,
-      "probability": 0.0521,
-      "segment_text": "She asks a man if he can answer her in one sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "asks",
-      "start": 76.27,
-      "end": 76.49,
-      "probability": 0.2796,
-      "segment_text": "She asks a man if he can answer her in one sentence.",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "चazuje",
-      "start": 86.87,
-      "end": 87.01,
-      "probability": 0.1159,
-      "segment_text": "रहा है इस फोटो में चazuje दो ने Fucking बच्चा किताब पढ़ रहा है इस फोटो में एक लेडी ग्लास में पानी डाल दो",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "ने",
-      "start": 87.43,
-      "end": 87.93,
-      "probability": 0.2739,
-      "segment_text": "रहा है इस फोटो में चazuje दो ने Fucking बच्चा किताब पढ़ रहा है इस फोटो में एक लेडी ग्लास में पानी डाल दो",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "Fucking",
-      "start": 87.93,
-      "end": 89.29,
-      "probability": 0.0,
-      "segment_text": "रहा है इस फोटो में चazuje दो ने Fucking बच्चा किताब पढ़ रहा है इस फोटो में एक लेडी ग्लास में पानी डाल दो",
+      "word": "है",
+      "start": 125.29,
+      "end": 125.29,
+      "probability": 0.3287,
+      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
       "word": "कि",
-      "start": 97.06,
-      "end": 97.38,
-      "probability": 0.3769,
-      "segment_text": "है इसमें क्या हुआ कि ग्लास निक्टे पाल्टी होगा पानी कहीं गई थैंक बुल्टा गातर पत्र रखे बोजी",
+      "start": 127.33,
+      "end": 127.33,
+      "probability": 0.0948,
+      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "कहीं",
-      "start": 100.51,
-      "end": 100.85,
-      "probability": 0.2985,
-      "segment_text": "है इसमें क्या हुआ कि ग्लास निक्टे पाल्टी होगा पानी कहीं गई थैंक बुल्टा गातर पत्र रखे बोजी",
+      "word": "स्ट्रांड",
+      "start": 127.67,
+      "end": 127.87,
+      "probability": 0.3633,
+      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "पत्र",
-      "start": 103.56,
-      "end": 103.7,
-      "probability": 0.3346,
-      "segment_text": "है इसमें क्या हुआ कि ग्लास निक्टे पाल्टी होगा पानी कहीं गई थैंक बुल्टा गातर पत्र रखे बोजी",
+      "word": "होलते",
+      "start": 127.87,
+      "end": 128.03,
+      "probability": 0.3516,
+      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "बोजी",
-      "start": 104.23,
-      "end": 105.43,
-      "probability": 0.1454,
-      "segment_text": "है इसमें क्या हुआ कि ग्लास निक्टे पाल्टी होगा पानी कहीं गई थैंक बुल्टा गातर पत्र रखे बोजी",
+      "word": "वॉर",
+      "start": 128.95,
+      "end": 129.63,
+      "probability": 0.3214,
+      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
       "word": "कल",
-      "start": 175.67,
-      "end": 175.87,
-      "probability": 0.0065,
-      "segment_text": "कोई यह नहीं है मतलब जिससे बात करते हैं व कल हिंदी वाला है तो उसे हिंदी वाला से अच्छा दिन का कितना",
+      "start": 129.63,
+      "end": 130.01,
+      "probability": 0.0118,
+      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "को",
-      "start": 230.59,
-      "end": 230.83,
-      "probability": 0.3206,
-      "segment_text": "करना है पॉजिंग होता तो उसको मतलब को सलूशन निकलना है कभी है इस वाली शॉप में कोई पारेशानी आएंगे आपको ने",
+      "word": "मैं",
+      "start": 130.01,
+      "end": 130.87,
+      "probability": 0.3365,
+      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "सहब्दे",
-      "start": 235.71,
-      "end": 236.15,
-      "probability": 0.3195,
-      "segment_text": "नहीं यह थी इस वाली सहब्दे ने प्रैफर करते हो गया ने मॉर्निंग शिफ्ट हो या कि नहीं शिफ्ट उठागे मेरा",
+      "word": "शांति",
+      "start": 130.87,
+      "end": 131.13,
+      "probability": 0.2671,
+      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "उठागे",
-      "start": 240.37,
-      "end": 252.07,
-      "probability": 0.3303,
-      "segment_text": "नहीं यह थी इस वाली सहब्दे ने प्रैफर करते हो गया ने मॉर्निंग शिफ्ट हो या कि नहीं शिफ्ट उठागे मेरा",
+      "word": "पुरिय",
+      "start": 131.31,
+      "end": 131.31,
+      "probability": 0.2044,
+      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "कि",
-      "start": 254.24,
-      "end": 254.52,
-      "probability": 0.3331,
-      "segment_text": "हुआ था इसको रिपोर्ट आगे तो कि नहीं हुआ तो वह नामिक नाइट शिफ्ट ने स्पान से वाले शिफ्ट आपको सबसे ईजी लगते",
+      "word": "पेड़",
+      "start": 131.31,
+      "end": 131.31,
+      "probability": 0.3435,
+      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "नामिक",
-      "start": 255.54,
-      "end": 256.22,
-      "probability": 0.2635,
-      "segment_text": "हुआ था इसको रिपोर्ट आगे तो कि नहीं हुआ तो वह नामिक नाइट शिफ्ट ने स्पान से वाले शिफ्ट आपको सबसे ईजी लगते",
+      "word": "थी",
+      "start": 132.49,
+      "end": 132.61,
+      "probability": 0.2338,
+      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
       "word": "से",
-      "start": 257.46,
-      "end": 257.7,
-      "probability": 0.3346,
-      "segment_text": "हुआ था इसको रिपोर्ट आगे तो कि नहीं हुआ तो वह नामिक नाइट शिफ्ट ने स्पान से वाले शिफ्ट आपको सबसे ईजी लगते",
+      "start": 132.79,
+      "end": 132.83,
+      "probability": 0.1749,
+      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "पर",
-      "start": 261.22,
-      "end": 261.46,
-      "probability": 0.3843,
-      "segment_text": "और कौन सी मुश्कूल लगते हैं नेक्स्ट पर सोचने के लिए फोल्ड नाइट जागना नहीं होता है सोने के लिए उसका",
+      "word": "पैन",
+      "start": 132.83,
+      "end": 133.47,
+      "probability": 0.1617,
+      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "सोचने",
-      "start": 261.46,
-      "end": 261.94,
-      "probability": 0.3879,
-      "segment_text": "और कौन सी मुश्कूल लगते हैं नेक्स्ट पर सोचने के लिए फोल्ड नाइट जागना नहीं होता है सोने के लिए उसका",
+      "word": "है",
+      "start": 167.83,
+      "end": 168.17,
+      "probability": 0.1212,
+      "segment_text": "है और दिन में आपको कितना टाइम पूंधर बोलने पड़ती है मतलब इनका ऐसा कोई नहीं है मतलब किससे बात करते हैं",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "टीटी",
-      "start": 277.76,
-      "end": 280.6,
-      "probability": 0.33,
-      "segment_text": "फिर टीटी है तो ड्यूटी में आया जाता है डूट आटो घंटा निकलने के वापस तो डूटी का दुर्व में यह पैसा",
+      "word": "पूंधर",
+      "start": 169.63,
+      "end": 169.95,
+      "probability": 0.2554,
+      "segment_text": "है और दिन में आपको कितना टाइम पूंधर बोलने पड़ती है मतलब इनका ऐसा कोई नहीं है मतलब किससे बात करते हैं",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "आटो",
-      "start": 282.1,
-      "end": 282.34,
-      "probability": 0.3713,
-      "segment_text": "फिर टीटी है तो ड्यूटी में आया जाता है डूट आटो घंटा निकलने के वापस तो डूटी का दुर्व में यह पैसा",
+      "word": "ओर",
+      "start": 175.97,
+      "end": 176.27,
+      "probability": 0.3353,
+      "segment_text": "अगले वालों से ओर से भी बल्कुल करते अवेश्यन का कितना टाइम जाता है वह ज्यादा टाइम की हिंदी में जाता",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "पैसा",
-      "start": 285.02,
-      "end": 285.74,
-      "probability": 0.2718,
-      "segment_text": "फिर टीटी है तो ड्यूटी में आया जाता है डूट आटो घंटा निकलने के वापस तो डूटी का दुर्व में यह पैसा",
+      "word": "अवेश्यन",
+      "start": 177.55,
+      "end": 177.89,
+      "probability": 0.3202,
+      "segment_text": "अगले वालों से ओर से भी बल्कुल करते अवेश्यन का कितना टाइम जाता है वह ज्यादा टाइम की हिंदी में जाता",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "हम",
-      "start": 320.66,
-      "end": 320.66,
-      "probability": 0.272,
-      "segment_text": "सब्सक्राइब सब्सक्राइब करना नियुक्ति हम लगता नहीं है हम लगता नहीं है",
+      "word": "की",
+      "start": 179.97,
+      "end": 180.11,
+      "probability": 0.102,
+      "segment_text": "अगले वालों से ओर से भी बल्कुल करते अवेश्यन का कितना टाइम जाता है वह ज्यादा टाइम की हिंदी में जाता",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
-      "word": "कि",
-      "start": 324.93,
-      "end": 325.13,
-      "probability": 0.2146,
-      "segment_text": "कि अपने दादा रिकॉर्डिंग और",
+      "word": "है",
+      "start": 227.37,
+      "end": 227.37,
+      "probability": 0.3563,
+      "segment_text": "है या कोई पॉब्लम होता तो उसको मतलब पर सलूशन निकलना है अभी ऐसी कोई परेशानी आई है आपको नहीं",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "ना",
+      "start": 310.04,
+      "end": 310.16,
+      "probability": 0.3404,
+      "segment_text": "ना भी से यह जो सदर्ग रहना बड़ता है या गेट से कोई ऐसी चीज और गेट कास करना नहीं करें तो आपकी वह",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "जो",
+      "start": 311.02,
+      "end": 311.06,
+      "probability": 0.2044,
+      "segment_text": "ना भी से यह जो सदर्ग रहना बड़ता है या गेट से कोई ऐसी चीज और गेट कास करना नहीं करें तो आपकी वह",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "कास",
+      "start": 316.08,
+      "end": 316.22,
+      "probability": 0.3155,
+      "segment_text": "ना भी से यह जो सदर्ग रहना बड़ता है या गेट से कोई ऐसी चीज और गेट कास करना नहीं करें तो आपकी वह",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     }
   ],
   "past_tense_verbs": [
     {
-      "verb": "रहा",
-      "gender_form": "m_sg",
-      "start": 84.83,
-      "end": 85.01,
-      "segment_text": "रहा है इस फोटो में चazuje दो ने Fucking बच्चा किताब पढ़ रहा है इस फोटो में एक लेडी ग्लास में पानी डाल दो",
+      "verb": "आए",
+      "gender_form": "m_pl",
+      "start": 9.96,
+      "end": 10.12,
+      "segment_text": "आपको जो सबसे पहले आए यह चैनल है बुक हाउस का दर्जा खिड़की पानी में ना ग्लास में पानी रोटी लांच",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
-      "verb": "रहा",
+      "verb": "खिड़की",
+      "gender_form": "f_sg",
+      "start": 23.09,
+      "end": 24.03,
+      "segment_text": "आपको जो सबसे पहले आए यह चैनल है बुक हाउस का दर्जा खिड़की पानी में ना ग्लास में पानी रोटी लांच",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "पहली",
+      "gender_form": "f_sg",
+      "start": 44.68,
+      "end": 45.0,
+      "segment_text": "तो मुद्दे ना पाती का � anymore अईएग92 फोटोस में आपको क्या फर्क दिखता पहली नजर में आपके फोटोस देखो दोनों",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बॉकियाय",
       "gender_form": "m_sg",
-      "start": 90.07,
-      "end": 90.21,
-      "segment_text": "रहा है इस फोटो में चazuje दो ने Fucking बच्चा किताब पढ़ रहा है इस फोटो में एक लेडी ग्लास में पानी डाल दो",
+      "start": 49.58,
+      "end": 50.2,
+      "segment_text": "शेमे बट इनका यह और यह दोनों सेम है पर इन बॉकियाय कर में हो लूं तो इसमें जो थे इस नहीं दोनों फोटोस सेम",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बेंगोली",
+      "gender_form": "f_sg",
+      "start": 128.25,
+      "end": 128.95,
+      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "की",
+      "gender_form": "f_sg",
+      "start": 179.97,
+      "end": 180.11,
+      "segment_text": "अगले वालों से ओर से भी बल्कुल करते अवेश्यन का कितना टाइम जाता है वह ज्यादा टाइम की हिंदी में जाता",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
       "verb": "हुआ",
       "gender_form": "m_sg",
-      "start": 96.82,
-      "end": 97.06,
-      "segment_text": "है इसमें क्या हुआ कि ग्लास निक्टे पाल्टी होगा पानी कहीं गई थैंक बुल्टा गातर पत्र रखे बोजी",
+      "start": 200.49,
+      "end": 200.61,
+      "segment_text": "नहीं मतलब फिर भी कोई दिन ऐसा होता हुआ थोड़ा मुश्किल जाता हुआ होता है कोई जैसे एक परिवार में किसी परिवार",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
-      "verb": "कहीं",
-      "gender_form": "f_sg",
-      "start": 100.51,
-      "end": 100.85,
-      "segment_text": "है इसमें क्या हुआ कि ग्लास निक्टे पाल्टी होगा पानी कहीं गई थैंक बुल्टा गातर पत्र रखे बोजी",
+      "verb": "हुआ",
+      "gender_form": "m_sg",
+      "start": 201.67,
+      "end": 201.81,
+      "segment_text": "नहीं मतलब फिर भी कोई दिन ऐसा होता हुआ थोड़ा मुश्किल जाता हुआ होता है कोई जैसे एक परिवार में किसी परिवार",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
-      "verb": "गई",
-      "gender_form": "f_sg",
-      "start": 100.85,
-      "end": 100.97,
-      "segment_text": "है इसमें क्या हुआ कि ग्लास निक्टे पाल्टी होगा पानी कहीं गई थैंक बुल्टा गातर पत्र रखे बोजी",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "रखे",
+      "verb": "हमारे",
       "gender_form": "m_pl",
-      "start": 103.7,
-      "end": 103.8,
-      "segment_text": "है इसमें क्या हुआ कि ग्लास निक्टे पाल्टी होगा पानी कहीं गई थैंक बुल्टा गातर पत्र रखे बोजी",
+      "start": 224.65,
+      "end": 224.93,
+      "segment_text": "सब बराबर नहीं होता इतना और सबसे मुश्किल समय क्या होता है नहीं हमारे जब कोई है मतलब प्रोडक्शन देना",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
-      "verb": "बेंगुली",
+      "verb": "आई",
       "gender_form": "f_sg",
-      "start": 128.27,
-      "end": 128.99,
-      "segment_text": "सब्सक्राइब करें और आप घर पर कौन सी भाषा बोलते हो बेंगुली बेंगुली हिंदी बोलते हैं",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "बेंगुली",
-      "gender_form": "f_sg",
-      "start": 128.99,
-      "end": 130.49,
-      "segment_text": "सब्सक्राइब करें और आप घर पर कौन सी भाषा बोलते हो बेंगुली बेंगुली हिंदी बोलते हैं",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हिंदी",
-      "gender_form": "f_sg",
-      "start": 130.49,
-      "end": 131.15,
-      "segment_text": "सब्सक्राइब करें और आप घर पर कौन सी भाषा बोलते हो बेंगुली बेंगुली हिंदी बोलते हैं",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हिंदी",
-      "gender_form": "f_sg",
-      "start": 141.6,
-      "end": 141.78,
-      "segment_text": "और आपने कब से हिंदी बोलने से शुरू करें इंडियन और यहां पर आपका ज़्यादा और दिन में आपको कितना टाइम हिंदी",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हिंदी",
-      "gender_form": "f_sg",
-      "start": 169.63,
-      "end": 169.89,
-      "segment_text": "और आपने कब से हिंदी बोलने से शुरू करें इंडियन और यहां पर आपका ज़्यादा और दिन में आपको कितना टाइम हिंदी",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हिंदी",
-      "gender_form": "f_sg",
-      "start": 175.87,
-      "end": 176.09,
-      "segment_text": "कोई यह नहीं है मतलब जिससे बात करते हैं व कल हिंदी वाला है तो उसे हिंदी वाला से अच्छा दिन का कितना",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हिंदी",
-      "gender_form": "f_sg",
-      "start": 176.65,
-      "end": 176.83,
-      "segment_text": "कोई यह नहीं है मतलब जिससे बात करते हैं व कल हिंदी वाला है तो उसे हिंदी वाला से अच्छा दिन का कितना",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हिंदी",
-      "gender_form": "f_sg",
-      "start": 179.99,
-      "end": 180.25,
-      "segment_text": "टाइम जाता है से बहुत ज्यादा टाइम हिंदी में जाता है और कोई भाषा बोलते हो लेंग थोड़ा और दारा आपको यहां",
+      "start": 233.29,
+      "end": 233.47,
+      "segment_text": "है या कोई पॉब्लम होता तो उसको मतलब पर सलूशन निकलना है अभी ऐसी कोई परेशानी आई है आपको नहीं",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
       "verb": "वाली",
       "gender_form": "f_sg",
-      "start": 232.85,
-      "end": 232.85,
-      "segment_text": "करना है पॉजिंग होता तो उसको मतलब को सलूशन निकलना है कभी है इस वाली शॉप में कोई पारेशानी आएंगे आपको ने",
+      "start": 235.41,
+      "end": 235.67,
+      "segment_text": "नहीं इस वाली जॉब में नहीं आप रेफर करते होगे ना मॉर्निंग शिफ्ट हो या इधन शिफ्ट हो रहे लगे मेरा",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
-      "verb": "आएंगे",
+      "verb": "रहे",
       "gender_form": "m_pl",
-      "start": 233.31,
-      "end": 233.69,
-      "segment_text": "करना है पॉजिंग होता तो उसको मतलब को सलूशन निकलना है कभी है इस वाली शॉप में कोई पारेशानी आएंगे आपको ने",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "वाली",
-      "gender_form": "f_sg",
-      "start": 235.49,
-      "end": 235.71,
-      "segment_text": "नहीं यह थी इस वाली सहब्दे ने प्रैफर करते हो गया ने मॉर्निंग शिफ्ट हो या कि नहीं शिफ्ट उठागे मेरा",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "गया",
-      "gender_form": "m_sg",
-      "start": 238.27,
-      "end": 238.35,
-      "segment_text": "नहीं यह थी इस वाली सहब्दे ने प्रैफर करते हो गया ने मॉर्निंग शिफ्ट हो या कि नहीं शिफ्ट उठागे मेरा",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "उठागे",
-      "gender_form": "m_sg",
-      "start": 240.37,
-      "end": 252.07,
-      "segment_text": "नहीं यह थी इस वाली सहब्दे ने प्रैफर करते हो गया ने मॉर्निंग शिफ्ट हो या कि नहीं शिफ्ट उठागे मेरा",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हुआ",
-      "gender_form": "m_sg",
-      "start": 253.16,
-      "end": 253.3,
-      "segment_text": "हुआ था इसको रिपोर्ट आगे तो कि नहीं हुआ तो वह नामिक नाइट शिफ्ट ने स्पान से वाले शिफ्ट आपको सबसे ईजी लगते",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हुआ",
-      "gender_form": "m_sg",
-      "start": 254.7,
-      "end": 254.88,
-      "segment_text": "हुआ था इसको रिपोर्ट आगे तो कि नहीं हुआ तो वह नामिक नाइट शिफ्ट ने स्पान से वाले शिफ्ट आपको सबसे ईजी लगते",
+      "start": 240.57,
+      "end": 240.69,
+      "segment_text": "नहीं इस वाली जॉब में नहीं आप रेफर करते होगे ना मॉर्निंग शिफ्ट हो या इधन शिफ्ट हो रहे लगे मेरा",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
       "verb": "लिए",
       "gender_form": "m_pl",
-      "start": 262.1,
-      "end": 262.1,
-      "segment_text": "और कौन सी मुश्कूल लगते हैं नेक्स्ट पर सोचने के लिए फोल्ड नाइट जागना नहीं होता है सोने के लिए उसका",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "लिए",
-      "gender_form": "m_pl",
-      "start": 266.08,
+      "start": 266.04,
       "end": 266.14,
-      "segment_text": "और कौन सी मुश्कूल लगते हैं नेक्स्ट पर सोचने के लिए फोल्ड नाइट जागना नहीं होता है सोने के लिए उसका",
+      "segment_text": "सोने के लिए उसका हम एगेंट्स उसका वर्कलप और दादा आपने जिससे अगर मैं को आप अपना सुबह से लेकर अभी तक",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
-      "verb": "आया",
+      "verb": "लिया",
       "gender_form": "m_sg",
-      "start": 281.26,
-      "end": 281.4,
-      "segment_text": "फिर टीटी है तो ड्यूटी में आया जाता है डूट आटो घंटा निकलने के वापस तो डूटी का दुर्व में यह पैसा",
+      "start": 299.82,
+      "end": 300.02,
+      "segment_text": "आगले जो दूटी में था उसको जितनी बात तो उसको शाद खेंड़ बग लिया अच्छा कोई परलेम होता तो कोई पर भी",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "आपकी",
+      "gender_form": "f_sg",
+      "start": 317.86,
+      "end": 318.0,
+      "segment_text": "ना भी से यह जो सदर्ग रहना बड़ता है या गेट से कोई ऐसी चीज और गेट कास करना नहीं करें तो आपकी वह",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "लिए",
+      "gender_form": "m_pl",
+      "start": 321.56,
+      "end": 321.78,
+      "segment_text": "सब्सक्राइब जूटी लगती है वहीं नहीं हम लगता नहीं हम लोग ऐसे लिए हम वह लगता नहीं है थी कि आप रिकॉर्डिंग",
       "note": "Agreement site — verify gender matches subject/object"
     }
   ],
@@ -718,22 +446,22 @@
       "adjective": "अच्छा",
       "gender_form": "m",
       "alternate_form": "अच्छी",
-      "start": 177.19,
-      "end": 177.41,
-      "segment_text": "कोई यह नहीं है मतलब जिससे बात करते हैं व कल हिंदी वाला है तो उसे हिंदी वाला से अच्छा दिन का कितना",
+      "start": 300.02,
+      "end": 300.62,
+      "segment_text": "आगले जो दूटी में था उसको जितनी बात तो उसको शाद खेंड़ बग लिया अच्छा कोई परलेम होता तो कोई पर भी",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     }
   ],
   "ne_occurrences": [],
   "summary": {
-    "total_words": 367,
-    "total_segments": 22,
+    "total_words": 451,
+    "total_segments": 20,
     "duration_s": 330.15,
-    "low_confidence_segments": 6,
-    "low_confidence_words": 84,
-    "candidate_bengali_words": 58,
-    "candidate_switch_points": 2,
-    "past_tense_verbs_found": 24,
+    "low_confidence_segments": 4,
+    "low_confidence_words": 89,
+    "candidate_bengali_words": 34,
+    "candidate_switch_points": 4,
+    "past_tense_verbs_found": 16,
     "adjective_noun_pairs_found": 1,
     "ne_occurrences": 0,
     "note": "All counts are from UNVERIFIED Whisper output. Actual counts will differ after human verification — likely more Bengali words (Whisper converts them to Hindi) and more agreement errors (Whisper corrects them)."
