@@ -1,0 +1,221 @@
+{
+  "file": "S1_IMG_6648",
+  "speaker_code": "S1",
+  "source_transcript": "BTPVIDS/transcripts/S1_IMG_6648_transcript.json",
+  "WARNING": "Based on UNVERIFIED Whisper output. Whisper silently corrects agreement errors and converts Bengali to Hindi. Every flagged item MUST be verified against the audio.",
+  "low_confidence_segments": [],
+  "candidate_bengali_stretches": [
+    {
+      "word": "Hospital",
+      "start": 7.48,
+      "end": 7.92,
+      "probability": 0.3064,
+      "segment_text": "IT Hospital में हूँ.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "ओ,",
+      "start": 33.12,
+      "end": 33.14,
+      "probability": 0.3285,
+      "segment_text": "ओ, घर पे बिंगॉली ही बोलते हो आँगे?",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "हम",
+      "start": 44.65,
+      "end": 45.11,
+      "probability": 0.3052,
+      "segment_text": "हम गजियों से हैं.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "हैं.",
+      "start": 45.77,
+      "end": 46.13,
+      "probability": 0.2842,
+      "segment_text": "हम गजियों से हैं.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "ओ!",
+      "start": 46.13,
+      "end": 46.29,
+      "probability": 0.3502,
+      "segment_text": "ओ!",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "फिर",
+      "start": 76.36,
+      "end": 76.4,
+      "probability": 0.3462,
+      "segment_text": "यहाँ पढ़े फिर आप स्कूल टाइम में?",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    }
+  ],
+  "past_tense_verbs": [
+    {
+      "verb": "कहां",
+      "gender_form": "m_sg",
+      "start": 0.1,
+      "end": 1.14,
+      "segment_text": "आपका कहां से हो आप? आपका गाउ कौन सा है?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "रहे",
+      "gender_form": "m_pl",
+      "start": 6.92,
+      "end": 7.0,
+      "segment_text": "अच्छा खरगपुर से हो, बच्पन से, यहीं फिर रह रहे हो?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "हुआ",
+      "gender_form": "m_sg",
+      "start": 9.8,
+      "end": 10.06,
+      "segment_text": "अच्छा यहीं फिर जना हुआ आपका?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "हिंदी",
+      "gender_form": "f_sg",
+      "start": 14.31,
+      "end": 14.61,
+      "segment_text": "और आप हिंदी कब से बोलने लगे?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बिंगॉली.",
+      "gender_form": "f_sg",
+      "start": 32.51,
+      "end": 32.91,
+      "segment_text": "बिंगॉली.",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बिंगॉली",
+      "gender_form": "f_sg",
+      "start": 34.6,
+      "end": 34.96,
+      "segment_text": "ओ, घर पे बिंगॉली ही बोलते हो आँगे?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "बिंगॉली.",
+      "gender_form": "f_sg",
+      "start": 35.78,
+      "end": 36.18,
+      "segment_text": "बिंगॉली.",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "हिंदी",
+      "gender_form": "f_sg",
+      "start": 36.64,
+      "end": 36.78,
+      "segment_text": "घर पे हिंदी नहीं बोलते बिल्कुल के?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "हिंदी",
+      "gender_form": "f_sg",
+      "start": 38.66,
+      "end": 39.02,
+      "segment_text": "तो हिंदी आप अथला स्टूडेंट के साथ और ऐसे ही बोलते हो?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "कहां",
+      "gender_form": "m_sg",
+      "start": 43.55,
+      "end": 43.79,
+      "segment_text": "आप इसके पे कहां तक पढ़े हो दादा?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "पढ़े",
+      "gender_form": "m_pl",
+      "start": 43.97,
+      "end": 44.25,
+      "segment_text": "आप इसके पे कहां तक पढ़े हो दादा?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "हिंदी",
+      "gender_form": "f_sg",
+      "start": 49.8,
+      "end": 50.36,
+      "segment_text": "हिंदी कब तक पढ़े फिर आप स्कूल, स्कूल टाइम में?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "पढ़े",
+      "gender_form": "m_pl",
+      "start": 50.82,
+      "end": 51.06,
+      "segment_text": "हिंदी कब तक पढ़े फिर आप स्कूल, स्कूल टाइम में?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "हिंदी",
+      "gender_form": "f_sg",
+      "start": 53.26,
+      "end": 53.68,
+      "segment_text": "हिंदी कब तक पढ़े थर्ड लान्वेज?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "पढ़े",
+      "gender_form": "m_pl",
+      "start": 54.16,
+      "end": 54.4,
+      "segment_text": "हिंदी कब तक पढ़े थर्ड लान्वेज?",
+      "note": "Agreement site — verify gender matches subject/object"
+    },
+    {
+      "verb": "पढ़े",
+      "gender_form": "m_pl",
+      "start": 76.34,
+      "end": 76.36,
+      "segment_text": "यहाँ पढ़े फिर आप स्कूल टाइम में?",
+      "note": "Agreement site — verify gender matches subject/object"
+    }
+  ],
+  "adjective_noun_pairs": [
+    {
+      "adjective": "अच्छा",
+      "gender_form": "m",
+      "alternate_form": "अच्छी",
+      "start": 4.64,
+      "end": 4.9,
+      "segment_text": "अच्छा खरगपुर से हो, बच्पन से, यहीं फिर रह रहे हो?",
+      "note": "Check if adjective agrees with following noun's grammatical gender"
+    },
+    {
+      "adjective": "अच्छा",
+      "gender_form": "m",
+      "alternate_form": "अच्छी",
+      "start": 8.74,
+      "end": 9.0,
+      "segment_text": "अच्छा यहीं फिर जना हुआ आपका?",
+      "note": "Check if adjective agrees with following noun's grammatical gender"
+    }
+  ],
+  "ne_occurrences": [],
+  "summary": {
+    "total_words": 130,
+    "total_segments": 27,
+    "duration_s": 76.67,
+    "low_confidence_segments": 0,
+    "low_confidence_words": 0,
+    "candidate_bengali_words": 6,
+    "candidate_switch_points": 0,
+    "past_tense_verbs_found": 16,
+    "adjective_noun_pairs_found": 2,
+    "ne_occurrences": 0,
+    "note": "All counts are from UNVERIFIED Whisper output. Actual counts will differ after human verification — likely more Bengali words (Whisper converts them to Hindi) and more agreement errors (Whisper corrects them)."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "title": "Cross-Speaker Summary: Code-Switching and Gender Agreement",
+  "WARNING": "All data from unverified Whisper output. Counts are lower bounds.",
+  "speakers": [
+    {
+      "speaker": "S1",
+      "file": "S1_IMG_6647",
+      "duration_s": 231.19,
+      "total_words": 33,
+      "candidate_bengali_words": 25,
+      "bengali_word_pct": 75.8,
+      "candidate_switch_points": 0,
+      "past_tense_verbs": 0,
+      "adjective_noun_pairs": 0,
+      "ne_occurrences": 0,
+      "agreement_sites_total": 0
+    },
+    {
+      "speaker": "S1",
+      "file": "S1_IMG_6648",
+      "duration_s": 76.67,
+      "total_words": 130,
+      "candidate_bengali_words": 6,
+      "bengali_word_pct": 4.6,
+      "candidate_switch_points": 0,
+      "past_tense_verbs": 16,
+      "adjective_noun_pairs": 2,
+      "ne_occurrences": 0,
+      "agreement_sites_total": 18
+    },
+    {
+      "speaker": "S3",
+      "file": "S3_IMG_6651",
+      "duration_s": 370.95,
+      "total_words": 381,
+      "candidate_bengali_words": 94,
+      "bengali_word_pct": 24.7,
+      "candidate_switch_points": 4,
+      "past_tense_verbs": 23,
+      "adjective_noun_pairs": 1,
+      "ne_occurrences": 0,
+      "agreement_sites_total": 24
+    },
+    {
+      "speaker": "S7",
+      "file": "S7_NewRecording7",
+      "duration_s": 330.15,
+      "total_words": 367,
+      "candidate_bengali_words": 58,
+      "bengali_word_pct": 15.8,
+      "candidate_switch_points": 2,
+      "past_tense_verbs": 24,
+      "adjective_noun_pairs": 1,
+      "ne_occurrences": 0,
+      "agreement_sites_total": 25
+    }
+  ],
+  "totals": {
+    "total_words": 911,
+    "total_duration_s": 0,
+    "candidate_bengali_words": 183,
+    "candidate_switch_points": 6,
+    "past_tense_verbs": 63,
+    "adjective_noun_pairs": 4,
+    "ne_occurrences": 0,
+    "agreement_sites_total": 67
+  }
+}

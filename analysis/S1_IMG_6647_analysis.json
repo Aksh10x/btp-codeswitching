@@ -1,0 +1,225 @@
+{
+  "file": "S1_IMG_6647",
+  "speaker_code": "S1",
+  "source_transcript": "BTPVIDS/transcripts/S1_IMG_6647_transcript.json",
+  "WARNING": "Based on UNVERIFIED Whisper output. Whisper silently corrects agreement errors and converts Bengali to Hindi. Every flagged item MUST be verified against the audio.",
+  "low_confidence_segments": [],
+  "candidate_bengali_stretches": [
+    {
+      "word": "Start.",
+      "start": 0.06,
+      "end": 0.24,
+      "probability": 0.0056,
+      "segment_text": "Start.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "The",
+      "start": 78.5,
+      "end": 79.9,
+      "probability": 0.0001,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "speaker",
+      "start": 79.9,
+      "end": 81.3,
+      "probability": 0.0,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "may",
+      "start": 82.34,
+      "end": 82.44,
+      "probability": 0.0006,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "switch",
+      "start": 82.44,
+      "end": 83.18,
+      "probability": 0.0012,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "between",
+      "start": 93.15,
+      "end": 111.27,
+      "probability": 0.0009,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "Hindi",
+      "start": 124.64,
+      "end": 124.64,
+      "probability": 0.0044,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "The",
+      "start": 146.09,
+      "end": 146.77,
+      "probability": 0.0002,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "speaker",
+      "start": 147.94,
+      "end": 148.62,
+      "probability": 0.0001,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "may",
+      "start": 148.62,
+      "end": 148.64,
+      "probability": 0.0012,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "switch",
+      "start": 148.64,
+      "end": 151.42,
+      "probability": 0.0018,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "between",
+      "start": 151.42,
+      "end": 151.76,
+      "probability": 0.001,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "Hindi",
+      "start": 151.76,
+      "end": 152.0,
+      "probability": 0.0003,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "The",
+      "start": 180.68,
+      "end": 181.44,
+      "probability": 0.0003,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "speaker",
+      "start": 183.44,
+      "end": 184.2,
+      "probability": 0.0002,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "may",
+      "start": 184.2,
+      "end": 184.3,
+      "probability": 0.0046,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "switch",
+      "start": 184.3,
+      "end": 195.26,
+      "probability": 0.0023,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "between",
+      "start": 195.26,
+      "end": 203.38,
+      "probability": 0.0014,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "Hindi",
+      "start": 203.38,
+      "end": 203.4,
+      "probability": 0.0002,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "The",
+      "start": 203.86,
+      "end": 205.04,
+      "probability": 0.0001,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "speaker",
+      "start": 205.38,
+      "end": 205.92,
+      "probability": 0.0003,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "may",
+      "start": 205.92,
+      "end": 205.92,
+      "probability": 0.0029,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "switch",
+      "start": 205.92,
+      "end": 207.54,
+      "probability": 0.0006,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "between",
+      "start": 207.54,
+      "end": 208.18,
+      "probability": 0.0009,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    },
+    {
+      "word": "Hindi",
+      "start": 208.18,
+      "end": 208.18,
+      "probability": 0.0004,
+      "segment_text": "The speaker may switch between Hindi and Bengali.",
+      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
+    }
+  ],
+  "past_tense_verbs": [],
+  "adjective_noun_pairs": [],
+  "ne_occurrences": [],
+  "summary": {
+    "total_words": 33,
+    "total_segments": 5,
+    "duration_s": 231.19,
+    "low_confidence_segments": 0,
+    "low_confidence_words": 0,
+    "candidate_bengali_words": 25,
+    "candidate_switch_points": 0,
+    "past_tense_verbs_found": 0,
+    "adjective_noun_pairs_found": 0,
+    "ne_occurrences": 0,
+    "note": "All counts are from UNVERIFIED Whisper output. Actual counts will differ after human verification — likely more Bengali words (Whisper converts them to Hindi) and more agreement errors (Whisper corrects them)."
+  }
+}

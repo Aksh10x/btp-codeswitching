@@ -1,0 +1,17 @@
+DRAFT TRANSCRIPT — UNVERIFIED — S1_IMG_6647
+Speaker: S1
+Model: faster-whisper large-v3
+Language detected: hi (p=1.000)
+Duration: 231.2s
+======================================================================
+WARNING: This transcript WILL contain errors. Whisper predicts the
+most likely sentence and silently 'corrects' non-standard agreement,
+converts Bengali words to Hindi lookalikes, and fills in unclear audio.
+Every line must be verified against the recording.
+======================================================================
+
+[00:00:00.060 -> 00:00:00.240] Start.
+[00:01:18.500 -> 00:02:04.640] The speaker may switch between Hindi and Bengali. [POSSIBLE NON-SPEECH]
+[00:02:26.090 -> 00:02:46.689] The speaker may switch between Hindi and Bengali. [POSSIBLE NON-SPEECH]
+[00:03:00.680 -> 00:03:23.819] The speaker may switch between Hindi and Bengali. [POSSIBLE NON-SPEECH]
+[00:03:23.860 -> 00:03:47.439] The speaker may switch between Hindi and Bengali.

@@ -1,0 +1,262 @@
+{
+  "file": "S1_IMG_6647",
+  "speaker_code": "S1",
+  "source_audio": "BTPVIDS/extracted_audio/S1_IMG_6647.wav",
+  "whisper_model": "large-v3",
+  "detected_language": "hi",
+  "language_probability": 1,
+  "duration_s": 231.19,
+  "WARNING": "This is an UNVERIFIED machine transcript. Whisper silently corrects agreement errors (e.g. 'kitab gira' -> 'kitab giri') and converts Bengali words to similar-sounding Hindi. Every segment MUST be checked against the audio by a human listener before use in analysis.",
+  "total_segments": 5,
+  "total_words": 33,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.06,
+      "end": 0.24,
+      "text": "Start.",
+      "avg_logprob": -0.6902,
+      "no_speech_prob": 0.0722,
+      "words": [
+        {
+          "word": "Start.",
+          "start": 0.06,
+          "end": 0.24,
+          "probability": 0.0056
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 78.5,
+      "end": 124.64,
+      "text": "The speaker may switch between Hindi and Bengali.",
+      "avg_logprob": -0.5848,
+      "no_speech_prob": 0.8171,
+      "words": [
+        {
+          "word": "The",
+          "start": 78.5,
+          "end": 79.9,
+          "probability": 0.0001
+        },
+        {
+          "word": "speaker",
+          "start": 79.9,
+          "end": 81.3,
+          "probability": 0.0
+        },
+        {
+          "word": "may",
+          "start": 82.34,
+          "end": 82.44,
+          "probability": 0.0006
+        },
+        {
+          "word": "switch",
+          "start": 82.44,
+          "end": 83.18,
+          "probability": 0.0012
+        },
+        {
+          "word": "between",
+          "start": 93.15,
+          "end": 111.27,
+          "probability": 0.0009
+        },
+        {
+          "word": "Hindi",
+          "start": 124.64,
+          "end": 124.64,
+          "probability": 0.0044
+        },
+        {
+          "word": "and",
+          "start": 124.64,
+          "end": 124.64,
+          "probability": 0.939
+        },
+        {
+          "word": "Bengali.",
+          "start": 124.64,
+          "end": 124.64,
+          "probability": 0.4978
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 146.09,
+      "end": 166.69,
+      "text": "The speaker may switch between Hindi and Bengali.",
+      "avg_logprob": -0.1333,
+      "no_speech_prob": 0.7204,
+      "words": [
+        {
+          "word": "The",
+          "start": 146.09,
+          "end": 146.77,
+          "probability": 0.0002
+        },
+        {
+          "word": "speaker",
+          "start": 147.94,
+          "end": 148.62,
+          "probability": 0.0001
+        },
+        {
+          "word": "may",
+          "start": 148.62,
+          "end": 148.64,
+          "probability": 0.0012
+        },
+        {
+          "word": "switch",
+          "start": 148.64,
+          "end": 151.42,
+          "probability": 0.0018
+        },
+        {
+          "word": "between",
+          "start": 151.42,
+          "end": 151.76,
+          "probability": 0.001
+        },
+        {
+          "word": "Hindi",
+          "start": 151.76,
+          "end": 152.0,
+          "probability": 0.0003
+        },
+        {
+          "word": "and",
+          "start": 152.0,
+          "end": 152.02,
+          "probability": 0.9569
+        },
+        {
+          "word": "Bengali.",
+          "start": 152.63,
+          "end": 166.69,
+          "probability": 0.4977
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 180.68,
+      "end": 203.82,
+      "text": "The speaker may switch between Hindi and Bengali.",
+      "avg_logprob": -0.1598,
+      "no_speech_prob": 0.7821,
+      "words": [
+        {
+          "word": "The",
+          "start": 180.68,
+          "end": 181.44,
+          "probability": 0.0003
+        },
+        {
+          "word": "speaker",
+          "start": 183.44,
+          "end": 184.2,
+          "probability": 0.0002
+        },
+        {
+          "word": "may",
+          "start": 184.2,
+          "end": 184.3,
+          "probability": 0.0046
+        },
+        {
+          "word": "switch",
+          "start": 184.3,
+          "end": 195.26,
+          "probability": 0.0023
+        },
+        {
+          "word": "between",
+          "start": 195.26,
+          "end": 203.38,
+          "probability": 0.0014
+        },
+        {
+          "word": "Hindi",
+          "start": 203.38,
+          "end": 203.4,
+          "probability": 0.0002
+        },
+        {
+          "word": "and",
+          "start": 203.4,
+          "end": 203.44,
+          "probability": 0.9393
+        },
+        {
+          "word": "Bengali.",
+          "start": 203.44,
+          "end": 203.82,
+          "probability": 0.4962
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 203.86,
+      "end": 227.44,
+      "text": "The speaker may switch between Hindi and Bengali.",
+      "avg_logprob": -0.2457,
+      "no_speech_prob": 0.3066,
+      "words": [
+        {
+          "word": "The",
+          "start": 203.86,
+          "end": 205.04,
+          "probability": 0.0001
+        },
+        {
+          "word": "speaker",
+          "start": 205.38,
+          "end": 205.92,
+          "probability": 0.0003
+        },
+        {
+          "word": "may",
+          "start": 205.92,
+          "end": 205.92,
+          "probability": 0.0029
+        },
+        {
+          "word": "switch",
+          "start": 205.92,
+          "end": 207.54,
+          "probability": 0.0006
+        },
+        {
+          "word": "between",
+          "start": 207.54,
+          "end": 208.18,
+          "probability": 0.0009
+        },
+        {
+          "word": "Hindi",
+          "start": 208.18,
+          "end": 208.18,
+          "probability": 0.0004
+        },
+        {
+          "word": "and",
+          "start": 211.16,
+          "end": 215.44,
+          "probability": 0.9324
+        },
+        {
+          "word": "Bengali.",
+          "start": 217.82,
+          "end": 227.44,
+          "probability": 0.4988
+        }
+      ]
+    }
+  ]
+}

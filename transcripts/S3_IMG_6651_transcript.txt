@@ -1,0 +1,39 @@
+DRAFT TRANSCRIPT — UNVERIFIED — S3_IMG_6651
+Speaker: S3
+Model: faster-whisper large-v3
+Language detected: hi (p=1.000)
+Duration: 371.0s
+======================================================================
+WARNING: This transcript WILL contain errors. Whisper predicts the
+most likely sentence and silently 'corrects' non-standard agreement,
+converts Bengali words to Hindi lookalikes, and fills in unclear audio.
+Every line must be verified against the recording.
+======================================================================
+
+[00:00:47.579 -> 00:00:51.880] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:01:31.819 -> 00:01:42.319] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:02:11.780 -> 00:02:12.319] Transcribe exactly what is said including hesitations, false starts, and repetitions. [POSSIBLE NON-SPEECH]
+[00:02:42.569 -> 00:02:42.650] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:03:13.530 -> 00:03:14.930] Transcribe exactly what is said including hesitations, false starts, and repetitions. [POSSIBLE NON-SPEECH]
+[00:03:24.219 -> 00:03:25.939] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:03:26.020 -> 00:03:27.259] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:03:27.259 -> 00:03:28.599] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:03:28.759 -> 00:03:29.419] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:03:29.419 -> 00:03:30.319] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:03:31.439 -> 00:03:33.979] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:03:35.360 -> 00:03:38.979] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:03:38.979 -> 00:03:39.780] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:03:39.780 -> 00:03:40.280] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:03:40.280 -> 00:03:41.289] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:03:41.949 -> 00:03:44.830] Transcribe exactly what is said including hesitations, false starts, and repetitions.
+[00:03:44.830 -> 00:04:16.509] उसमें थोड़ा स्टाइड किया इंग्रीय थोड़ा इतना अच्छा भी बोल नहीं पाती हो थोड़ा और आप कितनी भाषा बोल लेते हो बेंगॉली इंडी इंग्रीय समय में आ रहा है लेकिन रिप्लाई देना थोड़ा प्रॉब्लम हो आपको पूरा ताई भी खड़ा प
+[00:04:16.509 -> 00:04:46.389] तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �
+[00:04:46.389 -> 00:05:05.139] चाहिए अगर आप उसको लगता है लेकिन थर्ड नेगलीयस विशेष बेंगली शर्षकीत हिंदी चॉइस कर रहे हैं [POSSIBLE NON-SPEECH]
+[00:05:05.139 -> 00:05:14.540] और हम लगे जो इंग्रीश था ना एक ही सब्सक्राइब है लेकिन हमारे से हिंदी होता है एक ही सब्सक्राइब होता है [POSSIBLE NON-SPEECH]
+[00:05:15.519 -> 00:05:24.279] इसलिए हम लोग फॉर मैं बोल नहीं सकते हुआ पाकुल संगह से बोलने से थोड़ा तरह पर � mas Hundat [LOW CONFIDENCE]
+[00:05:31.779 -> 00:05:37.920] बेंगली बोल गुहार के समस्याsyam ए class get [LOW CONFIDENCE]
+[00:05:39.180 -> 00:05:40.079] जानेun [LOW CONFIDENCE]
+[00:05:40.079 -> 00:05:41.720] जाने जाने [LOW CONFIDENCE]
+[00:05:41.720 -> 00:05:43.180] जाने जाने [LOW CONFIDENCE]
+[00:05:44.540 -> 00:06:04.839] तुम लोग में समझ आ रहे थे कि आप किस बारे में बात कर रहे हैं वो या थोड़े थोड़े जैसे हिंदी वर्ड्स यूज़ करते हो ना तो हमें फिर बाकी का सेंटेंस समझ में आने लग जाता है
+[00:06:06.389 -> 00:06:09.009] कि उसको जोड़ना चाहिए वहां भाई भाई हुआ है

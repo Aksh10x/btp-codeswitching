@@ -1,0 +1,2570 @@
+{
+  "file": "S3_IMG_6651",
+  "speaker_code": "S3",
+  "source_audio": "BTPVIDS/extracted_audio/S3_IMG_6651.wav",
+  "whisper_model": "large-v3",
+  "detected_language": "hi",
+  "language_probability": 1,
+  "duration_s": 370.95,
+  "WARNING": "This is an UNVERIFIED machine transcript. Whisper silently corrects agreement errors (e.g. 'kitab gira' -> 'kitab giri') and converts Bengali words to similar-sounding Hindi. Every segment MUST be checked against the audio by a human listener before use in analysis.",
+  "total_segments": 27,
+  "total_words": 381,
+  "segments": [
+    {
+      "id": 1,
+      "start": 47.58,
+      "end": 51.88,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.4261,
+      "no_speech_prob": 0.059,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 47.58,
+          "end": 47.94,
+          "probability": 0.0
+        },
+        {
+          "word": "exactly",
+          "start": 49.4,
+          "end": 49.4,
+          "probability": 0.0
+        },
+        {
+          "word": "what",
+          "start": 49.4,
+          "end": 49.66,
+          "probability": 0.1429
+        },
+        {
+          "word": "is",
+          "start": 49.66,
+          "end": 49.68,
+          "probability": 0.0602
+        },
+        {
+          "word": "said",
+          "start": 49.68,
+          "end": 50.1,
+          "probability": 0.0209
+        },
+        {
+          "word": "including",
+          "start": 50.1,
+          "end": 50.12,
+          "probability": 0.0
+        },
+        {
+          "word": "hesitations,",
+          "start": 50.12,
+          "end": 50.36,
+          "probability": 0.1063
+        },
+        {
+          "word": "false",
+          "start": 50.38,
+          "end": 50.4,
+          "probability": 0.0001
+        },
+        {
+          "word": "starts,",
+          "start": 51.7,
+          "end": 51.88,
+          "probability": 0.0006
+        },
+        {
+          "word": "and",
+          "start": 51.88,
+          "end": 51.88,
+          "probability": 0.3325
+        },
+        {
+          "word": "repetitions.",
+          "start": 51.88,
+          "end": 51.88,
+          "probability": 0.4895
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 91.82,
+      "end": 102.32,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.0968,
+      "no_speech_prob": 0.2979,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 91.82,
+          "end": 93.22,
+          "probability": 0.0
+        },
+        {
+          "word": "exactly",
+          "start": 93.22,
+          "end": 93.22,
+          "probability": 0.0
+        },
+        {
+          "word": "what",
+          "start": 93.22,
+          "end": 93.68,
+          "probability": 0.1893
+        },
+        {
+          "word": "is",
+          "start": 93.68,
+          "end": 95.08,
+          "probability": 0.0521
+        },
+        {
+          "word": "said",
+          "start": 95.08,
+          "end": 97.52,
+          "probability": 0.062
+        },
+        {
+          "word": "including",
+          "start": 97.52,
+          "end": 102.32,
+          "probability": 0.0
+        },
+        {
+          "word": "hesitations,",
+          "start": 102.32,
+          "end": 102.32,
+          "probability": 0.1248
+        },
+        {
+          "word": "false",
+          "start": 102.32,
+          "end": 102.32,
+          "probability": 0.0005
+        },
+        {
+          "word": "starts,",
+          "start": 102.32,
+          "end": 102.32,
+          "probability": 0.0003
+        },
+        {
+          "word": "and",
+          "start": 102.32,
+          "end": 102.32,
+          "probability": 0.2224
+        },
+        {
+          "word": "repetitions.",
+          "start": 102.32,
+          "end": 102.32,
+          "probability": 0.4907
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 131.78,
+      "end": 132.32,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.0992,
+      "no_speech_prob": 0.5975,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 131.78,
+          "end": 132.1,
+          "probability": 0.0001
+        },
+        {
+          "word": "exactly",
+          "start": 132.1,
+          "end": 132.1,
+          "probability": 0.0
+        },
+        {
+          "word": "what",
+          "start": 132.1,
+          "end": 132.26,
+          "probability": 0.2968
+        },
+        {
+          "word": "is",
+          "start": 132.26,
+          "end": 132.32,
+          "probability": 0.0508
+        },
+        {
+          "word": "said",
+          "start": 132.32,
+          "end": 132.32,
+          "probability": 0.0302
+        },
+        {
+          "word": "including",
+          "start": 132.32,
+          "end": 132.32,
+          "probability": 0.0
+        },
+        {
+          "word": "hesitations,",
+          "start": 132.32,
+          "end": 132.32,
+          "probability": 0.0646
+        },
+        {
+          "word": "false",
+          "start": 132.32,
+          "end": 132.32,
+          "probability": 0.0002
+        },
+        {
+          "word": "starts,",
+          "start": 132.32,
+          "end": 132.32,
+          "probability": 0.0006
+        },
+        {
+          "word": "and",
+          "start": 132.32,
+          "end": 132.32,
+          "probability": 0.1932
+        },
+        {
+          "word": "repetitions.",
+          "start": 132.32,
+          "end": 132.32,
+          "probability": 0.4945
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 162.57,
+      "end": 162.65,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.1299,
+      "no_speech_prob": 0.4096,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 162.57,
+          "end": 162.61,
+          "probability": 0.0001
+        },
+        {
+          "word": "exactly",
+          "start": 162.61,
+          "end": 162.61,
+          "probability": 0.0
+        },
+        {
+          "word": "what",
+          "start": 162.61,
+          "end": 162.61,
+          "probability": 0.1387
+        },
+        {
+          "word": "is",
+          "start": 162.61,
+          "end": 162.61,
+          "probability": 0.0329
+        },
+        {
+          "word": "said",
+          "start": 162.61,
+          "end": 162.61,
+          "probability": 0.0602
+        },
+        {
+          "word": "including",
+          "start": 162.61,
+          "end": 162.61,
+          "probability": 0.0
+        },
+        {
+          "word": "hesitations,",
+          "start": 162.61,
+          "end": 162.61,
+          "probability": 0.1081
+        },
+        {
+          "word": "false",
+          "start": 162.61,
+          "end": 162.61,
+          "probability": 0.0005
+        },
+        {
+          "word": "starts,",
+          "start": 162.61,
+          "end": 162.61,
+          "probability": 0.0004
+        },
+        {
+          "word": "and",
+          "start": 162.63,
+          "end": 162.63,
+          "probability": 0.2197
+        },
+        {
+          "word": "repetitions.",
+          "start": 162.63,
+          "end": 162.65,
+          "probability": 0.493
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 193.53,
+      "end": 194.93,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.1377,
+      "no_speech_prob": 0.5717,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 193.53,
+          "end": 194.93,
+          "probability": 0.0001
+        },
+        {
+          "word": "exactly",
+          "start": 194.93,
+          "end": 194.93,
+          "probability": 0.0
+        },
+        {
+          "word": "what",
+          "start": 194.93,
+          "end": 194.93,
+          "probability": 0.1753
+        },
+        {
+          "word": "is",
+          "start": 194.93,
+          "end": 194.93,
+          "probability": 0.0383
+        },
+        {
+          "word": "said",
+          "start": 194.93,
+          "end": 194.93,
+          "probability": 0.0437
+        },
+        {
+          "word": "including",
+          "start": 194.93,
+          "end": 194.93,
+          "probability": 0.0
+        },
+        {
+          "word": "hesitations,",
+          "start": 194.93,
+          "end": 194.93,
+          "probability": 0.1191
+        },
+        {
+          "word": "false",
+          "start": 194.93,
+          "end": 194.93,
+          "probability": 0.0004
+        },
+        {
+          "word": "starts,",
+          "start": 194.93,
+          "end": 194.93,
+          "probability": 0.0003
+        },
+        {
+          "word": "and",
+          "start": 194.93,
+          "end": 194.93,
+          "probability": 0.306
+        },
+        {
+          "word": "repetitions.",
+          "start": 194.93,
+          "end": 194.93,
+          "probability": 0.4917
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 204.22,
+      "end": 205.94,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.0416,
+      "no_speech_prob": 0.3724,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 204.22,
+          "end": 204.66,
+          "probability": 0.0
+        },
+        {
+          "word": "exactly",
+          "start": 204.66,
+          "end": 204.66,
+          "probability": 0.0
+        },
+        {
+          "word": "what",
+          "start": 204.66,
+          "end": 205.82,
+          "probability": 0.1306
+        },
+        {
+          "word": "is",
+          "start": 205.82,
+          "end": 205.82,
+          "probability": 0.0312
+        },
+        {
+          "word": "said",
+          "start": 205.82,
+          "end": 205.82,
+          "probability": 0.0475
+        },
+        {
+          "word": "including",
+          "start": 205.82,
+          "end": 205.82,
+          "probability": 0.0
+        },
+        {
+          "word": "hesitations,",
+          "start": 205.82,
+          "end": 205.82,
+          "probability": 0.0905
+        },
+        {
+          "word": "false",
+          "start": 205.92,
+          "end": 205.92,
+          "probability": 0.0003
+        },
+        {
+          "word": "starts,",
+          "start": 205.92,
+          "end": 205.92,
+          "probability": 0.0003
+        },
+        {
+          "word": "and",
+          "start": 205.92,
+          "end": 205.94,
+          "probability": 0.2063
+        },
+        {
+          "word": "repetitions.",
+          "start": 205.94,
+          "end": 205.94,
+          "probability": 0.4923
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 206.02,
+      "end": 207.26,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.0416,
+      "no_speech_prob": 0.3724,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 206.02,
+          "end": 206.46,
+          "probability": 0.2917
+        },
+        {
+          "word": "exactly",
+          "start": 206.46,
+          "end": 206.46,
+          "probability": 0.241
+        },
+        {
+          "word": "what",
+          "start": 206.46,
+          "end": 206.88,
+          "probability": 0.9832
+        },
+        {
+          "word": "is",
+          "start": 206.88,
+          "end": 206.88,
+          "probability": 0.993
+        },
+        {
+          "word": "said",
+          "start": 206.88,
+          "end": 206.88,
+          "probability": 0.9926
+        },
+        {
+          "word": "including",
+          "start": 206.88,
+          "end": 206.88,
+          "probability": 0.9682
+        },
+        {
+          "word": "hesitations,",
+          "start": 206.88,
+          "end": 206.88,
+          "probability": 0.9895
+        },
+        {
+          "word": "false",
+          "start": 206.88,
+          "end": 206.88,
+          "probability": 0.981
+        },
+        {
+          "word": "starts,",
+          "start": 206.88,
+          "end": 206.88,
+          "probability": 0.9884
+        },
+        {
+          "word": "and",
+          "start": 206.88,
+          "end": 206.88,
+          "probability": 0.9992
+        },
+        {
+          "word": "repetitions.",
+          "start": 206.88,
+          "end": 207.26,
+          "probability": 0.9775
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 207.26,
+      "end": 208.6,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.0416,
+      "no_speech_prob": 0.3724,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 207.26,
+          "end": 207.26,
+          "probability": 0.8205
+        },
+        {
+          "word": "exactly",
+          "start": 207.26,
+          "end": 207.26,
+          "probability": 0.8117
+        },
+        {
+          "word": "what",
+          "start": 207.26,
+          "end": 207.26,
+          "probability": 0.9981
+        },
+        {
+          "word": "is",
+          "start": 207.26,
+          "end": 207.3,
+          "probability": 0.999
+        },
+        {
+          "word": "said",
+          "start": 207.3,
+          "end": 207.3,
+          "probability": 0.9988
+        },
+        {
+          "word": "including",
+          "start": 207.3,
+          "end": 207.3,
+          "probability": 0.9889
+        },
+        {
+          "word": "hesitations,",
+          "start": 207.3,
+          "end": 207.3,
+          "probability": 0.9933
+        },
+        {
+          "word": "false",
+          "start": 207.3,
+          "end": 207.6,
+          "probability": 0.9971
+        },
+        {
+          "word": "starts,",
+          "start": 207.6,
+          "end": 207.68,
+          "probability": 0.9918
+        },
+        {
+          "word": "and",
+          "start": 208.6,
+          "end": 208.6,
+          "probability": 0.9997
+        },
+        {
+          "word": "repetitions.",
+          "start": 208.6,
+          "end": 208.6,
+          "probability": 0.9833
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 208.76,
+      "end": 209.42,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.0416,
+      "no_speech_prob": 0.3724,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 208.76,
+          "end": 209.2,
+          "probability": 0.9044
+        },
+        {
+          "word": "exactly",
+          "start": 209.2,
+          "end": 209.2,
+          "probability": 0.8264
+        },
+        {
+          "word": "what",
+          "start": 209.2,
+          "end": 209.2,
+          "probability": 0.9989
+        },
+        {
+          "word": "is",
+          "start": 209.2,
+          "end": 209.2,
+          "probability": 0.9993
+        },
+        {
+          "word": "said",
+          "start": 209.2,
+          "end": 209.2,
+          "probability": 0.9991
+        },
+        {
+          "word": "including",
+          "start": 209.2,
+          "end": 209.2,
+          "probability": 0.9877
+        },
+        {
+          "word": "hesitations,",
+          "start": 209.2,
+          "end": 209.2,
+          "probability": 0.9945
+        },
+        {
+          "word": "false",
+          "start": 209.2,
+          "end": 209.2,
+          "probability": 0.9983
+        },
+        {
+          "word": "starts,",
+          "start": 209.2,
+          "end": 209.2,
+          "probability": 0.9897
+        },
+        {
+          "word": "and",
+          "start": 209.42,
+          "end": 209.42,
+          "probability": 0.9997
+        },
+        {
+          "word": "repetitions.",
+          "start": 209.42,
+          "end": 209.42,
+          "probability": 0.9849
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 209.42,
+      "end": 210.32,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.0416,
+      "no_speech_prob": 0.3724,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 209.42,
+          "end": 209.42,
+          "probability": 0.9408
+        },
+        {
+          "word": "exactly",
+          "start": 209.42,
+          "end": 209.42,
+          "probability": 0.8699
+        },
+        {
+          "word": "what",
+          "start": 209.42,
+          "end": 210.32,
+          "probability": 0.9992
+        },
+        {
+          "word": "is",
+          "start": 210.32,
+          "end": 210.32,
+          "probability": 0.9992
+        },
+        {
+          "word": "said",
+          "start": 210.32,
+          "end": 210.32,
+          "probability": 0.9987
+        },
+        {
+          "word": "including",
+          "start": 210.32,
+          "end": 210.32,
+          "probability": 0.9852
+        },
+        {
+          "word": "hesitations,",
+          "start": 210.32,
+          "end": 210.32,
+          "probability": 0.9951
+        },
+        {
+          "word": "false",
+          "start": 210.32,
+          "end": 210.32,
+          "probability": 0.9987
+        },
+        {
+          "word": "starts,",
+          "start": 210.32,
+          "end": 210.32,
+          "probability": 0.9888
+        },
+        {
+          "word": "and",
+          "start": 210.32,
+          "end": 210.32,
+          "probability": 0.9997
+        },
+        {
+          "word": "repetitions.",
+          "start": 210.32,
+          "end": 210.32,
+          "probability": 0.9872
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 211.44,
+      "end": 213.98,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.0416,
+      "no_speech_prob": 0.3724,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 211.44,
+          "end": 211.88,
+          "probability": 0.9505
+        },
+        {
+          "word": "exactly",
+          "start": 211.88,
+          "end": 211.88,
+          "probability": 0.8846
+        },
+        {
+          "word": "what",
+          "start": 211.88,
+          "end": 211.88,
+          "probability": 0.9993
+        },
+        {
+          "word": "is",
+          "start": 211.88,
+          "end": 211.88,
+          "probability": 0.9992
+        },
+        {
+          "word": "said",
+          "start": 211.88,
+          "end": 211.88,
+          "probability": 0.9985
+        },
+        {
+          "word": "including",
+          "start": 211.88,
+          "end": 211.92,
+          "probability": 0.9825
+        },
+        {
+          "word": "hesitations,",
+          "start": 211.92,
+          "end": 212.22,
+          "probability": 0.994
+        },
+        {
+          "word": "false",
+          "start": 212.22,
+          "end": 212.22,
+          "probability": 0.9988
+        },
+        {
+          "word": "starts,",
+          "start": 212.22,
+          "end": 212.22,
+          "probability": 0.99
+        },
+        {
+          "word": "and",
+          "start": 213.54,
+          "end": 213.7,
+          "probability": 0.9996
+        },
+        {
+          "word": "repetitions.",
+          "start": 213.7,
+          "end": 213.98,
+          "probability": 0.985
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 215.36,
+      "end": 218.98,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.0416,
+      "no_speech_prob": 0.3724,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 215.36,
+          "end": 215.8,
+          "probability": 0.9459
+        },
+        {
+          "word": "exactly",
+          "start": 215.8,
+          "end": 215.8,
+          "probability": 0.904
+        },
+        {
+          "word": "what",
+          "start": 215.8,
+          "end": 216.06,
+          "probability": 0.9994
+        },
+        {
+          "word": "is",
+          "start": 216.06,
+          "end": 216.06,
+          "probability": 0.9992
+        },
+        {
+          "word": "said",
+          "start": 216.06,
+          "end": 216.06,
+          "probability": 0.9984
+        },
+        {
+          "word": "including",
+          "start": 216.06,
+          "end": 216.24,
+          "probability": 0.9757
+        },
+        {
+          "word": "hesitations,",
+          "start": 216.24,
+          "end": 216.48,
+          "probability": 0.9938
+        },
+        {
+          "word": "false",
+          "start": 216.48,
+          "end": 216.48,
+          "probability": 0.9987
+        },
+        {
+          "word": "starts,",
+          "start": 216.48,
+          "end": 218.04,
+          "probability": 0.989
+        },
+        {
+          "word": "and",
+          "start": 218.04,
+          "end": 218.74,
+          "probability": 0.9996
+        },
+        {
+          "word": "repetitions.",
+          "start": 218.74,
+          "end": 218.98,
+          "probability": 0.9838
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 218.98,
+      "end": 219.78,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.0416,
+      "no_speech_prob": 0.3724,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 218.98,
+          "end": 218.98,
+          "probability": 0.9458
+        },
+        {
+          "word": "exactly",
+          "start": 218.98,
+          "end": 218.98,
+          "probability": 0.9231
+        },
+        {
+          "word": "what",
+          "start": 218.98,
+          "end": 218.98,
+          "probability": 0.9995
+        },
+        {
+          "word": "is",
+          "start": 218.98,
+          "end": 218.98,
+          "probability": 0.9994
+        },
+        {
+          "word": "said",
+          "start": 218.98,
+          "end": 218.98,
+          "probability": 0.998
+        },
+        {
+          "word": "including",
+          "start": 218.98,
+          "end": 218.98,
+          "probability": 0.9734
+        },
+        {
+          "word": "hesitations,",
+          "start": 218.98,
+          "end": 218.98,
+          "probability": 0.9935
+        },
+        {
+          "word": "false",
+          "start": 219.04,
+          "end": 219.04,
+          "probability": 0.9985
+        },
+        {
+          "word": "starts,",
+          "start": 219.04,
+          "end": 219.22,
+          "probability": 0.9873
+        },
+        {
+          "word": "and",
+          "start": 219.22,
+          "end": 219.22,
+          "probability": 0.9996
+        },
+        {
+          "word": "repetitions.",
+          "start": 219.22,
+          "end": 219.78,
+          "probability": 0.9808
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 219.78,
+      "end": 220.28,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.0416,
+      "no_speech_prob": 0.3724,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 219.78,
+          "end": 219.78,
+          "probability": 0.9432
+        },
+        {
+          "word": "exactly",
+          "start": 219.78,
+          "end": 219.78,
+          "probability": 0.9218
+        },
+        {
+          "word": "what",
+          "start": 219.78,
+          "end": 219.78,
+          "probability": 0.9996
+        },
+        {
+          "word": "is",
+          "start": 219.78,
+          "end": 219.78,
+          "probability": 0.9995
+        },
+        {
+          "word": "said",
+          "start": 219.78,
+          "end": 219.78,
+          "probability": 0.998
+        },
+        {
+          "word": "including",
+          "start": 219.78,
+          "end": 219.78,
+          "probability": 0.9706
+        },
+        {
+          "word": "hesitations,",
+          "start": 219.78,
+          "end": 219.78,
+          "probability": 0.9925
+        },
+        {
+          "word": "false",
+          "start": 219.78,
+          "end": 219.78,
+          "probability": 0.9985
+        },
+        {
+          "word": "starts,",
+          "start": 219.78,
+          "end": 220.1,
+          "probability": 0.9873
+        },
+        {
+          "word": "and",
+          "start": 220.2,
+          "end": 220.24,
+          "probability": 0.9994
+        },
+        {
+          "word": "repetitions.",
+          "start": 220.24,
+          "end": 220.28,
+          "probability": 0.9829
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 220.28,
+      "end": 221.29,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.0416,
+      "no_speech_prob": 0.3724,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 220.28,
+          "end": 220.64,
+          "probability": 0.9446
+        },
+        {
+          "word": "exactly",
+          "start": 220.85,
+          "end": 220.85,
+          "probability": 0.9324
+        },
+        {
+          "word": "what",
+          "start": 220.85,
+          "end": 220.85,
+          "probability": 0.9996
+        },
+        {
+          "word": "is",
+          "start": 220.85,
+          "end": 220.93,
+          "probability": 0.9995
+        },
+        {
+          "word": "said",
+          "start": 220.93,
+          "end": 221.01,
+          "probability": 0.9979
+        },
+        {
+          "word": "including",
+          "start": 221.01,
+          "end": 221.01,
+          "probability": 0.9708
+        },
+        {
+          "word": "hesitations,",
+          "start": 221.01,
+          "end": 221.09,
+          "probability": 0.9933
+        },
+        {
+          "word": "false",
+          "start": 221.09,
+          "end": 221.09,
+          "probability": 0.9985
+        },
+        {
+          "word": "starts,",
+          "start": 221.09,
+          "end": 221.09,
+          "probability": 0.986
+        },
+        {
+          "word": "and",
+          "start": 221.09,
+          "end": 221.09,
+          "probability": 0.9995
+        },
+        {
+          "word": "repetitions.",
+          "start": 221.09,
+          "end": 221.29,
+          "probability": 0.9803
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 221.95,
+      "end": 224.83,
+      "text": "Transcribe exactly what is said including hesitations, false starts, and repetitions.",
+      "avg_logprob": -0.0416,
+      "no_speech_prob": 0.3724,
+      "words": [
+        {
+          "word": "Transcribe",
+          "start": 221.95,
+          "end": 222.39,
+          "probability": 0.943
+        },
+        {
+          "word": "exactly",
+          "start": 222.39,
+          "end": 222.51,
+          "probability": 0.9342
+        },
+        {
+          "word": "what",
+          "start": 222.51,
+          "end": 222.51,
+          "probability": 0.9996
+        },
+        {
+          "word": "is",
+          "start": 222.51,
+          "end": 222.69,
+          "probability": 0.9995
+        },
+        {
+          "word": "said",
+          "start": 222.69,
+          "end": 222.69,
+          "probability": 0.9977
+        },
+        {
+          "word": "including",
+          "start": 222.69,
+          "end": 222.75,
+          "probability": 0.9683
+        },
+        {
+          "word": "hesitations,",
+          "start": 222.75,
+          "end": 223.27,
+          "probability": 0.9933
+        },
+        {
+          "word": "false",
+          "start": 223.41,
+          "end": 223.63,
+          "probability": 0.9983
+        },
+        {
+          "word": "starts,",
+          "start": 223.63,
+          "end": 223.91,
+          "probability": 0.9862
+        },
+        {
+          "word": "and",
+          "start": 224.57,
+          "end": 224.71,
+          "probability": 0.9995
+        },
+        {
+          "word": "repetitions.",
+          "start": 224.71,
+          "end": 224.83,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 224.83,
+      "end": 256.51,
+      "text": "उसमें थोड़ा स्टाइड किया इंग्रीय थोड़ा इतना अच्छा भी बोल नहीं पाती हो थोड़ा और आप कितनी भाषा बोल लेते हो बेंगॉली इंडी इंग्रीय समय में आ रहा है लेकिन रिप्लाई देना थोड़ा प्रॉब्लम हो आपको पूरा ताई भी खड़ा प",
+      "avg_logprob": -0.2363,
+      "no_speech_prob": 0.298,
+      "words": [
+        {
+          "word": "उसमें",
+          "start": 224.83,
+          "end": 225.51,
+          "probability": 0.6317
+        },
+        {
+          "word": "थोड़ा",
+          "start": 225.51,
+          "end": 225.83,
+          "probability": 0.9496
+        },
+        {
+          "word": "स्टाइड",
+          "start": 225.83,
+          "end": 226.27,
+          "probability": 0.8293
+        },
+        {
+          "word": "किया",
+          "start": 226.27,
+          "end": 226.53,
+          "probability": 0.8003
+        },
+        {
+          "word": "इंग्रीय",
+          "start": 226.53,
+          "end": 226.93,
+          "probability": 0.6892
+        },
+        {
+          "word": "थोड़ा",
+          "start": 226.93,
+          "end": 228.11,
+          "probability": 0.7612
+        },
+        {
+          "word": "इतना",
+          "start": 228.48,
+          "end": 229.52,
+          "probability": 0.7322
+        },
+        {
+          "word": "अच्छा",
+          "start": 229.52,
+          "end": 229.78,
+          "probability": 0.9655
+        },
+        {
+          "word": "भी",
+          "start": 229.78,
+          "end": 229.98,
+          "probability": 0.9928
+        },
+        {
+          "word": "बोल",
+          "start": 229.98,
+          "end": 230.16,
+          "probability": 0.992
+        },
+        {
+          "word": "नहीं",
+          "start": 230.16,
+          "end": 230.42,
+          "probability": 0.9795
+        },
+        {
+          "word": "पाती",
+          "start": 230.42,
+          "end": 230.7,
+          "probability": 0.9603
+        },
+        {
+          "word": "हो",
+          "start": 230.7,
+          "end": 230.96,
+          "probability": 0.7078
+        },
+        {
+          "word": "थोड़ा",
+          "start": 230.96,
+          "end": 231.84,
+          "probability": 0.8679
+        },
+        {
+          "word": "और",
+          "start": 231.84,
+          "end": 232.56,
+          "probability": 0.4519
+        },
+        {
+          "word": "आप",
+          "start": 232.56,
+          "end": 233.06,
+          "probability": 0.8988
+        },
+        {
+          "word": "कितनी",
+          "start": 233.06,
+          "end": 233.4,
+          "probability": 0.9408
+        },
+        {
+          "word": "भाषा",
+          "start": 233.4,
+          "end": 233.7,
+          "probability": 0.9215
+        },
+        {
+          "word": "बोल",
+          "start": 233.7,
+          "end": 233.96,
+          "probability": 0.8131
+        },
+        {
+          "word": "लेते",
+          "start": 233.96,
+          "end": 234.28,
+          "probability": 0.9761
+        },
+        {
+          "word": "हो",
+          "start": 234.28,
+          "end": 234.48,
+          "probability": 0.98
+        },
+        {
+          "word": "बेंगॉली",
+          "start": 234.48,
+          "end": 235.54,
+          "probability": 0.8754
+        },
+        {
+          "word": "इंडी",
+          "start": 235.54,
+          "end": 236.02,
+          "probability": 0.6033
+        },
+        {
+          "word": "इंग्रीय",
+          "start": 236.02,
+          "end": 236.9,
+          "probability": 0.9346
+        },
+        {
+          "word": "समय",
+          "start": 236.9,
+          "end": 237.16,
+          "probability": 0.8156
+        },
+        {
+          "word": "में",
+          "start": 237.16,
+          "end": 237.42,
+          "probability": 0.9633
+        },
+        {
+          "word": "आ",
+          "start": 237.42,
+          "end": 237.5,
+          "probability": 0.9656
+        },
+        {
+          "word": "रहा",
+          "start": 237.5,
+          "end": 237.68,
+          "probability": 0.8851
+        },
+        {
+          "word": "है",
+          "start": 237.68,
+          "end": 237.74,
+          "probability": 0.6379
+        },
+        {
+          "word": "लेकिन",
+          "start": 237.74,
+          "end": 237.92,
+          "probability": 0.9752
+        },
+        {
+          "word": "रिप्लाई",
+          "start": 237.92,
+          "end": 238.56,
+          "probability": 0.8957
+        },
+        {
+          "word": "देना",
+          "start": 238.56,
+          "end": 238.8,
+          "probability": 0.9508
+        },
+        {
+          "word": "थोड़ा",
+          "start": 238.8,
+          "end": 239.1,
+          "probability": 0.9968
+        },
+        {
+          "word": "प्रॉब्लम",
+          "start": 239.1,
+          "end": 239.5,
+          "probability": 0.9543
+        },
+        {
+          "word": "हो",
+          "start": 239.5,
+          "end": 239.82,
+          "probability": 0.5318
+        },
+        {
+          "word": "आपको",
+          "start": 240.0,
+          "end": 243.06,
+          "probability": 0.6859
+        },
+        {
+          "word": "पूरा",
+          "start": 243.06,
+          "end": 244.94,
+          "probability": 0.8814
+        },
+        {
+          "word": "ताई",
+          "start": 244.94,
+          "end": 245.74,
+          "probability": 0.6278
+        },
+        {
+          "word": "भी",
+          "start": 245.74,
+          "end": 245.96,
+          "probability": 0.9269
+        },
+        {
+          "word": "खड़ा",
+          "start": 245.96,
+          "end": 246.22,
+          "probability": 0.8845
+        },
+        {
+          "word": "प",
+          "start": 247.61,
+          "end": 256.51,
+          "probability": 0.5356
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 256.51,
+      "end": 286.39,
+      "text": "तो बेगोली ने बाद दूसरा यहां और दूसरी इंग्लिश ने समय तो बेंगॉली पीएस किया तो मैं अपने एक ही रंग्लेज लायल इंग्रीय है ग्रवीन हम लोगों को पड़ाया सब को सेवेंथ थीस में पड़ाते हैं और थािंदी था तलस्तु कितना ही स्विधा �",
+      "avg_logprob": -0.9704,
+      "no_speech_prob": 0.0001,
+      "words": [
+        {
+          "word": "तो",
+          "start": 256.51,
+          "end": 256.73,
+          "probability": 0.4091
+        },
+        {
+          "word": "बेगोली",
+          "start": 256.73,
+          "end": 256.99,
+          "probability": 0.5978
+        },
+        {
+          "word": "ने",
+          "start": 256.99,
+          "end": 257.17,
+          "probability": 0.2597
+        },
+        {
+          "word": "बाद",
+          "start": 257.17,
+          "end": 257.17,
+          "probability": 0.3326
+        },
+        {
+          "word": "दूसरा",
+          "start": 257.17,
+          "end": 257.97,
+          "probability": 0.5876
+        },
+        {
+          "word": "यहां",
+          "start": 257.97,
+          "end": 258.21,
+          "probability": 0.3793
+        },
+        {
+          "word": "और",
+          "start": 258.21,
+          "end": 258.59,
+          "probability": 0.5018
+        },
+        {
+          "word": "दूसरी",
+          "start": 258.59,
+          "end": 258.91,
+          "probability": 0.8189
+        },
+        {
+          "word": "इंग्लिश",
+          "start": 258.91,
+          "end": 259.19,
+          "probability": 0.9166
+        },
+        {
+          "word": "ने",
+          "start": 259.19,
+          "end": 259.57,
+          "probability": 0.3613
+        },
+        {
+          "word": "समय",
+          "start": 259.57,
+          "end": 259.57,
+          "probability": 0.2466
+        },
+        {
+          "word": "तो",
+          "start": 259.57,
+          "end": 259.91,
+          "probability": 0.4872
+        },
+        {
+          "word": "बेंगॉली",
+          "start": 259.91,
+          "end": 260.29,
+          "probability": 0.6419
+        },
+        {
+          "word": "पीएस",
+          "start": 260.29,
+          "end": 260.67,
+          "probability": 0.291
+        },
+        {
+          "word": "किया",
+          "start": 260.67,
+          "end": 261.05,
+          "probability": 0.3444
+        },
+        {
+          "word": "तो",
+          "start": 261.05,
+          "end": 261.05,
+          "probability": 0.5281
+        },
+        {
+          "word": "मैं",
+          "start": 261.05,
+          "end": 261.49,
+          "probability": 0.5216
+        },
+        {
+          "word": "अपने",
+          "start": 261.49,
+          "end": 261.61,
+          "probability": 0.5348
+        },
+        {
+          "word": "एक",
+          "start": 261.61,
+          "end": 262.29,
+          "probability": 0.6186
+        },
+        {
+          "word": "ही",
+          "start": 262.29,
+          "end": 262.51,
+          "probability": 0.6184
+        },
+        {
+          "word": "रंग्लेज",
+          "start": 262.51,
+          "end": 263.03,
+          "probability": 0.5168
+        },
+        {
+          "word": "लायल",
+          "start": 263.03,
+          "end": 263.85,
+          "probability": 0.3202
+        },
+        {
+          "word": "इंग्रीय",
+          "start": 263.85,
+          "end": 264.69,
+          "probability": 0.6264
+        },
+        {
+          "word": "है",
+          "start": 264.69,
+          "end": 265.01,
+          "probability": 0.2708
+        },
+        {
+          "word": "ग्रवीन",
+          "start": 265.01,
+          "end": 265.61,
+          "probability": 0.2648
+        },
+        {
+          "word": "हम",
+          "start": 265.61,
+          "end": 267.15,
+          "probability": 0.0614
+        },
+        {
+          "word": "लोगों",
+          "start": 267.15,
+          "end": 268.09,
+          "probability": 0.8254
+        },
+        {
+          "word": "को",
+          "start": 268.09,
+          "end": 268.33,
+          "probability": 0.9404
+        },
+        {
+          "word": "पड़ाया",
+          "start": 268.33,
+          "end": 268.65,
+          "probability": 0.6695
+        },
+        {
+          "word": "सब",
+          "start": 268.65,
+          "end": 269.19,
+          "probability": 0.7983
+        },
+        {
+          "word": "को",
+          "start": 269.19,
+          "end": 269.39,
+          "probability": 0.6578
+        },
+        {
+          "word": "सेवेंथ",
+          "start": 269.39,
+          "end": 269.75,
+          "probability": 0.622
+        },
+        {
+          "word": "थीस",
+          "start": 269.75,
+          "end": 269.97,
+          "probability": 0.3345
+        },
+        {
+          "word": "में",
+          "start": 269.97,
+          "end": 270.09,
+          "probability": 0.8771
+        },
+        {
+          "word": "पड़ाते",
+          "start": 270.09,
+          "end": 270.47,
+          "probability": 0.7897
+        },
+        {
+          "word": "हैं",
+          "start": 270.47,
+          "end": 270.73,
+          "probability": 0.8889
+        },
+        {
+          "word": "और",
+          "start": 270.73,
+          "end": 271.03,
+          "probability": 0.5328
+        },
+        {
+          "word": "थािंदी",
+          "start": 271.03,
+          "end": 272.83,
+          "probability": 0.5002
+        },
+        {
+          "word": "था",
+          "start": 272.83,
+          "end": 273.11,
+          "probability": 0.7836
+        },
+        {
+          "word": "तलस्तु",
+          "start": 273.11,
+          "end": 273.69,
+          "probability": 0.3955
+        },
+        {
+          "word": "कितना",
+          "start": 273.69,
+          "end": 274.13,
+          "probability": 0.4856
+        },
+        {
+          "word": "ही",
+          "start": 274.13,
+          "end": 277.05,
+          "probability": 0.1529
+        },
+        {
+          "word": "स्विधा",
+          "start": 277.05,
+          "end": 286.39,
+          "probability": 0.32
+        },
+        {
+          "word": "�",
+          "start": 286.39,
+          "end": 286.39,
+          "probability": 0.5597
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 286.39,
+      "end": 305.14,
+      "text": "चाहिए अगर आप उसको लगता है लेकिन थर्ड नेगलीयस विशेष बेंगली शर्षकीत हिंदी चॉइस कर रहे हैं",
+      "avg_logprob": -0.5498,
+      "no_speech_prob": 0.5109,
+      "words": [
+        {
+          "word": "चाहिए",
+          "start": 286.39,
+          "end": 286.57,
+          "probability": 0.5682
+        },
+        {
+          "word": "अगर",
+          "start": 286.57,
+          "end": 287.59,
+          "probability": 0.4567
+        },
+        {
+          "word": "आप",
+          "start": 287.59,
+          "end": 288.19,
+          "probability": 0.7445
+        },
+        {
+          "word": "उसको",
+          "start": 288.19,
+          "end": 291.15,
+          "probability": 0.2986
+        },
+        {
+          "word": "लगता",
+          "start": 291.15,
+          "end": 294.99,
+          "probability": 0.5347
+        },
+        {
+          "word": "है",
+          "start": 294.99,
+          "end": 295.13,
+          "probability": 0.9194
+        },
+        {
+          "word": "लेकिन",
+          "start": 295.13,
+          "end": 295.39,
+          "probability": 0.6059
+        },
+        {
+          "word": "थर्ड",
+          "start": 295.39,
+          "end": 296.33,
+          "probability": 0.5861
+        },
+        {
+          "word": "नेगलीयस",
+          "start": 296.54,
+          "end": 296.96,
+          "probability": 0.3999
+        },
+        {
+          "word": "विशेष",
+          "start": 296.96,
+          "end": 297.74,
+          "probability": 0.4774
+        },
+        {
+          "word": "बेंगली",
+          "start": 297.74,
+          "end": 299.62,
+          "probability": 0.5017
+        },
+        {
+          "word": "शर्षकीत",
+          "start": 299.62,
+          "end": 303.28,
+          "probability": 0.5737
+        },
+        {
+          "word": "हिंदी",
+          "start": 303.28,
+          "end": 303.58,
+          "probability": 0.9179
+        },
+        {
+          "word": "चॉइस",
+          "start": 303.58,
+          "end": 304.3,
+          "probability": 0.6817
+        },
+        {
+          "word": "कर",
+          "start": 304.3,
+          "end": 304.58,
+          "probability": 0.9269
+        },
+        {
+          "word": "रहे",
+          "start": 304.58,
+          "end": 304.74,
+          "probability": 0.4833
+        },
+        {
+          "word": "हैं",
+          "start": 304.74,
+          "end": 305.14,
+          "probability": 0.8763
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start": 305.14,
+      "end": 314.54,
+      "text": "और हम लगे जो इंग्रीश था ना एक ही सब्सक्राइब है लेकिन हमारे से हिंदी होता है एक ही सब्सक्राइब होता है",
+      "avg_logprob": -0.5498,
+      "no_speech_prob": 0.5109,
+      "words": [
+        {
+          "word": "और",
+          "start": 305.14,
+          "end": 305.88,
+          "probability": 0.6886
+        },
+        {
+          "word": "हम",
+          "start": 306.56,
+          "end": 306.76,
+          "probability": 0.934
+        },
+        {
+          "word": "लगे",
+          "start": 306.76,
+          "end": 307.12,
+          "probability": 0.6669
+        },
+        {
+          "word": "जो",
+          "start": 307.12,
+          "end": 308.12,
+          "probability": 0.6064
+        },
+        {
+          "word": "इंग्रीश",
+          "start": 308.12,
+          "end": 308.8,
+          "probability": 0.8612
+        },
+        {
+          "word": "था",
+          "start": 308.8,
+          "end": 309.02,
+          "probability": 0.5709
+        },
+        {
+          "word": "ना",
+          "start": 309.02,
+          "end": 309.2,
+          "probability": 0.6438
+        },
+        {
+          "word": "एक",
+          "start": 309.2,
+          "end": 309.56,
+          "probability": 0.8469
+        },
+        {
+          "word": "ही",
+          "start": 309.56,
+          "end": 309.66,
+          "probability": 0.8585
+        },
+        {
+          "word": "सब्सक्राइब",
+          "start": 309.94,
+          "end": 311.2,
+          "probability": 0.8791
+        },
+        {
+          "word": "है",
+          "start": 311.2,
+          "end": 311.44,
+          "probability": 0.5768
+        },
+        {
+          "word": "लेकिन",
+          "start": 311.44,
+          "end": 311.8,
+          "probability": 0.6446
+        },
+        {
+          "word": "हमारे",
+          "start": 311.8,
+          "end": 312.24,
+          "probability": 0.8431
+        },
+        {
+          "word": "से",
+          "start": 312.24,
+          "end": 312.48,
+          "probability": 0.7839
+        },
+        {
+          "word": "हिंदी",
+          "start": 312.48,
+          "end": 312.76,
+          "probability": 0.9841
+        },
+        {
+          "word": "होता",
+          "start": 312.76,
+          "end": 313.14,
+          "probability": 0.9703
+        },
+        {
+          "word": "है",
+          "start": 313.14,
+          "end": 313.34,
+          "probability": 0.9863
+        },
+        {
+          "word": "एक",
+          "start": 313.34,
+          "end": 313.48,
+          "probability": 0.8642
+        },
+        {
+          "word": "ही",
+          "start": 313.48,
+          "end": 313.56,
+          "probability": 0.9438
+        },
+        {
+          "word": "सब्सक्राइब",
+          "start": 313.56,
+          "end": 314.06,
+          "probability": 0.9304
+        },
+        {
+          "word": "होता",
+          "start": 314.06,
+          "end": 314.4,
+          "probability": 0.8497
+        },
+        {
+          "word": "है",
+          "start": 314.4,
+          "end": 314.54,
+          "probability": 0.9969
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": 315.52,
+      "end": 324.28,
+      "text": "इसलिए हम लोग फॉर मैं बोल नहीं सकते हुआ पाकुल संगह से बोलने से थोड़ा तरह पर � mas Hundat",
+      "avg_logprob": -1.443,
+      "no_speech_prob": 0.0054,
+      "words": [
+        {
+          "word": "इसलिए",
+          "start": 315.52,
+          "end": 316.42,
+          "probability": 0.7497
+        },
+        {
+          "word": "हम",
+          "start": 316.42,
+          "end": 316.6,
+          "probability": 0.9549
+        },
+        {
+          "word": "लोग",
+          "start": 316.6,
+          "end": 316.8,
+          "probability": 0.9001
+        },
+        {
+          "word": "फॉर",
+          "start": 316.8,
+          "end": 317.02,
+          "probability": 0.6097
+        },
+        {
+          "word": "मैं",
+          "start": 317.02,
+          "end": 317.24,
+          "probability": 0.3263
+        },
+        {
+          "word": "बोल",
+          "start": 317.24,
+          "end": 318.02,
+          "probability": 0.7007
+        },
+        {
+          "word": "नहीं",
+          "start": 318.02,
+          "end": 318.18,
+          "probability": 0.8926
+        },
+        {
+          "word": "सकते",
+          "start": 318.18,
+          "end": 318.52,
+          "probability": 0.9543
+        },
+        {
+          "word": "हुआ",
+          "start": 318.52,
+          "end": 318.82,
+          "probability": 0.6489
+        },
+        {
+          "word": "पाकुल",
+          "start": 318.82,
+          "end": 319.6,
+          "probability": 0.4446
+        },
+        {
+          "word": "संगह",
+          "start": 319.6,
+          "end": 319.94,
+          "probability": 0.4167
+        },
+        {
+          "word": "से",
+          "start": 319.94,
+          "end": 320.22,
+          "probability": 0.4653
+        },
+        {
+          "word": "बोलने",
+          "start": 320.22,
+          "end": 322.5,
+          "probability": 0.5875
+        },
+        {
+          "word": "से",
+          "start": 322.5,
+          "end": 322.68,
+          "probability": 0.9309
+        },
+        {
+          "word": "थोड़ा",
+          "start": 322.68,
+          "end": 322.86,
+          "probability": 0.9854
+        },
+        {
+          "word": "तरह",
+          "start": 322.86,
+          "end": 323.12,
+          "probability": 0.4644
+        },
+        {
+          "word": "पर",
+          "start": 323.12,
+          "end": 323.36,
+          "probability": 0.3161
+        },
+        {
+          "word": "�",
+          "start": 323.36,
+          "end": 323.36,
+          "probability": 0.3344
+        },
+        {
+          "word": "mas",
+          "start": 323.36,
+          "end": 323.74,
+          "probability": 0.0
+        },
+        {
+          "word": "Hundat",
+          "start": 323.74,
+          "end": 324.28,
+          "probability": 0.0002
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start": 331.78,
+      "end": 337.92,
+      "text": "बेंगली बोल गुहार के समस्याsyam ए class get",
+      "avg_logprob": -1.443,
+      "no_speech_prob": 0.0054,
+      "words": [
+        {
+          "word": "बेंगली",
+          "start": 331.78,
+          "end": 332.68,
+          "probability": 0.4226
+        },
+        {
+          "word": "बोल",
+          "start": 332.68,
+          "end": 333.22,
+          "probability": 0.8444
+        },
+        {
+          "word": "गुहार",
+          "start": 333.22,
+          "end": 333.82,
+          "probability": 0.2549
+        },
+        {
+          "word": "के",
+          "start": 333.82,
+          "end": 334.24,
+          "probability": 0.0837
+        },
+        {
+          "word": "समस्याsyam",
+          "start": 334.24,
+          "end": 334.96,
+          "probability": 0.3915
+        },
+        {
+          "word": "ए",
+          "start": 334.96,
+          "end": 337.44,
+          "probability": 0.1587
+        },
+        {
+          "word": "class",
+          "start": 337.44,
+          "end": 337.44,
+          "probability": 0.0
+        },
+        {
+          "word": "get",
+          "start": 337.44,
+          "end": 337.92,
+          "probability": 0.0001
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start": 339.18,
+      "end": 340.08,
+      "text": "जानेun",
+      "avg_logprob": -1.443,
+      "no_speech_prob": 0.0054,
+      "words": [
+        {
+          "word": "जानेun",
+          "start": 339.18,
+          "end": 340.08,
+          "probability": 0.2449
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start": 340.08,
+      "end": 341.72,
+      "text": "जाने जाने",
+      "avg_logprob": -1.443,
+      "no_speech_prob": 0.0054,
+      "words": [
+        {
+          "word": "जाने",
+          "start": 340.08,
+          "end": 341.24,
+          "probability": 0.3987
+        },
+        {
+          "word": "जाने",
+          "start": 341.24,
+          "end": 341.72,
+          "probability": 0.5526
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "start": 341.72,
+      "end": 343.18,
+      "text": "जाने जाने",
+      "avg_logprob": -1.443,
+      "no_speech_prob": 0.0054,
+      "words": [
+        {
+          "word": "जाने",
+          "start": 341.72,
+          "end": 341.72,
+          "probability": 0.7117
+        },
+        {
+          "word": "जाने",
+          "start": 341.72,
+          "end": 343.18,
+          "probability": 0.762
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start": 344.54,
+      "end": 364.84,
+      "text": "तुम लोग में समझ आ रहे थे कि आप किस बारे में बात कर रहे हैं वो या थोड़े थोड़े जैसे हिंदी वर्ड्स यूज़ करते हो ना तो हमें फिर बाकी का सेंटेंस समझ में आने लग जाता है",
+      "avg_logprob": -0.2177,
+      "no_speech_prob": 0.2612,
+      "words": [
+        {
+          "word": "तुम",
+          "start": 344.54,
+          "end": 344.72,
+          "probability": 0.7054
+        },
+        {
+          "word": "लोग",
+          "start": 344.72,
+          "end": 344.84,
+          "probability": 0.8774
+        },
+        {
+          "word": "में",
+          "start": 344.84,
+          "end": 344.94,
+          "probability": 0.5287
+        },
+        {
+          "word": "समझ",
+          "start": 344.94,
+          "end": 345.32,
+          "probability": 0.8452
+        },
+        {
+          "word": "आ",
+          "start": 345.32,
+          "end": 345.42,
+          "probability": 0.8905
+        },
+        {
+          "word": "रहे",
+          "start": 345.42,
+          "end": 345.58,
+          "probability": 0.909
+        },
+        {
+          "word": "थे",
+          "start": 345.58,
+          "end": 345.7,
+          "probability": 0.9317
+        },
+        {
+          "word": "कि",
+          "start": 345.7,
+          "end": 345.84,
+          "probability": 0.892
+        },
+        {
+          "word": "आप",
+          "start": 345.84,
+          "end": 345.96,
+          "probability": 0.9559
+        },
+        {
+          "word": "किस",
+          "start": 345.96,
+          "end": 346.18,
+          "probability": 0.9333
+        },
+        {
+          "word": "बारे",
+          "start": 346.18,
+          "end": 346.44,
+          "probability": 0.9888
+        },
+        {
+          "word": "में",
+          "start": 346.44,
+          "end": 346.6,
+          "probability": 0.9809
+        },
+        {
+          "word": "बात",
+          "start": 346.6,
+          "end": 346.64,
+          "probability": 0.5541
+        },
+        {
+          "word": "कर",
+          "start": 346.64,
+          "end": 346.64,
+          "probability": 0.5955
+        },
+        {
+          "word": "रहे",
+          "start": 346.64,
+          "end": 346.64,
+          "probability": 0.7204
+        },
+        {
+          "word": "हैं",
+          "start": 346.64,
+          "end": 346.64,
+          "probability": 0.8185
+        },
+        {
+          "word": "वो",
+          "start": 346.64,
+          "end": 346.76,
+          "probability": 0.3207
+        },
+        {
+          "word": "या",
+          "start": 346.76,
+          "end": 346.86,
+          "probability": 0.8282
+        },
+        {
+          "word": "थोड़े",
+          "start": 346.86,
+          "end": 347.2,
+          "probability": 0.9307
+        },
+        {
+          "word": "थोड़े",
+          "start": 347.2,
+          "end": 347.42,
+          "probability": 0.9089
+        },
+        {
+          "word": "जैसे",
+          "start": 347.42,
+          "end": 347.54,
+          "probability": 0.861
+        },
+        {
+          "word": "हिंदी",
+          "start": 347.54,
+          "end": 347.82,
+          "probability": 0.96
+        },
+        {
+          "word": "वर्ड्स",
+          "start": 347.82,
+          "end": 348.16,
+          "probability": 0.864
+        },
+        {
+          "word": "यूज़",
+          "start": 348.16,
+          "end": 348.36,
+          "probability": 0.9532
+        },
+        {
+          "word": "करते",
+          "start": 348.36,
+          "end": 348.72,
+          "probability": 0.9834
+        },
+        {
+          "word": "हो",
+          "start": 348.72,
+          "end": 348.8,
+          "probability": 0.9241
+        },
+        {
+          "word": "ना",
+          "start": 348.8,
+          "end": 348.92,
+          "probability": 0.7635
+        },
+        {
+          "word": "तो",
+          "start": 348.92,
+          "end": 349.06,
+          "probability": 0.9671
+        },
+        {
+          "word": "हमें",
+          "start": 349.06,
+          "end": 349.28,
+          "probability": 0.9418
+        },
+        {
+          "word": "फिर",
+          "start": 349.28,
+          "end": 349.48,
+          "probability": 0.9327
+        },
+        {
+          "word": "बाकी",
+          "start": 349.48,
+          "end": 349.9,
+          "probability": 0.8609
+        },
+        {
+          "word": "का",
+          "start": 349.9,
+          "end": 350.06,
+          "probability": 0.9753
+        },
+        {
+          "word": "सेंटेंस",
+          "start": 350.06,
+          "end": 350.38,
+          "probability": 0.928
+        },
+        {
+          "word": "समझ",
+          "start": 350.38,
+          "end": 350.72,
+          "probability": 0.9874
+        },
+        {
+          "word": "में",
+          "start": 350.72,
+          "end": 350.9,
+          "probability": 0.9437
+        },
+        {
+          "word": "आने",
+          "start": 350.9,
+          "end": 351.02,
+          "probability": 0.9838
+        },
+        {
+          "word": "लग",
+          "start": 351.02,
+          "end": 351.2,
+          "probability": 0.996
+        },
+        {
+          "word": "जाता",
+          "start": 351.2,
+          "end": 351.44,
+          "probability": 0.7281
+        },
+        {
+          "word": "है",
+          "start": 351.44,
+          "end": 364.84,
+          "probability": 0.9424
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "start": 366.39,
+      "end": 369.01,
+      "text": "कि उसको जोड़ना चाहिए वहां भाई भाई हुआ है",
+      "avg_logprob": -0.3592,
+      "no_speech_prob": 0.0166,
+      "words": [
+        {
+          "word": "कि",
+          "start": 366.39,
+          "end": 366.39,
+          "probability": 0.2108
+        },
+        {
+          "word": "उसको",
+          "start": 366.39,
+          "end": 366.57,
+          "probability": 0.6947
+        },
+        {
+          "word": "जोड़ना",
+          "start": 366.57,
+          "end": 366.93,
+          "probability": 0.9625
+        },
+        {
+          "word": "चाहिए",
+          "start": 366.93,
+          "end": 367.31,
+          "probability": 0.9955
+        },
+        {
+          "word": "वहां",
+          "start": 367.31,
+          "end": 368.07,
+          "probability": 0.6351
+        },
+        {
+          "word": "भाई",
+          "start": 368.07,
+          "end": 368.41,
+          "probability": 0.6854
+        },
+        {
+          "word": "भाई",
+          "start": 368.41,
+          "end": 368.73,
+          "probability": 0.883
+        },
+        {
+          "word": "हुआ",
+          "start": 368.73,
+          "end": 368.99,
+          "probability": 0.7132
+        },
+        {
+          "word": "है",
+          "start": 368.99,
+          "end": 369.01,
+          "probability": 0.9357
+        }
+      ]
+    }
+  ]
+}

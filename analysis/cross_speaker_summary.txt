@@ -1,0 +1,32 @@
+CROSS-SPEAKER SUMMARY
+Code-Switching and Gender Agreement in Hindi-Bengali Bilingual Speech
+IIT Kharagpur Campus Staff Interviews
+================================================================================
+WARNING: All counts from unverified Whisper output (lower bounds).
+================================================================================
+
+Speaker  Duration  Words  Bengali %Bengali  Switches  PastV   Adj   ne  AgrmtSites
+----------------------------------------------------------------------------------
+S1           231s     33       25    75.8%         0      0     0    0           0
+S1            77s    130        6     4.6%         0     16     2    0          18
+S3           371s    381       94    24.7%         4     23     1    0          24
+S7           330s    367       58    15.8%         2     24     1    0          25
+----------------------------------------------------------------------------------
+TOTAL          0s    911      183                  6     63     4    0          67
+
+
+DATA SUFFICIENCY ASSESSMENT
+----------------------------------------
+  Speakers: 4
+  Total speech: 0.0 minutes
+  Total words: 911
+  Agreement sites: 67
+  Bengali candidate words: 183
+  Switch points: 6
+
+  VERDICT: SUFFICIENT for descriptive analysis. Statistical comparison
+  across speakers possible if sites are distributed across speakers.
+
+  CODE-SWITCHING: Very few switch points detected. May reflect
+  Whisper's tendency to normalize Bengali->Hindi, or genuinely
+  limited switching in the data. Human verification critical.
