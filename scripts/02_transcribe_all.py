@@ -156,6 +156,7 @@ def transcribe_file(model, audio_path, output_dir):
         ),
         "total_segments": len(all_segments),
         "total_words": len(all_words),
+        "complete": True,
         "segments": all_segments,
     }
 
@@ -225,17 +226,19 @@ def main():
             print(f"\n[skip] {wav.name} (preamble/setup clip)")
             continue
 
-        # Resume mode: skip if transcript JSON already exists
+        # Resume mode: skip if a COMPLETE transcript JSON already exists
         existing_json = os.path.join(output_dir, f"{wav.stem}_transcript.json")
         if os.path.exists(existing_json):
             try:
                 with open(existing_json, "r", encoding="utf-8") as f:
                     existing = json.load(f)
-                if existing.get("segments"):
+                if existing.get("complete"):
                     print(f"\n[resume] {wav.stem} already transcribed ({existing['total_segments']} segments), skipping")
                     results.append(existing)
                     skipped += 1
                     continue
+                else:
+                    print(f"\n[redo] {wav.stem} has incomplete transcript, re-transcribing")
             except (json.JSONDecodeError, KeyError):
                 pass
 
