@@ -244,7 +244,7 @@
       "start": 167.83,
       "end": 168.17,
       "probability": 0.1212,
-      "segment_text": "collector: dine mein kitna time...\nspeaker: aisa koi yeh nahi hai matlab jisse baat karte hai-",
+      "segment_text": "collector: dine mein kitna time... speaker: aisa koi yeh nahi hai matlab jisse baat karte hai-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -252,7 +252,7 @@
       "start": 169.63,
       "end": 169.95,
       "probability": 0.2554,
-      "segment_text": "collector: dine mein kitna time...\nspeaker: aisa koi yeh nahi hai matlab jisse baat karte hai-",
+      "segment_text": "collector: dine mein kitna time... speaker: aisa koi yeh nahi hai matlab jisse baat karte hai-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -294,7 +294,7 @@
       "gender_form": "m_pl",
       "start": 9.96,
       "end": 10.12,
-      "segment_text": "collector: aapko jo sabse pehle aaye\nspeaker: yeh door hai,  eh chair hai, fan, book, house, house ka dorja, na khidki, aa pani mein na glas mei pani, roti eh-",
+      "segment_text": "collector: aapko jo sabse pehle aaye speaker: yeh door hai,  eh chair hai, fan, book, house, house ka dorja, na khidki, aa pani mein na glas mei pani, roti eh-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -302,7 +302,7 @@
       "gender_form": "f_sg",
       "start": 23.09,
       "end": 24.03,
-      "segment_text": "collector: aapko jo sabse pehle aaye\nspeaker: yeh door hai,  eh chair hai, fan, book, house, house ka dorja, na khidki, aa pani mein na glas mei pani, roti eh-",
+      "segment_text": "collector: aapko jo sabse pehle aaye speaker: yeh door hai,  eh chair hai, fan, book, house, house ka dorja, na khidki, aa pani mein na glas mei pani, roti eh-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -342,7 +342,7 @@
       "gender_form": "m_sg",
       "start": 200.49,
       "end": 200.61,
-      "segment_text": "collector: aur dada aapko yaha ke students kaise lagte hai, ya koi din hota hoga jo mushkil jata hoga\nspeaker: nahi nahi nahi, mushkil hota hai kabhi, jaise ek parivaar mein kisi mein paach, sab barabar nahi hota-",
+      "segment_text": "collector: aur dada aapko yaha ke students kaise lagte hai, ya koi din hota hoga jo mushkil jata hoga speaker: nahi nahi nahi, mushkil hota hai kabhi, jaise ek parivaar mein kisi mein paach, sab barabar nahi hota-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -350,7 +350,7 @@
       "gender_form": "m_sg",
       "start": 201.67,
       "end": 201.81,
-      "segment_text": "collector: aur dada aapko yaha ke students kaise lagte hai, ya koi din hota hoga jo mushkil jata hoga\nspeaker: nahi nahi nahi, mushkil hota hai kabhi, jaise ek parivaar mein kisi mein paach, sab barabar nahi hota-",
+      "segment_text": "collector: aur dada aapko yaha ke students kaise lagte hai, ya koi din hota hoga jo mushkil jata hoga speaker: nahi nahi nahi, mushkil hota hai kabhi, jaise ek parivaar mein kisi mein paach, sab barabar nahi hota-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -449,7 +449,7 @@
       "word": "dorja",
       "start": 8.14,
       "end": 33.5,
-      "segment_text": "collector: aapko jo sabse pehle aaye\nspeaker: yeh door hai,  eh chair hai, fan, book, house, house ka dorja, na khidki, aa pani mein na glas mei pani, roti eh-"
+      "segment_text": "collector: aapko jo sabse pehle aaye speaker: yeh door hai,  eh chair hai, fan, book, house, house ka dorja, na khidki, aa pani mein na glas mei pani, roti eh-"
     },
     {
       "word": "bhat",

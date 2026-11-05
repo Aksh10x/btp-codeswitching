@@ -251,6 +251,17 @@ def analyze_transcript(transcript_json_path, analysis_dir, use_corrections=False
             # Use corrected text when available
             text = seg.get("corrected_text", seg["text"])
 
+            # For mixed collector+speaker segments, extract only speaker lines
+            if seg.get("has_collector_speech") and text:
+                speaker_lines = []
+                for line in text.split("\n"):
+                    line = line.strip()
+                    if line.startswith("s:"):
+                        speaker_lines.append(line[2:].strip())
+                    elif not line.startswith("c:"):
+                        speaker_lines.append(line)
+                text = " ".join(speaker_lines) if speaker_lines else text
+
             # Collect verified gender agreement errors from annotations
             for ge in seg.get("gender_agreement_errors", []):
                 verified_gender_error_count += 1

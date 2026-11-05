@@ -8,7 +8,7 @@
     {
       "start": 85.23,
       "end": 87.59,
-      "text": "collector: aapka janm bhi yehi hua\nspeaker: janm bhi yahi shaadi bhi yahi\ncollector: ghar mein kya bhasha bolte hai\nspeaker: bengali bhasha bolte hai\ncollector: wohi bolte hai bachpan se?\nspeaker: ha\ncollecotr: aur koi bhasha aati hai aapko",
+      "text": "collector: aapka janm bhi yehi hua speaker: janm bhi yahi shaadi bhi yahi collector: ghar mein kya bhasha bolte hai speaker: bengali bhasha bolte hai collector: wohi bolte hai bachpan se? speaker: ha collecotr: aur koi bhasha aati hai aapko",
       "avg_logprob": -0.7211,
       "no_speech_prob": 0.2131,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -20,7 +20,7 @@
       "start": 204.87,
       "end": 206.41,
       "probability": 0.3447,
-      "segment_text": "collector: baccho se aap konsi bhasha mein baat karte hai\nspeaker: bengali hum log ka jo bhasha hai\ncollector: accha baccho se kabhi hindi nahi baat karte?\nspeaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai\ncollector: okay didi thankyou",
+      "segment_text": "collector: baccho se aap konsi bhasha mein baat karte hai speaker: bengali hum log ka jo bhasha hai collector: accha baccho se kabhi hindi nahi baat karte? speaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai collector: okay didi thankyou",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     }
   ],
@@ -30,7 +30,7 @@
       "gender_form": "f_sg",
       "start": 13.4,
       "end": 13.78,
-      "segment_text": "collector: didi yeh kya hai?\nspeaker: yeh darwaza hai, yeh chair hai, fan hai, eh kitaab hai, eh ghar hai, eh khirki hai",
+      "segment_text": "collector: didi yeh kya hai? speaker: yeh darwaza hai, yeh chair hai, fan hai, eh kitaab hai, eh ghar hai, eh khirki hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -110,7 +110,7 @@
       "gender_form": "f_sg",
       "start": 206.41,
       "end": 206.97,
-      "segment_text": "collector: baccho se aap konsi bhasha mein baat karte hai\nspeaker: bengali hum log ka jo bhasha hai\ncollector: accha baccho se kabhi hindi nahi baat karte?\nspeaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai\ncollector: okay didi thankyou",
+      "segment_text": "collector: baccho se aap konsi bhasha mein baat karte hai speaker: bengali hum log ka jo bhasha hai collector: accha baccho se kabhi hindi nahi baat karte? speaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai collector: okay didi thankyou",
       "note": "Agreement site — verify gender matches subject/object"
     }
   ],
@@ -153,7 +153,7 @@
       "word": "bengali",
       "start": 85.23,
       "end": 87.59,
-      "segment_text": "collector: aapka janm bhi yehi hua\nspeaker: janm bhi yahi shaadi bhi yahi\ncollector: ghar mein kya bhasha bolte hai\nspeaker: bengali bhasha bolte hai\ncollector: wohi bolte hai bachpan se?\nspeaker: ha\ncollecotr: aur koi bhasha aati hai aapko"
+      "segment_text": "collector: aapka janm bhi yehi hua speaker: janm bhi yahi shaadi bhi yahi collector: ghar mein kya bhasha bolte hai speaker: bengali bhasha bolte hai collector: wohi bolte hai bachpan se? speaker: ha collecotr: aur koi bhasha aati hai aapko"
     },
     {
       "word": "bengali",
@@ -165,13 +165,13 @@
       "word": "eta",
       "start": 198.89,
       "end": 211.73,
-      "segment_text": "collector: baccho se aap konsi bhasha mein baat karte hai\nspeaker: bengali hum log ka jo bhasha hai\ncollector: accha baccho se kabhi hindi nahi baat karte?\nspeaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai\ncollector: okay didi thankyou"
+      "segment_text": "collector: baccho se aap konsi bhasha mein baat karte hai speaker: bengali hum log ka jo bhasha hai collector: accha baccho se kabhi hindi nahi baat karte? speaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai collector: okay didi thankyou"
     },
     {
       "word": "bengali",
       "start": 198.89,
       "end": 211.73,
-      "segment_text": "collector: baccho se aap konsi bhasha mein baat karte hai\nspeaker: bengali hum log ka jo bhasha hai\ncollector: accha baccho se kabhi hindi nahi baat karte?\nspeaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai\ncollector: okay didi thankyou"
+      "segment_text": "collector: baccho se aap konsi bhasha mein baat karte hai speaker: bengali hum log ka jo bhasha hai collector: accha baccho se kabhi hindi nahi baat karte? speaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai collector: okay didi thankyou"
     }
   ],
   "summary": {

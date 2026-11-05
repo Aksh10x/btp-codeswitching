@@ -24,7 +24,7 @@
     {
       "start": 206.77,
       "end": 224.65,
-      "text": "c: aur koi language aap bol sakte ho\ns: haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda\nc: aur dada aapko students kaise lagte hai yahake campus ke\ns: bohot hi accha hai students",
+      "text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
       "avg_logprob": -0.9583,
       "no_speech_prob": 0.2121,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -164,7 +164,7 @@
       "start": 197.04,
       "end": 197.18,
       "probability": 0.334,
-      "segment_text": "c: aur aise din mein kam use hoti hogi\ns: halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai",
+      "segment_text": "halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -172,7 +172,7 @@
       "start": 198.06,
       "end": 198.16,
       "probability": 0.2869,
-      "segment_text": "c: aur aise din mein kam use hoti hogi\ns: halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai",
+      "segment_text": "halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -180,7 +180,7 @@
       "start": 200.79,
       "end": 201.21,
       "probability": 0.3766,
-      "segment_text": "c: aur aise din mein kam use hoti hogi\ns: halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai",
+      "segment_text": "halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -188,7 +188,7 @@
       "start": 206.77,
       "end": 207.57,
       "probability": 0.3079,
-      "segment_text": "c: aur koi language aap bol sakte ho\ns: haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda\nc: aur dada aapko students kaise lagte hai yahake campus ke\ns: bohot hi accha hai students",
+      "segment_text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -196,7 +196,7 @@
       "start": 211.88,
       "end": 212.16,
       "probability": 0.3336,
-      "segment_text": "c: aur koi language aap bol sakte ho\ns: haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda\nc: aur dada aapko students kaise lagte hai yahake campus ke\ns: bohot hi accha hai students",
+      "segment_text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -204,7 +204,7 @@
       "start": 214.31,
       "end": 214.61,
       "probability": 0.0958,
-      "segment_text": "c: aur koi language aap bol sakte ho\ns: haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda\nc: aur dada aapko students kaise lagte hai yahake campus ke\ns: bohot hi accha hai students",
+      "segment_text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -212,7 +212,7 @@
       "start": 214.61,
       "end": 215.01,
       "probability": 0.3536,
-      "segment_text": "c: aur koi language aap bol sakte ho\ns: haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda\nc: aur dada aapko students kaise lagte hai yahake campus ke\ns: bohot hi accha hai students",
+      "segment_text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -220,7 +220,7 @@
       "start": 216.76,
       "end": 218.24,
       "probability": 0.3134,
-      "segment_text": "c: aur koi language aap bol sakte ho\ns: haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda\nc: aur dada aapko students kaise lagte hai yahake campus ke\ns: bohot hi accha hai students",
+      "segment_text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -228,7 +228,7 @@
       "start": 219.23,
       "end": 224.65,
       "probability": 0.2516,
-      "segment_text": "c: aur koi language aap bol sakte ho\ns: haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda\nc: aur dada aapko students kaise lagte hai yahake campus ke\ns: bohot hi accha hai students",
+      "segment_text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -246,7 +246,7 @@
       "gender_form": "f_sg",
       "start": 35.76,
       "end": 36.0,
-      "segment_text": "c: jo dimaag mein pehle ata hai\ns: maruti",
+      "segment_text": "maruti",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -254,7 +254,7 @@
       "gender_form": "m_sg",
       "start": 73.74,
       "end": 74.16,
-      "segment_text": "c: yeh photo dekh ke aapko explain karna hai ki kya kiya iss bande ne\ns: roti khabar khacchi",
+      "segment_text": "roti khabar khacchi",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -373,57 +373,50 @@
       "note": "Check if adjective agrees with following noun's grammatical gender"
     }
   ],
-  "ne_occurrences": [
-    {
-      "start": 73.4,
-      "end": 73.58,
-      "segment_text": "c: yeh photo dekh ke aapko explain karna hai ki kya kiya iss bande ne\ns: roti khabar khacchi",
-      "note": "Ergative construction — verb should agree with OBJECT, not subject. Bengali has no equivalent; this is where L1 transfer is most likely to appear."
-    }
-  ],
+  "ne_occurrences": [],
   "verified_gender_errors": [],
   "verified_bengali_words": [
     {
       "word": "dorja",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker\nc: dada mai photo dikhaungi aapko batana hai ki woh kya hai\ns: dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "janala",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker\nc: dada mai photo dikhaungi aapko batana hai ki woh kya hai\ns: dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "jol",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker\nc: dada mai photo dikhaungi aapko batana hai ki woh kya hai\ns: dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "pakha",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker\nc: dada mai photo dikhaungi aapko batana hai ki woh kya hai\ns: dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "boi",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker\nc: dada mai photo dikhaungi aapko batana hai ki woh kya hai\ns: dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "ghor",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker\nc: dada mai photo dikhaungi aapko batana hai ki woh kya hai\ns: dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "kedara",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker\nc: dada mai photo dikhaungi aapko batana hai ki woh kya hai\ns: dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "hather",
@@ -435,13 +428,13 @@
       "word": "khabar",
       "start": 70.96,
       "end": 79.11,
-      "segment_text": "c: yeh photo dekh ke aapko explain karna hai ki kya kiya iss bande ne\ns: roti khabar khacchi"
+      "segment_text": "roti khabar khacchi"
     },
     {
       "word": "khacchi",
       "start": 70.96,
       "end": 79.11,
-      "segment_text": "c: yeh photo dekh ke aapko explain karna hai ki kya kiya iss bande ne\ns: roti khabar khacchi"
+      "segment_text": "roti khabar khacchi"
     },
     {
       "word": "dorja",
@@ -585,7 +578,7 @@
       "word": "bengali",
       "start": 197.02,
       "end": 203.49,
-      "segment_text": "c: aur aise din mein kam use hoti hogi\ns: halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai"
+      "segment_text": "halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai"
     },
     {
       "word": "eta",
@@ -601,7 +594,7 @@
     }
   ],
   "summary": {
-    "total_words": 577,
+    "total_words": 509,
     "total_segments": 21,
     "duration_s": 304.7,
     "low_confidence_segments": 3,
@@ -610,7 +603,7 @@
     "candidate_switch_points": 4,
     "past_tense_verbs_found": 15,
     "adjective_noun_pairs_found": 1,
-    "ne_occurrences": 1,
+    "ne_occurrences": 0,
     "verified_gender_errors": 0,
     "verified_bengali_unique": 23,
     "verified_bengali_total": 36,

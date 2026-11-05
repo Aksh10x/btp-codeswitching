@@ -19,7 +19,7 @@
       "start": 101.16,
       "end": 101.24,
       "probability": 0.3109,
-      "segment_text": "collector: dada aap ghar pe konsi bhasha bolte ho\nspeaker: gharme pure bangla bolte hai hum, sabhi log bangla bolte hai, (hindi bhi use nahi karte: collecotr) nahi bilkul nahi",
+      "segment_text": "collector: dada aap ghar pe konsi bhasha bolte ho speaker: gharme pure bangla bolte hai hum, sabhi log bangla bolte hai, (hindi bhi use nahi karte: collecotr) nahi bilkul nahi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -27,7 +27,7 @@
       "start": 104.9,
       "end": 105.26,
       "probability": 0.276,
-      "segment_text": "collector: dada aap ghar pe konsi bhasha bolte ho\nspeaker: gharme pure bangla bolte hai hum, sabhi log bangla bolte hai, (hindi bhi use nahi karte: collecotr) nahi bilkul nahi",
+      "segment_text": "collector: dada aap ghar pe konsi bhasha bolte ho speaker: gharme pure bangla bolte hai hum, sabhi log bangla bolte hai, (hindi bhi use nahi karte: collecotr) nahi bilkul nahi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -35,7 +35,7 @@
       "start": 109.51,
       "end": 109.81,
       "probability": 0.353,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein\nspeaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu\ncollecotr: kaha tak padhe ho dada aap\nspeaker: mera toh graduation hai uske baad hotel management hai\ncollecotr: fir aapne \"something something\" konsi class mein shuru kari?\nspeaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -43,7 +43,7 @@
       "start": 111.17,
       "end": 111.71,
       "probability": 0.2674,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein\nspeaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu\ncollecotr: kaha tak padhe ho dada aap\nspeaker: mera toh graduation hai uske baad hotel management hai\ncollecotr: fir aapne \"something something\" konsi class mein shuru kari?\nspeaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -51,7 +51,7 @@
       "start": 112.11,
       "end": 114.15,
       "probability": 0.3711,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein\nspeaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu\ncollecotr: kaha tak padhe ho dada aap\nspeaker: mera toh graduation hai uske baad hotel management hai\ncollecotr: fir aapne \"something something\" konsi class mein shuru kari?\nspeaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -59,7 +59,7 @@
       "start": 119.56,
       "end": 120.22,
       "probability": 0.2776,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein\nspeaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu\ncollecotr: kaha tak padhe ho dada aap\nspeaker: mera toh graduation hai uske baad hotel management hai\ncollecotr: fir aapne \"something something\" konsi class mein shuru kari?\nspeaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -67,7 +67,7 @@
       "start": 120.22,
       "end": 120.54,
       "probability": 0.3416,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein\nspeaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu\ncollecotr: kaha tak padhe ho dada aap\nspeaker: mera toh graduation hai uske baad hotel management hai\ncollecotr: fir aapne \"something something\" konsi class mein shuru kari?\nspeaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -75,7 +75,7 @@
       "start": 120.54,
       "end": 120.82,
       "probability": 0.308,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein\nspeaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu\ncollecotr: kaha tak padhe ho dada aap\nspeaker: mera toh graduation hai uske baad hotel management hai\ncollecotr: fir aapne \"something something\" konsi class mein shuru kari?\nspeaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -181,7 +181,7 @@
       "gender_form": "f_sg",
       "start": 109.51,
       "end": 109.81,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein\nspeaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu\ncollecotr: kaha tak padhe ho dada aap\nspeaker: mera toh graduation hai uske baad hotel management hai\ncollecotr: fir aapne \"something something\" konsi class mein shuru kari?\nspeaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -189,7 +189,7 @@
       "gender_form": "m_pl",
       "start": 120.54,
       "end": 120.82,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein\nspeaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu\ncollecotr: kaha tak padhe ho dada aap\nspeaker: mera toh graduation hai uske baad hotel management hai\ncollecotr: fir aapne \"something something\" konsi class mein shuru kari?\nspeaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -298,7 +298,7 @@
       "alternate_form": "अच्छी",
       "start": 120.82,
       "end": 132.3,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein\nspeaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu\ncollecotr: kaha tak padhe ho dada aap\nspeaker: mera toh graduation hai uske baad hotel management hai\ncollecotr: fir aapne \"something something\" konsi class mein shuru kari?\nspeaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     },
     {
@@ -354,7 +354,7 @@
       "word": "bangla",
       "start": 101.16,
       "end": 108.47,
-      "segment_text": "collector: dada aap ghar pe konsi bhasha bolte ho\nspeaker: gharme pure bangla bolte hai hum, sabhi log bangla bolte hai, (hindi bhi use nahi karte: collecotr) nahi bilkul nahi"
+      "segment_text": "collector: dada aap ghar pe konsi bhasha bolte ho speaker: gharme pure bangla bolte hai hum, sabhi log bangla bolte hai, (hindi bhi use nahi karte: collecotr) nahi bilkul nahi"
     },
     {
       "word": "bengali",

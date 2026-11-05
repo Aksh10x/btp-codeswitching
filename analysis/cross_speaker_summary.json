@@ -96,14 +96,14 @@
       "speaker": "S6",
       "file": "S6_IMG_6660",
       "duration_s": 304.7,
-      "total_words": 577,
+      "total_words": 509,
       "candidate_bengali_words": 26,
-      "bengali_word_pct": 4.5,
+      "bengali_word_pct": 5.1,
       "candidate_switch_points": 4,
       "past_tense_verbs": 15,
       "adjective_noun_pairs": 1,
-      "ne_occurrences": 1,
-      "agreement_sites_total": 17,
+      "ne_occurrences": 0,
+      "agreement_sites_total": 16,
       "verified_gender_errors": 0,
       "verified_bengali_unique": 23
     },
@@ -139,15 +139,15 @@
     }
   ],
   "totals": {
-    "total_words": 4033,
+    "total_words": 3965,
     "total_duration_s": 2568.11,
     "candidate_bengali_words": 168,
     "candidate_switch_points": 20,
     "past_tense_verbs": 149,
     "adjective_noun_pairs": 15,
-    "ne_occurrences": 1,
+    "ne_occurrences": 0,
     "verified_gender_errors": 8,
     "verified_bengali_unique": 48,
-    "agreement_sites_total": 165
+    "agreement_sites_total": 164
   }
 }

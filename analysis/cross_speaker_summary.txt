@@ -14,26 +14,26 @@ S2           309s    421       13     3.1%         0     23     5    0        0 
 S3           371s    352       34     9.7%         4     22     3    0        1       1
 S4           341s    506       34     6.7%         2     28     0    0        2       1
 S5           388s    728       14     1.9%         0     19     4    0        0       7
-S6           305s    577       26     4.5%         4     15     1    1        0      23
+S6           305s    509       26     5.1%         4     15     1    0        0      23
 S7           330s    679       31     4.6%         4     15     1    0        2       4
 S8           216s    494        1     0.2%         2     11     0    0        3       2
 ---------------------------------------------------------------------------------------
-TOTAL       2568s   4033      168                 20    149    15    1        8      48
+TOTAL       2568s   3965      168                 20    149    15    0        8      48
 
 
 DATA SUFFICIENCY ASSESSMENT
 ----------------------------------------
   Speakers: 9
   Total speech: 42.8 minutes
-  Total words: 4033
-  Agreement sites (auto-detected): 165
+  Total words: 3965
+  Agreement sites (auto-detected): 164
   Bengali candidate words: 168
   Switch points: 20
 
   HUMAN-VERIFIED FINDINGS:
     Gender agreement errors: 8
     Unique Bengali words identified: 48
-    Ergative 'ne' occurrences: 1
+    Ergative 'ne' occurrences: 0
 
   VERDICT: SUFFICIENT for descriptive analysis. Statistical comparison
   across speakers possible if sites are distributed across speakers.

@@ -300,7 +300,7 @@
       "start": 258.46,
       "end": 259.02,
       "probability": 0.2439,
-      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab\nspeakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\ncollector: jaise students se baat karte ho aap",
+      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab speakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai collector: jaise students se baat karte ho aap",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -308,7 +308,7 @@
       "start": 265.58,
       "end": 268.18,
       "probability": 0.3339,
-      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab\nspeakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\ncollector: jaise students se baat karte ho aap",
+      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab speakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai collector: jaise students se baat karte ho aap",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     }
   ],
@@ -326,7 +326,7 @@
       "gender_form": "m_sg",
       "start": 117.01,
       "end": 117.23,
-      "segment_text": "collector: और आप अपने बारे में बताओ कितने साल होंगे खड़कपुर\nspeaker: kharagpu mera janam hai, bachpan se mera pitaji gujar gaya",
+      "segment_text": "collector: और आप अपने बारे में बताओ कितने साल होंगे खड़कपुर speaker: kharagpu mera janam hai, bachpan se mera pitaji gujar gaya",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -502,7 +502,7 @@
       "gender_form": "f_sg",
       "start": 232.5,
       "end": 233.36,
-      "segment_text": "collector: aur kon konsi bhaashe bol lete ho aap, jaise bengali toh roz hi bol lete ho, hindi bhi araam se baat karli aapne\nspeaker: haa kabhi kabhi sab did bhai nahi bol pata toh thoda toh atak jata, bengali mein hi bolta hai, english thoda sa school mein tha",
+      "segment_text": "collector: aur kon konsi bhaashe bol lete ho aap, jaise bengali toh roz hi bol lete ho, hindi bhi araam se baat karli aapne speaker: haa kabhi kabhi sab did bhai nahi bol pata toh thoda toh atak jata, bengali mein hi bolta hai, english thoda sa school mein tha",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -510,7 +510,7 @@
       "gender_form": "m_pl",
       "start": 265.58,
       "end": 268.18,
-      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab\nspeakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\ncollector: jaise students se baat karte ho aap",
+      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab speakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai collector: jaise students se baat karte ho aap",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -518,7 +518,7 @@
       "gender_form": "m_sg",
       "start": 270.11,
       "end": 270.39,
-      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab\nspeakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\ncollector: jaise students se baat karte ho aap",
+      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab speakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai collector: jaise students se baat karte ho aap",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -573,13 +573,13 @@
       "word": "bengali",
       "start": 229.52,
       "end": 250.74,
-      "segment_text": "collector: aur kon konsi bhaashe bol lete ho aap, jaise bengali toh roz hi bol lete ho, hindi bhi araam se baat karli aapne\nspeaker: haa kabhi kabhi sab did bhai nahi bol pata toh thoda toh atak jata, bengali mein hi bolta hai, english thoda sa school mein tha"
+      "segment_text": "collector: aur kon konsi bhaashe bol lete ho aap, jaise bengali toh roz hi bol lete ho, hindi bhi araam se baat karli aapne speaker: haa kabhi kabhi sab did bhai nahi bol pata toh thoda toh atak jata, bengali mein hi bolta hai, english thoda sa school mein tha"
     },
     {
       "word": "bengali",
       "start": 258.46,
       "end": 272.81,
-      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab\nspeakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\ncollector: jaise students se baat karte ho aap"
+      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab speakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai collector: jaise students se baat karte ho aap"
     }
   ],
   "summary": {
