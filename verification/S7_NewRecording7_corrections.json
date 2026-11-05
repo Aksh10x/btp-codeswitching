@@ -1,0 +1,188 @@
+{
+  "file": "S7_NewRecording7",
+  "speaker_code": "S7",
+  "corrections": [
+    {
+      "segment_id": 1,
+      "start": 8.14,
+      "end": 33.5,
+      "whisper_text": "आपको जो सबसे पहले आए यह चैनल है बुक हाउस का दर्जा खिड़की पानी में ना ग्लास में पानी रोटी लांच",
+      "correction": "collector: aapko jo sabse pehle aaye\nspeaker: yeh door hai,  eh chair hai, fan, book, house, house ka dorja, na khidki, aa pani mein na glas mei pani, roti eh-",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 2,
+      "start": 34.15,
+      "end": 46.66,
+      "whisper_text": "तो मुद्दे ना पाती का � anymore अईएग92 फोटोस में आपको क्या फर्क दिखता पहली नजर में आपके फोटोस देखो दोनों",
+      "correction": "speaker: lunch ya dinner, bhat\ncollector: ab dada in do photos mein kya farak dikhta hai aapko pehli nazar main aapko dekho dono",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 3,
+      "start": 46.66,
+      "end": 60.8,
+      "whisper_text": "शेमे बट इनका यह और यह दोनों सेम है पर इन बॉकियाय कर में हो लूं तो इसमें जो थे इस नहीं दोनों फोटोस सेम",
+      "correction": "collector speech",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 4,
+      "start": 60.8,
+      "end": 94.47,
+      "whisper_text": "फर्क बताना फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फोटो फ",
+      "correction": "speaker: yeh small photo hai yeh bada photo hai\ncollector: a dada yeh batana yeh banda iss photo mein kya karaha hai\nspeaker: yeh khana kha raha hai, yeh girls khana kha raha hai, yeh ek ladies door khol raha hai, ek baccha kitaab padh raha hai, ek ladies glass mein paani daal raha hai, eh glass neechi palti hogaya paani neeche gir raha hai, book ulta karke rakha hua hai, khudchi tuta hua hai, fan ka ek blade tuta hua hai, eh dorja gate khula hua hai\ncollector: dada aap kaha se ho",
+      "error_type": "hallucination",
+      "notes": ""
+    },
+    {
+      "segment_id": 6,
+      "start": 121.01,
+      "end": 128.03,
+      "whisper_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
+      "correction": "speaker: mai kharagpur se hu\ncollecotr: gharpe konse bhasha bolte ho",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 7,
+      "start": 128.03,
+      "end": 134.25,
+      "whisper_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "correction": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 8,
+      "start": 156.46,
+      "end": 167.77,
+      "whisper_text": "आपके स्कूल में भी होती होगी ना हिंदी सब्जेक्ट होता था तो और यहां पर आपका जॉब सिक्योरिटी सिक्योरिटी स्टार्ट में",
+      "correction": "speaker: mai inter... 12th\ncollector: toh aapke school mein bhi hota hoga na hindi\nspeaker: haa ek subject hota tha\n",
+      "error_type": "wrong_word",
+      "notes": "security part is collector"
+    },
+    {
+      "segment_id": 9,
+      "start": 167.83,
+      "end": 175.53,
+      "whisper_text": "है और दिन में आपको कितना टाइम पूंधर बोलने पड़ती है मतलब इनका ऐसा कोई नहीं है मतलब किससे बात करते हैं",
+      "correction": "collector: dine mein kitna time...\nspeaker: aisa koi yeh nahi hai matlab jisse baat karte hai-",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 10,
+      "start": 175.53,
+      "end": 181.11,
+      "whisper_text": "अगले वालों से ओर से भी बल्कुल करते अवेश्यन का कितना टाइम जाता है वह ज्यादा टाइम की हिंदी में जाता",
+      "correction": "speaker: agle wala hindi wala hai toh usse hindi mein baat karte hai\ncollector: fir bhi ktini time jata hoga din ka hindi bolne mein?\nspeaker: wohi chaaar paach ghanta , paach ghanta che ghanta",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 11,
+      "start": 184.35,
+      "end": 197.85,
+      "whisper_text": "और कोई भाषा बोलते हो हिंदी थड़ा बहुत बोलते हैं और दादा आपको यहां के स्टूडेंट्स कैसे लगते हैं ठीक है",
+      "correction": "collecotr: aur koi bhasha aap bolte ho\nspeaker: bengali hindi, english... thoda bohot",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 12,
+      "start": 197.85,
+      "end": 206.15,
+      "whisper_text": "नहीं मतलब फिर भी कोई दिन ऐसा होता हुआ थोड़ा मुश्किल जाता हुआ होता है कोई जैसे एक परिवार में किसी परिवार",
+      "correction": "collector: aur dada aapko yaha ke students kaise lagte hai, ya koi din hota hoga jo mushkil jata hoga\nspeaker: nahi nahi nahi, mushkil hota hai kabhi, jaise ek parivaar mein kisi mein paach, sab barabar nahi hota-",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 13,
+      "start": 207.11,
+      "end": 227.37,
+      "whisper_text": "सब बराबर नहीं होता इतना और सबसे मुश्किल समय क्या होता है नहीं हमारे जब कोई है मतलब प्रोडक्शन देना",
+      "correction": "-yeh itna bada iit hai itna sara student hai toh student barabar nahi hoga na\ncollector: phir bhi usmein kya pareshani aati hai aapko\nspeaker: nahi woh normal hai\ncollector: aapki job ka sabse mushkil samay kya hota hai\nspeaker: nahi humara toh job ka wohi hai matlab protection rehna hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 14,
+      "start": 227.37,
+      "end": 234.37,
+      "whisper_text": "है या कोई पॉब्लम होता तो उसको मतलब पर सलूशन निकलना है अभी ऐसी कोई परेशानी आई है आपको नहीं",
+      "correction": "speaker: koi bhi problem rehta hai usko matlab uska solution nikalna hai\ncollector: kabhi bhi aisi koi pareshaani aayi aapko\n",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 15,
+      "start": 234.37,
+      "end": 258.34,
+      "whisper_text": "नहीं इस वाली जॉब में नहीं आप रेफर करते होगे ना मॉर्निंग शिफ्ट हो या इधन शिफ्ट हो रहे लगे मेरा",
+      "correction": "speaker: nahi nahi aisa koi nahi hai\ncollector: matlab aap prefer karte honge na morning shift ho ya night shift ho\nspeaker: matlab mera duty ein agar koi cheez kami pesi reh gaya ya koi problem hua toh agle din hum woh handover karke jaate hai toh agle wale ko samajh mein aaye ki yaha koi problem tha aur uska koi solution hua ki nahi hua ya zyada hua toh usko report agaya toh hua ki nahi hua",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 16,
+      "start": 258.34,
+      "end": 265.52,
+      "whisper_text": "आपको सबसे इजी लगती है और कौन सी मुश्कूल लगती है नाइट सिर्फ सबसे मुश्कूल है कि फूल नाइट जागना नाइट होता है",
+      "correction": "collector: toh aapko konsi shift sabse easy lagti hai aur sabse mushkil lagti hai\nspeaker: night shift sabse mushkil hai kyuki full night jaagna padta hai, night hota hai-",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 17,
+      "start": 265.52,
+      "end": 289.4,
+      "whisper_text": "सोने के लिए उसका हम एगेंट्स उसका वर्कलप और दादा आपने जिससे अगर मैं को आप अपना सुबह से लेकर अभी तक",
+      "correction": "-sone ke liye uska hum against uska badnaam karta hai\ncollecotr: toh dada aap apna subha se leke ab tak ka routine batao aapne kya kya kiya\nspeaker: wohi hai subhe uthke fresh hoke duty hai toh duty mein ajate hai phir duty aath ghanta nikalne ke baad bhi duty duaraan breakfast karlete hai\n collector: aur duty ko thoda explain karo aap duty pe kya karte ho",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 18,
+      "start": 296.24,
+      "end": 302.06,
+      "whisper_text": "आगले जो दूटी में था उसको जितनी बात तो उसको शाद खेंड़ बग लिया अच्छा कोई परलेम होता तो कोई पर भी",
+      "correction": "speaker: wohi aane ke baad aise duty pe hum aya hai, aane ke baad agle jo duty pe tha uska kuch handover liya koi problem ho toh hum kabhi dekh lete hai ",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 19,
+      "start": 302.06,
+      "end": 310.04,
+      "whisper_text": "पैसी हो तो एक बार लेने पर घूम कर देख लेते हैं पेरवार टू गांव सुस्टेल है कोई बोहित बगर आशंद से",
+      "correction": "pesi ho toh ek baar ghum ke dekh lete hai, aur girls hostel hai koi boys wagera asani se na ghuse",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 20,
+      "start": 310.04,
+      "end": 318.18,
+      "whisper_text": "ना भी से यह जो सदर्ग रहना बड़ता है या गेट से कोई ऐसी चीज और गेट कास करना नहीं करें तो आपकी वह",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "noise"
+    },
+    {
+      "segment_id": 21,
+      "start": 318.18,
+      "end": 327.47,
+      "whisper_text": "सब्सक्राइब जूटी लगती है वहीं नहीं हम लगता नहीं हम लोग ऐसे लिए हम वह लगता नहीं है थी कि आप रिकॉर्डिंग",
+      "correction": "collecotr: toh aapki boys hostel mein bhi duty lagti hogi\nspeaker: nahi nahi boys mein hum log ko lagta nahi hai hum log ismein hai isliye boys mein hum log ko lagta nahi hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    }
+  ],
+  "verified_segments": [],
+  "timestamp": "2026-11-05T21:23:42.983Z"
+}

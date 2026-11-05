@@ -1,0 +1,125 @@
+{
+  "file": "S8_IMG_6664",
+  "speaker_code": "S8",
+  "corrections": [
+    {
+      "segment_id": 1,
+      "start": 0.54,
+      "end": 14.68,
+      "whisper_text": "कि यह क्या है यह दरवाजा है यह चेयर है यह फैम है पुन पास है यह एक किताब है यह घर है इसमें खिलकी है पानी",
+      "correction": "collector: didi yeh kya hai?\nspeaker: yeh darwaza hai, yeh chair hai, fan hai, eh kitaab hai, eh ghar hai, eh khirki hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 2,
+      "start": 15.53,
+      "end": 29.9,
+      "whisper_text": "का ग्लास है रोटी है खाना है कार्ड है और हाथ है पाचोंडी चावी है अब दिए इन दोनों फोटो में क्या फर्क है",
+      "correction": "speaker: eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paacho ungli, chaabi hai\ncollector: didi inn dono photo mein kya phark hai\nspeaker: yeh thoda chota hai thoda bada hai\ncollector: ismein aapko batana hai ki isne kya kiya\nspeaker: isne roti khaya, khana kha raha hai, eh darwaza kholke dekh raha hai, book padh raha hai, paani daal raha hai glass mein, paani gir gya, kitaab ulat gaya, khursi toot gaya, fan bhi tut gaya, khirki ghar purana jaise lag raha hai\ncollector: didi aap kaha se ho\nspeaker: mai bengal se\ncollector: bengal mein kaha se?\nspeaker: kharagpur se, yehe rehte hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 4,
+      "start": 85.23,
+      "end": 87.59,
+      "whisper_text": "आपका जन्म भी",
+      "correction": "collector: aapka janm bhi yehi hua\nspeaker: janm bhi yahi shaadi bhi yahi\ncollector: ghar mein kya bhasha bolte hai\nspeaker: bengali bhasha bolte hai\ncollector: wohi bolte hai bachpan se?\nspeaker: ha\ncollecotr: aur koi bhasha aati hai aapko\n",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 5,
+      "start": 93.09,
+      "end": 114.63,
+      "whisper_text": "सब्सक्राइब और और कोई भाषा आती है हिंदी आता है थोड़ा थोड़ा थोड़ा थोड़ा सुनकर क्योंकि हम लोगों का",
+      "correction": "speaker: haa hindi ata hai thoda thoda\ncollector: toh kaha tak padhe ho aap didi\nspeaker: hs tak, hs, higher secondary\ncollector toh school mein hogi hidndi\nspeaker: haa hai, do class 7 8th tha.\ncollector: toh usse pehle bhi aap bolne lage the aap?\ncollector: haa thoda sunke kyuki hum log ka school mein hindi english bhi hai dono rehat hai bengali hindi english aise rehta hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 6,
+      "start": 124.03,
+      "end": 131.43,
+      "whisper_text": "आप दिन में कितना टाइम हिंदी यूज करते हो जब तक मैं यह काम पर रही तब तक हिंदी और एक स्टूडेंट को पढ़ाती",
+      "correction": "collecotr: aap din mein kitna time hindi use karte ho?\nspeaker: jab tak mai idhar kaam pe rehti tab tak hindi aur ek student ko padhati hu-",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 7,
+      "start": 131.43,
+      "end": 139.27,
+      "whisper_text": "हूं थोड़ा हिंदी यूज करते हैं और यहां पर क्या जॉब रोल क्या रोल इधर ऑफिस पर्पर्स कुछ भी काम होता है",
+      "correction": "-tab hindi use karti hu\ncollector: aur yaha pe kya job role kya hai aapka\nspeaker: role yaha office purpose pe kaam hota hai toh-",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 8,
+      "start": 139.27,
+      "end": 149.05,
+      "whisper_text": "सब देखना पड़ता है मैं स्ट्रीन का कुछ प्रॉब्लेंट कंप्लेंट नहीं सब और कुछ नहीं बनाती हूं मेरा हस्बेन भी",
+      "correction": "-toh sab dekhna padta hai jaise student ka kuch problem complaint yeh sabhi aur kuch nahi\ncollector: didi aapke ghar mein khana kon banata hai?\nspeaker: mai hi banati hu mera husband bhi banata hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 9,
+      "start": 149.05,
+      "end": 157.59,
+      "whisper_text": "बनाता है इस बार द्यूटी में आ जाती है तो तब अपने बनाता है और क्या-क्या बनाते हो घर में जैसे डाल चावल",
+      "correction": "kyuki mai subha ka duty pe ajati hu tab husband banata hai\ncollector: aur kya kya banate ho khaane mein\nspeaker: jaise daal chaawal machli",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 10,
+      "start": 157.59,
+      "end": 166.65,
+      "whisper_text": "मचली ज्यादा तक हम लोग का नॉनवेज होता है और हेच कम होता है और आप अपना रूटीन बताओगी मुझे सुबह से",
+      "correction": "zyada tar hum log ka non veg hota hai, veg kam hota hai\ncollector: aur aap apna routine bataoge mujhe subha se lekar ab tak",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 11,
+      "start": 166.65,
+      "end": 174.33,
+      "whisper_text": "लेकर अभी तक आपने क्या किया मतलब सुबह से उठने से सुबह उठने से चालू होता है कपड़ा दोना बर्तन पोछा जारू",
+      "correction": "collecotr: aapne kya kiya\nspeaker: haa subha uthne se chalu hota hai kapda dhona, bartan, pocha, jhaadu",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 12,
+      "start": 174.33,
+      "end": 184.59,
+      "whisper_text": "घर का सब काम एक अनुख पूजा मेरा सबसे इंपोर्टेंट काम है पूजा पूजा करना बच्चे का बाल बान फिस्फुल छोड़ना घर का",
+      "correction": "ghar ka sab kaam eh karna pooja mera sabse important kaam hai pooja, bacche ka baal bandhke school chodanna, ehi gharka khana",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 13,
+      "start": 184.59,
+      "end": 194.95,
+      "whisper_text": "खाना जब मेरे सेकंड में ड्यूटी रहता है तो तब उसका खाना आना तैयारी करके सब लोग आते हैं यह भी जाकर घर",
+      "correction": "jab mera second shift mein duty rehta hai toh tab uska khana vana taiyari karke aate hai phir idhar ka duty, phir jaake ghar pe khana banana",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 14,
+      "start": 198.89,
+      "end": 211.73,
+      "whisper_text": "आप बच्चों से मैं लोगों का बास है बच्चों ने लड़की हिंदी इंग्लिश में पढ़ता है तो कभी कभी हम लोगों जैसे मजाक-मस्ती में",
+      "correction": "collector: baccho se aap konsi bhasha mein baat karte hai\nspeaker: bengali hum log ka jo bhasha hai\ncollector: accha baccho se kabhi hindi nahi baat karte?\nspeaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai\ncollector: okay didi thankyou",
+      "error_type": "wrong_word",
+      "notes": ""
+    }
+  ],
+  "verified_segments": [],
+  "timestamp": "2026-11-05T21:36:54.378Z"
+}
