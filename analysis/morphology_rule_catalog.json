@@ -99,7 +99,7 @@
         {"said": "jol bhora glass", "meaning": "glass filled with water", "speaker": "S6"},
         {"said": "ami tor bangali, khorgoporei jolmo", "meaning": "I am Bengali, born in Kharagpur", "speaker": "S6"}
       ],
-      "frequency": "Concentrated in S6 (heaviest Bengali speaker)",
+      "frequency": "Most frequent in S6, who sits at the high-Bengali end of the proficiency gradient; S1 and S5 also produce inter-sentential switches",
       "trigger_contexts": ["domestic_scenes", "emotional_topics", "identity_statements"]
     },
     {
