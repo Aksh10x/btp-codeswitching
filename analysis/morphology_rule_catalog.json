@@ -1,0 +1,124 @@
+{
+  "title": "Morphology-Aware Rule Catalog: Bengali L1 Transfer in Hindi L2",
+  "corpus": "IIT Kharagpur campus staff, 8 speakers (4F/4M), 42.8 min, 3965 words",
+  "rules": [
+    {
+      "id": "R1",
+      "name": "Masculine Default on Feminine Nouns",
+      "category": "gender_agreement",
+      "subcategory": "noun_verb",
+      "description": "Speakers use masculine verb forms with feminine nouns, regardless of the noun's grammatical gender.",
+      "l1_explanation": "Bengali has no grammatical gender. Hindi requires verb agreement with noun gender. Speakers default to the unmarked (masculine) form.",
+      "pattern": "{noun_F} + {verb_M} instead of {noun_F} + {verb_F}",
+      "examples": [
+        {"said": "khursi toot gaya", "expected": "khursi toot gayi", "noun": "khursi (F)", "speaker": "S8"},
+        {"said": "kitaab ulat gaya", "expected": "kitaab ulat gayi", "noun": "kitaab (F)", "speaker": "S8"},
+        {"said": "kamar tut gaya", "expected": "kamar tut gayi", "noun": "kamar (F)", "speaker": "S4"},
+        {"said": "chair tut gaya", "expected": "chair tut gayi", "noun": "chair/kursi (F)", "speaker": "S3"},
+        {"said": "ladies door khol raha", "expected": "ladies door khol rahi", "noun": "ladies (F)", "speaker": "S7"}
+      ],
+      "frequency": 8,
+      "speakers": ["S3", "S4", "S7", "S8"],
+      "verb_types_affected": ["perfective", "progressive"],
+      "direction": "unidirectional: masculine_only"
+    },
+    {
+      "id": "R2",
+      "name": "Masculine Default in Self-Reference (Female Speakers)",
+      "category": "gender_agreement",
+      "subcategory": "subject_verb",
+      "description": "Female speakers use masculine verb forms when talking about themselves.",
+      "l1_explanation": "Bengali verbs do not inflect for the gender of the subject. Hindi requires verb-subject gender agreement. Female Bengali L1 speakers carry over the gender-neutral pattern, defaulting to masculine.",
+      "pattern": "{1st_person_F} + {verb_M} instead of {1st_person_F} + {verb_F}",
+      "examples": [
+        {"said": "hum log karta hai", "expected": "hum log karti hai", "type": "habitual", "speaker": "S3"},
+        {"said": "mai study kiya", "expected": "mai study ki", "type": "perfective", "speaker": "S3"},
+        {"said": "kaam mein ghus gaya", "expected": "ghus gayi", "type": "perfective", "speaker": "S4"},
+        {"said": "kaam karta tha", "expected": "karti thi", "type": "habitual_past", "speaker": "S4"},
+        {"said": "bengali mein hi bolta hai", "expected": "bolti hai", "type": "habitual", "speaker": "S4"},
+        {"said": "mein hi padhta tha", "expected": "padhti thi", "type": "habitual_past", "speaker": "S4"},
+        {"said": "mai hi banata hai", "expected": "banati hai", "type": "habitual", "speaker": "S8"}
+      ],
+      "frequency": 15,
+      "speakers": ["S3", "S4", "S8"],
+      "speaker_note": "S2 (female) shows 0 self-referential errors — possible higher Hindi proficiency or awareness",
+      "verb_types_affected": ["habitual", "habitual_past", "perfective", "progressive"],
+      "direction": "unidirectional: masculine_only"
+    },
+    {
+      "id": "R3",
+      "name": "Ergative 'ne' Avoidance",
+      "category": "case_marking",
+      "subcategory": "ergative",
+      "description": "Complete avoidance of the Hindi ergative marker 'ne' in perfective constructions.",
+      "l1_explanation": "Bengali has no ergative case marking. In Hindi, the ergative 'ne' marks the agent of transitive perfective verbs, and the verb then agrees with the object rather than the subject. Bengali speakers avoid this entirely rather than producing incorrect forms.",
+      "pattern": "{subject} + {transitive_perfective} instead of {subject} + ne + {transitive_perfective_with_object_agreement}",
+      "examples": [
+        {"said": "mai khana khaya", "expected": "maine khana khaya", "note": "No 'ne' but verb still masculine (khana is M, so agreement happens to be correct)"},
+        {"said": "roti khabar khacchi", "expected": "usne roti khai", "note": "S6 switches to Bengali entirely to avoid the construction", "speaker": "S6"}
+      ],
+      "frequency": 0,
+      "total_perfective_contexts": 149,
+      "speakers": "all 8",
+      "strategy": "avoidance",
+      "note": "This is an avoidance strategy, not an error. Speakers restructure sentences to bypass the construction entirely. Some switch to Bengali for these contexts."
+    },
+    {
+      "id": "R4",
+      "name": "Bengali Lexical Insertion (Tag-switching)",
+      "category": "code_switching",
+      "subcategory": "tag_switch",
+      "description": "Single Bengali content words inserted into otherwise Hindi utterances, typically for household objects and everyday items.",
+      "l1_explanation": "These are high-frequency household terms where the Bengali word is more accessible than the Hindi equivalent. Follows Poplack (1980) tag-switching pattern.",
+      "pattern": "{Hindi_matrix} + {Bengali_noun} + {Hindi_matrix}",
+      "examples": [
+        {"bengali": "dorja", "hindi_equiv": "darwaza", "meaning": "door", "speakers": ["S1", "S5", "S6", "S7"]},
+        {"bengali": "janala", "hindi_equiv": "khidki", "meaning": "window", "speakers": ["S1", "S6"]},
+        {"bengali": "jol", "hindi_equiv": "paani", "meaning": "water", "speakers": ["S1", "S6"]},
+        {"bengali": "bhat", "hindi_equiv": "chawal", "meaning": "rice", "speakers": ["S1", "S7"]},
+        {"bengali": "pakha", "hindi_equiv": "pankha", "meaning": "fan", "speakers": ["S6"]},
+        {"bengali": "boi", "hindi_equiv": "kitaab", "meaning": "book", "speakers": ["S5", "S6"]},
+        {"bengali": "ghor", "hindi_equiv": "ghar", "meaning": "house", "speakers": ["S6"]},
+        {"bengali": "kedara", "hindi_equiv": "kursi", "meaning": "chair", "speakers": ["S6"]}
+      ],
+      "unique_words": 28,
+      "total_instances": 71,
+      "semantic_domains": ["household_objects", "food", "body_parts", "furniture"]
+    },
+    {
+      "id": "R5",
+      "name": "Bengali Inter-sentential Switching",
+      "category": "code_switching",
+      "subcategory": "inter_sentential",
+      "description": "Full Bengali sentences or clauses inserted between Hindi utterances.",
+      "l1_explanation": "Speakers switch to Bengali for entire clauses, especially when describing familiar domestic scenes or when Hindi vocabulary is insufficient.",
+      "examples": [
+        {"said": "cheleti porachuna korche", "meaning": "the girl is studying", "speaker": "S6"},
+        {"said": "boiti ulto kore rekh chi", "meaning": "kept the book upside down", "speaker": "S6"},
+        {"said": "chair bhenge gache", "meaning": "the chair has broken", "speaker": "S6"},
+        {"said": "jol bhora glass", "meaning": "glass filled with water", "speaker": "S6"},
+        {"said": "ami tor bangali, khorgoporei jolmo", "meaning": "I am Bengali, born in Kharagpur", "speaker": "S6"}
+      ],
+      "frequency": "Concentrated in S6 (heaviest Bengali speaker)",
+      "trigger_contexts": ["domestic_scenes", "emotional_topics", "identity_statements"]
+    },
+    {
+      "id": "R6",
+      "name": "Three-way Code-mixing",
+      "category": "code_switching",
+      "subcategory": "multilingual_mixing",
+      "description": "Bengali, Hindi, and English elements combined within a single phrase.",
+      "examples": [
+        {"said": "ek ta chair eta", "analysis": "Bengali classifier 'ta' + English 'chair' + Bengali deictic 'eta'", "speaker": "S5"},
+        {"said": "open the door (English) ... dorja (Bengali)", "analysis": "English instruction followed by Bengali noun", "speaker": "S3"}
+      ],
+      "note": "Hindi-English mixing is common and unsurprising in this context. Bengali-English mixing within Hindi matrix is the distinctive pattern."
+    }
+  ],
+  "cross_cutting_patterns": {
+    "proficiency_gradient": "Error frequency correlates inversely with Hindi exposure. S4 (12 errors) learned Hindi later; S2 (0 errors) has longer Hindi exposure.",
+    "unidirectionality": "ALL gender errors are masculine-default. Zero instances of feminine-on-masculine. This is diagnostic of a language without grammatical gender (Bengali) influencing one that has it (Hindi).",
+    "avoidance_over_error": "For the ergative 'ne', speakers avoid the construction entirely (0/149) rather than producing incorrect forms. For gender, they produce errors rather than avoiding gendered constructions.",
+    "whisper_interaction": "Whisper silently corrects gender errors to standard Hindi and converts Bengali words to Hindi equivalents, making automated analysis unreliable for this research question."
+  }
+}

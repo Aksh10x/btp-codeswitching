@@ -1,0 +1,63 @@
+{
+  "title": "Whisper ASR Error Analysis",
+  "description": "Whisper large-v3 performance on Hindi-Bengali code-mixed speech, measured against human-corrected reference transcripts",
+  "model": "openai/whisper-large-v3",
+  "task_language": "Hindi (with Bengali code-switching)",
+  "corpus": {
+    "total_segments": 183,
+    "human_verified": 171,
+    "speech_segments": 144,
+    "collector_speech": 22,
+    "noise": 5
+  },
+  "overall_metrics": {
+    "segments_needing_correction": 120,
+    "segments_verified_ok": 24,
+    "segment_error_rate": "83.3%",
+    "note": "WER not computable due to script mismatch (Whisper outputs Devanagari, corrections in Roman). Segment-level error rate used instead."
+  },
+  "error_type_breakdown": {
+    "wrong_word": {"count": 116, "pct": "96.7%", "description": "Whisper produced incorrect Hindi words for what was actually said"},
+    "missing_bengali": {"count": 2, "pct": "1.7%", "description": "Segments explicitly tagged as having Bengali that Whisper converted"},
+    "hallucination": {"count": 1, "pct": "0.8%", "description": "Whisper generated text not present in audio"},
+    "other": {"count": 1, "pct": "0.8%"}
+  },
+  "critical_findings": {
+    "bengali_detection": {
+      "unique_bengali_words": 28,
+      "total_bengali_instances": 71,
+      "whisper_detection_rate": "0%",
+      "description": "Whisper missed or converted 100% of Bengali words. All Bengali lexical items were either transliterated to Hindi equivalents or produced as garbled Devanagari.",
+      "examples": [
+        {"bengali": "dorja", "whisper_produced": "darwaza (Hindi equivalent)", "meaning": "door"},
+        {"bengali": "janala", "whisper_produced": "khidki (Hindi equivalent)", "meaning": "window"},
+        {"bengali": "jol", "whisper_produced": "paani (Hindi equivalent)", "meaning": "water"},
+        {"bengali": "bhat", "whisper_produced": "chawal (Hindi equivalent)", "meaning": "rice"},
+        {"bengali": "pakha", "whisper_produced": "pankha (Hindi equivalent)", "meaning": "fan"},
+        {"bengali": "cheleti porachuna korche", "whisper_produced": "garbled Devanagari", "meaning": "the girl is studying"},
+        {"bengali": "boi ulto kore rekh chi", "whisper_produced": "garbled Devanagari", "meaning": "kept the book upside down"}
+      ]
+    },
+    "gender_normalization": {
+      "errors_silently_corrected": 8,
+      "description": "Whisper silently normalized non-standard gender agreement to standard Hindi forms, erasing the L1 transfer patterns this study measures.",
+      "examples": [
+        {"actual_speech": "khursi toot gaya (masc)", "whisper_output": "khursi toot gayi (fem, standard)", "speaker": "S8"},
+        {"actual_speech": "kitaab ulat gaya (masc)", "whisper_output": "kitaab ulat gayi (fem, standard)", "speaker": "S8"},
+        {"actual_speech": "kamar tut gaya (masc)", "whisper_output": "kamar tut gayi (fem, standard)", "speaker": "S4"}
+      ]
+    }
+  },
+  "per_speaker": {
+    "S1_6647": {"total": 11, "corrected": 9, "ok": 0, "error_rate": "100%", "bengali_missed": 1, "gender_fixed": 0},
+    "S1_6648": {"total": 9, "corrected": 5, "ok": 0, "error_rate": "100%", "bengali_missed": 1, "gender_fixed": 0},
+    "S2": {"total": 30, "corrected": 12, "ok": 8, "error_rate": "60%", "bengali_missed": 6, "gender_fixed": 0},
+    "S3": {"total": 27, "corrected": 15, "ok": 5, "error_rate": "75%", "bengali_missed": 1, "gender_fixed": 1},
+    "S4": {"total": 18, "corrected": 15, "ok": 1, "error_rate": "94%", "bengali_missed": 3, "gender_fixed": 2},
+    "S5": {"total": 34, "corrected": 17, "ok": 9, "error_rate": "65%", "bengali_missed": 5, "gender_fixed": 0},
+    "S6": {"total": 21, "corrected": 15, "ok": 1, "error_rate": "94%", "bengali_missed": 12, "gender_fixed": 0},
+    "S7": {"total": 20, "corrected": 19, "ok": 0, "error_rate": "100%", "bengali_missed": 5, "gender_fixed": 2},
+    "S8": {"total": 13, "corrected": 13, "ok": 0, "error_rate": "100%", "bengali_missed": 3, "gender_fixed": 3}
+  },
+  "conclusion": "Whisper large-v3 is fundamentally unsuitable as a sole transcription tool for Hindi-Bengali code-mixed speech in sociolinguistic research. Its 83.3% segment error rate, 0% Bengali word preservation, and silent gender correction make human verification mandatory. The ASR system systematically erases the non-standard morphological patterns that are the primary object of study."
+}
