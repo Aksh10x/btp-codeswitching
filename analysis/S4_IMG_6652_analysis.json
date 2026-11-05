@@ -2,12 +2,13 @@
   "file": "S4_IMG_6652",
   "speaker_code": "S4",
   "source_transcript": "transcripts/S4_IMG_6652_transcript.json",
-  "WARNING": "Based on UNVERIFIED Whisper output. Whisper silently corrects agreement errors and converts Bengali to Hindi. Every flagged item MUST be verified against the audio.",
+  "data_source": "human-corrected",
+  "WARNING": "Uses human-corrected text where available. Segments marked as collector speech or noise are excluded. Gender agreement errors and Bengali words from human annotations are included directly.",
   "low_confidence_segments": [
     {
       "start": 178.95,
       "end": 181.61,
-      "text": "अब एक भागी सेलान करते हैं",
+      "text": "hindi padh.... bol pata hai",
       "avg_logprob": -1.6594,
       "no_speech_prob": 0.2319,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -15,7 +16,7 @@
     {
       "start": 181.61,
       "end": 192.92,
-      "text": "कि अवधितव भी पेंपल को कॉण कर सकते हैं",
+      "text": "aur likh toh, likh toh nahi pata (collector: aur kaha tak padhe ho aap didi?) class 10 tak (collector: accha uske baad apne physiotherapy ka course liya?) haa",
       "avg_logprob": -1.6594,
       "no_speech_prob": 0.2319,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -23,7 +24,7 @@
     {
       "start": 194.64,
       "end": 201.26,
-      "text": "और वसे अक्स्पाव के रूप में काम करतो हमारा सी प्रश्न विधियादा आरुका ले जाता है",
+      "text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
       "avg_logprob": -1.6594,
       "no_speech_prob": 0.2319,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -31,7 +32,7 @@
     {
       "start": 203.72,
       "end": 210.96,
-      "text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "avg_logprob": -1.6594,
       "no_speech_prob": 0.2319,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -43,23 +44,7 @@
       "start": 120.45,
       "end": 121.27,
       "probability": 0.2527,
-      "segment_text": "मामी भाईया को साथ हम रह गया और 2000 बन लोगे काम में पूछ गया पहले से हम फिजियोथा भी सीख रहा एक एक्सीडेंट में मेरा कमोरी तूट गया इसलिए हम को फिजियोथा भी छोड़ गया इधर आ गया",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "यह",
-      "start": 156.26,
-      "end": 156.66,
-      "probability": 0.3693,
-      "segment_text": "यह एक बाल है। यह भी बार भी बदल है।",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "बार",
-      "start": 164.94,
-      "end": 165.6,
-      "probability": 0.2644,
-      "segment_text": "यह एक बाल है। यह भी बार भी बदल है।",
+      "segment_text": "maami bhaiya ke saath kaam karliya aur do hazaar pandra mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -67,7 +52,7 @@
       "start": 168.78,
       "end": 169.14,
       "probability": 0.2709,
-      "segment_text": "विवेका ना इनिस्टिटी में पढ़ता है।",
+      "segment_text": "vivekanando inistuti mein padhta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -75,7 +60,7 @@
       "start": 174.75,
       "end": 175.21,
       "probability": 0.1626,
-      "segment_text": "आप जब 7 क्लास, एक क्लास पढ़ रहा हैं और द्वा क्लास का इंदी सीखें।",
+      "segment_text": "hum jab 7th class aur 8th class padha aur do class mein hindi seekha",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -83,7 +68,7 @@
       "start": 179.73,
       "end": 179.99,
       "probability": 0.3409,
-      "segment_text": "अब एक भागी सेलान करते हैं",
+      "segment_text": "hindi padh.... bol pata hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -91,7 +76,7 @@
       "start": 179.99,
       "end": 181.31,
       "probability": 0.1262,
-      "segment_text": "अब एक भागी सेलान करते हैं",
+      "segment_text": "hindi padh.... bol pata hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -99,7 +84,7 @@
       "start": 181.61,
       "end": 181.93,
       "probability": 0.3656,
-      "segment_text": "कि अवधितव भी पेंपल को कॉण कर सकते हैं",
+      "segment_text": "aur likh toh, likh toh nahi pata (collector: aur kaha tak padhe ho aap didi?) class 10 tak (collector: accha uske baad apne physiotherapy ka course liya?) haa",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -107,7 +92,7 @@
       "start": 181.93,
       "end": 182.87,
       "probability": 0.3784,
-      "segment_text": "कि अवधितव भी पेंपल को कॉण कर सकते हैं",
+      "segment_text": "aur likh toh, likh toh nahi pata (collector: aur kaha tak padhe ho aap didi?) class 10 tak (collector: accha uske baad apne physiotherapy ka course liya?) haa",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -115,7 +100,7 @@
       "start": 182.87,
       "end": 183.59,
       "probability": 0.1731,
-      "segment_text": "कि अवधितव भी पेंपल को कॉण कर सकते हैं",
+      "segment_text": "aur likh toh, likh toh nahi pata (collector: aur kaha tak padhe ho aap didi?) class 10 tak (collector: accha uske baad apne physiotherapy ka course liya?) haa",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -123,7 +108,7 @@
       "start": 184.76,
       "end": 190.98,
       "probability": 0.3134,
-      "segment_text": "कि अवधितव भी पेंपल को कॉण कर सकते हैं",
+      "segment_text": "aur likh toh, likh toh nahi pata (collector: aur kaha tak padhe ho aap didi?) class 10 tak (collector: accha uske baad apne physiotherapy ka course liya?) haa",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -131,7 +116,7 @@
       "start": 192.12,
       "end": 192.36,
       "probability": 0.1335,
-      "segment_text": "कि अवधितव भी पेंपल को कॉण कर सकते हैं",
+      "segment_text": "aur likh toh, likh toh nahi pata (collector: aur kaha tak padhe ho aap didi?) class 10 tak (collector: accha uske baad apne physiotherapy ka course liya?) haa",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -139,7 +124,7 @@
       "start": 192.36,
       "end": 192.62,
       "probability": 0.1129,
-      "segment_text": "कि अवधितव भी पेंपल को कॉण कर सकते हैं",
+      "segment_text": "aur likh toh, likh toh nahi pata (collector: aur kaha tak padhe ho aap didi?) class 10 tak (collector: accha uske baad apne physiotherapy ka course liya?) haa",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -147,7 +132,7 @@
       "start": 195.52,
       "end": 195.52,
       "probability": 0.2258,
-      "segment_text": "और वसे अक्स्पाव के रूप में काम करतो हमारा सी प्रश्न विधियादा आरुका ले जाता है",
+      "segment_text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -155,7 +140,7 @@
       "start": 195.52,
       "end": 196.12,
       "probability": 0.2318,
-      "segment_text": "और वसे अक्स्पाव के रूप में काम करतो हमारा सी प्रश्न विधियादा आरुका ले जाता है",
+      "segment_text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -163,7 +148,7 @@
       "start": 196.12,
       "end": 196.2,
       "probability": 0.199,
-      "segment_text": "और वसे अक्स्पाव के रूप में काम करतो हमारा सी प्रश्न विधियादा आरुका ले जाता है",
+      "segment_text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -171,7 +156,7 @@
       "start": 196.36,
       "end": 196.96,
       "probability": 0.2709,
-      "segment_text": "और वसे अक्स्पाव के रूप में काम करतो हमारा सी प्रश्न विधियादा आरुका ले जाता है",
+      "segment_text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -179,7 +164,7 @@
       "start": 197.48,
       "end": 198.2,
       "probability": 0.3747,
-      "segment_text": "और वसे अक्स्पाव के रूप में काम करतो हमारा सी प्रश्न विधियादा आरुका ले जाता है",
+      "segment_text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -187,7 +172,7 @@
       "start": 198.2,
       "end": 199.38,
       "probability": 0.0434,
-      "segment_text": "और वसे अक्स्पाव के रूप में काम करतो हमारा सी प्रश्न विधियादा आरुका ले जाता है",
+      "segment_text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -195,7 +180,7 @@
       "start": 199.5,
       "end": 200.84,
       "probability": 0.3321,
-      "segment_text": "और वसे अक्स्पाव के रूप में काम करतो हमारा सी प्रश्न विधियादा आरुका ले जाता है",
+      "segment_text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -203,7 +188,7 @@
       "start": 200.84,
       "end": 200.84,
       "probability": 0.1711,
-      "segment_text": "और वसे अक्स्पाव के रूप में काम करतो हमारा सी प्रश्न विधियादा आरुका ले जाता है",
+      "segment_text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -211,7 +196,7 @@
       "start": 200.84,
       "end": 200.84,
       "probability": 0.2143,
-      "segment_text": "और वसे अक्स्पाव के रूप में काम करतो हमारा सी प्रश्न विधियादा आरुका ले जाता है",
+      "segment_text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -219,7 +204,7 @@
       "start": 203.72,
       "end": 204.6,
       "probability": 0.1075,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -227,7 +212,7 @@
       "start": 206.26,
       "end": 206.26,
       "probability": 0.2837,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -235,7 +220,7 @@
       "start": 206.26,
       "end": 206.26,
       "probability": 0.24,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -243,7 +228,7 @@
       "start": 206.26,
       "end": 206.26,
       "probability": 0.3722,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -251,7 +236,7 @@
       "start": 206.26,
       "end": 206.7,
       "probability": 0.3252,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -259,7 +244,7 @@
       "start": 206.7,
       "end": 206.7,
       "probability": 0.1608,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -267,7 +252,7 @@
       "start": 206.7,
       "end": 206.98,
       "probability": 0.2381,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -275,7 +260,7 @@
       "start": 206.98,
       "end": 210.24,
       "probability": 0.2973,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -283,7 +268,7 @@
       "start": 210.24,
       "end": 210.56,
       "probability": 0.1256,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -291,7 +276,7 @@
       "start": 210.56,
       "end": 210.96,
       "probability": 0.3409,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -299,7 +284,7 @@
       "start": 210.96,
       "end": 212.06,
       "probability": 0.3995,
-      "segment_text": "रो रहा था जो इधर आ जाओ इधर आ जाओ बहुत दूर था भागवर हॉस्पिटल में काम करता था तो इधर चलाया बाद भी इधर गुज़ गया और भाईया एक फ्रेंड है वो बुसा दिया तो इधर ही काम करो जिरे घर जाओ काम करो",
+      "segment_text": "ro raha tha ki idhar ajao idhar ajao bohot dur tha bhanvar hospital mein kaam karta tha  toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -307,7 +292,7 @@
       "start": 212.6,
       "end": 213.2,
       "probability": 0.3993,
-      "segment_text": "रो रहा था जो इधर आ जाओ इधर आ जाओ बहुत दूर था भागवर हॉस्पिटल में काम करता था तो इधर चलाया बाद भी इधर गुज़ गया और भाईया एक फ्रेंड है वो बुसा दिया तो इधर ही काम करो जिरे घर जाओ काम करो",
+      "segment_text": "ro raha tha ki idhar ajao idhar ajao bohot dur tha bhanvar hospital mein kaam karta tha  toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -315,7 +300,7 @@
       "start": 258.46,
       "end": 259.02,
       "probability": 0.2439,
-      "segment_text": "हफ्ती करते हैं और लिए जैसे स्टूडेंट से बात करते हुआ था शुरू करने हैं आपको कैसे है स्टूडेंट",
+      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab\nspeakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\ncollector: jaise students se baat karte ho aap",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -323,7 +308,7 @@
       "start": 265.58,
       "end": 268.18,
       "probability": 0.3339,
-      "segment_text": "हफ्ती करते हैं और लिए जैसे स्टूडेंट से बात करते हुआ था शुरू करने हैं आपको कैसे है स्टूडेंट",
+      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab\nspeakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\ncollector: jaise students se baat karte ho aap",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     }
   ],
@@ -333,7 +318,7 @@
       "gender_form": "m_sg",
       "start": 35.02,
       "end": 35.24,
-      "segment_text": "यह दोनों फोटोस को देखते हैं आपको क्या फर्क देख रहा है क्या फर्क है",
+      "segment_text": "this is uttered by data collector and then collector asks in dono mei phark kya hai\nspeaker then says: chota bada hai, eh khana kha raha hai, almari khul raha hai, kitaab padh raha hai, eh paani dal raha hai, glass tut gaya, kitaab ulta ho gaya, chair tut gaya, fan kharaab ho gaya, end khidki ke bahar bohut ped hota hai woh dekh ke accha bhi lagta hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -341,7 +326,7 @@
       "gender_form": "m_sg",
       "start": 117.01,
       "end": 117.23,
-      "segment_text": "और आप अपने बारे में बताओ कितने साल होंगे खड़कपुर में खड़कपुर मेरा जन्म है बातपास से पिता भी बिजार गया",
+      "segment_text": "collector: और आप अपने बारे में बताओ कितने साल होंगे खड़कपुर\nspeaker: kharagpu mera janam hai, bachpan se mera pitaji gujar gaya",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -349,7 +334,7 @@
       "gender_form": "m_sg",
       "start": 119.09,
       "end": 119.39,
-      "segment_text": "मामी भाईया को साथ हम रह गया और 2000 बन लोगे काम में पूछ गया पहले से हम फिजियोथा भी सीख रहा एक एक्सीडेंट में मेरा कमोरी तूट गया इसलिए हम को फिजियोथा भी छोड़ गया इधर आ गया",
+      "segment_text": "maami bhaiya ke saath kaam karliya aur do hazaar pandra mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -357,7 +342,7 @@
       "gender_form": "m_sg",
       "start": 123.06,
       "end": 123.42,
-      "segment_text": "मामी भाईया को साथ हम रह गया और 2000 बन लोगे काम में पूछ गया पहले से हम फिजियोथा भी सीख रहा एक एक्सीडेंट में मेरा कमोरी तूट गया इसलिए हम को फिजियोथा भी छोड़ गया इधर आ गया",
+      "segment_text": "maami bhaiya ke saath kaam karliya aur do hazaar pandra mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -365,7 +350,7 @@
       "gender_form": "m_sg",
       "start": 125.62,
       "end": 125.86,
-      "segment_text": "मामी भाईया को साथ हम रह गया और 2000 बन लोगे काम में पूछ गया पहले से हम फिजियोथा भी सीख रहा एक एक्सीडेंट में मेरा कमोरी तूट गया इसलिए हम को फिजियोथा भी छोड़ गया इधर आ गया",
+      "segment_text": "maami bhaiya ke saath kaam karliya aur do hazaar pandra mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -373,7 +358,7 @@
       "gender_form": "m_sg",
       "start": 129.02,
       "end": 129.28,
-      "segment_text": "मामी भाईया को साथ हम रह गया और 2000 बन लोगे काम में पूछ गया पहले से हम फिजियोथा भी सीख रहा एक एक्सीडेंट में मेरा कमोरी तूट गया इसलिए हम को फिजियोथा भी छोड़ गया इधर आ गया",
+      "segment_text": "maami bhaiya ke saath kaam karliya aur do hazaar pandra mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -381,7 +366,7 @@
       "gender_form": "m_sg",
       "start": 131.42,
       "end": 131.66,
-      "segment_text": "मामी भाईया को साथ हम रह गया और 2000 बन लोगे काम में पूछ गया पहले से हम फिजियोथा भी सीख रहा एक एक्सीडेंट में मेरा कमोरी तूट गया इसलिए हम को फिजियोथा भी छोड़ गया इधर आ गया",
+      "segment_text": "maami bhaiya ke saath kaam karliya aur do hazaar pandra mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -389,7 +374,7 @@
       "gender_form": "m_sg",
       "start": 132.3,
       "end": 132.62,
-      "segment_text": "मामी भाईया को साथ हम रह गया और 2000 बन लोगे काम में पूछ गया पहले से हम फिजियोथा भी सीख रहा एक एक्सीडेंट में मेरा कमोरी तूट गया इसलिए हम को फिजियोथा भी छोड़ गया इधर आ गया",
+      "segment_text": "maami bhaiya ke saath kaam karliya aur do hazaar pandra mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -397,7 +382,7 @@
       "gender_form": "f_sg",
       "start": 133.46,
       "end": 139.28,
-      "segment_text": "और आपकी घर में कौन क्या भाषा होते हैं?",
+      "segment_text": "aur mera ek (something referring to a child) bhi hai woh english medium mein padhta hai aur aapko tarah padhna wadna seekhega",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -405,7 +390,7 @@
       "gender_form": "f_sg",
       "start": 150.56,
       "end": 151.0,
-      "segment_text": "मेरा घव में हिंदी बिंगोडी और मेरा भाई बेटी हिंदीस में बिदा पढ़ता है",
+      "segment_text": "mera ghar mein hindi bengali aur mera bhai beti english mein padh raha woh",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -421,7 +406,7 @@
       "gender_form": "m_sg",
       "start": 177.17,
       "end": 177.25,
-      "segment_text": "आप जब 7 क्लास, एक क्लास पढ़ रहा हैं और द्वा क्लास का इंदी सीखें।",
+      "segment_text": "hum jab 7th class aur 8th class padha aur do class mein hindi seekha",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -429,7 +414,7 @@
       "gender_form": "f_sg",
       "start": 178.17,
       "end": 178.35,
-      "segment_text": "आप जब 7 क्लास, एक क्लास पढ़ रहा हैं और द्वा क्लास का इंदी सीखें।",
+      "segment_text": "hum jab 7th class aur 8th class padha aur do class mein hindi seekha",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -437,7 +422,7 @@
       "gender_form": "m_sg",
       "start": 197.48,
       "end": 198.2,
-      "segment_text": "और वसे अक्स्पाव के रूप में काम करतो हमारा सी प्रश्न विधियादा आरुका ले जाता है",
+      "segment_text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -445,7 +430,7 @@
       "gender_form": "m_sg",
       "start": 200.84,
       "end": 200.84,
-      "segment_text": "और वसे अक्स्पाव के रूप में काम करतो हमारा सी प्रश्न विधियादा आरुका ले जाता है",
+      "segment_text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -453,7 +438,7 @@
       "gender_form": "f_sg",
       "start": 206.26,
       "end": 206.26,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -461,7 +446,7 @@
       "gender_form": "f_sg",
       "start": 206.7,
       "end": 206.7,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -469,7 +454,7 @@
       "gender_form": "f_sg",
       "start": 210.24,
       "end": 210.56,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -477,7 +462,7 @@
       "gender_form": "m_pl",
       "start": 210.56,
       "end": 210.96,
-      "segment_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "segment_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -485,7 +470,7 @@
       "gender_form": "m_sg",
       "start": 212.06,
       "end": 212.3,
-      "segment_text": "रो रहा था जो इधर आ जाओ इधर आ जाओ बहुत दूर था भागवर हॉस्पिटल में काम करता था तो इधर चलाया बाद भी इधर गुज़ गया और भाईया एक फ्रेंड है वो बुसा दिया तो इधर ही काम करो जिरे घर जाओ काम करो",
+      "segment_text": "ro raha tha ki idhar ajao idhar ajao bohot dur tha bhanvar hospital mein kaam karta tha  toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -493,7 +478,7 @@
       "gender_form": "m_sg",
       "start": 218.4,
       "end": 219.0,
-      "segment_text": "रो रहा था जो इधर आ जाओ इधर आ जाओ बहुत दूर था भागवर हॉस्पिटल में काम करता था तो इधर चलाया बाद भी इधर गुज़ गया और भाईया एक फ्रेंड है वो बुसा दिया तो इधर ही काम करो जिरे घर जाओ काम करो",
+      "segment_text": "ro raha tha ki idhar ajao idhar ajao bohot dur tha bhanvar hospital mein kaam karta tha  toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -501,7 +486,7 @@
       "gender_form": "m_sg",
       "start": 220.34,
       "end": 220.68,
-      "segment_text": "रो रहा था जो इधर आ जाओ इधर आ जाओ बहुत दूर था भागवर हॉस्पिटल में काम करता था तो इधर चलाया बाद भी इधर गुज़ गया और भाईया एक फ्रेंड है वो बुसा दिया तो इधर ही काम करो जिरे घर जाओ काम करो",
+      "segment_text": "ro raha tha ki idhar ajao idhar ajao bohot dur tha bhanvar hospital mein kaam karta tha  toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -509,7 +494,7 @@
       "gender_form": "m_sg",
       "start": 225.08,
       "end": 225.52,
-      "segment_text": "रो रहा था जो इधर आ जाओ इधर आ जाओ बहुत दूर था भागवर हॉस्पिटल में काम करता था तो इधर चलाया बाद भी इधर गुज़ गया और भाईया एक फ्रेंड है वो बुसा दिया तो इधर ही काम करो जिरे घर जाओ काम करो",
+      "segment_text": "ro raha tha ki idhar ajao idhar ajao bohot dur tha bhanvar hospital mein kaam karta tha  toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -517,7 +502,7 @@
       "gender_form": "f_sg",
       "start": 232.5,
       "end": 233.36,
-      "segment_text": "और कुछ भाषा बोल लेते हैं आप बिंगौंली बोल लेते हो वह भी भी हिंदी भी बोल ले सकते हैं",
+      "segment_text": "collector: aur kon konsi bhaashe bol lete ho aap, jaise bengali toh roz hi bol lete ho, hindi bhi araam se baat karli aapne\nspeaker: haa kabhi kabhi sab did bhai nahi bol pata toh thoda toh atak jata, bengali mein hi bolta hai, english thoda sa school mein tha",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -525,7 +510,7 @@
       "gender_form": "m_pl",
       "start": 265.58,
       "end": 268.18,
-      "segment_text": "हफ्ती करते हैं और लिए जैसे स्टूडेंट से बात करते हुआ था शुरू करने हैं आपको कैसे है स्टूडेंट",
+      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab\nspeakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\ncollector: jaise students se baat karte ho aap",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -533,7 +518,7 @@
       "gender_form": "m_sg",
       "start": 270.11,
       "end": 270.39,
-      "segment_text": "हफ्ती करते हैं और लिए जैसे स्टूडेंट से बात करते हुआ था शुरू करने हैं आपको कैसे है स्टूडेंट",
+      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab\nspeakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\ncollector: jaise students se baat karte ho aap",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -541,7 +526,7 @@
       "gender_form": "m_sg",
       "start": 285.31,
       "end": 285.63,
-      "segment_text": "पहले बिया रमित कर था वह लेकर लेकर एक सबमें काम करता था एक सबमें पढ़ता था वह लोग अब उधर उधर से इधर आया इधर दीजी",
+      "segment_text": "speaker: pehle br ambedkar (hall) tha toh waha lerka lerki ek saath mein kaam karta tha ek sath mein hi padhta tha, udhar se idhar aya idhar didi log sab acche se kaam karte hai, didi bohut hi accha hai, didi log hai isliye hum log iit mein hai\ncollector: kisi se baat karne mein mushkil hoti hai aapko?\nspeaker: nahi toh didi log accha hai\ncollector: nahi lekin telegu jaise samajh nahi aati\nspeaker:nahi didi log accha hi hai, woh idhar aake khargapur mein hindi mein seekh jata hai\ncollector: aur aapke ghar mein khana kon banata hai?\nspeaker: kabhi hum banata hai kabhi mera bhabhi banata hai\ncollectir: kya roz mein banta hai\nspeaker: kabhi machi kabhi chicke kabhi dal sabhi banta hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -549,23 +534,70 @@
       "gender_form": "f_sg",
       "start": 287.93,
       "end": 302.93,
-      "segment_text": "पहले बिया रमित कर था वह लेकर लेकर एक सबमें काम करता था एक सबमें पढ़ता था वह लोग अब उधर उधर से इधर आया इधर दीजी",
+      "segment_text": "speaker: pehle br ambedkar (hall) tha toh waha lerka lerki ek saath mein kaam karta tha ek sath mein hi padhta tha, udhar se idhar aya idhar didi log sab acche se kaam karte hai, didi bohut hi accha hai, didi log hai isliye hum log iit mein hai\ncollector: kisi se baat karne mein mushkil hoti hai aapko?\nspeaker: nahi toh didi log accha hai\ncollector: nahi lekin telegu jaise samajh nahi aati\nspeaker:nahi didi log accha hi hai, woh idhar aake khargapur mein hindi mein seekh jata hai\ncollector: aur aapke ghar mein khana kon banata hai?\nspeaker: kabhi hum banata hai kabhi mera bhabhi banata hai\ncollectir: kya roz mein banta hai\nspeaker: kabhi machi kabhi chicke kabhi dal sabhi banta hai",
       "note": "Agreement site — verify gender matches subject/object"
     }
   ],
   "adjective_noun_pairs": [],
   "ne_occurrences": [],
+  "verified_gender_errors": [
+    {
+      "pattern": "chair tut gaya",
+      "expected": "chair tut gayi",
+      "noun": "chair/kursi",
+      "noun_gender": "F",
+      "error": "masculine_default_on_feminine",
+      "start": 29.53,
+      "end": 38.92,
+      "segment_text": "this is uttered by data collector and then collector asks in dono mei phark kya hai\nspeaker then says: chota bada hai, eh khana kha raha hai, almari khul raha hai, kitaab padh raha hai, eh paani dal raha hai, glass tut gaya, kitaab ulta ho gaya, chair tut gaya, fan kharaab ho gaya, end khidki ke bahar bohut ped hota hai woh dekh ke accha bhi lagta hai"
+    },
+    {
+      "pattern": "bhabhi banata",
+      "expected": "bhabhi banati",
+      "noun": "bhabhi",
+      "noun_gender": "F",
+      "error": "masculine_default_on_feminine",
+      "start": 276.31,
+      "end": 302.93,
+      "segment_text": "speaker: pehle br ambedkar (hall) tha toh waha lerka lerki ek saath mein kaam karta tha ek sath mein hi padhta tha, udhar se idhar aya idhar didi log sab acche se kaam karte hai, didi bohut hi accha hai, didi log hai isliye hum log iit mein hai\ncollector: kisi se baat karne mein mushkil hoti hai aapko?\nspeaker: nahi toh didi log accha hai\ncollector: nahi lekin telegu jaise samajh nahi aati\nspeaker:nahi didi log accha hi hai, woh idhar aake khargapur mein hindi mein seekh jata hai\ncollector: aur aapke ghar mein khana kon banata hai?\nspeaker: kabhi hum banata hai kabhi mera bhabhi banata hai\ncollectir: kya roz mein banta hai\nspeaker: kabhi machi kabhi chicke kabhi dal sabhi banta hai"
+    }
+  ],
+  "verified_bengali_words": [
+    {
+      "word": "bengali",
+      "start": 143.84,
+      "end": 152.0,
+      "segment_text": "mera ghar mein hindi bengali aur mera bhai beti english mein padh raha woh"
+    },
+    {
+      "word": "bengali",
+      "start": 229.52,
+      "end": 250.74,
+      "segment_text": "collector: aur kon konsi bhaashe bol lete ho aap, jaise bengali toh roz hi bol lete ho, hindi bhi araam se baat karli aapne\nspeaker: haa kabhi kabhi sab did bhai nahi bol pata toh thoda toh atak jata, bengali mein hi bolta hai, english thoda sa school mein tha"
+    },
+    {
+      "word": "bengali",
+      "start": 258.46,
+      "end": 272.81,
+      "segment_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab\nspeakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\ncollector: jaise students se baat karte ho aap"
+    }
+  ],
   "summary": {
-    "total_words": 302,
+    "total_words": 506,
     "total_segments": 18,
     "duration_s": 341.03,
     "low_confidence_segments": 4,
     "low_confidence_words": 44,
-    "candidate_bengali_words": 36,
+    "candidate_bengali_words": 34,
     "candidate_switch_points": 2,
     "past_tense_verbs_found": 28,
     "adjective_noun_pairs_found": 0,
     "ne_occurrences": 0,
-    "note": "All counts are from UNVERIFIED Whisper output. Actual counts will differ after human verification — likely more Bengali words (Whisper converts them to Hindi) and more agreement errors (Whisper corrects them)."
+    "verified_gender_errors": 2,
+    "verified_bengali_unique": 1,
+    "verified_bengali_total": 3,
+    "collector_segments_skipped": 1,
+    "noise_segments_skipped": 1,
+    "note": "Uses human-corrected text. Collector speech and noise segments excluded. Gender errors and Bengali words from human annotations."
   }
 }

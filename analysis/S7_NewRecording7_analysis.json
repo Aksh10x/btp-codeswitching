@@ -2,12 +2,13 @@
   "file": "S7_NewRecording7",
   "speaker_code": "S7",
   "source_transcript": "transcripts/S7_NewRecording7_transcript.json",
-  "WARNING": "Based on UNVERIFIED Whisper output. Whisper silently corrects agreement errors and converts Bengali to Hindi. Every flagged item MUST be verified against the audio.",
+  "data_source": "human-corrected",
+  "WARNING": "Uses human-corrected text where available. Segments marked as collector speech or noise are excluded. Gender agreement errors and Bengali words from human annotations are included directly.",
   "low_confidence_segments": [
     {
       "start": 34.15,
       "end": 46.66,
-      "text": "तो मुद्दे ना पाती का � anymore अईएग92 फोटोस में आपको क्या फर्क दिखता पहली नजर में आपके फोटोस देखो दोनों",
+      "text": "speaker: lunch ya dinner, bhat\ncollector: ab dada in do photos mein kya farak dikhta hai aapko pehli nazar main aapko dekho dono",
       "avg_logprob": -0.7715,
       "no_speech_prob": 0.1901,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -15,7 +16,7 @@
     {
       "start": 46.66,
       "end": 60.8,
-      "text": "शेमे बट इनका यह और यह दोनों सेम है पर इन बॉकियाय कर में हो लूं तो इसमें जो थे इस नहीं दोनों फोटोस सेम",
+      "text": "collector speech",
       "avg_logprob": -0.7715,
       "no_speech_prob": 0.1901,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -23,7 +24,7 @@
     {
       "start": 121.01,
       "end": 128.03,
-      "text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
+      "text": "speaker: mai kharagpur se hu\ncollecotr: gharpe konse bhasha bolte ho",
       "avg_logprob": -1.252,
       "no_speech_prob": 0.0563,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -31,7 +32,7 @@
     {
       "start": 128.03,
       "end": 134.25,
-      "text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "text": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada",
       "avg_logprob": -1.252,
       "no_speech_prob": 0.0563,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -43,7 +44,7 @@
       "start": 34.19,
       "end": 34.39,
       "probability": 0.3551,
-      "segment_text": "तो मुद्दे ना पाती का � anymore अईएग92 फोटोस में आपको क्या फर्क दिखता पहली नजर में आपके फोटोस देखो दोनों",
+      "segment_text": "speaker: lunch ya dinner, bhat\ncollector: ab dada in do photos mein kya farak dikhta hai aapko pehli nazar main aapko dekho dono",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -51,7 +52,7 @@
       "start": 35.62,
       "end": 36.66,
       "probability": 0.2157,
-      "segment_text": "तो मुद्दे ना पाती का � anymore अईएग92 फोटोस में आपको क्या फर्क दिखता पहली नजर में आपके फोटोस देखो दोनों",
+      "segment_text": "speaker: lunch ya dinner, bhat\ncollector: ab dada in do photos mein kya farak dikhta hai aapko pehli nazar main aapko dekho dono",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -59,7 +60,7 @@
       "start": 38.09,
       "end": 38.45,
       "probability": 0.2705,
-      "segment_text": "तो मुद्दे ना पाती का � anymore अईएग92 फोटोस में आपको क्या फर्क दिखता पहली नजर में आपके फोटोस देखो दोनों",
+      "segment_text": "speaker: lunch ya dinner, bhat\ncollector: ab dada in do photos mein kya farak dikhta hai aapko pehli nazar main aapko dekho dono",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -67,7 +68,7 @@
       "start": 39.94,
       "end": 41.56,
       "probability": 0.3372,
-      "segment_text": "तो मुद्दे ना पाती का � anymore अईएग92 फोटोस में आपको क्या फर्क दिखता पहली नजर में आपके फोटोस देखो दोनों",
+      "segment_text": "speaker: lunch ya dinner, bhat\ncollector: ab dada in do photos mein kya farak dikhta hai aapko pehli nazar main aapko dekho dono",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -75,7 +76,7 @@
       "start": 46.66,
       "end": 47.56,
       "probability": 0.2806,
-      "segment_text": "शेमे बट इनका यह और यह दोनों सेम है पर इन बॉकियाय कर में हो लूं तो इसमें जो थे इस नहीं दोनों फोटोस सेम",
+      "segment_text": "collector speech",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -83,7 +84,7 @@
       "start": 49.58,
       "end": 50.2,
       "probability": 0.2361,
-      "segment_text": "शेमे बट इनका यह और यह दोनों सेम है पर इन बॉकियाय कर में हो लूं तो इसमें जो थे इस नहीं दोनों फोटोस सेम",
+      "segment_text": "collector speech",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -91,7 +92,7 @@
       "start": 50.2,
       "end": 50.46,
       "probability": 0.3819,
-      "segment_text": "शेमे बट इनका यह और यह दोनों सेम है पर इन बॉकियाय कर में हो लूं तो इसमें जो थे इस नहीं दोनों फोटोस सेम",
+      "segment_text": "collector speech",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -99,7 +100,7 @@
       "start": 50.58,
       "end": 50.68,
       "probability": 0.366,
-      "segment_text": "शेमे बट इनका यह और यह दोनों सेम है पर इन बॉकियाय कर में हो लूं तो इसमें जो थे इस नहीं दोनों फोटोस सेम",
+      "segment_text": "collector speech",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -107,7 +108,7 @@
       "start": 121.23,
       "end": 121.75,
       "probability": 0.3593,
-      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
+      "segment_text": "speaker: mai kharagpur se hu\ncollecotr: gharpe konse bhasha bolte ho",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -115,7 +116,7 @@
       "start": 121.75,
       "end": 121.75,
       "probability": 0.3767,
-      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
+      "segment_text": "speaker: mai kharagpur se hu\ncollecotr: gharpe konse bhasha bolte ho",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -123,7 +124,7 @@
       "start": 124.75,
       "end": 125.29,
       "probability": 0.3611,
-      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
+      "segment_text": "speaker: mai kharagpur se hu\ncollecotr: gharpe konse bhasha bolte ho",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -131,7 +132,7 @@
       "start": 125.29,
       "end": 125.29,
       "probability": 0.1657,
-      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
+      "segment_text": "speaker: mai kharagpur se hu\ncollecotr: gharpe konse bhasha bolte ho",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -139,7 +140,7 @@
       "start": 125.29,
       "end": 125.29,
       "probability": 0.3287,
-      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
+      "segment_text": "speaker: mai kharagpur se hu\ncollecotr: gharpe konse bhasha bolte ho",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -147,7 +148,7 @@
       "start": 127.33,
       "end": 127.33,
       "probability": 0.0948,
-      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
+      "segment_text": "speaker: mai kharagpur se hu\ncollecotr: gharpe konse bhasha bolte ho",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -155,7 +156,7 @@
       "start": 127.67,
       "end": 127.87,
       "probability": 0.3633,
-      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
+      "segment_text": "speaker: mai kharagpur se hu\ncollecotr: gharpe konse bhasha bolte ho",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -163,7 +164,7 @@
       "start": 127.87,
       "end": 128.03,
       "probability": 0.3516,
-      "segment_text": "लास्तो युक्ते हो सिर्फ खड़ा कुत में खड़ा कुत से विच्चों घेश है और आप अ घर पर गांव कि भाषा स्ट्रांड होलते",
+      "segment_text": "speaker: mai kharagpur se hu\ncollecotr: gharpe konse bhasha bolte ho",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -171,7 +172,7 @@
       "start": 128.95,
       "end": 129.63,
       "probability": 0.3214,
-      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "segment_text": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -179,7 +180,7 @@
       "start": 129.63,
       "end": 130.01,
       "probability": 0.0118,
-      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "segment_text": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -187,7 +188,7 @@
       "start": 130.01,
       "end": 130.87,
       "probability": 0.3365,
-      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "segment_text": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -195,7 +196,7 @@
       "start": 130.87,
       "end": 131.13,
       "probability": 0.2671,
-      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "segment_text": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -203,7 +204,7 @@
       "start": 131.31,
       "end": 131.31,
       "probability": 0.2044,
-      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "segment_text": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -211,7 +212,7 @@
       "start": 131.31,
       "end": 131.31,
       "probability": 0.3435,
-      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "segment_text": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -219,7 +220,7 @@
       "start": 132.49,
       "end": 132.61,
       "probability": 0.2338,
-      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "segment_text": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -227,7 +228,7 @@
       "start": 132.79,
       "end": 132.83,
       "probability": 0.1749,
-      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "segment_text": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -235,7 +236,7 @@
       "start": 132.83,
       "end": 133.47,
       "probability": 0.1617,
-      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "segment_text": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -243,7 +244,7 @@
       "start": 167.83,
       "end": 168.17,
       "probability": 0.1212,
-      "segment_text": "है और दिन में आपको कितना टाइम पूंधर बोलने पड़ती है मतलब इनका ऐसा कोई नहीं है मतलब किससे बात करते हैं",
+      "segment_text": "collector: dine mein kitna time...\nspeaker: aisa koi yeh nahi hai matlab jisse baat karte hai-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -251,7 +252,7 @@
       "start": 169.63,
       "end": 169.95,
       "probability": 0.2554,
-      "segment_text": "है और दिन में आपको कितना टाइम पूंधर बोलने पड़ती है मतलब इनका ऐसा कोई नहीं है मतलब किससे बात करते हैं",
+      "segment_text": "collector: dine mein kitna time...\nspeaker: aisa koi yeh nahi hai matlab jisse baat karte hai-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -259,7 +260,7 @@
       "start": 175.97,
       "end": 176.27,
       "probability": 0.3353,
-      "segment_text": "अगले वालों से ओर से भी बल्कुल करते अवेश्यन का कितना टाइम जाता है वह ज्यादा टाइम की हिंदी में जाता",
+      "segment_text": "speaker: agle wala hindi wala hai toh usse hindi mein baat karte hai\ncollector: fir bhi ktini time jata hoga din ka hindi bolne mein?\nspeaker: wohi chaaar paach ghanta , paach ghanta che ghanta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -267,7 +268,7 @@
       "start": 177.55,
       "end": 177.89,
       "probability": 0.3202,
-      "segment_text": "अगले वालों से ओर से भी बल्कुल करते अवेश्यन का कितना टाइम जाता है वह ज्यादा टाइम की हिंदी में जाता",
+      "segment_text": "speaker: agle wala hindi wala hai toh usse hindi mein baat karte hai\ncollector: fir bhi ktini time jata hoga din ka hindi bolne mein?\nspeaker: wohi chaaar paach ghanta , paach ghanta che ghanta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -275,7 +276,7 @@
       "start": 179.97,
       "end": 180.11,
       "probability": 0.102,
-      "segment_text": "अगले वालों से ओर से भी बल्कुल करते अवेश्यन का कितना टाइम जाता है वह ज्यादा टाइम की हिंदी में जाता",
+      "segment_text": "speaker: agle wala hindi wala hai toh usse hindi mein baat karte hai\ncollector: fir bhi ktini time jata hoga din ka hindi bolne mein?\nspeaker: wohi chaaar paach ghanta , paach ghanta che ghanta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -283,31 +284,7 @@
       "start": 227.37,
       "end": 227.37,
       "probability": 0.3563,
-      "segment_text": "है या कोई पॉब्लम होता तो उसको मतलब पर सलूशन निकलना है अभी ऐसी कोई परेशानी आई है आपको नहीं",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "ना",
-      "start": 310.04,
-      "end": 310.16,
-      "probability": 0.3404,
-      "segment_text": "ना भी से यह जो सदर्ग रहना बड़ता है या गेट से कोई ऐसी चीज और गेट कास करना नहीं करें तो आपकी वह",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "जो",
-      "start": 311.02,
-      "end": 311.06,
-      "probability": 0.2044,
-      "segment_text": "ना भी से यह जो सदर्ग रहना बड़ता है या गेट से कोई ऐसी चीज और गेट कास करना नहीं करें तो आपकी वह",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "कास",
-      "start": 316.08,
-      "end": 316.22,
-      "probability": 0.3155,
-      "segment_text": "ना भी से यह जो सदर्ग रहना बड़ता है या गेट से कोई ऐसी चीज और गेट कास करना नहीं करें तो आपकी वह",
+      "segment_text": "speaker: koi bhi problem rehta hai usko matlab uska solution nikalna hai\ncollector: kabhi bhi aisi koi pareshaani aayi aapko",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     }
   ],
@@ -317,7 +294,7 @@
       "gender_form": "m_pl",
       "start": 9.96,
       "end": 10.12,
-      "segment_text": "आपको जो सबसे पहले आए यह चैनल है बुक हाउस का दर्जा खिड़की पानी में ना ग्लास में पानी रोटी लांच",
+      "segment_text": "collector: aapko jo sabse pehle aaye\nspeaker: yeh door hai,  eh chair hai, fan, book, house, house ka dorja, na khidki, aa pani mein na glas mei pani, roti eh-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -325,7 +302,7 @@
       "gender_form": "f_sg",
       "start": 23.09,
       "end": 24.03,
-      "segment_text": "आपको जो सबसे पहले आए यह चैनल है बुक हाउस का दर्जा खिड़की पानी में ना ग्लास में पानी रोटी लांच",
+      "segment_text": "collector: aapko jo sabse pehle aaye\nspeaker: yeh door hai,  eh chair hai, fan, book, house, house ka dorja, na khidki, aa pani mein na glas mei pani, roti eh-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -333,7 +310,7 @@
       "gender_form": "f_sg",
       "start": 44.68,
       "end": 45.0,
-      "segment_text": "तो मुद्दे ना पाती का � anymore अईएग92 फोटोस में आपको क्या फर्क दिखता पहली नजर में आपके फोटोस देखो दोनों",
+      "segment_text": "speaker: lunch ya dinner, bhat\ncollector: ab dada in do photos mein kya farak dikhta hai aapko pehli nazar main aapko dekho dono",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -341,7 +318,7 @@
       "gender_form": "m_sg",
       "start": 49.58,
       "end": 50.2,
-      "segment_text": "शेमे बट इनका यह और यह दोनों सेम है पर इन बॉकियाय कर में हो लूं तो इसमें जो थे इस नहीं दोनों फोटोस सेम",
+      "segment_text": "collector speech",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -349,7 +326,7 @@
       "gender_form": "f_sg",
       "start": 128.25,
       "end": 128.95,
-      "segment_text": "हो बेंगोली वॉर कल मैं शांति बैंग पुरिय पेड़ बोलते हैं बैंग बोलते हैं थी कि से पैन दिंग लोग",
+      "segment_text": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -357,7 +334,7 @@
       "gender_form": "f_sg",
       "start": 179.97,
       "end": 180.11,
-      "segment_text": "अगले वालों से ओर से भी बल्कुल करते अवेश्यन का कितना टाइम जाता है वह ज्यादा टाइम की हिंदी में जाता",
+      "segment_text": "speaker: agle wala hindi wala hai toh usse hindi mein baat karte hai\ncollector: fir bhi ktini time jata hoga din ka hindi bolne mein?\nspeaker: wohi chaaar paach ghanta , paach ghanta che ghanta",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -365,7 +342,7 @@
       "gender_form": "m_sg",
       "start": 200.49,
       "end": 200.61,
-      "segment_text": "नहीं मतलब फिर भी कोई दिन ऐसा होता हुआ थोड़ा मुश्किल जाता हुआ होता है कोई जैसे एक परिवार में किसी परिवार",
+      "segment_text": "collector: aur dada aapko yaha ke students kaise lagte hai, ya koi din hota hoga jo mushkil jata hoga\nspeaker: nahi nahi nahi, mushkil hota hai kabhi, jaise ek parivaar mein kisi mein paach, sab barabar nahi hota-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -373,7 +350,7 @@
       "gender_form": "m_sg",
       "start": 201.67,
       "end": 201.81,
-      "segment_text": "नहीं मतलब फिर भी कोई दिन ऐसा होता हुआ थोड़ा मुश्किल जाता हुआ होता है कोई जैसे एक परिवार में किसी परिवार",
+      "segment_text": "collector: aur dada aapko yaha ke students kaise lagte hai, ya koi din hota hoga jo mushkil jata hoga\nspeaker: nahi nahi nahi, mushkil hota hai kabhi, jaise ek parivaar mein kisi mein paach, sab barabar nahi hota-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -381,7 +358,7 @@
       "gender_form": "m_pl",
       "start": 224.65,
       "end": 224.93,
-      "segment_text": "सब बराबर नहीं होता इतना और सबसे मुश्किल समय क्या होता है नहीं हमारे जब कोई है मतलब प्रोडक्शन देना",
+      "segment_text": "-yeh itna bada iit hai itna sara student hai toh student barabar nahi hoga na\ncollector: phir bhi usmein kya pareshani aati hai aapko\nspeaker: nahi woh normal hai\ncollector: aapki job ka sabse mushkil samay kya hota hai\nspeaker: nahi humara toh job ka wohi hai matlab protection rehna hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -389,7 +366,7 @@
       "gender_form": "f_sg",
       "start": 233.29,
       "end": 233.47,
-      "segment_text": "है या कोई पॉब्लम होता तो उसको मतलब पर सलूशन निकलना है अभी ऐसी कोई परेशानी आई है आपको नहीं",
+      "segment_text": "speaker: koi bhi problem rehta hai usko matlab uska solution nikalna hai\ncollector: kabhi bhi aisi koi pareshaani aayi aapko",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -397,7 +374,7 @@
       "gender_form": "f_sg",
       "start": 235.41,
       "end": 235.67,
-      "segment_text": "नहीं इस वाली जॉब में नहीं आप रेफर करते होगे ना मॉर्निंग शिफ्ट हो या इधन शिफ्ट हो रहे लगे मेरा",
+      "segment_text": "speaker: nahi nahi aisa koi nahi hai\ncollector: matlab aap prefer karte honge na morning shift ho ya night shift ho\nspeaker: matlab mera duty ein agar koi cheez kami pesi reh gaya ya koi problem hua toh agle din hum woh handover karke jaate hai toh agle wale ko samajh mein aaye ki yaha koi problem tha aur uska koi solution hua ki nahi hua ya zyada hua toh usko report agaya toh hua ki nahi hua",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -405,7 +382,7 @@
       "gender_form": "m_pl",
       "start": 240.57,
       "end": 240.69,
-      "segment_text": "नहीं इस वाली जॉब में नहीं आप रेफर करते होगे ना मॉर्निंग शिफ्ट हो या इधन शिफ्ट हो रहे लगे मेरा",
+      "segment_text": "speaker: nahi nahi aisa koi nahi hai\ncollector: matlab aap prefer karte honge na morning shift ho ya night shift ho\nspeaker: matlab mera duty ein agar koi cheez kami pesi reh gaya ya koi problem hua toh agle din hum woh handover karke jaate hai toh agle wale ko samajh mein aaye ki yaha koi problem tha aur uska koi solution hua ki nahi hua ya zyada hua toh usko report agaya toh hua ki nahi hua",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -413,7 +390,7 @@
       "gender_form": "m_pl",
       "start": 266.04,
       "end": 266.14,
-      "segment_text": "सोने के लिए उसका हम एगेंट्स उसका वर्कलप और दादा आपने जिससे अगर मैं को आप अपना सुबह से लेकर अभी तक",
+      "segment_text": "-sone ke liye uska hum against uska badnaam karta hai\ncollecotr: toh dada aap apna subha se leke ab tak ka routine batao aapne kya kya kiya\nspeaker: wohi hai subhe uthke fresh hoke duty hai toh duty mein ajate hai phir duty aath ghanta nikalne ke baad bhi duty duaraan breakfast karlete hai\n collector: aur duty ko thoda explain karo aap duty pe kya karte ho",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -421,15 +398,7 @@
       "gender_form": "m_sg",
       "start": 299.82,
       "end": 300.02,
-      "segment_text": "आगले जो दूटी में था उसको जितनी बात तो उसको शाद खेंड़ बग लिया अच्छा कोई परलेम होता तो कोई पर भी",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "आपकी",
-      "gender_form": "f_sg",
-      "start": 317.86,
-      "end": 318.0,
-      "segment_text": "ना भी से यह जो सदर्ग रहना बड़ता है या गेट से कोई ऐसी चीज और गेट कास करना नहीं करें तो आपकी वह",
+      "segment_text": "speaker: wohi aane ke baad aise duty pe hum aya hai, aane ke baad agle jo duty pe tha uska kuch handover liya koi problem ho toh hum kabhi dekh lete hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -437,7 +406,7 @@
       "gender_form": "m_pl",
       "start": 321.56,
       "end": 321.78,
-      "segment_text": "सब्सक्राइब जूटी लगती है वहीं नहीं हम लगता नहीं हम लोग ऐसे लिए हम वह लगता नहीं है थी कि आप रिकॉर्डिंग",
+      "segment_text": "collecotr: toh aapki boys hostel mein bhi duty lagti hogi\nspeaker: nahi nahi boys mein hum log ko lagta nahi hai hum log ismein hai isliye boys mein hum log ko lagta nahi hai",
       "note": "Agreement site — verify gender matches subject/object"
     }
   ],
@@ -448,22 +417,87 @@
       "alternate_form": "अच्छी",
       "start": 300.02,
       "end": 300.62,
-      "segment_text": "आगले जो दूटी में था उसको जितनी बात तो उसको शाद खेंड़ बग लिया अच्छा कोई परलेम होता तो कोई पर भी",
+      "segment_text": "speaker: wohi aane ke baad aise duty pe hum aya hai, aane ke baad agle jo duty pe tha uska kuch handover liya koi problem ho toh hum kabhi dekh lete hai",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     }
   ],
   "ne_occurrences": [],
+  "verified_gender_errors": [
+    {
+      "pattern": "ladies door khol raha",
+      "expected": "ladies door khol rahi",
+      "noun": "ladies",
+      "noun_gender": "F",
+      "error": "masculine_default_on_feminine",
+      "start": 60.8,
+      "end": 94.47,
+      "segment_text": "speaker: yeh small photo hai yeh bada photo hai\ncollector: a dada yeh batana yeh banda iss photo mein kya karaha hai\nspeaker: yeh khana kha raha hai, yeh girls khana kha raha hai, yeh ek ladies door khol raha hai, ek baccha kitaab padh raha hai, ek ladies glass mein paani daal raha hai, eh glass neechi palti hogaya paani neeche gir raha hai, book ulta karke rakha hua hai, khudchi tuta hua hai, fan ka ek blade tuta hua hai, eh dorja gate khula hua hai\ncollector: dada aap kaha se ho"
+    },
+    {
+      "pattern": "girls khana kha raha",
+      "expected": "girls khana kha rahi",
+      "noun": "girls/larki",
+      "noun_gender": "F",
+      "error": "masculine_default_on_feminine",
+      "start": 60.8,
+      "end": 94.47,
+      "segment_text": "speaker: yeh small photo hai yeh bada photo hai\ncollector: a dada yeh batana yeh banda iss photo mein kya karaha hai\nspeaker: yeh khana kha raha hai, yeh girls khana kha raha hai, yeh ek ladies door khol raha hai, ek baccha kitaab padh raha hai, ek ladies glass mein paani daal raha hai, eh glass neechi palti hogaya paani neeche gir raha hai, book ulta karke rakha hua hai, khudchi tuta hua hai, fan ka ek blade tuta hua hai, eh dorja gate khula hua hai\ncollector: dada aap kaha se ho"
+    }
+  ],
+  "verified_bengali_words": [
+    {
+      "word": "dorja",
+      "start": 8.14,
+      "end": 33.5,
+      "segment_text": "collector: aapko jo sabse pehle aaye\nspeaker: yeh door hai,  eh chair hai, fan, book, house, house ka dorja, na khidki, aa pani mein na glas mei pani, roti eh-"
+    },
+    {
+      "word": "bhat",
+      "start": 34.15,
+      "end": 46.66,
+      "segment_text": "speaker: lunch ya dinner, bhat\ncollector: ab dada in do photos mein kya farak dikhta hai aapko pehli nazar main aapko dekho dono"
+    },
+    {
+      "word": "dorja",
+      "start": 60.8,
+      "end": 94.47,
+      "segment_text": "speaker: yeh small photo hai yeh bada photo hai\ncollector: a dada yeh batana yeh banda iss photo mein kya karaha hai\nspeaker: yeh khana kha raha hai, yeh girls khana kha raha hai, yeh ek ladies door khol raha hai, ek baccha kitaab padh raha hai, ek ladies glass mein paani daal raha hai, eh glass neechi palti hogaya paani neeche gir raha hai, book ulta karke rakha hua hai, khudchi tuta hua hai, fan ka ek blade tuta hua hai, eh dorja gate khula hua hai\ncollector: dada aap kaha se ho"
+    },
+    {
+      "word": "khudchi",
+      "start": 60.8,
+      "end": 94.47,
+      "segment_text": "speaker: yeh small photo hai yeh bada photo hai\ncollector: a dada yeh batana yeh banda iss photo mein kya karaha hai\nspeaker: yeh khana kha raha hai, yeh girls khana kha raha hai, yeh ek ladies door khol raha hai, ek baccha kitaab padh raha hai, ek ladies glass mein paani daal raha hai, eh glass neechi palti hogaya paani neeche gir raha hai, book ulta karke rakha hua hai, khudchi tuta hua hai, fan ka ek blade tuta hua hai, eh dorja gate khula hua hai\ncollector: dada aap kaha se ho"
+    },
+    {
+      "word": "bengali",
+      "start": 128.03,
+      "end": 134.25,
+      "segment_text": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada"
+    },
+    {
+      "word": "bengali",
+      "start": 184.35,
+      "end": 197.85,
+      "segment_text": "collecotr: aur koi bhasha aap bolte ho\nspeaker: bengali hindi, english... thoda bohot"
+    }
+  ],
   "summary": {
-    "total_words": 451,
+    "total_words": 679,
     "total_segments": 20,
     "duration_s": 330.15,
     "low_confidence_segments": 4,
     "low_confidence_words": 89,
-    "candidate_bengali_words": 34,
+    "candidate_bengali_words": 31,
     "candidate_switch_points": 4,
-    "past_tense_verbs_found": 16,
+    "past_tense_verbs_found": 15,
     "adjective_noun_pairs_found": 1,
     "ne_occurrences": 0,
-    "note": "All counts are from UNVERIFIED Whisper output. Actual counts will differ after human verification — likely more Bengali words (Whisper converts them to Hindi) and more agreement errors (Whisper corrects them)."
+    "verified_gender_errors": 2,
+    "verified_bengali_unique": 4,
+    "verified_bengali_total": 6,
+    "collector_segments_skipped": 0,
+    "noise_segments_skipped": 1,
+    "note": "Uses human-corrected text. Collector speech and noise segments excluded. Gender errors and Bengali words from human annotations."
   }
 }

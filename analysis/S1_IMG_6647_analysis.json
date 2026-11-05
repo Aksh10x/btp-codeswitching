@@ -2,12 +2,13 @@
   "file": "S1_IMG_6647",
   "speaker_code": "S1",
   "source_transcript": "transcripts/S1_IMG_6647_transcript.json",
-  "WARNING": "Based on UNVERIFIED Whisper output. Whisper silently corrects agreement errors and converts Bengali to Hindi. Every flagged item MUST be verified against the audio.",
+  "data_source": "human-corrected",
+  "WARNING": "Uses human-corrected text where available. Segments marked as collector speech or noise are excluded. Gender agreement errors and Bengali words from human annotations are included directly.",
   "low_confidence_segments": [
     {
       "start": 186.34,
       "end": 191.5,
-      "text": "ड्रेमों ठीक हो गया कोई दिन होता होगा झाल मुश्किल होता होगा तो किस इसने से हो सकता है जी",
+      "text": "entirely uttered by data collector saying koi din hota hoga jo bohto mushkil hota hoga toh kya reason se ....",
       "avg_logprob": -0.7904,
       "no_speech_prob": 0.0709,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -15,7 +16,7 @@
     {
       "start": 191.5,
       "end": 203.78,
-      "text": "वह दिन मुश्किल हो आपको क्या परिशानी आती है पड़े और उठा। बच्चे में पर लगना आ जाता है",
+      "text": "paareshani matlab kuch problem nahi rehta",
       "avg_logprob": -0.7904,
       "no_speech_prob": 0.0709,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -27,7 +28,7 @@
       "start": 140.25,
       "end": 140.71,
       "probability": 0.2943,
-      "segment_text": "अब अपने बारे में कुछ बताओ क्या करते हुआ आप साइकल सॉप है मेरा एक लेर की लेर का जो नहीं जानता लेकिन",
+      "segment_text": "mera cycle shop hai aur (aar) mera ek ladki ek ladka , dono study hair karta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -35,7 +36,7 @@
       "start": 186.34,
       "end": 186.44,
       "probability": 0.1746,
-      "segment_text": "ड्रेमों ठीक हो गया कोई दिन होता होगा झाल मुश्किल होता होगा तो किस इसने से हो सकता है जी",
+      "segment_text": "entirely uttered by data collector saying koi din hota hoga jo bohto mushkil hota hoga toh kya reason se ....",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -43,7 +44,7 @@
       "start": 189.84,
       "end": 190.52,
       "probability": 0.2742,
-      "segment_text": "ड्रेमों ठीक हो गया कोई दिन होता होगा झाल मुश्किल होता होगा तो किस इसने से हो सकता है जी",
+      "segment_text": "entirely uttered by data collector saying koi din hota hoga jo bohto mushkil hota hoga toh kya reason se ....",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -51,7 +52,7 @@
       "start": 191.5,
       "end": 191.7,
       "probability": 0.3138,
-      "segment_text": "वह दिन मुश्किल हो आपको क्या परिशानी आती है पड़े और उठा। बच्चे में पर लगना आ जाता है",
+      "segment_text": "paareshani matlab kuch problem nahi rehta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -59,7 +60,7 @@
       "start": 194.86,
       "end": 195.5,
       "probability": 0.309,
-      "segment_text": "वह दिन मुश्किल हो आपको क्या परिशानी आती है पड़े और उठा। बच्चे में पर लगना आ जाता है",
+      "segment_text": "paareshani matlab kuch problem nahi rehta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -67,7 +68,7 @@
       "start": 199.36,
       "end": 200.28,
       "probability": 0.3607,
-      "segment_text": "वह दिन मुश्किल हो आपको क्या परिशानी आती है पड़े और उठा। बच्चे में पर लगना आ जाता है",
+      "segment_text": "paareshani matlab kuch problem nahi rehta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -75,7 +76,7 @@
       "start": 200.28,
       "end": 200.28,
       "probability": 0.3693,
-      "segment_text": "वह दिन मुश्किल हो आपको क्या परिशानी आती है पड़े और उठा। बच्चे में पर लगना आ जाता है",
+      "segment_text": "paareshani matlab kuch problem nahi rehta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     }
   ],
@@ -85,7 +86,7 @@
       "gender_form": "m_sg",
       "start": 73.14,
       "end": 73.26,
-      "segment_text": "अच्छा वहीं पर आपको बताना है कि क्या कर रहा है आपको देखिए क्या लगता है रूटी खा रहा है",
+      "segment_text": "yeh roti kha raha hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -93,7 +94,7 @@
       "gender_form": "m_sg",
       "start": 75.38,
       "end": 75.66,
-      "segment_text": "अच्छा वहीं पर आपको बताना है कि क्या कर रहा है आपको देखिए क्या लगता है रूटी खा रहा है",
+      "segment_text": "yeh roti kha raha hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -101,7 +102,7 @@
       "gender_form": "m_sg",
       "start": 79.54,
       "end": 79.66,
-      "segment_text": "कोई कुछ भी बोल सकते हुआ है जर्जा खोल रहा है जॉल डाल जाए इसमें क्या हो रहा है जॉल गिर गया कॉपी खुला है",
+      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -109,7 +110,7 @@
       "gender_form": "m_sg",
       "start": 86.7,
       "end": 87.0,
-      "segment_text": "कोई कुछ भी बोल सकते हुआ है जर्जा खोल रहा है जॉल डाल जाए इसमें क्या हो रहा है जॉल गिर गया कॉपी खुला है",
+      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -117,7 +118,7 @@
       "gender_form": "m_sg",
       "start": 95.62,
       "end": 95.7,
-      "segment_text": "कोई कुछ भी बोल सकते हुआ है जर्जा खोल रहा है जॉल डाल जाए इसमें क्या हो रहा है जॉल गिर गया कॉपी खुला है",
+      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -125,7 +126,7 @@
       "gender_form": "m_sg",
       "start": 97.56,
       "end": 97.8,
-      "segment_text": "कोई कुछ भी बोल सकते हुआ है जर्जा खोल रहा है जॉल डाल जाए इसमें क्या हो रहा है जॉल गिर गया कॉपी खुला है",
+      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -133,7 +134,7 @@
       "gender_form": "f_sg",
       "start": 99.83,
       "end": 101.15,
-      "segment_text": "कोई कुछ भी बोल सकते हुआ है जर्जा खोल रहा है जॉल डाल जाए इसमें क्या हो रहा है जॉल गिर गया कॉपी खुला है",
+      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -141,7 +142,7 @@
       "gender_form": "m_sg",
       "start": 126.96,
       "end": 127.22,
-      "segment_text": "अब अपने बारे में कुछ बताओ क्या करते हुआ आप साइकल सॉप है मेरा एक लेर की लेर का जो नहीं जानता लेकिन",
+      "segment_text": "mera cycle shop hai aur (aar) mera ek ladki ek ladka , dono study hair karta",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -149,7 +150,7 @@
       "gender_form": "f_sg",
       "start": 136.92,
       "end": 137.24,
-      "segment_text": "अब अपने बारे में कुछ बताओ क्या करते हुआ आप साइकल सॉप है मेरा एक लेर की लेर का जो नहीं जानता लेकिन",
+      "segment_text": "mera cycle shop hai aur (aar) mera ek ladki ek ladka , dono study hair karta",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -157,7 +158,7 @@
       "gender_form": "m_pl",
       "start": 151.6,
       "end": 153.84,
-      "segment_text": "सर्मिस करता मेरा आरेक्टर शॉप अब सुबह तक जैसे अगर मैं पूछूंगे आज सुबह तक अब बताना चाहते हुए सुबह से",
+      "segment_text": "ladki service karta, mera aar ek tho shop hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -165,7 +166,7 @@
       "gender_form": "m_pl",
       "start": 164.25,
       "end": 164.47,
-      "segment_text": "हावा रिपेरिंग सब्सक्राइब कितने बजे आ जाते हुए शर्म समुद्ध सब्सक्राइब बीच में शर्म करते हों",
+      "segment_text": "pura puncture hawa repairing, sab repairing karta hu (speaker kitne baje ajate ho subhe) saadhe saath, shaam tak \"...\" beech mein lunch time karta do se paanch/chaar",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -173,7 +174,7 @@
       "gender_form": "m_sg",
       "start": 186.46,
       "end": 186.46,
-      "segment_text": "ड्रेमों ठीक हो गया कोई दिन होता होगा झाल मुश्किल होता होगा तो किस इसने से हो सकता है जी",
+      "segment_text": "entirely uttered by data collector saying koi din hota hoga jo bohto mushkil hota hoga toh kya reason se ....",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -181,7 +182,7 @@
       "gender_form": "m_sg",
       "start": 194.86,
       "end": 195.5,
-      "segment_text": "वह दिन मुश्किल हो आपको क्या परिशानी आती है पड़े और उठा। बच्चे में पर लगना आ जाता है",
+      "segment_text": "paareshani matlab kuch problem nahi rehta",
       "note": "Agreement site — verify gender matches subject/object"
     }
   ],
@@ -192,13 +193,52 @@
       "alternate_form": "अच्छी",
       "start": 40.96,
       "end": 41.52,
-      "segment_text": "अच्छा वहीं पर आपको बताना है कि क्या कर रहा है आपको देखिए क्या लगता है रूटी खा रहा है",
+      "segment_text": "yeh roti kha raha hai",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     }
   ],
   "ne_occurrences": [],
+  "verified_gender_errors": [],
+  "verified_bengali_words": [
+    {
+      "word": "dorja",
+      "start": 77.52,
+      "end": 102.43,
+      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala"
+    },
+    {
+      "word": "janala",
+      "start": 77.52,
+      "end": 102.43,
+      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala"
+    },
+    {
+      "word": "jol",
+      "start": 77.52,
+      "end": 102.43,
+      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala"
+    },
+    {
+      "word": "bhat",
+      "start": 77.52,
+      "end": 102.43,
+      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala"
+    },
+    {
+      "word": "dhalche",
+      "start": 77.52,
+      "end": 102.43,
+      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala"
+    },
+    {
+      "word": "bengali",
+      "start": 77.52,
+      "end": 102.43,
+      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala"
+    }
+  ],
   "summary": {
-    "total_words": 174,
+    "total_words": 156,
     "total_segments": 11,
     "duration_s": 231.19,
     "low_confidence_segments": 2,
@@ -208,6 +248,11 @@
     "past_tense_verbs_found": 13,
     "adjective_noun_pairs_found": 1,
     "ne_occurrences": 0,
-    "note": "All counts are from UNVERIFIED Whisper output. Actual counts will differ after human verification — likely more Bengali words (Whisper converts them to Hindi) and more agreement errors (Whisper corrects them)."
+    "verified_gender_errors": 0,
+    "verified_bengali_unique": 6,
+    "verified_bengali_total": 6,
+    "collector_segments_skipped": 1,
+    "noise_segments_skipped": 0,
+    "note": "Uses human-corrected text. Collector speech and noise segments excluded. Gender errors and Bengali words from human annotations."
   }
 }

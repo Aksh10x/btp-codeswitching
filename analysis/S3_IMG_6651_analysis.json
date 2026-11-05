@@ -2,12 +2,13 @@
   "file": "S3_IMG_6651",
   "speaker_code": "S3",
   "source_transcript": "transcripts/S3_IMG_6651_transcript.json",
-  "WARNING": "Based on UNVERIFIED Whisper output. Whisper silently corrects agreement errors and converts Bengali to Hindi. Every flagged item MUST be verified against the audio.",
+  "data_source": "human-corrected",
+  "WARNING": "Uses human-corrected text where available. Segments marked as collector speech or noise are excluded. Gender agreement errors and Bengali words from human annotations are included directly.",
   "low_confidence_segments": [
     {
       "start": 47.72,
       "end": 67.68,
-      "text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "avg_logprob": -1.1039,
       "no_speech_prob": 0.0819,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -15,7 +16,7 @@
     {
       "start": 67.68,
       "end": 83.77,
-      "text": "एक पचक है छह कूंठ थे फैन भी तूटा है गृद्धू ऑल्ड विंद्व है और कुट गया ग्रास टूटा है",
+      "text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
       "avg_logprob": -1.1039,
       "no_speech_prob": 0.0819,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -31,25 +32,9 @@
     {
       "start": 323.64,
       "end": 329.14,
-      "text": "लेकिन हमरे भी तुमरे राइते रिते हो चाल नहीं हो सकते",
+      "text": "lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala lera",
       "avg_logprob": -1.1478,
       "no_speech_prob": 0.3865,
-      "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
-    },
-    {
-      "start": 329.14,
-      "end": 337.86,
-      "text": "कि ओं या हो हुई कर दो",
-      "avg_logprob": -1.1478,
-      "no_speech_prob": 0.3865,
-      "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
-    },
-    {
-      "start": 345.92,
-      "end": 351.22,
-      "text": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है",
-      "avg_logprob": -0.718,
-      "no_speech_prob": 0.4136,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
     },
     {
@@ -75,7 +60,7 @@
       "start": 47.72,
       "end": 48.04,
       "probability": 0.2566,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -83,7 +68,7 @@
       "start": 49.5,
       "end": 49.9,
       "probability": 0.2609,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -91,7 +76,7 @@
       "start": 49.9,
       "end": 50.24,
       "probability": 0.1243,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -99,7 +84,7 @@
       "start": 50.24,
       "end": 50.24,
       "probability": 0.1919,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -107,7 +92,7 @@
       "start": 52.22,
       "end": 52.5,
       "probability": 0.392,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -115,7 +100,7 @@
       "start": 52.5,
       "end": 53.2,
       "probability": 0.2294,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -123,7 +108,7 @@
       "start": 55.74,
       "end": 56.26,
       "probability": 0.1555,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -131,7 +116,7 @@
       "start": 56.26,
       "end": 57.14,
       "probability": 0.1602,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -139,7 +124,7 @@
       "start": 57.14,
       "end": 57.58,
       "probability": 0.3672,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -147,7 +132,7 @@
       "start": 57.58,
       "end": 57.62,
       "probability": 0.2576,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -155,7 +140,7 @@
       "start": 62.9,
       "end": 63.92,
       "probability": 0.1397,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -163,7 +148,7 @@
       "start": 63.92,
       "end": 64.6,
       "probability": 0.0695,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -171,7 +156,7 @@
       "start": 64.6,
       "end": 65.96,
       "probability": 0.3186,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -179,7 +164,7 @@
       "start": 67.4,
       "end": 67.68,
       "probability": 0.3565,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -187,7 +172,7 @@
       "start": 69.86,
       "end": 70.22,
       "probability": 0.212,
-      "segment_text": "एक पचक है छह कूंठ थे फैन भी तूटा है गृद्धू ऑल्ड विंद्व है और कुट गया ग्रास टूटा है",
+      "segment_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -195,7 +180,7 @@
       "start": 70.46,
       "end": 71.14,
       "probability": 0.2952,
-      "segment_text": "एक पचक है छह कूंठ थे फैन भी तूटा है गृद्धू ऑल्ड विंद्व है और कुट गया ग्रास टूटा है",
+      "segment_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -203,7 +188,7 @@
       "start": 72.86,
       "end": 73.2,
       "probability": 0.3145,
-      "segment_text": "एक पचक है छह कूंठ थे फैन भी तूटा है गृद्धू ऑल्ड विंद्व है और कुट गया ग्रास टूटा है",
+      "segment_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -211,15 +196,7 @@
       "start": 73.2,
       "end": 73.42,
       "probability": 0.2718,
-      "segment_text": "एक पचक है छह कूंठ थे फैन भी तूटा है गृद्धू ऑल्ड विंद्व है और कुट गया ग्रास टूटा है",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "तो",
-      "start": 98.86,
-      "end": 99.04,
-      "probability": 0.2664,
-      "segment_text": "कि आपको यहां काम करते हुए सबसे मुश्किल दिन काम करते तो कितने साल हो गए और क्या मुश्किल आती है",
+      "segment_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -227,7 +204,7 @@
       "start": 107.72,
       "end": 108.04,
       "probability": 0.2627,
-      "segment_text": "सब तुम कोई ऑफिस का असम होता होगा । क्योंकि आपके लिए बहुत मुश्किल होता होगा । क्या-क्या परेशानी",
+      "segment_text": "mushkil kuch nahi hai sab theek hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -235,7 +212,7 @@
       "start": 119.02,
       "end": 119.16,
       "probability": 0.2675,
-      "segment_text": "आती हो नहीं हो जो भी काम आता है हम अब से बहुत सारा लूट ज्यादा हुआ था ।",
+      "segment_text": "kabhi aisa situation nahi hua jo bhi kaam ata hai hum log karta hai, allotment ka sab kyuki kaam ka load zyada hota hai kyuki time",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -243,7 +220,7 @@
       "start": 151.16,
       "end": 151.32,
       "probability": 0.3503,
-      "segment_text": "हम लोगों से कब आते हो कब जाते हैं 8 गंटा अभी छह से दो गजे तक तो जाते जाते हैं टू ठट्टी हो जाए राफ्ट टर्न है और रिबेनिंग होने से दो गजे से दस बच्चे और घर पर आपके खाना कौन मिलाता है कि आप अपनी फामिली के बारे में आप कुछ बत",
+      "segment_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -251,7 +228,7 @@
       "start": 153.65,
       "end": 154.09,
       "probability": 0.3351,
-      "segment_text": "हम लोगों से कब आते हो कब जाते हैं 8 गंटा अभी छह से दो गजे तक तो जाते जाते हैं टू ठट्टी हो जाए राफ्ट टर्न है और रिबेनिंग होने से दो गजे से दस बच्चे और घर पर आपके खाना कौन मिलाता है कि आप अपनी फामिली के बारे में आप कुछ बत",
+      "segment_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -259,7 +236,7 @@
       "start": 159.19,
       "end": 159.59,
       "probability": 0.3643,
-      "segment_text": "हम लोगों से कब आते हो कब जाते हैं 8 गंटा अभी छह से दो गजे तक तो जाते जाते हैं टू ठट्टी हो जाए राफ्ट टर्न है और रिबेनिंग होने से दो गजे से दस बच्चे और घर पर आपके खाना कौन मिलाता है कि आप अपनी फामिली के बारे में आप कुछ बत",
+      "segment_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -267,7 +244,7 @@
       "start": 166.8,
       "end": 167.04,
       "probability": 0.2421,
-      "segment_text": "हम लोगों से कब आते हो कब जाते हैं 8 गंटा अभी छह से दो गजे तक तो जाते जाते हैं टू ठट्टी हो जाए राफ्ट टर्न है और रिबेनिंग होने से दो गजे से दस बच्चे और घर पर आपके खाना कौन मिलाता है कि आप अपनी फामिली के बारे में आप कुछ बत",
+      "segment_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -275,7 +252,7 @@
       "start": 211.8,
       "end": 212.36,
       "probability": 0.3529,
-      "segment_text": "आपने कब से बोलनी चाहूंगी तो नहीं बोल नहीं पाती हो थोड़ा",
+      "segment_text": "mai woh, third language tha hindi school mein fir mera bada ladka school mein thi usse mai study kiya hindi... thoda... itna acchi bhi bol nahi pata hu",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -283,7 +260,7 @@
       "start": 213.54,
       "end": 213.9,
       "probability": 0.398,
-      "segment_text": "आपने कब से बोलनी चाहूंगी तो नहीं बोल नहीं पाती हो थोड़ा",
+      "segment_text": "mai woh, third language tha hindi school mein fir mera bada ladka school mein thi usse mai study kiya hindi... thoda... itna acchi bhi bol nahi pata hu",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -291,7 +268,7 @@
       "start": 246.82,
       "end": 247.0,
       "probability": 0.2975,
-      "segment_text": "था बड़ा बड़ा ठीक है तो एक तो बेंगुली सिखते हैं और दूसरा कौन सा दूसरी इंग्लिश ने",
+      "segment_text": "bengali toh hai, main toh bengali medium ka student hai hum",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -299,7 +276,7 @@
       "start": 259.19,
       "end": 259.63,
       "probability": 0.227,
-      "segment_text": "था बड़ा बड़ा ठीक है तो एक तो बेंगुली सिखते हैं और दूसरा कौन सा दूसरी इंग्लिश ने",
+      "segment_text": "bengali toh hai, main toh bengali medium ka student hai hum",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -307,7 +284,7 @@
       "start": 267.67,
       "end": 268.55,
       "probability": 0.107,
-      "segment_text": "को सबको सबस्क्राइब",
+      "segment_text": "hindi na do saal hum logo ko padhaya",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -315,7 +292,7 @@
       "start": 325.5,
       "end": 325.66,
       "probability": 0.2277,
-      "segment_text": "लेकिन हमरे भी तुमरे राइते रिते हो चाल नहीं हो सकते",
+      "segment_text": "lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala lera",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -323,7 +300,7 @@
       "start": 325.66,
       "end": 327.86,
       "probability": 0.368,
-      "segment_text": "लेकिन हमरे भी तुमरे राइते रिते हो चाल नहीं हो सकते",
+      "segment_text": "lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala lera",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -331,79 +308,7 @@
       "start": 328.52,
       "end": 328.68,
       "probability": 0.2638,
-      "segment_text": "लेकिन हमरे भी तुमरे राइते रिते हो चाल नहीं हो सकते",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "कि",
-      "start": 329.14,
-      "end": 329.22,
-      "probability": 0.2027,
-      "segment_text": "कि ओं या हो हुई कर दो",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "ओं",
-      "start": 329.22,
-      "end": 329.38,
-      "probability": 0.2236,
-      "segment_text": "कि ओं या हो हुई कर दो",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "या",
-      "start": 329.38,
-      "end": 330.5,
-      "probability": 0.3214,
-      "segment_text": "कि ओं या हो हुई कर दो",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "हो",
-      "start": 330.5,
-      "end": 332.52,
-      "probability": 0.0249,
-      "segment_text": "कि ओं या हो हुई कर दो",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "कर",
-      "start": 335.28,
-      "end": 337.6,
-      "probability": 0.0571,
-      "segment_text": "कि ओं या हो हुई कर दो",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "भी",
-      "start": 345.92,
-      "end": 346.76,
-      "probability": 0.3666,
-      "segment_text": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "तो",
-      "start": 346.76,
-      "end": 346.76,
-      "probability": 0.3204,
-      "segment_text": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "निस्कर",
-      "start": 347.44,
-      "end": 348.4,
-      "probability": 0.3158,
-      "segment_text": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है",
-      "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
-    },
-    {
-      "word": "है",
-      "start": 351.06,
-      "end": 351.22,
-      "probability": 0.3336,
-      "segment_text": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है",
+      "segment_text": "lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala lera",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -421,7 +326,7 @@
       "gender_form": "m_sg",
       "start": 37.4,
       "end": 37.6,
-      "segment_text": "अब ये क्या कर रहा है",
+      "segment_text": "chair, big and small",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -438,14 +343,6 @@
       "start": 40.95,
       "end": 41.17,
       "segment_text": "खना खा रहा है, रोटी खा रहा है",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "रहा",
-      "gender_form": "m_sg",
-      "start": 44.66,
-      "end": 44.84,
-      "segment_text": "और ये क्या कर रहा है",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -469,7 +366,7 @@
       "gender_form": "f_sg",
       "start": 55.74,
       "end": 56.26,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -477,7 +374,7 @@
       "gender_form": "m_sg",
       "start": 66.26,
       "end": 66.7,
-      "segment_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -485,23 +382,7 @@
       "gender_form": "m_sg",
       "start": 81.39,
       "end": 81.77,
-      "segment_text": "एक पचक है छह कूंठ थे फैन भी तूटा है गृद्धू ऑल्ड विंद्व है और कुट गया ग्रास टूटा है",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हुए",
-      "gender_form": "m_pl",
-      "start": 94.82,
-      "end": 95.0,
-      "segment_text": "कि आपको यहां काम करते हुए सबसे मुश्किल दिन काम करते तो कितने साल हो गए और क्या मुश्किल आती है",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "गए",
-      "gender_form": "m_pl",
-      "start": 99.7,
-      "end": 99.8,
-      "segment_text": "कि आपको यहां काम करते हुए सबसे मुश्किल दिन काम करते तो कितने साल हो गए और क्या मुश्किल आती है",
+      "segment_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -509,7 +390,7 @@
       "gender_form": "m_pl",
       "start": 111.16,
       "end": 111.3,
-      "segment_text": "सब तुम कोई ऑफिस का असम होता होगा । क्योंकि आपके लिए बहुत मुश्किल होता होगा । क्या-क्या परेशानी",
+      "segment_text": "mushkil kuch nahi hai sab theek hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -517,7 +398,7 @@
       "gender_form": "m_sg",
       "start": 127.5,
       "end": 127.74,
-      "segment_text": "आती हो नहीं हो जो भी काम आता है हम अब से बहुत सारा लूट ज्यादा हुआ था ।",
+      "segment_text": "kabhi aisa situation nahi hua jo bhi kaam ata hai hum log karta hai, allotment ka sab kyuki kaam ka load zyada hota hai kyuki time",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -525,7 +406,7 @@
       "gender_form": "m_sg",
       "start": 138.58,
       "end": 138.82,
-      "segment_text": "नहीं जैसे आपका टाइम थोड़ा फ्री हो गया उस टाइम मुश्किल होता होगा थोड़ा सा थोड़ा घर का प्रॉब्लम होता",
+      "segment_text": "thoda ghar ka problem hota hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -533,7 +414,7 @@
       "gender_form": "f_sg",
       "start": 148.04,
       "end": 148.8,
-      "segment_text": "है ख़ला होना पकाना यह सुगह 7 बजे से रात 10 बजे तरह आप नॉर्मली कितने तरह पर काम करते हैं तो सुगह आप",
+      "segment_text": "khana wana pakana yaha subha saat baje se raat 10 baje tak allotment ka samay\ndata collectir: aap normally kitne ghante kaam karte ho\n8 ghanta hum log-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -541,7 +422,7 @@
       "gender_form": "m_sg",
       "start": 166.12,
       "end": 166.64,
-      "segment_text": "हम लोगों से कब आते हो कब जाते हैं 8 गंटा अभी छह से दो गजे तक तो जाते जाते हैं टू ठट्टी हो जाए राफ्ट टर्न है और रिबेनिंग होने से दो गजे से दस बच्चे और घर पर आपके खाना कौन मिलाता है कि आप अपनी फामिली के बारे में आप कुछ बत",
+      "segment_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -549,7 +430,7 @@
       "gender_form": "f_sg",
       "start": 169.16,
       "end": 169.58,
-      "segment_text": "हम लोगों से कब आते हो कब जाते हैं 8 गंटा अभी छह से दो गजे तक तो जाते जाते हैं टू ठट्टी हो जाए राफ्ट टर्न है और रिबेनिंग होने से दो गजे से दस बच्चे और घर पर आपके खाना कौन मिलाता है कि आप अपनी फामिली के बारे में आप कुछ बत",
+      "segment_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -557,7 +438,7 @@
       "gender_form": "f_sg",
       "start": 199.46,
       "end": 200.5,
-      "segment_text": "तभी आप अखेले रहते हो घर पर अखेले रहते हो आप चोटा लड़का अच्छा रहता है और आप कहां से हो ओरिजिनली खड़ापुर में जनन हुआ",
+      "segment_text": "just start kiya hai abhi (in regards to fish farm) (collector: toh aap gharpe akele rehte ho?) nahi chota ladka hai bada toh bengal mein hai (collector: aur aap kaha se ho originally) kharagpur mein hi janam hua eh campus mein auer-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -565,7 +446,7 @@
       "gender_form": "m_sg",
       "start": 201.64,
       "end": 202.14,
-      "segment_text": "तभी आप अखेले रहते हो घर पर अखेले रहते हो आप चोटा लड़का अच्छा रहता है और आप कहां से हो ओरिजिनली खड़ापुर में जनन हुआ",
+      "segment_text": "just start kiya hai abhi (in regards to fish farm) (collector: toh aap gharpe akele rehte ho?) nahi chota ladka hai bada toh bengal mein hai (collector: aur aap kaha se ho originally) kharagpur mein hi janam hua eh campus mein auer-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -597,7 +478,7 @@
       "gender_form": "f_sg",
       "start": 302.56,
       "end": 303.26,
-      "segment_text": "शर्ष्कील हिंदी",
+      "segment_text": "sanshkrit hindi",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -615,22 +496,6 @@
       "end": 323.18,
       "segment_text": "लेकिन बोलने से थोड़ा तत्लीप होता है",
       "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हुई",
-      "gender_form": "f_sg",
-      "start": 332.52,
-      "end": 335.28,
-      "segment_text": "कि ओं या हो हुई कर दो",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "वाकिया",
-      "gender_form": "m_sg",
-      "start": 349.28,
-      "end": 350.02,
-      "segment_text": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है",
-      "note": "Agreement site — verify gender matches subject/object"
     }
   ],
   "adjective_noun_pairs": [
@@ -640,7 +505,7 @@
       "alternate_form": "अच्छी",
       "start": 193.83,
       "end": 194.51,
-      "segment_text": "तभी आप अखेले रहते हो घर पर अखेले रहते हो आप चोटा लड़का अच्छा रहता है और आप कहां से हो ओरिजिनली खड़ापुर में जनन हुआ",
+      "segment_text": "just start kiya hai abhi (in regards to fish farm) (collector: toh aap gharpe akele rehte ho?) nahi chota ladka hai bada toh bengal mein hai (collector: aur aap kaha se ho originally) kharagpur mein hi janam hua eh campus mein auer-",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     },
     {
@@ -649,7 +514,7 @@
       "alternate_form": "बड़ी",
       "start": 247.0,
       "end": 248.18,
-      "segment_text": "था बड़ा बड़ा ठीक है तो एक तो बेंगुली सिखते हैं और दूसरा कौन सा दूसरी इंग्लिश ने",
+      "segment_text": "bengali toh hai, main toh bengali medium ka student hai hum",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     },
     {
@@ -658,22 +523,47 @@
       "alternate_form": "बड़ी",
       "start": 248.18,
       "end": 248.64,
-      "segment_text": "था बड़ा बड़ा ठीक है तो एक तो बेंगुली सिखते हैं और दूसरा कौन सा दूसरी इंग्लिश ने",
+      "segment_text": "bengali toh hai, main toh bengali medium ka student hai hum",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     }
   ],
   "ne_occurrences": [],
+  "verified_gender_errors": [
+    {
+      "pattern": "chair tut gaya",
+      "expected": "chair tut gayi",
+      "noun": "chair/kursi",
+      "noun_gender": "F",
+      "error": "masculine_default_on_feminine",
+      "start": 67.68,
+      "end": 83.77,
+      "segment_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai"
+    }
+  ],
+  "verified_bengali_words": [
+    {
+      "word": "bengali",
+      "start": 246.82,
+      "end": 259.63,
+      "segment_text": "bengali toh hai, main toh bengali medium ka student hai hum"
+    }
+  ],
   "summary": {
-    "total_words": 400,
+    "total_words": 352,
     "total_segments": 27,
     "duration_s": 370.95,
-    "low_confidence_segments": 7,
-    "low_confidence_words": 97,
-    "candidate_bengali_words": 44,
+    "low_confidence_segments": 5,
+    "low_confidence_words": 78,
+    "candidate_bengali_words": 34,
     "candidate_switch_points": 4,
-    "past_tense_verbs_found": 27,
+    "past_tense_verbs_found": 22,
     "adjective_noun_pairs_found": 3,
     "ne_occurrences": 0,
-    "note": "All counts are from UNVERIFIED Whisper output. Actual counts will differ after human verification — likely more Bengali words (Whisper converts them to Hindi) and more agreement errors (Whisper corrects them)."
+    "verified_gender_errors": 1,
+    "verified_bengali_unique": 1,
+    "verified_bengali_total": 1,
+    "collector_segments_skipped": 2,
+    "noise_segments_skipped": 3,
+    "note": "Uses human-corrected text. Collector speech and noise segments excluded. Gender errors and Bengali words from human annotations."
   }
 }

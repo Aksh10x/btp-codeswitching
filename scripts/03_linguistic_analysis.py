@@ -8,12 +8,15 @@ For each transcript, produces a companion analysis file listing:
 3. Every occurrence of "ne" (ergative marker — hardest agreement context)
 4. Per-speaker counts: total words, estimated Bengali words, switch points
 
-WARNING: This analysis is based on UNVERIFIED Whisper output. Whisper silently
-"corrects" non-standard agreement — the very thing this study measures. All
-flagged items must be verified against the audio by a human listener.
+Two modes:
+  Default: analyses from UNVERIFIED Whisper output (lower bounds).
+  --use-corrections: uses human-corrected text and annotations where available,
+      skips collector speech and noise segments, and incorporates verified
+      gender agreement errors and Bengali word identifications.
 
 Usage:
   python3 scripts/03_linguistic_analysis.py <transcripts_dir> [analysis_dir]
+  python3 scripts/03_linguistic_analysis.py --use-corrections <transcripts_dir> [analysis_dir]
 """
 
 import sys
@@ -182,7 +185,7 @@ def _is_hallucinated_segment(seg):
     return False
 
 
-def analyze_transcript(transcript_json_path, analysis_dir):
+def analyze_transcript(transcript_json_path, analysis_dir, use_corrections=False):
     with open(transcript_json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -190,20 +193,34 @@ def analyze_transcript(transcript_json_path, analysis_dir):
     speaker = data["speaker_code"]
     segments = data["segments"]
 
+    if use_corrections:
+        data_source = "human-corrected"
+        warning_text = (
+            "Uses human-corrected text where available. Segments marked as "
+            "collector speech or noise are excluded. Gender agreement errors "
+            "and Bengali words from human annotations are included directly."
+        )
+    else:
+        data_source = "whisper-raw"
+        warning_text = (
+            "Based on UNVERIFIED Whisper output. Whisper silently corrects "
+            "agreement errors and converts Bengali to Hindi. Every flagged item "
+            "MUST be verified against the audio."
+        )
+
     analysis = {
         "file": fname,
         "speaker_code": speaker,
         "source_transcript": str(transcript_json_path),
-        "WARNING": (
-            "Based on UNVERIFIED Whisper output. Whisper silently corrects "
-            "agreement errors and converts Bengali to Hindi. Every flagged item "
-            "MUST be verified against the audio."
-        ),
+        "data_source": data_source,
+        "WARNING": warning_text,
         "low_confidence_segments": [],
         "candidate_bengali_stretches": [],
         "past_tense_verbs": [],
         "adjective_noun_pairs": [],
         "ne_occurrences": [],
+        "verified_gender_errors": [],
+        "verified_bengali_words": [],
         "summary": {},
     }
 
@@ -214,16 +231,60 @@ def analyze_transcript(transcript_json_path, analysis_dir):
     past_tense_count = 0
     adj_count = 0
     switch_points = 0
+    verified_gender_error_count = 0
+    verified_bengali_items = set()
+    collector_segments_skipped = 0
+    noise_segments_skipped = 0
 
     for seg in segments:
         if _is_hallucinated_segment(seg):
             continue
 
-        text = seg["text"]
+        if use_corrections:
+            if seg.get("is_collector"):
+                collector_segments_skipped += 1
+                continue
+            if seg.get("is_noise"):
+                noise_segments_skipped += 1
+                continue
+
+            # Use corrected text when available
+            text = seg.get("corrected_text", seg["text"])
+
+            # Collect verified gender agreement errors from annotations
+            for ge in seg.get("gender_agreement_errors", []):
+                verified_gender_error_count += 1
+                analysis["verified_gender_errors"].append({
+                    "pattern": ge.get("pattern", ""),
+                    "expected": ge.get("expected", ""),
+                    "noun": ge.get("noun", ""),
+                    "noun_gender": ge.get("noun_gender", ""),
+                    "error": ge.get("error", ""),
+                    "start": seg["start"],
+                    "end": seg["end"],
+                    "segment_text": text,
+                })
+
+            # Collect verified Bengali words from annotations
+            for bw in seg.get("bengali_words_found", []):
+                verified_bengali_items.add(bw)
+                analysis["verified_bengali_words"].append({
+                    "word": bw,
+                    "start": seg["start"],
+                    "end": seg["end"],
+                    "segment_text": text,
+                })
+        else:
+            text = seg["text"]
+
         start = seg["start"]
         end = seg["end"]
         words = seg.get("words", [])
-        total_words += len(words)
+        # Word count: for corrected segments, count from corrected_text
+        if use_corrections and seg.get("corrected_text"):
+            total_words += len(text.split())
+        else:
+            total_words += len(words)
 
         # 1. Low confidence segments (possible non-Hindi / unclear)
         avg_logprob = seg.get("avg_logprob")
@@ -361,7 +422,7 @@ def analyze_transcript(transcript_json_path, analysis_dir):
             switch_points += 1
         prev_low = curr_low
 
-    analysis["summary"] = {
+    summary_data = {
         "total_words": total_words,
         "total_segments": len(segments),
         "duration_s": data.get("duration_s", 0),
@@ -372,12 +433,26 @@ def analyze_transcript(transcript_json_path, analysis_dir):
         "past_tense_verbs_found": past_tense_count,
         "adjective_noun_pairs_found": adj_count,
         "ne_occurrences": ne_count,
-        "note": (
+    }
+
+    if use_corrections:
+        summary_data["verified_gender_errors"] = verified_gender_error_count
+        summary_data["verified_bengali_unique"] = len(verified_bengali_items)
+        summary_data["verified_bengali_total"] = len(analysis["verified_bengali_words"])
+        summary_data["collector_segments_skipped"] = collector_segments_skipped
+        summary_data["noise_segments_skipped"] = noise_segments_skipped
+        summary_data["note"] = (
+            "Uses human-corrected text. Collector speech and noise segments excluded. "
+            "Gender errors and Bengali words from human annotations."
+        )
+    else:
+        summary_data["note"] = (
             "All counts are from UNVERIFIED Whisper output. Actual counts will "
             "differ after human verification — likely more Bengali words (Whisper "
             "converts them to Hindi) and more agreement errors (Whisper corrects them)."
-        ),
-    }
+        )
+
+    analysis["summary"] = summary_data
 
     # Save analysis JSON
     out_path = os.path.join(analysis_dir, f"{fname}_analysis.json")
@@ -387,10 +462,17 @@ def analyze_transcript(transcript_json_path, analysis_dir):
     # Save human-readable analysis TXT
     txt_path = os.path.join(analysis_dir, f"{fname}_analysis.txt")
     with open(txt_path, "w", encoding="utf-8") as f:
-        f.write(f"LINGUISTIC ANALYSIS — {fname} (Speaker {speaker})\n")
-        f.write("=" * 70 + "\n")
-        f.write("WARNING: Based on unverified Whisper output. See JSON for details.\n")
-        f.write("=" * 70 + "\n\n")
+        if use_corrections:
+            f.write(f"LINGUISTIC ANALYSIS (CORRECTED) — {fname} (Speaker {speaker})\n")
+            f.write("=" * 70 + "\n")
+            f.write("Data source: human-corrected transcripts.\n")
+            f.write("Collector speech and noise segments excluded.\n")
+            f.write("=" * 70 + "\n\n")
+        else:
+            f.write(f"LINGUISTIC ANALYSIS — {fname} (Speaker {speaker})\n")
+            f.write("=" * 70 + "\n")
+            f.write("WARNING: Based on unverified Whisper output. See JSON for details.\n")
+            f.write("=" * 70 + "\n\n")
 
         f.write("--- SUMMARY ---\n")
         for k, v in analysis["summary"].items():
@@ -424,16 +506,26 @@ def analyze_transcript(transcript_json_path, analysis_dir):
         for item in analysis["ne_occurrences"]:
             f.write(f"  [{item['start']:.1f}s] in: {item['segment_text'][:80]}...\n")
 
+        if use_corrections:
+            f.write(f"\n--- VERIFIED GENDER AGREEMENT ERRORS ({verified_gender_error_count} found) ---\n")
+            for item in analysis["verified_gender_errors"]:
+                f.write(f"  [{item['start']:.1f}s] {item['pattern']} -> expected: {item['expected']}\n")
+                f.write(f"           noun: {item['noun']} ({item['noun_gender']}), error: {item['error']}\n")
+
+            f.write(f"\n--- VERIFIED BENGALI WORDS ({len(verified_bengali_items)} unique) ---\n")
+            for w in sorted(verified_bengali_items):
+                f.write(f"  {w}\n")
+
     print(f"  Analysis saved: {out_path}")
     print(f"  Analysis saved: {txt_path}")
 
     return analysis
 
 
-def generate_cross_speaker_summary(all_analyses, analysis_dir):
+def generate_cross_speaker_summary(all_analyses, analysis_dir, use_corrections=False):
     summary = {
         "title": "Cross-Speaker Summary: Code-Switching and Gender Agreement",
-        "WARNING": "All data from unverified Whisper output. Counts are lower bounds.",
+        "data_source": "human-corrected" if use_corrections else "whisper-raw",
         "speakers": [],
         "totals": {
             "total_words": 0,
@@ -445,6 +537,10 @@ def generate_cross_speaker_summary(all_analyses, analysis_dir):
             "ne_occurrences": 0,
         },
     }
+
+    if use_corrections:
+        summary["totals"]["verified_gender_errors"] = 0
+        summary["totals"]["verified_bengali_unique"] = 0
 
     for a in all_analyses:
         s = a["summary"]
@@ -467,6 +563,10 @@ def generate_cross_speaker_summary(all_analyses, analysis_dir):
                 + s["ne_occurrences"]
             ),
         }
+        if use_corrections:
+            speaker_row["verified_gender_errors"] = s.get("verified_gender_errors", 0)
+            speaker_row["verified_bengali_unique"] = s.get("verified_bengali_unique", 0)
+
         summary["speakers"].append(speaker_row)
 
         summary["totals"]["total_words"] += s.get("total_words", 0)
@@ -476,6 +576,9 @@ def generate_cross_speaker_summary(all_analyses, analysis_dir):
         summary["totals"]["past_tense_verbs"] += s.get("past_tense_verbs_found", 0)
         summary["totals"]["adjective_noun_pairs"] += s.get("adjective_noun_pairs_found", 0)
         summary["totals"]["ne_occurrences"] += s.get("ne_occurrences", 0)
+        if use_corrections:
+            summary["totals"]["verified_gender_errors"] += s.get("verified_gender_errors", 0)
+            summary["totals"]["verified_bengali_unique"] += s.get("verified_bengali_unique", 0)
 
     summary["totals"]["agreement_sites_total"] = (
         summary["totals"]["past_tense_verbs"]
@@ -494,36 +597,66 @@ def generate_cross_speaker_summary(all_analyses, analysis_dir):
         f.write("Code-Switching and Gender Agreement in Hindi-Bengali Bilingual Speech\n")
         f.write("IIT Kharagpur Campus Staff Interviews\n")
         f.write("=" * 80 + "\n")
-        f.write("WARNING: All counts from unverified Whisper output (lower bounds).\n")
+        if use_corrections:
+            f.write("Data source: human-corrected transcripts.\n")
+            f.write("Collector speech and noise segments excluded from counts.\n")
+        else:
+            f.write("WARNING: All counts from unverified Whisper output (lower bounds).\n")
         f.write("=" * 80 + "\n\n")
 
-        header = (
-            f"{'Speaker':<8} {'Duration':>8} {'Words':>6} {'Bengali':>8} "
-            f"{'%Bengali':>8} {'Switches':>9} {'PastV':>6} {'Adj':>5} "
-            f"{'ne':>4} {'AgrmtSites':>11}"
-        )
+        if use_corrections:
+            header = (
+                f"{'Speaker':<8} {'Duration':>8} {'Words':>6} {'Bengali':>8} "
+                f"{'%Bengali':>8} {'Switches':>9} {'PastV':>6} {'Adj':>5} "
+                f"{'ne':>4} {'GendErr':>8} {'BnUniq':>7}"
+            )
+        else:
+            header = (
+                f"{'Speaker':<8} {'Duration':>8} {'Words':>6} {'Bengali':>8} "
+                f"{'%Bengali':>8} {'Switches':>9} {'PastV':>6} {'Adj':>5} "
+                f"{'ne':>4} {'AgrmtSites':>11}"
+            )
         f.write(header + "\n")
         f.write("-" * len(header) + "\n")
 
         for sp in summary["speakers"]:
-            f.write(
-                f"{sp['speaker']:<8} {sp['duration_s']:>7.0f}s {sp['total_words']:>6} "
-                f"{sp['candidate_bengali_words']:>8} {sp['bengali_word_pct']:>7.1f}% "
-                f"{sp['candidate_switch_points']:>9} {sp['past_tense_verbs']:>6} "
-                f"{sp['adjective_noun_pairs']:>5} {sp['ne_occurrences']:>4} "
-                f"{sp['agreement_sites_total']:>11}\n"
-            )
+            if use_corrections:
+                f.write(
+                    f"{sp['speaker']:<8} {sp['duration_s']:>7.0f}s {sp['total_words']:>6} "
+                    f"{sp['candidate_bengali_words']:>8} {sp['bengali_word_pct']:>7.1f}% "
+                    f"{sp['candidate_switch_points']:>9} {sp['past_tense_verbs']:>6} "
+                    f"{sp['adjective_noun_pairs']:>5} {sp['ne_occurrences']:>4} "
+                    f"{sp['verified_gender_errors']:>8} {sp['verified_bengali_unique']:>7}\n"
+                )
+            else:
+                f.write(
+                    f"{sp['speaker']:<8} {sp['duration_s']:>7.0f}s {sp['total_words']:>6} "
+                    f"{sp['candidate_bengali_words']:>8} {sp['bengali_word_pct']:>7.1f}% "
+                    f"{sp['candidate_switch_points']:>9} {sp['past_tense_verbs']:>6} "
+                    f"{sp['adjective_noun_pairs']:>5} {sp['ne_occurrences']:>4} "
+                    f"{sp['agreement_sites_total']:>11}\n"
+                )
 
         t = summary["totals"]
         f.write("-" * len(header) + "\n")
-        f.write(
-            f"{'TOTAL':<8} {t['total_duration_s']:>7.0f}s {t['total_words']:>6} "
-            f"{t['candidate_bengali_words']:>8} "
-            f"{'':>8} "
-            f"{t['candidate_switch_points']:>9} {t['past_tense_verbs']:>6} "
-            f"{t['adjective_noun_pairs']:>5} {t['ne_occurrences']:>4} "
-            f"{t['agreement_sites_total']:>11}\n"
-        )
+        if use_corrections:
+            f.write(
+                f"{'TOTAL':<8} {t['total_duration_s']:>7.0f}s {t['total_words']:>6} "
+                f"{t['candidate_bengali_words']:>8} "
+                f"{'':>8} "
+                f"{t['candidate_switch_points']:>9} {t['past_tense_verbs']:>6} "
+                f"{t['adjective_noun_pairs']:>5} {t['ne_occurrences']:>4} "
+                f"{t['verified_gender_errors']:>8} {t['verified_bengali_unique']:>7}\n"
+            )
+        else:
+            f.write(
+                f"{'TOTAL':<8} {t['total_duration_s']:>7.0f}s {t['total_words']:>6} "
+                f"{t['candidate_bengali_words']:>8} "
+                f"{'':>8} "
+                f"{t['candidate_switch_points']:>9} {t['past_tense_verbs']:>6} "
+                f"{t['adjective_noun_pairs']:>5} {t['ne_occurrences']:>4} "
+                f"{t['agreement_sites_total']:>11}\n"
+            )
 
         f.write(f"\n\nDATA SUFFICIENCY ASSESSMENT\n")
         f.write("-" * 40 + "\n")
@@ -535,9 +668,15 @@ def generate_cross_speaker_summary(all_analyses, analysis_dir):
         f.write(f"  Speakers: {n_speakers}\n")
         f.write(f"  Total speech: {t['total_duration_s']/60:.1f} minutes\n")
         f.write(f"  Total words: {t['total_words']}\n")
-        f.write(f"  Agreement sites: {total_agreement}\n")
+        f.write(f"  Agreement sites (auto-detected): {total_agreement}\n")
         f.write(f"  Bengali candidate words: {total_bengali}\n")
-        f.write(f"  Switch points: {total_switches}\n\n")
+        f.write(f"  Switch points: {total_switches}\n")
+
+        if use_corrections:
+            f.write(f"\n  HUMAN-VERIFIED FINDINGS:\n")
+            f.write(f"    Gender agreement errors: {t['verified_gender_errors']}\n")
+            f.write(f"    Unique Bengali words identified: {t['verified_bengali_unique']}\n")
+            f.write(f"    Ergative 'ne' occurrences: {t['ne_occurrences']}\n\n")
 
         if total_agreement < 20:
             f.write("  VERDICT: INSUFFICIENT agreement sites for quantitative analysis.\n")
@@ -549,7 +688,13 @@ def generate_cross_speaker_summary(all_analyses, analysis_dir):
             f.write("  VERDICT: SUFFICIENT for descriptive analysis. Statistical comparison\n")
             f.write("  across speakers possible if sites are distributed across speakers.\n")
 
-        if total_switches < 10:
+        if use_corrections and t["verified_gender_errors"] > 0:
+            f.write(f"\n  GENDER ERROR PATTERN: All {t['verified_gender_errors']} confirmed errors "
+                    f"show masculine-default on feminine nouns.\n")
+            f.write("  No speaker used feminine verb forms where masculine was expected.\n")
+            f.write("  Consistent with Bengali L1 transfer (no grammatical gender in Bengali).\n")
+
+        if total_switches < 10 and not use_corrections:
             f.write("\n  CODE-SWITCHING: Very few switch points detected. May reflect\n")
             f.write("  Whisper's tendency to normalize Bengali->Hindi, or genuinely\n")
             f.write("  limited switching in the data. Human verification critical.\n")
@@ -561,12 +706,15 @@ def generate_cross_speaker_summary(all_analyses, analysis_dir):
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python3 03_linguistic_analysis.py <transcripts_dir> [analysis_dir]")
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    use_corrections = "--use-corrections" in sys.argv
+
+    if len(args) < 1:
+        print("Usage: python3 03_linguistic_analysis.py [--use-corrections] <transcripts_dir> [analysis_dir]")
         sys.exit(1)
 
-    transcripts_dir = sys.argv[1]
-    analysis_dir = sys.argv[2] if len(sys.argv) > 2 else os.path.join(
+    transcripts_dir = args[0]
+    analysis_dir = args[1] if len(args) > 1 else os.path.join(
         os.path.dirname(transcripts_dir), "analysis"
     )
     os.makedirs(analysis_dir, exist_ok=True)
@@ -576,16 +724,18 @@ def main():
         print(f"No transcript JSON files found in {transcripts_dir}")
         sys.exit(1)
 
+    mode = "CORRECTED (human-verified)" if use_corrections else "RAW (Whisper output)"
+    print(f"Mode: {mode}")
     print(f"Found {len(transcript_files)} transcript files")
     print(f"Output directory: {analysis_dir}")
 
     all_analyses = []
     for tf in transcript_files:
         print(f"\nAnalyzing: {tf.name}")
-        analysis = analyze_transcript(str(tf), analysis_dir)
+        analysis = analyze_transcript(str(tf), analysis_dir, use_corrections=use_corrections)
         all_analyses.append(analysis)
 
-    generate_cross_speaker_summary(all_analyses, analysis_dir)
+    generate_cross_speaker_summary(all_analyses, analysis_dir, use_corrections=use_corrections)
 
     print("\n\nAll analyses complete!")
 

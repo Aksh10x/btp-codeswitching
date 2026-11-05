@@ -2,12 +2,13 @@
   "file": "S1_IMG_6648",
   "speaker_code": "S1",
   "source_transcript": "transcripts/S1_IMG_6648_transcript.json",
-  "WARNING": "Based on UNVERIFIED Whisper output. Whisper silently corrects agreement errors and converts Bengali to Hindi. Every flagged item MUST be verified against the audio.",
+  "data_source": "human-corrected",
+  "WARNING": "Uses human-corrected text where available. Segments marked as collector speech or noise are excluded. Gender agreement errors and Bengali words from human annotations are included directly.",
   "low_confidence_segments": [
     {
       "start": 15.77,
       "end": 34.74,
-      "text": "बेंगोली बेंगोली लैंग्वेज कि सिंह � iTool लोगों को छोड़े से 9 युवी दूर और घर पंक्क",
+      "text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "avg_logprob": -1.3771,
       "no_speech_prob": 0.2113,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -19,7 +20,7 @@
       "start": 20.22,
       "end": 20.6,
       "probability": 0.1213,
-      "segment_text": "बेंगोली बेंगोली लैंग्वेज कि सिंह � iTool लोगों को छोड़े से 9 युवी दूर और घर पंक्क",
+      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -27,7 +28,7 @@
       "start": 20.6,
       "end": 21.56,
       "probability": 0.1308,
-      "segment_text": "बेंगोली बेंगोली लैंग्वेज कि सिंह � iTool लोगों को छोड़े से 9 युवी दूर और घर पंक्क",
+      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -35,7 +36,7 @@
       "start": 24.5,
       "end": 24.74,
       "probability": 0.0013,
-      "segment_text": "बेंगोली बेंगोली लैंग्वेज कि सिंह � iTool लोगों को छोड़े से 9 युवी दूर और घर पंक्क",
+      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -43,7 +44,7 @@
       "start": 24.74,
       "end": 25.7,
       "probability": 0.306,
-      "segment_text": "बेंगोली बेंगोली लैंग्वेज कि सिंह � iTool लोगों को छोड़े से 9 युवी दूर और घर पंक्क",
+      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -51,7 +52,7 @@
       "start": 25.7,
       "end": 26.9,
       "probability": 0.2099,
-      "segment_text": "बेंगोली बेंगोली लैंग्वेज कि सिंह � iTool लोगों को छोड़े से 9 युवी दूर और घर पंक्क",
+      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -59,7 +60,7 @@
       "start": 31.32,
       "end": 34.74,
       "probability": 0.3112,
-      "segment_text": "बेंगोली बेंगोली लैंग्वेज कि सिंह � iTool लोगों को छोड़े से 9 युवी दूर और घर पंक्क",
+      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -67,7 +68,7 @@
       "start": 37.24,
       "end": 38.0,
       "probability": 0.2944,
-      "segment_text": "बोलते होंगे गर्पिन भी भी बोलते विक्री तो हिंदी आप तो स्टूडेंट के साथ और ऐसे बोलते हो इसकी तरह तक पड़े कि हिंदी कब तक पड़े फिर आप सूल",
+      "segment_text": "nahi bilkul nahi, students ke saath (data collector: kaha tak padhe ho dada?) hum graduate hai, bcom (data collectir: hindi kab tak padhe aap) hum 2 year padha tha 7 8 hum log ka 7 8 tak tha (data collector: aur koi language use karte ho?) english tha thoda sa",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -75,33 +76,17 @@
       "start": 44.25,
       "end": 45.89,
       "probability": 0.2551,
-      "segment_text": "बोलते होंगे गर्पिन भी भी बोलते विक्री तो हिंदी आप तो स्टूडेंट के साथ और ऐसे बोलते हो इसकी तरह तक पड़े कि हिंदी कब तक पड़े फिर आप सूल",
+      "segment_text": "nahi bilkul nahi, students ke saath (data collector: kaha tak padhe ho dada?) hum graduate hai, bcom (data collectir: hindi kab tak padhe aap) hum 2 year padha tha 7 8 hum log ka 7 8 tak tha (data collector: aur koi language use karte ho?) english tha thoda sa",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     }
   ],
   "past_tense_verbs": [
     {
-      "verb": "रहे",
-      "gender_form": "m_pl",
-      "start": 7.0,
-      "end": 7.02,
-      "segment_text": "अच्छा खड़गपुर से हो बच्पन से यहीं पर रह रह रहे हो",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
-      "verb": "हुआ",
-      "gender_form": "m_sg",
-      "start": 9.86,
-      "end": 10.1,
-      "segment_text": "अच्छा यहीं पर जन्म हुआ आपका",
-      "note": "Agreement site — verify gender matches subject/object"
-    },
-    {
       "verb": "बेंगोली",
       "gender_form": "f_sg",
       "start": 15.77,
       "end": 17.79,
-      "segment_text": "बेंगोली बेंगोली लैंग्वेज कि सिंह � iTool लोगों को छोड़े से 9 युवी दूर और घर पंक्क",
+      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -109,7 +94,7 @@
       "gender_form": "f_sg",
       "start": 17.79,
       "end": 19.37,
-      "segment_text": "बेंगोली बेंगोली लैंग्वेज कि सिंह � iTool लोगों को छोड़े से 9 युवी दूर और घर पंक्क",
+      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -117,42 +102,37 @@
       "gender_form": "f_sg",
       "start": 41.46,
       "end": 42.12,
-      "segment_text": "बोलते होंगे गर्पिन भी भी बोलते विक्री तो हिंदी आप तो स्टूडेंट के साथ और ऐसे बोलते हो इसकी तरह तक पड़े कि हिंदी कब तक पड़े फिर आप सूल",
+      "segment_text": "nahi bilkul nahi, students ke saath (data collector: kaha tak padhe ho dada?) hum graduate hai, bcom (data collectir: hindi kab tak padhe aap) hum 2 year padha tha 7 8 hum log ka 7 8 tak tha (data collector: aur koi language use karte ho?) english tha thoda sa",
       "note": "Agreement site — verify gender matches subject/object"
     }
   ],
-  "adjective_noun_pairs": [
+  "adjective_noun_pairs": [],
+  "ne_occurrences": [],
+  "verified_gender_errors": [],
+  "verified_bengali_words": [
     {
-      "adjective": "अच्छा",
-      "gender_form": "m",
-      "alternate_form": "अच्छी",
-      "start": 4.54,
-      "end": 4.9,
-      "segment_text": "अच्छा खड़गपुर से हो बच्पन से यहीं पर रह रह रहे हो",
-      "note": "Check if adjective agrees with following noun's grammatical gender"
-    },
-    {
-      "adjective": "अच्छा",
-      "gender_form": "m",
-      "alternate_form": "अच्छी",
-      "start": 8.72,
-      "end": 9.02,
-      "segment_text": "अच्छा यहीं पर जन्म हुआ आपका",
-      "note": "Check if adjective agrees with following noun's grammatical gender"
+      "word": "bengali",
+      "start": 15.77,
+      "end": 34.74,
+      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi"
     }
   ],
-  "ne_occurrences": [],
   "summary": {
-    "total_words": 108,
+    "total_words": 120,
     "total_segments": 9,
     "duration_s": 76.67,
     "low_confidence_segments": 1,
     "low_confidence_words": 17,
     "candidate_bengali_words": 8,
     "candidate_switch_points": 2,
-    "past_tense_verbs_found": 5,
-    "adjective_noun_pairs_found": 2,
+    "past_tense_verbs_found": 3,
+    "adjective_noun_pairs_found": 0,
     "ne_occurrences": 0,
-    "note": "All counts are from UNVERIFIED Whisper output. Actual counts will differ after human verification — likely more Bengali words (Whisper converts them to Hindi) and more agreement errors (Whisper corrects them)."
+    "verified_gender_errors": 0,
+    "verified_bengali_unique": 1,
+    "verified_bengali_total": 1,
+    "collector_segments_skipped": 3,
+    "noise_segments_skipped": 0,
+    "note": "Uses human-corrected text. Collector speech and noise segments excluded. Gender errors and Bengali words from human annotations."
   }
 }

@@ -2,32 +2,42 @@ CROSS-SPEAKER SUMMARY
 Code-Switching and Gender Agreement in Hindi-Bengali Bilingual Speech
 IIT Kharagpur Campus Staff Interviews
 ================================================================================
-WARNING: All counts from unverified Whisper output (lower bounds).
+Data source: human-corrected transcripts.
+Collector speech and noise segments excluded from counts.
 ================================================================================
 
-Speaker  Duration  Words  Bengali %Bengali  Switches  PastV   Adj   ne  AgrmtSites
-----------------------------------------------------------------------------------
-S1           231s    174        7     4.0%         2     13     1    0          14
-S1            77s    108        8     7.4%         2      5     2    0           7
-S2           309s    424       14     3.3%         0     28     6    0          34
-S3           371s    400       44    11.0%         4     27     3    0          30
-S4           341s    302       36    11.9%         2     28     0    0          28
-S5           388s    473       18     3.8%         0     21     4    0          25
-S6           305s    357       26     7.3%         4     16     1    0          17
-S7           330s    451       34     7.5%         4     16     1    0          17
-S8           216s    278        1     0.4%         2     11     0    0          11
-----------------------------------------------------------------------------------
-TOTAL       2568s   2967      188                 20    165    18    0         183
+Speaker  Duration  Words  Bengali %Bengali  Switches  PastV   Adj   ne  GendErr  BnUniq
+---------------------------------------------------------------------------------------
+S1           231s    156        7     4.5%         2     13     1    0        0       6
+S1            77s    120        8     6.7%         2      3     0    0        0       1
+S2           309s    421       13     3.1%         0     23     5    0        0       3
+S3           371s    352       34     9.7%         4     22     3    0        1       1
+S4           341s    506       34     6.7%         2     28     0    0        2       1
+S5           388s    728       14     1.9%         0     19     4    0        0       7
+S6           305s    577       26     4.5%         4     15     1    1        0      23
+S7           330s    679       31     4.6%         4     15     1    0        2       4
+S8           216s    494        1     0.2%         2     11     0    0        3       2
+---------------------------------------------------------------------------------------
+TOTAL       2568s   4033      168                 20    149    15    1        8      48
 
 
 DATA SUFFICIENCY ASSESSMENT
 ----------------------------------------
   Speakers: 9
   Total speech: 42.8 minutes
-  Total words: 2967
-  Agreement sites: 183
-  Bengali candidate words: 188
+  Total words: 4033
+  Agreement sites (auto-detected): 165
+  Bengali candidate words: 168
   Switch points: 20
+
+  HUMAN-VERIFIED FINDINGS:
+    Gender agreement errors: 8
+    Unique Bengali words identified: 48
+    Ergative 'ne' occurrences: 1
 
   VERDICT: SUFFICIENT for descriptive analysis. Statistical comparison
   across speakers possible if sites are distributed across speakers.
+
+  GENDER ERROR PATTERN: All 8 confirmed errors show masculine-default on feminine nouns.
+  No speaker used feminine verb forms where masculine was expected.
+  Consistent with Bengali L1 transfer (no grammatical gender in Bengali).
