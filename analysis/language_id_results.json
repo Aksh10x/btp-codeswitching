@@ -1,0 +1,118 @@
+{
+  "per_speaker": [
+    {
+      "speaker": "S1",
+      "file": "S1_IMG_6647",
+      "gender": "M",
+      "total": 149,
+      "hindi": 139,
+      "bengali": 6,
+      "english": 4,
+      "bn_unique": 6,
+      "bn_pct": 4.0,
+      "en_pct": 2.7
+    },
+    {
+      "speaker": "S1",
+      "file": "S1_IMG_6648",
+      "gender": "M",
+      "total": 114,
+      "hindi": 104,
+      "bengali": 2,
+      "english": 8,
+      "bn_unique": 1,
+      "bn_pct": 1.8,
+      "en_pct": 7.0
+    },
+    {
+      "speaker": "S2",
+      "file": "S2_IMG_6650",
+      "gender": "F",
+      "total": 411,
+      "hindi": 392,
+      "bengali": 4,
+      "english": 15,
+      "bn_unique": 3,
+      "bn_pct": 1.0,
+      "en_pct": 3.6
+    },
+    {
+      "speaker": "S3",
+      "file": "S3_IMG_6651",
+      "gender": "F",
+      "total": 347,
+      "hindi": 312,
+      "bengali": 2,
+      "english": 33,
+      "bn_unique": 1,
+      "bn_pct": 0.6,
+      "en_pct": 9.5
+    },
+    {
+      "speaker": "S4",
+      "file": "S4_IMG_6652",
+      "gender": "F",
+      "total": 502,
+      "hindi": 467,
+      "bengali": 4,
+      "english": 31,
+      "bn_unique": 1,
+      "bn_pct": 0.8,
+      "en_pct": 6.2
+    },
+    {
+      "speaker": "S5",
+      "file": "S5_IMG_6654",
+      "gender": "M",
+      "total": 724,
+      "hindi": 698,
+      "bengali": 7,
+      "english": 19,
+      "bn_unique": 7,
+      "bn_pct": 1.0,
+      "en_pct": 2.6
+    },
+    {
+      "speaker": "S6",
+      "file": "S6_IMG_6660",
+      "gender": "M",
+      "total": 494,
+      "hindi": 442,
+      "bengali": 33,
+      "english": 19,
+      "bn_unique": 23,
+      "bn_pct": 6.7,
+      "en_pct": 3.8
+    },
+    {
+      "speaker": "S7",
+      "file": "S7_NewRecording7",
+      "gender": "M",
+      "total": 678,
+      "hindi": 622,
+      "bengali": 7,
+      "english": 49,
+      "bn_unique": 4,
+      "bn_pct": 1.0,
+      "en_pct": 7.2
+    },
+    {
+      "speaker": "S8",
+      "file": "S8_IMG_6664",
+      "gender": "F",
+      "total": 494,
+      "hindi": 451,
+      "bengali": 3,
+      "english": 40,
+      "bn_unique": 2,
+      "bn_pct": 0.6,
+      "en_pct": 8.1
+    }
+  ],
+  "totals": {
+    "total": 3913,
+    "hindi": 3627,
+    "bengali": 68,
+    "english": 218
+  }
+}
