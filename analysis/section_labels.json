@@ -1,0 +1,1226 @@
+{
+  "S1_IMG_6647_transcript.json": {
+    "file": "S1_IMG_6647",
+    "speaker_code": "S1",
+    "segments": [
+      {
+        "id": 2,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "s: yeh roti kha raha hai"
+      },
+      {
+        "id": 3,
+        "section": "C",
+        "section_name": "Object Agreement / Perfective",
+        "text_preview": "s: eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jo..."
+      },
+      {
+        "id": 4,
+        "section": "C",
+        "section_name": "Object Agreement / Perfective",
+        "text_preview": "s: mera cycle shop hai aar mera ek ladki ek ladka, dono study karta hai"
+      },
+      {
+        "id": 5,
+        "section": "C",
+        "section_name": "Object Agreement / Perfective",
+        "text_preview": "s: ladki service karta, mera aar ek toh shop hai"
+      },
+      {
+        "id": 6,
+        "section": "C",
+        "section_name": "Object Agreement / Perfective",
+        "text_preview": "s: pura puncture hawa repairing, sab repairing karta hu\nc: kitne baje aate ho su..."
+      },
+      {
+        "id": 7,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "c: koi din hota hoga jo bohot mushkil hota hoga toh kya reason se..."
+      },
+      {
+        "id": 8,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: pareshaani matlab kuch problem nahi rehta"
+      },
+      {
+        "id": 9,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "और कुछ आप अपने साइकल शॉप के बारे में बताना चाहूँ"
+      },
+      {
+        "id": 10,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: nahi nahi aar kuch nahi"
+      },
+      {
+        "id": 11,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "बात करते हैं आपसे काम को"
+      },
+      {
+        "id": 12,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: uncle bolta hai bhaiya bolta hai"
+      }
+    ],
+    "section_counts": {
+      "A": 1,
+      "B": 0,
+      "C": 4,
+      "D": 0,
+      "E": 6,
+      "F": 0
+    }
+  },
+  "S1_IMG_6648_transcript.json": {
+    "file": "S1_IMG_6648",
+    "speaker_code": "S1",
+    "segments": [
+      {
+        "id": 1,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "आपका कहां से हो आप? आपका गाउ कौन सा है?"
+      },
+      {
+        "id": 2,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: kharagpur ka hi hai"
+      },
+      {
+        "id": 3,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "अच्छा खड़गपुर से हो बच्पन से यहीं पर रह रह रहे हो"
+      },
+      {
+        "id": 5,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "अच्छा यहीं पर जन्म हुआ आपका"
+      },
+      {
+        "id": 6,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: mera pitaji service karta tha"
+      },
+      {
+        "id": 7,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "और आप हिंदी कब से बोलने लगे?"
+      },
+      {
+        "id": 8,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: hum thoda sa hi... bengali... mera bengali language hai... iska baad hum hind..."
+      },
+      {
+        "id": 9,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: nahi bilkul nahi, students ke saath\nc: kaha tak padhe ho dada?\ns: hum graduat..."
+      },
+      {
+        "id": 10,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "c: english kab tak padhe?\ns: padha toh bcom tak hi english\nc: bcom english based..."
+      }
+    ],
+    "section_counts": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "E": 6,
+      "F": 3
+    }
+  },
+  "S2_IMG_6650_transcript.json": {
+    "file": "S2_IMG_6650",
+    "speaker_code": "S2",
+    "segments": [
+      {
+        "id": 1,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "s: yeh house hai, windows hai, glass hai, chapatees, eh dinner kya bole, uhhh ky..."
+      },
+      {
+        "id": 2,
+        "section": "B",
+        "section_name": "Adjective Agreement",
+        "text_preview": "s: thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys\nc: ab in ..."
+      },
+      {
+        "id": 3,
+        "section": "C",
+        "section_name": "Object Agreement / Perfective",
+        "text_preview": "s: yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same\nc: yeh kya..."
+      },
+      {
+        "id": 4,
+        "section": "C",
+        "section_name": "Object Agreement / Perfective",
+        "text_preview": "c: close karke dekhe toh yeh kya kar raha hai?\ns: roti kha raha hai\nc: yeh kya k..."
+      },
+      {
+        "id": 5,
+        "section": "C",
+        "section_name": "Object Agreement / Perfective",
+        "text_preview": "पाखा भेंगे गाचे विंडियोस मैंने जानला होने पुरोनों यह किवाले कांच भेंगे पुड़े गाच..."
+      },
+      {
+        "id": 6,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "c: jaise aapko kuch puchungi toh normal aap usme hi jawaab dena, jaise students ..."
+      },
+      {
+        "id": 7,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "फिर भी थोड़ा थोड़ा इंग्लिज और थोड़ा भांग लावी आप सब लोगों के साथ मिल तरह ठीक है ..."
+      },
+      {
+        "id": 8,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "lekin woh telegu ka mujhko theek tarah se hota nahi hai lekin woh toh mujhko sam..."
+      },
+      {
+        "id": 9,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "c: students kaise lagte hai aapko?\ns: students acche lagte hai bohot, students a..."
+      },
+      {
+        "id": 10,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "जैसे मैं आपकी मतलब डेडी लाइफ के बारे में पूछूंगी तो आप सुबह से अभी तक आपने क्या ..."
+      },
+      {
+        "id": 11,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "सुबह से मैं घर.."
+      },
+      {
+        "id": 12,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "हाँ हाँ"
+      },
+      {
+        "id": 13,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "घर से लेके पूरा"
+      },
+      {
+        "id": 14,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "हाँ हाँ पूरा"
+      },
+      {
+        "id": 15,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "सुबह से मैं यह.."
+      },
+      {
+        "id": 16,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "बांगलाई बोरुदी"
+      },
+      {
+        "id": 17,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: ghum theke uthlam, ghum theke uthe ami amar pollam tarpore ache, ami breakfas..."
+      },
+      {
+        "id": 18,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "c: aapka home district, aapka janam kaha hua hai?\ns: amar janmo ache Durgapure, ..."
+      },
+      {
+        "id": 19,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: ami beshirbhag Bangla use kori"
+      },
+      {
+        "id": 20,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: hindi amar to subject-i chilo, toh ami oita thik emni [unclear Bengali]"
+      },
+      {
+        "id": 21,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "हिंदी बोली और शीखे हुँ छी और लिखते हुँ पाड़ी और पढ़ते हुँ पाड़ी तो आपने कितने सा..."
+      },
+      {
+        "id": 22,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: [unclear Bengali - possibly describing when she started using Hindi, reading/..."
+      },
+      {
+        "id": 23,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "आपने एट से हिंदी पर शालू गए ठीक है"
+      },
+      {
+        "id": 24,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "बढ़िया बढ़िया"
+      },
+      {
+        "id": 25,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "और आपको यहाँ खड़पुर में रहते वे कितने साल हो गए"
+      },
+      {
+        "id": 26,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "अमी खड़पुर एसेची 2000"
+      },
+      {
+        "id": 27,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "2000 साले"
+      },
+      {
+        "id": 28,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "अब ना मने एक खड़पुर में बिया होईची 2003 ए"
+      },
+      {
+        "id": 29,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "एकेन एसे में 2003 ए"
+      },
+      {
+        "id": 30,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "अच्छा"
+      }
+    ],
+    "section_counts": {
+      "A": 1,
+      "B": 1,
+      "C": 3,
+      "D": 0,
+      "E": 11,
+      "F": 14
+    }
+  },
+  "S3_IMG_6651_transcript.json": {
+    "file": "S3_IMG_6651",
+    "speaker_code": "S3",
+    "segments": [
+      {
+        "id": 1,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "अब इन दोनों में फर्क है"
+      },
+      {
+        "id": 2,
+        "section": "B",
+        "section_name": "Adjective Agreement",
+        "text_preview": "s: chair, big and small"
+      },
+      {
+        "id": 3,
+        "section": "B",
+        "section_name": "Adjective Agreement",
+        "text_preview": "खना खा रहा है, रोटी खा रहा है"
+      },
+      {
+        "id": 4,
+        "section": "B",
+        "section_name": "Adjective Agreement",
+        "text_preview": "और ये क्या कर रहा है"
+      },
+      {
+        "id": 5,
+        "section": "B",
+        "section_name": "Adjective Agreement",
+        "text_preview": "ये भी राइस खा रहा है, लंच कर रहा है"
+      },
+      {
+        "id": 6,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, ..."
+      },
+      {
+        "id": 7,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "s: yeh book [unclear], chair tut gaya, gin bhi tuta hai, window old window hai w..."
+      },
+      {
+        "id": 8,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "कि आपको यहां काम करते हुए सबसे मुश्किल दिन काम करते तो कितने साल हो गए और क्या म..."
+      },
+      {
+        "id": 9,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: mushkil kuch nahi hai sab theek hai"
+      },
+      {
+        "id": 10,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: kabhi aisa situation nahi hua jo bhi kaam aata hai hum log karta hai, allotme..."
+      },
+      {
+        "id": 11,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: thoda ghar ka problem hota hai"
+      },
+      {
+        "id": 12,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: khana wana pakana yaha subah saat baje se raat 10 baje tak allotment ka samay..."
+      },
+      {
+        "id": 13,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "s: 8 ghanta abhi 6 se 2 baje tak toh jate jate 2:30 ho jata afternoon aur evenin..."
+      },
+      {
+        "id": 14,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: just start kiya hai abhi\nc: toh aap ghar pe akele rehte ho?\ns: nahi chota lad..."
+      },
+      {
+        "id": 15,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: mai woh, third language tha hindi school mein, fir mera bada ladka school mei..."
+      },
+      {
+        "id": 16,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "बिंगॉली हिंदी इंग्रीस समझ में आ रहा थी कि रिप्लाइज न थोड़ा प्रॉब्लम है और आपको प..."
+      },
+      {
+        "id": 17,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: bengali toh hai, main toh bengali medium ka student hai hum"
+      },
+      {
+        "id": 18,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: hindi na do saal hum logo ko padhaya"
+      },
+      {
+        "id": 20,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: sanskrit hindi"
+      },
+      {
+        "id": 21,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: subject"
+      },
+      {
+        "id": 22,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "इसलिए हम लोग थर्ली ना बोल नहीं सकते हाँ"
+      },
+      {
+        "id": 23,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "लेकिन बोलने से थोड़ा तत्लीप होता है"
+      },
+      {
+        "id": 24,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala leta"
+      },
+      {
+        "id": 25,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "कि ओं या हो हुई कर दो"
+      },
+      {
+        "id": 26,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है"
+      },
+      {
+        "id": 27,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "और जो तुम लोगों बेंगुले पोलने से तुमबारों का ग्रामर बहुत है कि आपका चाहिए"
+      },
+      {
+        "id": 28,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "वहाँ वही वही"
+      }
+    ],
+    "section_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 0,
+      "D": 0,
+      "E": 10,
+      "F": 9
+    }
+  },
+  "S4_IMG_6652_transcript.json": {
+    "file": "S4_IMG_6652",
+    "speaker_code": "S4",
+    "segments": [
+      {
+        "id": 1,
+        "section": "B",
+        "section_name": "Adjective Agreement",
+        "text_preview": "c: in dono mein phark kya hai?\ns: chota bada hai, eh khana kha raha hai, almari ..."
+      },
+      {
+        "id": 2,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "c: aur aap apne baare mein batao kitne saal honge Kharagpur mein?\ns: Kharagpur m..."
+      },
+      {
+        "id": 3,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: maami bhaiya ke saath kaam kar liya aur do hazaar pandrah mein kaam mein ghus..."
+      },
+      {
+        "id": 4,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: aur mera ek bachcha bhi hai woh english medium mein padhta hai aur aapke tara..."
+      },
+      {
+        "id": 5,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: mera ghar mein hindi bengali aur mera bhai beti english mein padh raha woh"
+      },
+      {
+        "id": 6,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "और हिंदीस में पढ़ता है तो वो खुप नेदा भी जाती है"
+      },
+      {
+        "id": 7,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "यह एक बाल है। यह भी बार भी बदल है।"
+      },
+      {
+        "id": 8,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: Vivekananda institute mein padhta hai"
+      },
+      {
+        "id": 9,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "आप हिंदी कब से बोलने लगे?"
+      },
+      {
+        "id": 10,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: hum jab 7th class aur 8th class padha aur do class mein hindi seekha"
+      },
+      {
+        "id": 11,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: hindi padh... bol pata hai"
+      },
+      {
+        "id": 12,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: aur likh toh, likh toh nahi pata\nc: aur kaha tak padhe ho aap didi?\ns: class ..."
+      },
+      {
+        "id": 13,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya usk..."
+      },
+      {
+        "id": 14,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh"
+      },
+      {
+        "id": 15,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: ro raha tha ki idhar aajao idhar aajao bohot dur tha Bhanwar hospital mein ka..."
+      },
+      {
+        "id": 16,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "c: aur kon konsi bhaashaein bol lete ho aap, jaise bengali toh roz hi bol lete h..."
+      },
+      {
+        "id": 17,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "c: konsi bhaasha mein baat karte ho aap aapas mein, hindi kitni use karte ho mat..."
+      },
+      {
+        "id": 18,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: pehle BR Ambedkar hall tha toh waha lerka lerki ek saath mein kaam karta tha ..."
+      }
+    ],
+    "section_counts": {
+      "A": 1,
+      "B": 1,
+      "C": 0,
+      "D": 0,
+      "E": 5,
+      "F": 11
+    }
+  },
+  "S5_IMG_6654_transcript.json": {
+    "file": "S5_IMG_6654",
+    "speaker_code": "S5",
+    "segments": [
+      {
+        "id": 1,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "दादा ये क्या है?"
+      },
+      {
+        "id": 2,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: yeh toh ek toh dorja rakhe ache"
+      },
+      {
+        "id": 3,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "s: ek ta chair eta"
+      },
+      {
+        "id": 4,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "s: hand, boi, baari"
+      },
+      {
+        "id": 5,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "जानुला"
+      },
+      {
+        "id": 6,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "s: glass of water"
+      },
+      {
+        "id": 7,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "पराठे"
+      },
+      {
+        "id": 8,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "थाली"
+      },
+      {
+        "id": 9,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "कार"
+      },
+      {
+        "id": 10,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "हाथ"
+      },
+      {
+        "id": 11,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "चावी"
+      },
+      {
+        "id": 12,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "दादा इस दोनों फोटोस में आपको क्या डिफरेंस दिखाये थे?"
+      },
+      {
+        "id": 13,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "अगर उन्हें एकदम से आपको फोटो दिखा दें तो इन दोरों में क्या पड़े फोटो दिखाएंगे?"
+      },
+      {
+        "id": 14,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "एक बड़ा वाला है एक छोटा वाला है बस अपिस में दोनों ही सेम होते हैं"
+      },
+      {
+        "id": 15,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "अब इन फोटोस में इसने क्या किया?"
+      },
+      {
+        "id": 16,
+        "section": "C",
+        "section_name": "Object Agreement / Perfective",
+        "text_preview": "s: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha ra..."
+      },
+      {
+        "id": 17,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "c: dada aap ghar pe konsi bhasha bolte ho?\ns: ghar mein pure Bangla bolte hai hu..."
+      },
+      {
+        "id": 18,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "c: aap kitne saal se ho Kharagpur mein?\ns: uhh around my... mera umar hai 56, to..."
+      },
+      {
+        "id": 19,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "तो यहां पर हम लोग बच्चपन से हिंदी बोलना चालू कर दिया था दोस्तों के साथ उनके साथ ..."
+      },
+      {
+        "id": 20,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: kaafi din mai bahar raha North India mein khas karke jaise ki Haryana Punjab ..."
+      },
+      {
+        "id": 21,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "c: toh aap kitni languages bol lete hai?\ns: mai practice toh tha, Punjabi bhi bo..."
+      },
+      {
+        "id": 25,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: mai subah paanch baje uthta hu, paanch baje uthke che saadhe che ke andar mai"
+      },
+      {
+        "id": 26,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "ड्यूटी जाता हूं फिर यहां से 12 सारे बड़ा बजे घर जाता हूं घर का थोड़ा बहुत काम कर..."
+      },
+      {
+        "id": 27,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: khaake thoda rest karke fir paanch baje uthke wapis aata hu das baje ghar jat..."
+      },
+      {
+        "id": 28,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: -fast ka jo operation hai woh theek thaak hai ki nahi, pehle breakfast time p..."
+      },
+      {
+        "id": 29,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: kyuki bachche first year ke wait karte hai unko class attend karna rehta hai ..."
+      },
+      {
+        "id": 30,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "फिर मैं अगले दिन का जो रिक्वायरमेंट है उसको लेकर बैठ लूंगा फिर वह खत्म होने के ब..."
+      },
+      {
+        "id": 31,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "प्लांच के प्रिपेरेशन है उसमें तो ऑफ़रेशन रहता है मेरा उसके बाद फिर मैंनेजर आने स..."
+      },
+      {
+        "id": 32,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: mai ghar jata hu, kabhi kabhi agar zyada pressure hua toh nahi bhi ja sakta, ..."
+      },
+      {
+        "id": 33,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "कि आपका जूब का सबसे ज्यादा मुश्किल समय का बोतार था कि है कि का सब्सक्राइब"
+      },
+      {
+        "id": 34,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: allotment ke time pe bohot zyada busy hote hai hum log, allotment ke time pe ..."
+      },
+      {
+        "id": 35,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "s: rehna hota hai aur busy kabhi kabhi koi incident ho jata hai toh hum busy ho ..."
+      },
+      {
+        "id": 36,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: jo routine work hai usme hum log dhal jate hai toh woh kaam hum log kar lete ..."
+      },
+      {
+        "id": 37,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "तो जब कभी कोई एक्स्ट्रा कुछ आ जाता है तो बिजी हो जाता है तीके थैंक ये दाबा"
+      }
+    ],
+    "section_counts": {
+      "A": 14,
+      "B": 0,
+      "C": 1,
+      "D": 0,
+      "E": 7,
+      "F": 12
+    }
+  },
+  "S6_IMG_6660_transcript.json": {
+    "file": "S6_IMG_6660",
+    "speaker_code": "S6",
+    "segments": [
+      {
+        "id": 1,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "c: dada mai photo dikhaungi aapko batana hai ki woh kya hai\ns: dorja, kedara, pa..."
+      },
+      {
+        "id": 2,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "c: jo dimaag mein pehle aata hai\ns: maruti"
+      },
+      {
+        "id": 3,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "s: hather panja, chaabi"
+      },
+      {
+        "id": 4,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "अब दादा इन दो फोटोस में आप क्या फरक बताओंगे"
+      },
+      {
+        "id": 5,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "अगर मैं आपको कहूँ कि आप उस दोनों फोटोस देखो और फरक बताओ"
+      },
+      {
+        "id": 6,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "जो चीज़ आपको दिमाग में आता है"
+      },
+      {
+        "id": 7,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "ऐसा बहुत ज्यादा complicated नहीं है"
+      },
+      {
+        "id": 8,
+        "section": "C",
+        "section_name": "Object Agreement / Perfective",
+        "text_preview": "c: yeh photo dekh ke aapko explain karna hai ki kya kiya iss bande ne\ns: roti kh..."
+      },
+      {
+        "id": 9,
+        "section": "C",
+        "section_name": "Object Agreement / Perfective",
+        "text_preview": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche"
+      },
+      {
+        "id": 10,
+        "section": "C",
+        "section_name": "Object Agreement / Perfective",
+        "text_preview": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna ..."
+      },
+      {
+        "id": 11,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "s: boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche, janala khol..."
+      },
+      {
+        "id": 12,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: aar?\nc: dada aap kaha se ho aapka background kya hai?\ns: ami tor Bangali, Kho..."
+      },
+      {
+        "id": 13,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: bengali\nc: bachpan se? aur koi bhasha use karte hai gahar mein?\ns: nahi gener..."
+      },
+      {
+        "id": 15,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: nahi baat karna padta hai toh pura kar leta hu mai aisa koi problem nahi hai"
+      },
+      {
+        "id": 16,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "c: aur aise din mein kam use hoti hogi?\ns: halka koi student use karti hai toh m..."
+      },
+      {
+        "id": 17,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "c: aur koi language aap bol sakte ho?\ns: haa Hindi bol sakta hu, Odia bhi thoda ..."
+      },
+      {
+        "id": 18,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "c: phir bhi koi issue aata hoga kisi student se baat karne mein?"
+      },
+      {
+        "id": 19,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "मेरे को ऐसा फिल नहीं हुआ तो देखिए एक जगह जब काम कर सकता हूं तो थोड़ा बहुत बाता च..."
+      },
+      {
+        "id": 20,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "जब आप इस विद्ने ने जॉइंग किये थे यहाँ पर तो क्या प्रॉब्लम आई थी आप?"
+      },
+      {
+        "id": 21,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: un log puchta hai khana ke baare mein, nahi puchta hai? magar jab puchte hai ..."
+      },
+      {
+        "id": 23,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: kuch safa wagera karna tha pankha wankha woh kiya uske baad dopahar ko lunch ..."
+      }
+    ],
+    "section_counts": {
+      "A": 8,
+      "B": 0,
+      "C": 3,
+      "D": 0,
+      "E": 7,
+      "F": 3
+    }
+  },
+  "S7_NewRecording7_transcript.json": {
+    "file": "S7_NewRecording7",
+    "speaker_code": "S7",
+    "segments": [
+      {
+        "id": 1,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "c: aapko jo sabse pehle aaye\ns: yeh door hai, eh chair hai, fan, book, house, ho..."
+      },
+      {
+        "id": 2,
+        "section": "B",
+        "section_name": "Adjective Agreement",
+        "text_preview": "s: lunch ya dinner, bhat\nc: ab dada in do photos mein kya farak dikhta hai aapko..."
+      },
+      {
+        "id": 3,
+        "section": "B",
+        "section_name": "Adjective Agreement",
+        "text_preview": "c: [collector speech]"
+      },
+      {
+        "id": 4,
+        "section": "C",
+        "section_name": "Object Agreement / Perfective",
+        "text_preview": "s: yeh small photo hai yeh bada photo hai\nc: dada yeh batana yeh banda iss photo..."
+      },
+      {
+        "id": 6,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: mai Kharagpur se hu\nc: ghar pe konsi bhasha bolte ho?"
+      },
+      {
+        "id": 7,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: Bengali, Bengali bhi bolte hai Hindi bhi bolte hai\nc: kiske saath bolte ho Hi..."
+      },
+      {
+        "id": 8,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: mai inter... 12th\nc: toh aapke school mein bhi hota hoga na Hindi?\ns: haa ek ..."
+      },
+      {
+        "id": 9,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "c: din mein kitna time...?\ns: aisa koi yeh nahi hai matlab jisse baat karte hai-"
+      },
+      {
+        "id": 10,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: agle wala Hindi wala hai toh usse Hindi mein baat karte hai\nc: fir bhi kitna ..."
+      },
+      {
+        "id": 11,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "c: aur koi bhasha aap bolte ho?\ns: Bengali Hindi, English... thoda bohot"
+      },
+      {
+        "id": 12,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "c: aur dada aapko yaha ke students kaise lagte hai, ya koi din hota hoga jo mush..."
+      },
+      {
+        "id": 13,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: -yeh itna bada IIT hai itna saara student hai toh student barabar nahi hoga n..."
+      },
+      {
+        "id": 14,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: koi bhi problem rehta hai usko matlab uska solution nikalna hai\nc: kabhi bhi ..."
+      },
+      {
+        "id": 15,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: nahi nahi aisa koi nahi hai\nc: matlab aap prefer karte honge na morning shift..."
+      },
+      {
+        "id": 16,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "c: toh aapko konsi shift sabse easy lagti hai aur sabse mushkil lagti hai?\ns: ni..."
+      },
+      {
+        "id": 17,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: -sone ke liye uska hum against uska badnaam karta hai\nc: toh dada aap apna su..."
+      },
+      {
+        "id": 18,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: wohi aane ke baad aise duty pe hum aaya hai, aane ke baad agle jo duty pe tha..."
+      },
+      {
+        "id": 19,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "s: paisi ho toh ek baar ghum ke dekh lete hai, aur girls hostel hai koi boys wag..."
+      },
+      {
+        "id": 20,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "ना भी से यह जो सदर्ग रहना बड़ता है या गेट से कोई ऐसी चीज और गेट कास करना नहीं कर..."
+      },
+      {
+        "id": 21,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "c: toh aapki boys hostel mein bhi duty lagti hogi?\ns: nahi nahi boys mein hum lo..."
+      }
+    ],
+    "section_counts": {
+      "A": 3,
+      "B": 2,
+      "C": 1,
+      "D": 0,
+      "E": 8,
+      "F": 6
+    }
+  },
+  "S8_IMG_6664_transcript.json": {
+    "file": "S8_IMG_6664",
+    "speaker_code": "S8",
+    "segments": [
+      {
+        "id": 1,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "c: didi yeh kya hai?\ns: yeh darwaza hai, yeh chair hai, fan hai, eh kitaab hai, ..."
+      },
+      {
+        "id": 2,
+        "section": "A",
+        "section_name": "Object Naming",
+        "text_preview": "s: eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paanch ungli, ..."
+      },
+      {
+        "id": 4,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "c: aapka janam bhi yehi hua?\ns: janam bhi yahi shaadi bhi yahi\nc: ghar mein kya ..."
+      },
+      {
+        "id": 5,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: haa Hindi aata hai thoda thoda\nc: toh kaha tak padhe ho aap didi?\ns: HS tak, ..."
+      },
+      {
+        "id": 6,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "c: aap din mein kitna time Hindi use karte ho?\ns: jab tak mai idhar kaam pe reht..."
+      },
+      {
+        "id": 7,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: -tab Hindi use karti hu\nc: aur yaha pe kya job role hai aapka?\ns: role yaha o..."
+      },
+      {
+        "id": 8,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "s: -toh sab dekhna padta hai jaise student ka kuch problem complaint yeh sabhi a..."
+      },
+      {
+        "id": 9,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: kyuki mai subah ka duty pe aa jati hu tab husband banata hai\nc: aur kya kya b..."
+      },
+      {
+        "id": 10,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: zyada tar hum log ka non-veg hota hai, veg kam hota hai\nc: aur aap apna routi..."
+      },
+      {
+        "id": 11,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "c: aapne kya kiya?\ns: haa subah uthne se chalu hota hai kapda dhona, bartan, poc..."
+      },
+      {
+        "id": 12,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: ghar ka sab kaam eh karna pooja mera sabse important kaam hai pooja, bachche ..."
+      },
+      {
+        "id": 13,
+        "section": "E",
+        "section_name": "Conversation",
+        "text_preview": "s: jab mera second shift mein duty rehta hai toh tab uska khana wana taiyaari ka..."
+      },
+      {
+        "id": 14,
+        "section": "F",
+        "section_name": "Background",
+        "text_preview": "c: bachcho se aap konsi bhasha mein baat karte hai?\ns: Bengali hum log ka jo bha..."
+      }
+    ],
+    "section_counts": {
+      "A": 2,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "E": 7,
+      "F": 4
+    }
+  }
+}

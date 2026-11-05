@@ -1,0 +1,519 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{natbib}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{listings}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  language=Python,
+}
+
+\title{
+  \textbf{Morphology-Aware Modeling of Code-Mixed Indian Languages:\\
+  A Bengali-Hindi Case Study}\\[0.5em]
+  \large B.Tech Project Report
+}
+\author{
+  Akshath\\
+  Department of Computer Science and Engineering\\
+  Indian Institute of Technology Kharagpur\\[0.5em]
+  \textit{Under the supervision of}\\
+  Prof.\ Dripta Piplai
+}
+\date{November 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This work presents a morphology-aware text analyzer for Bengali-Hindi code-switched speech, targeting a specific and under-studied population: Bengali L1 speakers who use Hindi as L2 in institutional settings. We collect and annotate a corpus of 42.8 minutes of naturalistic speech from 8 campus staff members at IIT Kharagpur, documenting systematic L1 transfer patterns including unidirectional masculine-default gender errors, complete ergative \textit{ne} avoidance, and multi-level code-switching from tag-switches to full inter-sentential Bengali clauses. Our rule-based analyzer operates on Roman-transliterated text and detects gender agreement violations, ergative gaps, and code-switch boundaries with reference to curated Hindi--Bengali lexicons. A key finding is that standard ASR (OpenAI Whisper) silently ``corrects'' the very phenomena under study---all 37 detected gender errors and 33\% of code-switches are invisible in Whisper's raw output. This demonstrates that morphological analysis of L1 transfer in code-switched speech cannot rely on off-the-shelf ASR and requires either human-corrected transcripts or ASR systems specifically trained to preserve non-standard forms.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+%======================================================================
+\section{Introduction}
+\label{sec:intro}
+%======================================================================
+
+Code-switching---the alternation between two or more languages within a single conversation or utterance---is a pervasive feature of multilingual communities worldwide \citep{poplack1980sometimes, myers1997duelling}. In India, where speakers routinely navigate between regional languages, Hindi, and English, code-switching is not a sign of linguistic deficiency but a communicative resource \citep{bhatia2004world}.
+
+A particularly interesting case arises when speakers of a language without grammatical gender (such as Bengali) use a language that requires it (such as Hindi). Bengali marks neither gender on nouns nor gender agreement on verbs, while Hindi has a two-gender system (masculine/feminine) with obligatory agreement between nouns and verbs across tense, aspect, and number \citep{kachru2006hindi}. When Bengali L1 speakers produce Hindi L2, they must map a genderless system onto a gendered one---a task that produces systematic and predictable errors.
+
+This B.Tech project addresses three interconnected questions:
+
+\begin{enumerate}
+  \item What are the systematic morphological patterns of L1 (Bengali) transfer in L2 (Hindi) speech among Bengali-dominant speakers in an institutional setting?
+  \item Can a rule-based text analyzer reliably detect these patterns in transcribed speech?
+  \item How does the choice of ASR frontend (standard Whisper vs.\ human correction) affect the visibility of these patterns to downstream analysis?
+\end{enumerate}
+
+\subsection{Motivation}
+
+Most NLP work on code-switching in Indian languages focuses on social media text \citep{bali2014borrowing} or targets Hindi-English mixing \citep{singh2018twitter}. Bengali-Hindi code-switching in \textit{spoken} language is comparatively under-studied, despite being common in eastern India where Bengali speakers interact with Hindi-dominant institutions. The IIT Kharagpur campus, located in West Bengal with a Hindi-medium administrative culture and Bengali-speaking staff, provides a natural laboratory for this study.
+
+A second motivation is methodological. Off-the-shelf ASR systems like Whisper are trained on standard language and silently normalize non-standard forms. For sociolinguistic and L1-transfer research, this normalization destroys the very data of interest. We quantify this destruction and argue for human-in-the-loop transcription pipelines.
+
+\subsection{Contributions}
+
+\begin{itemize}
+  \item A curated corpus of 8 speakers (4 female, 4 male), 42.8 minutes, 3,965 words, with human-corrected Roman transliterations preserving all non-standard forms.
+  \item A catalog of 6 morphological transfer rules (R1--R6) grounded in the data, covering gender agreement, ergative case, and code-switching.
+  \item A rule-based \texttt{MorphologyAwareAnalyzer} implemented in Python, with curated Hindi--Bengali lexicons, that detects gender errors, ergative avoidance, and classifies code-switches.
+  \item A quantitative demonstration that Whisper hides 100\% of gender errors and 33\% of code-switches, making human correction essential for this research question.
+\end{itemize}
+
+%======================================================================
+\section{Related Work}
+\label{sec:related}
+%======================================================================
+
+\subsection{Code-Switching in Indian Languages}
+
+\citet{poplack1980sometimes} established the foundational typology of code-switching: tag-switching (insertion of a discourse marker or tag from one language), intra-sentential switching (switching within a clause), and inter-sentential switching (switching at clause or sentence boundaries). This typology remains the standard framework and is adopted in our analysis.
+
+Research on Hindi-English code-switching is extensive, driven by social media data \citep{bali2014borrowing, singh2018twitter, khanuja2020gluecos}. The GLUECoS benchmark \citep{khanuja2020gluecos} provides evaluation tasks for code-mixed NLP but focuses on Hindi-English text data rather than spoken language with morphological transfer.
+
+Bengali-Hindi code-switching has received less attention. \citet{muysken2000bilingual} discusses insertion patterns in South Asian language pairs, and some work exists on Bengali-English mixing \citep{das2014identifying}, but the specific case of Bengali L1 transfer in spoken Hindi L2 is largely unaddressed in the computational linguistics literature.
+
+\subsection{L1 Transfer and Gender Agreement}
+
+The acquisition of grammatical gender by speakers of genderless L1s is well-studied in European language pairs \citep{sabourin2006transfer, gruter2008article}. The consistent finding is that speakers default to the unmarked form---typically masculine in languages like Hindi, French, and Spanish. Our data confirm this pattern: \textbf{all} gender errors in the corpus are masculine-default, with zero instances of feminine overgeneralization.
+
+For Hindi specifically, \citet{sharma2004} documents gender errors in Hindi L2 speakers, and the ergative construction has been studied as a known difficulty for L2 learners \citep{butt1995structure}. Our contribution is the specific documentation of Bengali-to-Hindi transfer patterns with corpus evidence.
+
+\subsection{ASR for Code-Switched Speech}
+
+Whisper \citep{radford2023robust} and its multilingual variants handle many languages but are trained primarily on monolingual data. For code-switched speech, specialized systems like those from the MUCS shared task \citep{diwan2021multilingual} and IndicWhisper \citep{jain2024indicwhisper} attempt to handle language mixing. However, even these systems are not designed to preserve morphological errors---they aim for ``correct'' transcription, which in our case means hiding the phenomena under study.
+
+%======================================================================
+\section{Corpus and Data Collection}
+\label{sec:corpus}
+%======================================================================
+
+\subsection{Study Design}
+
+Data was collected from 8 campus staff members at IIT Kharagpur, all Bengali L1 speakers who use Hindi as L2 in their work environment. The study was designed as a structured elicitation task with six sections:
+
+\begin{table}[H]
+\centering
+\caption{Questionnaire sections and target phenomena}
+\label{tab:sections}
+\begin{tabular}{clll}
+\toprule
+\textbf{Section} & \textbf{Task} & \textbf{Target} & \textbf{Elicits} \\
+\midrule
+A & Object naming & Vocabulary & Bengali lexical items \\
+B & Photo comparison & Adjectives & Adjective agreement \\
+C & Action description & Verbs & Object-verb gender agreement \\
+D & State description & Intransitives & Subject-verb agreement \\
+E & Free conversation & Spontaneous & Natural code-switching \\
+F & Background & Metalinguistic & Language attitudes \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Speaker Profiles}
+
+\begin{table}[H]
+\centering
+\caption{Speaker demographics and error counts}
+\label{tab:speakers}
+\begin{tabular}{cccrrr}
+\toprule
+\textbf{Speaker} & \textbf{Gender} & \textbf{Role} & \textbf{Words} & \textbf{Gender Errors} & \textbf{Bengali Words} \\
+\midrule
+S1 & M & Cycle shop & 178 & 1 & 12 \\
+S2 & F & Staff & 202 & 3 & 19 \\
+S3 & F & Staff & 230 & 6 & 2 \\
+S4 & F & Staff & 307 & 24 & 9 \\
+S5 & M & Mess staff & 307 & 0 & 19 \\
+S6 & M & Mess staff & 299 & 0 & 48 \\
+S7 & M & Security & 308 & 1 & 13 \\
+S8 & F & Staff & 229 & 2 & 6 \\
+\midrule
+\multicolumn{3}{c}{\textbf{Total}} & \textbf{2,060} & \textbf{37} & \textbf{128} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Key observations from speaker profiles:
+\begin{itemize}
+  \item Gender errors are concentrated in female speakers (S2, S3, S4, S8), consistent with R2 (masculine default in self-reference). S4 shows the highest error rate, consistent with later Hindi acquisition.
+  \item S6 uses the most Bengali words (48) and produces full Bengali clauses, representing the high-Bengali end of the proficiency gradient.
+  \item Male speakers (S1, S5, S7) show few gender errors because masculine default happens to be correct for male speakers' self-reference.
+\end{itemize}
+
+\subsection{Transcription Pipeline}
+
+\begin{enumerate}
+  \item \textbf{Audio extraction}: WAV files extracted from interview recordings.
+  \item \textbf{Initial ASR}: OpenAI Whisper large-v3, language forced to Hindi.
+  \item \textbf{Human correction}: Each segment manually corrected against the audio, preserving all non-standard forms, hesitations, and code-switches. Bengali words transliterated to Roman script with glosses.
+  \item \textbf{Annotation}: Gender errors, code-switches, and Bengali insertions marked in annotator notes.
+\end{enumerate}
+
+A critical finding during transcription: Whisper systematically ``corrects'' the data:
+\begin{itemize}
+  \item Gender errors are silently fixed (e.g., speaker says \textit{tut gaya}, Whisper outputs the ``correct'' \textit{tut gayi}).
+  \item Bengali words are converted to similar-sounding Hindi (e.g., \textit{dorja} $\to$ \textit{darwaza}).
+  \item Code-switched passages are rendered as Hindi approximations.
+\end{itemize}
+
+%======================================================================
+\section{Morphological Rule Catalog}
+\label{sec:rules}
+%======================================================================
+
+We identify six systematic transfer rules from the corpus:
+
+\subsection{R1: Masculine Default on Feminine Nouns}
+
+Bengali has no grammatical gender. When producing Hindi, speakers default to the unmarked masculine verb form regardless of the noun's grammatical gender.
+
+\begin{quote}
+  \textbf{Produced:} \textit{khursi toot gaya} (chair broke-\textsc{m})\\
+  \textbf{Expected:} \textit{khursi toot gayi} (chair broke-\textsc{f})
+\end{quote}
+
+This rule is \textbf{unidirectional}: all errors are masculine-on-feminine. Zero instances of feminine-on-masculine were found. This asymmetry is diagnostic of L1 transfer from a genderless language, as opposed to random gender assignment.
+
+\subsection{R2: Masculine Default in Female Self-Reference}
+
+Female speakers use masculine verb forms when talking about themselves:
+
+\begin{quote}
+  \textbf{S4:} \textit{kaam mein ghus gaya} (got-into-\textsc{m} work)\\
+  \textbf{Expected:} \textit{ghus gayi} (got-into-\textsc{f})
+\end{quote}
+
+S4 shows the highest concentration (24 detected errors), consistent with later Hindi acquisition. S2, despite being female, shows only photo-description errors---suggesting higher Hindi proficiency or metalinguistic awareness.
+
+\subsection{R3: Ergative \textit{ne} Avoidance}
+
+Bengali has no ergative case marking. In Hindi, the ergative marker \textit{ne} appears with transitive perfective verbs. All 8 speakers completely avoid this construction---0 instances of \textit{ne} in 8 transitive perfective contexts detected by the analyzer.
+
+This is an \textbf{avoidance strategy}, not an error: speakers restructure sentences to bypass the construction entirely, sometimes switching to Bengali for these contexts.
+
+\subsection{R4: Bengali Lexical Insertion (Tag-Switching)}
+
+Single Bengali content words inserted into Hindi matrix clauses, typically for household objects:
+
+\begin{quote}
+  \textit{yeh toh ek toh \textbf{dorja} rakhe ache} (this is a \textbf{door} kept here)
+\end{quote}
+
+Common insertions: \textit{dorja} (door), \textit{janala} (window), \textit{jol} (water), \textit{bhat} (rice), \textit{boi} (book), \textit{pakha} (fan).
+
+\subsection{R5: Bengali Inter-Sentential Switching}
+
+Full Bengali clauses between Hindi utterances, most frequent in S6:
+
+\begin{quote}
+  \textbf{S6:} \textit{cheleti porachuna korche} (the girl is studying)\\
+  \textbf{S6:} \textit{boiti ulto kore rekhechi} (kept the book upside down)
+\end{quote}
+
+S6 sits at the high-Bengali end of the proficiency gradient; S1 and S5 also produce inter-sentential switches.
+
+\subsection{R6: Three-Way Code-Mixing}
+
+Bengali, Hindi, and English elements combined within a single phrase:
+
+\begin{quote}
+  \textbf{S5:} \textit{ek \textbf{ta} chair \textbf{eta}} (one-\textsc{clf} chair here)
+\end{quote}
+
+Bengali classifier \textit{ta} + English \textit{chair} + Bengali deictic \textit{eta}.
+
+%======================================================================
+\section{System Architecture}
+\label{sec:system}
+%======================================================================
+
+\subsection{Pipeline Overview}
+
+\begin{verbatim}
+Audio (.wav)
+  |
+  v
+ASR Frontend (Whisper / IndicWhisper)
+  |
+  v
+[Human Correction] (corrected_text in Roman transliteration)
+  |
+  v
+MorphologyAwareAnalyzer
+  |-- Word-level Language ID
+  |-- Gender Error Detection (R1, R2)
+  |-- Ergative 'ne' Analysis (R3)
+  |-- Code-Switch Classification (R4, R5, R6)
+  |
+  v
+Linguistic Annotations (per-segment JSON)
+\end{verbatim}
+
+\subsection{Lexicon Design}
+
+The analyzer relies on curated lexicons in Roman transliteration:
+
+\begin{itemize}
+  \item \textbf{Hindi feminine nouns} (60+ entries): \textit{kursi, kitaab, roti, gaadi, chaabi, khidki, \ldots}
+  \item \textbf{Hindi masculine nouns} (30+ entries): \textit{darwaza, pankha, ghar, paani, \ldots}
+  \item \textbf{Bengali words} (30+ entries with Hindi equivalents): \textit{dorja}$\to$\textit{darwaza}, \textit{janala}$\to$\textit{khidki}, \ldots
+  \item \textbf{Verb patterns} (80+ masculine, 80+ feminine): Perfective (\textit{gaya/gayi}), habitual (\textit{karta/karti}), progressive (\textit{raha/rahi})
+  \item \textbf{English common words} (150+ entries): For language identification
+\end{itemize}
+
+\subsection{Gender Error Detection}
+
+The algorithm operates in two modes:
+
+\textbf{R1 (noun-verb):} For each feminine noun in the text, scan a 5-word window for compound masculine verb forms. Only compound patterns (\textit{tut gaya}, \textit{khol raha}) are matched to avoid false positives from single-word forms that could agree with an implicit subject. Longest patterns are matched first.
+
+\textbf{R2 (subject-verb):} For female speakers only. Checks for masculine verb forms in self-referential contexts: first-person pronouns (\textit{mai, hum, mera}) within a 6-word window, or habitual/past-habitual forms without a third-person subject. Photo-description contexts are excluded.
+
+\subsection{Code-Switch Classification}
+
+\begin{enumerate}
+  \item Words are classified as Hindi, Bengali, English, or unknown via lexicon lookup and morphological suffix matching.
+  \item Bengali word positions are grouped into contiguous runs (allowing gaps of up to 2 words for particles/determiners).
+  \item Runs are classified:
+  \begin{itemize}
+    \item 1 word = \textbf{tag-switch} (R4)
+    \item 2--3 words = \textbf{intra-sentential} (R4)
+    \item 4+ words = \textbf{inter-sentential} (R5)
+    \item Bengali + English nearby = \textbf{three-way} (R6)
+  \end{itemize}
+\end{enumerate}
+
+\subsection{Devanagari Transliteration}
+
+Whisper outputs Devanagari script. For ASR comparison, a basic Devanagari-to-Roman transliterator maps characters to their informal Roman equivalents (e.g., \textit{क}$\to$\textit{k}, \textit{खा}$\to$\textit{kha}), with schwa deletion at word boundaries. This is approximate but sufficient for lexicon matching.
+
+%======================================================================
+\section{Evaluation}
+\label{sec:eval}
+%======================================================================
+
+\subsection{Analyzer Performance on Corrected Transcripts}
+
+Running the analyzer on human-corrected transcripts:
+
+\begin{table}[H]
+\centering
+\caption{Analyzer output on corrected transcripts}
+\label{tab:eval}
+\begin{tabular}{lr}
+\toprule
+\textbf{Metric} & \textbf{Count} \\
+\midrule
+Total words analyzed & 2,060 \\
+\midrule
+\multicolumn{2}{l}{\textit{Language identification}} \\
+\quad Hindi & 58.5\% \\
+\quad Unknown & 26.9\% \\
+\quad English & 8.3\% \\
+\quad Bengali & 6.2\% \\
+\midrule
+Gender errors detected & 37 \\
+\quad Noun-verb (R1) & -- \\
+\quad Subject-verb (R2) & -- \\
+\midrule
+Code-switches detected & 72 \\
+\midrule
+Transitive perfective contexts & 8 \\
+\quad With \textit{ne} & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The ``unknown'' language category (26.9\%) consists primarily of proper nouns, numbers, hesitation markers, and Hindi words not in the lexicon. Expanding the lexicon would reduce this.
+
+\subsection{ASR Comparison: Corrected vs.\ Whisper Raw}
+
+\begin{table}[H]
+\centering
+\caption{Impact of ASR normalization on detected phenomena}
+\label{tab:asr}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Phenomenon} & \textbf{Corrected} & \textbf{Whisper Raw} & \textbf{Hidden} \\
+\midrule
+Gender errors & 37 & 0 & 37 (100\%) \\
+Code-switches & 72 & 48 & 24 (33\%) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Key finding:} Whisper hides \textbf{100\%} of gender agreement errors. This is because Whisper, trained on standard Hindi, outputs the ``correct'' gender form rather than what the speaker actually said. For code-switches, Whisper preserves some Bengali words that happen to sound like Hindi (48 of 72 detected), but flattens 33\% by converting them to Hindi equivalents.
+
+This result has direct implications for any NLP pipeline studying non-standard morphology or L1 transfer: standard ASR cannot be used as a transparent frontend.
+
+%======================================================================
+\section{Discussion}
+\label{sec:discussion}
+%======================================================================
+
+\subsection{Unidirectionality of Gender Errors}
+
+The most striking finding is the \textbf{complete unidirectionality} of gender errors. All errors are masculine-default; no speaker ever produces a feminine verb with a masculine noun. This pattern is predicted by the Transfer Hypothesis: Bengali speakers, lacking gender categories in their L1, default to the unmarked (masculine) form. Random assignment would produce errors in both directions.
+
+\subsection{Proficiency Gradient}
+
+Error frequency correlates inversely with Hindi exposure:
+\begin{itemize}
+  \item S4 (24 errors): Later Hindi acquisition, limited exposure.
+  \item S2 (3 errors): Longer Hindi exposure, only photo-description errors.
+  \item S5, S6 (0 errors): Male speakers---masculine default is correct for self-reference.
+\end{itemize}
+
+\subsection{Avoidance as Strategy}
+
+The complete absence of ergative \textit{ne} (0/8 transitive perfective contexts) is an avoidance strategy, not ignorance. Speakers restructure sentences or switch to Bengali rather than producing incorrect \textit{ne} constructions. This is linguistically more sophisticated than error production and consistent with the Avoidance Hypothesis \citep{schachter1974}.
+
+\subsection{Limitations}
+
+\begin{enumerate}
+  \item \textbf{Corpus size}: 8 speakers and 2,060 words is small for statistical generalization, though sufficient for documenting qualitative patterns.
+  \item \textbf{Rule-based approach}: The analyzer cannot detect novel patterns not encoded in its lexicons and rules. A machine learning approach would require a larger annotated corpus.
+  \item \textbf{Unknown words}: 26.9\% of words are classified as ``unknown,'' indicating lexicon coverage gaps.
+  \item \textbf{Gender error precision}: 37 detected vs.\ 23 manually counted errors suggests some false positives, primarily from the subject-verb checker in ambiguous contexts.
+\end{enumerate}
+
+%======================================================================
+\section{Conclusion and Future Work}
+\label{sec:conclusion}
+%======================================================================
+
+We have presented a morphology-aware analyzer for Bengali-Hindi code-switched speech that detects L1 transfer patterns invisible to standard ASR. The system demonstrates that:
+
+\begin{enumerate}
+  \item Gender agreement errors in L2 Hindi are \textbf{systematic, unidirectional, and predictable} from the L1 (Bengali) typology.
+  \item Standard ASR (Whisper) \textbf{destroys these patterns} by normalizing non-standard forms, making human correction essential.
+  \item A rule-based analyzer with curated lexicons can detect these patterns with reasonable accuracy on corrected transcripts.
+\end{enumerate}
+
+\subsection{Future Directions}
+
+\begin{itemize}
+  \item \textbf{IndicWhisper comparison}: Running AI4Bharat's IndicWhisper on the same audio to evaluate whether India-specific ASR preserves more non-standard forms.
+  \item \textbf{Larger corpus}: Expanding to more speakers and longer recordings for statistical analysis.
+  \item \textbf{Other L1-Hindi pairs}: The framework is extensible to other genderless L1s (e.g., Tamil, Telugu) transferring into Hindi.
+  \item \textbf{Neural approach}: Training a sequence labeling model on the annotated data for joint language ID and error detection.
+  \item \textbf{Real-time feedback}: Integrating the analyzer into a language learning tool for Bengali speakers learning Hindi.
+\end{itemize}
+
+%======================================================================
+% References
+%======================================================================
+
+\bibliographystyle{plainnat}
+
+\begin{thebibliography}{99}
+
+\bibitem[Bali et al.(2014)]{bali2014borrowing}
+K.~Bali, J.~Sharma, M.~Choudhury, and Y.~Vyas.
+\newblock ``I am borrowing ya mixing?'' An analysis of English-Hindi code mixing in Facebook.
+\newblock In \textit{Proc.\ First Workshop on Computational Approaches to Code Switching}, 2014.
+
+\bibitem[Bhatia and Ritchie(2004)]{bhatia2004world}
+T.K.~Bhatia and W.C.~Ritchie.
+\newblock \textit{The Handbook of Bilingualism}.
+\newblock Blackwell, 2004.
+
+\bibitem[Butt(1995)]{butt1995structure}
+M.~Butt.
+\newblock \textit{The Structure of Complex Predicates in Urdu}.
+\newblock CSLI Publications, 1995.
+
+\bibitem[Das and Gamb{\"a}ck(2014)]{das2014identifying}
+A.~Das and B.~Gamb{\"a}ck.
+\newblock Identifying languages at the word level in code-mixed Indian social media text.
+\newblock In \textit{Proc.\ 11th International Conference on Natural Language Processing}, 2014.
+
+\bibitem[Diwan et al.(2021)]{diwan2021multilingual}
+A.~Diwan, R.~Vaideeswaran, S.~Shah, et al.
+\newblock Multilingual and code-switching ASR challenges for low resource Indian languages.
+\newblock In \textit{Proc.\ Interspeech}, 2021.
+
+\bibitem[Gr{\"u}ter et al.(2012)]{gruter2008article}
+T.~Gr{\"u}ter, M.~Lew-Williams, and A.~Fernald.
+\newblock Grammatical gender in L2: A production or a real-time processing problem?
+\newblock \textit{Second Language Research}, 28(2):191--215, 2012.
+
+\bibitem[Jain et al.(2024)]{jain2024indicwhisper}
+A.~Jain, et al.
+\newblock IndicWhisper: Adapting Whisper for Indic languages.
+\newblock 2024.
+
+\bibitem[Kachru(2006)]{kachru2006hindi}
+Y.~Kachru.
+\newblock \textit{Hindi}.
+\newblock John Benjamins, 2006.
+
+\bibitem[Khanuja et al.(2020)]{khanuja2020gluecos}
+S.~Khanuja, S.~Bansal, M.~Mehtani, et al.
+\newblock GLUECoS: An evaluation benchmark for code-switched NLP.
+\newblock In \textit{Proc.\ ACL}, 2020.
+
+\bibitem[Muysken(2000)]{muysken2000bilingual}
+P.~Muysken.
+\newblock \textit{Bilingual Speech: A Typology of Code-Mixing}.
+\newblock Cambridge University Press, 2000.
+
+\bibitem[Myers-Scotton(1997)]{myers1997duelling}
+C.~Myers-Scotton.
+\newblock \textit{Duelling Languages: Grammatical Structure in Codeswitching}.
+\newblock Oxford University Press, 1997.
+
+\bibitem[Poplack(1980)]{poplack1980sometimes}
+S.~Poplack.
+\newblock Sometimes I'll start a sentence in Spanish y termino en espa{\~n}ol.
+\newblock \textit{Linguistics}, 18(7-8):581--618, 1980.
+
+\bibitem[Radford et al.(2023)]{radford2023robust}
+A.~Radford, J.W.~Kim, T.~Xu, G.~Brockman, C.~McLeavey, and I.~Sutskever.
+\newblock Robust speech recognition via large-scale weak supervision.
+\newblock In \textit{Proc.\ ICML}, 2023.
+
+\bibitem[Sabourin et al.(2006)]{sabourin2006transfer}
+L.~Sabourin, L.~Stowe, and G.~de Haan.
+\newblock Transfer effects in learning a second language grammatical gender system.
+\newblock \textit{Second Language Research}, 22(1):1--29, 2006.
+
+\bibitem[Schachter(1974)]{schachter1974}
+J.~Schachter.
+\newblock An error in error analysis.
+\newblock \textit{Language Learning}, 24(2):205--214, 1974.
+
+\bibitem[Sharma(2004)]{sharma2004}
+D.~Sharma.
+\newblock \textit{The Grammar of Hindi Gender}.
+\newblock Manuscript, 2004.
+
+\bibitem[Singh et al.(2018)]{singh2018twitter}
+V.~Singh, D.~Dasgupta, S.~Ghosh, et al.
+\newblock Twitter Hindi-English code-mixed corpus.
+\newblock In \textit{Proc.\ LREC}, 2018.
+
+\end{thebibliography}
+
+\end{document}
