@@ -1,0 +1,212 @@
+{
+  "file": "S3_IMG_6651",
+  "speaker_code": "S3",
+  "corrections": [
+    {
+      "segment_id": 1,
+      "start": 24.48,
+      "end": 27.47,
+      "whisper_text": "अब इन दोनों में फर्क है",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "bwfore this speaker says: door chair  fan books house window glass roti khana haath finger hands key and this specific line in dono mein phark kya hai is uttered by collector"
+    },
+    {
+      "segment_id": 2,
+      "start": 32.01,
+      "end": 37.7,
+      "whisper_text": "अब ये क्या कर रहा है",
+      "correction": "chair, big and small",
+      "error_type": "wrong_word",
+      "notes": "the transcripted words is said by collector"
+    },
+    {
+      "segment_id": 4,
+      "start": 43.1,
+      "end": 44.9,
+      "whisper_text": "और ये क्या कर रहा है",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "collector"
+    },
+    {
+      "segment_id": 6,
+      "start": 47.72,
+      "end": 67.68,
+      "whisper_text": "इन कांगी खेरो से ओपन दो रॉम ली तक बंधन है और गुटनाश में पानी दाए सशादार कि एक ग्रास गलिया और पानी भी थे",
+      "correction": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 7,
+      "start": 67.68,
+      "end": 83.77,
+      "whisper_text": "एक पचक है छह कूंठ थे फैन भी तूटा है गृद्धू ऑल्ड विंद्व है और कुट गया ग्रास टूटा है",
+      "correction": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 8,
+      "start": 92.98,
+      "end": 101.18,
+      "whisper_text": "कि आपको यहां काम करते हुए सबसे मुश्किल दिन काम करते तो कितने साल हो गए और क्या मुश्किल आती है",
+      "correction": "das saal hua yeh sister nivedita mein",
+      "error_type": "wrong_word",
+      "notes": "data collector"
+    },
+    {
+      "segment_id": 9,
+      "start": 104.24,
+      "end": 114.06,
+      "whisper_text": "सब तुम कोई ऑफिस का असम होता होगा । क्योंकि आपके लिए बहुत मुश्किल होता होगा । क्या-क्या परेशानी",
+      "correction": "mushkil kuch nahi hai sab theek hai",
+      "error_type": "wrong_word",
+      "notes": "rest is data collector: kya kya mushkil aati hai koi ofice mein din hota hoga j"
+    },
+    {
+      "segment_id": 10,
+      "start": 114.06,
+      "end": 127.94,
+      "whisper_text": "आती हो नहीं हो जो भी काम आता है हम अब से बहुत सारा लूट ज्यादा हुआ था ।",
+      "correction": "kabhi aisa situation nahi hua jo bhi kaam ata hai hum log karta hai, allotment ka sab kyuki kaam ka load zyada hota hai kyuki time",
+      "error_type": "wrong_word",
+      "notes": "data collector: jaise students jis din aate hai first day uss din thoda mushkil hota hoga"
+    },
+    {
+      "segment_id": 11,
+      "start": 135.92,
+      "end": 142.88,
+      "whisper_text": "नहीं जैसे आपका टाइम थोड़ा फ्री हो गया उस टाइम मुश्किल होता होगा थोड़ा सा थोड़ा घर का प्रॉब्लम होता",
+      "correction": "thoda ghar ka problem hota hai",
+      "error_type": "wrong_word",
+      "notes": "rest is data collector"
+    },
+    {
+      "segment_id": 12,
+      "start": 142.88,
+      "end": 151.16,
+      "whisper_text": "है ख़ला होना पकाना यह सुगह 7 बजे से रात 10 बजे तरह आप नॉर्मली कितने तरह पर काम करते हैं तो सुगह आप",
+      "correction": "khana wana pakana yaha subha saat baje se raat 10 baje tak allotment ka samay\ndata collectir: aap normally kitne ghante kaam karte ho\n8 ghanta hum log-",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 13,
+      "start": 151.16,
+      "end": 183.58,
+      "whisper_text": "हम लोगों से कब आते हो कब जाते हैं 8 गंटा अभी छह से दो गजे तक तो जाते जाते हैं टू ठट्टी हो जाए राफ्ट टर्न है और रिबेनिंग होने से दो गजे से दस बच्चे और घर पर आपके खाना कौन मिलाता है कि आप अपनी फामिली के बारे में आप कुछ बत",
+      "correction": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
+      "error_type": "wrong_word",
+      "notes": "data colllector: kab aate ho kab jaate ho\ncollectir: gharpe aapke khana kon banata hai\ncollectir: aap apni family ke baare mein kuch batana chaho"
+    },
+    {
+      "segment_id": 14,
+      "start": 185.19,
+      "end": 202.14,
+      "whisper_text": "तभी आप अखेले रहते हो घर पर अखेले रहते हो आप चोटा लड़का अच्छा रहता है और आप कहां से हो ओरिजिनली खड़ापुर में जनन हुआ",
+      "correction": "just start kiya hai abhi (in regards to fish farm) (collector: toh aap gharpe akele rehte ho?) nahi chota ladka hai bada toh bengal mein hai (collector: aur aap kaha se ho originally) kharagpur mein hi janam hua eh campus mein auer-",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 15,
+      "start": 210.82,
+      "end": 231.31,
+      "whisper_text": "आपने कब से बोलनी चाहूंगी तो नहीं बोल नहीं पाती हो थोड़ा",
+      "correction": "mai woh, third language tha hindi school mein fir mera bada ladka school mein thi usse mai study kiya hindi... thoda... itna acchi bhi bol nahi pata hu",
+      "error_type": "wrong_word",
+      "notes": "collector: aur aapne hindi kabse bolni chalu kari\naur aap kitni bhaasha bol lete ho"
+    },
+    {
+      "segment_id": 16,
+      "start": 234.84,
+      "end": 246.82,
+      "whisper_text": "बिंगॉली हिंदी इंग्रीस समझ में आ रहा थी कि रिप्लाइज न थोड़ा प्रॉब्लम है और आपको पूरा टाइल भी खड़कपड़ में गया",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "aapko kitne saal hue kharagpur mein is data collector"
+    },
+    {
+      "segment_id": 17,
+      "start": 246.82,
+      "end": 259.63,
+      "whisper_text": "था बड़ा बड़ा ठीक है तो एक तो बेंगुली सिखते हैं और दूसरा कौन सा दूसरी इंग्लिश ने",
+      "correction": "bengali toh hai, main toh bengali medium ka student hai hum",
+      "error_type": "wrong_word",
+      "notes": "data collectior only: didi aapki third language hindi hai toh aap dusra konsa seekhte ho, english seekhte ho"
+    },
+    {
+      "segment_id": 18,
+      "start": 267.67,
+      "end": 269.89,
+      "whisper_text": "को सबको सबस्क्राइब",
+      "correction": "hindi na do saal hum logo ko padhaya",
+      "error_type": "wrong_word",
+      "notes": "data collector: sabko 7th 8th mein padhaya?"
+    },
+    {
+      "segment_id": 20,
+      "start": 302.56,
+      "end": 303.58,
+      "whisper_text": "शर्ष्कील हिंदी",
+      "correction": "sanshkrit hindi",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 21,
+      "start": 305.18,
+      "end": 313.28,
+      "whisper_text": "और हम लोगों भी जो इंग्रीश था ना एक ही सब्सक्राइब होता है",
+      "correction": "subject (not subscribe)",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 24,
+      "start": 323.64,
+      "end": 329.14,
+      "whisper_text": "लेकिन हमरे भी तुमरे राइते रिते हो चाल नहीं हो सकते",
+      "correction": "lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala lera",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 25,
+      "start": 329.14,
+      "end": 337.86,
+      "whisper_text": "कि ओं या हो हुई कर दो",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "noise"
+    },
+    {
+      "segment_id": 26,
+      "start": 345.92,
+      "end": 351.22,
+      "whisper_text": "भी तो यह थोड़े-थोड़े निस्कर तो हमें वाकिया सेंटेंस सब्सक्राइब है",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "noise"
+    },
+    {
+      "segment_id": 28,
+      "start": 367.23,
+      "end": 368.83,
+      "whisper_text": "वहाँ वही वही",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "noise"
+    }
+  ],
+  "verified_segments": [
+    3,
+    5,
+    22,
+    23,
+    27
+  ],
+  "timestamp": "2026-11-05T06:06:45.165Z"
+}

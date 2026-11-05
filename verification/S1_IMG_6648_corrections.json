@@ -1,0 +1,89 @@
+{
+  "file": "S1_IMG_6648",
+  "speaker_code": "S1",
+  "corrections": [
+    {
+      "segment_id": 1,
+      "start": 0,
+      "end": 3.58,
+      "whisper_text": "आपका कहां से हो आप? आपका गाउ कौन सा है?",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "data collector"
+    },
+    {
+      "segment_id": 2,
+      "start": 3.8,
+      "end": 4.54,
+      "whisper_text": "खड़गपुर का है",
+      "correction": "khargapur (kharagpur) ka hi hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 3,
+      "start": 4.54,
+      "end": 7.2,
+      "whisper_text": "अच्छा खड़गपुर से हो बच्पन से यहीं पर रह रह रहे हो",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "data collector"
+    },
+    {
+      "segment_id": 5,
+      "start": 8.72,
+      "end": 10.6,
+      "whisper_text": "अच्छा यहीं पर जन्म हुआ आपका",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "data collector"
+    },
+    {
+      "segment_id": 6,
+      "start": 10.6,
+      "end": 12.32,
+      "whisper_text": "मेरा पिता जी शाल्मिस करता है",
+      "correction": "mera pitaji service karta tha",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 7,
+      "start": 13.65,
+      "end": 15.77,
+      "whisper_text": "और आप हिंदी कब से बोलने लगे?",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "http://localhost:8765"
+    },
+    {
+      "segment_id": 8,
+      "start": 15.77,
+      "end": 34.74,
+      "whisper_text": "बेंगोली बेंगोली लैंग्वेज कि सिंह � iTool लोगों को छोड़े से 9 युवी दूर और घर पंक्क",
+      "correction": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
+      "error_type": "wrong_word",
+      "notes": "then data sollcetor asks gharpe bengali bolte honge hindi nahi and speaker replied nahi bilkul nahi gharpe bengali"
+    },
+    {
+      "segment_id": 9,
+      "start": 35.04,
+      "end": 67.65,
+      "whisper_text": "बोलते होंगे गर्पिन भी भी बोलते विक्री तो हिंदी आप तो स्टूडेंट के साथ और ऐसे बोलते हो इसकी तरह तक पड़े कि हिंदी कब तक पड़े फिर आप सूल",
+      "correction": "nahi bilkul nahi, students ke saath (data collector: kaha tak padhe ho dada?) hum graduate hai, bcom (data collectir: hindi kab tak padhe aap) hum 2 year padha tha 7 8 hum log ka 7 8 tak tha (data collector: aur koi language use karte ho?) english tha thoda sa",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 10,
+      "start": 67.65,
+      "end": 76.02,
+      "whisper_text": "इंग्लिश तब तक पड़े तो विकॉम तक विकॉम इंग्लिश बेस्ट था नाइस नाइस था थैंक यू बादा",
+      "correction": "(data collector: english kab take padhe) phada toh bcom tak hi english (collector: bcom english based tha, nice nice, thanku dada)",
+      "error_type": "wrong_word",
+      "notes": ""
+    }
+  ],
+  "verified_segments": [],
+  "timestamp": "2026-11-04T18:44:05.331Z"
+}

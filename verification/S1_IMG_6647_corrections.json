@@ -1,0 +1,107 @@
+{
+  "file": "S1_IMG_6647",
+  "speaker_code": "S1",
+  "corrections": [
+    {
+      "segment_id": 2,
+      "start": 40.96,
+      "end": 75.84,
+      "whisper_text": "अच्छा वहीं पर आपको बताना है कि क्या कर रहा है आपको देखिए क्या लगता है रूटी खा रहा है",
+      "correction": "yeh roti kha raha hai",
+      "error_type": "wrong_word",
+      "notes": "rest was said by data collector"
+    },
+    {
+      "segment_id": 3,
+      "start": 77.52,
+      "end": 102.43,
+      "whisper_text": "कोई कुछ भी बोल सकते हुआ है जर्जा खोल रहा है जॉल डाल जाए इसमें क्या हो रहा है जॉल गिर गया कॉपी खुला है",
+      "correction": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala",
+      "error_type": "wrong_word",
+      "notes": "the rest was said by data collector"
+    },
+    {
+      "segment_id": 4,
+      "start": 122.4,
+      "end": 141.61,
+      "whisper_text": "अब अपने बारे में कुछ बताओ क्या करते हुआ आप साइकल सॉप है मेरा एक लेर की लेर का जो नहीं जानता लेकिन",
+      "correction": "mera cycle shop hai aur (aar) mera ek ladki ek ladka , dono study hair karta",
+      "error_type": "wrong_word",
+      "notes": "rest by data collector"
+    },
+    {
+      "segment_id": 5,
+      "start": 141.61,
+      "end": 158.01,
+      "whisper_text": "सर्मिस करता मेरा आरेक्टर शॉप अब सुबह तक जैसे अगर मैं पूछूंगे आज सुबह तक अब बताना चाहते हुए सुबह से",
+      "correction": "ladki service karta, mera aar ek tho shop hai",
+      "error_type": "wrong_word",
+      "notes": "subha se kya kya kiya is said by data collector after which speaker utters cycle ka kaam kara"
+    },
+    {
+      "segment_id": 6,
+      "start": 158.01,
+      "end": 186.34,
+      "whisper_text": "हावा रिपेरिंग सब्सक्राइब कितने बजे आ जाते हुए शर्म समुद्ध सब्सक्राइब बीच में शर्म करते हों",
+      "correction": "pura puncture hawa repairing, sab repairing karta hu (speaker kitne baje ajate ho subhe) saadhe saath, shaam tak \"...\" beech mein lunch time karta do se paanch/chaar",
+      "error_type": "wrong_word",
+      "notes": "data collectorasked kya karte ho kaam mein"
+    },
+    {
+      "segment_id": 7,
+      "start": 186.34,
+      "end": 191.5,
+      "whisper_text": "ड्रेमों ठीक हो गया कोई दिन होता होगा झाल मुश्किल होता होगा तो किस इसने से हो सकता है जी",
+      "correction": "entirely uttered by data collector saying koi din hota hoga jo bohto mushkil hota hoga toh kya reason se ....",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 8,
+      "start": 191.5,
+      "end": 203.78,
+      "whisper_text": "वह दिन मुश्किल हो आपको क्या परिशानी आती है पड़े और उठा। बच्चे में पर लगना आ जाता है",
+      "correction": "paareshani matlab kuch problem nahi rehta",
+      "error_type": "wrong_word",
+      "notes": "data collector asked kya pareshaani hoti hai on a difficult day and asking if bacche pareshaan karte hai"
+    },
+    {
+      "segment_id": 9,
+      "start": 207.6,
+      "end": 214.56,
+      "whisper_text": "और कुछ आप अपने साइकल शॉप के बारे में बताना चाहूँ",
+      "correction": "",
+      "error_type": "other",
+      "notes": "said entirely by speaker"
+    },
+    {
+      "segment_id": 10,
+      "start": 219.02,
+      "end": 221.42,
+      "whisper_text": "और सुडेंट्स कैसे आते हैं आपके बास",
+      "correction": "nahi nahi aar kuch nahi",
+      "error_type": "wrong_word",
+      "notes": "data collector: aur kuch aap apni cycle shop ke baare mein batana chaho"
+    },
+    {
+      "segment_id": 11,
+      "start": 222.92,
+      "end": 224.9,
+      "whisper_text": "बात करते हैं आपसे काम को",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "data collector"
+    },
+    {
+      "segment_id": 12,
+      "start": 224.9,
+      "end": 227.66,
+      "whisper_text": "अंकेलों बोलता है, भाईयों बोलता है",
+      "correction": "uncle bolta hai bhaiya bolta hai (whats students refer to him as)",
+      "error_type": "other",
+      "notes": ""
+    }
+  ],
+  "verified_segments": [],
+  "timestamp": "2026-11-04T18:39:13.930Z"
+}

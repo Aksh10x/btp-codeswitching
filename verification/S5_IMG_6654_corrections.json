@@ -1,0 +1,234 @@
+{
+  "file": "S5_IMG_6654",
+  "speaker_code": "S5",
+  "corrections": [
+    {
+      "segment_id": 1,
+      "start": 0.38,
+      "end": 1.1,
+      "whisper_text": "दादा ये क्या है?",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "collector"
+    },
+    {
+      "segment_id": 2,
+      "start": 1.32,
+      "end": 3.28,
+      "whisper_text": "ये तो एक दर्जा दाखा जाती है",
+      "correction": "(bengali) yeh toh ek to dorja rakhe aschi ",
+      "error_type": "missing_bengali",
+      "notes": ""
+    },
+    {
+      "segment_id": 3,
+      "start": 3.28,
+      "end": 6.82,
+      "whisper_text": "एक चेयर ये टाइन",
+      "correction": "ek ta chair eta",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 4,
+      "start": 7.57,
+      "end": 8.79,
+      "whisper_text": "बोई",
+      "correction": "hand, boi, baari",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 6,
+      "start": 15.6,
+      "end": 16.5,
+      "whisper_text": "प्लास ऑफ वाटर",
+      "correction": "glass of water",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 12,
+      "start": 26.71,
+      "end": 31.31,
+      "whisper_text": "दादा इस दोनों फोटोस में आपको क्या डिफरेंस दिखाये थे?",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "collector"
+    },
+    {
+      "segment_id": 13,
+      "start": 31.31,
+      "end": 34.71,
+      "whisper_text": "अगर उन्हें एकदम से आपको फोटो दिखा दें तो इन दोरों में क्या पड़े फोटो दिखाएंगे?",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "collector"
+    },
+    {
+      "segment_id": 15,
+      "start": 39.79,
+      "end": 42.84,
+      "whisper_text": "अब इन फोटोस में इसने क्या किया?",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "collector"
+    },
+    {
+      "segment_id": 16,
+      "start": 42.84,
+      "end": 92.36,
+      "whisper_text": "यह आदमी प्रवश्चन खा रहा यह अधिक थाली और उस व थाली में खाना खा रहा है आधी है दरवाजा खोल दी यह पढ़ रहा",
+      "correction": "speaker: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai (then corrcects himself) kha rahi hai, yeh darwaza khol rahi hai, padh raha hai baccha, pine ke liye paani dal raha hai glass mein, glass ulti padi hai, book ulti padi hai, kursi tut gayi hai, pankha tuta hua hai, khidki se bahar ka nazara nazar araha hai\ncollector: dada aur aap apne baare mein batao aap kaha se ho\nspeaker: mai bilkul yehi ka hu\ncollectir: accha kharagpur mein hi paida hua\nspeaker: haa kharagpur ka hi paida hua, kharagpur mein hi paida hua",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 17,
+      "start": 101.16,
+      "end": 108.47,
+      "whisper_text": "कि फास्ट बोलते हैं वह घर में प्यूड बांगला बोलते हैं सभी लोग पानी सभी रोग बगला बोलते हैं और फिर आनुख",
+      "correction": "collector: dada aap ghar pe konsi bhasha bolte ho\nspeaker: gharme pure bangla bolte hai hum, sabhi log bangla bolte hai, (hindi bhi use nahi karte: collecotr) nahi bilkul nahi\n",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 18,
+      "start": 108.47,
+      "end": 132.3,
+      "whisper_text": "हिंदी नहीं गिरी आप कितने साल से युवक रफ माइट मेरा उम्र है सिर्फ तो उपलविशें से बहन ही चले अच्छा आपका",
+      "correction": "collector: aap kitne saal se ho kharagpur mein\nspeaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu\ncollecotr: kaha tak padhe ho dada aap\nspeaker: mera toh graduation hai uske baad hotel management hai\ncollecotr: fir aapne \"something something\" konsi class mein shuru kari?\nspeaker: kharagpur toh ek matlab multilinngual city hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 20,
+      "start": 148.4,
+      "end": 159.17,
+      "whisper_text": "बाहर रहा नॉर्थ इंडिया में खास कर गए जैसे कि हर्याना बंजाब दिल्ली तो राजस्थान तो वहां पर",
+      "correction": "(kaafi din mai) bahar raha north india mein khas karke jaise ki haryana punjab dilli toh rajasthan toh waha pe hindi bolna hi tha aur koi language",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 21,
+      "start": 159.17,
+      "end": 177.05,
+      "whisper_text": "तो आप कितनी लैंग्वेजेस बोलते हैं तो था पंजाबी भी बोल सकता था हर्यानवी और मेवाड़ी यह सब बोलता था और आप समझ लेते हैं",
+      "correction": "collecotr: toh aap kitni languages bol lete hai\nspeaker: mai practices toh tha, punjabi bhi bolsakta tha, haryanvi aur mewadi but abhi toh nahi hoga shayad\ncollecotr: but ab aap samajh lete hai na\nspeaker: bilkul samajh jate hai\ncollecotr: kitne din time hota hai jab aapko hindi bolni padti hai\nspeaker: jab hindi bolne wale bacche humare paas aate hai tab hum hindi bolte hai\ncollecotr: toh kabhi kabhi bolte ho hindi, aapas mein bengali.... aur dada students kaise hai campus ke baare mein kuch?\nspeaker: campus ke baare mein, studenst hum toh pacchiis tees saal se students ko dekh rahe hia, humesha matlab different aur alag alag studenst alag type ke characteristics leke aate hai toh waise koi define nahi kar sakta ki students aise hai ya waise hai\ncollecotr: kisi se baat karne mein mushkil aati ho?\nspeaker: haa mushkil toh aati hai, kabhi kabhi kuch log disturb bhi hote hai aur kuch log disturb karte hai aise bhi hai\ncollector: aur dada mai puchu aapka subhe se lekar ab tak ka din batao toh aaj apne kya kiya hai\n",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 25,
+      "start": 256.18,
+      "end": 264.09,
+      "whisper_text": "बढ़ा सकते हैं क्या किया आपके आपके आप कुछ मैं सुगह 5 बजे उठता हूं पाज बजे उठकर 6.30 के अंदर मैं",
+      "correction": "mai subha paach baje uthta hu, pach baje uthek che saade che ke andar mai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 27,
+      "start": 274.33,
+      "end": 292.93,
+      "whisper_text": "आपके तो रेस्ट करके फिर पांच वजह फिर आप आता हूं दस वजह घर जाता है कि यह मेरा जॉब मेंली है सुबह के जो बॉर्निंग",
+      "correction": "speaker:khaake thoda rest karke fir paach baje uthke wapis ata hu 10 baje ghar jata hu\ncollecotr: yaha pe kya karte ho kuch explain karo toh\nspeaker: mera job mainly hai subha ke jo morning breaks-",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 28,
+      "start": 292.93,
+      "end": 301.98,
+      "whisper_text": "ब्रेकफ़स्ट का जो ऑपरेशन है उसको वह ठीक ठाक है कि नहीं और कहां तो करना पहले ब्रेकफ़स्ट टाइम पर जाना",
+      "correction": "-fast ka jo operation hai woh theek thaak hai ki nahi, pehke preafkast time pe jana jaruri hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 29,
+      "start": 301.98,
+      "end": 311.84,
+      "whisper_text": "बच्चे फर्स्ट येर के या तो भी टेक के वह प्लास हम करना होता है तो उसके बाद जैसे ही ब्रेकफ़र्स तो पर चला जाता है तो",
+      "correction": "kyuki bacche first year ke wait karte hai unko class attend karna rehta hai toh uske baad jaise hi breakfast upar chala jata hai waise hi ",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 31,
+      "start": 322.39,
+      "end": 330.22,
+      "whisper_text": "प्लांच के प्रिपेरेशन है उसमें तो ऑफ़रेशन रहता है मेरा उसके बाद फिर मैंनेजर आने से मैनेजर को हेंड़ ओवर देकर",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "lunch not plunge"
+    },
+    {
+      "segment_id": 32,
+      "start": 330.22,
+      "end": 339.01,
+      "whisper_text": "मैं घर जाता हूं तभी कभी अगर ज्यादा प्रेशर रख हुआ तो नहीं भी जा सकते मौकाली नहीं जा सकते जाने से",
+      "correction": "mai ghar jata hu, kabhi kabhi agar zyada pressure hua toh nahi bhi ja sakta, mauka nahi milta jaane ka",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 33,
+      "start": 339.01,
+      "end": 348.89,
+      "whisper_text": "कि आपका जूब का सबसे ज्यादा मुश्किल समय का बोतार था कि है कि का सब्सक्राइब",
+      "correction": "apka job ka sabse mushkil day kab hota hai jab aa[ bohot zyada busy hote hai",
+      "error_type": "wrong_word",
+      "notes": "collctor"
+    },
+    {
+      "segment_id": 34,
+      "start": 350,
+      "end": 361.04,
+      "whisper_text": "एलरोटमेंट के टाइम पर बहुत सारा बिजी होता है और वह एलरोटमेंट के आगे-पीछे भी बिजी",
+      "correction": "allotment ke time pe bohot zyada busy hote hai hum log, allotment ke time pe aur allotment ke aage peeche bhi, aage piche bhi busy rehna",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 35,
+      "start": 361.04,
+      "end": 369.38,
+      "whisper_text": "रहना होता है और कभी-कभी मेले कोई �xxx हो जाता है तो विच्चन जाते हैं ऐसे तो हम से",
+      "correction": "rehna hota hai aur busy kabhi kabhi koi incident hojata hai toh hum busy hojate hai, aise toh hum log ka normal-",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 36,
+      "start": 369.38,
+      "end": 375.72,
+      "whisper_text": "जो रूटिंग है वह काम-काम कर लेते हैं",
+      "correction": "jo routine work hai usme hum log dhal jate hai toh woh kaam hum log kar lete hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 37,
+      "start": 375.72,
+      "end": 386.9,
+      "whisper_text": "तो जब कभी कोई एक्स्ट्रा कुछ आ जाता है तो बिजी हो जाता है तीके थैंक ये दाबा",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "(last part theek hai thankyou dada is collector)"
+    }
+  ],
+  "verified_segments": [
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    14,
+    26,
+    30
+  ],
+  "timestamp": "2026-11-05T07:18:23.366Z"
+}

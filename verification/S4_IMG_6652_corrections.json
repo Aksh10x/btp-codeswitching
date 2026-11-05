@@ -1,0 +1,163 @@
+{
+  "file": "S4_IMG_6652",
+  "speaker_code": "S4",
+  "corrections": [
+    {
+      "segment_id": 1,
+      "start": 29.53,
+      "end": 38.92,
+      "whisper_text": "यह दोनों फोटोस को देखते हैं आपको क्या फर्क देख रहा है क्या फर्क है",
+      "correction": "this is uttered by data collector and then collector asks in dono mei phark kya hai\nspeaker then says: chota bada hai, eh khana kha raha hai, almari khul raha hai, kitaab padh raha hai, eh paani dal raha hai, glass tut gaya, kitaab ulta ho gaya, chair tut gaya, fan kharaab ho gaya, end khidki ke bahar bohut ped hota hai woh dekh ke accha bhi lagta hai",
+      "error_type": "wrong_word",
+      "notes": "before this timestamp speaker said: door chair kitchen a book a house a window a glass a pizza, khane ka thala, a car, a banjar?, a key"
+    },
+    {
+      "segment_id": 2,
+      "start": 105.41,
+      "end": 117.23,
+      "whisper_text": "और आप अपने बारे में बताओ कितने साल होंगे खड़कपुर में खड़कपुर मेरा जन्म है बातपास से पिता भी बिजार गया",
+      "correction": "collector: और आप अपने बारे में बताओ कितने साल होंगे खड़कपुर\nspeaker: kharagpu mera janam hai, bachpan se mera pitaji gujar gaya",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 3,
+      "start": 117.23,
+      "end": 132.62,
+      "whisper_text": "मामी भाईया को साथ हम रह गया और 2000 बन लोगे काम में पूछ गया पहले से हम फिजियोथा भी सीख रहा एक एक्सीडेंट में मेरा कमोरी तूट गया इसलिए हम को फिजियोथा भी छोड़ गया इधर आ गया",
+      "correction": "maami bhaiya ke saath kaam karliya aur do hazaar pandra mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 4,
+      "start": 132.62,
+      "end": 143.74,
+      "whisper_text": "और आपकी घर में कौन क्या भाषा होते हैं?",
+      "correction": "aur mera ek (something referring to a child) bhi hai woh english medium mein padhta hai aur aapko tarah padhna wadna seekhega",
+      "error_type": "wrong_word",
+      "notes": "transcript words are uttered by collector after what i actually hear"
+    },
+    {
+      "segment_id": 5,
+      "start": 143.84,
+      "end": 152,
+      "whisper_text": "मेरा घव में हिंदी बिंगोडी और मेरा भाई बेटी हिंदीस में बिदा पढ़ता है",
+      "correction": "mera ghar mein hindi bengali aur mera bhai beti english mein padh raha woh",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 7,
+      "start": 156.26,
+      "end": 167.98,
+      "whisper_text": "यह एक बाल है। यह भी बार भी बदल है।",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "noisy cant understand"
+    },
+    {
+      "segment_id": 8,
+      "start": 167.98,
+      "end": 171.06,
+      "whisper_text": "विवेका ना इनिस्टिटी में पढ़ता है।",
+      "correction": "vivekanando inistuti mein padhta hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 9,
+      "start": 171.71,
+      "end": 173.63,
+      "whisper_text": "आप हिंदी कब से बोलने लगे?",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "collector"
+    },
+    {
+      "segment_id": 10,
+      "start": 174.03,
+      "end": 178.95,
+      "whisper_text": "आप जब 7 क्लास, एक क्लास पढ़ रहा हैं और द्वा क्लास का इंदी सीखें।",
+      "correction": "hum jab 7th class aur 8th class padha aur do class mein hindi seekha",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 11,
+      "start": 178.95,
+      "end": 181.61,
+      "whisper_text": "अब एक भागी सेलान करते हैं",
+      "correction": "hindi padh.... bol pata hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 12,
+      "start": 181.61,
+      "end": 192.92,
+      "whisper_text": "कि अवधितव भी पेंपल को कॉण कर सकते हैं",
+      "correction": "aur likh toh, likh toh nahi pata (collector: aur kaha tak padhe ho aap didi?) class 10 tak (collector: accha uske baad apne physiotherapy ka course liya?) haa",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 13,
+      "start": 194.64,
+      "end": 201.26,
+      "whisper_text": "और वसे अक्स्पाव के रूप में काम करतो हमारा सी प्रश्न विधियादा आरुका ले जाता है",
+      "correction": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 14,
+      "start": 203.72,
+      "end": 210.96,
+      "whisper_text": "मार अपनी दाख्यों के पीछारी को सब लड़ाव मारी के अश्राषणारी दी रखें",
+      "correction": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 15,
+      "start": 210.96,
+      "end": 228.82,
+      "whisper_text": "रो रहा था जो इधर आ जाओ इधर आ जाओ बहुत दूर था भागवर हॉस्पिटल में काम करता था तो इधर चलाया बाद भी इधर गुज़ गया और भाईया एक फ्रेंड है वो बुसा दिया तो इधर ही काम करो जिरे घर जाओ काम करो",
+      "correction": "ro raha tha ki idhar ajao idhar ajao bohot dur tha bhanvar hospital mein kaam karta tha  toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 16,
+      "start": 229.52,
+      "end": 250.74,
+      "whisper_text": "और कुछ भाषा बोल लेते हैं आप बिंगौंली बोल लेते हो वह भी भी हिंदी भी बोल ले सकते हैं",
+      "correction": "collector: aur kon konsi bhaashe bol lete ho aap, jaise bengali toh roz hi bol lete ho, hindi bhi araam se baat karli aapne\nspeaker: haa kabhi kabhi sab did bhai nahi bol pata toh thoda toh atak jata, bengali mein hi bolta hai, english thoda sa school mein tha",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 17,
+      "start": 258.46,
+      "end": 272.81,
+      "whisper_text": "हफ्ती करते हैं और लिए जैसे स्टूडेंट से बात करते हुआ था शुरू करने हैं आपको कैसे है स्टूडेंट",
+      "correction": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab\nspeakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\ncollector: jaise students se baat karte ho aap",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 18,
+      "start": 276.31,
+      "end": 302.93,
+      "whisper_text": "पहले बिया रमित कर था वह लेकर लेकर एक सबमें काम करता था एक सबमें पढ़ता था वह लोग अब उधर उधर से इधर आया इधर दीजी",
+      "correction": "speaker: pehle br ambedkar (hall) tha toh waha lerka lerki ek saath mein kaam karta tha ek sath mein hi padhta tha, udhar se idhar aya idhar didi log sab acche se kaam karte hai, didi bohut hi accha hai, didi log hai isliye hum log iit mein hai\ncollector: kisi se baat karne mein mushkil hoti hai aapko?\nspeaker: nahi toh didi log accha hai\ncollector: nahi lekin telegu jaise samajh nahi aati\nspeaker:nahi didi log accha hi hai, woh idhar aake khargapur mein hindi mein seekh jata hai\ncollector: aur aapke ghar mein khana kon banata hai?\nspeaker: kabhi hum banata hai kabhi mera bhabhi banata hai\ncollectir: kya roz mein banta hai\nspeaker: kabhi machi kabhi chicke kabhi dal sabhi banta hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    }
+  ],
+  "verified_segments": [
+    6
+  ],
+  "timestamp": "2026-11-05T06:24:44.584Z"
+}
