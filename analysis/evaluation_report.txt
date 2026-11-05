@@ -1,0 +1,63 @@
+======================================================================
+MORPHOLOGY-AWARE ANALYZER: EVALUATION REPORT
+======================================================================
+
+Corpus: 120 segments, 2060 words, 8 speakers
+
+────────────────────────────────────────
+1. LANGUAGE IDENTIFICATION
+────────────────────────────────────────
+  hindi       :  58.5%
+  unknown     :  26.9%
+  english     :   8.3%
+  bengali     :   6.2%
+
+────────────────────────────────────────
+2. GENDER ERROR DETECTION
+────────────────────────────────────────
+  Errors detected: 37
+
+  Per-speaker breakdown:
+    S1 (M): 1 errors, 178 words
+    S2 (F): 3 errors, 202 words
+    S3 (F): 6 errors, 230 words
+    S4 (F): 24 errors, 307 words
+    S5 (M): 0 errors, 307 words
+    S6 (M): 0 errors, 299 words
+    S7 (M): 1 errors, 308 words
+    S8 (F): 2 errors, 229 words
+
+────────────────────────────────────────
+3. CODE-SWITCH DETECTION
+────────────────────────────────────────
+  Switches detected: 72
+
+  Per-speaker Bengali words:
+    S1: 12 Bengali words, 8 switches
+    S2: 19 Bengali words, 13 switches
+    S3: 2 Bengali words, 2 switches
+    S4: 9 Bengali words, 8 switches
+    S5: 19 Bengali words, 12 switches
+    S6: 48 Bengali words, 11 switches
+    S7: 13 Bengali words, 12 switches
+    S8: 6 Bengali words, 6 switches
+
+────────────────────────────────────────
+4. ERGATIVE 'NE' ANALYSIS
+────────────────────────────────────────
+  Transitive perfective contexts: 8
+  With 'ne': 0
+  Without 'ne' (avoidance): 8
+
+────────────────────────────────────────
+5. ASR COMPARISON: CORRECTED vs WHISPER RAW
+────────────────────────────────────────
+  Gender errors (corrected):  37
+  Gender errors (Whisper raw): 0
+  → Hidden by Whisper: 37
+
+  Code-switches (corrected):  72
+  Code-switches (Whisper raw): 48
+  → Flattened by Whisper: 24
+
+======================================================================
