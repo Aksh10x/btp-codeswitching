@@ -181,7 +181,12 @@
           "end": 14.68,
           "probability": 0.9627
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "collector: didi yeh kya hai?\nspeaker: yeh darwaza hai, yeh chair hai, fan hai, eh kitaab hai, eh ghar hai, eh khirki hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "has_collector_speech": true
     },
     {
       "id": 2,
@@ -335,6 +340,33 @@
           "end": 29.9,
           "probability": 0.9846
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "speaker: eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paacho ungli, chaabi hai\ncollector: didi inn dono photo mein kya phark hai\nspeaker: yeh thoda chota hai thoda bada hai\ncollector: ismein aapko batana hai ki isne kya kiya\nspeaker: isne roti khaya, khana kha raha hai, eh darwaza kholke dekh raha hai, book padh raha hai, paani daal raha hai glass mein, paani gir gya, kitaab ulat gaya, khursi toot gaya, fan bhi tut gaya, khirki ghar purana jaise lag raha hai\ncollector: didi aap kaha se ho\nspeaker: mai bengal se\ncollector: bengal mein kaha se?\nspeaker: kharagpur se, yehe rehte hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "gender_agreement_errors": [
+        {
+          "pattern": "roti khaya",
+          "expected": "roti khai/khaayi",
+          "noun": "roti",
+          "noun_gender": "F",
+          "error": "masculine_default_on_feminine"
+        },
+        {
+          "pattern": "kitaab ulat gaya",
+          "expected": "kitaab ulat gayi",
+          "noun": "kitaab",
+          "noun_gender": "F",
+          "error": "masculine_default_on_feminine"
+        },
+        {
+          "pattern": "khursi toot gaya",
+          "expected": "khursi toot gayi",
+          "noun": "khursi/kursi",
+          "noun_gender": "F",
+          "error": "masculine_default_on_feminine"
+        }
       ]
     },
     {
@@ -363,6 +395,15 @@
           "end": 87.59,
           "probability": 0.9117
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "collector: aapka janm bhi yehi hua\nspeaker: janm bhi yahi shaadi bhi yahi\ncollector: ghar mein kya bhasha bolte hai\nspeaker: bengali bhasha bolte hai\ncollector: wohi bolte hai bachpan se?\nspeaker: ha\ncollecotr: aur koi bhasha aati hai aapko",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "has_collector_speech": true,
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bengali"
       ]
     },
     {
@@ -487,6 +528,14 @@
           "end": 114.63,
           "probability": 0.8959
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "speaker: haa hindi ata hai thoda thoda\ncollector: toh kaha tak padhe ho aap didi\nspeaker: hs tak, hs, higher secondary\ncollector toh school mein hogi hidndi\nspeaker: haa hai, do class 7 8th tha.\ncollector: toh usse pehle bhi aap bolne lage the aap?\ncollector: haa thoda sunke kyuki hum log ka school mein hindi english bhi hai dono rehat hai bengali hindi english aise rehta hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bengali"
       ]
     },
     {
@@ -641,7 +690,11 @@
           "end": 131.43,
           "probability": 0.9396
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "collecotr: aap din mein kitna time hindi use karte ho?\nspeaker: jab tak mai idhar kaam pe rehti tab tak hindi aur ek student ko padhati hu-",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 7,
@@ -783,7 +836,11 @@
           "end": 139.27,
           "probability": 0.9863
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "-tab hindi use karti hu\ncollector: aur yaha pe kya job role kya hai aapka\nspeaker: role yaha office purpose pe kaam hota hai toh-",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 8,
@@ -913,7 +970,11 @@
           "end": 149.05,
           "probability": 0.8568
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "-toh sab dekhna padta hai jaise student ka kuch problem complaint yeh sabhi aur kuch nahi\ncollector: didi aapke ghar mein khana kon banata hai?\nspeaker: mai hi banati hu mera husband bhi banata hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 9,
@@ -1067,7 +1128,11 @@
           "end": 157.59,
           "probability": 0.9556
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "kyuki mai subha ka duty pe ajati hu tab husband banata hai\ncollector: aur kya kya banate ho khaane mein\nspeaker: jaise daal chaawal machli",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 10,
@@ -1209,7 +1274,11 @@
           "end": 166.65,
           "probability": 0.9935
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "zyada tar hum log ka non veg hota hai, veg kam hota hai\ncollector: aur aap apna routine bataoge mujhe subha se lekar ab tak",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 11,
@@ -1351,7 +1420,11 @@
           "end": 174.33,
           "probability": 0.8011
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "collecotr: aapne kya kiya\nspeaker: haa subha uthne se chalu hota hai kapda dhona, bartan, pocha, jhaadu",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 12,
@@ -1499,7 +1572,11 @@
           "end": 184.59,
           "probability": 0.9917
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "ghar ka sab kaam eh karna pooja mera sabse important kaam hai pooja, bacche ka baal bandhke school chodanna, ehi gharka khana",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 13,
@@ -1647,7 +1724,11 @@
           "end": 194.95,
           "probability": 0.8855
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "jab mera second shift mein duty rehta hai toh tab uska khana vana taiyari karke aate hai phir idhar ka duty, phir jaake ghar pe khana banana",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 14,
@@ -1807,7 +1888,23 @@
           "end": 211.73,
           "probability": 0.955
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "collector: baccho se aap konsi bhasha mein baat karte hai\nspeaker: bengali hum log ka jo bhasha hai\ncollector: accha baccho se kabhi hindi nahi baat karte?\nspeaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai\ncollector: okay didi thankyou",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "has_collector_speech": true,
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "eta",
+        "bengali"
       ]
     }
-  ]
+  ],
+  "human_verification": {
+    "verified": true,
+    "total_corrections": 13,
+    "verified_ok_segments": [],
+    "verification_timestamp": "2026-11-05T21:36:54.378Z"
+  }
 }

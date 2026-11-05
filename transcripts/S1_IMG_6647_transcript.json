@@ -139,7 +139,12 @@
           "end": 75.84,
           "probability": 0.7827
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "yeh roti kha raha hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "rest was said by data collector"
     },
     {
       "id": 3,
@@ -299,7 +304,21 @@
           "end": 102.43,
           "probability": 0.9441
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "dorja",
+        "janala",
+        "jol",
+        "bhat",
+        "dhalche",
+        "bengali"
+      ],
+      "annotator_notes": "the rest was said by data collector"
     },
     {
       "id": 4,
@@ -447,7 +466,12 @@
           "end": 141.61,
           "probability": 0.8059
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "mera cycle shop hai aur (aar) mera ek ladki ek ladka , dono study hair karta",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "rest by data collector"
     },
     {
       "id": 5,
@@ -583,7 +607,12 @@
           "end": 158.01,
           "probability": 0.9908
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "ladki service karta, mera aar ek tho shop hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "subha se kya kya kiya is said by data collector after which speaker utters cycle ka kaam kara"
     },
     {
       "id": 6,
@@ -689,7 +718,12 @@
           "end": 186.34,
           "probability": 0.4588
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "pura puncture hawa repairing, sab repairing karta hu (speaker kitne baje ajate ho subhe) saadhe saath, shaam tak \"...\" beech mein lunch time karta do se paanch/chaar",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "data collectorasked kya karte ho kaam mein"
     },
     {
       "id": 7,
@@ -819,7 +853,11 @@
           "end": 191.5,
           "probability": 0.5769
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "entirely uttered by data collector saying koi din hota hoga jo bohto mushkil hota hoga toh kya reason se ....",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 8,
@@ -943,7 +981,12 @@
           "end": 203.78,
           "probability": 0.932
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "paareshani matlab kuch problem nahi rehta",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "data collector asked kya pareshaani hoti hai on a difficult day and asking if bacche pareshaan karte hai"
     },
     {
       "id": 9,
@@ -1019,7 +1062,9 @@
           "end": 214.56,
           "probability": 0.8544
         }
-      ]
+      ],
+      "human_verified": true,
+      "annotator_notes": "said entirely by speaker"
     },
     {
       "id": 10,
@@ -1071,7 +1116,12 @@
           "end": 221.42,
           "probability": 0.7452
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "nahi nahi aar kuch nahi",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "data collector: aur kuch aap apni cycle shop ke baare mein batana chaho"
     },
     {
       "id": 11,
@@ -1117,7 +1167,10 @@
           "end": 224.9,
           "probability": 0.5012
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 12,
@@ -1163,7 +1216,17 @@
           "end": 227.66,
           "probability": 0.9856
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "uncle bolta hai bhaiya bolta hai (whats students refer to him as)",
+      "error_type": "other",
+      "verification_status": "corrected"
     }
-  ]
+  ],
+  "human_verification": {
+    "verified": true,
+    "total_corrections": 11,
+    "verified_ok_segments": [],
+    "verification_timestamp": "2026-11-04T18:39:13.930Z"
+  }
 }

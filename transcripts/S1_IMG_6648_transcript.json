@@ -79,7 +79,10 @@
           "end": 3.58,
           "probability": 0.9325
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 2,
@@ -107,7 +110,11 @@
           "end": 4.54,
           "probability": 0.7558
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "khargapur (kharagpur) ka hi hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 3,
@@ -189,7 +196,10 @@
           "end": 7.2,
           "probability": 0.9501
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 5,
@@ -235,7 +245,10 @@
           "end": 10.6,
           "probability": 0.9302
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 6,
@@ -281,7 +294,11 @@
           "end": 12.32,
           "probability": 0.7922
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "mera pitaji service karta tha",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 7,
@@ -333,7 +350,9 @@
           "end": 15.77,
           "probability": 0.9931
         }
-      ]
+      ],
+      "human_verified": true,
+      "annotator_notes": "http://localhost:8765"
     },
     {
       "id": 8,
@@ -445,7 +464,16 @@
           "end": 34.74,
           "probability": 0.3112
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bengali"
+      ],
+      "annotator_notes": "then data sollcetor asks gharpe bengali bolte honge hindi nahi and speaker replied nahi bilkul nahi gharpe bengali"
     },
     {
       "id": 9,
@@ -635,7 +663,11 @@
           "end": 67.65,
           "probability": 0.6322
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "nahi bilkul nahi, students ke saath (data collector: kaha tak padhe ho dada?) hum graduate hai, bcom (data collectir: hindi kab tak padhe aap) hum 2 year padha tha 7 8 hum log ka 7 8 tak tha (data collector: aur koi language use karte ho?) english tha thoda sa",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 10,
@@ -747,7 +779,18 @@
           "end": 76.02,
           "probability": 0.704
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "(data collector: english kab take padhe) phada toh bcom tak hi english (collector: bcom english based tha, nice nice, thanku dada)",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "has_collector_speech": true
     }
-  ]
+  ],
+  "human_verification": {
+    "verified": true,
+    "total_corrections": 9,
+    "verified_ok_segments": [],
+    "verification_timestamp": "2026-11-04T18:44:05.331Z"
+  }
 }

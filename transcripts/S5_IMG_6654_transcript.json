@@ -43,7 +43,10 @@
           "end": 1.1,
           "probability": 0.9712
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 2,
@@ -95,6 +98,16 @@
           "end": 3.28,
           "probability": 0.9633
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "(bengali) yeh toh ek to dorja rakhe aschi",
+      "error_type": "missing_bengali",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "dorja",
+        "aschi",
+        "bengali"
       ]
     },
     {
@@ -129,6 +142,15 @@
           "end": 6.82,
           "probability": 0.6925
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "ek ta chair eta",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "ek ta",
+        "eta"
       ]
     },
     {
@@ -145,6 +167,14 @@
           "end": 8.79,
           "probability": 0.7653
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "hand, boi, baari",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "boi"
       ]
     },
     {
@@ -161,7 +191,9 @@
           "end": 13.56,
           "probability": 0.8623
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 6,
@@ -189,7 +221,11 @@
           "end": 16.5,
           "probability": 0.8909
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "glass of water",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 7,
@@ -205,7 +241,9 @@
           "end": 17.46,
           "probability": 0.8855
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 8,
@@ -221,7 +259,9 @@
           "end": 19.45,
           "probability": 0.9026
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 9,
@@ -237,7 +277,9 @@
           "end": 23.2,
           "probability": 0.9004
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 10,
@@ -253,7 +295,9 @@
           "end": 23.94,
           "probability": 0.7402
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 11,
@@ -269,7 +313,9 @@
           "end": 25.67,
           "probability": 0.8835
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 12,
@@ -339,7 +385,10 @@
           "end": 31.31,
           "probability": 0.6782
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 13,
@@ -445,7 +494,10 @@
           "end": 34.71,
           "probability": 0.5743
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 14,
@@ -551,7 +603,9 @@
           "end": 39.1,
           "probability": 0.9063
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 15,
@@ -603,7 +657,10 @@
           "end": 42.84,
           "probability": 0.8136
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 16,
@@ -763,7 +820,11 @@
           "end": 92.36,
           "probability": 0.9528
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "speaker: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai (then corrcects himself) kha rahi hai, yeh darwaza khol rahi hai, padh raha hai baccha, pine ke liye paani dal raha hai glass mein, glass ulti padi hai, book ulti padi hai, kursi tut gayi hai, pankha tuta hua hai, khidki se bahar ka nazara nazar araha hai\ncollector: dada aur aap apne baare mein batao aap kaha se ho\nspeaker: mai bilkul yehi ka hu\ncollectir: accha kharagpur mein hi paida hua\nspeaker: haa kharagpur ka hi paida hua, kharagpur mein hi paida hua",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 17,
@@ -905,6 +966,15 @@
           "end": 108.47,
           "probability": 0.5227
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "collector: dada aap ghar pe konsi bhasha bolte ho\nspeaker: gharme pure bangla bolte hai hum, sabhi log bangla bolte hai, (hindi bhi use nahi karte: collecotr) nahi bilkul nahi",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "has_collector_speech": true,
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bangla"
       ]
     },
     {
@@ -1047,7 +1117,12 @@
           "end": 132.3,
           "probability": 0.9211
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "collector: aap kitne saal se ho kharagpur mein\nspeaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu\ncollecotr: kaha tak padhe ho dada aap\nspeaker: mera toh graduation hai uske baad hotel management hai\ncollecotr: fir aapne \"something something\" konsi class mein shuru kari?\nspeaker: kharagpur toh ek matlab multilinngual city hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "has_collector_speech": true
     },
     {
       "id": 19,
@@ -1307,7 +1382,11 @@
           "end": 159.17,
           "probability": 0.9666
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "(kaafi din mai) bahar raha north india mein khas karke jaise ki haryana punjab dilli toh rajasthan toh waha pe hindi bolna hi tha aur koi language",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 21,
@@ -1467,6 +1546,14 @@
           "end": 177.05,
           "probability": 0.9155
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "collecotr: toh aap kitni languages bol lete hai\nspeaker: mai practices toh tha, punjabi bhi bolsakta tha, haryanvi aur mewadi but abhi toh nahi hoga shayad\ncollecotr: but ab aap samajh lete hai na\nspeaker: bilkul samajh jate hai\ncollecotr: kitne din time hota hai jab aapko hindi bolni padti hai\nspeaker: jab hindi bolne wale bacche humare paas aate hai tab hum hindi bolte hai\ncollecotr: toh kabhi kabhi bolte ho hindi, aapas mein bengali.... aur dada students kaise hai campus ke baare mein kuch?\nspeaker: campus ke baare mein, studenst hum toh pacchiis tees saal se students ko dekh rahe hia, humesha matlab different aur alag alag studenst alag type ke characteristics leke aate hai toh waise koi define nahi kar sakta ki students aise hai ya waise hai\ncollecotr: kisi se baat karne mein mushkil aati ho?\nspeaker: haa mushkil toh aati hai, kabhi kabhi kuch log disturb bhi hote hai aur kuch log disturb karte hai aise bhi hai\ncollector: aur dada mai puchu aapka subhe se lekar ab tak ka din batao toh aaj apne kya kiya hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bengali"
       ]
     },
     {
@@ -1615,7 +1702,11 @@
           "end": 264.09,
           "probability": 0.8232
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "mai subha paach baje uthta hu, pach baje uthek che saade che ke andar mai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 26,
@@ -1757,7 +1848,9 @@
           "end": 274.12,
           "probability": 0.9135
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 27,
@@ -1923,7 +2016,11 @@
           "end": 292.93,
           "probability": 0.8087
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "speaker:khaake thoda rest karke fir paach baje uthke wapis ata hu 10 baje ghar jata hu\ncollecotr: yaha pe kya karte ho kuch explain karo toh\nspeaker: mera job mainly hai subha ke jo morning breaks-",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 28,
@@ -2059,7 +2156,11 @@
           "end": 301.98,
           "probability": 0.994
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "-fast ka jo operation hai woh theek thaak hai ki nahi, pehke preafkast time pe jana jaruri hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 29,
@@ -2231,7 +2332,11 @@
           "end": 311.84,
           "probability": 0.9946
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "kyuki bacche first year ke wait karte hai unko class attend karna rehta hai toh uske baad jaise hi breakfast upar chala jata hai waise hi",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 30,
@@ -2379,7 +2484,9 @@
           "end": 322.39,
           "probability": 0.8829
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 31,
@@ -2515,7 +2622,9 @@
           "end": 330.22,
           "probability": 0.8453
         }
-      ]
+      ],
+      "human_verified": true,
+      "annotator_notes": "lunch not plunge"
     },
     {
       "id": 32,
@@ -2657,7 +2766,11 @@
           "end": 339.01,
           "probability": 0.8551
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "mai ghar jata hu, kabhi kabhi agar zyada pressure hua toh nahi bhi ja sakta, mauka nahi milta jaane ka",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 33,
@@ -2763,7 +2876,10 @@
           "end": 348.89,
           "probability": 0.8536
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 34,
@@ -2875,7 +2991,11 @@
           "end": 361.04,
           "probability": 0.8465
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "allotment ke time pe bohot zyada busy hote hai hum log, allotment ke time pe aur allotment ke aage peeche bhi, aage piche bhi busy rehna",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 35,
@@ -3005,7 +3125,11 @@
           "end": 369.38,
           "probability": 0.3361
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "rehna hota hai aur busy kabhi kabhi koi incident hojata hai toh hum busy hojate hai, aise toh hum log ka normal-",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 36,
@@ -3069,7 +3193,11 @@
           "end": 375.72,
           "probability": 0.9865
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "jo routine work hai usme hum log dhal jate hai toh woh kaam hum log kar lete hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 37,
@@ -3187,7 +3315,25 @@
           "end": 386.9,
           "probability": 0.8528
         }
-      ]
+      ],
+      "human_verified": true,
+      "annotator_notes": "(last part theek hai thankyou dada is collector)"
     }
-  ]
+  ],
+  "human_verification": {
+    "verified": true,
+    "total_corrections": 24,
+    "verified_ok_segments": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      14,
+      26,
+      30
+    ],
+    "verification_timestamp": "2026-11-05T07:18:23.366Z"
+  }
 }

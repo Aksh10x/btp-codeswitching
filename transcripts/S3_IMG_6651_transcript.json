@@ -55,7 +55,9 @@
           "end": 27.47,
           "probability": 0.9326
         }
-      ]
+      ],
+      "human_verified": true,
+      "annotator_notes": "bwfore this speaker says: door chair  fan books house window glass roti khana haath finger hands key and this specific line in dono mein phark kya hai is uttered by collector"
     },
     {
       "id": 2,
@@ -101,7 +103,12 @@
           "end": 37.7,
           "probability": 0.9976
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "chair, big and small",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "the transcripted words is said by collector"
     },
     {
       "id": 3,
@@ -159,7 +166,9 @@
           "end": 41.17,
           "probability": 0.9942
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 4,
@@ -205,7 +214,10 @@
           "end": 44.9,
           "probability": 0.999
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 5,
@@ -275,7 +287,9 @@
           "end": 47.72,
           "probability": 0.9962
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 6,
@@ -435,7 +449,11 @@
           "end": 67.68,
           "probability": 0.3565
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 7,
@@ -564,6 +582,19 @@
           "start": 83.51,
           "end": 83.77,
           "probability": 0.959
+        }
+      ],
+      "human_verified": true,
+      "corrected_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "gender_agreement_errors": [
+        {
+          "pattern": "chair tut gaya",
+          "expected": "chair tut gayi",
+          "noun": "chair/kursi",
+          "noun_gender": "F",
+          "error": "masculine_default_on_feminine"
         }
       ]
     },
@@ -701,7 +732,10 @@
           "end": 101.18,
           "probability": 0.9244
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 9,
@@ -831,7 +865,12 @@
           "end": 114.06,
           "probability": 0.9422
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "mushkil kuch nahi hai sab theek hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "rest is data collector: kya kya mushkil aati hai koi ofice mein din hota hoga j"
     },
     {
       "id": 10,
@@ -955,7 +994,12 @@
           "end": 127.94,
           "probability": 0.8937
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "kabhi aisa situation nahi hua jo bhi kaam ata hai hum log karta hai, allotment ka sab kyuki kaam ka load zyada hota hai kyuki time",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "data collector: jaise students jis din aate hai first day uss din thoda mushkil hota hoga"
     },
     {
       "id": 11,
@@ -1085,7 +1129,12 @@
           "end": 142.88,
           "probability": 0.9865
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "thoda ghar ka problem hota hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "rest is data collector"
     },
     {
       "id": 12,
@@ -1239,7 +1288,11 @@
           "end": 151.16,
           "probability": 0.4129
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "khana wana pakana yaha subha saat baje se raat 10 baje tak allotment ka samay\ndata collectir: aap normally kitne ghante kaam karte ho\n8 ghanta hum log-",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 13,
@@ -1579,7 +1632,12 @@
           "end": 183.58,
           "probability": 0.9457
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "data colllector: kab aate ho kab jaate ho\ncollectir: gharpe aapke khana kon banata hai\ncollectir: aap apni family ke baare mein kuch batana chaho"
     },
     {
       "id": 14,
@@ -1745,7 +1803,11 @@
           "end": 202.14,
           "probability": 0.9792
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "just start kiya hai abhi (in regards to fish farm) (collector: toh aap gharpe akele rehte ho?) nahi chota ladka hai bada toh bengal mein hai (collector: aur aap kaha se ho originally) kharagpur mein hi janam hua eh campus mein auer-",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 15,
@@ -1827,7 +1889,12 @@
           "end": 231.31,
           "probability": 0.8512
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "mai woh, third language tha hindi school mein fir mera bada ladka school mein thi usse mai study kiya hindi... thoda... itna acchi bhi bol nahi pata hu",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "collector: aur aapne hindi kabse bolni chalu kari\naur aap kitni bhaasha bol lete ho"
     },
     {
       "id": 16,
@@ -1969,7 +2036,9 @@
           "end": 246.82,
           "probability": 0.9389
         }
-      ]
+      ],
+      "human_verified": true,
+      "annotator_notes": "aapko kitne saal hue kharagpur mein is data collector"
     },
     {
       "id": 17,
@@ -2087,7 +2156,16 @@
           "end": 259.63,
           "probability": 0.227
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "bengali toh hai, main toh bengali medium ka student hai hum",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bengali"
+      ],
+      "annotator_notes": "data collectior only: didi aapki third language hindi hai toh aap dusra konsa seekhte ho, english seekhte ho"
     },
     {
       "id": 18,
@@ -2115,7 +2193,12 @@
           "end": 269.89,
           "probability": 0.8233
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "hindi na do saal hum logo ko padhaya",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "data collector: sabko 7th 8th mein padhaya?"
     },
     {
       "id": 20,
@@ -2137,7 +2220,11 @@
           "end": 303.58,
           "probability": 0.9366
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "sanshkrit hindi",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 21,
@@ -2225,7 +2312,11 @@
           "end": 313.28,
           "probability": 0.9823
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "subject (not subscribe)",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 22,
@@ -2289,7 +2380,9 @@
           "end": 319.06,
           "probability": 0.6308
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 23,
@@ -2341,7 +2434,9 @@
           "end": 323.64,
           "probability": 0.9835
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 24,
@@ -2417,7 +2512,11 @@
           "end": 329.14,
           "probability": 0.4427
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala lera",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 25,
@@ -2469,7 +2568,10 @@
           "end": 337.86,
           "probability": 0.6497
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_noise": true,
+      "verification_status": "noise"
     },
     {
       "id": 26,
@@ -2551,7 +2653,10 @@
           "end": 351.22,
           "probability": 0.3336
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_noise": true,
+      "verification_status": "noise"
     },
     {
       "id": 27,
@@ -2651,7 +2756,9 @@
           "end": 367.23,
           "probability": 0.726
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 28,
@@ -2679,7 +2786,22 @@
           "end": 368.83,
           "probability": 0.9142
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_noise": true,
+      "verification_status": "noise"
     }
-  ]
+  ],
+  "human_verification": {
+    "verified": true,
+    "total_corrections": 22,
+    "verified_ok_segments": [
+      3,
+      5,
+      22,
+      23,
+      27
+    ],
+    "verification_timestamp": "2026-11-05T06:06:45.165Z"
+  }
 }

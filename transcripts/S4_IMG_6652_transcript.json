@@ -109,7 +109,21 @@
           "end": 38.92,
           "probability": 0.9787
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "this is uttered by data collector and then collector asks in dono mei phark kya hai\nspeaker then says: chota bada hai, eh khana kha raha hai, almari khul raha hai, kitaab padh raha hai, eh paani dal raha hai, glass tut gaya, kitaab ulta ho gaya, chair tut gaya, fan kharaab ho gaya, end khidki ke bahar bohut ped hota hai woh dekh ke accha bhi lagta hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "gender_agreement_errors": [
+        {
+          "pattern": "chair tut gaya",
+          "expected": "chair tut gayi",
+          "noun": "chair/kursi",
+          "noun_gender": "F",
+          "error": "masculine_default_on_feminine"
+        }
+      ],
+      "annotator_notes": "before this timestamp speaker said: door chair kitchen a book a house a window a glass a pizza, khane ka thala, a car, a banjar?, a key"
     },
     {
       "id": 2,
@@ -245,7 +259,12 @@
           "end": 117.23,
           "probability": 0.9855
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "collector: और आप अपने बारे में बताओ कितने साल होंगे खड़कपुर\nspeaker: kharagpu mera janam hai, bachpan se mera pitaji gujar gaya",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "has_collector_speech": true
     },
     {
       "id": 3,
@@ -489,7 +508,11 @@
           "end": 132.62,
           "probability": 0.9881
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "maami bhaiya ke saath kaam karliya aur do hazaar pandra mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 4,
@@ -553,7 +576,12 @@
           "end": 143.74,
           "probability": 0.851
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "aur mera ek (something referring to a child) bhi hai woh english medium mein padhta hai aur aapko tarah padhna wadna seekhega",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "annotator_notes": "transcript words are uttered by collector after what i actually hear"
     },
     {
       "id": 5,
@@ -647,6 +675,14 @@
           "end": 152.0,
           "probability": 0.7072
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "mera ghar mein hindi bengali aur mera bhai beti english mein padh raha woh",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bengali"
       ]
     },
     {
@@ -729,7 +765,9 @@
           "end": 156.26,
           "probability": 0.967
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 7,
@@ -799,7 +837,10 @@
           "end": 167.98,
           "probability": 0.697
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_noise": true,
+      "verification_status": "noise"
     },
     {
       "id": 8,
@@ -845,7 +886,11 @@
           "end": 171.06,
           "probability": 0.953
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "vivekanando inistuti mein padhta hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 9,
@@ -891,7 +936,10 @@
           "end": 173.63,
           "probability": 0.9016
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 10,
@@ -991,7 +1039,11 @@
           "end": 178.95,
           "probability": 0.6799
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "hum jab 7th class aur 8th class padha aur do class mein hindi seekha",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 11,
@@ -1037,7 +1089,11 @@
           "end": 181.61,
           "probability": 0.901
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "hindi padh.... bol pata hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 12,
@@ -1101,7 +1157,11 @@
           "end": 192.92,
           "probability": 0.9729
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "aur likh toh, likh toh nahi pata (collector: aur kaha tak padhe ho aap didi?) class 10 tak (collector: accha uske baad apne physiotherapy ka course liya?) haa",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 13,
@@ -1207,7 +1267,11 @@
           "end": 201.26,
           "probability": 0.965
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 14,
@@ -1295,7 +1359,11 @@
           "end": 210.96,
           "probability": 0.3409
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 15,
@@ -1575,7 +1643,11 @@
           "end": 228.82,
           "probability": 0.9975
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "ro raha tha ki idhar ajao idhar ajao bohot dur tha bhanvar hospital mein kaam karta tha  toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 16,
@@ -1705,6 +1777,15 @@
           "end": 250.74,
           "probability": 0.8813
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "collector: aur kon konsi bhaashe bol lete ho aap, jaise bengali toh roz hi bol lete ho, hindi bhi araam se baat karli aapne\nspeaker: haa kabhi kabhi sab did bhai nahi bol pata toh thoda toh atak jata, bengali mein hi bolta hai, english thoda sa school mein tha",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "has_collector_speech": true,
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bengali"
       ]
     },
     {
@@ -1829,6 +1910,15 @@
           "end": 272.81,
           "probability": 0.8921
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab\nspeakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\ncollector: jaise students se baat karte ho aap",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "has_collector_speech": true,
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bengali"
       ]
     },
     {
@@ -2001,7 +2091,28 @@
           "end": 302.93,
           "probability": 0.7356
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "speaker: pehle br ambedkar (hall) tha toh waha lerka lerki ek saath mein kaam karta tha ek sath mein hi padhta tha, udhar se idhar aya idhar didi log sab acche se kaam karte hai, didi bohut hi accha hai, didi log hai isliye hum log iit mein hai\ncollector: kisi se baat karne mein mushkil hoti hai aapko?\nspeaker: nahi toh didi log accha hai\ncollector: nahi lekin telegu jaise samajh nahi aati\nspeaker:nahi didi log accha hi hai, woh idhar aake khargapur mein hindi mein seekh jata hai\ncollector: aur aapke ghar mein khana kon banata hai?\nspeaker: kabhi hum banata hai kabhi mera bhabhi banata hai\ncollectir: kya roz mein banta hai\nspeaker: kabhi machi kabhi chicke kabhi dal sabhi banta hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "gender_agreement_errors": [
+        {
+          "pattern": "bhabhi banata",
+          "expected": "bhabhi banati",
+          "noun": "bhabhi",
+          "noun_gender": "F",
+          "error": "masculine_default_on_feminine"
+        }
       ]
     }
-  ]
+  ],
+  "human_verification": {
+    "verified": true,
+    "total_corrections": 17,
+    "verified_ok_segments": [
+      6
+    ],
+    "verification_timestamp": "2026-11-05T06:24:44.584Z"
+  }
 }

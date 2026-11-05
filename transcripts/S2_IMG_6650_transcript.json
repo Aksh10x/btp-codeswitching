@@ -145,7 +145,11 @@
           "end": 29.59,
           "probability": 0.9585
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "yeh house hai, windows hai, glass hai, chapatees, eh dinner kya bole, uhhh kya bole (data collectir: jo aapke dimaag mein pehli baar aaye wohi boldijiye) accha isme kya kya hai woh bolna",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 2,
@@ -287,7 +291,11 @@
           "end": 48.15,
           "probability": 0.896
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys (data collectir: ab in dono mein phark kya hai)",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 3,
@@ -465,7 +473,11 @@
           "end": 72.46,
           "probability": 0.3376
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same, (collector: yeh kya karraha hai) yeh khana kha raha hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 4,
@@ -655,7 +667,13 @@
           "end": 100.87,
           "probability": 0.9709
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "(collector: close karke dekhe toh yeh kya kar raha hiai?) roti kha raha hai, (collector: yeh kya kar rahi hai?) chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bolte  dhaal raha hai na  hum log benghali(pauses and laughs and jibberish)",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "has_collector_speech": true,
+      "annotator_notes": "after end timestamp said jol dhalche, ohh bangla bhi chaale and spoke little bengali glass teke jol kore gyachi or something, book ulto hoye gache, chair bhengen ache (idk this is all bengali)"
     },
     {
       "id": 5,
@@ -767,7 +785,9 @@
           "end": 137.37,
           "probability": 0.9786
         }
-      ]
+      ],
+      "human_verified": true,
+      "annotator_notes": "all bengali"
     },
     {
       "id": 6,
@@ -903,6 +923,15 @@
           "end": 157.13,
           "probability": 0.9566
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "(data collector: jaise aapko kuch puchungi toh normal aap usme hi jwaab dena, jaise students kaise hai kya aapko baat karni mein mushkil hoti hai?) nahi mujhko baat karna mushkil kuch nahi hota hai emmm hindi aur thoda thoda english aur thoda bangla bhi (next timestamp has this)",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "has_collector_speech": true,
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bangla"
       ]
     },
     {
@@ -1051,7 +1080,9 @@
           "end": 166.89,
           "probability": 0.8788
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 8,
@@ -1193,6 +1224,14 @@
           "end": 177.64,
           "probability": 0.9284
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "lekin woh telegu ka mujhko theek tarah se hota nahi hai lekin woh toh mujhko samajh mein hi nahi ata, phir bhi thoda thoda word seekh raha hu usko seekh ke sunne se ha woh yeh bola",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "ek ta"
       ]
     },
     {
@@ -1335,7 +1374,12 @@
           "end": 194.08,
           "probability": 0.8584
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "(collector: studenst kaise lagte hai aapko)students acche lagte hai bohot students acche hai bohot students hasi mazaak bhi karte hai aur acche bhi hai",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "has_collector_speech": true
     },
     {
       "id": 10,
@@ -1483,7 +1527,10 @@
           "end": 199.42,
           "probability": 0.86
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 11,
@@ -1517,7 +1564,9 @@
           "end": 201.42,
           "probability": 0.6745
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 12,
@@ -1539,7 +1588,10 @@
           "end": 202.16,
           "probability": 0.8043
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 13,
@@ -1573,7 +1625,9 @@
           "end": 203.18,
           "probability": 0.9098
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 14,
@@ -1601,7 +1655,9 @@
           "end": 204.1,
           "probability": 0.8886
         }
-      ]
+      ],
+      "human_verified": true,
+      "annotator_notes": "junk and collector"
     },
     {
       "id": 15,
@@ -1635,7 +1691,9 @@
           "end": 208.12,
           "probability": 0.5278
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 16,
@@ -1657,7 +1715,10 @@
           "end": 209.78,
           "probability": 0.3343
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 17,
@@ -1805,6 +1866,14 @@
           "end": 220.68,
           "probability": 0.9729
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "this is entirely bengali: ghum theke utla, ghum theke uthe ami amar pollam tarpode ache ami brekfast banala tarpode something something i can understand",
+      "error_type": "missing_bengali",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bengali"
       ]
     },
     {
@@ -1941,6 +2010,14 @@
           "end": 244.3,
           "probability": 0.7629
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "data collectir: aapka home district aapka janm kaha hua hai\nspeaker: (bengali) amar emni janmo ache durgapure, vordhoman durgapur tarpore amar B.A. hoi chi kharagpure",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bengali"
       ]
     },
     {
@@ -2071,6 +2148,14 @@
           "end": 254.04,
           "probability": 0.8078
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "ami bechirphagi bangla use kori",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bangla"
       ]
     },
     {
@@ -2225,6 +2310,14 @@
           "end": 262.0,
           "probability": 0.868
         }
+      ],
+      "human_verified": true,
+      "corrected_text": "hindi amaer to subject ee chilo (entirely bengali) toh ami otha thike emni",
+      "error_type": "wrong_word",
+      "verification_status": "corrected",
+      "contains_bengali": true,
+      "bengali_words_found": [
+        "bengali"
       ]
     },
     {
@@ -2361,7 +2454,9 @@
           "end": 271.08,
           "probability": 0.9475
         }
-      ]
+      ],
+      "human_verified": true,
+      "annotator_notes": "looks correct since its bengali has collector in between when says aapne kitne saal hindi padhi hai"
     },
     {
       "id": 22,
@@ -2509,7 +2604,11 @@
           "end": 283.04,
           "probability": 0.8019
         }
-      ]
+      ],
+      "human_verified": true,
+      "corrected_text": "थारो अमिव एड थी के हिंदी चालू करेची यह अपने नीज़े पढ़ते पारी अब स्टूडेंट देर को पढ़िए ची",
+      "error_type": "wrong_word",
+      "verification_status": "corrected"
     },
     {
       "id": 23,
@@ -2573,7 +2672,10 @@
           "end": 285.56,
           "probability": 0.9747
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 24,
@@ -2595,7 +2697,10 @@
           "end": 286.7,
           "probability": 0.9713
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 25,
@@ -2671,7 +2776,10 @@
           "end": 289.0,
           "probability": 0.937
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     },
     {
       "id": 26,
@@ -2705,7 +2813,9 @@
           "end": 292.38,
           "probability": 0.8523
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 27,
@@ -2727,7 +2837,9 @@
           "end": 295.12,
           "probability": 0.9543
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 28,
@@ -2797,7 +2909,9 @@
           "end": 298.96,
           "probability": 0.7171
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 29,
@@ -2837,7 +2951,9 @@
           "end": 300.74,
           "probability": 0.6803
         }
-      ]
+      ],
+      "human_verified": true,
+      "verification_status": "ok"
     },
     {
       "id": 30,
@@ -2853,7 +2969,25 @@
           "end": 309.33,
           "probability": 0.8468
         }
-      ]
+      ],
+      "human_verified": true,
+      "is_collector": true,
+      "verification_status": "collector_speech"
     }
-  ]
+  ],
+  "human_verification": {
+    "verified": true,
+    "total_corrections": 22,
+    "verified_ok_segments": [
+      7,
+      11,
+      13,
+      15,
+      26,
+      27,
+      28,
+      29
+    ],
+    "verification_timestamp": "2026-11-04T19:01:19.721Z"
+  }
 }
