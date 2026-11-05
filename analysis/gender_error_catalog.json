@@ -1,0 +1,58 @@
+{
+  "title": "Gender Agreement Error Catalog",
+  "data_source": "human-corrected transcripts + speaker gender metadata",
+  "speaker_genders": {
+    "S1": "M", "S2": "F", "S3": "F", "S4": "F",
+    "S5": "M", "S6": "M", "S7": "M", "S8": "F"
+  },
+  "error_types": {
+    "noun_verb": "Feminine noun with masculine verb form (e.g., khursi toot gaya instead of gayi)",
+    "subject_verb": "Female speaker using masculine verb form about herself (e.g., mai kaam kiya instead of ki)"
+  },
+  "summary": {
+    "total_errors": 23,
+    "noun_verb_errors": 8,
+    "subject_verb_errors": 15,
+    "speakers_with_errors": ["S3", "S4", "S7", "S8"],
+    "all_errors_direction": "masculine_default",
+    "zero_feminine_on_masculine": true,
+    "pattern": "All errors show masculine-default. No speaker ever used a feminine form where masculine was expected. Consistent with Bengali L1 transfer — Bengali has no grammatical gender system."
+  },
+  "by_speaker": {
+    "S1": {"gender": "M", "noun_verb": 0, "subject_verb": "N/A (male)", "total": 0},
+    "S2": {"gender": "F", "noun_verb": 0, "subject_verb": 0, "total": 0, "note": "Despite being female, no confirmed self-referential errors. Possible higher Hindi proficiency."},
+    "S3": {"gender": "F", "noun_verb": 1, "subject_verb": 4, "total": 5},
+    "S4": {"gender": "F", "noun_verb": 2, "subject_verb": 10, "total": 12, "note": "Heaviest error speaker. Consistent masculine default across perfective, habitual, and progressive."},
+    "S5": {"gender": "M", "noun_verb": 0, "subject_verb": "N/A (male)", "total": 0},
+    "S6": {"gender": "M", "noun_verb": 0, "subject_verb": "N/A (male)", "total": 0},
+    "S7": {"gender": "M", "noun_verb": 2, "subject_verb": "N/A (male)", "total": 2, "note": "Male speaker but noun-verb errors on feminine nouns."},
+    "S8": {"gender": "F", "noun_verb": 3, "subject_verb": 1, "total": 4}
+  },
+  "noun_verb_errors": [
+    {"speaker": "S3", "time_s": 67.7, "said": "chair tut gaya", "expected": "chair tut gayi", "noun": "chair/kursi", "noun_gender": "F"},
+    {"speaker": "S4", "time_s": 29.5, "said": "kamar tut gaya", "expected": "kamar tut gayi", "noun": "kamar", "noun_gender": "F"},
+    {"speaker": "S4", "time_s": 276.3, "said": "bhabhi banata", "expected": "bhabhi banati", "noun": "bhabhi", "noun_gender": "F"},
+    {"speaker": "S7", "time_s": 50.0, "said": "ladies door khol raha", "expected": "ladies door khol rahi", "noun": "ladies", "noun_gender": "F"},
+    {"speaker": "S7", "time_s": 65.0, "said": "kitaab padh raha hai", "expected": "kitaab padh rahi hai", "noun": "kitaab", "noun_gender": "F"},
+    {"speaker": "S8", "time_s": 15.5, "said": "khursi toot gaya", "expected": "khursi toot gayi", "noun": "khursi/kursi", "noun_gender": "F"},
+    {"speaker": "S8", "time_s": 15.5, "said": "kitaab ulat gaya", "expected": "kitaab ulat gayi", "noun": "kitaab", "noun_gender": "F"},
+    {"speaker": "S8", "time_s": 15.5, "said": "gaadi kharab ho gaya", "expected": "gaadi kharab ho gayi", "noun": "gaadi", "noun_gender": "F"}
+  ],
+  "subject_verb_errors": [
+    {"speaker": "S3", "time_s": 114.1, "said": "hum log karta hai", "expected": "hum log karti hai", "verb_type": "habitual", "context": "describing work duties"},
+    {"speaker": "S3", "time_s": 151.2, "said": "hum log karta hai", "expected": "hum log karti hai", "verb_type": "habitual", "context": "describing evening shift"},
+    {"speaker": "S3", "time_s": 185.2, "said": "janam hua campus mein", "expected": "janam hui", "verb_type": "perfective", "context": "own birth"},
+    {"speaker": "S3", "time_s": 210.8, "said": "mai study kiya hindi", "expected": "mai study ki", "verb_type": "perfective", "context": "studying Hindi"},
+    {"speaker": "S4", "time_s": 117.2, "said": "kaam mein ghus gaya", "expected": "ghus gayi", "verb_type": "perfective", "context": "entering the job"},
+    {"speaker": "S4", "time_s": 117.2, "said": "physiotherapy seekh raha", "expected": "seekh rahi", "verb_type": "progressive", "context": "learning physiotherapy"},
+    {"speaker": "S4", "time_s": 181.6, "said": "apne course liya", "expected": "li", "verb_type": "perfective", "context": "taking physiotherapy course"},
+    {"speaker": "S4", "time_s": 194.6, "said": "hum kaam kiya", "expected": "ki", "verb_type": "perfective", "context": "working at hospital"},
+    {"speaker": "S4", "time_s": 211.0, "said": "kaam karta tha", "expected": "karti thi", "verb_type": "habitual_past", "context": "working at hospital"},
+    {"speaker": "S4", "time_s": 211.0, "said": "idhar ghus gaya", "expected": "ghus gayi", "verb_type": "perfective", "context": "joining IIT KGP"},
+    {"speaker": "S4", "time_s": 229.5, "said": "bengali mein hi bolta hai", "expected": "bolti hai", "verb_type": "habitual", "context": "speaking Bengali at home"},
+    {"speaker": "S4", "time_s": 258.5, "said": "bengali mein baat karta hai", "expected": "karti hai", "verb_type": "habitual", "context": "speaking Bengali"},
+    {"speaker": "S4", "time_s": 276.3, "said": "ek saath mein kaam karta tha", "expected": "karti thi", "verb_type": "habitual_past", "context": "working at Ambedkar hall"},
+    {"speaker": "S4", "time_s": 276.3, "said": "mein hi padhta tha", "expected": "padhti thi", "verb_type": "habitual_past", "context": "studying"},
+    {"speaker": "S8", "time_s": 139.3, "said": "mai hi banata hai", "expected": "banati hai", "verb_type": "habitual", "context": "cooking at home"}
+  ]
+}
