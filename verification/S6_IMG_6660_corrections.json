@@ -1,0 +1,190 @@
+{
+  "file": "S6_IMG_6660",
+  "speaker_code": "S6",
+  "corrections": [
+    {
+      "segment_id": 1,
+      "start": 0.06,
+      "end": 25.78,
+      "whisper_text": "आपको दिखाऊंगे आपको बताना है कि वह क्या है ठीक है एक बार क्या है दर्जा केदर आखा बोई भौर जानाला जल भौरा ग्लास परोटा",
+      "correction": "c for collector s for speaker\nc: dada mai photo dikhaungi aapko batana hai ki woh kya hai\ns: dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 2,
+      "start": 28.52,
+      "end": 36.18,
+      "whisper_text": "जो दिमाग में पहली आता है",
+      "correction": "c: jo dimaag mein pehle ata hai\ns: maruti",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 3,
+      "start": 39.23,
+      "end": 40.97,
+      "whisper_text": "हाथ और पंजा, चावी",
+      "correction": "hather panja, chaabi",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 4,
+      "start": 42.14,
+      "end": 46.98,
+      "whisper_text": "अब दादा इन दो फोटोस में आप क्या फरक बताओंगे",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "collector"
+    },
+    {
+      "segment_id": 5,
+      "start": 46.98,
+      "end": 49.82,
+      "whisper_text": "अगर मैं आपको कहूँ कि आप उस दोनों फोटोस देखो और फरक बताओ",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "collecotr"
+    },
+    {
+      "segment_id": 6,
+      "start": 49.82,
+      "end": 54.74,
+      "whisper_text": "जो चीज़ आपको दिमाग में आता है",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "collcotr"
+    },
+    {
+      "segment_id": 7,
+      "start": 54.74,
+      "end": 70.11,
+      "whisper_text": "ऐसा बहुत ज्यादा complicated नहीं है",
+      "correction": "dono toh khudchi hai, isme toh phark toh, chota aur bada",
+      "error_type": "wrong_word",
+      "notes": "collector"
+    },
+    {
+      "segment_id": 8,
+      "start": 70.96,
+      "end": 79.11,
+      "whisper_text": "यह फोटो देखने और उसने पता आपको बताना है कि इस बंदे ने क्या किया तो एक्सप्लेन करना पुझे सेंटेंस में लोग भी खबर",
+      "correction": "c: yeh photo dekh ke aapko explain karna hai ki kya kiya iss bande ne\ns: roti khabar khacchi",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 9,
+      "start": 79.11,
+      "end": 92.57,
+      "whisper_text": "ភात्च बंदों महिला खबाब चाहिए यह दर्ज आफ ऐसी वराजम सेलिटी पर शोरू कर सकते थे",
+      "correction": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 10,
+      "start": 93.68,
+      "end": 106.62,
+      "whisper_text": "मैं वह महिला ग्लास है जाता हुआ था दिस्टु अथियन यह है कि या बढ़ी आ पनी गिर गया ग्लास है",
+      "correction": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 11,
+      "start": 106.62,
+      "end": 120,
+      "whisper_text": "बोईटी उल्टो करे रहे हैं। चेहा भेंगे गया है। बाखा भेंगे गया है। जालना खोला अवस्ताह है।",
+      "correction": "s: boiti ulto kore rekh chi, chair bhenge gache, pakha bhenge gache, jalna khola something ache",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 12,
+      "start": 121.01,
+      "end": 147.44,
+      "whisper_text": "आर? नहीं दादा आप तहाँ से आपका पैटराउंड की आया है? मैं तो बंगलारी हूँ।",
+      "correction": "s: aar?\nc: dada aap kaha se ho aapka backgroudn kya hai\ns: ami tor bangali, khorgoporei jolmo\nc: nahi dada bengali mujhe samajh nahi aayegi hindi mein bliye please\ns: oh mai hindi mein bolu? mai kharagur ke poaida mera hu mai near iit campus\nc: aur dada aap ghar mein konsi bhasha bolte the?",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 13,
+      "start": 149.17,
+      "end": 159.97,
+      "whisper_text": "बैंगोली बच्चपन से घर में बोलते क्या है और भाषा यूज करते हैं घर में नहीं जनरली बैंगोली को भी नहीं",
+      "correction": "s: bengali\nc: bachpan se? aur koi bhasha use karte hai gahar mein?\ns: nahi generally bengali\nc: aur hindi mein baat nahi karte\ns: nahi ghar mein nahi chalta\nc: aur aapne hindi kaha se seekhi\ns: iit se\nc: aapne school mein ya dosto ke saath?\ns: nahi maine hindi iit mein rehke seekhi maane bachpan se iit mein hi hu, school bhi iit ke andar hi tha, hijli school\nc: aur aap kya kaam karte hai?\ns: yaha pe cooking mein kaam karta hu \nc: aur pure din mein agar aapko describe karna chaho aap hindi ktini use karte ho ksii student interaction mein",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 15,
+      "start": 191.42,
+      "end": 197.02,
+      "whisper_text": "बात करनी पड़ती है, students interaction. बात करना पड़ता तो पूरा कर सकता हूँ, ऐसा कोई problem नहीं है",
+      "correction": "s: nahi baat karna padta hai toh pura karleta hu mai aisa koi problem nahi hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 16,
+      "start": 197.02,
+      "end": 203.49,
+      "whisper_text": "और हंसे दिन में काम भी उस होती होती है? अल का student को बात करती है, हिंदी में, वो उस में करता हूँ",
+      "correction": "c: aur aise din mein kam use hoti hogi\ns: halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 17,
+      "start": 206.77,
+      "end": 224.65,
+      "whisper_text": "कि भूल सकता है मैं भूल सकता हूं या भूल सकता हूं थोड़े हवाइक आदम तेलगो भी थोड़ा-थोड़ा इसभी तौर से",
+      "correction": "c: aur koi language aap bol sakte ho\ns: haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda\nc: aur dada aapko students kaise lagte hai yahake campus ke\ns: bohot hi accha hai students",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 18,
+      "start": 225.51,
+      "end": 230.19,
+      "whisper_text": "तो फिर कोई एशू आता होगा किसी ना किसी स्टूडेंट से बात करने में कोई पर्शानी आती है।",
+      "correction": "c: phir bhi koi issue ata hoga kisi student se baat karne mein\n",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 20,
+      "start": 237.38,
+      "end": 241.04,
+      "whisper_text": "जब आप इस विद्ने ने जॉइंग किये थे यहाँ पर तो क्या प्रॉब्लम आई थी आप?",
+      "correction": "",
+      "error_type": "wrong_word",
+      "notes": "collector"
+    },
+    {
+      "segment_id": 21,
+      "start": 248.96,
+      "end": 274.44,
+      "whisper_text": "उन्होंने पूछता है खाना के बारे में पूछता है तो बगर जो पूछते हैं तो बोलता हूं तो बस वह खुश भी हो",
+      "correction": "s: un log puchta hai khana ke baari mein, nahi puchta hai? magar jab puchte hai mai bata deta hu fir khush hojate hai dada aisa nahi aisa bana hai\nc: aur aap batana chahoge aapne subha se lekar kya kya kiya\ns: subha se nahi mera 2 baje se chalu hua\nc: nahi nahi subha se aapke uthne se\ns: uthne se leke toh mai gharmein garden ka kaam tha, o ghar ka bagan thoda sa bagarna tha, uske baad marketting tha , market gaya, then aake ghar mein aur thoda kaam tha",
+      "error_type": "wrong_word",
+      "notes": ""
+    },
+    {
+      "segment_id": 23,
+      "start": 285.54,
+      "end": 303.59,
+      "whisper_text": "कुछ साफा वगैरह करना था बंखों को उपया के बाद जुबर को लांच करके थोड़ा बुद्ध रेस लिए फिर दो बाजे",
+      "correction": "s: kuch safa wagera karna tha pankha wankha woh kiya uske baad dopahar ko lunch karke thoda bohot rest liye aur uske baad duty agaye\nc: aur aapke ghar mein kon kon hai dada?\ns: mera ghar mein mera ek beta aur mera wife\nc: theek hai thankyou dada",
+      "error_type": "wrong_word",
+      "notes": ""
+    }
+  ],
+  "verified_segments": [
+    19
+  ],
+  "timestamp": "2026-11-05T21:55:01.613Z"
+}
