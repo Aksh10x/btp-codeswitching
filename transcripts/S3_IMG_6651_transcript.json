@@ -105,10 +105,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "chair, big and small",
+      "corrected_text": "s: chair, big and small",
       "error_type": "wrong_word",
       "verification_status": "corrected",
-      "annotator_notes": "the transcripted words is said by collector"
+      "annotator_notes": "Section B: identifying size differences."
     },
     {
       "id": 3,
@@ -451,9 +451,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "corrected_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Section C: action descriptions. Speaker uses English 'open the door' then switches to Hindi."
     },
     {
       "id": 7,
@@ -585,7 +586,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
+      "corrected_text": "s: yeh book [unclear], chair tut gaya, gin bhi tuta hai, window old window hai woh tut gaya, glass tuta hai",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "gender_agreement_errors": [
@@ -596,7 +597,8 @@
           "noun_gender": "F",
           "error": "masculine_default_on_feminine"
         }
-      ]
+      ],
+      "annotator_notes": "Gender error: 'chair tut gaya' should be 'tut gayi' (chair is F). Uses English 'book', 'window'."
     },
     {
       "id": 8,
@@ -867,7 +869,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "mushkil kuch nahi hai sab theek hai",
+      "corrected_text": "s: mushkil kuch nahi hai sab theek hai",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "annotator_notes": "rest is data collector: kya kya mushkil aati hai koi ofice mein din hota hoga j"
@@ -996,10 +998,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "kabhi aisa situation nahi hua jo bhi kaam ata hai hum log karta hai, allotment ka sab kyuki kaam ka load zyada hota hai kyuki time",
+      "corrected_text": "s: kabhi aisa situation nahi hua jo bhi kaam aata hai hum log karta hai, allotment ka sab kyuki kaam ka load zyada hota hai kyuki time",
       "error_type": "wrong_word",
       "verification_status": "corrected",
-      "annotator_notes": "data collector: jaise students jis din aate hai first day uss din thoda mushkil hota hoga"
+      "annotator_notes": "Gender error: female speaker uses 'karta hai' instead of 'karti hai'."
     },
     {
       "id": 11,
@@ -1131,7 +1133,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "thoda ghar ka problem hota hai",
+      "corrected_text": "s: thoda ghar ka problem hota hai",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "annotator_notes": "rest is data collector"
@@ -1290,9 +1292,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "khana wana pakana yaha subha saat baje se raat 10 baje tak allotment ka samay\ndata collectir: aap normally kitne ghante kaam karte ho\n8 ghanta hum log-",
+      "corrected_text": "s: khana wana pakana yaha subah saat baje se raat 10 baje tak allotment ka samay\nc: aap normally kitne ghante kaam karte ho?\ns: 8 ghanta hum log-",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Speaker describes daily schedule: cooking, working 7AM-10PM for allotment period."
     },
     {
       "id": 13,
@@ -1634,10 +1637,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
+      "corrected_text": "s: 8 ghanta abhi 6 se 2 baje tak toh jate jate 2:30 ho jata afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka Bengal mein abhi [continues]",
       "error_type": "wrong_word",
       "verification_status": "corrected",
-      "annotator_notes": "data colllector: kab aate ho kab jaate ho\ncollectir: gharpe aapke khana kon banata hai\ncollectir: aap apni family ke baare mein kuch batana chaho"
+      "annotator_notes": "Speaker works 8-hour shifts (6AM-2PM or 2PM-10PM). Cooks herself, has 2 sons, husband deceased. Elder son is in Bengal."
     },
     {
       "id": 14,
@@ -1805,9 +1808,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "just start kiya hai abhi (in regards to fish farm) (collector: toh aap gharpe akele rehte ho?) nahi chota ladka hai bada toh bengal mein hai (collector: aur aap kaha se ho originally) kharagpur mein hi janam hua eh campus mein auer-",
+      "corrected_text": "s: just start kiya hai abhi\nc: toh aap ghar pe akele rehte ho?\ns: nahi chota ladka hai bada toh Bengal mein hai\nc: aur aap kaha se ho originally?\ns: Kharagpur mein hi janam hua campus mein",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Refers to fish farm ('just start kiya hai'). Lives with younger son. Born on IIT KGP campus. Gender error: 'janam hua' should be 'janam hui' for female speaker."
     },
     {
       "id": 15,
@@ -1891,10 +1895,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "mai woh, third language tha hindi school mein fir mera bada ladka school mein thi usse mai study kiya hindi... thoda... itna acchi bhi bol nahi pata hu",
+      "corrected_text": "s: mai woh, third language tha hindi school mein, fir mera bada ladka school mein thi usse mai study kiya hindi... thoda... itna acchi bhi bol nahi pata hu",
       "error_type": "wrong_word",
       "verification_status": "corrected",
-      "annotator_notes": "collector: aur aapne hindi kabse bolni chalu kari\naur aap kitni bhaasha bol lete ho"
+      "annotator_notes": "Gender error: 'study kiya' should be 'study ki' (female speaker, perfective). Hindi was third language in school. Learned more Hindi through son's schooling."
     },
     {
       "id": 16,
@@ -2158,7 +2162,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "bengali toh hai, main toh bengali medium ka student hai hum",
+      "corrected_text": "s: bengali toh hai, main toh bengali medium ka student hai hum",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
@@ -2195,7 +2199,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "hindi na do saal hum logo ko padhaya",
+      "corrected_text": "s: hindi na do saal hum logo ko padhaya",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "annotator_notes": "data collector: sabko 7th 8th mein padhaya?"
@@ -2222,7 +2226,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "sanshkrit hindi",
+      "corrected_text": "s: sanskrit hindi",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -2314,9 +2318,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "subject (not subscribe)",
+      "corrected_text": "s: subject",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Clarifying she meant 'subject' not 'subscribe' (Whisper had transcribed as subscribe)."
     },
     {
       "id": 22,
@@ -2514,7 +2519,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala lera",
+      "corrected_text": "s: lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala leta",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },

@@ -147,14 +147,15 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "collector: aapko jo sabse pehle aaye\nspeaker: yeh door hai,  eh chair hai, fan, book, house, house ka dorja, na khidki, aa pani mein na glas mei pani, roti eh-",
+      "corrected_text": "c: aapko jo sabse pehle aaye\ns: yeh door hai, eh chair hai, fan, book, house, house ka dorja, na khidki, aa paani mein na glass mein paani, roti eh-",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true,
       "contains_bengali": true,
       "bengali_words_found": [
         "dorja"
-      ]
+      ],
+      "annotator_notes": "Section A: object naming. Mix of English (door, chair, fan, book, house) and Bengali (dorja for darwaza). Uses Hindi khidki, paani."
     },
     {
       "id": 2,
@@ -292,13 +293,14 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "speaker: lunch ya dinner, bhat\ncollector: ab dada in do photos mein kya farak dikhta hai aapko pehli nazar main aapko dekho dono",
+      "corrected_text": "s: lunch ya dinner, bhat\nc: ab dada in do photos mein kya farak dikhta hai aapko pehli nazar mein, dekho dono",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
       "bengali_words_found": [
         "bhat"
-      ]
+      ],
+      "annotator_notes": "Bengali 'bhat' (rice). Section B begins."
     },
     {
       "id": 3,
@@ -460,10 +462,11 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "collector speech",
+      "corrected_text": "c: [collector speech]",
       "error_type": "wrong_word",
       "verification_status": "corrected",
-      "has_collector_speech": true
+      "has_collector_speech": true,
+      "annotator_notes": "Entirely collector's speech."
     },
     {
       "id": 4,
@@ -703,7 +706,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "speaker: yeh small photo hai yeh bada photo hai\ncollector: a dada yeh batana yeh banda iss photo mein kya karaha hai\nspeaker: yeh khana kha raha hai, yeh girls khana kha raha hai, yeh ek ladies door khol raha hai, ek baccha kitaab padh raha hai, ek ladies glass mein paani daal raha hai, eh glass neechi palti hogaya paani neeche gir raha hai, book ulta karke rakha hua hai, khudchi tuta hua hai, fan ka ek blade tuta hua hai, eh dorja gate khula hua hai\ncollector: dada aap kaha se ho",
+      "corrected_text": "s: yeh small photo hai yeh bada photo hai\nc: dada yeh batana yeh banda iss photo mein kya kar raha hai\ns: yeh khana kha raha hai, yeh girls khana kha raha hai, yeh ek ladies door khol raha hai [continues]",
       "error_type": "hallucination",
       "verification_status": "corrected",
       "contains_bengali": true,
@@ -726,7 +729,8 @@
           "noun_gender": "F",
           "error": "masculine_default_on_feminine"
         }
-      ]
+      ],
+      "annotator_notes": "Gender error: 'ladies door khol raha' should be 'khol rahi' (ladies is F, should take feminine verb). Section C: action descriptions."
     },
     {
       "id": 6,
@@ -876,7 +880,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "speaker: mai kharagpur se hu\ncollecotr: gharpe konse bhasha bolte ho",
+      "corrected_text": "s: mai Kharagpur se hu\nc: ghar pe konsi bhasha bolte ho?",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -1010,13 +1014,14 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "speaker: bengali, bengali bhi bolte hai hindi bhi bolte hai\ncollector: kiske saath bolte ho hindi\nspeaker: eh misses(wife) ka saath bol lete hai aur baccha ka saath bhi bol lete hai\ncollector: aapne kabse hindi bolni shuru kari thi\nspeaker: kareeb 92 se\ncollector: school se padhi thi kya dada? dosto ke saath\nspeaker: indian army se\ncollector: kaha tak padhe hue ho dada",
+      "corrected_text": "s: Bengali, Bengali bhi bolte hai Hindi bhi bolte hai\nc: kiske saath bolte ho Hindi?\ns: eh misses ke saath bol lete hai aur bachcha ke saath bhi bol lete hai\nc: aapne kab [continues]",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
       "bengali_words_found": [
         "bengali"
-      ]
+      ],
+      "annotator_notes": "Speaker uses both Bengali and Hindi at home. Hindi with wife and children."
     },
     {
       "id": 8,
@@ -1154,7 +1159,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "speaker: mai inter... 12th\ncollector: toh aapke school mein bhi hota hoga na hindi\nspeaker: haa ek subject hota tha",
+      "corrected_text": "s: mai inter... 12th\nc: toh aapke school mein bhi hota hoga na Hindi?\ns: haa ek subject hota tha",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "annotator_notes": "security part is collector"
@@ -1301,7 +1306,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "collector: dine mein kitna time...\nspeaker: aisa koi yeh nahi hai matlab jisse baat karte hai-",
+      "corrected_text": "c: din mein kitna time...?\ns: aisa koi yeh nahi hai matlab jisse baat karte hai-",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true
@@ -1442,7 +1447,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "speaker: agle wala hindi wala hai toh usse hindi mein baat karte hai\ncollector: fir bhi ktini time jata hoga din ka hindi bolne mein?\nspeaker: wohi chaaar paach ghanta , paach ghanta che ghanta",
+      "corrected_text": "s: agle wala Hindi wala hai toh usse Hindi mein baat karte hai\nc: fir bhi kitna time jata hoga din ka Hindi bolne mein?\ns: wohi chaar paanch ghanta, paanch ghanta che ghanta",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -1582,7 +1587,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "collecotr: aur koi bhasha aap bolte ho\nspeaker: bengali hindi, english... thoda bohot",
+      "corrected_text": "c: aur koi bhasha aap bolte ho?\ns: Bengali Hindi, English... thoda bohot",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
@@ -1732,7 +1737,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "collector: aur dada aapko yaha ke students kaise lagte hai, ya koi din hota hoga jo mushkil jata hoga\nspeaker: nahi nahi nahi, mushkil hota hai kabhi, jaise ek parivaar mein kisi mein paach, sab barabar nahi hota-",
+      "corrected_text": "c: aur dada aapko yaha ke students kaise lagte hai, ya koi din hota hoga jo mushkil jata hoga?\ns: nahi nahi nahi, mushkil hota hai kabhi, jaise ek parivaar mein kisi mein paanch, sab barabar-",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true
@@ -1867,7 +1872,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "-yeh itna bada iit hai itna sara student hai toh student barabar nahi hoga na\ncollector: phir bhi usmein kya pareshani aati hai aapko\nspeaker: nahi woh normal hai\ncollector: aapki job ka sabse mushkil samay kya hota hai\nspeaker: nahi humara toh job ka wohi hai matlab protection rehna hai",
+      "corrected_text": "s: -yeh itna bada IIT hai itna saara student hai toh student barabar nahi hoga na\nc: phir bhi usmein kya pareshaani aati hai aapko?\ns: nahi woh normal hai\nc: aapki job ka sabse mushkil [continues]",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -2001,7 +2006,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "speaker: koi bhi problem rehta hai usko matlab uska solution nikalna hai\ncollector: kabhi bhi aisi koi pareshaani aayi aapko",
+      "corrected_text": "s: koi bhi problem rehta hai usko matlab uska solution nikalna hai\nc: kabhi bhi aisi koi pareshaani aayi aapko?",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -2141,9 +2146,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "speaker: nahi nahi aisa koi nahi hai\ncollector: matlab aap prefer karte honge na morning shift ho ya night shift ho\nspeaker: matlab mera duty ein agar koi cheez kami pesi reh gaya ya koi problem hua toh agle din hum woh handover karke jaate hai toh agle wale ko samajh mein aaye ki yaha koi problem tha aur uska koi solution hua ki nahi hua ya zyada hua toh usko report agaya toh hua ki nahi hua",
+      "corrected_text": "s: nahi nahi aisa koi nahi hai\nc: matlab aap prefer karte honge na morning shift ho ya night shift ho?\ns: matlab mera duty mein agar koi cheez kami paisi reh gaya ya koi problem hua toh [continues]",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "'paisi' likely 'paisi' (Bengali-influenced pronunciation of 'paise' or a dialectal form)."
     },
     {
       "id": 16,
@@ -2293,7 +2299,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "collector: toh aapko konsi shift sabse easy lagti hai aur sabse mushkil lagti hai\nspeaker: night shift sabse mushkil hai kyuki full night jaagna padta hai, night hota hai-",
+      "corrected_text": "c: toh aapko konsi shift sabse easy lagti hai aur sabse mushkil lagti hai?\ns: night shift sabse mushkil hai kyuki full night jaagna padta hai, night hota hai-",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true
@@ -2440,7 +2446,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "-sone ke liye uska hum against uska badnaam karta hai\ncollecotr: toh dada aap apna subha se leke ab tak ka routine batao aapne kya kya kiya\nspeaker: wohi hai subhe uthke fresh hoke duty hai toh duty mein ajate hai phir duty aath ghanta nikalne ke baad bhi duty duaraan breakfast karlete hai\n collector: aur duty ko thoda explain karo aap duty pe kya karte ho",
+      "corrected_text": "s: -sone ke liye uska hum against uska badnaam karta hai\nc: toh dada aap apna subah se leke ab tak ka routine batao aapne kya kya kiya\ns: wohi hai subah uthke fresh hoke duty hai toh duty mein [continues]",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -2586,7 +2592,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "speaker: wohi aane ke baad aise duty pe hum aya hai, aane ke baad agle jo duty pe tha uska kuch handover liya koi problem ho toh hum kabhi dekh lete hai",
+      "corrected_text": "s: wohi aane ke baad aise duty pe hum aaya hai, aane ke baad agle jo duty pe tha uska kuch handover liya koi problem ho toh hum kabhi dekh lete hai",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -2732,9 +2738,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "pesi ho toh ek baar ghum ke dekh lete hai, aur girls hostel hai koi boys wagera asani se na ghuse",
+      "corrected_text": "s: paisi ho toh ek baar ghum ke dekh lete hai, aur girls hostel hai koi boys wagera aasani se na ghuse",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Speaker does security rounds at girls hostel, ensures no unauthorized entry."
     },
     {
       "id": 20,
@@ -3035,7 +3042,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "collecotr: toh aapki boys hostel mein bhi duty lagti hogi\nspeaker: nahi nahi boys mein hum log ko lagta nahi hai hum log ismein hai isliye boys mein hum log ko lagta nahi hai",
+      "corrected_text": "c: toh aapki boys hostel mein bhi duty lagti hogi?\ns: nahi nahi boys mein hum log ko lagta nahi hai hum log ismein hai isliye boys mein hum log ko lagta nahi hai",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     }

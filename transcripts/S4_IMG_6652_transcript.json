@@ -111,7 +111,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "this is uttered by data collector and then collector asks in dono mei phark kya hai\nspeaker then says: chota bada hai, eh khana kha raha hai, almari khul raha hai, kitaab padh raha hai, eh paani dal raha hai, glass tut gaya, kitaab ulta ho gaya, chair tut gaya, fan kharaab ho gaya, end khidki ke bahar bohut ped hota hai woh dekh ke accha bhi lagta hai",
+      "corrected_text": "c: in dono mein phark kya hai?\ns: chota bada hai, eh khana kha raha hai, almari khul raha hai, kitaab padh raha hai, eh paani dal raha hai, glass tut gaya, kitaab ulta ho gaya, chair tut gaya, fan kharaab ho gaya, end khidki ke bahar bohut ped hota hai woh dekh ke accha bhi lagta hai",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "gender_agreement_errors": [
@@ -123,7 +123,7 @@
           "error": "masculine_default_on_feminine"
         }
       ],
-      "annotator_notes": "before this timestamp speaker said: door chair kitchen a book a house a window a glass a pizza, khane ka thala, a car, a banjar?, a key"
+      "annotator_notes": "Section A-C: object naming and action descriptions. Collector shows photos first, then asks differences. Speaker describes actions in photos. Gender error: 'chair tut gaya' should be 'tut gayi' (chair/kursi is F). Before this, speaker had named objects: door, chair, kitchen, a book, a house, a window, a glass, a pizza, khane ka thaali, a car, [unclear], a key."
     },
     {
       "id": 2,
@@ -261,7 +261,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "collector: और आप अपने बारे में बताओ कितने साल होंगे खड़कपुर\nspeaker: kharagpu mera janam hai, bachpan se mera pitaji gujar gaya",
+      "corrected_text": "c: aur aap apne baare mein batao kitne saal honge Kharagpur mein?\ns: Kharagpur mera janam hai, bachpan se mera pitaji gujar gaya",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true
@@ -510,9 +510,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "maami bhaiya ke saath kaam karliya aur do hazaar pandra mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya",
+      "corrected_text": "s: maami bhaiya ke saath kaam kar liya aur do hazaar pandrah mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Multiple gender errors by female speaker: 'ghus gaya' (should be gayi), 'seekh raha' (should be rahi), 'tut gaya' (kamar is F, should be gayi), 'a gaya' (should be aayi). Started work in 2015."
     },
     {
       "id": 4,
@@ -578,10 +579,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "aur mera ek (something referring to a child) bhi hai woh english medium mein padhta hai aur aapko tarah padhna wadna seekhega",
+      "corrected_text": "s: aur mera ek bachcha bhi hai woh english medium mein padhta hai aur aapke tarah padhna wadhna seekhega",
       "error_type": "wrong_word",
       "verification_status": "corrected",
-      "annotator_notes": "transcript words are uttered by collector after what i actually hear"
+      "annotator_notes": "Original note said 'something referring to a child' - context indicates speaker is talking about her child studying in English medium."
     },
     {
       "id": 5,
@@ -677,7 +678,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "mera ghar mein hindi bengali aur mera bhai beti english mein padh raha woh",
+      "corrected_text": "s: mera ghar mein hindi bengali aur mera bhai beti english mein padh raha woh",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
@@ -888,9 +889,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "vivekanando inistuti mein padhta hai",
+      "corrected_text": "s: Vivekananda institute mein padhta hai",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Speaker's child studies at Vivekananda Institute."
     },
     {
       "id": 9,
@@ -1041,7 +1043,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "hum jab 7th class aur 8th class padha aur do class mein hindi seekha",
+      "corrected_text": "s: hum jab 7th class aur 8th class padha aur do class mein hindi seekha",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -1091,7 +1093,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "hindi padh.... bol pata hai",
+      "corrected_text": "s: hindi padh... bol pata hai",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -1159,7 +1161,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "aur likh toh, likh toh nahi pata (collector: aur kaha tak padhe ho aap didi?) class 10 tak (collector: accha uske baad apne physiotherapy ka course liya?) haa",
+      "corrected_text": "s: aur likh toh, likh toh nahi pata\nc: aur kaha tak padhe ho aap didi?\ns: class 10 tak\nc: accha uske baad aapne physiotherapy ka course liya?\ns: haa",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -1269,9 +1271,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
+      "corrected_text": "s: aur ek hospital mein hum kaam kiya che mahine, daaktar ke saath kaam kiya uske saath-",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Gender error: 'kaam kiya' should be 'kaam ki' (female speaker, perfective)."
     },
     {
       "id": 14,
@@ -1361,9 +1364,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
+      "corrected_text": "s: mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Speaker struggling to find words, trails off with hesitation."
     },
     {
       "id": 15,
@@ -1645,9 +1649,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "ro raha tha ki idhar ajao idhar ajao bohot dur tha bhanvar hospital mein kaam karta tha  toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo",
+      "corrected_text": "s: ro raha tha ki idhar aajao idhar aajao bohot dur tha Bhanwar hospital mein kaam karta tha toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Gender errors: 'kaam karta tha' (should be karti thi), 'ghus gaya' (should be gayi). Speaker describing how she came to work at IIT KGP — her brother got her placed here."
     },
     {
       "id": 16,
@@ -1779,14 +1784,15 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "collector: aur kon konsi bhaashe bol lete ho aap, jaise bengali toh roz hi bol lete ho, hindi bhi araam se baat karli aapne\nspeaker: haa kabhi kabhi sab did bhai nahi bol pata toh thoda toh atak jata, bengali mein hi bolta hai, english thoda sa school mein tha",
+      "corrected_text": "c: aur kon konsi bhaashaein bol lete ho aap, jaise bengali toh roz hi bol lete ho, hindi bhi araam se baat kar li aapne\ns: haa kabhi kabhi sab didi bhai nahi bol pata toh thoda toh atak jata, bengali mein hi bolta hai, english thoda sa school mein tha",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true,
       "contains_bengali": true,
       "bengali_words_found": [
         "bengali"
-      ]
+      ],
+      "annotator_notes": "Gender error: 'bolta hai' should be 'bolti hai' (female speaker). Speaker admits getting stuck sometimes, defaults to Bengali, had some English in school."
     },
     {
       "id": 17,
@@ -1912,14 +1918,15 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "collector: konsi bhaasha mein baat karto ho aap aapas mein, hindi kitni use karte ho matlab\nspeakjer: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\ncollector: jaise students se baat karte ho aap",
+      "corrected_text": "c: konsi bhaasha mein baat karte ho aap aapas mein, hindi kitni use karte ho matlab?\ns: bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai\nc: jaise students se baat karte ho aap?",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true,
       "contains_bengali": true,
       "bengali_words_found": [
         "bengali"
-      ]
+      ],
+      "annotator_notes": "Gender errors: 'baat karta hai' and 'use karta hai' should be 'karti hai' (female speaker)."
     },
     {
       "id": 18,
@@ -2093,7 +2100,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "speaker: pehle br ambedkar (hall) tha toh waha lerka lerki ek saath mein kaam karta tha ek sath mein hi padhta tha, udhar se idhar aya idhar didi log sab acche se kaam karte hai, didi bohut hi accha hai, didi log hai isliye hum log iit mein hai\ncollector: kisi se baat karne mein mushkil hoti hai aapko?\nspeaker: nahi toh didi log accha hai\ncollector: nahi lekin telegu jaise samajh nahi aati\nspeaker:nahi didi log accha hi hai, woh idhar aake khargapur mein hindi mein seekh jata hai\ncollector: aur aapke ghar mein khana kon banata hai?\nspeaker: kabhi hum banata hai kabhi mera bhabhi banata hai\ncollectir: kya roz mein banta hai\nspeaker: kabhi machi kabhi chicke kabhi dal sabhi banta hai",
+      "corrected_text": "s: pehle BR Ambedkar hall tha toh waha lerka lerki ek saath mein kaam karta tha ek saath mein hi padhta tha, udhar se idhar aaya idhar didi log sab acche se kaam karte hai, didi bohut hi accha hai",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "gender_agreement_errors": [
@@ -2104,7 +2111,8 @@
           "noun_gender": "F",
           "error": "masculine_default_on_feminine"
         }
-      ]
+      ],
+      "annotator_notes": "Gender errors: 'kaam karta tha' and 'padhta tha' should be 'karti thi'/'padhti thi' (female speaker describing her own past). 'lerka lerki' = boys and girls."
     }
   ],
   "human_verification": {

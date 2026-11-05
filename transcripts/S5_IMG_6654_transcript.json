@@ -100,7 +100,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "(bengali) yeh toh ek to dorja rakhe aschi",
+      "corrected_text": "s: yeh toh ek toh dorja rakhe ache",
       "error_type": "missing_bengali",
       "verification_status": "corrected",
       "contains_bengali": true,
@@ -108,7 +108,8 @@
         "dorja",
         "aschi",
         "bengali"
-      ]
+      ],
+      "annotator_notes": "Bengali mixed: 'dorja' (door), 'rakhe ache' (Bengali: has been kept). Bengali construction mixed with Hindi."
     },
     {
       "id": 3,
@@ -144,14 +145,15 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "ek ta chair eta",
+      "corrected_text": "s: ek ta chair eta",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
       "bengali_words_found": [
         "ek ta",
         "eta"
-      ]
+      ],
+      "annotator_notes": "Bengali classifier 'ta' + English 'chair' + Bengali deictic 'eta' (this/here). Three-way code-mixing."
     },
     {
       "id": 4,
@@ -169,13 +171,14 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "hand, boi, baari",
+      "corrected_text": "s: hand, boi, baari",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
       "bengali_words_found": [
         "boi"
-      ]
+      ],
+      "annotator_notes": "English 'hand', Bengali 'boi' (book), 'baari' (house/home, Bengali variant)."
     },
     {
       "id": 5,
@@ -223,7 +226,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "glass of water",
+      "corrected_text": "s: glass of water",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -822,9 +825,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "speaker: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai (then corrcects himself) kha rahi hai, yeh darwaza khol rahi hai, padh raha hai baccha, pine ke liye paani dal raha hai glass mein, glass ulti padi hai, book ulti padi hai, kursi tut gayi hai, pankha tuta hua hai, khidki se bahar ka nazara nazar araha hai\ncollector: dada aur aap apne baare mein batao aap kaha se ho\nspeaker: mai bilkul yehi ka hu\ncollectir: accha kharagpur mein hi paida hua\nspeaker: haa kharagpur ka hi paida hua, kharagpur mein hi paida hua",
+      "corrected_text": "s: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai, kha rahi hai, yeh darwaza khol rahi hai, padh raha hai bachcha, pine ke liye paani [unclear continuation]",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Speaker self-corrects: says 'kha raha hai' then corrects to 'kha rahi hai' (noticing the subject is female in the photo). Shows awareness of gender agreement."
     },
     {
       "id": 17,
@@ -968,7 +972,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "collector: dada aap ghar pe konsi bhasha bolte ho\nspeaker: gharme pure bangla bolte hai hum, sabhi log bangla bolte hai, (hindi bhi use nahi karte: collecotr) nahi bilkul nahi",
+      "corrected_text": "c: dada aap ghar pe konsi bhasha bolte ho?\ns: ghar mein pure Bangla bolte hai hum, sabhi log Bangla bolte hai\nc: hindi bhi use nahi karte?\ns: nahi bilkul nahi",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true,
@@ -1119,10 +1123,11 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "collector: aap kitne saal se ho kharagpur mein\nspeaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu\ncollecotr: kaha tak padhe ho dada aap\nspeaker: mera toh graduation hai uske baad hotel management hai\ncollecotr: fir aapne \"something something\" konsi class mein shuru kari?\nspeaker: kharagpur toh ek matlab multilinngual city hai",
+      "corrected_text": "c: aap kitne saal se ho Kharagpur mein?\ns: uhh around my... mera umar hai 56, toh utne din se mai yehi pe hu\nc: kaha tak padhe ho dada aap?\ns: mera toh graduation hai uske baad [continues]",
       "error_type": "wrong_word",
       "verification_status": "corrected",
-      "has_collector_speech": true
+      "has_collector_speech": true,
+      "annotator_notes": "Speaker is 56, has been in Kharagpur his entire life. Has a graduation degree."
     },
     {
       "id": 19,
@@ -1384,9 +1389,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "(kaafi din mai) bahar raha north india mein khas karke jaise ki haryana punjab dilli toh rajasthan toh waha pe hindi bolna hi tha aur koi language",
+      "corrected_text": "s: kaafi din mai bahar raha North India mein khas karke jaise ki Haryana Punjab Delhi toh Rajasthan toh waha pe hindi bolna hi tha aur koi language",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Speaker spent time in North India (Haryana, Punjab, Delhi, Rajasthan) where Hindi was necessary."
     },
     {
       "id": 21,
@@ -1548,13 +1554,14 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "collecotr: toh aap kitni languages bol lete hai\nspeaker: mai practices toh tha, punjabi bhi bolsakta tha, haryanvi aur mewadi but abhi toh nahi hoga shayad\ncollecotr: but ab aap samajh lete hai na\nspeaker: bilkul samajh jate hai\ncollecotr: kitne din time hota hai jab aapko hindi bolni padti hai\nspeaker: jab hindi bolne wale bacche humare paas aate hai tab hum hindi bolte hai\ncollecotr: toh kabhi kabhi bolte ho hindi, aapas mein bengali.... aur dada students kaise hai campus ke baare mein kuch?\nspeaker: campus ke baare mein, studenst hum toh pacchiis tees saal se students ko dekh rahe hia, humesha matlab different aur alag alag studenst alag type ke characteristics leke aate hai toh waise koi define nahi kar sakta ki students aise hai ya waise hai\ncollecotr: kisi se baat karne mein mushkil aati ho?\nspeaker: haa mushkil toh aati hai, kabhi kabhi kuch log disturb bhi hote hai aur kuch log disturb karte hai aise bhi hai\ncollector: aur dada mai puchu aapka subhe se lekar ab tak ka din batao toh aaj apne kya kiya hai",
+      "corrected_text": "c: toh aap kitni languages bol lete hai?\ns: mai practice toh tha, Punjabi bhi bol sakta tha, Haryanvi aur Mewadi but abhi toh nahi hoga shayad\nc: but ab aap samajh lete hai na?\ns: [unclear continuation]",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
       "bengali_words_found": [
         "bengali"
-      ]
+      ],
+      "annotator_notes": "Speaker could speak Punjabi, Haryanvi, and Mewadi during his North India days, but may have lost fluency."
     },
     {
       "id": 25,
@@ -1704,9 +1711,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "mai subha paach baje uthta hu, pach baje uthek che saade che ke andar mai",
+      "corrected_text": "s: mai subah paanch baje uthta hu, paanch baje uthke che saadhe che ke andar mai",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Bengali influence: 'uthke che' mixes Bengali 'che' (progressive auxiliary) with Hindi. Wakes at 5, ready by 6:30."
     },
     {
       "id": 26,
@@ -2018,9 +2026,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "speaker:khaake thoda rest karke fir paach baje uthke wapis ata hu 10 baje ghar jata hu\ncollecotr: yaha pe kya karte ho kuch explain karo toh\nspeaker: mera job mainly hai subha ke jo morning breaks-",
+      "corrected_text": "s: khaake thoda rest karke fir paanch baje uthke wapis aata hu das baje ghar jata hu\nc: yaha pe kya karte ho kuch explain karo toh\ns: mera job mainly hai subah ke jo morning breakfast-",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Speaker describes daily routine: eats, rests, returns at 5PM, goes home at 10PM. Job involves morning breakfast operations."
     },
     {
       "id": 28,
@@ -2158,7 +2167,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "-fast ka jo operation hai woh theek thaak hai ki nahi, pehke preafkast time pe jana jaruri hai",
+      "corrected_text": "s: -fast ka jo operation hai woh theek thaak hai ki nahi, pehle breakfast time pe jana zaruri hai",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -2334,7 +2343,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "kyuki bacche first year ke wait karte hai unko class attend karna rehta hai toh uske baad jaise hi breakfast upar chala jata hai waise hi",
+      "corrected_text": "s: kyuki bachche first year ke wait karte hai unko class attend karna rehta hai toh uske baad jaise hi breakfast upar chala jata hai waise hi",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -2768,7 +2777,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "mai ghar jata hu, kabhi kabhi agar zyada pressure hua toh nahi bhi ja sakta, mauka nahi milta jaane ka",
+      "corrected_text": "s: mai ghar jata hu, kabhi kabhi agar zyada pressure hua toh nahi bhi ja sakta, mauka nahi milta jaane ka",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -2993,7 +3002,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "allotment ke time pe bohot zyada busy hote hai hum log, allotment ke time pe aur allotment ke aage peeche bhi, aage piche bhi busy rehna",
+      "corrected_text": "s: allotment ke time pe bohot zyada busy hote hai hum log, allotment ke time pe aur allotment ke aage peeche bhi, aage peeche bhi busy rehna",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -3127,7 +3136,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "rehna hota hai aur busy kabhi kabhi koi incident hojata hai toh hum busy hojate hai, aise toh hum log ka normal-",
+      "corrected_text": "s: rehna hota hai aur busy kabhi kabhi koi incident ho jata hai toh hum busy ho jate hai, aise toh hum log ka normal-",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -3195,7 +3204,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "jo routine work hai usme hum log dhal jate hai toh woh kaam hum log kar lete hai",
+      "corrected_text": "s: jo routine work hai usme hum log dhal jate hai toh woh kaam hum log kar lete hai",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },

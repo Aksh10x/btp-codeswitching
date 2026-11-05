@@ -147,9 +147,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "yeh house hai, windows hai, glass hai, chapatees, eh dinner kya bole, uhhh kya bole (data collectir: jo aapke dimaag mein pehli baar aaye wohi boldijiye) accha isme kya kya hai woh bolna",
+      "corrected_text": "s: yeh house hai, windows hai, glass hai, chapatees, eh dinner kya bole, uhhh kya bole\nc: jo aapke dimaag mein pehli baar aaye wohi bol dijiye\ns: accha isme kya kya hai woh bolna",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Section A: naming objects. Speaker hesitates on some items."
     },
     {
       "id": 2,
@@ -293,9 +294,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys (data collectir: ab in dono mein phark kya hai)",
+      "corrected_text": "s: thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys\nc: ab in dono mein phark kya hai",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Continuing object naming. Then collector moves to Section B (differences)."
     },
     {
       "id": 3,
@@ -475,9 +477,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same, (collector: yeh kya karraha hai) yeh khana kha raha hai",
+      "corrected_text": "s: yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same\nc: yeh kya kar raha hai?\ns: yeh khana kha raha hai",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Section B adjective pairs, then Section C action descriptions begin."
     },
     {
       "id": 4,
@@ -669,11 +672,11 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "(collector: close karke dekhe toh yeh kya kar raha hiai?) roti kha raha hai, (collector: yeh kya kar rahi hai?) chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bolte  dhaal raha hai na  hum log benghali(pauses and laughs and jibberish)",
+      "corrected_text": "c: close karke dekhe toh yeh kya kar raha hai?\ns: roti kha raha hai\nc: yeh kya kar rahi hai?\ns: chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bole [unclear]",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true,
-      "annotator_notes": "after end timestamp said jol dhalche, ohh bangla bhi chaale and spoke little bengali glass teke jol kore gyachi or something, book ulto hoye gache, chair bhengen ache (idk this is all bengali)"
+      "annotator_notes": "Note: collector uses feminine 'kar rahi hai' but speaker responds with masculine 'kha raha hai' for all actions. No gender distinction in verb forms even when prompted with feminine."
     },
     {
       "id": 5,
@@ -925,14 +928,15 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "(data collector: jaise aapko kuch puchungi toh normal aap usme hi jwaab dena, jaise students kaise hai kya aapko baat karni mein mushkil hoti hai?) nahi mujhko baat karna mushkil kuch nahi hota hai emmm hindi aur thoda thoda english aur thoda bangla bhi (next timestamp has this)",
+      "corrected_text": "c: jaise aapko kuch puchungi toh normal aap usme hi jawaab dena, jaise students kaise hai kya aapko baat karne mein mushkil hoti hai?\ns: nahi mujhko baat karna mushkil kuch nahi hota hai [unclear continuation]",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true,
       "contains_bengali": true,
       "bengali_words_found": [
         "bangla"
-      ]
+      ],
+      "annotator_notes": "Section E: conversation about work life. Speaker says she has no difficulty talking."
     },
     {
       "id": 7,
@@ -1376,7 +1380,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "(collector: studenst kaise lagte hai aapko)students acche lagte hai bohot students acche hai bohot students hasi mazaak bhi karte hai aur acche bhi hai",
+      "corrected_text": "c: students kaise lagte hai aapko?\ns: students acche lagte hai bohot, students acche hai bohot, students hasi mazaak bhi karte hai aur acche bhi hai",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true
@@ -1868,13 +1872,14 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "this is entirely bengali: ghum theke utla, ghum theke uthe ami amar pollam tarpode ache ami brekfast banala tarpode something something i can understand",
+      "corrected_text": "s: ghum theke uthlam, ghum theke uthe ami amar pollam tarpore ache, ami breakfast banalam, tarpore [unclear Bengali]",
       "error_type": "missing_bengali",
       "verification_status": "corrected",
       "contains_bengali": true,
       "bengali_words_found": [
         "bengali"
-      ]
+      ],
+      "annotator_notes": "Full Bengali: 'I woke up from sleep, after waking up my husband was there, I made breakfast, then...' Speaker switches entirely to Bengali for morning routine. ghum=sleep, uthlam=I woke up, pollam=husband (colloquial), tarpore=then, banalam=I made."
     },
     {
       "id": 18,
@@ -2012,13 +2017,14 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "data collectir: aapka home district aapka janm kaha hua hai\nspeaker: (bengali) amar emni janmo ache durgapure, vordhoman durgapur tarpore amar B.A. hoi chi kharagpure",
+      "corrected_text": "c: aapka home district, aapka janam kaha hua hai?\ns: amar janmo ache Durgapure, Bardhaman Durgapur, tarpore amar B.A. hoiche Kharagpure",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
       "bengali_words_found": [
         "bengali"
-      ]
+      ],
+      "annotator_notes": "Bengali: 'My birth is in Durgapur, Bardhaman Durgapur, then my B.A. happened in Kharagpur.' amar=my, janmo=birth, ache=is, tarpore=then, hoiche=happened."
     },
     {
       "id": 19,
@@ -2150,13 +2156,14 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "ami bechirphagi bangla use kori",
+      "corrected_text": "s: ami beshirbhag Bangla use kori",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
       "bengali_words_found": [
         "bangla"
-      ]
+      ],
+      "annotator_notes": "Bengali: 'I mostly use Bengali.' beshirbhag=mostly, kori=do."
     },
     {
       "id": 20,
@@ -2312,13 +2319,14 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "hindi amaer to subject ee chilo (entirely bengali) toh ami otha thike emni",
+      "corrected_text": "s: hindi amar to subject-i chilo, toh ami oita thik emni [unclear Bengali]",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
       "bengali_words_found": [
         "bengali"
-      ]
+      ],
+      "annotator_notes": "Bengali: 'Hindi was my subject, so I [learned] it properly like that.' Entirely Bengali. chilo=was, oita=that, thik=properly."
     },
     {
       "id": 21,
@@ -2606,9 +2614,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "थारो अमिव एड थी के हिंदी चालू करेची यह अपने नीज़े पढ़ते पारी अब स्टूडेंट देर को पढ़िए ची",
+      "corrected_text": "s: [unclear Bengali - possibly describing when she started using Hindi, reading/teaching students]",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Devanagari in Whisper output does not match any clear Hindi or Bengali sentence. Speaker likely speaking fast Bengali about her Hindi learning journey. Original Whisper: थारो अमिव एड थी के हिंदी चालू करेची..."
     },
     {
       "id": 23,

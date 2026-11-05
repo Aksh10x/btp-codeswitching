@@ -112,9 +112,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "khargapur (kharagpur) ka hi hai",
+      "corrected_text": "s: kharagpur ka hi hai",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Speaker confirms he is from Kharagpur."
     },
     {
       "id": 3,
@@ -296,7 +297,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "mera pitaji service karta tha",
+      "corrected_text": "s: mera pitaji service karta tha",
       "error_type": "wrong_word",
       "verification_status": "corrected"
     },
@@ -466,14 +467,14 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
+      "corrected_text": "s: hum thoda sa hi... bengali... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
       "bengali_words_found": [
         "bengali"
       ],
-      "annotator_notes": "then data sollcetor asks gharpe bengali bolte honge hindi nahi and speaker replied nahi bilkul nahi gharpe bengali"
+      "annotator_notes": "Speaker explaining Bengali is his primary language. Hindi was a third language subject starting from class 7, at Hijli High School."
     },
     {
       "id": 9,
@@ -665,9 +666,10 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "nahi bilkul nahi, students ke saath (data collector: kaha tak padhe ho dada?) hum graduate hai, bcom (data collectir: hindi kab tak padhe aap) hum 2 year padha tha 7 8 hum log ka 7 8 tak tha (data collector: aur koi language use karte ho?) english tha thoda sa",
+      "corrected_text": "s: nahi bilkul nahi, students ke saath\nc: kaha tak padhe ho dada?\ns: hum graduate hai, bcom\nc: hindi kab tak padhe aap?\ns: hum 2 year padha tha, 7-8 hum log ka 7-8 tak tha",
       "error_type": "wrong_word",
-      "verification_status": "corrected"
+      "verification_status": "corrected",
+      "annotator_notes": "Speaker says he has no trouble with students. Has B.Com degree. Had Hindi as subject for 2 years in class 7-8."
     },
     {
       "id": 10,
@@ -781,10 +783,11 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "(data collector: english kab take padhe) phada toh bcom tak hi english (collector: bcom english based tha, nice nice, thanku dada)",
+      "corrected_text": "c: english kab tak padhe?\ns: padha toh bcom tak hi english\nc: bcom english based tha, nice nice, thankyou dada",
       "error_type": "wrong_word",
       "verification_status": "corrected",
-      "has_collector_speech": true
+      "has_collector_speech": true,
+      "annotator_notes": "Speaker studied English through B.Com."
     }
   ],
   "human_verification": {

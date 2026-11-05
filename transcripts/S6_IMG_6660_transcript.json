@@ -171,7 +171,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "c for collector s for speaker\nc: dada mai photo dikhaungi aapko batana hai ki woh kya hai\ns: dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali",
+      "corrected_text": "c: dada mai photo dikhaungi aapko batana hai ki woh kya hai\ns: dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true,
@@ -184,7 +184,8 @@
         "boi",
         "ghor",
         "kedara"
-      ]
+      ],
+      "annotator_notes": "Section A: all Bengali words — dorja (door), kedara (chair), pakha (fan), boi (book), ghor (house), janala (window), jol (water), parota (flatbread), khabaar (food). Speaker names every object in Bengali despite being asked in Hindi."
     },
     {
       "id": 2,
@@ -232,7 +233,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "c: jo dimaag mein pehle ata hai\ns: maruti",
+      "corrected_text": "c: jo dimaag mein pehle aata hai\ns: maruti",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true
@@ -271,13 +272,14 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "hather panja, chaabi",
+      "corrected_text": "s: hather panja, chaabi",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
       "bengali_words_found": [
         "hather"
-      ]
+      ],
+      "annotator_notes": "Bengali 'hather panja' (palm of the hand). 'chaabi' (key) is shared Hindi-Bengali."
     },
     {
       "id": 4,
@@ -699,7 +701,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "c: yeh photo dekh ke aapko explain karna hai ki kya kiya iss bande ne\ns: roti khabar khacchi",
+      "corrected_text": "c: yeh photo dekh ke aapko explain karna hai ki kya kiya iss bande ne\ns: roti khabaar khacchi",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true,
@@ -707,7 +709,8 @@
       "bengali_words_found": [
         "khabar",
         "khacchi"
-      ]
+      ],
+      "annotator_notes": "Bengali: 'khacchi' is progressive form (eating). 'khabaar' = food. Full Bengali response to Hindi prompt."
     },
     {
       "id": 9,
@@ -815,7 +818,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)",
+      "corrected_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
@@ -828,7 +831,8 @@
         "cheleti",
         "badro",
         "mahila"
-      ]
+      ],
+      "annotator_notes": "Full Bengali: 'The elder woman is eating food, the door is open, the girl is studying.' badro=elder, mahila=woman, khacchi=eating, dorja=door, khule ache=is open, cheleti=the girl, porachuna=studies, korche=is doing."
     },
     {
       "id": 10,
@@ -966,7 +970,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se",
+      "corrected_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
@@ -976,7 +980,8 @@
         "badro",
         "mahila",
         "glasser"
-      ]
+      ],
+      "annotator_notes": "Bengali: 'The elder woman is pouring water from the glass.' glasser=of the glass, jol=water, dhalche=is pouring. Collector prompts for Hindi, speaker switches."
     },
     {
       "id": 11,
@@ -1090,7 +1095,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "s: boiti ulto kore rekh chi, chair bhenge gache, pakha bhenge gache, jalna khola something ache",
+      "corrected_text": "s: boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche, janala khola [unclear] ache",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
@@ -1101,7 +1106,8 @@
         "ulto",
         "rekh chi",
         "gache"
-      ]
+      ],
+      "annotator_notes": "Bengali: 'The book has been kept upside down, the chair has broken, the fan has broken, the window is open [unclear].' boiti=the book, ulto kore=upside down, rekhechi=I have kept, bhenge geche=has broken, janala=window, khola=open. Original had 'jalna' which is likely mishearing of 'janala'."
     },
     {
       "id": 12,
@@ -1203,14 +1209,15 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "s: aar?\nc: dada aap kaha se ho aapka backgroudn kya hai\ns: ami tor bangali, khorgoporei jolmo\nc: nahi dada bengali mujhe samajh nahi aayegi hindi mein bliye please\ns: oh mai hindi mein bolu? mai kharagur ke poaida mera hu mai near iit campus\nc: aur dada aap ghar mein konsi bhasha bolte the?",
+      "corrected_text": "s: aar?\nc: dada aap kaha se ho aapka background kya hai?\ns: ami tor Bangali, Khorgoporei jonmo\nc: nahi dada Bengali mujhe samajh nahi aayegi Hindi mein boliye please\ns: oh mai Hindi mein bolu? mai Kharagpur ke paida mera hu, mai near IIT campus",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
       "bengali_words_found": [
         "jol",
         "bengali"
-      ]
+      ],
+      "annotator_notes": "Bengali: 'ami tor Bangali' = I am Bengali, 'Khorgoporei jonmo' = born in Kharagpur. Collector cannot understand Bengali, asks for Hindi. Speaker switches."
     },
     {
       "id": 13,
@@ -1480,7 +1487,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "s: nahi baat karna padta hai toh pura karleta hu mai aisa koi problem nahi hai",
+      "corrected_text": "s: nahi baat karna padta hai toh pura kar leta hu mai aisa koi problem nahi hai",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
@@ -1642,7 +1649,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "c: aur aise din mein kam use hoti hogi\ns: halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai",
+      "corrected_text": "c: aur aise din mein kam use hoti hogi?\ns: halka koi student use karti hai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein Bengali chalta hai",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true,
@@ -1793,7 +1800,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "c: aur koi language aap bol sakte ho\ns: haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda\nc: aur dada aapko students kaise lagte hai yahake campus ke\ns: bohot hi accha hai students",
+      "corrected_text": "c: aur koi language aap bol sakte ho?\ns: haa Hindi bol sakta hu, Odia bhi thoda bohot, Bhojpuri bhi aata hai, Telugu bhi thoda thoda\nc: aur dada aapko students kaise lagte hai yaha ke campus ke?\ns: bohot hi accha hai students",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true
@@ -1916,7 +1923,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "c: phir bhi koi issue ata hoga kisi student se baat karne mein",
+      "corrected_text": "c: phir bhi koi issue aata hoga kisi student se baat karne mein?",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "has_collector_speech": true
@@ -2364,13 +2371,14 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "s: un log puchta hai khana ke baari mein, nahi puchta hai? magar jab puchte hai mai bata deta hu fir khush hojate hai dada aisa nahi aisa bana hai\nc: aur aap batana chahoge aapne subha se lekar kya kya kiya\ns: subha se nahi mera 2 baje se chalu hua\nc: nahi nahi subha se aapke uthne se\ns: uthne se leke toh mai gharmein garden ka kaam tha, o ghar ka bagan thoda sa bagarna tha, uske baad marketting tha , market gaya, then aake ghar mein aur thoda kaam tha",
+      "corrected_text": "s: un log puchta hai khana ke baare mein, nahi puchta hai? magar jab puchte hai mai bata deta hu fir khush ho jate hai dada aisa nahi aisa bana hai\nc: aur aap batana chahoge aapne subah se lekar kya kya kiya?\ns: subah se nahi mera 2 baje se chalu hua\nc: nahi nahi subah se aapke uthne se\ns: uthne se leke toh mai ghar mein garden ka kaam tha, o ghar ka bagan thoda sa bagarna tha, uske baad marketing tha, market gaya, then aake ghar mein aur thoda kaam tha",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
       "bengali_words_found": [
         "eta"
-      ]
+      ],
+      "annotator_notes": "Bengali 'bagan' (garden), 'bagarna' (to tend/clean). Speaker starts work at 2PM. Morning involves gardening and going to market."
     },
     {
       "id": 23,
@@ -2508,7 +2516,7 @@
         }
       ],
       "human_verified": true,
-      "corrected_text": "s: kuch safa wagera karna tha pankha wankha woh kiya uske baad dopahar ko lunch karke thoda bohot rest liye aur uske baad duty agaye\nc: aur aapke ghar mein kon kon hai dada?\ns: mera ghar mein mera ek beta aur mera wife\nc: theek hai thankyou dada",
+      "corrected_text": "s: kuch safa wagera karna tha pankha wankha woh kiya uske baad dopahar ko lunch karke thoda bohot rest liye aur uske baad duty aa gaye\nc: aur aapke ghar mein kon kon hai dada?\ns: mera ghar mein mera ek beta aur mera wife\nc: theek hai thankyou dada",
       "error_type": "wrong_word",
       "verification_status": "corrected",
       "contains_bengali": true,
