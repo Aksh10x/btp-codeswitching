@@ -1,0 +1,145 @@
+{
+  "total_speakers": 9,
+  "total_words": 2060,
+  "total_segments": 120,
+  "total_gender_errors": 37,
+  "total_code_switches": 78,
+  "total_ergative_contexts": 8,
+  "ergative_with_ne": 0,
+  "language_distribution": {
+    "hindi": 0.6388,
+    "bengali": 0.0704,
+    "english": 0.1214,
+    "unknown": 0.1165
+  },
+  "per_speaker": {
+    "S1": {
+      "gender": "M",
+      "words": 69,
+      "segments": 5,
+      "gender_errors": 0,
+      "code_switches": 1,
+      "bengali_words": 1,
+      "ergative_contexts": 2,
+      "ergative_with_ne": 0,
+      "language_distribution": {
+        "hindi": 0.5797,
+        "bengali": 0.0145,
+        "english": 0.2029,
+        "unknown": 0.2029
+      }
+    },
+    "S2": {
+      "gender": "F",
+      "words": 202,
+      "segments": 12,
+      "gender_errors": 3,
+      "code_switches": 12,
+      "bengali_words": 34,
+      "ergative_contexts": 1,
+      "ergative_with_ne": 0,
+      "language_distribution": {
+        "hindi": 0.5248,
+        "bengali": 0.1683,
+        "english": 0.104,
+        "unknown": 0.203
+      }
+    },
+    "S3": {
+      "gender": "F",
+      "words": 230,
+      "segments": 15,
+      "gender_errors": 6,
+      "code_switches": 2,
+      "bengali_words": 2,
+      "ergative_contexts": 0,
+      "ergative_with_ne": 0,
+      "language_distribution": {
+        "hindi": 0.7217,
+        "bengali": 0.0087,
+        "english": 0.1783,
+        "unknown": 0.0913
+      }
+    },
+    "S4": {
+      "gender": "F",
+      "words": 307,
+      "segments": 15,
+      "gender_errors": 24,
+      "code_switches": 8,
+      "bengali_words": 9,
+      "ergative_contexts": 3,
+      "ergative_with_ne": 0,
+      "language_distribution": {
+        "hindi": 0.7655,
+        "bengali": 0.0293,
+        "english": 0.1107,
+        "unknown": 0.0945
+      }
+    },
+    "S5": {
+      "gender": "M",
+      "words": 307,
+      "segments": 17,
+      "gender_errors": 0,
+      "code_switches": 14,
+      "bengali_words": 23,
+      "ergative_contexts": 0,
+      "ergative_with_ne": 0,
+      "language_distribution": {
+        "hindi": 0.6775,
+        "bengali": 0.0749,
+        "english": 0.1205,
+        "unknown": 0.127
+      }
+    },
+    "S6": {
+      "gender": "M",
+      "words": 299,
+      "segments": 15,
+      "gender_errors": 0,
+      "code_switches": 11,
+      "bengali_words": 53,
+      "ergative_contexts": 2,
+      "ergative_with_ne": 0,
+      "language_distribution": {
+        "hindi": 0.612,
+        "bengali": 0.1773,
+        "english": 0.087,
+        "unknown": 0.1237
+      }
+    },
+    "S7": {
+      "gender": "M",
+      "words": 308,
+      "segments": 19,
+      "gender_errors": 1,
+      "code_switches": 14,
+      "bengali_words": 16,
+      "ergative_contexts": 0,
+      "ergative_with_ne": 0,
+      "language_distribution": {
+        "hindi": 0.6948,
+        "bengali": 0.0519,
+        "english": 0.1494,
+        "unknown": 0.1039
+      }
+    },
+    "S8": {
+      "gender": "F",
+      "words": 229,
+      "segments": 13,
+      "gender_errors": 2,
+      "code_switches": 7,
+      "bengali_words": 7,
+      "ergative_contexts": 0,
+      "ergative_with_ne": 0,
+      "language_distribution": {
+        "hindi": 0.7162,
+        "bengali": 0.0306,
+        "english": 0.1354,
+        "unknown": 0.1179
+      }
+    }
+  }
+}

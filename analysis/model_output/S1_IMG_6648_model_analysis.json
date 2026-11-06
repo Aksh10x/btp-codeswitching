@@ -1,0 +1,473 @@
+{
+  "filename": "transcripts/S1_IMG_6648_transcript.json",
+  "speaker_code": "S1",
+  "speaker_gender": "M",
+  "total_segments": 5,
+  "total_words": 69,
+  "segments": [
+    {
+      "segment_id": 2,
+      "speaker": "S1",
+      "text": "kharagpur ka hi hai",
+      "word_annotations": [
+        {
+          "word": "kharagpur",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "ka",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hi",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.5,
+        "english": 0.25,
+        "unknown": 0.25
+      }
+    },
+    {
+      "segment_id": 6,
+      "speaker": "S1",
+      "text": "mera pitaji service karta tha",
+      "word_annotations": [
+        {
+          "word": "mera",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "pitaji",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "service",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "karta",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "tha",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.8,
+        "english": 0.2
+      }
+    },
+    {
+      "segment_id": 8,
+      "speaker": "S1",
+      "text": "hum thoda sa hi... bengali... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
+      "word_annotations": [
+        {
+          "word": "hum",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "thoda",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "sa",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "hi...",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "bengali...",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "mera",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "bengali",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "language",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "hai...",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "iska",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "baad",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hum",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hindi",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "woh",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "seventh",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "se",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "seventh",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "se",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hum...",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "mera",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hijli",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "high",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "school",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "ka",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "schooling",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "aur",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "third",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "language",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "tha",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "mera",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hindi",
+          "language": "english",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.5312,
+        "english": 0.25,
+        "unknown": 0.2188
+      }
+    },
+    {
+      "segment_id": 9,
+      "speaker": "S1",
+      "text": "nahi bilkul nahi, students ke saath hum graduate hai, bcom hum 2 year padha tha, 7-8 hum log ka 7-8 tak tha",
+      "word_annotations": [
+        {
+          "word": "nahi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "bilkul",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "nahi,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "students",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "ke",
+          "language": "bengali",
+          "bengali_info": null
+        },
+        {
+          "word": "saath",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hum",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "graduate",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "bcom",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "hum",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "2",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "year",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "padha",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "tha,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "7-8",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "hum",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "log",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ka",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "7-8",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "tak",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "tha",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [
+        {
+          "verb_stem": "padh",
+          "perfective_form": "padha",
+          "has_ne": false,
+          "context": "nahi bilkul nahi, students ke saath hum graduate hai, bcom hum 2 year padha tha, 7-8 hum log ka 7-8 tak tha"
+        }
+      ],
+      "code_switches": [
+        {
+          "switch_type": "three_way",
+          "rule_id": "R6",
+          "bengali_span": "ke",
+          "hindi_context": "nahi bilkul nahi, students ke saath hum graduate hai, bcom hum 2 year padha tha, 7-8 hum log ka 7-8 tak tha",
+          "details": "Bengali + English elements in Hindi matrix"
+        }
+      ],
+      "language_distribution": {
+        "hindi": 0.6364,
+        "bengali": 0.0455,
+        "english": 0.0909,
+        "unknown": 0.2273
+      }
+    },
+    {
+      "segment_id": 10,
+      "speaker": "S1",
+      "text": "padha toh bcom tak hi english",
+      "word_annotations": [
+        {
+          "word": "padha",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "toh",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "bcom",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "tak",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hi",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "english",
+          "language": "english",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [
+        {
+          "verb_stem": "padh",
+          "perfective_form": "padha",
+          "has_ne": false,
+          "context": "padha toh bcom tak hi english"
+        }
+      ],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.5,
+        "english": 0.3333,
+        "unknown": 0.1667
+      }
+    }
+  ],
+  "summary": {
+    "language_distribution": {
+      "hindi": 0.5797,
+      "bengali": 0.0145,
+      "english": 0.2029,
+      "unknown": 0.2029
+    },
+    "gender_errors": {
+      "noun_verb": 0,
+      "subject_verb": 0
+    },
+    "ergative": {
+      "with_ne": 0,
+      "without_ne": 2
+    },
+    "code_switches": {
+      "tag_switch": 0,
+      "intra_sentential": 0,
+      "inter_sentential": 0,
+      "three_way": 1
+    }
+  }
+}

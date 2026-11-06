@@ -1,0 +1,1448 @@
+{
+  "filename": "transcripts/S8_IMG_6664_transcript.json",
+  "speaker_code": "S8",
+  "speaker_gender": "F",
+  "total_segments": 13,
+  "total_words": 229,
+  "segments": [
+    {
+      "segment_id": 1,
+      "speaker": "S8",
+      "text": "yeh darwaza hai, yeh chair hai, fan hai, eh kitaab hai, eh ghar hai, eh khidki hai",
+      "word_annotations": [
+        {
+          "word": "yeh",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "darwaza",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "yeh",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "chair",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "fan",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "eh",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "kitaab",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "eh",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "ghar",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "eh",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "khidki",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.7059,
+        "english": 0.1176,
+        "unknown": 0.1765
+      }
+    },
+    {
+      "segment_id": 2,
+      "speaker": "S8",
+      "text": "eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paanch ungli, chaabi hai yeh thoda chota hai thoda bada hai",
+      "word_annotations": [
+        {
+          "word": "eh",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "paani",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ka",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "glass",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "roti",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "khana",
+          "language": "bengali",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "car",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "aar",
+          "language": "bengali",
+          "bengali_info": {
+            "hindi": "aur",
+            "meaning": "and/more",
+            "domain": "conjunction"
+          }
+        },
+        {
+          "word": "haath",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "paanch",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ungli,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "chaabi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "yeh",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "thoda",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "chota",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "thoda",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "bada",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [
+        {
+          "switch_type": "three_way",
+          "rule_id": "R6",
+          "bengali_span": "khana",
+          "hindi_context": "eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paanch ungli, chaabi hai yeh thoda chota hai thoda bada hai",
+          "details": "Bengali + English elements in Hindi matrix"
+        },
+        {
+          "switch_type": "three_way",
+          "rule_id": "R6",
+          "bengali_span": "aar",
+          "hindi_context": "eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paanch ungli, chaabi hai yeh thoda chota hai thoda bada hai",
+          "details": "Bengali + English elements in Hindi matrix"
+        }
+      ],
+      "language_distribution": {
+        "hindi": 0.7917,
+        "bengali": 0.0833,
+        "english": 0.0833,
+        "unknown": 0.0417
+      }
+    },
+    {
+      "segment_id": 4,
+      "speaker": "S8",
+      "text": "janam bhi yahi shaadi bhi yahi Bengali bhasha bolte hai haa",
+      "word_annotations": [
+        {
+          "word": "janam",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "bhi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "yahi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "shaadi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "bhi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "yahi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "Bengali",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "bhasha",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "bolte",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "haa",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.8182,
+        "english": 0.0909,
+        "unknown": 0.0909
+      }
+    },
+    {
+      "segment_id": 5,
+      "speaker": "S8",
+      "text": "haa Hindi aata hai thoda thoda HS tak, HS, higher secondary haa hai, do class 7-8th tha",
+      "word_annotations": [
+        {
+          "word": "haa",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "Hindi",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "aata",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "thoda",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "thoda",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "HS",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "tak,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "HS,",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "higher",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "secondary",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "haa",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "do",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "class",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "7-8th",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "tha",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.5882,
+        "english": 0.2353,
+        "unknown": 0.1765
+      }
+    },
+    {
+      "segment_id": 6,
+      "speaker": "S8",
+      "text": "jab tak mai idhar kaam pe rehti tab tak Hindi aur ek student ko padhati hu-",
+      "word_annotations": [
+        {
+          "word": "jab",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "tak",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "mai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "idhar",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "kaam",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "pe",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "rehti",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "tab",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "tak",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "Hindi",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "aur",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ek",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "student",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "ko",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "padhati",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hu-",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.875,
+        "english": 0.125
+      }
+    },
+    {
+      "segment_id": 7,
+      "speaker": "S8",
+      "text": "-tab Hindi use karti hu role yaha office purpose pe kaam hota hai toh-",
+      "word_annotations": [
+        {
+          "word": "-tab",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "Hindi",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "use",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "karti",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hu",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "role",
+          "language": "bengali",
+          "bengali_info": null
+        },
+        {
+          "word": "yaha",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "office",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "purpose",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "pe",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "kaam",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hota",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "toh-",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [
+        {
+          "switch_type": "three_way",
+          "rule_id": "R6",
+          "bengali_span": "role",
+          "hindi_context": "-tab Hindi use karti hu role yaha office purpose pe kaam hota hai toh-",
+          "details": "Bengali + English elements in Hindi matrix"
+        }
+      ],
+      "language_distribution": {
+        "hindi": 0.6429,
+        "bengali": 0.0714,
+        "english": 0.2143,
+        "unknown": 0.0714
+      }
+    },
+    {
+      "segment_id": 8,
+      "speaker": "S8",
+      "text": "-toh sab dekhna padta hai jaise student ka kuch problem complaint yeh sabhi aur kuch nahi mai hi banata hai mera husband bhi banata hai",
+      "word_annotations": [
+        {
+          "word": "-toh",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "sab",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "dekhna",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "padta",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "jaise",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "student",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "ka",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "kuch",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "problem",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "complaint",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "yeh",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "sabhi",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "aur",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "kuch",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "nahi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "mai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hi",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "banata",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "mera",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "husband",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "bhi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "banata",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [
+        {
+          "error_type": "subject_verb",
+          "rule_id": "R2",
+          "noun_or_subject": "S8 (female speaker)",
+          "verb_form": "banata",
+          "expected_verb": "banati",
+          "context": "-toh sab dekhna padta hai jaise student ka kuch problem complaint yeh sabhi aur kuch nahi mai hi banata hai mera husband bhi banata hai"
+        }
+      ],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.76,
+        "english": 0.2,
+        "unknown": 0.04
+      }
+    },
+    {
+      "segment_id": 9,
+      "speaker": "S8",
+      "text": "kyuki mai subah ka duty pe aa jati hu tab husband banata hai jaise daal chawal machli",
+      "word_annotations": [
+        {
+          "word": "kyuki",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "mai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "subah",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ka",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "duty",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "pe",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "aa",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "jati",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hu",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "tab",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "husband",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "banata",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "jaise",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "daal",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "chawal",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "machli",
+          "language": "unknown",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.8235,
+        "english": 0.1176,
+        "unknown": 0.0588
+      }
+    },
+    {
+      "segment_id": 10,
+      "speaker": "S8",
+      "text": "zyada tar hum log ka non-veg hota hai, veg kam hota hai",
+      "word_annotations": [
+        {
+          "word": "zyada",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "tar",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "hum",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "log",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ka",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "non-veg",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "hota",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "veg",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "kam",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "hota",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [
+        {
+          "error_type": "subject_verb",
+          "rule_id": "R2",
+          "noun_or_subject": "S8 (female speaker)",
+          "verb_form": "hota",
+          "expected_verb": "hoti",
+          "context": "zyada tar hum log ka non-veg hota hai, veg kam hota hai"
+        }
+      ],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.6667,
+        "english": 0.1667,
+        "unknown": 0.1667
+      }
+    },
+    {
+      "segment_id": 11,
+      "speaker": "S8",
+      "text": "haa subah uthne se chalu hota hai kapda dhona, bartan, pocha, jhaadu",
+      "word_annotations": [
+        {
+          "word": "haa",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "subah",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "uthne",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "se",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "chalu",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "hota",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "kapda",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "dhona,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "bartan,",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "pocha,",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "jhaadu",
+          "language": "unknown",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.6667,
+        "unknown": 0.3333
+      }
+    },
+    {
+      "segment_id": 12,
+      "speaker": "S8",
+      "text": "ghar ka sab kaam eh karna pooja mera sabse important kaam hai pooja, bachche ka baal bandhke school chhodna, ehi ghar ka khana",
+      "word_annotations": [
+        {
+          "word": "ghar",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ka",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "sab",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "kaam",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "eh",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "karna",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "pooja",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "mera",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "sabse",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "important",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "kaam",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "pooja,",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "bachche",
+          "language": "bengali",
+          "bengali_info": null
+        },
+        {
+          "word": "ka",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "baal",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "bandhke",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "school",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "chhodna,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ehi",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "ghar",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ka",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "khana",
+          "language": "bengali",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [
+        {
+          "switch_type": "tag_switch",
+          "rule_id": "R4",
+          "bengali_span": "bachche",
+          "hindi_context": "ghar ka sab kaam eh karna pooja mera sabse important kaam hai pooja, bachche ka baal bandhke school chhodna, ehi ghar ka khana",
+          "details": ""
+        },
+        {
+          "switch_type": "tag_switch",
+          "rule_id": "R4",
+          "bengali_span": "khana",
+          "hindi_context": "ghar ka sab kaam eh karna pooja mera sabse important kaam hai pooja, bachche ka baal bandhke school chhodna, ehi ghar ka khana",
+          "details": ""
+        }
+      ],
+      "language_distribution": {
+        "hindi": 0.5652,
+        "bengali": 0.087,
+        "english": 0.087,
+        "unknown": 0.2609
+      }
+    },
+    {
+      "segment_id": 13,
+      "speaker": "S8",
+      "text": "jab mera second shift mein duty rehta hai toh tab uska khana wana taiyaari karke aate hai phir idhar ka duty, phir jaake ghar pe khana banana",
+      "word_annotations": [
+        {
+          "word": "jab",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "mera",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "second",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "shift",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "mein",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "duty",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "rehta",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "toh",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "tab",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "uska",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "khana",
+          "language": "bengali",
+          "bengali_info": null
+        },
+        {
+          "word": "wana",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "taiyaari",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "karke",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "aate",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "phir",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "idhar",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ka",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "duty,",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "phir",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "jaake",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ghar",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "pe",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "khana",
+          "language": "bengali",
+          "bengali_info": null
+        },
+        {
+          "word": "banana",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [
+        {
+          "switch_type": "tag_switch",
+          "rule_id": "R4",
+          "bengali_span": "khana",
+          "hindi_context": "jab mera second shift mein duty rehta hai toh tab uska khana wana taiyaari karke aate hai phir idhar ka duty, phir jaake ghar pe khana banana",
+          "details": ""
+        },
+        {
+          "switch_type": "tag_switch",
+          "rule_id": "R4",
+          "bengali_span": "khana",
+          "hindi_context": "jab mera second shift mein duty rehta hai toh tab uska khana wana taiyaari karke aate hai phir idhar ka duty, phir jaake ghar pe khana banana",
+          "details": ""
+        }
+      ],
+      "language_distribution": {
+        "hindi": 0.7407,
+        "bengali": 0.0741,
+        "english": 0.1111,
+        "unknown": 0.0741
+      }
+    },
+    {
+      "segment_id": 14,
+      "speaker": "S8",
+      "text": "Bengali hum log ka jo bhasha hai nahi mera ladki Hindi English mein [continues]",
+      "word_annotations": [
+        {
+          "word": "Bengali",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "hum",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "log",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ka",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "jo",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "bhasha",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "nahi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "mera",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ladki",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "Hindi",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "English",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "mein",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "[continues]",
+          "language": "unknown",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.6429,
+        "english": 0.2143,
+        "unknown": 0.1429
+      }
+    }
+  ],
+  "summary": {
+    "language_distribution": {
+      "hindi": 0.7162,
+      "bengali": 0.0306,
+      "english": 0.1354,
+      "unknown": 0.1179
+    },
+    "gender_errors": {
+      "noun_verb": 0,
+      "subject_verb": 2
+    },
+    "ergative": {
+      "with_ne": 0,
+      "without_ne": 0
+    },
+    "code_switches": {
+      "tag_switch": 4,
+      "intra_sentential": 0,
+      "inter_sentential": 0,
+      "three_way": 3
+    }
+  }
+}

@@ -7,10 +7,10 @@ Corpus: 120 segments, 2060 words, 8 speakers
 ────────────────────────────────────────
 1. LANGUAGE IDENTIFICATION
 ────────────────────────────────────────
-  hindi       :  58.5%
-  unknown     :  26.9%
-  english     :   8.3%
-  bengali     :   6.2%
+  hindi       :  67.2%
+  english     :  12.7%
+  unknown     :  12.4%
+  bengali     :   7.7%
 
 ────────────────────────────────────────
 2. GENDER ERROR DETECTION
@@ -30,17 +30,17 @@ Corpus: 120 segments, 2060 words, 8 speakers
 ────────────────────────────────────────
 3. CODE-SWITCH DETECTION
 ────────────────────────────────────────
-  Switches detected: 72
+  Switches detected: 78
 
   Per-speaker Bengali words:
-    S1: 12 Bengali words, 8 switches
-    S2: 19 Bengali words, 13 switches
+    S1: 15 Bengali words, 10 switches
+    S2: 34 Bengali words, 12 switches
     S3: 2 Bengali words, 2 switches
     S4: 9 Bengali words, 8 switches
-    S5: 19 Bengali words, 12 switches
-    S6: 48 Bengali words, 11 switches
-    S7: 13 Bengali words, 12 switches
-    S8: 6 Bengali words, 6 switches
+    S5: 23 Bengali words, 14 switches
+    S6: 53 Bengali words, 11 switches
+    S7: 16 Bengali words, 14 switches
+    S8: 7 Bengali words, 7 switches
 
 ────────────────────────────────────────
 4. ERGATIVE 'NE' ANALYSIS
@@ -56,8 +56,8 @@ Corpus: 120 segments, 2060 words, 8 speakers
   Gender errors (Whisper raw): 0
   → Hidden by Whisper: 37
 
-  Code-switches (corrected):  72
+  Code-switches (corrected):  78
   Code-switches (Whisper raw): 48
-  → Flattened by Whisper: 24
+  → Flattened by Whisper: 30
 
 ======================================================================

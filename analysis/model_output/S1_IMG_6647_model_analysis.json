@@ -1,0 +1,832 @@
+{
+  "filename": "transcripts/S1_IMG_6647_transcript.json",
+  "speaker_code": "S1",
+  "speaker_gender": "M",
+  "total_segments": 9,
+  "total_words": 109,
+  "segments": [
+    {
+      "segment_id": 2,
+      "speaker": "S1",
+      "text": "yeh roti kha raha hai",
+      "word_annotations": [
+        {
+          "word": "yeh",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "roti",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "kha",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "raha",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [
+        {
+          "error_type": "noun_verb",
+          "rule_id": "R1",
+          "noun_or_subject": "roti",
+          "verb_form": "raha hai",
+          "expected_verb": "rahi hai",
+          "context": "yeh roti kha raha hai"
+        }
+      ],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 1.0
+      }
+    },
+    {
+      "segment_id": 3,
+      "speaker": "S1",
+      "text": "eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala",
+      "word_annotations": [
+        {
+          "word": "eh",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "bhat",
+          "language": "bengali",
+          "bengali_info": {
+            "hindi": "chawal",
+            "meaning": "rice",
+            "domain": "food"
+          }
+        },
+        {
+          "word": "kha",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "raha",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "dorja",
+          "language": "bengali",
+          "bengali_info": {
+            "hindi": "darwaza",
+            "meaning": "door",
+            "domain": "household"
+          }
+        },
+        {
+          "word": "khol",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "raha",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "[unclear",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "Bengali],",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "jol",
+          "language": "bengali",
+          "bengali_info": {
+            "hindi": "paani",
+            "meaning": "water",
+            "domain": "household"
+          }
+        },
+        {
+          "word": "dhalche,",
+          "language": "bengali",
+          "bengali_info": {
+            "hindi": "daal raha hai",
+            "meaning": "is pouring",
+            "domain": "verb"
+          }
+        },
+        {
+          "word": "jol",
+          "language": "bengali",
+          "bengali_info": {
+            "hindi": "paani",
+            "meaning": "water",
+            "domain": "household"
+          }
+        },
+        {
+          "word": "gir",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "gaya,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "eh",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "copy",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "khula",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "hai,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "chair",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "bhenge",
+          "language": "bengali",
+          "bengali_info": {
+            "hindi": "toot",
+            "meaning": "broken",
+            "domain": "verb"
+          }
+        },
+        {
+          "word": "ache,",
+          "language": "bengali",
+          "bengali_info": {
+            "hindi": "hai",
+            "meaning": "is/are",
+            "domain": "verb"
+          }
+        },
+        {
+          "word": "fan",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "bhanga,",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "e",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "dorja",
+          "language": "bengali",
+          "bengali_info": {
+            "hindi": "darwaza",
+            "meaning": "door",
+            "domain": "household"
+          }
+        },
+        {
+          "word": "nahi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "janala",
+          "language": "bengali",
+          "bengali_info": {
+            "hindi": "khidki",
+            "meaning": "window",
+            "domain": "household"
+          }
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [
+        {
+          "switch_type": "tag_switch",
+          "rule_id": "R4",
+          "bengali_span": "bhat",
+          "hindi_context": "eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala",
+          "details": "bhat (Bengali) = chawal (Hindi), domain: food"
+        },
+        {
+          "switch_type": "tag_switch",
+          "rule_id": "R4",
+          "bengali_span": "dorja",
+          "hindi_context": "eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala",
+          "details": "dorja (Bengali) = darwaza (Hindi), domain: household"
+        },
+        {
+          "switch_type": "intra_sentential",
+          "rule_id": "R4",
+          "bengali_span": "jol dhalche, jol",
+          "hindi_context": "eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala",
+          "details": "3 Bengali words in Hindi frame"
+        },
+        {
+          "switch_type": "three_way",
+          "rule_id": "R6",
+          "bengali_span": "bhenge ache,",
+          "hindi_context": "eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala",
+          "details": "Bengali + English elements in Hindi matrix"
+        },
+        {
+          "switch_type": "three_way",
+          "rule_id": "R6",
+          "bengali_span": "dorja nahi janala",
+          "hindi_context": "eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala",
+          "details": "Bengali + English elements in Hindi matrix"
+        }
+      ],
+      "language_distribution": {
+        "hindi": 0.3448,
+        "bengali": 0.3103,
+        "english": 0.069,
+        "unknown": 0.2759
+      }
+    },
+    {
+      "segment_id": 4,
+      "speaker": "S1",
+      "text": "mera cycle shop hai aar mera ek ladki ek ladka, dono study karta hai",
+      "word_annotations": [
+        {
+          "word": "mera",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "cycle",
+          "language": "bengali",
+          "bengali_info": null
+        },
+        {
+          "word": "shop",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "aar",
+          "language": "bengali",
+          "bengali_info": {
+            "hindi": "aur",
+            "meaning": "and/more",
+            "domain": "conjunction"
+          }
+        },
+        {
+          "word": "mera",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ek",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ladki",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ek",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "ladka,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "dono",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "study",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "karta",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [
+        {
+          "switch_type": "three_way",
+          "rule_id": "R6",
+          "bengali_span": "cycle shop hai aar",
+          "hindi_context": "mera cycle shop hai aar mera ek ladki ek ladka, dono study karta hai",
+          "details": "Bengali + English elements in Hindi matrix"
+        }
+      ],
+      "language_distribution": {
+        "hindi": 0.6429,
+        "bengali": 0.1429,
+        "english": 0.1429,
+        "unknown": 0.0714
+      }
+    },
+    {
+      "segment_id": 5,
+      "speaker": "S1",
+      "text": "ladki service karta, mera aar ek toh shop hai",
+      "word_annotations": [
+        {
+          "word": "ladki",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "service",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "karta,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "mera",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "aar",
+          "language": "bengali",
+          "bengali_info": {
+            "hindi": "aur",
+            "meaning": "and/more",
+            "domain": "conjunction"
+          }
+        },
+        {
+          "word": "ek",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "toh",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "shop",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [
+        {
+          "switch_type": "three_way",
+          "rule_id": "R6",
+          "bengali_span": "aar",
+          "hindi_context": "ladki service karta, mera aar ek toh shop hai",
+          "details": "Bengali + English elements in Hindi matrix"
+        }
+      ],
+      "language_distribution": {
+        "hindi": 0.6667,
+        "bengali": 0.1111,
+        "english": 0.2222
+      }
+    },
+    {
+      "segment_id": 6,
+      "speaker": "S1",
+      "text": "pura puncture hawa repairing, sab repairing karta hu saadhe saath, shaam tak... beech mein lunch time karta, do se paanch chaar",
+      "word_annotations": [
+        {
+          "word": "pura",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "puncture",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "hawa",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "repairing,",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "sab",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "repairing",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "karta",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hu",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "saadhe",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "saath,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "shaam",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "tak...",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "beech",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "mein",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "lunch",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "time",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "karta,",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "do",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "se",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "paanch",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "chaar",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.6667,
+        "english": 0.2381,
+        "unknown": 0.0952
+      }
+    },
+    {
+      "segment_id": 7,
+      "speaker": null,
+      "text": "c: koi din hota hoga jo bohot mushkil hota hoga toh kya reason se...",
+      "word_annotations": [
+        {
+          "word": "c:",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "koi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "din",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hota",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hoga",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "jo",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "bohot",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "mushkil",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hota",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hoga",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "toh",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "kya",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "reason",
+          "language": "unknown",
+          "bengali_info": null
+        },
+        {
+          "word": "se...",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.7143,
+        "unknown": 0.2857
+      }
+    },
+    {
+      "segment_id": 8,
+      "speaker": "S1",
+      "text": "pareshaani matlab kuch problem nahi rehta",
+      "word_annotations": [
+        {
+          "word": "pareshaani",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "matlab",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "kuch",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "problem",
+          "language": "english",
+          "bengali_info": null
+        },
+        {
+          "word": "nahi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "rehta",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [],
+      "language_distribution": {
+        "hindi": 0.8333,
+        "english": 0.1667
+      }
+    },
+    {
+      "segment_id": 10,
+      "speaker": "S1",
+      "text": "nahi nahi aar kuch nahi",
+      "word_annotations": [
+        {
+          "word": "nahi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "nahi",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "aar",
+          "language": "bengali",
+          "bengali_info": {
+            "hindi": "aur",
+            "meaning": "and/more",
+            "domain": "conjunction"
+          }
+        },
+        {
+          "word": "kuch",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "nahi",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [
+        {
+          "switch_type": "tag_switch",
+          "rule_id": "R4",
+          "bengali_span": "aar",
+          "hindi_context": "nahi nahi aar kuch nahi",
+          "details": "aar (Bengali) = aur (Hindi), domain: conjunction"
+        }
+      ],
+      "language_distribution": {
+        "hindi": 0.8,
+        "bengali": 0.2
+      }
+    },
+    {
+      "segment_id": 12,
+      "speaker": "S1",
+      "text": "uncle bolta hai bhaiya bolta hai",
+      "word_annotations": [
+        {
+          "word": "uncle",
+          "language": "bengali",
+          "bengali_info": null
+        },
+        {
+          "word": "bolta",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "bhaiya",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "bolta",
+          "language": "hindi",
+          "bengali_info": null
+        },
+        {
+          "word": "hai",
+          "language": "hindi",
+          "bengali_info": null
+        }
+      ],
+      "gender_errors": [],
+      "ergative_annotations": [],
+      "code_switches": [
+        {
+          "switch_type": "tag_switch",
+          "rule_id": "R4",
+          "bengali_span": "uncle",
+          "hindi_context": "uncle bolta hai bhaiya bolta hai",
+          "details": ""
+        }
+      ],
+      "language_distribution": {
+        "hindi": 0.8333,
+        "bengali": 0.1667
+      }
+    }
+  ],
+  "summary": {
+    "language_distribution": {
+      "hindi": 0.6239,
+      "bengali": 0.1284,
+      "english": 0.1101,
+      "unknown": 0.1376
+    },
+    "gender_errors": {
+      "noun_verb": 1,
+      "subject_verb": 0
+    },
+    "ergative": {
+      "with_ne": 0,
+      "without_ne": 0
+    },
+    "code_switches": {
+      "tag_switch": 4,
+      "intra_sentential": 1,
+      "inter_sentential": 0,
+      "three_way": 4
+    }
+  }
+}

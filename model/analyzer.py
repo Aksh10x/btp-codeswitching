@@ -114,28 +114,66 @@ class MorphologyAwareAnalyzer:
 
         # Build a set of all known Hindi words (nouns + verbs + common particles)
         self._hindi_particles = {
-            "hai", "tha", "thi", "the", "hain", "ho", "hota", "hoti",
+            # Auxiliaries / copula
+            "hai", "tha", "thi", "the", "hain", "ho", "hu",
+            "hota", "hoti", "hote",
+            # Postpositions / case
             "ka", "ki", "ke", "ko", "se", "mein", "pe", "par", "ne",
+            "tak", "liye", "saath", "wala", "wali", "wale",
+            # Conjunctions / connectors
             "aur", "ya", "toh", "bhi", "nahi", "na", "mat", "bas",
-            "yeh", "woh", "kya", "kaun", "kaha", "kab", "kaise", "kitna",
-            "mai", "mera", "meri", "mere", "hum", "hamara", "hamari",
-            "tu", "tera", "teri", "tere", "aap", "aapka", "aapki",
-            "woh", "uska", "uski", "unka", "unki",
+            "jo", "jab", "tab", "fir", "phir", "toh", "isliye", "kyuki",
+            "lekin", "magar", "agar", "jaise", "waise", "matlab",
+            # Pronouns / deictics
+            "yeh", "ye", "woh", "wo", "kya", "kaun", "kaha", "kab",
+            "kaise", "kitna", "kitni", "kitne", "koi", "kuch",
+            "mai", "main", "mein", "mera", "meri", "mere",
+            "hum", "hamara", "hamari", "hamare",
+            "tu", "tera", "teri", "tere", "tum", "tumhara",
+            "aap", "aapka", "aapki", "aapke", "aapne", "aapko",
+            "woh", "wo", "uska", "uski", "uske", "unka", "unki", "unke",
+            "isko", "usko", "inko", "unko", "isme", "usme",
+            "mujhe", "mujhko", "hume", "humko", "tujhe",
+            "idhar", "udhar", "yaha", "waha", "yahi", "wohi",
+            # Numbers
             "ek", "do", "teen", "chaar", "paanch", "che", "saat", "aath",
+            "nau", "das", "gyarah", "baarah", "sau", "hazaar", "lakh",
+            # Imperatives / common verbs
             "bol", "bolo", "batao", "dekho", "suno", "jao", "aao", "karo",
-            "accha", "theek", "sab", "kuch", "bohot", "bahut", "zyada",
-            "pehle", "baad", "abhi", "jab", "tab", "fir", "phir",
-            "matlab", "isliye", "kyuki", "lekin", "magar", "par",
-            "dada", "didi", "bhaiya", "sir", "madam",
-            "haa", "nahi", "bilkul", "zarur",
+            "chalo", "lo", "do", "de", "le", "rakh", "rakhke",
+            # Common adjectives / adverbs
+            "accha", "acche", "theek", "sab", "bohot", "bahut", "bohut",
+            "zyada", "thoda", "thodi", "bada", "badi", "bade",
+            "chota", "choti", "chote", "naya", "nayi", "purana",
+            "pura", "poora", "puri", "aisa", "aisi", "aise",
+            "waisa", "pehle", "baad", "abhi",
+            # Time / routine words
+            "subah", "shaam", "dopahar", "raat", "din", "saal",
+            "baje", "ghanta", "mahina", "hafta", "kal", "aaj",
+            "kabhi", "kabhi", "hamesha", "roz",
+            # Common nouns
+            "ghar", "kaam", "time", "log", "baat", "cheez",
+            "jagah", "tarah", "parivaar", "bachcha", "bachche",
+            "khana", "paani", "doodh", "chai",
+            "janam", "shaadi", "padhai",
+            # Address / kinship
+            "dada", "didi", "bhaiya", "sir", "madam", "uncle", "bhai",
+            "behen", "pitaji", "mummy", "papa",
+            # Affirmation / filler
+            "haa", "nahi", "bilkul", "zarur", "shayad", "achha",
+            "arrey", "dekh", "sun",
+            # Verb roots commonly used bare
             "rehta", "rehti", "rehte", "padta", "padti", "lagta", "lagti",
             "aata", "aati", "jaata", "jaati", "karta", "karti",
             "raha", "rahi", "rahe",
             "gaya", "gayi", "gaye", "hua", "hui", "hue",
             "tha", "thi", "the", "thaa",
-            "log", "wala", "wali", "wale",
-            "subah", "shaam", "dopahar", "raat",
-            "ghar", "kaam", "din", "time", "saal",
+            # Miscellaneous high-frequency
+            "samay", "dupahar", "paisa", "paise",
+            "dheere", "jaldi", "andar", "bahar",
+            "saare", "sara", "sari",
+            "koi", "kuch", "kaafi",
+            "mushkil", "pareshaani", "problem",
         }
 
         # Combine all Hindi-identifiable words
