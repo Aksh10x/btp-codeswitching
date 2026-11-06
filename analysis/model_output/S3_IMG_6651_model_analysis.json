@@ -170,14 +170,6 @@
           "error_type": "noun_verb",
           "rule_id": "R1",
           "noun_or_subject": "daal",
-          "verb_form": "raha hai",
-          "expected_verb": "rahi hai",
-          "context": "open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira"
-        },
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S3 (female speaker)",
           "verb_form": "gir gaya",
           "expected_verb": "gir gayi",
           "context": "open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira"
@@ -1447,7 +1439,7 @@
     },
     "gender_errors": {
       "noun_verb": 3,
-      "subject_verb": 3
+      "subject_verb": 2
     },
     "ergative": {
       "with_ne": 0,

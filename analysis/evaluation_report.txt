@@ -15,12 +15,12 @@ Corpus: 120 segments, 2060 words, 8 speakers
 ────────────────────────────────────────
 2. GENDER ERROR DETECTION
 ────────────────────────────────────────
-  Errors detected: 37
+  Errors detected: 36
 
   Per-speaker breakdown:
     S1 (M): 1 errors, 178 words
     S2 (F): 3 errors, 202 words
-    S3 (F): 6 errors, 230 words
+    S3 (F): 5 errors, 230 words
     S4 (F): 24 errors, 307 words
     S5 (M): 0 errors, 307 words
     S6 (M): 0 errors, 299 words
@@ -52,9 +52,9 @@ Corpus: 120 segments, 2060 words, 8 speakers
 ────────────────────────────────────────
 5. ASR COMPARISON: CORRECTED vs WHISPER RAW
 ────────────────────────────────────────
-  Gender errors (corrected):  37
+  Gender errors (corrected):  36
   Gender errors (Whisper raw): 0
-  → Hidden by Whisper: 37
+  → Hidden by Whisper: 36
 
   Code-switches (corrected):  78
   Code-switches (Whisper raw): 48

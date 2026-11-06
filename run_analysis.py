@@ -61,7 +61,6 @@ def run_full_pipeline():
             f.write(analyzer.to_json(result))
 
         # Accumulate summary
-        corpus_summary["total_speakers"] += 1
         corpus_summary["total_words"] += result.total_words
         corpus_summary["total_segments"] += result.total_segments
 
@@ -83,21 +82,42 @@ def run_full_pipeline():
         corpus_summary["total_ergative_contexts"] += erg_total
         corpus_summary["ergative_with_ne"] += erg_ne
 
-        corpus_summary["per_speaker"][sp] = {
-            "gender": result.speaker_gender,
-            "words": result.total_words,
-            "segments": result.total_segments,
-            "gender_errors": ge_count,
-            "code_switches": cs_count,
-            "bengali_words": bn_words,
-            "ergative_contexts": erg_total,
-            "ergative_with_ne": erg_ne,
-            "language_distribution": result.summary.get("language_distribution", {}),
-        }
+        if sp not in corpus_summary["per_speaker"]:
+            corpus_summary["per_speaker"][sp] = {
+                "gender": result.speaker_gender,
+                "words": 0,
+                "segments": 0,
+                "gender_errors": 0,
+                "code_switches": 0,
+                "bengali_words": 0,
+                "ergative_contexts": 0,
+                "ergative_with_ne": 0,
+                "language_distribution": {},
+            }
+        sp_entry = corpus_summary["per_speaker"][sp]
+        sp_entry["words"] += result.total_words
+        sp_entry["segments"] += result.total_segments
+        sp_entry["gender_errors"] += ge_count
+        sp_entry["code_switches"] += cs_count
+        sp_entry["bengali_words"] += bn_words
+        sp_entry["ergative_contexts"] += erg_total
+        sp_entry["ergative_with_ne"] += erg_ne
+        for lang, frac in result.summary.get("language_distribution", {}).items():
+            sp_entry["language_distribution"][lang] = (
+                sp_entry["language_distribution"].get(lang, 0) + frac * result.total_words
+            )
 
         print(f"  {sp} ({result.speaker_gender}): {result.total_words} words, "
               f"{ge_count} gender errors, {cs_count} code-switches, "
               f"{bn_words} Bengali words")
+
+    # Normalize per-speaker language distributions from word counts to fractions
+    for sp_data in corpus_summary["per_speaker"].values():
+        sp_w = sp_data["words"] or 1
+        sp_data["language_distribution"] = {
+            lang: round(cnt / sp_w, 4)
+            for lang, cnt in sp_data["language_distribution"].items()
+        }
 
     # Overall language distribution
     lang_totals = {}
@@ -108,6 +128,7 @@ def run_full_pipeline():
     corpus_summary["language_distribution"] = {
         k: round(v / total_w, 4) for k, v in lang_totals.items()
     }
+    corpus_summary["total_speakers"] = len(corpus_summary["per_speaker"])
 
     with open("analysis/corpus_summary.json", "w") as f:
         json.dump(corpus_summary, f, indent=2, ensure_ascii=False)

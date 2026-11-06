@@ -595,16 +595,8 @@
           "error_type": "subject_verb",
           "rule_id": "R2",
           "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "seekh raha",
-          "expected_verb": "seekh rahi",
-          "context": "maami bhaiya ke saath kaam kar liya aur do hazaar pandrah mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya"
-        },
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "raha",
-          "expected_verb": "rahi",
+          "verb_form": "a gaya",
+          "expected_verb": "a gayi",
           "context": "maami bhaiya ke saath kaam kar liya aur do hazaar pandrah mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya"
         },
         {
@@ -619,8 +611,8 @@
           "error_type": "subject_verb",
           "rule_id": "R2",
           "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "a gaya",
-          "expected_verb": "a gayi",
+          "verb_form": "raha",
+          "expected_verb": "rahi",
           "context": "maami bhaiya ke saath kaam kar liya aur do hazaar pandrah mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya"
         },
         {
@@ -629,6 +621,14 @@
           "noun_or_subject": "S4 (female speaker)",
           "verb_form": "ghus gaya",
           "expected_verb": "ghus gayi",
+          "context": "maami bhaiya ke saath kaam kar liya aur do hazaar pandrah mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya"
+        },
+        {
+          "error_type": "subject_verb",
+          "rule_id": "R2",
+          "noun_or_subject": "S4 (female speaker)",
+          "verb_form": "seekh raha",
+          "expected_verb": "seekh rahi",
           "context": "maami bhaiya ke saath kaam kar liya aur do hazaar pandrah mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya"
         }
       ],
@@ -1518,16 +1518,16 @@
           "error_type": "subject_verb",
           "rule_id": "R2",
           "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "ghus gaya",
-          "expected_verb": "ghus gayi",
+          "verb_form": "karta",
+          "expected_verb": "karti",
           "context": "ro raha tha ki idhar aajao idhar aajao bohot dur tha Bhanwar hospital mein kaam karta tha toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo"
         },
         {
           "error_type": "subject_verb",
           "rule_id": "R2",
           "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "karta",
-          "expected_verb": "karti",
+          "verb_form": "ghus gaya",
+          "expected_verb": "ghus gayi",
           "context": "ro raha tha ki idhar aajao idhar aajao bohot dur tha Bhanwar hospital mein kaam karta tha toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo"
         },
         {
@@ -2006,16 +2006,16 @@
           "error_type": "subject_verb",
           "rule_id": "R2",
           "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "padhta",
-          "expected_verb": "padhti",
+          "verb_form": "karta",
+          "expected_verb": "karti",
           "context": "pehle BR Ambedkar hall tha toh waha lerka lerki ek saath mein kaam karta tha ek saath mein hi padhta tha, udhar se idhar aaya idhar didi log sab acche se kaam karte hai, didi bohut hi accha hai"
         },
         {
           "error_type": "subject_verb",
           "rule_id": "R2",
           "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "karta",
-          "expected_verb": "karti",
+          "verb_form": "padhta",
+          "expected_verb": "padhti",
           "context": "pehle BR Ambedkar hall tha toh waha lerka lerki ek saath mein kaam karta tha ek saath mein hi padhta tha, udhar se idhar aaya idhar didi log sab acche se kaam karte hai, didi bohut hi accha hai"
         },
         {

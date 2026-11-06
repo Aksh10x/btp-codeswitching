@@ -41,8 +41,8 @@
           "error_type": "noun_verb",
           "rule_id": "R1",
           "noun_or_subject": "roti",
-          "verb_form": "raha hai",
-          "expected_verb": "rahi hai",
+          "verb_form": "kha raha",
+          "expected_verb": "kha rahi",
           "context": "yeh roti kha raha hai"
         }
       ],

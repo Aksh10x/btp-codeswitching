@@ -236,9 +236,13 @@ class MorphologyAwareAnalyzer:
             errors.extend(self._check_subject_verb_agreement(words, text, speaker_code))
 
         # Deduplicate: if an R1 and R2 error share the same verb form in the
-        # same context, keep the more specific R1 (noun-verb) and drop R2
+        # same context, keep the more specific R1 (noun-verb) and drop R2.
+        # Also suppress R2 when 3+ R1 errors exist (listing/description task).
         r1_verbs = {e.verb_form for e in errors if e.rule_id == "R1"}
-        errors = [e for e in errors if not (e.rule_id == "R2" and e.verb_form in r1_verbs)]
+        r1_count = sum(1 for e in errors if e.rule_id == "R1")
+        errors = [e for e in errors
+                  if not (e.rule_id == "R2"
+                          and (e.verb_form in r1_verbs or r1_count >= 3))]
 
         return errors
 

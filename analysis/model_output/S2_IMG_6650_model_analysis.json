@@ -469,16 +469,16 @@
           "error_type": "noun_verb",
           "rule_id": "R1",
           "noun_or_subject": "roti",
-          "verb_form": "raha hai",
-          "expected_verb": "rahi hai",
+          "verb_form": "kha raha",
+          "expected_verb": "kha rahi",
           "context": "roti kha raha hai chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bole [unclear]"
         },
         {
           "error_type": "noun_verb",
           "rule_id": "R1",
           "noun_or_subject": "chawal",
-          "verb_form": "raha hai",
-          "expected_verb": "rahi hai",
+          "verb_form": "kha raha",
+          "expected_verb": "kha rahi",
           "context": "roti kha raha hai chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bole [unclear]"
         },
         {

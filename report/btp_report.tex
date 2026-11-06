@@ -42,7 +42,7 @@
 \maketitle
 
 \begin{abstract}
-This work presents a morphology-aware text analyzer for Bengali-Hindi code-switched speech, targeting a specific and under-studied population: Bengali L1 speakers who use Hindi as L2 in institutional settings. We collect and annotate a corpus of 42.8 minutes of naturalistic speech from 8 campus staff members at IIT Kharagpur, documenting systematic L1 transfer patterns including unidirectional masculine-default gender errors, complete ergative \textit{ne} avoidance, and multi-level code-switching from tag-switches to full inter-sentential Bengali clauses. Our rule-based analyzer operates on Roman-transliterated text and detects gender agreement violations, ergative gaps, and code-switch boundaries with reference to curated Hindi--Bengali lexicons. A key finding is that standard ASR (OpenAI Whisper) silently ``corrects'' the very phenomena under study---all 37 detected gender errors and 38\% of code-switches are invisible in Whisper's raw output. This demonstrates that morphological analysis of L1 transfer in code-switched speech cannot rely on off-the-shelf ASR and requires either human-corrected transcripts or ASR systems specifically trained to preserve non-standard forms.
+This work presents a morphology-aware text analyzer for Bengali-Hindi code-switched speech, targeting a specific and under-studied population: Bengali L1 speakers who use Hindi as L2 in institutional settings. We collect and annotate a corpus of 42.8 minutes of naturalistic speech from 8 campus staff members at IIT Kharagpur, documenting systematic L1 transfer patterns including unidirectional masculine-default gender errors, complete ergative \textit{ne} avoidance, and multi-level code-switching from tag-switches to full inter-sentential Bengali clauses. Our rule-based analyzer operates on Roman-transliterated text and detects gender agreement violations, ergative gaps, and code-switch boundaries with reference to curated Hindi--Bengali lexicons. A key finding is that standard ASR (OpenAI Whisper) silently ``corrects'' the very phenomena under study---all 36 detected gender errors and 38\% of code-switches are invisible in Whisper's raw output. This demonstrates that morphological analysis of L1 transfer in code-switched speech cannot rely on off-the-shelf ASR and requires either human-corrected transcripts or ASR systems specifically trained to preserve non-standard forms.
 \end{abstract}
 
 \tableofcontents
@@ -77,7 +77,7 @@ A second motivation is methodological. Off-the-shelf ASR systems like Whisper ar
   \item A curated corpus of 8 speakers (4 female, 4 male), 42.8 minutes, 3,965 words, with human-corrected Roman transliterations preserving all non-standard forms.
   \item A catalog of 6 morphological transfer rules (R1--R6) grounded in the data, covering gender agreement, ergative case, and code-switching.
   \item A rule-based \texttt{MorphologyAwareAnalyzer} implemented in Python, with curated Hindi--Bengali lexicons, that detects gender errors, ergative avoidance, and classifies code-switches.
-  \item A quantitative demonstration that Whisper hides 100\% of gender errors and 33\% of code-switches, making human correction essential for this research question.
+  \item A quantitative demonstration that Whisper hides 100\% of gender errors and 38\% of code-switches, making human correction essential for this research question.
 \end{itemize}
 
 %======================================================================
@@ -142,15 +142,15 @@ F & Background & Metalinguistic & Language attitudes \\
 \midrule
 S1 & M & Cycle shop & 178\textsuperscript{*} & 1 & 15 \\
 S2 & F & Staff & 202 & 3 & 34 \\
-S3 & F & Staff & 230 & 6 & 2 \\
+S3 & F & Staff & 230 & 5 & 2 \\
 S4 & F & Staff & 307 & 24 & 9 \\
 S5 & M & Mess staff & 307 & 0 & 23 \\
 S6 & M & Mess staff & 299 & 0 & 53 \\
 S7 & M & Security & 308 & 1 & 16 \\
 S8 & F & Staff & 229 & 2 & 7 \\
 \midrule
-\multicolumn{3}{c}{\textbf{Total}} & \textbf{2,060} & \textbf{37} & \textbf{159} \\
-\multicolumn{6}{l}{\footnotesize \textsuperscript{*}S1 has two recordings (6647 + 6648); word count is from the longer one.} \\
+\multicolumn{3}{c}{\textbf{Total}} & \textbf{2,060} & \textbf{36} & \textbf{159} \\
+\multicolumn{6}{l}{\footnotesize \textsuperscript{*}S1 has two recordings (6647 + 6648); word count is the combined total.} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -158,7 +158,7 @@ S8 & F & Staff & 229 & 2 & 7 \\
 Key observations from speaker profiles:
 \begin{itemize}
   \item Gender errors are concentrated in female speakers (S2, S3, S4, S8), consistent with R2 (masculine default in self-reference). S4 shows the highest error rate, consistent with later Hindi acquisition.
-  \item S6 uses the most Bengali words (48) and produces full Bengali clauses, representing the high-Bengali end of the proficiency gradient.
+  \item S6 uses the most Bengali words (53) and produces full Bengali clauses, representing the high-Bengali end of the proficiency gradient.
   \item Male speakers (S1, S5, S7) show few gender errors because masculine default happens to be correct for male speakers' self-reference.
 \end{itemize}
 
@@ -278,7 +278,7 @@ The analyzer relies on curated lexicons in Roman transliteration:
 \begin{itemize}
   \item \textbf{Hindi feminine nouns} (60+ entries): \textit{kursi, kitaab, roti, gaadi, chaabi, khidki, \ldots}
   \item \textbf{Hindi masculine nouns} (30+ entries): \textit{darwaza, pankha, ghar, paani, \ldots}
-  \item \textbf{Bengali words} (30+ entries with Hindi equivalents): \textit{dorja}$\to$\textit{darwaza}, \textit{janala}$\to$\textit{khidki}, \ldots
+  \item \textbf{Bengali words} (55+ entries with Hindi equivalents): \textit{dorja}$\to$\textit{darwaza}, \textit{janala}$\to$\textit{khidki}, \ldots
   \item \textbf{Verb patterns} (80+ masculine, 80+ feminine): Perfective (\textit{gaya/gayi}), habitual (\textit{karta/karti}), progressive (\textit{raha/rahi})
   \item \textbf{English common words} (150+ entries): For language identification
 \end{itemize}
@@ -334,7 +334,7 @@ Total words analyzed & 2,060 \\
 \quad Unknown & 12.4\% \\
 \quad Bengali & 7.7\% \\
 \midrule
-Gender errors detected & 37 \\
+Gender errors detected & 36 \\
 \quad Noun-verb (R1) & -- \\
 \quad Subject-verb (R2) & -- \\
 \midrule
@@ -358,7 +358,7 @@ The ``unknown'' language category (12.4\%) consists primarily of proper nouns (K
 \toprule
 \textbf{Phenomenon} & \textbf{Corrected} & \textbf{Whisper Raw} & \textbf{Hidden} \\
 \midrule
-Gender errors & 37 & 0 & 37 (100\%) \\
+Gender errors & 36 & 0 & 36 (100\%) \\
 Code-switches & 78 & 48 & 30 (38\%) \\
 \bottomrule
 \end{tabular}
@@ -380,13 +380,13 @@ Table~\ref{tab:section} breaks down detected phenomena by questionnaire section.
 \toprule
 \textbf{Sec.} & \textbf{Task} & \textbf{Segs} & \textbf{Words} & \textbf{Gender Err.} & \textbf{Switches} & \textbf{Bengali} \\
 \midrule
-A & Naming      & 18 & 270 &  6 & 11 & 36 \\
+A & Naming      & 18 & 270 &  5 & 11 & 36 \\
 B & Adjective   &  5 &  74 &  3 &  4 &  4 \\
 C & Action      & 11 & 206 &  4 & 16 & 35 \\
 E & Conversation& 44 & 851 & 16 & 29 & 37 \\
 F & Background  & 42 & 659 &  8 & 18 & 47 \\
 \midrule
-  & \textbf{Total} & \textbf{120} & \textbf{2,060} & \textbf{37} & \textbf{78} & \textbf{159} \\
+  & \textbf{Total} & \textbf{120} & \textbf{2,060} & \textbf{36} & \textbf{78} & \textbf{159} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -427,7 +427,7 @@ The complete absence of ergative \textit{ne} (0/8 transitive perfective contexts
   \item \textbf{Corpus size}: 8 speakers and 2,060 words is small for statistical generalization, though sufficient for documenting qualitative patterns.
   \item \textbf{Rule-based approach}: The analyzer cannot detect novel patterns not encoded in its lexicons and rules. A machine learning approach would require a larger annotated corpus.
   \item \textbf{Unknown words}: 12.4\% of words are classified as ``unknown,'' primarily proper nouns and numbers outside the lexicon's scope.
-  \item \textbf{Gender error precision}: 37 detected vs.\ 23 manually counted errors suggests some false positives, primarily from the subject-verb checker in ambiguous contexts.
+  \item \textbf{Gender error precision}: 36 detected vs.\ 23 manually counted errors suggests some false positives, primarily from the subject-verb checker in ambiguous contexts.
 \end{enumerate}
 
 %======================================================================

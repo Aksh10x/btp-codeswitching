@@ -2,41 +2,36 @@
   "A": {
     "segments": 18,
     "words": 270,
-    "gender_errors": 6,
+    "gender_errors": 5,
     "code_switches": 11,
-    "bengali_words": 36,
-    "ergative_contexts": 1
+    "bengali_words": 36
   },
   "C": {
     "segments": 11,
     "words": 206,
     "gender_errors": 4,
     "code_switches": 16,
-    "bengali_words": 35,
-    "ergative_contexts": 0
+    "bengali_words": 35
   },
   "E": {
     "segments": 44,
     "words": 851,
     "gender_errors": 16,
     "code_switches": 29,
-    "bengali_words": 37,
-    "ergative_contexts": 2
+    "bengali_words": 37
   },
   "F": {
     "segments": 42,
     "words": 659,
     "gender_errors": 8,
     "code_switches": 18,
-    "bengali_words": 47,
-    "ergative_contexts": 5
+    "bengali_words": 47
   },
   "B": {
     "segments": 5,
     "words": 74,
     "gender_errors": 3,
     "code_switches": 4,
-    "bengali_words": 4,
-    "ergative_contexts": 0
+    "bengali_words": 4
   }
 }
