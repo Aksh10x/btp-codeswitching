@@ -50,9 +50,9 @@ def transcribe_with_indicwhisper(audio_dir: str, output_dir: str, model_name: st
     model = model.to(device)
 
     # Force Hindi language and transcription task
-    forced_decoder_ids = processor.get_decoder_prompt_ids(
-        language="hi", task="transcribe"
-    )
+    model.generation_config.language = "hi"
+    model.generation_config.task = "transcribe"
+    model.generation_config.forced_decoder_ids = None
 
     audio_files = sorted(Path(audio_dir).glob("*.wav"))
     if not audio_files:
@@ -100,7 +100,6 @@ def transcribe_with_indicwhisper(audio_dir: str, output_dir: str, model_name: st
             with torch.no_grad():
                 predicted_ids = model.generate(
                     inputs,
-                    forced_decoder_ids=forced_decoder_ids,
                     max_new_tokens=440,
                 )
 
