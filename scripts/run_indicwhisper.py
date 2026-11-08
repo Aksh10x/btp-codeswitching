@@ -153,7 +153,7 @@ def main():
     parser.add_argument("--audio-dir", required=True, help="Directory with .wav files")
     parser.add_argument("--output-dir", default="transcripts/indicwhisper/",
                         help="Output directory for JSON transcripts")
-    parser.add_argument("--model", default="ai4bharat/indicwhisper-hindi",
+    parser.add_argument("--model", default="vasista22/whisper-hindi-small",
                         help="HuggingFace model name")
     args = parser.parse_args()
 
