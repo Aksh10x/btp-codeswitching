@@ -29,11 +29,12 @@ from pathlib import Path
 def transcribe_with_indicwhisper(audio_dir: str, output_dir: str, model_name: str):
     try:
         import torch
-        import torchaudio
+        import numpy as np
+        import soundfile as sf
         from transformers import WhisperProcessor, WhisperForConditionalGeneration
     except ImportError:
         print("Missing dependencies. Install with:")
-        print("  pip install torch torchaudio transformers accelerate")
+        print("  pip install torch transformers accelerate soundfile numpy")
         sys.exit(1)
 
     os.makedirs(output_dir, exist_ok=True)
@@ -71,20 +72,21 @@ def transcribe_with_indicwhisper(audio_dir: str, output_dir: str, model_name: st
         print(f"  Transcribing: {stem}...", end=" ", flush=True)
         start = time.time()
 
-        waveform, sample_rate = torchaudio.load(str(audio_path))
+        audio, sample_rate = sf.read(str(audio_path), dtype="float32")
+
+        # Mono
+        if audio.ndim > 1:
+            audio = audio.mean(axis=1)
 
         # Resample to 16kHz if needed
         if sample_rate != 16000:
-            resampler = torchaudio.transforms.Resample(sample_rate, 16000)
-            waveform = resampler(waveform)
-
-        # Mono
-        if waveform.shape[0] > 1:
-            waveform = waveform.mean(dim=0, keepdim=True)
+            import scipy.signal
+            num_samples = int(len(audio) * 16000 / sample_rate)
+            audio = scipy.signal.resample(audio, num_samples)
+            sample_rate = 16000
 
         # Process in chunks of 30 seconds (Whisper's window)
         chunk_size = 16000 * 30
-        audio = waveform.squeeze().numpy()
         chunks = [audio[i:i+chunk_size] for i in range(0, len(audio), chunk_size)]
 
         segments = []
