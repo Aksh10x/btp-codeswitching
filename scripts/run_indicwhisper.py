@@ -101,7 +101,7 @@ def transcribe_with_indicwhisper(audio_dir: str, output_dir: str, model_name: st
                 predicted_ids = model.generate(
                     inputs,
                     forced_decoder_ids=forced_decoder_ids,
-                    max_new_tokens=448,
+                    max_new_tokens=440,
                 )
 
             text = processor.batch_decode(
