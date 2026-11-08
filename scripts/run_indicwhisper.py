@@ -5,14 +5,13 @@ Run IndicWhisper (AI4Bharat) on the collected audio files.
 Run this on your M1 Max MacBook (not in the cloud container).
 
 Setup:
-  pip install torch torchaudio transformers accelerate
-  # IndicWhisper uses the Whisper architecture, available via HuggingFace
+  pip install torch transformers accelerate soundfile numpy scipy
 
 Usage:
   python scripts/run_indicwhisper.py --audio-dir BTPVIDS/extracted_audio/ --output-dir transcripts/indicwhisper/
 
 This will:
-1. Load the AI4Bharat IndicWhisper model (ai4bharat/indicwhisper-hindi)
+1. Load the vasista22/whisper-hindi-small model via HuggingFace pipeline
 2. Transcribe each .wav file
 3. Save results as JSON files matching our transcript format
 4. These can then be fed to the MorphologyAwareAnalyzer for comparison
@@ -31,10 +30,10 @@ def transcribe_with_indicwhisper(audio_dir: str, output_dir: str, model_name: st
         import torch
         import numpy as np
         import soundfile as sf
-        from transformers import WhisperProcessor, WhisperForConditionalGeneration
+        from transformers import pipeline
     except ImportError:
         print("Missing dependencies. Install with:")
-        print("  pip install torch transformers accelerate soundfile numpy")
+        print("  pip install torch transformers accelerate soundfile numpy scipy")
         sys.exit(1)
 
     os.makedirs(output_dir, exist_ok=True)
@@ -45,14 +44,13 @@ def transcribe_with_indicwhisper(audio_dir: str, output_dir: str, model_name: st
     device = "mps" if torch.backends.mps.is_available() else "cpu"
     print(f"Using device: {device}")
 
-    processor = WhisperProcessor.from_pretrained(model_name)
-    model = WhisperForConditionalGeneration.from_pretrained(model_name)
-    model = model.to(device)
-
-    # Force Hindi language and transcription task
-    model.generation_config.language = "hi"
-    model.generation_config.task = "transcribe"
-    model.generation_config.forced_decoder_ids = None
+    pipe = pipeline(
+        "automatic-speech-recognition",
+        model=model_name,
+        device=device,
+        chunk_length_s=30,
+        return_timestamps=True,
+    )
 
     audio_files = sorted(Path(audio_dir).glob("*.wav"))
     if not audio_files:
@@ -85,41 +83,45 @@ def transcribe_with_indicwhisper(audio_dir: str, output_dir: str, model_name: st
             audio = scipy.signal.resample(audio, num_samples)
             sample_rate = 16000
 
-        # Process in chunks of 30 seconds (Whisper's window)
-        chunk_size = 16000 * 30
-        chunks = [audio[i:i+chunk_size] for i in range(0, len(audio), chunk_size)]
+        # Pipeline handles chunking, decoding, and language config internally
+        output = pipe(
+            {"raw": audio, "sampling_rate": 16000},
+            generate_kwargs={"max_new_tokens": 440},
+        )
 
+        elapsed = time.time() - start
+        duration = len(audio) / 16000
+
+        # Build segments from pipeline output
         segments = []
-        full_text = []
+        full_text_parts = []
 
-        for idx, chunk in enumerate(chunks):
-            inputs = processor(
-                chunk, sampling_rate=16000, return_tensors="pt"
-            ).input_features.to(device)
-
-            with torch.no_grad():
-                predicted_ids = model.generate(
-                    inputs,
-                    max_new_tokens=440,
-                )
-
-            text = processor.batch_decode(
-                predicted_ids, skip_special_tokens=True
-            )[0].strip()
-
-            if text:
-                seg_start = idx * 30.0
-                seg_end = min((idx + 1) * 30.0, len(audio) / 16000)
+        if "chunks" in output and output["chunks"]:
+            for idx, chunk in enumerate(output["chunks"]):
+                text = chunk["text"].strip()
+                if not text:
+                    continue
+                ts = chunk.get("timestamp", (None, None))
+                seg_start = ts[0] if ts[0] is not None else idx * 30.0
+                seg_end = ts[1] if ts[1] is not None else min((idx + 1) * 30.0, duration)
                 segments.append({
-                    "id": idx + 1,
+                    "id": len(segments) + 1,
                     "start": round(seg_start, 2),
                     "end": round(seg_end, 2),
                     "text": text,
                 })
-                full_text.append(text)
-
-        elapsed = time.time() - start
-        duration = len(audio) / 16000
+                full_text_parts.append(text)
+        else:
+            # Fallback: no chunks, just full text
+            text = output.get("text", "").strip()
+            if text:
+                segments.append({
+                    "id": 1,
+                    "start": 0.0,
+                    "end": round(duration, 2),
+                    "text": text,
+                })
+                full_text_parts.append(text)
 
         # Extract speaker code from filename (S1_IMG_6647 -> S1)
         speaker_code = ""
@@ -136,7 +138,7 @@ def transcribe_with_indicwhisper(audio_dir: str, output_dir: str, model_name: st
             "duration_s": round(duration, 2),
             "processing_time_s": round(elapsed, 2),
             "total_segments": len(segments),
-            "full_text": " ".join(full_text),
+            "full_text": " ".join(full_text_parts),
             "segments": segments,
         }
 
