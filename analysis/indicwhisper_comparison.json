@@ -1,0 +1,592 @@
+{
+  "summary": {
+    "totals": {
+      "corrected": {
+        "total_words": 2060,
+        "gender_errors": 36,
+        "code_switches": 78,
+        "bengali_words": 159
+      },
+      "whisper_raw": {
+        "total_words": 2957,
+        "gender_errors": 0,
+        "code_switches": 48,
+        "bengali_words": 52
+      },
+      "indicwhisper": {
+        "total_words": 742,
+        "gender_errors": 0,
+        "code_switches": 8,
+        "bengali_words": 9,
+        "hallucinations": 2
+      }
+    },
+    "deltas": {
+      "whisper_vs_corrected": {
+        "gender_errors_hidden": 36,
+        "code_switches_flattened": 30,
+        "bengali_words_lost": 107
+      },
+      "indicwhisper_vs_corrected": {
+        "gender_errors_hidden": 36,
+        "code_switches_flattened": 70,
+        "bengali_words_lost": 150,
+        "word_count_delta": 1318
+      },
+      "indicwhisper_vs_whisper": {
+        "gender_errors_delta": 0,
+        "code_switches_delta": -40,
+        "bengali_words_delta": -43,
+        "word_count_delta": -2215
+      }
+    }
+  },
+  "per_speaker": {
+    "S1": [
+      {
+        "speaker": "S1",
+        "gender": "M",
+        "file": "S1_IMG_6647",
+        "corrected": {
+          "speaker_code": "S1",
+          "total_words": 109,
+          "total_segments": 11,
+          "duration_s": 231.19,
+          "gender_errors": 1,
+          "code_switches": 9,
+          "bengali_words": 14,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "hindi": 0.6239,
+            "unknown": 0.1376,
+            "bengali": 0.1284,
+            "english": 0.1101
+          }
+        },
+        "whisper_raw": {
+          "speaker_code": "S1",
+          "total_words": 174,
+          "total_segments": 11,
+          "duration_s": 231.19,
+          "gender_errors": 0,
+          "code_switches": 2,
+          "bengali_words": 2,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "unknown": 0.569,
+            "hindi": 0.4195,
+            "bengali": 0.0115
+          }
+        },
+        "indicwhisper": {
+          "speaker_code": "S1",
+          "total_words": 40,
+          "total_segments": 8,
+          "duration_s": 231.19,
+          "gender_errors": 0,
+          "code_switches": 1,
+          "bengali_words": 1,
+          "language_distribution": {
+            "unknown": 0.6,
+            "hindi": 0.375,
+            "bengali": 0.025
+          },
+          "hallucinations": [],
+          "full_text_hallucination": {
+            "has_hallucination": false
+          }
+        }
+      },
+      {
+        "speaker": "S1",
+        "gender": "M",
+        "file": "S1_IMG_6648",
+        "corrected": {
+          "speaker_code": "S1",
+          "total_words": 69,
+          "total_segments": 9,
+          "duration_s": 76.67,
+          "gender_errors": 0,
+          "code_switches": 1,
+          "bengali_words": 1,
+          "ergative_total": 2,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "unknown": 0.2029,
+            "hindi": 0.5797,
+            "english": 0.2029,
+            "bengali": 0.0145
+          }
+        },
+        "whisper_raw": {
+          "speaker_code": "S1",
+          "total_words": 108,
+          "total_segments": 9,
+          "duration_s": 76.67,
+          "gender_errors": 0,
+          "code_switches": 1,
+          "bengali_words": 1,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "unknown": 0.5833,
+            "hindi": 0.3981,
+            "english": 0.0093,
+            "bengali": 0.0093
+          }
+        },
+        "indicwhisper": {
+          "speaker_code": "S1",
+          "total_words": 8,
+          "total_segments": 3,
+          "duration_s": 76.67,
+          "gender_errors": 0,
+          "code_switches": 0,
+          "bengali_words": 0,
+          "language_distribution": {
+            "unknown": 0.625,
+            "hindi": 0.375
+          },
+          "hallucinations": [],
+          "full_text_hallucination": {
+            "has_hallucination": false
+          }
+        }
+      }
+    ],
+    "S2": [
+      {
+        "speaker": "S2",
+        "gender": "F",
+        "file": "S2_IMG_6650",
+        "corrected": {
+          "speaker_code": "S2",
+          "total_words": 202,
+          "total_segments": 30,
+          "duration_s": 309.36,
+          "gender_errors": 3,
+          "code_switches": 12,
+          "bengali_words": 34,
+          "ergative_total": 1,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "hindi": 0.5248,
+            "english": 0.104,
+            "unknown": 0.203,
+            "bengali": 0.1683
+          }
+        },
+        "whisper_raw": {
+          "speaker_code": "S2",
+          "total_words": 423,
+          "total_segments": 30,
+          "duration_s": 309.36,
+          "gender_errors": 0,
+          "code_switches": 6,
+          "bengali_words": 9,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "unknown": 0.6312,
+            "hindi": 0.3475,
+            "bengali": 0.0213
+          }
+        },
+        "indicwhisper": {
+          "speaker_code": "S2",
+          "total_words": 158,
+          "total_segments": 11,
+          "duration_s": 309.36,
+          "gender_errors": 0,
+          "code_switches": 0,
+          "bengali_words": 0,
+          "language_distribution": {
+            "unknown": 0.3797,
+            "hindi": 0.6203
+          },
+          "hallucinations": [
+            {
+              "segment_id": 11,
+              "has_hallucination": true,
+              "repeated_phrase": "दो हजार",
+              "repetitions": 30,
+              "ngram_size": 2
+            }
+          ],
+          "full_text_hallucination": {
+            "has_hallucination": true,
+            "repeated_phrase": "दो हजार",
+            "repetitions": 30,
+            "ngram_size": 2
+          }
+        }
+      }
+    ],
+    "S3": [
+      {
+        "speaker": "S3",
+        "gender": "F",
+        "file": "S3_IMG_6651",
+        "corrected": {
+          "speaker_code": "S3",
+          "total_words": 230,
+          "total_segments": 27,
+          "duration_s": 370.95,
+          "gender_errors": 5,
+          "code_switches": 2,
+          "bengali_words": 2,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "english": 0.1783,
+            "hindi": 0.7217,
+            "unknown": 0.0913,
+            "bengali": 0.0087
+          }
+        },
+        "whisper_raw": {
+          "speaker_code": "S3",
+          "total_words": 398,
+          "total_segments": 27,
+          "duration_s": 370.95,
+          "gender_errors": 0,
+          "code_switches": 7,
+          "bengali_words": 7,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "unknown": 0.5528,
+            "hindi": 0.4246,
+            "english": 0.005,
+            "bengali": 0.0176
+          }
+        },
+        "indicwhisper": {
+          "speaker_code": "S3",
+          "total_words": 52,
+          "total_segments": 13,
+          "duration_s": 370.95,
+          "gender_errors": 0,
+          "code_switches": 0,
+          "bengali_words": 0,
+          "language_distribution": {
+            "unknown": 0.5385,
+            "hindi": 0.4615
+          },
+          "hallucinations": [],
+          "full_text_hallucination": {
+            "has_hallucination": false
+          }
+        }
+      }
+    ],
+    "S4": [
+      {
+        "speaker": "S4",
+        "gender": "F",
+        "file": "S4_IMG_6652",
+        "corrected": {
+          "speaker_code": "S4",
+          "total_words": 307,
+          "total_segments": 18,
+          "duration_s": 341.03,
+          "gender_errors": 24,
+          "code_switches": 8,
+          "bengali_words": 9,
+          "ergative_total": 3,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "hindi": 0.7655,
+            "unknown": 0.0945,
+            "bengali": 0.0293,
+            "english": 0.1107
+          }
+        },
+        "whisper_raw": {
+          "speaker_code": "S4",
+          "total_words": 302,
+          "total_segments": 18,
+          "duration_s": 341.03,
+          "gender_errors": 0,
+          "code_switches": 5,
+          "bengali_words": 5,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "unknown": 0.5927,
+            "hindi": 0.3874,
+            "bengali": 0.0166,
+            "english": 0.0033
+          }
+        },
+        "indicwhisper": {
+          "speaker_code": "S4",
+          "total_words": 170,
+          "total_segments": 12,
+          "duration_s": 341.03,
+          "gender_errors": 0,
+          "code_switches": 1,
+          "bengali_words": 1,
+          "language_distribution": {
+            "unknown": 0.7118,
+            "hindi": 0.2706,
+            "english": 0.0118,
+            "bengali": 0.0059
+          },
+          "hallucinations": [
+            {
+              "segment_id": 9,
+              "has_hallucination": true,
+              "repeated_phrase": "थोड़ा थोड़ा",
+              "repetitions": 67,
+              "ngram_size": 2
+            }
+          ],
+          "full_text_hallucination": {
+            "has_hallucination": true,
+            "repeated_phrase": "थोड़ा थोड़ा",
+            "repetitions": 67,
+            "ngram_size": 2
+          }
+        }
+      }
+    ],
+    "S5": [
+      {
+        "speaker": "S5",
+        "gender": "M",
+        "file": "S5_IMG_6654",
+        "corrected": {
+          "speaker_code": "S5",
+          "total_words": 307,
+          "total_segments": 34,
+          "duration_s": 387.66,
+          "gender_errors": 0,
+          "code_switches": 14,
+          "bengali_words": 23,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "hindi": 0.6775,
+            "bengali": 0.0749,
+            "english": 0.1205,
+            "unknown": 0.127
+          }
+        },
+        "whisper_raw": {
+          "speaker_code": "S5",
+          "total_words": 469,
+          "total_segments": 34,
+          "duration_s": 387.66,
+          "gender_errors": 0,
+          "code_switches": 14,
+          "bengali_words": 15,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "unknown": 0.597,
+            "hindi": 0.3625,
+            "english": 0.0085,
+            "bengali": 0.032
+          }
+        },
+        "indicwhisper": {
+          "speaker_code": "S5",
+          "total_words": 158,
+          "total_segments": 13,
+          "duration_s": 387.66,
+          "gender_errors": 0,
+          "code_switches": 4,
+          "bengali_words": 5,
+          "language_distribution": {
+            "unknown": 0.5759,
+            "hindi": 0.3924,
+            "bengali": 0.0316
+          },
+          "hallucinations": [],
+          "full_text_hallucination": {
+            "has_hallucination": false
+          }
+        }
+      }
+    ],
+    "S6": [
+      {
+        "speaker": "S6",
+        "gender": "M",
+        "file": "S6_IMG_6660",
+        "corrected": {
+          "speaker_code": "S6",
+          "total_words": 299,
+          "total_segments": 21,
+          "duration_s": 304.7,
+          "gender_errors": 0,
+          "code_switches": 11,
+          "bengali_words": 53,
+          "ergative_total": 2,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "bengali": 0.1773,
+            "english": 0.087,
+            "hindi": 0.612,
+            "unknown": 0.1237
+          }
+        },
+        "whisper_raw": {
+          "speaker_code": "S6",
+          "total_words": 356,
+          "total_segments": 21,
+          "duration_s": 304.7,
+          "gender_errors": 0,
+          "code_switches": 6,
+          "bengali_words": 6,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "unknown": 0.6601,
+            "hindi": 0.3034,
+            "english": 0.0197,
+            "bengali": 0.0169
+          }
+        },
+        "indicwhisper": {
+          "speaker_code": "S6",
+          "total_words": 45,
+          "total_segments": 11,
+          "duration_s": 304.7,
+          "gender_errors": 0,
+          "code_switches": 0,
+          "bengali_words": 0,
+          "language_distribution": {
+            "unknown": 0.6444,
+            "hindi": 0.3556
+          },
+          "hallucinations": [],
+          "full_text_hallucination": {
+            "has_hallucination": false
+          }
+        }
+      }
+    ],
+    "S7": [
+      {
+        "speaker": "S7",
+        "gender": "M",
+        "file": "S7_NewRecording7",
+        "corrected": {
+          "speaker_code": "S7",
+          "total_words": 308,
+          "total_segments": 20,
+          "duration_s": 330.15,
+          "gender_errors": 1,
+          "code_switches": 14,
+          "bengali_words": 16,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "hindi": 0.6948,
+            "english": 0.1494,
+            "unknown": 0.1039,
+            "bengali": 0.0519
+          }
+        },
+        "whisper_raw": {
+          "speaker_code": "S7",
+          "total_words": 451,
+          "total_segments": 20,
+          "duration_s": 330.15,
+          "gender_errors": 0,
+          "code_switches": 6,
+          "bengali_words": 6,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "unknown": 0.6186,
+            "hindi": 0.2794,
+            "bengali": 0.0133,
+            "english": 0.0887
+          }
+        },
+        "indicwhisper": {
+          "speaker_code": "S7",
+          "total_words": 65,
+          "total_segments": 12,
+          "duration_s": 330.15,
+          "gender_errors": 0,
+          "code_switches": 2,
+          "bengali_words": 2,
+          "language_distribution": {
+            "unknown": 0.6,
+            "hindi": 0.3077,
+            "english": 0.0615,
+            "bengali": 0.0308
+          },
+          "hallucinations": [],
+          "full_text_hallucination": {
+            "has_hallucination": false
+          }
+        }
+      }
+    ],
+    "S8": [
+      {
+        "speaker": "S8",
+        "gender": "F",
+        "file": "S8_IMG_6664",
+        "corrected": {
+          "speaker_code": "S8",
+          "total_words": 229,
+          "total_segments": 13,
+          "duration_s": 216.4,
+          "gender_errors": 2,
+          "code_switches": 7,
+          "bengali_words": 7,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "hindi": 0.7162,
+            "english": 0.1354,
+            "unknown": 0.1179,
+            "bengali": 0.0306
+          }
+        },
+        "whisper_raw": {
+          "speaker_code": "S8",
+          "total_words": 276,
+          "total_segments": 13,
+          "duration_s": 216.4,
+          "gender_errors": 0,
+          "code_switches": 1,
+          "bengali_words": 1,
+          "ergative_total": 0,
+          "ergative_with_ne": 0,
+          "language_distribution": {
+            "hindi": 0.3913,
+            "unknown": 0.5978,
+            "english": 0.0072,
+            "bengali": 0.0036
+          }
+        },
+        "indicwhisper": {
+          "speaker_code": "S8",
+          "total_words": 46,
+          "total_segments": 8,
+          "duration_s": 216.4,
+          "gender_errors": 0,
+          "code_switches": 0,
+          "bengali_words": 0,
+          "language_distribution": {
+            "unknown": 0.6087,
+            "hindi": 0.3913
+          },
+          "hallucinations": [],
+          "full_text_hallucination": {
+            "has_hallucination": false
+          }
+        }
+      }
+    ]
+  }
+}
