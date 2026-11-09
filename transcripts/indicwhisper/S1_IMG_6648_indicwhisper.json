@@ -1,0 +1,31 @@
+{
+  "file": "S1_IMG_6648",
+  "speaker_code": "S1",
+  "source_audio": "BTPVIDS/extracted_audio/S1_IMG_6648.wav",
+  "model": "vasista22/whisper-hindi-small",
+  "detected_language": "hi",
+  "duration_s": 76.67,
+  "processing_time_s": 4.71,
+  "total_segments": 3,
+  "full_text": "आपका कौन कहाँ से हुआ लैंग्वेज हम लोग",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 30.0,
+      "text": "आपका कौन कहाँ से हुआ"
+    },
+    {
+      "id": 2,
+      "start": 30.0,
+      "end": 60.0,
+      "text": "लैंग्वेज"
+    },
+    {
+      "id": 3,
+      "start": 60.0,
+      "end": 76.67,
+      "text": "हम लोग"
+    }
+  ]
+}
