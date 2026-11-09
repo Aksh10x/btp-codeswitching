@@ -48,8 +48,6 @@ def transcribe_with_indicwhisper(audio_dir: str, output_dir: str, model_name: st
         "automatic-speech-recognition",
         model=model_name,
         device=device,
-        chunk_length_s=30,
-        return_timestamps=True,
     )
 
     audio_files = sorted(Path(audio_dir).glob("*.wav"))
@@ -83,27 +81,23 @@ def transcribe_with_indicwhisper(audio_dir: str, output_dir: str, model_name: st
             audio = scipy.signal.resample(audio, num_samples)
             sample_rate = 16000
 
-        # Pipeline handles chunking, decoding, and language config internally
-        output = pipe(
-            {"raw": audio, "sampling_rate": 16000},
-            generate_kwargs={"max_new_tokens": 440},
-        )
+        # Process in 30-second chunks (Whisper's native window)
+        chunk_size = 16000 * 30
+        chunks = [audio[i:i+chunk_size] for i in range(0, len(audio), chunk_size)]
 
-        elapsed = time.time() - start
         duration = len(audio) / 16000
-
-        # Build segments from pipeline output
         segments = []
         full_text_parts = []
 
-        if "chunks" in output and output["chunks"]:
-            for idx, chunk in enumerate(output["chunks"]):
-                text = chunk["text"].strip()
-                if not text:
-                    continue
-                ts = chunk.get("timestamp", (None, None))
-                seg_start = ts[0] if ts[0] is not None else idx * 30.0
-                seg_end = ts[1] if ts[1] is not None else min((idx + 1) * 30.0, duration)
+        for idx, chunk in enumerate(chunks):
+            output = pipe(
+                {"raw": chunk, "sampling_rate": 16000},
+                generate_kwargs={"max_new_tokens": 440},
+            )
+            text = output.get("text", "").strip()
+            if text:
+                seg_start = idx * 30.0
+                seg_end = min((idx + 1) * 30.0, duration)
                 segments.append({
                     "id": len(segments) + 1,
                     "start": round(seg_start, 2),
@@ -111,17 +105,8 @@ def transcribe_with_indicwhisper(audio_dir: str, output_dir: str, model_name: st
                     "text": text,
                 })
                 full_text_parts.append(text)
-        else:
-            # Fallback: no chunks, just full text
-            text = output.get("text", "").strip()
-            if text:
-                segments.append({
-                    "id": 1,
-                    "start": 0.0,
-                    "end": round(duration, 2),
-                    "text": text,
-                })
-                full_text_parts.append(text)
+
+        elapsed = time.time() - start
 
         # Extract speaker code from filename (S1_IMG_6647 -> S1)
         speaker_code = ""
