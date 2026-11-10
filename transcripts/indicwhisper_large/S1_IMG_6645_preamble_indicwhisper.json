@@ -1,0 +1,19 @@
+{
+  "file": "S1_IMG_6645_preamble",
+  "speaker_code": "S1",
+  "source_audio": "BTPVIDS/extracted_audio/S1_IMG_6645_preamble.wav",
+  "model": "vasista22/whisper-hindi-large-v2",
+  "detected_language": "hi",
+  "duration_s": 29.5,
+  "processing_time_s": 23.86,
+  "total_segments": 1,
+  "full_text": "फोटो दिखाऊंगी आपको आपको बताना है क्या क्या बोलते हैं",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 29.5,
+      "text": "फोटो दिखाऊंगी आपको आपको बताना है क्या क्या बोलते हैं"
+    }
+  ]
+}
