@@ -117,7 +117,7 @@ BENGALI_WORDS = {
     "panja": {"hindi": "panja", "meaning": "palm/paw", "domain": "body"},
     "badro": {"hindi": "bada/buzurg", "meaning": "elder/big", "domain": "adjective"},
     "mahila": {"hindi": "aurat", "meaning": "woman", "domain": "person"},
-    "cheleti": {"hindi": "ladki", "meaning": "girl", "domain": "person"},
+    "cheleti": {"hindi": "ladka/bachcha", "meaning": "the boy/child", "domain": "person"},
     "ami": {"hindi": "mai/mein", "meaning": "I", "domain": "pronoun"},
     "tor": {"hindi": "tera", "meaning": "your", "domain": "pronoun"},
     "bangali": {"hindi": "bengali", "meaning": "Bengali", "domain": "identity"},
