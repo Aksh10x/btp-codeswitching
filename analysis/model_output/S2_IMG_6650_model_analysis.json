@@ -759,7 +759,16 @@
           "bengali_info": null
         }
       ],
-      "gender_errors": [],
+      "gender_errors": [
+        {
+          "error_type": "subject_verb",
+          "rule_id": "R2",
+          "noun_or_subject": "S2 (female speaker)",
+          "verb_form": "seekh raha hu",
+          "expected_verb": "seekh rahi hu",
+          "context": "lekin woh telegu ka mujhko theek tarah se hota nahi hai lekin woh toh mujhko samajh mein hi nahi ata, phir bhi thoda thoda word seekh raha hu usko seekh ke sunne se ha woh yeh bola"
+        }
+      ],
       "ergative_annotations": [
         {
           "verb_stem": "bol",
@@ -1428,7 +1437,7 @@
     },
     "gender_errors": {
       "noun_verb": 2,
-      "subject_verb": 0
+      "subject_verb": 1
     },
     "ergative": {
       "with_ne": 0,

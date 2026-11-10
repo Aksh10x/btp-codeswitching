@@ -235,6 +235,7 @@ class MorphologyAwareAnalyzer:
         # R2: Female speaker + masculine self-reference verb
         if speaker_gender == "F":
             errors.extend(self._check_subject_verb_agreement(words, text, speaker_code, addressed))
+            errors.extend(self._check_first_person_aux(words, text, speaker_code, errors))
 
         # Deduplicate R1/R2 overlap: if R2 verb overlaps with any R1 verb
         # (exact match or substring containment), keep only R1.
@@ -264,7 +265,6 @@ class MorphologyAwareAnalyzer:
         subject rather than the nearest noun.
         """
         errors = []
-        found_nouns = set()  # track which nouns already have an error
 
         # Sort compound patterns longest-first so we match the most specific
         compound_masc = sorted(
@@ -273,7 +273,7 @@ class MorphologyAwareAnalyzer:
         )
 
         for i, w in enumerate(words):
-            if w not in self._hindi_fem or w in found_nouns:
+            if w not in self._hindi_fem:
                 continue
             window = words[i+1:i+6]
             window_text = " ".join(window)
@@ -282,7 +282,6 @@ class MorphologyAwareAnalyzer:
                 if mv in window_text:
                     expected = self._masculine_to_feminine(mv)
                     if expected:
-                        found_nouns.add(w)
                         errors.append(GenderError(
                             error_type="noun_verb",
                             rule_id="R1",
@@ -428,6 +427,40 @@ class MorphologyAwareAnalyzer:
                 ))
         return errors
 
+    def _check_first_person_aux(self, words: list, full_text: str,
+                                speaker_code: str, existing: list) -> list:
+        """
+        R2 (explicit first person): masculine participle directly followed by
+        the first-person auxiliary hu/hun/hoon ("seekh raha hu") is
+        unambiguous self-reference, so a female speaker should use -i.
+        """
+        aux = {"hu", "hun", "hoon"}
+        habitual = {"karta", "bolta", "padhta", "banata", "sunta", "dekhta",
+                    "seekhta", "khelta", "jata", "rehta", "deta", "leta",
+                    "pata", "sota", "rota", "likhta", "aata", "ata"}
+        seen = {e.verb_form.split()[-1] for e in existing if e.rule_id == "R2"}
+        out = []
+        for i, w in enumerate(words[:-1]):
+            nxt = words[i + 1].strip(".,!?;:")
+            if nxt not in aux:
+                continue
+            w = w.strip(".,!?;:")
+            prev = words[i - 1] if i else ""
+            if w == "raha":
+                masc, fem = f"{prev} raha {nxt}".strip(), f"{prev} rahi {nxt}".strip()
+            elif w in habitual:
+                masc, fem = f"{w} {nxt}", f"{w[:-2]}ti {nxt}"
+            else:
+                continue
+            if w in seen:
+                continue
+            out.append(GenderError(
+                error_type="subject_verb", rule_id="R2",
+                noun_or_subject=f"{speaker_code} (female speaker)",
+                verb_form=masc, expected_verb=fem, context=full_text,
+            ))
+        return out
+
     def _masculine_to_feminine(self, masc_verb: str) -> Optional[str]:
         """Map a masculine verb form to its feminine equivalent."""
         mappings = {
@@ -482,8 +515,10 @@ class MorphologyAwareAnalyzer:
 
                 if stem:
                     # Look backward for 'ne'
-                    preceding = words[max(0, i-5):i]
-                    has_ne = "ne" in preceding
+                    preceding = [x.strip(".,!?;:") for x in words[max(0, i-5):i]]
+                    fused_ne = {"maine", "humne", "hamne", "tune", "tumne", "usne",
+                                "isne", "unhone", "inhone", "aapne", "kisne", "jisne"}
+                    has_ne = "ne" in preceding or any(x in fused_ne for x in preceding)
 
                     annotations.append(ErgativeAnnotation(
                         verb_stem=stem,

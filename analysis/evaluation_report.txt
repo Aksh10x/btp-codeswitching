@@ -15,13 +15,13 @@ Corpus: 120 segments, 2060 words, 8 speakers
 ────────────────────────────────────────
 2. GENDER ERROR DETECTION
 ────────────────────────────────────────
-  Errors detected: 16
+  Errors detected: 21
 
   Per-speaker breakdown:
     S1 (M): 1 errors, 178 words
-    S2 (F): 2 errors, 202 words
-    S3 (F): 2 errors, 230 words
-    S4 (F): 9 errors, 307 words
+    S2 (F): 3 errors, 202 words
+    S3 (F): 4 errors, 230 words
+    S4 (F): 11 errors, 307 words
     S5 (M): 0 errors, 307 words
     S6 (M): 0 errors, 299 words
     S7 (M): 1 errors, 308 words
@@ -46,15 +46,15 @@ Corpus: 120 segments, 2060 words, 8 speakers
 4. ERGATIVE 'NE' ANALYSIS
 ────────────────────────────────────────
   Transitive perfective contexts: 8
-  With 'ne': 0
-  Without 'ne' (avoidance): 8
+  With 'ne': 1
+  Without 'ne' (avoidance): 7
 
 ────────────────────────────────────────
 5. ASR COMPARISON: CORRECTED vs WHISPER RAW
 ────────────────────────────────────────
-  Gender errors (corrected):  16
+  Gender errors (corrected):  21
   Gender errors (Whisper raw): 0
-  → Hidden by Whisper: 16
+  → Hidden by Whisper: 21
 
   Code-switches (corrected):  78
   Code-switches (Whisper raw): 48

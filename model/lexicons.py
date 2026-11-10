@@ -10,7 +10,7 @@ and English word list — all in Roman transliteration.
 # When a masculine verb appears with one of these, it's a gender error.
 HINDI_FEMININE_NOUNS = {
     # From our corpus (study reference nouns)
-    "kursi", "khursi",     # chair
+    "kursi", "khursi", "chair",  # chair (English loan follows kursi)
     "kitaab", "kitab",     # book
     "roti",                # bread
     "gaadi", "gadi",       # vehicle

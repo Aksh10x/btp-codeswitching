@@ -995,7 +995,7 @@
         {
           "verb_stem": "seekh",
           "perfective_form": "seekhi",
-          "has_ne": false,
+          "has_ne": true,
           "context": "bengali nahi generally bengali nahi ghar mein nahi chalta iit se nahi maine hindi iit mein rehke seekhi maane bachpan se iit mein hi hu, school bhi iit ke andar hi tha, hijli school yaha pe cooking mein kaam karta hu"
         }
       ],
@@ -2031,8 +2031,8 @@
       "subject_verb": 0
     },
     "ergative": {
-      "with_ne": 0,
-      "without_ne": 2
+      "with_ne": 1,
+      "without_ne": 1
     },
     "code_switches": {
       "tag_switch": 1,

@@ -277,6 +277,22 @@
           "verb_form": "padh raha",
           "expected_verb": "padh rahi",
           "context": "chota bada hai, eh khana kha raha hai, almari khul raha hai, kitaab padh raha hai, eh paani dal raha hai, glass tut gaya, kitaab ulta ho gaya, chair tut gaya, fan kharaab ho gaya, end khidki ke bahar bohut ped hota hai woh dekh ke accha bhi lagta hai"
+        },
+        {
+          "error_type": "noun_verb",
+          "rule_id": "R1",
+          "noun_or_subject": "kitaab",
+          "verb_form": "ulta ho gaya",
+          "expected_verb": "ulti ho gayi",
+          "context": "chota bada hai, eh khana kha raha hai, almari khul raha hai, kitaab padh raha hai, eh paani dal raha hai, glass tut gaya, kitaab ulta ho gaya, chair tut gaya, fan kharaab ho gaya, end khidki ke bahar bohut ped hota hai woh dekh ke accha bhi lagta hai"
+        },
+        {
+          "error_type": "noun_verb",
+          "rule_id": "R1",
+          "noun_or_subject": "chair",
+          "verb_form": "tut gaya",
+          "expected_verb": "tut gayi",
+          "context": "chota bada hai, eh khana kha raha hai, almari khul raha hai, kitaab padh raha hai, eh paani dal raha hai, glass tut gaya, kitaab ulta ho gaya, chair tut gaya, fan kharaab ho gaya, end khidki ke bahar bohut ped hota hai woh dekh ke accha bhi lagta hai"
         }
       ],
       "ergative_annotations": [],
@@ -1934,7 +1950,7 @@
       "unknown": 0.0945
     },
     "gender_errors": {
-      "noun_verb": 4,
+      "noun_verb": 6,
       "subject_verb": 5
     },
     "ergative": {

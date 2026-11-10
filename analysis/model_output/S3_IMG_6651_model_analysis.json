@@ -273,7 +273,16 @@
           "bengali_info": null
         }
       ],
-      "gender_errors": [],
+      "gender_errors": [
+        {
+          "error_type": "noun_verb",
+          "rule_id": "R1",
+          "noun_or_subject": "chair",
+          "verb_form": "tut gaya",
+          "expected_verb": "tut gayi",
+          "context": "yeh book [unclear], chair tut gaya, gin bhi tuta hai, window old window hai woh tut gaya, glass tuta hai"
+        }
+      ],
       "ergative_annotations": [],
       "code_switches": [],
       "language_distribution": {
@@ -1142,7 +1151,16 @@
           "bengali_info": null
         }
       ],
-      "gender_errors": [],
+      "gender_errors": [
+        {
+          "error_type": "subject_verb",
+          "rule_id": "R2",
+          "noun_or_subject": "S3 (female speaker)",
+          "verb_form": "pata hu",
+          "expected_verb": "pati hu",
+          "context": "mai woh, third language tha hindi school mein, fir mera bada ladka school mein thi usse mai study kiya hindi... thoda... itna acchi bhi bol nahi pata hu"
+        }
+      ],
       "ergative_annotations": [],
       "code_switches": [
         {
@@ -1414,8 +1432,8 @@
       "unknown": 0.0957
     },
     "gender_errors": {
-      "noun_verb": 1,
-      "subject_verb": 1
+      "noun_verb": 2,
+      "subject_verb": 2
     },
     "ergative": {
       "with_ne": 0,

@@ -3,7 +3,7 @@
     "totals": {
       "corrected": {
         "total_words": 2060,
-        "gender_errors": 16,
+        "gender_errors": 21,
         "code_switches": 78,
         "bengali_words": 159,
         "hallucinations": 0
@@ -175,7 +175,7 @@
           "total_words": 202,
           "total_segments": 30,
           "duration_s": 309.36,
-          "gender_errors": 2,
+          "gender_errors": 3,
           "code_switches": 12,
           "bengali_words": 34,
           "language_distribution": {
@@ -274,7 +274,7 @@
           "total_words": 230,
           "total_segments": 27,
           "duration_s": 370.95,
-          "gender_errors": 2,
+          "gender_errors": 4,
           "code_switches": 2,
           "bengali_words": 2,
           "language_distribution": {
@@ -358,7 +358,7 @@
           "total_words": 307,
           "total_segments": 18,
           "duration_s": 341.03,
-          "gender_errors": 9,
+          "gender_errors": 11,
           "code_switches": 8,
           "bengali_words": 9,
           "language_distribution": {
