@@ -2,15 +2,15 @@
   "total_speakers": 8,
   "total_words": 2060,
   "total_segments": 120,
-  "total_gender_errors": 36,
+  "total_gender_errors": 16,
   "total_code_switches": 78,
   "total_ergative_contexts": 8,
   "ergative_with_ne": 0,
   "language_distribution": {
-    "hindi": 0.6718,
+    "hindi": 0.6709,
     "bengali": 0.0772,
     "english": 0.1272,
-    "unknown": 0.1238
+    "unknown": 0.1248
   },
   "per_speaker": {
     "S1": {
@@ -33,7 +33,7 @@
       "gender": "F",
       "words": 202,
       "segments": 12,
-      "gender_errors": 3,
+      "gender_errors": 2,
       "code_switches": 12,
       "bengali_words": 34,
       "ergative_contexts": 1,
@@ -49,23 +49,23 @@
       "gender": "F",
       "words": 230,
       "segments": 15,
-      "gender_errors": 5,
+      "gender_errors": 2,
       "code_switches": 2,
       "bengali_words": 2,
       "ergative_contexts": 0,
       "ergative_with_ne": 0,
       "language_distribution": {
-        "hindi": 0.7217,
+        "hindi": 0.7174,
         "bengali": 0.0087,
         "english": 0.1783,
-        "unknown": 0.0913
+        "unknown": 0.0957
       }
     },
     "S4": {
       "gender": "F",
       "words": 307,
       "segments": 15,
-      "gender_errors": 24,
+      "gender_errors": 9,
       "code_switches": 8,
       "bengali_words": 9,
       "ergative_contexts": 3,
@@ -129,16 +129,16 @@
       "gender": "F",
       "words": 229,
       "segments": 13,
-      "gender_errors": 2,
+      "gender_errors": 1,
       "code_switches": 7,
       "bengali_words": 7,
       "ergative_contexts": 0,
       "ergative_with_ne": 0,
       "language_distribution": {
-        "hindi": 0.7162,
+        "hindi": 0.7118,
         "bengali": 0.0306,
         "english": 0.1354,
-        "unknown": 0.1179
+        "unknown": 0.1223
       }
     }
   }

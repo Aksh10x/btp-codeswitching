@@ -8,7 +8,7 @@
     {
       "start": 47.72,
       "end": 67.68,
-      "text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "avg_logprob": -1.1039,
       "no_speech_prob": 0.0819,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -16,7 +16,7 @@
     {
       "start": 67.68,
       "end": 83.77,
-      "text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
+      "text": "s: yeh book [unclear], chair tut gaya, gin bhi tuta hai, window old window hai woh tut gaya, glass tuta hai",
       "avg_logprob": -1.1039,
       "no_speech_prob": 0.0819,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -32,7 +32,7 @@
     {
       "start": 323.64,
       "end": 329.14,
-      "text": "lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala lera",
+      "text": "s: lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala leta",
       "avg_logprob": -1.1478,
       "no_speech_prob": 0.3865,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -60,7 +60,7 @@
       "start": 47.72,
       "end": 48.04,
       "probability": 0.2566,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -68,7 +68,7 @@
       "start": 49.5,
       "end": 49.9,
       "probability": 0.2609,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -76,7 +76,7 @@
       "start": 49.9,
       "end": 50.24,
       "probability": 0.1243,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -84,7 +84,7 @@
       "start": 50.24,
       "end": 50.24,
       "probability": 0.1919,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -92,7 +92,7 @@
       "start": 52.22,
       "end": 52.5,
       "probability": 0.392,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -100,7 +100,7 @@
       "start": 52.5,
       "end": 53.2,
       "probability": 0.2294,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -108,7 +108,7 @@
       "start": 55.74,
       "end": 56.26,
       "probability": 0.1555,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -116,7 +116,7 @@
       "start": 56.26,
       "end": 57.14,
       "probability": 0.1602,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -124,7 +124,7 @@
       "start": 57.14,
       "end": 57.58,
       "probability": 0.3672,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -132,7 +132,7 @@
       "start": 57.58,
       "end": 57.62,
       "probability": 0.2576,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -140,7 +140,7 @@
       "start": 62.9,
       "end": 63.92,
       "probability": 0.1397,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -148,7 +148,7 @@
       "start": 63.92,
       "end": 64.6,
       "probability": 0.0695,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -156,7 +156,7 @@
       "start": 64.6,
       "end": 65.96,
       "probability": 0.3186,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -164,7 +164,7 @@
       "start": 67.4,
       "end": 67.68,
       "probability": 0.3565,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -172,7 +172,7 @@
       "start": 69.86,
       "end": 70.22,
       "probability": 0.212,
-      "segment_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
+      "segment_text": "s: yeh book [unclear], chair tut gaya, gin bhi tuta hai, window old window hai woh tut gaya, glass tuta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -180,7 +180,7 @@
       "start": 70.46,
       "end": 71.14,
       "probability": 0.2952,
-      "segment_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
+      "segment_text": "s: yeh book [unclear], chair tut gaya, gin bhi tuta hai, window old window hai woh tut gaya, glass tuta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -188,7 +188,7 @@
       "start": 72.86,
       "end": 73.2,
       "probability": 0.3145,
-      "segment_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
+      "segment_text": "s: yeh book [unclear], chair tut gaya, gin bhi tuta hai, window old window hai woh tut gaya, glass tuta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -196,7 +196,7 @@
       "start": 73.2,
       "end": 73.42,
       "probability": 0.2718,
-      "segment_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
+      "segment_text": "s: yeh book [unclear], chair tut gaya, gin bhi tuta hai, window old window hai woh tut gaya, glass tuta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -204,7 +204,7 @@
       "start": 107.72,
       "end": 108.04,
       "probability": 0.2627,
-      "segment_text": "mushkil kuch nahi hai sab theek hai",
+      "segment_text": "s: mushkil kuch nahi hai sab theek hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -212,7 +212,7 @@
       "start": 119.02,
       "end": 119.16,
       "probability": 0.2675,
-      "segment_text": "kabhi aisa situation nahi hua jo bhi kaam ata hai hum log karta hai, allotment ka sab kyuki kaam ka load zyada hota hai kyuki time",
+      "segment_text": "s: kabhi aisa situation nahi hua jo bhi kaam aata hai hum log karta hai, allotment ka sab kyuki kaam ka load zyada hota hai kyuki time",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -220,7 +220,7 @@
       "start": 151.16,
       "end": 151.32,
       "probability": 0.3503,
-      "segment_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
+      "segment_text": "s: 8 ghanta abhi 6 se 2 baje tak toh jate jate 2:30 ho jata afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka Bengal mein abhi [continues]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -228,7 +228,7 @@
       "start": 153.65,
       "end": 154.09,
       "probability": 0.3351,
-      "segment_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
+      "segment_text": "s: 8 ghanta abhi 6 se 2 baje tak toh jate jate 2:30 ho jata afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka Bengal mein abhi [continues]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -236,7 +236,7 @@
       "start": 159.19,
       "end": 159.59,
       "probability": 0.3643,
-      "segment_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
+      "segment_text": "s: 8 ghanta abhi 6 se 2 baje tak toh jate jate 2:30 ho jata afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka Bengal mein abhi [continues]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -244,7 +244,7 @@
       "start": 166.8,
       "end": 167.04,
       "probability": 0.2421,
-      "segment_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
+      "segment_text": "s: 8 ghanta abhi 6 se 2 baje tak toh jate jate 2:30 ho jata afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka Bengal mein abhi [continues]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -252,7 +252,7 @@
       "start": 211.8,
       "end": 212.36,
       "probability": 0.3529,
-      "segment_text": "mai woh, third language tha hindi school mein fir mera bada ladka school mein thi usse mai study kiya hindi... thoda... itna acchi bhi bol nahi pata hu",
+      "segment_text": "s: mai woh, third language tha hindi school mein, fir mera bada ladka school mein thi usse mai study kiya hindi... thoda... itna acchi bhi bol nahi pata hu",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -260,7 +260,7 @@
       "start": 213.54,
       "end": 213.9,
       "probability": 0.398,
-      "segment_text": "mai woh, third language tha hindi school mein fir mera bada ladka school mein thi usse mai study kiya hindi... thoda... itna acchi bhi bol nahi pata hu",
+      "segment_text": "s: mai woh, third language tha hindi school mein, fir mera bada ladka school mein thi usse mai study kiya hindi... thoda... itna acchi bhi bol nahi pata hu",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -268,7 +268,7 @@
       "start": 246.82,
       "end": 247.0,
       "probability": 0.2975,
-      "segment_text": "bengali toh hai, main toh bengali medium ka student hai hum",
+      "segment_text": "s: bengali toh hai, main toh bengali medium ka student hai hum",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -276,7 +276,7 @@
       "start": 259.19,
       "end": 259.63,
       "probability": 0.227,
-      "segment_text": "bengali toh hai, main toh bengali medium ka student hai hum",
+      "segment_text": "s: bengali toh hai, main toh bengali medium ka student hai hum",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -284,7 +284,7 @@
       "start": 267.67,
       "end": 268.55,
       "probability": 0.107,
-      "segment_text": "hindi na do saal hum logo ko padhaya",
+      "segment_text": "s: hindi na do saal hum logo ko padhaya",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -292,7 +292,7 @@
       "start": 325.5,
       "end": 325.66,
       "probability": 0.2277,
-      "segment_text": "lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala lera",
+      "segment_text": "s: lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala leta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -300,7 +300,7 @@
       "start": 325.66,
       "end": 327.86,
       "probability": 0.368,
-      "segment_text": "lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala lera",
+      "segment_text": "s: lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala leta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -308,7 +308,7 @@
       "start": 328.52,
       "end": 328.68,
       "probability": 0.2638,
-      "segment_text": "lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala lera",
+      "segment_text": "s: lekin hum log bhi idhar rehte rehte thode seekh jaate, kaam chala leta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -326,7 +326,7 @@
       "gender_form": "m_sg",
       "start": 37.4,
       "end": 37.6,
-      "segment_text": "chair, big and small",
+      "segment_text": "s: chair, big and small",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -366,7 +366,7 @@
       "gender_form": "f_sg",
       "start": 55.74,
       "end": 56.26,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -374,7 +374,7 @@
       "gender_form": "m_sg",
       "start": 66.26,
       "end": 66.7,
-      "segment_text": "open the door (english) yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
+      "segment_text": "s: open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -382,7 +382,7 @@
       "gender_form": "m_sg",
       "start": 81.39,
       "end": 81.77,
-      "segment_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai",
+      "segment_text": "s: yeh book [unclear], chair tut gaya, gin bhi tuta hai, window old window hai woh tut gaya, glass tuta hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -390,7 +390,7 @@
       "gender_form": "m_pl",
       "start": 111.16,
       "end": 111.3,
-      "segment_text": "mushkil kuch nahi hai sab theek hai",
+      "segment_text": "s: mushkil kuch nahi hai sab theek hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -398,7 +398,7 @@
       "gender_form": "m_sg",
       "start": 127.5,
       "end": 127.74,
-      "segment_text": "kabhi aisa situation nahi hua jo bhi kaam ata hai hum log karta hai, allotment ka sab kyuki kaam ka load zyada hota hai kyuki time",
+      "segment_text": "s: kabhi aisa situation nahi hua jo bhi kaam aata hai hum log karta hai, allotment ka sab kyuki kaam ka load zyada hota hai kyuki time",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -406,7 +406,7 @@
       "gender_form": "m_sg",
       "start": 138.58,
       "end": 138.82,
-      "segment_text": "thoda ghar ka problem hota hai",
+      "segment_text": "s: thoda ghar ka problem hota hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -414,7 +414,7 @@
       "gender_form": "f_sg",
       "start": 148.04,
       "end": 148.8,
-      "segment_text": "khana wana pakana yaha subha saat baje se raat 10 baje tak allotment ka samay\ndata collectir: aap normally kitne ghante kaam karte ho\n8 ghanta hum log-",
+      "segment_text": "s: khana wana pakana yaha subah saat baje se raat 10 baje tak allotment ka samay\nc: aap normally kitne ghante kaam karte ho?\ns: 8 ghanta hum log-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -422,7 +422,7 @@
       "gender_form": "m_sg",
       "start": 166.12,
       "end": 166.64,
-      "segment_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
+      "segment_text": "s: 8 ghanta abhi 6 se 2 baje tak toh jate jate 2:30 ho jata afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka Bengal mein abhi [continues]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -430,7 +430,7 @@
       "gender_form": "f_sg",
       "start": 169.16,
       "end": 169.58,
-      "segment_text": "8 ghanta abhi 6 se 2 baje tak toh jate jate 2.30 hojara afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka bengal mein abhi job karta hai aur chota ladka woh fish farm hai uska, business karta hai",
+      "segment_text": "s: 8 ghanta abhi 6 se 2 baje tak toh jate jate 2:30 ho jata afternoon aur evening hone se do baje se das baje, mai khud banati hu, mera 2 ladka hai, husband nahi hai mar gaya, bada ladka Bengal mein abhi [continues]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -438,7 +438,7 @@
       "gender_form": "f_sg",
       "start": 199.46,
       "end": 200.5,
-      "segment_text": "just start kiya hai abhi (in regards to fish farm) (collector: toh aap gharpe akele rehte ho?) nahi chota ladka hai bada toh bengal mein hai (collector: aur aap kaha se ho originally) kharagpur mein hi janam hua eh campus mein auer-",
+      "segment_text": "s: just start kiya hai abhi\nc: toh aap ghar pe akele rehte ho?\ns: nahi chota ladka hai bada toh Bengal mein hai\nc: aur aap kaha se ho originally?\ns: Kharagpur mein hi janam hua campus mein",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -446,7 +446,7 @@
       "gender_form": "m_sg",
       "start": 201.64,
       "end": 202.14,
-      "segment_text": "just start kiya hai abhi (in regards to fish farm) (collector: toh aap gharpe akele rehte ho?) nahi chota ladka hai bada toh bengal mein hai (collector: aur aap kaha se ho originally) kharagpur mein hi janam hua eh campus mein auer-",
+      "segment_text": "s: just start kiya hai abhi\nc: toh aap ghar pe akele rehte ho?\ns: nahi chota ladka hai bada toh Bengal mein hai\nc: aur aap kaha se ho originally?\ns: Kharagpur mein hi janam hua campus mein",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -478,7 +478,7 @@
       "gender_form": "f_sg",
       "start": 302.56,
       "end": 303.26,
-      "segment_text": "sanshkrit hindi",
+      "segment_text": "s: sanskrit hindi",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -505,7 +505,7 @@
       "alternate_form": "अच्छी",
       "start": 193.83,
       "end": 194.51,
-      "segment_text": "just start kiya hai abhi (in regards to fish farm) (collector: toh aap gharpe akele rehte ho?) nahi chota ladka hai bada toh bengal mein hai (collector: aur aap kaha se ho originally) kharagpur mein hi janam hua eh campus mein auer-",
+      "segment_text": "s: just start kiya hai abhi\nc: toh aap ghar pe akele rehte ho?\ns: nahi chota ladka hai bada toh Bengal mein hai\nc: aur aap kaha se ho originally?\ns: Kharagpur mein hi janam hua campus mein",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     },
     {
@@ -514,7 +514,7 @@
       "alternate_form": "बड़ी",
       "start": 247.0,
       "end": 248.18,
-      "segment_text": "bengali toh hai, main toh bengali medium ka student hai hum",
+      "segment_text": "s: bengali toh hai, main toh bengali medium ka student hai hum",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     },
     {
@@ -523,7 +523,7 @@
       "alternate_form": "बड़ी",
       "start": 248.18,
       "end": 248.64,
-      "segment_text": "bengali toh hai, main toh bengali medium ka student hai hum",
+      "segment_text": "s: bengali toh hai, main toh bengali medium ka student hai hum",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     }
   ],
@@ -537,7 +537,7 @@
       "error": "masculine_default_on_feminine",
       "start": 67.68,
       "end": 83.77,
-      "segment_text": "yeh book shia, chair tut gaya, gin bhi tuta hai, window old window hai, woh tut gaya, glass tuta hai"
+      "segment_text": "s: yeh book [unclear], chair tut gaya, gin bhi tuta hai, window old window hai woh tut gaya, glass tuta hai"
     }
   ],
   "verified_bengali_words": [
@@ -545,11 +545,11 @@
       "word": "bengali",
       "start": 246.82,
       "end": 259.63,
-      "segment_text": "bengali toh hai, main toh bengali medium ka student hai hum"
+      "segment_text": "s: bengali toh hai, main toh bengali medium ka student hai hum"
     }
   ],
   "summary": {
-    "total_words": 352,
+    "total_words": 348,
     "total_segments": 27,
     "duration_s": 370.95,
     "low_confidence_segments": 5,

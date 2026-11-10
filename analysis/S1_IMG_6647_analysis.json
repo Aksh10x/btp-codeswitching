@@ -8,7 +8,7 @@
     {
       "start": 186.34,
       "end": 191.5,
-      "text": "entirely uttered by data collector saying koi din hota hoga jo bohto mushkil hota hoga toh kya reason se ....",
+      "text": "c: koi din hota hoga jo bohot mushkil hota hoga toh kya reason se...",
       "avg_logprob": -0.7904,
       "no_speech_prob": 0.0709,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -16,7 +16,7 @@
     {
       "start": 191.5,
       "end": 203.78,
-      "text": "paareshani matlab kuch problem nahi rehta",
+      "text": "s: pareshaani matlab kuch problem nahi rehta",
       "avg_logprob": -0.7904,
       "no_speech_prob": 0.0709,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -28,7 +28,7 @@
       "start": 140.25,
       "end": 140.71,
       "probability": 0.2943,
-      "segment_text": "mera cycle shop hai aur (aar) mera ek ladki ek ladka , dono study hair karta",
+      "segment_text": "s: mera cycle shop hai aar mera ek ladki ek ladka, dono study karta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -36,7 +36,7 @@
       "start": 186.34,
       "end": 186.44,
       "probability": 0.1746,
-      "segment_text": "entirely uttered by data collector saying koi din hota hoga jo bohto mushkil hota hoga toh kya reason se ....",
+      "segment_text": "c: koi din hota hoga jo bohot mushkil hota hoga toh kya reason se...",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -44,7 +44,7 @@
       "start": 189.84,
       "end": 190.52,
       "probability": 0.2742,
-      "segment_text": "entirely uttered by data collector saying koi din hota hoga jo bohto mushkil hota hoga toh kya reason se ....",
+      "segment_text": "c: koi din hota hoga jo bohot mushkil hota hoga toh kya reason se...",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -52,7 +52,7 @@
       "start": 191.5,
       "end": 191.7,
       "probability": 0.3138,
-      "segment_text": "paareshani matlab kuch problem nahi rehta",
+      "segment_text": "s: pareshaani matlab kuch problem nahi rehta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -60,7 +60,7 @@
       "start": 194.86,
       "end": 195.5,
       "probability": 0.309,
-      "segment_text": "paareshani matlab kuch problem nahi rehta",
+      "segment_text": "s: pareshaani matlab kuch problem nahi rehta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -68,7 +68,7 @@
       "start": 199.36,
       "end": 200.28,
       "probability": 0.3607,
-      "segment_text": "paareshani matlab kuch problem nahi rehta",
+      "segment_text": "s: pareshaani matlab kuch problem nahi rehta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -76,7 +76,7 @@
       "start": 200.28,
       "end": 200.28,
       "probability": 0.3693,
-      "segment_text": "paareshani matlab kuch problem nahi rehta",
+      "segment_text": "s: pareshaani matlab kuch problem nahi rehta",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     }
   ],
@@ -86,7 +86,7 @@
       "gender_form": "m_sg",
       "start": 73.14,
       "end": 73.26,
-      "segment_text": "yeh roti kha raha hai",
+      "segment_text": "s: yeh roti kha raha hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -94,7 +94,7 @@
       "gender_form": "m_sg",
       "start": 75.38,
       "end": 75.66,
-      "segment_text": "yeh roti kha raha hai",
+      "segment_text": "s: yeh roti kha raha hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -102,7 +102,7 @@
       "gender_form": "m_sg",
       "start": 79.54,
       "end": 79.66,
-      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala",
+      "segment_text": "s: eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -110,7 +110,7 @@
       "gender_form": "m_sg",
       "start": 86.7,
       "end": 87.0,
-      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala",
+      "segment_text": "s: eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -118,7 +118,7 @@
       "gender_form": "m_sg",
       "start": 95.62,
       "end": 95.7,
-      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala",
+      "segment_text": "s: eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -126,7 +126,7 @@
       "gender_form": "m_sg",
       "start": 97.56,
       "end": 97.8,
-      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala",
+      "segment_text": "s: eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -134,7 +134,7 @@
       "gender_form": "f_sg",
       "start": 99.83,
       "end": 101.15,
-      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala",
+      "segment_text": "s: eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -142,7 +142,7 @@
       "gender_form": "m_sg",
       "start": 126.96,
       "end": 127.22,
-      "segment_text": "mera cycle shop hai aur (aar) mera ek ladki ek ladka , dono study hair karta",
+      "segment_text": "s: mera cycle shop hai aar mera ek ladki ek ladka, dono study karta hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -150,7 +150,7 @@
       "gender_form": "f_sg",
       "start": 136.92,
       "end": 137.24,
-      "segment_text": "mera cycle shop hai aur (aar) mera ek ladki ek ladka , dono study hair karta",
+      "segment_text": "s: mera cycle shop hai aar mera ek ladki ek ladka, dono study karta hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -158,7 +158,7 @@
       "gender_form": "m_pl",
       "start": 151.6,
       "end": 153.84,
-      "segment_text": "ladki service karta, mera aar ek tho shop hai",
+      "segment_text": "s: ladki service karta, mera aar ek toh shop hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -166,7 +166,7 @@
       "gender_form": "m_pl",
       "start": 164.25,
       "end": 164.47,
-      "segment_text": "pura puncture hawa repairing, sab repairing karta hu (speaker kitne baje ajate ho subhe) saadhe saath, shaam tak \"...\" beech mein lunch time karta do se paanch/chaar",
+      "segment_text": "s: pura puncture hawa repairing, sab repairing karta hu\nc: kitne baje aate ho subah?\ns: saadhe saath, shaam tak... beech mein lunch time karta, do se paanch chaar",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -174,7 +174,7 @@
       "gender_form": "m_sg",
       "start": 186.46,
       "end": 186.46,
-      "segment_text": "entirely uttered by data collector saying koi din hota hoga jo bohto mushkil hota hoga toh kya reason se ....",
+      "segment_text": "c: koi din hota hoga jo bohot mushkil hota hoga toh kya reason se...",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -182,7 +182,7 @@
       "gender_form": "m_sg",
       "start": 194.86,
       "end": 195.5,
-      "segment_text": "paareshani matlab kuch problem nahi rehta",
+      "segment_text": "s: pareshaani matlab kuch problem nahi rehta",
       "note": "Agreement site — verify gender matches subject/object"
     }
   ],
@@ -193,7 +193,7 @@
       "alternate_form": "अच्छी",
       "start": 40.96,
       "end": 41.52,
-      "segment_text": "yeh roti kha raha hai",
+      "segment_text": "s: yeh roti kha raha hai",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     }
   ],
@@ -204,41 +204,41 @@
       "word": "dorja",
       "start": 77.52,
       "end": 102.43,
-      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala"
+      "segment_text": "s: eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala"
     },
     {
       "word": "janala",
       "start": 77.52,
       "end": 102.43,
-      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala"
+      "segment_text": "s: eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala"
     },
     {
       "word": "jol",
       "start": 77.52,
       "end": 102.43,
-      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala"
+      "segment_text": "s: eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala"
     },
     {
       "word": "bhat",
       "start": 77.52,
       "end": 102.43,
-      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala"
+      "segment_text": "s: eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala"
     },
     {
       "word": "dhalche",
       "start": 77.52,
       "end": 102.43,
-      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala"
+      "segment_text": "s: eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala"
     },
     {
       "word": "bengali",
       "start": 77.52,
       "end": 102.43,
-      "segment_text": "yeh(eh) bhat kharaha hai, darwaza (dorja) khol raha hai, bengali something, jal(jol) dhalche (bengali), jal(jol) gir gaya, eh copy khula hai, then after the 1.42 timestamp also he said chair bhene ache? or something like that in bengali and fan bhanga, e dorja nahi janala"
+      "segment_text": "s: eh bhat kha raha hai, dorja khol raha hai, [unclear Bengali], jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga, e dorja nahi janala"
     }
   ],
   "summary": {
-    "total_words": 156,
+    "total_words": 135,
     "total_segments": 11,
     "duration_s": 231.19,
     "low_confidence_segments": 2,

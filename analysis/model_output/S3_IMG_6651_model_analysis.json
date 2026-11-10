@@ -105,7 +105,7 @@
         },
         {
           "word": "daal",
-          "language": "hindi",
+          "language": "unknown",
           "bengali_info": null
         },
         {
@@ -157,29 +157,14 @@
           "verb_form": "padh raha",
           "expected_verb": "padh rahi",
           "context": "open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira"
-        },
-        {
-          "error_type": "noun_verb",
-          "rule_id": "R1",
-          "noun_or_subject": "glass",
-          "verb_form": "raha hai",
-          "expected_verb": "rahi hai",
-          "context": "open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira"
-        },
-        {
-          "error_type": "noun_verb",
-          "rule_id": "R1",
-          "noun_or_subject": "daal",
-          "verb_form": "gir gaya",
-          "expected_verb": "gir gayi",
-          "context": "open the door, yeh kitaab padh raha hai, yeh glass mein paani daal raha hai, glass gir gaya paani bhi gira"
         }
       ],
       "ergative_annotations": [],
       "code_switches": [],
       "language_distribution": {
-        "hindi": 0.7619,
-        "english": 0.2381
+        "hindi": 0.7143,
+        "english": 0.2381,
+        "unknown": 0.0476
       }
     },
     {
@@ -1002,16 +987,7 @@
           "bengali_info": null
         }
       ],
-      "gender_errors": [
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S3 (female speaker)",
-          "verb_form": "hua",
-          "expected_verb": "hui",
-          "context": "just start kiya hai abhi nahi chota ladka hai bada toh Bengal mein hai Kharagpur mein hi janam hua campus mein"
-        }
-      ],
+      "gender_errors": [],
       "ergative_annotations": [],
       "code_switches": [],
       "language_distribution": {
@@ -1432,14 +1408,14 @@
   ],
   "summary": {
     "language_distribution": {
-      "hindi": 0.7217,
+      "hindi": 0.7174,
       "bengali": 0.0087,
       "english": 0.1783,
-      "unknown": 0.0913
+      "unknown": 0.0957
     },
     "gender_errors": {
-      "noun_verb": 3,
-      "subject_verb": 2
+      "noun_verb": 1,
+      "subject_verb": 1
     },
     "ergative": {
       "with_ne": 0,

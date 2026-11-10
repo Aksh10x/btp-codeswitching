@@ -3,7 +3,7 @@
     "totals": {
       "corrected": {
         "total_words": 2060,
-        "gender_errors": 36,
+        "gender_errors": 16,
         "code_switches": 78,
         "bengali_words": 159,
         "hallucinations": 0
@@ -62,8 +62,8 @@
           "code_switches": 2,
           "bengali_words": 2,
           "language_distribution": {
-            "unknown": 0.569,
-            "hindi": 0.4195,
+            "unknown": 0.5747,
+            "hindi": 0.4138,
             "bengali": 0.0115
           },
           "hallucinations": []
@@ -175,7 +175,7 @@
           "total_words": 202,
           "total_segments": 30,
           "duration_s": 309.36,
-          "gender_errors": 3,
+          "gender_errors": 2,
           "code_switches": 12,
           "bengali_words": 34,
           "language_distribution": {
@@ -274,13 +274,13 @@
           "total_words": 230,
           "total_segments": 27,
           "duration_s": 370.95,
-          "gender_errors": 5,
+          "gender_errors": 2,
           "code_switches": 2,
           "bengali_words": 2,
           "language_distribution": {
             "english": 0.1783,
-            "hindi": 0.7217,
-            "unknown": 0.0913,
+            "hindi": 0.7174,
+            "unknown": 0.0957,
             "bengali": 0.0087
           },
           "hallucinations": []
@@ -358,7 +358,7 @@
           "total_words": 307,
           "total_segments": 18,
           "duration_s": 341.03,
-          "gender_errors": 24,
+          "gender_errors": 9,
           "code_switches": 8,
           "bengali_words": 9,
           "language_distribution": {
@@ -418,8 +418,8 @@
           "code_switches": 4,
           "bengali_words": 5,
           "language_distribution": {
-            "unknown": 0.6081,
-            "hindi": 0.3729,
+            "unknown": 0.6105,
+            "hindi": 0.3705,
             "english": 0.0071,
             "bengali": 0.0119
           },
@@ -635,8 +635,8 @@
           "code_switches": 2,
           "bengali_words": 2,
           "language_distribution": {
-            "unknown": 0.6,
-            "hindi": 0.3077,
+            "unknown": 0.6154,
+            "hindi": 0.2923,
             "english": 0.0615,
             "bengali": 0.0308
           },
@@ -651,8 +651,8 @@
           "code_switches": 8,
           "bengali_words": 8,
           "language_distribution": {
-            "unknown": 0.6763,
-            "hindi": 0.2739,
+            "unknown": 0.6805,
+            "hindi": 0.2697,
             "bengali": 0.0332,
             "english": 0.0166
           },
@@ -670,13 +670,13 @@
           "total_words": 229,
           "total_segments": 13,
           "duration_s": 216.4,
-          "gender_errors": 2,
+          "gender_errors": 1,
           "code_switches": 7,
           "bengali_words": 7,
           "language_distribution": {
-            "hindi": 0.7162,
+            "hindi": 0.7118,
             "english": 0.1354,
-            "unknown": 0.1179,
+            "unknown": 0.1223,
             "bengali": 0.0306
           },
           "hallucinations": []
@@ -690,8 +690,8 @@
           "code_switches": 1,
           "bengali_words": 1,
           "language_distribution": {
-            "hindi": 0.3913,
-            "unknown": 0.5978,
+            "hindi": 0.3877,
+            "unknown": 0.6014,
             "english": 0.0072,
             "bengali": 0.0036
           },
@@ -728,8 +728,8 @@
           "code_switches": 3,
           "bengali_words": 4,
           "language_distribution": {
-            "unknown": 0.5926,
-            "hindi": 0.3868,
+            "unknown": 0.5967,
+            "hindi": 0.3827,
             "bengali": 0.0165,
             "english": 0.0041
           },

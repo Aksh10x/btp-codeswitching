@@ -476,14 +476,6 @@
         {
           "error_type": "noun_verb",
           "rule_id": "R1",
-          "noun_or_subject": "chawal",
-          "verb_form": "kha raha",
-          "expected_verb": "kha rahi",
-          "context": "roti kha raha hai chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bole [unclear]"
-        },
-        {
-          "error_type": "noun_verb",
-          "rule_id": "R1",
           "noun_or_subject": "kitaab",
           "verb_form": "padh raha",
           "expected_verb": "padh rahi",
@@ -1435,7 +1427,7 @@
       "unknown": 0.203
     },
     "gender_errors": {
-      "noun_verb": 3,
+      "noun_verb": 2,
       "subject_verb": 0
     },
     "ergative": {

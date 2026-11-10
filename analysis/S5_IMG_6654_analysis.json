@@ -11,7 +11,7 @@
       "start": 49.62,
       "end": 49.7,
       "probability": 0.3212,
-      "segment_text": "speaker: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai (then corrcects himself) kha rahi hai, yeh darwaza khol rahi hai, padh raha hai baccha, pine ke liye paani dal raha hai glass mein, glass ulti padi hai, book ulti padi hai, kursi tut gayi hai, pankha tuta hua hai, khidki se bahar ka nazara nazar araha hai\ncollector: dada aur aap apne baare mein batao aap kaha se ho\nspeaker: mai bilkul yehi ka hu\ncollectir: accha kharagpur mein hi paida hua\nspeaker: haa kharagpur ka hi paida hua, kharagpur mein hi paida hua",
+      "segment_text": "s: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai, kha rahi hai, yeh darwaza khol rahi hai, padh raha hai bachcha, pine ke liye paani [unclear continuation]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -19,7 +19,7 @@
       "start": 101.16,
       "end": 101.24,
       "probability": 0.3109,
-      "segment_text": "collector: dada aap ghar pe konsi bhasha bolte ho speaker: gharme pure bangla bolte hai hum, sabhi log bangla bolte hai, (hindi bhi use nahi karte: collecotr) nahi bilkul nahi",
+      "segment_text": "ghar mein pure Bangla bolte hai hum, sabhi log Bangla bolte hai nahi bilkul nahi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -27,7 +27,7 @@
       "start": 104.9,
       "end": 105.26,
       "probability": 0.276,
-      "segment_text": "collector: dada aap ghar pe konsi bhasha bolte ho speaker: gharme pure bangla bolte hai hum, sabhi log bangla bolte hai, (hindi bhi use nahi karte: collecotr) nahi bilkul nahi",
+      "segment_text": "ghar mein pure Bangla bolte hai hum, sabhi log Bangla bolte hai nahi bilkul nahi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -35,7 +35,7 @@
       "start": 109.51,
       "end": 109.81,
       "probability": 0.353,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "uhh around my... mera umar hai 56, toh utne din se mai yehi pe hu mera toh graduation hai uske baad [continues]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -43,7 +43,7 @@
       "start": 111.17,
       "end": 111.71,
       "probability": 0.2674,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "uhh around my... mera umar hai 56, toh utne din se mai yehi pe hu mera toh graduation hai uske baad [continues]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -51,7 +51,7 @@
       "start": 112.11,
       "end": 114.15,
       "probability": 0.3711,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "uhh around my... mera umar hai 56, toh utne din se mai yehi pe hu mera toh graduation hai uske baad [continues]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -59,7 +59,7 @@
       "start": 119.56,
       "end": 120.22,
       "probability": 0.2776,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "uhh around my... mera umar hai 56, toh utne din se mai yehi pe hu mera toh graduation hai uske baad [continues]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -67,7 +67,7 @@
       "start": 120.22,
       "end": 120.54,
       "probability": 0.3416,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "uhh around my... mera umar hai 56, toh utne din se mai yehi pe hu mera toh graduation hai uske baad [continues]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -75,7 +75,7 @@
       "start": 120.54,
       "end": 120.82,
       "probability": 0.308,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "uhh around my... mera umar hai 56, toh utne din se mai yehi pe hu mera toh graduation hai uske baad [continues]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -83,7 +83,7 @@
       "start": 306.4,
       "end": 306.6,
       "probability": 0.3094,
-      "segment_text": "kyuki bacche first year ke wait karte hai unko class attend karna rehta hai toh uske baad jaise hi breakfast upar chala jata hai waise hi",
+      "segment_text": "s: kyuki bachche first year ke wait karte hai unko class attend karna rehta hai toh uske baad jaise hi breakfast upar chala jata hai waise hi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -91,7 +91,7 @@
       "start": 351.9,
       "end": 352.16,
       "probability": 0.3064,
-      "segment_text": "allotment ke time pe bohot zyada busy hote hai hum log, allotment ke time pe aur allotment ke aage peeche bhi, aage piche bhi busy rehna",
+      "segment_text": "s: allotment ke time pe bohot zyada busy hote hai hum log, allotment ke time pe aur allotment ke aage peeche bhi, aage peeche bhi busy rehna",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -99,7 +99,7 @@
       "start": 365.2,
       "end": 365.42,
       "probability": 0.12,
-      "segment_text": "rehna hota hai aur busy kabhi kabhi koi incident hojata hai toh hum busy hojate hai, aise toh hum log ka normal-",
+      "segment_text": "s: rehna hota hai aur busy kabhi kabhi koi incident ho jata hai toh hum busy ho jate hai, aise toh hum log ka normal-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -107,7 +107,7 @@
       "start": 365.5,
       "end": 366.0,
       "probability": 0.3071,
-      "segment_text": "rehna hota hai aur busy kabhi kabhi koi incident hojata hai toh hum busy hojate hai, aise toh hum log ka normal-",
+      "segment_text": "s: rehna hota hai aur busy kabhi kabhi koi incident ho jata hai toh hum busy ho jate hai, aise toh hum log ka normal-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -115,7 +115,7 @@
       "start": 369.14,
       "end": 369.38,
       "probability": 0.3361,
-      "segment_text": "rehna hota hai aur busy kabhi kabhi koi incident hojata hai toh hum busy hojate hai, aise toh hum log ka normal-",
+      "segment_text": "s: rehna hota hai aur busy kabhi kabhi koi incident ho jata hai toh hum busy ho jate hai, aise toh hum log ka normal-",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     }
   ],
@@ -133,7 +133,7 @@
       "gender_form": "m_sg",
       "start": 45.52,
       "end": 45.62,
-      "segment_text": "speaker: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai (then corrcects himself) kha rahi hai, yeh darwaza khol rahi hai, padh raha hai baccha, pine ke liye paani dal raha hai glass mein, glass ulti padi hai, book ulti padi hai, kursi tut gayi hai, pankha tuta hua hai, khidki se bahar ka nazara nazar araha hai\ncollector: dada aur aap apne baare mein batao aap kaha se ho\nspeaker: mai bilkul yehi ka hu\ncollectir: accha kharagpur mein hi paida hua\nspeaker: haa kharagpur ka hi paida hua, kharagpur mein hi paida hua",
+      "segment_text": "s: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai, kha rahi hai, yeh darwaza khol rahi hai, padh raha hai bachcha, pine ke liye paani [unclear continuation]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -141,7 +141,7 @@
       "gender_form": "f_sg",
       "start": 48.46,
       "end": 48.9,
-      "segment_text": "speaker: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai (then corrcects himself) kha rahi hai, yeh darwaza khol rahi hai, padh raha hai baccha, pine ke liye paani dal raha hai glass mein, glass ulti padi hai, book ulti padi hai, kursi tut gayi hai, pankha tuta hua hai, khidki se bahar ka nazara nazar araha hai\ncollector: dada aur aap apne baare mein batao aap kaha se ho\nspeaker: mai bilkul yehi ka hu\ncollectir: accha kharagpur mein hi paida hua\nspeaker: haa kharagpur ka hi paida hua, kharagpur mein hi paida hua",
+      "segment_text": "s: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai, kha rahi hai, yeh darwaza khol rahi hai, padh raha hai bachcha, pine ke liye paani [unclear continuation]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -149,7 +149,7 @@
       "gender_form": "f_sg",
       "start": 49.7,
       "end": 50.06,
-      "segment_text": "speaker: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai (then corrcects himself) kha rahi hai, yeh darwaza khol rahi hai, padh raha hai baccha, pine ke liye paani dal raha hai glass mein, glass ulti padi hai, book ulti padi hai, kursi tut gayi hai, pankha tuta hua hai, khidki se bahar ka nazara nazar araha hai\ncollector: dada aur aap apne baare mein batao aap kaha se ho\nspeaker: mai bilkul yehi ka hu\ncollectir: accha kharagpur mein hi paida hua\nspeaker: haa kharagpur ka hi paida hua, kharagpur mein hi paida hua",
+      "segment_text": "s: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai, kha rahi hai, yeh darwaza khol rahi hai, padh raha hai bachcha, pine ke liye paani [unclear continuation]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -157,7 +157,7 @@
       "gender_form": "m_sg",
       "start": 50.7,
       "end": 50.8,
-      "segment_text": "speaker: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai (then corrcects himself) kha rahi hai, yeh darwaza khol rahi hai, padh raha hai baccha, pine ke liye paani dal raha hai glass mein, glass ulti padi hai, book ulti padi hai, kursi tut gayi hai, pankha tuta hua hai, khidki se bahar ka nazara nazar araha hai\ncollector: dada aur aap apne baare mein batao aap kaha se ho\nspeaker: mai bilkul yehi ka hu\ncollectir: accha kharagpur mein hi paida hua\nspeaker: haa kharagpur ka hi paida hua, kharagpur mein hi paida hua",
+      "segment_text": "s: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai, kha rahi hai, yeh darwaza khol rahi hai, padh raha hai bachcha, pine ke liye paani [unclear continuation]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -165,7 +165,7 @@
       "gender_form": "f_sg",
       "start": 55.07,
       "end": 55.25,
-      "segment_text": "speaker: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai (then corrcects himself) kha rahi hai, yeh darwaza khol rahi hai, padh raha hai baccha, pine ke liye paani dal raha hai glass mein, glass ulti padi hai, book ulti padi hai, kursi tut gayi hai, pankha tuta hua hai, khidki se bahar ka nazara nazar araha hai\ncollector: dada aur aap apne baare mein batao aap kaha se ho\nspeaker: mai bilkul yehi ka hu\ncollectir: accha kharagpur mein hi paida hua\nspeaker: haa kharagpur ka hi paida hua, kharagpur mein hi paida hua",
+      "segment_text": "s: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai, kha rahi hai, yeh darwaza khol rahi hai, padh raha hai bachcha, pine ke liye paani [unclear continuation]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -173,7 +173,7 @@
       "gender_form": "m_sg",
       "start": 71.4,
       "end": 92.36,
-      "segment_text": "speaker: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai (then corrcects himself) kha rahi hai, yeh darwaza khol rahi hai, padh raha hai baccha, pine ke liye paani dal raha hai glass mein, glass ulti padi hai, book ulti padi hai, kursi tut gayi hai, pankha tuta hua hai, khidki se bahar ka nazara nazar araha hai\ncollector: dada aur aap apne baare mein batao aap kaha se ho\nspeaker: mai bilkul yehi ka hu\ncollectir: accha kharagpur mein hi paida hua\nspeaker: haa kharagpur ka hi paida hua, kharagpur mein hi paida hua",
+      "segment_text": "s: yeh aadmi parothe kha raha hai, yeh aadmi thaali mein parosa hua khana kha raha hai, kha rahi hai, yeh darwaza khol rahi hai, padh raha hai bachcha, pine ke liye paani [unclear continuation]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -181,7 +181,7 @@
       "gender_form": "f_sg",
       "start": 109.51,
       "end": 109.81,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "uhh around my... mera umar hai 56, toh utne din se mai yehi pe hu mera toh graduation hai uske baad [continues]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -189,7 +189,7 @@
       "gender_form": "m_pl",
       "start": 120.54,
       "end": 120.82,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "uhh around my... mera umar hai 56, toh utne din se mai yehi pe hu mera toh graduation hai uske baad [continues]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -205,7 +205,7 @@
       "gender_form": "m_sg",
       "start": 148.68,
       "end": 148.94,
-      "segment_text": "(kaafi din mai) bahar raha north india mein khas karke jaise ki haryana punjab dilli toh rajasthan toh waha pe hindi bolna hi tha aur koi language",
+      "segment_text": "s: kaafi din mai bahar raha North India mein khas karke jaise ki Haryana Punjab Delhi toh Rajasthan toh waha pe hindi bolna hi tha aur koi language",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -213,7 +213,7 @@
       "gender_form": "m_pl",
       "start": 150.88,
       "end": 151.02,
-      "segment_text": "(kaafi din mai) bahar raha north india mein khas karke jaise ki haryana punjab dilli toh rajasthan toh waha pe hindi bolna hi tha aur koi language",
+      "segment_text": "s: kaafi din mai bahar raha North India mein khas karke jaise ki Haryana Punjab Delhi toh Rajasthan toh waha pe hindi bolna hi tha aur koi language",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -221,7 +221,7 @@
       "gender_form": "f_sg",
       "start": 152.72,
       "end": 153.76,
-      "segment_text": "(kaafi din mai) bahar raha north india mein khas karke jaise ki haryana punjab dilli toh rajasthan toh waha pe hindi bolna hi tha aur koi language",
+      "segment_text": "s: kaafi din mai bahar raha North India mein khas karke jaise ki Haryana Punjab Delhi toh Rajasthan toh waha pe hindi bolna hi tha aur koi language",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -229,7 +229,7 @@
       "gender_form": "m_sg",
       "start": 257.0,
       "end": 257.5,
-      "segment_text": "mai subha paach baje uthta hu, pach baje uthek che saade che ke andar mai",
+      "segment_text": "s: mai subah paanch baje uthta hu, paanch baje uthke che saadhe che ke andar mai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -237,7 +237,7 @@
       "gender_form": "f_sg",
       "start": 287.64,
       "end": 288.04,
-      "segment_text": "speaker:khaake thoda rest karke fir paach baje uthke wapis ata hu 10 baje ghar jata hu\ncollecotr: yaha pe kya karte ho kuch explain karo toh\nspeaker: mera job mainly hai subha ke jo morning breaks-",
+      "segment_text": "s: khaake thoda rest karke fir paanch baje uthke wapis aata hu das baje ghar jata hu\nc: yaha pe kya karte ho kuch explain karo toh\ns: mera job mainly hai subah ke jo morning breakfast-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -245,7 +245,7 @@
       "gender_form": "m_sg",
       "start": 310.94,
       "end": 311.16,
-      "segment_text": "kyuki bacche first year ke wait karte hai unko class attend karna rehta hai toh uske baad jaise hi breakfast upar chala jata hai waise hi",
+      "segment_text": "s: kyuki bachche first year ke wait karte hai unko class attend karna rehta hai toh uske baad jaise hi breakfast upar chala jata hai waise hi",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -253,7 +253,7 @@
       "gender_form": "m_sg",
       "start": 334.74,
       "end": 334.92,
-      "segment_text": "mai ghar jata hu, kabhi kabhi agar zyada pressure hua toh nahi bhi ja sakta, mauka nahi milta jaane ka",
+      "segment_text": "s: mai ghar jata hu, kabhi kabhi agar zyada pressure hua toh nahi bhi ja sakta, mauka nahi milta jaane ka",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -261,7 +261,7 @@
       "gender_form": "f_sg",
       "start": 337.75,
       "end": 338.31,
-      "segment_text": "mai ghar jata hu, kabhi kabhi agar zyada pressure hua toh nahi bhi ja sakta, mauka nahi milta jaane ka",
+      "segment_text": "s: mai ghar jata hu, kabhi kabhi agar zyada pressure hua toh nahi bhi ja sakta, mauka nahi milta jaane ka",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -269,7 +269,7 @@
       "gender_form": "f_sg",
       "start": 357.44,
       "end": 357.84,
-      "segment_text": "allotment ke time pe bohot zyada busy hote hai hum log, allotment ke time pe aur allotment ke aage peeche bhi, aage piche bhi busy rehna",
+      "segment_text": "s: allotment ke time pe bohot zyada busy hote hai hum log, allotment ke time pe aur allotment ke aage peeche bhi, aage peeche bhi busy rehna",
       "note": "Agreement site — verify gender matches subject/object"
     }
   ],
@@ -298,7 +298,7 @@
       "alternate_form": "अच्छी",
       "start": 120.82,
       "end": 132.3,
-      "segment_text": "collector: aap kitne saal se ho kharagpur mein speaker: uhh around my mera umar hai 56, toh utne din se mai yehi pe hu collecotr: kaha tak padhe ho dada aap speaker: mera toh graduation hai uske baad hotel management hai collecotr: fir aapne \"something something\" konsi class mein shuru kari? speaker: kharagpur toh ek matlab multilinngual city hai",
+      "segment_text": "uhh around my... mera umar hai 56, toh utne din se mai yehi pe hu mera toh graduation hai uske baad [continues]",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     },
     {
@@ -318,53 +318,53 @@
       "word": "dorja",
       "start": 1.32,
       "end": 3.28,
-      "segment_text": "(bengali) yeh toh ek to dorja rakhe aschi"
+      "segment_text": "s: yeh toh ek toh dorja rakhe ache"
     },
     {
       "word": "aschi",
       "start": 1.32,
       "end": 3.28,
-      "segment_text": "(bengali) yeh toh ek to dorja rakhe aschi"
+      "segment_text": "s: yeh toh ek toh dorja rakhe ache"
     },
     {
       "word": "bengali",
       "start": 1.32,
       "end": 3.28,
-      "segment_text": "(bengali) yeh toh ek to dorja rakhe aschi"
+      "segment_text": "s: yeh toh ek toh dorja rakhe ache"
     },
     {
       "word": "ek ta",
       "start": 3.28,
       "end": 6.82,
-      "segment_text": "ek ta chair eta"
+      "segment_text": "s: ek ta chair eta"
     },
     {
       "word": "eta",
       "start": 3.28,
       "end": 6.82,
-      "segment_text": "ek ta chair eta"
+      "segment_text": "s: ek ta chair eta"
     },
     {
       "word": "boi",
       "start": 7.57,
       "end": 8.79,
-      "segment_text": "hand, boi, baari"
+      "segment_text": "s: hand, boi, baari"
     },
     {
       "word": "bangla",
       "start": 101.16,
       "end": 108.47,
-      "segment_text": "collector: dada aap ghar pe konsi bhasha bolte ho speaker: gharme pure bangla bolte hai hum, sabhi log bangla bolte hai, (hindi bhi use nahi karte: collecotr) nahi bilkul nahi"
+      "segment_text": "ghar mein pure Bangla bolte hai hum, sabhi log Bangla bolte hai nahi bilkul nahi"
     },
     {
       "word": "bengali",
       "start": 159.17,
       "end": 177.05,
-      "segment_text": "collecotr: toh aap kitni languages bol lete hai\nspeaker: mai practices toh tha, punjabi bhi bolsakta tha, haryanvi aur mewadi but abhi toh nahi hoga shayad\ncollecotr: but ab aap samajh lete hai na\nspeaker: bilkul samajh jate hai\ncollecotr: kitne din time hota hai jab aapko hindi bolni padti hai\nspeaker: jab hindi bolne wale bacche humare paas aate hai tab hum hindi bolte hai\ncollecotr: toh kabhi kabhi bolte ho hindi, aapas mein bengali.... aur dada students kaise hai campus ke baare mein kuch?\nspeaker: campus ke baare mein, studenst hum toh pacchiis tees saal se students ko dekh rahe hia, humesha matlab different aur alag alag studenst alag type ke characteristics leke aate hai toh waise koi define nahi kar sakta ki students aise hai ya waise hai\ncollecotr: kisi se baat karne mein mushkil aati ho?\nspeaker: haa mushkil toh aati hai, kabhi kabhi kuch log disturb bhi hote hai aur kuch log disturb karte hai aise bhi hai\ncollector: aur dada mai puchu aapka subhe se lekar ab tak ka din batao toh aaj apne kya kiya hai"
+      "segment_text": "c: toh aap kitni languages bol lete hai?\ns: mai practice toh tha, Punjabi bhi bol sakta tha, Haryanvi aur Mewadi but abhi toh nahi hoga shayad\nc: but ab aap samajh lete hai na?\ns: [unclear continuation]"
     }
   ],
   "summary": {
-    "total_words": 728,
+    "total_words": 478,
     "total_segments": 34,
     "duration_s": 387.66,
     "low_confidence_segments": 0,

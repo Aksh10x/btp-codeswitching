@@ -1,11 +1,11 @@
 {
   "corrected_text": {
     "total_words": 2060,
-    "gender_errors_found": 36,
+    "gender_errors_found": 16,
     "code_switches_found": 78,
     "language_distribution": {
-      "hindi": 0.6718,
-      "unknown": 0.1238,
+      "hindi": 0.6709,
+      "unknown": 0.1248,
       "bengali": 0.0772,
       "english": 0.1272
     }
@@ -16,7 +16,7 @@
     "code_switches_found": 48
   },
   "delta": {
-    "gender_errors_hidden_by_whisper": 36,
+    "gender_errors_hidden_by_whisper": 16,
     "code_switches_flattened_by_whisper": 30,
     "interpretation": "Positive values = Whisper silently corrected/hid these phenomena. This demonstrates why human-corrected transcripts are necessary for studying L1 transfer patterns in code-switched speech."
   }

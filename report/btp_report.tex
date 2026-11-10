@@ -42,7 +42,7 @@
 \maketitle
 
 \begin{abstract}
-This work presents a morphology-aware text analyzer for Bengali-Hindi code-switched speech, targeting a specific and under-studied population: Bengali L1 speakers who use Hindi as L2 in institutional settings. We collect and annotate a corpus of 42.8 minutes of naturalistic speech from 8 campus staff members at IIT Kharagpur, documenting systematic L1 transfer patterns including unidirectional masculine-default gender errors, complete ergative \textit{ne} avoidance, and multi-level code-switching from tag-switches to full inter-sentential Bengali clauses. Our rule-based analyzer operates on Roman-transliterated text and detects gender agreement violations, ergative gaps, and code-switch boundaries with reference to curated Hindi--Bengali lexicons. A key finding is that ASR normalization of non-standard forms is \textbf{architectural, not a matter of model size or finetuning}. A four-way comparison of Whisper-large-v3, IndicWhisper-small, and IndicWhisper-large shows that all systems hide 94--100\% of gender errors. Even the large Hindi-finetuned model (1.5B parameters) preserves only 2 of 36 errors, while introducing hallucination artifacts on code-switched audio. This demonstrates that morphological analysis of L1 transfer in code-switched speech requires human-corrected transcripts.
+This work presents a morphology-aware text analyzer for Bengali-Hindi code-switched speech, targeting a specific and under-studied population: Bengali L1 speakers who use Hindi as L2 in institutional settings. We collect and annotate a corpus of 42.8 minutes of naturalistic speech from 8 campus staff members at IIT Kharagpur, documenting systematic L1 transfer patterns including unidirectional masculine-default gender errors, complete ergative \textit{ne} avoidance, and multi-level code-switching from tag-switches to full inter-sentential Bengali clauses. Our rule-based analyzer operates on Roman-transliterated text and detects gender agreement violations, ergative gaps, and code-switch boundaries with reference to curated Hindi--Bengali lexicons. A key finding is that ASR normalization of non-standard forms is \textbf{architectural, not a matter of model size or finetuning}. A four-way comparison of Whisper-large-v3, IndicWhisper-small, and IndicWhisper-large shows that all systems hide 88--100\% of gender errors. Even the large Hindi-finetuned model (1.5B parameters) preserves only 2 of 16 errors, while introducing hallucination artifacts on code-switched audio. This demonstrates that morphological analysis of L1 transfer in code-switched speech requires human-corrected transcripts.
 \end{abstract}
 
 \tableofcontents
@@ -77,7 +77,7 @@ A second motivation is methodological. Off-the-shelf ASR systems like Whisper ar
   \item A curated corpus of 8 speakers (4 female, 4 male), 42.8 minutes, 3,965 words, with human-corrected Roman transliterations preserving all non-standard forms.
   \item A catalog of 6 morphological transfer rules (R1--R6) grounded in the data, covering gender agreement, ergative case, and code-switching.
   \item A rule-based \texttt{MorphologyAwareAnalyzer} implemented in Python, with curated Hindi--Bengali lexicons, that detects gender errors, ergative avoidance, and classifies code-switches.
-  \item A four-way ASR comparison (Whisper-large-v3, IndicWhisper-small, IndicWhisper-large, and human-corrected) showing that all systems hide 94--100\% of gender errors regardless of model size or Hindi finetuning. The large Hindi model (1.5B params) preserves only 2/36 errors while introducing hallucination on code-switched segments.
+  \item A four-way ASR comparison (Whisper-large-v3, IndicWhisper-small, IndicWhisper-large, and human-corrected) showing that all systems hide 88--100\% of gender errors regardless of model size or Hindi finetuning. The large Hindi model (1.5B params) preserves only 2/16 errors while introducing hallucination on code-switched segments.
 \end{itemize}
 
 %======================================================================
@@ -141,15 +141,15 @@ F & Background & Metalinguistic & Language attitudes \\
 \textbf{Speaker} & \textbf{Gender} & \textbf{Role} & \textbf{Words} & \textbf{Gender Errors} & \textbf{Bengali Words} \\
 \midrule
 S1 & M & Cycle shop & 178\textsuperscript{*} & 1 & 15 \\
-S2 & F & Staff & 202 & 3 & 34 \\
-S3 & F & Staff & 230 & 5 & 2 \\
-S4 & F & Staff & 307 & 24 & 9 \\
+S2 & F & Staff & 202 & 2 & 34 \\
+S3 & F & Staff & 230 & 2 & 2 \\
+S4 & F & Staff & 307 & 9 & 9 \\
 S5 & M & Mess staff & 307 & 0 & 23 \\
 S6 & M & Mess staff & 299 & 0 & 53 \\
 S7 & M & Security & 308 & 1 & 16 \\
-S8 & F & Staff & 229 & 2 & 7 \\
+S8 & F & Staff & 229 & 1 & 7 \\
 \midrule
-\multicolumn{3}{c}{\textbf{Total}} & \textbf{2,060} & \textbf{36} & \textbf{159} \\
+\multicolumn{3}{c}{\textbf{Total}} & \textbf{2,060} & \textbf{16} & \textbf{159} \\
 \multicolumn{6}{l}{\footnotesize \textsuperscript{*}S1 has two recordings (6647 + 6648); word count is the combined total.} \\
 \bottomrule
 \end{tabular}
@@ -205,7 +205,7 @@ Female speakers use masculine verb forms when talking about themselves:
   \textbf{Expected:} \textit{ghus gayi} (got-into-\textsc{f})
 \end{quote}
 
-S4 shows the highest concentration (24 detected errors), consistent with later Hindi acquisition. S2, despite being female, shows only photo-description errors---suggesting higher Hindi proficiency or metalinguistic awareness.
+S4 shows the highest concentration (9 detected errors), consistent with later Hindi acquisition. S2, despite being female, shows only photo-description errors---suggesting higher Hindi proficiency or metalinguistic awareness.
 
 \subsection{R3: Ergative \textit{ne} Avoidance}
 
@@ -334,7 +334,7 @@ Total words analyzed & 2,060 \\
 \quad Unknown & 12.4\% \\
 \quad Bengali & 7.7\% \\
 \midrule
-Gender errors detected & 36 \\
+Gender errors detected & 16 \\
 \quad Noun-verb (R1) & -- \\
 \quad Subject-verb (R2) & -- \\
 \midrule
@@ -361,13 +361,13 @@ We compare four text sources: human-corrected transcripts (gold standard), Whisp
 \textbf{Phenomenon} & \textbf{Corrected} & \textbf{Whisper-v3} & \textbf{Indic-small} & \textbf{Indic-large} \\
 \midrule
 Total words         & 2,060 & 2,957 & 742   & 2,209 \\
-Gender errors       & 36    & 0     & 0     & 2     \\
+Gender errors       & 16    & 0     & 0     & 2     \\
 Code-switches       & 78    & 48    & 8     & 40    \\
 Bengali words       & 159   & 52    & 9     & 45    \\
 Hallucination segs. & ---   & ---   & 2     & 6     \\
 \midrule
 \multicolumn{5}{l}{\textit{Percentage of phenomena hidden (vs.\ corrected):}} \\
-Gender errors       & ---   & 100\% & 100\% & 94\%  \\
+Gender errors       & ---   & 100\% & 100\% & 88\%  \\
 Code-switches       & ---   & 38\%  & 90\%  & 49\%  \\
 Bengali words       & ---   & 67\%  & 94\%  & 72\%  \\
 \bottomrule
@@ -376,9 +376,9 @@ Bengali words       & ---   & 67\%  & 94\%  & 72\%  \\
 
 \textbf{Key findings:}
 \begin{enumerate}
-  \item \textbf{Gender error normalization is near-total across all models.} Whisper-large-v3 and IndicWhisper-small hide 100\% of gender errors; IndicWhisper-large preserves only 2 of 36 (94\% hidden). The two surviving errors are in S4 and S8, suggesting that the large model occasionally reproduces non-standard forms when the speaker's actual pronunciation is sufficiently clear, but this is unreliable.
+  \item \textbf{Gender error normalization is near-total across all models.} Whisper-large-v3 and IndicWhisper-small hide 100\% of gender errors; IndicWhisper-large preserves only 2 of 16 (88\% hidden). The two surviving errors are in S4 and S8, suggesting that the large model occasionally reproduces non-standard forms when the speaker's actual pronunciation is sufficiently clear, but this is unreliable.
 
-  \item \textbf{Model size matters for coverage but not for morphological fidelity.} IndicWhisper-large (2,209 words) achieves comparable coverage to Whisper-large-v3 (2,957 words), while IndicWhisper-small produces only 742 words---a 64\% loss. However, even with adequate word counts, the large Hindi model still hides 94\% of gender errors.
+  \item \textbf{Model size matters for coverage but not for morphological fidelity.} IndicWhisper-large (2,209 words) achieves comparable coverage to Whisper-large-v3 (2,957 words), while IndicWhisper-small produces only 742 words---a 64\% loss. However, even with adequate word counts, the large Hindi model still hides 88\% of gender errors.
 
   \item \textbf{Bengali word recognition improves with scale but remains poor.} IndicWhisper-large detects 45 Bengali words (72\% loss) vs.\ IndicWhisper-small's 9 (94\% loss). Whisper-large-v3, being multilingual, detects 52 (67\% loss). Hindi-finetuned models convert Bengali words to Hindi-sounding equivalents more aggressively than the multilingual baseline.
 
@@ -401,13 +401,13 @@ Table~\ref{tab:section} breaks down detected phenomena by questionnaire section.
 \toprule
 \textbf{Sec.} & \textbf{Task} & \textbf{Segs} & \textbf{Words} & \textbf{Gender Err.} & \textbf{Switches} & \textbf{Bengali} \\
 \midrule
-A & Naming      & 18 & 270 &  5 & 11 & 36 \\
-B & Adjective   &  5 &  74 &  3 &  4 &  4 \\
-C & Action      & 11 & 206 &  4 & 16 & 35 \\
-E & Conversation& 44 & 851 & 16 & 29 & 37 \\
-F & Background  & 42 & 659 &  8 & 18 & 47 \\
+A & Naming      & 18 & 270 &  2 & 11 & 36 \\
+B & Adjective   &  5 &  74 &  2 &  4 &  4 \\
+C & Action      & 11 & 206 &  3 & 16 & 35 \\
+E & Conversation& 44 & 851 &  5 & 29 & 37 \\
+F & Background  & 42 & 659 &  4 & 18 & 47 \\
 \midrule
-  & \textbf{Total} & \textbf{120} & \textbf{2,060} & \textbf{36} & \textbf{78} & \textbf{159} \\
+  & \textbf{Total} & \textbf{120} & \textbf{2,060} & \textbf{16} & \textbf{78} & \textbf{159} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -433,8 +433,8 @@ The most striking finding is the \textbf{complete unidirectionality} of gender e
 
 Error frequency correlates inversely with Hindi exposure:
 \begin{itemize}
-  \item S4 (24 errors): Later Hindi acquisition, limited exposure.
-  \item S2 (3 errors): Longer Hindi exposure, only photo-description errors.
+  \item S4 (9 errors): Later Hindi acquisition, limited exposure.
+  \item S2 (2 errors): Longer Hindi exposure, only photo-description errors.
   \item S5, S6 (0 errors): Male speakers---masculine default is correct for self-reference.
 \end{itemize}
 
@@ -448,7 +448,7 @@ The complete absence of ergative \textit{ne} (0/8 transitive perfective contexts
   \item \textbf{Corpus size}: 8 speakers and 2,060 words is small for statistical generalization, though sufficient for documenting qualitative patterns.
   \item \textbf{Rule-based approach}: The analyzer cannot detect novel patterns not encoded in its lexicons and rules. A machine learning approach would require a larger annotated corpus.
   \item \textbf{Unknown words}: 12.4\% of words are classified as ``unknown,'' primarily proper nouns and numbers outside the lexicon's scope.
-  \item \textbf{Gender error precision}: 36 detected vs.\ 23 manually counted errors suggests some false positives, primarily from the subject-verb checker in ambiguous contexts.
+  \item \textbf{Gender error precision and recall}: An initial run of the analyzer flagged 36 candidate errors. We manually audited every one against its full segment context and found 17 false positives (wrong noun gender in the lexicon, third-person or impersonal subjects, mixed-gender group subjects, and duplicate R1/R2 detections). After fixing these rules, the analyzer reports 16 errors, all of which are confirmed by the audit (precision 16/16 on the audited set). Two audited true positives (S4, ``\textit{kaam karta tha}'' and ``\textit{ghus gaya}'' in a narrative with no first-person marker) are missed, because identifying the speaker as the subject requires discourse-level coreference that the rule-based checker does not perform (recall 16/18). Because the rules were tuned on this same audit, these figures are optimistic and should be validated on held-out speakers.
 \end{enumerate}
 
 %======================================================================
@@ -460,7 +460,7 @@ We have presented a morphology-aware analyzer for Bengali-Hindi code-switched sp
 
 \begin{enumerate}
   \item Gender agreement errors in L2 Hindi are \textbf{systematic, unidirectional, and predictable} from the L1 (Bengali) typology.
-  \item \textbf{ASR normalization is architectural, not fixable by finetuning.} A four-way comparison (Whisper-large-v3, IndicWhisper-small, IndicWhisper-large) shows all systems hide 94--100\% of gender errors. Hindi finetuning introduces hallucination on code-switched audio without preserving non-standard morphology.
+  \item \textbf{ASR normalization is architectural, not fixable by finetuning.} A four-way comparison (Whisper-large-v3, IndicWhisper-small, IndicWhisper-large) shows all systems hide 88--100\% of gender errors. Hindi finetuning introduces hallucination on code-switched audio without preserving non-standard morphology.
   \item A rule-based analyzer with curated lexicons can detect these patterns with reasonable accuracy on corrected transcripts.
 \end{enumerate}
 

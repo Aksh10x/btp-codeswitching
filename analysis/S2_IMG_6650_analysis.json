@@ -11,7 +11,7 @@
       "start": 41.2,
       "end": 41.66,
       "probability": 0.1827,
-      "segment_text": "thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys (data collectir: ab in dono mein phark kya hai)",
+      "segment_text": "s: thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys\nc: ab in dono mein phark kya hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -19,7 +19,7 @@
       "start": 52.58,
       "end": 53.16,
       "probability": 0.3121,
-      "segment_text": "yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same, (collector: yeh kya karraha hai) yeh khana kha raha hai",
+      "segment_text": "s: yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same\nc: yeh kya kar raha hai?\ns: yeh khana kha raha hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -27,7 +27,7 @@
       "start": 53.16,
       "end": 53.46,
       "probability": 0.3438,
-      "segment_text": "yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same, (collector: yeh kya karraha hai) yeh khana kha raha hai",
+      "segment_text": "s: yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same\nc: yeh kya kar raha hai?\ns: yeh khana kha raha hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -35,7 +35,7 @@
       "start": 57.23,
       "end": 57.65,
       "probability": 0.2164,
-      "segment_text": "yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same, (collector: yeh kya karraha hai) yeh khana kha raha hai",
+      "segment_text": "s: yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same\nc: yeh kya kar raha hai?\ns: yeh khana kha raha hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -43,7 +43,7 @@
       "start": 57.8,
       "end": 60.42,
       "probability": 0.3718,
-      "segment_text": "yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same, (collector: yeh kya karraha hai) yeh khana kha raha hai",
+      "segment_text": "s: yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same\nc: yeh kya kar raha hai?\ns: yeh khana kha raha hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -51,7 +51,7 @@
       "start": 71.9,
       "end": 72.46,
       "probability": 0.3376,
-      "segment_text": "yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same, (collector: yeh kya karraha hai) yeh khana kha raha hai",
+      "segment_text": "s: yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same\nc: yeh kya kar raha hai?\ns: yeh khana kha raha hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -83,7 +83,7 @@
       "start": 183.94,
       "end": 184.68,
       "probability": 0.3912,
-      "segment_text": "(collector: studenst kaise lagte hai aapko)students acche lagte hai bohot students acche hai bohot students hasi mazaak bhi karte hai aur acche bhi hai",
+      "segment_text": "students acche lagte hai bohot, students acche hai bohot, students hasi mazaak bhi karte hai aur acche bhi hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -91,7 +91,7 @@
       "start": 210.1,
       "end": 210.28,
       "probability": 0.3804,
-      "segment_text": "this is entirely bengali: ghum theke utla, ghum theke uthe ami amar pollam tarpode ache ami brekfast banala tarpode something something i can understand",
+      "segment_text": "s: ghum theke uthlam, ghum theke uthe ami amar pollam tarpore ache, ami breakfast banalam, tarpore [unclear Bengali]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -99,7 +99,7 @@
       "start": 211.08,
       "end": 211.8,
       "probability": 0.3751,
-      "segment_text": "this is entirely bengali: ghum theke utla, ghum theke uthe ami amar pollam tarpode ache ami brekfast banala tarpode something something i can understand",
+      "segment_text": "s: ghum theke uthlam, ghum theke uthe ami amar pollam tarpore ache, ami breakfast banalam, tarpore [unclear Bengali]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -117,7 +117,7 @@
       "gender_form": "m_pl",
       "start": 22.43,
       "end": 22.75,
-      "segment_text": "yeh house hai, windows hai, glass hai, chapatees, eh dinner kya bole, uhhh kya bole (data collectir: jo aapke dimaag mein pehli baar aaye wohi boldijiye) accha isme kya kya hai woh bolna",
+      "segment_text": "s: yeh house hai, windows hai, glass hai, chapatees, eh dinner kya bole, uhhh kya bole\nc: jo aapke dimaag mein pehli baar aaye wohi bol dijiye\ns: accha isme kya kya hai woh bolna",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -125,7 +125,7 @@
       "gender_form": "f_sg",
       "start": 30.17,
       "end": 30.85,
-      "segment_text": "thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys (data collectir: ab in dono mein phark kya hai)",
+      "segment_text": "s: thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys\nc: ab in dono mein phark kya hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -133,7 +133,7 @@
       "gender_form": "f_sg",
       "start": 30.85,
       "end": 31.33,
-      "segment_text": "thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys (data collectir: ab in dono mein phark kya hai)",
+      "segment_text": "s: thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys\nc: ab in dono mein phark kya hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -141,7 +141,7 @@
       "gender_form": "f_sg",
       "start": 32.37,
       "end": 32.65,
-      "segment_text": "thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys (data collectir: ab in dono mein phark kya hai)",
+      "segment_text": "s: thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys\nc: ab in dono mein phark kya hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -149,7 +149,7 @@
       "gender_form": "f_sg",
       "start": 32.65,
       "end": 33.25,
-      "segment_text": "thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys (data collectir: ab in dono mein phark kya hai)",
+      "segment_text": "s: thaali hai khaane ka thaali, yeh car hai, hands ya finger heh, keys\nc: ab in dono mein phark kya hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -157,7 +157,7 @@
       "gender_form": "m_sg",
       "start": 67.26,
       "end": 67.46,
-      "segment_text": "yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same, (collector: yeh kya karraha hai) yeh khana kha raha hai",
+      "segment_text": "s: yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same\nc: yeh kya kar raha hai?\ns: yeh khana kha raha hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -165,7 +165,7 @@
       "gender_form": "m_sg",
       "start": 68.92,
       "end": 69.06,
-      "segment_text": "yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same, (collector: yeh kya karraha hai) yeh khana kha raha hai",
+      "segment_text": "s: yeh big hai yeh small hai, yeh bhi same hai big small, eh bhi same\nc: yeh kya kar raha hai?\ns: yeh khana kha raha hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -173,7 +173,7 @@
       "gender_form": "m_sg",
       "start": 73.78,
       "end": 73.96,
-      "segment_text": "(collector: close karke dekhe toh yeh kya kar raha hiai?) roti kha raha hai, (collector: yeh kya kar rahi hai?) chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bolte  dhaal raha hai na  hum log benghali(pauses and laughs and jibberish)",
+      "segment_text": "roti kha raha hai chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bole [unclear]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -181,7 +181,7 @@
       "gender_form": "m_sg",
       "start": 80.04,
       "end": 80.24,
-      "segment_text": "(collector: close karke dekhe toh yeh kya kar raha hiai?) roti kha raha hai, (collector: yeh kya kar rahi hai?) chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bolte  dhaal raha hai na  hum log benghali(pauses and laughs and jibberish)",
+      "segment_text": "roti kha raha hai chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bole [unclear]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -189,7 +189,7 @@
       "gender_form": "m_sg",
       "start": 85.28,
       "end": 85.48,
-      "segment_text": "(collector: close karke dekhe toh yeh kya kar raha hiai?) roti kha raha hai, (collector: yeh kya kar rahi hai?) chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bolte  dhaal raha hai na  hum log benghali(pauses and laughs and jibberish)",
+      "segment_text": "roti kha raha hai chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bole [unclear]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -197,7 +197,7 @@
       "gender_form": "m_sg",
       "start": 89.33,
       "end": 89.57,
-      "segment_text": "(collector: close karke dekhe toh yeh kya kar raha hiai?) roti kha raha hai, (collector: yeh kya kar rahi hai?) chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bolte  dhaal raha hai na  hum log benghali(pauses and laughs and jibberish)",
+      "segment_text": "roti kha raha hai chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bole [unclear]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -205,7 +205,7 @@
       "gender_form": "m_sg",
       "start": 97.83,
       "end": 98.07,
-      "segment_text": "(collector: close karke dekhe toh yeh kya kar raha hiai?) roti kha raha hai, (collector: yeh kya kar rahi hai?) chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bolte  dhaal raha hai na  hum log benghali(pauses and laughs and jibberish)",
+      "segment_text": "roti kha raha hai chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bole [unclear]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -213,7 +213,7 @@
       "gender_form": "f_sg",
       "start": 99.17,
       "end": 99.73,
-      "segment_text": "(collector: close karke dekhe toh yeh kya kar raha hiai?) roti kha raha hai, (collector: yeh kya kar rahi hai?) chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bolte  dhaal raha hai na  hum log benghali(pauses and laughs and jibberish)",
+      "segment_text": "roti kha raha hai chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bole [unclear]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -221,7 +221,7 @@
       "gender_form": "m_pl",
       "start": 100.33,
       "end": 100.87,
-      "segment_text": "(collector: close karke dekhe toh yeh kya kar raha hiai?) roti kha raha hai, (collector: yeh kya kar rahi hai?) chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bolte  dhaal raha hai na  hum log benghali(pauses and laughs and jibberish)",
+      "segment_text": "roti kha raha hai chawal kha raha hai, door khol raha hai, kitaab padh raha hai, paani glass mein uhhh kya bole [unclear]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -237,7 +237,7 @@
       "gender_form": "m_pl",
       "start": 213.7,
       "end": 214.0,
-      "segment_text": "this is entirely bengali: ghum theke utla, ghum theke uthe ami amar pollam tarpode ache ami brekfast banala tarpode something something i can understand",
+      "segment_text": "s: ghum theke uthlam, ghum theke uthe ami amar pollam tarpore ache, ami breakfast banalam, tarpore [unclear Bengali]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -245,7 +245,7 @@
       "gender_form": "m_sg",
       "start": 219.1,
       "end": 219.68,
-      "segment_text": "this is entirely bengali: ghum theke utla, ghum theke uthe ami amar pollam tarpode ache ami brekfast banala tarpode something something i can understand",
+      "segment_text": "s: ghum theke uthlam, ghum theke uthe ami amar pollam tarpore ache, ami breakfast banalam, tarpore [unclear Bengali]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -253,7 +253,7 @@
       "gender_form": "m_pl",
       "start": 238.16,
       "end": 238.38,
-      "segment_text": "data collectir: aapka home district aapka janm kaha hua hai\nspeaker: (bengali) amar emni janmo ache durgapure, vordhoman durgapur tarpore amar B.A. hoi chi kharagpure",
+      "segment_text": "c: aapka home district, aapka janam kaha hua hai?\ns: amar janmo ache Durgapure, Bardhaman Durgapur, tarpore amar B.A. hoiche Kharagpure",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -261,7 +261,7 @@
       "gender_form": "m_pl",
       "start": 239.08,
       "end": 239.88,
-      "segment_text": "data collectir: aapka home district aapka janm kaha hua hai\nspeaker: (bengali) amar emni janmo ache durgapure, vordhoman durgapur tarpore amar B.A. hoi chi kharagpure",
+      "segment_text": "c: aapka home district, aapka janam kaha hua hai?\ns: amar janmo ache Durgapure, Bardhaman Durgapur, tarpore amar B.A. hoiche Kharagpure",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -269,7 +269,7 @@
       "gender_form": "f_sg",
       "start": 254.3,
       "end": 254.98,
-      "segment_text": "hindi amaer to subject ee chilo (entirely bengali) toh ami otha thike emni",
+      "segment_text": "s: hindi amar to subject-i chilo, toh ami oita thik emni [unclear Bengali]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -277,7 +277,7 @@
       "gender_form": "m_pl",
       "start": 257.58,
       "end": 257.82,
-      "segment_text": "hindi amaer to subject ee chilo (entirely bengali) toh ami otha thike emni",
+      "segment_text": "s: hindi amar to subject-i chilo, toh ami oita thik emni [unclear Bengali]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -304,7 +304,7 @@
       "alternate_form": "अच्छी",
       "start": 18.05,
       "end": 20.97,
-      "segment_text": "yeh house hai, windows hai, glass hai, chapatees, eh dinner kya bole, uhhh kya bole (data collectir: jo aapke dimaag mein pehli baar aaye wohi boldijiye) accha isme kya kya hai woh bolna",
+      "segment_text": "s: yeh house hai, windows hai, glass hai, chapatees, eh dinner kya bole, uhhh kya bole\nc: jo aapke dimaag mein pehli baar aaye wohi bol dijiye\ns: accha isme kya kya hai woh bolna",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     },
     {
@@ -313,7 +313,7 @@
       "alternate_form": "अच्छी",
       "start": 210.28,
       "end": 211.08,
-      "segment_text": "this is entirely bengali: ghum theke utla, ghum theke uthe ami amar pollam tarpode ache ami brekfast banala tarpode something something i can understand",
+      "segment_text": "s: ghum theke uthlam, ghum theke uthe ami amar pollam tarpore ache, ami breakfast banalam, tarpore [unclear Bengali]",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     },
     {
@@ -322,7 +322,7 @@
       "alternate_form": "अच्छी",
       "start": 253.62,
       "end": 253.74,
-      "segment_text": "ami bechirphagi bangla use kori",
+      "segment_text": "s: ami beshirbhag Bangla use kori",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     },
     {
@@ -331,7 +331,7 @@
       "alternate_form": "अच्छी",
       "start": 254.98,
       "end": 255.68,
-      "segment_text": "hindi amaer to subject ee chilo (entirely bengali) toh ami otha thike emni",
+      "segment_text": "s: hindi amar to subject-i chilo, toh ami oita thik emni [unclear Bengali]",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     },
     {
@@ -340,7 +340,7 @@
       "alternate_form": "अच्छी",
       "start": 279.96,
       "end": 280.52,
-      "segment_text": "थारो अमिव एड थी के हिंदी चालू करेची यह अपने नीज़े पढ़ते पारी अब स्टूडेंट देर को पढ़िए ची",
+      "segment_text": "s: [unclear Bengali - possibly describing when she started using Hindi, reading/teaching students]",
       "note": "Check if adjective agrees with following noun's grammatical gender"
     }
   ],
@@ -351,7 +351,7 @@
       "word": "bangla",
       "start": 137.37,
       "end": 157.13,
-      "segment_text": "(data collector: jaise aapko kuch puchungi toh normal aap usme hi jwaab dena, jaise students kaise hai kya aapko baat karni mein mushkil hoti hai?) nahi mujhko baat karna mushkil kuch nahi hota hai emmm hindi aur thoda thoda english aur thoda bangla bhi (next timestamp has this)"
+      "segment_text": "nahi mujhko baat karna mushkil kuch nahi hota hai [unclear continuation]"
     },
     {
       "word": "ek ta",
@@ -363,29 +363,29 @@
       "word": "bengali",
       "start": 209.78,
       "end": 220.68,
-      "segment_text": "this is entirely bengali: ghum theke utla, ghum theke uthe ami amar pollam tarpode ache ami brekfast banala tarpode something something i can understand"
+      "segment_text": "s: ghum theke uthlam, ghum theke uthe ami amar pollam tarpore ache, ami breakfast banalam, tarpore [unclear Bengali]"
     },
     {
       "word": "bengali",
       "start": 234.32,
       "end": 244.3,
-      "segment_text": "data collectir: aapka home district aapka janm kaha hua hai\nspeaker: (bengali) amar emni janmo ache durgapure, vordhoman durgapur tarpore amar B.A. hoi chi kharagpure"
+      "segment_text": "c: aapka home district, aapka janam kaha hua hai?\ns: amar janmo ache Durgapure, Bardhaman Durgapur, tarpore amar B.A. hoiche Kharagpure"
     },
     {
       "word": "bangla",
       "start": 246.86,
       "end": 254.04,
-      "segment_text": "ami bechirphagi bangla use kori"
+      "segment_text": "s: ami beshirbhag Bangla use kori"
     },
     {
       "word": "bengali",
       "start": 254.04,
       "end": 262.0,
-      "segment_text": "hindi amaer to subject ee chilo (entirely bengali) toh ami otha thike emni"
+      "segment_text": "s: hindi amar to subject-i chilo, toh ami oita thik emni [unclear Bengali]"
     }
   ],
   "summary": {
-    "total_words": 421,
+    "total_words": 343,
     "total_segments": 30,
     "duration_s": 309.36,
     "low_confidence_segments": 0,

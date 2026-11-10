@@ -8,7 +8,7 @@
     {
       "start": 15.77,
       "end": 34.74,
-      "text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
+      "text": "s: hum thoda sa hi... bengali... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "avg_logprob": -1.3771,
       "no_speech_prob": 0.2113,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -20,7 +20,7 @@
       "start": 20.22,
       "end": 20.6,
       "probability": 0.1213,
-      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
+      "segment_text": "s: hum thoda sa hi... bengali... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -28,7 +28,7 @@
       "start": 20.6,
       "end": 21.56,
       "probability": 0.1308,
-      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
+      "segment_text": "s: hum thoda sa hi... bengali... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -36,7 +36,7 @@
       "start": 24.5,
       "end": 24.74,
       "probability": 0.0013,
-      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
+      "segment_text": "s: hum thoda sa hi... bengali... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -44,7 +44,7 @@
       "start": 24.74,
       "end": 25.7,
       "probability": 0.306,
-      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
+      "segment_text": "s: hum thoda sa hi... bengali... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -52,7 +52,7 @@
       "start": 25.7,
       "end": 26.9,
       "probability": 0.2099,
-      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
+      "segment_text": "s: hum thoda sa hi... bengali... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -60,7 +60,7 @@
       "start": 31.32,
       "end": 34.74,
       "probability": 0.3112,
-      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
+      "segment_text": "s: hum thoda sa hi... bengali... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -68,7 +68,7 @@
       "start": 37.24,
       "end": 38.0,
       "probability": 0.2944,
-      "segment_text": "nahi bilkul nahi, students ke saath (data collector: kaha tak padhe ho dada?) hum graduate hai, bcom (data collectir: hindi kab tak padhe aap) hum 2 year padha tha 7 8 hum log ka 7 8 tak tha (data collector: aur koi language use karte ho?) english tha thoda sa",
+      "segment_text": "s: nahi bilkul nahi, students ke saath\nc: kaha tak padhe ho dada?\ns: hum graduate hai, bcom\nc: hindi kab tak padhe aap?\ns: hum 2 year padha tha, 7-8 hum log ka 7-8 tak tha",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -76,7 +76,7 @@
       "start": 44.25,
       "end": 45.89,
       "probability": 0.2551,
-      "segment_text": "nahi bilkul nahi, students ke saath (data collector: kaha tak padhe ho dada?) hum graduate hai, bcom (data collectir: hindi kab tak padhe aap) hum 2 year padha tha 7 8 hum log ka 7 8 tak tha (data collector: aur koi language use karte ho?) english tha thoda sa",
+      "segment_text": "s: nahi bilkul nahi, students ke saath\nc: kaha tak padhe ho dada?\ns: hum graduate hai, bcom\nc: hindi kab tak padhe aap?\ns: hum 2 year padha tha, 7-8 hum log ka 7-8 tak tha",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     }
   ],
@@ -86,7 +86,7 @@
       "gender_form": "f_sg",
       "start": 15.77,
       "end": 17.79,
-      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
+      "segment_text": "s: hum thoda sa hi... bengali... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -94,7 +94,7 @@
       "gender_form": "f_sg",
       "start": 17.79,
       "end": 19.37,
-      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
+      "segment_text": "s: hum thoda sa hi... bengali... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -102,7 +102,7 @@
       "gender_form": "f_sg",
       "start": 41.46,
       "end": 42.12,
-      "segment_text": "nahi bilkul nahi, students ke saath (data collector: kaha tak padhe ho dada?) hum graduate hai, bcom (data collectir: hindi kab tak padhe aap) hum 2 year padha tha 7 8 hum log ka 7 8 tak tha (data collector: aur koi language use karte ho?) english tha thoda sa",
+      "segment_text": "s: nahi bilkul nahi, students ke saath\nc: kaha tak padhe ho dada?\ns: hum graduate hai, bcom\nc: hindi kab tak padhe aap?\ns: hum 2 year padha tha, 7-8 hum log ka 7-8 tak tha",
       "note": "Agreement site — verify gender matches subject/object"
     }
   ],
@@ -114,11 +114,11 @@
       "word": "bengali",
       "start": 15.77,
       "end": 34.74,
-      "segment_text": "hum thoda sa hi... bengali.... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi"
+      "segment_text": "s: hum thoda sa hi... bengali... mera bengali language hai... iska baad hum hindi woh seventh se seventh se hum... mera hijli high school ka schooling hai aur third language tha mera hindi"
     }
   ],
   "summary": {
-    "total_words": 120,
+    "total_words": 94,
     "total_segments": 9,
     "duration_s": 76.67,
     "low_confidence_segments": 1,

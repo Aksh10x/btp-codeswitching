@@ -17,13 +17,11 @@ HINDI_FEMININE_NOUNS = {
     "chaabi", "chabi",     # key
     "khidki", "khidkee",   # window
     "kamar",               # waist/back
-    "chawal",              # rice (F in some dialects, but typically M — remove if disputed)
 
     # Common feminine nouns (household/everyday)
     "mez", "table",        # table (mez is F in Hindi)
     "almari", "almaari",   # cupboard
     "botal", "bottle",     # bottle
-    "daal",                # lentils
     "chai",                # tea
     "topi",                # cap
     "chaadar", "chadar",   # sheet/bedsheet
@@ -68,7 +66,6 @@ HINDI_FEMININE_NOUNS = {
     "duty",                # duty (F in colloquial Hindi)
     "study",               # study (F in colloquial Hindi)
     "plate",               # plate
-    "glass",               # glass (can be M in some usage — context dependent)
     "degree",              # degree
 }
 

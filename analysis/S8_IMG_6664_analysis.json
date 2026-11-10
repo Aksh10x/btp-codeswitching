@@ -8,7 +8,7 @@
     {
       "start": 85.23,
       "end": 87.59,
-      "text": "collector: aapka janm bhi yehi hua speaker: janm bhi yahi shaadi bhi yahi collector: ghar mein kya bhasha bolte hai speaker: bengali bhasha bolte hai collector: wohi bolte hai bachpan se? speaker: ha collecotr: aur koi bhasha aati hai aapko",
+      "text": "janam bhi yahi shaadi bhi yahi Bengali bhasha bolte hai haa",
       "avg_logprob": -0.7211,
       "no_speech_prob": 0.2131,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -20,7 +20,7 @@
       "start": 204.87,
       "end": 206.41,
       "probability": 0.3447,
-      "segment_text": "collector: baccho se aap konsi bhasha mein baat karte hai speaker: bengali hum log ka jo bhasha hai collector: accha baccho se kabhi hindi nahi baat karte? speaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai collector: okay didi thankyou",
+      "segment_text": "Bengali hum log ka jo bhasha hai nahi mera ladki Hindi English mein [continues]",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     }
   ],
@@ -30,7 +30,7 @@
       "gender_form": "f_sg",
       "start": 13.4,
       "end": 13.78,
-      "segment_text": "collector: didi yeh kya hai? speaker: yeh darwaza hai, yeh chair hai, fan hai, eh kitaab hai, eh ghar hai, eh khirki hai",
+      "segment_text": "yeh darwaza hai, yeh chair hai, fan hai, eh kitaab hai, eh ghar hai, eh khidki hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -38,7 +38,7 @@
       "gender_form": "m_pl",
       "start": 27.56,
       "end": 27.98,
-      "segment_text": "speaker: eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paacho ungli, chaabi hai\ncollector: didi inn dono photo mein kya phark hai\nspeaker: yeh thoda chota hai thoda bada hai\ncollector: ismein aapko batana hai ki isne kya kiya\nspeaker: isne roti khaya, khana kha raha hai, eh darwaza kholke dekh raha hai, book padh raha hai, paani daal raha hai glass mein, paani gir gya, kitaab ulat gaya, khursi toot gaya, fan bhi tut gaya, khirki ghar purana jaise lag raha hai\ncollector: didi aap kaha se ho\nspeaker: mai bengal se\ncollector: bengal mein kaha se?\nspeaker: kharagpur se, yehe rehte hai",
+      "segment_text": "s: eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paanch ungli, chaabi hai\nc: didi inn dono photo mein kya phark hai?\ns: yeh thoda chota hai thoda bada hai\nc: [continues]",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -46,7 +46,7 @@
       "gender_form": "f_sg",
       "start": 129.13,
       "end": 129.31,
-      "segment_text": "collecotr: aap din mein kitna time hindi use karte ho?\nspeaker: jab tak mai idhar kaam pe rehti tab tak hindi aur ek student ko padhati hu-",
+      "segment_text": "c: aap din mein kitna time Hindi use karte ho?\ns: jab tak mai idhar kaam pe rehti tab tak Hindi aur ek student ko padhati hu-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -54,7 +54,7 @@
       "gender_form": "m_sg",
       "start": 131.07,
       "end": 131.43,
-      "segment_text": "collecotr: aap din mein kitna time hindi use karte ho?\nspeaker: jab tak mai idhar kaam pe rehti tab tak hindi aur ek student ko padhati hu-",
+      "segment_text": "c: aap din mein kitna time Hindi use karte ho?\ns: jab tak mai idhar kaam pe rehti tab tak Hindi aur ek student ko padhati hu-",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -62,7 +62,7 @@
       "gender_form": "m_sg",
       "start": 145.03,
       "end": 148.15,
-      "segment_text": "-toh sab dekhna padta hai jaise student ka kuch problem complaint yeh sabhi aur kuch nahi\ncollector: didi aapke ghar mein khana kon banata hai?\nspeaker: mai hi banati hu mera husband bhi banata hai",
+      "segment_text": "s: -toh sab dekhna padta hai jaise student ka kuch problem complaint yeh sabhi aur kuch nahi\nc: didi aapke ghar mein khana kon banata hai?\ns: mai hi banata hai mera husband bhi banata hai",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -70,7 +70,7 @@
       "gender_form": "m_sg",
       "start": 149.05,
       "end": 149.39,
-      "segment_text": "kyuki mai subha ka duty pe ajati hu tab husband banata hai\ncollector: aur kya kya banate ho khaane mein\nspeaker: jaise daal chaawal machli",
+      "segment_text": "s: kyuki mai subah ka duty pe aa jati hu tab husband banata hai\nc: aur kya kya banate ho khaane mein?\ns: jaise daal chawal machli",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -78,7 +78,7 @@
       "gender_form": "m_sg",
       "start": 153.71,
       "end": 154.05,
-      "segment_text": "kyuki mai subha ka duty pe ajati hu tab husband banata hai\ncollector: aur kya kya banate ho khaane mein\nspeaker: jaise daal chaawal machli",
+      "segment_text": "s: kyuki mai subah ka duty pe aa jati hu tab husband banata hai\nc: aur kya kya banate ho khaane mein?\ns: jaise daal chawal machli",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -86,7 +86,7 @@
       "gender_form": "m_sg",
       "start": 154.83,
       "end": 155.25,
-      "segment_text": "kyuki mai subha ka duty pe ajati hu tab husband banata hai\ncollector: aur kya kya banate ho khaane mein\nspeaker: jaise daal chaawal machli",
+      "segment_text": "s: kyuki mai subah ka duty pe aa jati hu tab husband banata hai\nc: aur kya kya banate ho khaane mein?\ns: jaise daal chawal machli",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -94,7 +94,7 @@
       "gender_form": "f_sg",
       "start": 157.59,
       "end": 157.93,
-      "segment_text": "zyada tar hum log ka non veg hota hai, veg kam hota hai\ncollector: aur aap apna routine bataoge mujhe subha se lekar ab tak",
+      "segment_text": "s: zyada tar hum log ka non-veg hota hai, veg kam hota hai\nc: aur aap apna routine bataoge mujhe subah se lekar ab tak?",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -102,7 +102,7 @@
       "gender_form": "m_sg",
       "start": 167.73,
       "end": 167.99,
-      "segment_text": "collecotr: aapne kya kiya\nspeaker: haa subha uthne se chalu hota hai kapda dhona, bartan, pocha, jhaadu",
+      "segment_text": "c: aapne kya kiya?\ns: haa subah uthne se chalu hota hai kapda dhona, bartan, pocha, jhaadu",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -110,7 +110,7 @@
       "gender_form": "f_sg",
       "start": 206.41,
       "end": 206.97,
-      "segment_text": "collector: baccho se aap konsi bhasha mein baat karte hai speaker: bengali hum log ka jo bhasha hai collector: accha baccho se kabhi hindi nahi baat karte? speaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai collector: okay didi thankyou",
+      "segment_text": "Bengali hum log ka jo bhasha hai nahi mera ladki Hindi English mein [continues]",
       "note": "Agreement site — verify gender matches subject/object"
     }
   ],
@@ -125,7 +125,7 @@
       "error": "masculine_default_on_feminine",
       "start": 15.53,
       "end": 29.9,
-      "segment_text": "speaker: eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paacho ungli, chaabi hai\ncollector: didi inn dono photo mein kya phark hai\nspeaker: yeh thoda chota hai thoda bada hai\ncollector: ismein aapko batana hai ki isne kya kiya\nspeaker: isne roti khaya, khana kha raha hai, eh darwaza kholke dekh raha hai, book padh raha hai, paani daal raha hai glass mein, paani gir gya, kitaab ulat gaya, khursi toot gaya, fan bhi tut gaya, khirki ghar purana jaise lag raha hai\ncollector: didi aap kaha se ho\nspeaker: mai bengal se\ncollector: bengal mein kaha se?\nspeaker: kharagpur se, yehe rehte hai"
+      "segment_text": "s: eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paanch ungli, chaabi hai\nc: didi inn dono photo mein kya phark hai?\ns: yeh thoda chota hai thoda bada hai\nc: [continues]"
     },
     {
       "pattern": "kitaab ulat gaya",
@@ -135,7 +135,7 @@
       "error": "masculine_default_on_feminine",
       "start": 15.53,
       "end": 29.9,
-      "segment_text": "speaker: eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paacho ungli, chaabi hai\ncollector: didi inn dono photo mein kya phark hai\nspeaker: yeh thoda chota hai thoda bada hai\ncollector: ismein aapko batana hai ki isne kya kiya\nspeaker: isne roti khaya, khana kha raha hai, eh darwaza kholke dekh raha hai, book padh raha hai, paani daal raha hai glass mein, paani gir gya, kitaab ulat gaya, khursi toot gaya, fan bhi tut gaya, khirki ghar purana jaise lag raha hai\ncollector: didi aap kaha se ho\nspeaker: mai bengal se\ncollector: bengal mein kaha se?\nspeaker: kharagpur se, yehe rehte hai"
+      "segment_text": "s: eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paanch ungli, chaabi hai\nc: didi inn dono photo mein kya phark hai?\ns: yeh thoda chota hai thoda bada hai\nc: [continues]"
     },
     {
       "pattern": "khursi toot gaya",
@@ -145,7 +145,7 @@
       "error": "masculine_default_on_feminine",
       "start": 15.53,
       "end": 29.9,
-      "segment_text": "speaker: eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paacho ungli, chaabi hai\ncollector: didi inn dono photo mein kya phark hai\nspeaker: yeh thoda chota hai thoda bada hai\ncollector: ismein aapko batana hai ki isne kya kiya\nspeaker: isne roti khaya, khana kha raha hai, eh darwaza kholke dekh raha hai, book padh raha hai, paani daal raha hai glass mein, paani gir gya, kitaab ulat gaya, khursi toot gaya, fan bhi tut gaya, khirki ghar purana jaise lag raha hai\ncollector: didi aap kaha se ho\nspeaker: mai bengal se\ncollector: bengal mein kaha se?\nspeaker: kharagpur se, yehe rehte hai"
+      "segment_text": "s: eh paani ka glass hai, roti hai, khana hai, car hai, aar haath paanch ungli, chaabi hai\nc: didi inn dono photo mein kya phark hai?\ns: yeh thoda chota hai thoda bada hai\nc: [continues]"
     }
   ],
   "verified_bengali_words": [
@@ -153,29 +153,29 @@
       "word": "bengali",
       "start": 85.23,
       "end": 87.59,
-      "segment_text": "collector: aapka janm bhi yehi hua speaker: janm bhi yahi shaadi bhi yahi collector: ghar mein kya bhasha bolte hai speaker: bengali bhasha bolte hai collector: wohi bolte hai bachpan se? speaker: ha collecotr: aur koi bhasha aati hai aapko"
+      "segment_text": "janam bhi yahi shaadi bhi yahi Bengali bhasha bolte hai haa"
     },
     {
       "word": "bengali",
       "start": 93.09,
       "end": 114.63,
-      "segment_text": "speaker: haa hindi ata hai thoda thoda\ncollector: toh kaha tak padhe ho aap didi\nspeaker: hs tak, hs, higher secondary\ncollector toh school mein hogi hidndi\nspeaker: haa hai, do class 7 8th tha.\ncollector: toh usse pehle bhi aap bolne lage the aap?\ncollector: haa thoda sunke kyuki hum log ka school mein hindi english bhi hai dono rehat hai bengali hindi english aise rehta hai"
+      "segment_text": "s: haa Hindi aata hai thoda thoda\nc: toh kaha tak padhe ho aap didi?\ns: HS tak, HS, higher secondary\nc: toh school mein hogi Hindi?\ns: haa hai, do class 7-8th tha\nc: [continues]"
     },
     {
       "word": "eta",
       "start": 198.89,
       "end": 211.73,
-      "segment_text": "collector: baccho se aap konsi bhasha mein baat karte hai speaker: bengali hum log ka jo bhasha hai collector: accha baccho se kabhi hindi nahi baat karte? speaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai collector: okay didi thankyou"
+      "segment_text": "Bengali hum log ka jo bhasha hai nahi mera ladki Hindi English mein [continues]"
     },
     {
       "word": "bengali",
       "start": 198.89,
       "end": 211.73,
-      "segment_text": "collector: baccho se aap konsi bhasha mein baat karte hai speaker: bengali hum log ka jo bhasha hai collector: accha baccho se kabhi hindi nahi baat karte? speaker: nahi mera larki hindi english mein padhat hai toh kabhi kabaar hum log hindi english mein baat karleta hai collector: okay didi thankyou"
+      "segment_text": "Bengali hum log ka jo bhasha hai nahi mera ladki Hindi English mein [continues]"
     }
   ],
   "summary": {
-    "total_words": 494,
+    "total_words": 324,
     "total_segments": 13,
     "duration_s": 216.4,
     "low_confidence_segments": 1,

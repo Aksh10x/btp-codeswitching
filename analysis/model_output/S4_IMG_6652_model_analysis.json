@@ -277,14 +277,6 @@
           "verb_form": "padh raha",
           "expected_verb": "padh rahi",
           "context": "chota bada hai, eh khana kha raha hai, almari khul raha hai, kitaab padh raha hai, eh paani dal raha hai, glass tut gaya, kitaab ulta ho gaya, chair tut gaya, fan kharaab ho gaya, end khidki ke bahar bohut ped hota hai woh dekh ke accha bhi lagta hai"
-        },
-        {
-          "error_type": "noun_verb",
-          "rule_id": "R1",
-          "noun_or_subject": "glass",
-          "verb_form": "tut gaya",
-          "expected_verb": "tut gayi",
-          "context": "chota bada hai, eh khana kha raha hai, almari khul raha hai, kitaab padh raha hai, eh paani dal raha hai, glass tut gaya, kitaab ulta ho gaya, chair tut gaya, fan kharaab ho gaya, end khidki ke bahar bohut ped hota hai woh dekh ke accha bhi lagta hai"
         }
       ],
       "ergative_annotations": [],
@@ -374,16 +366,7 @@
           "bengali_info": null
         }
       ],
-      "gender_errors": [
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "gaya",
-          "expected_verb": "gayi",
-          "context": "Kharagpur mera janam hai, bachpan se mera pitaji gujar gaya"
-        }
-      ],
+      "gender_errors": [],
       "ergative_annotations": [],
       "code_switches": [],
       "language_distribution": {
@@ -595,24 +578,8 @@
           "error_type": "subject_verb",
           "rule_id": "R2",
           "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "a gaya",
-          "expected_verb": "a gayi",
-          "context": "maami bhaiya ke saath kaam kar liya aur do hazaar pandrah mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya"
-        },
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "gaya",
-          "expected_verb": "gayi",
-          "context": "maami bhaiya ke saath kaam kar liya aur do hazaar pandrah mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya"
-        },
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "raha",
-          "expected_verb": "rahi",
+          "verb_form": "seekh raha",
+          "expected_verb": "seekh rahi",
           "context": "maami bhaiya ke saath kaam kar liya aur do hazaar pandrah mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya"
         },
         {
@@ -627,8 +594,8 @@
           "error_type": "subject_verb",
           "rule_id": "R2",
           "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "seekh raha",
-          "expected_verb": "seekh rahi",
+          "verb_form": "a gaya",
+          "expected_verb": "a gayi",
           "context": "maami bhaiya ke saath kaam kar liya aur do hazaar pandrah mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya"
         }
       ],
@@ -752,16 +719,7 @@
           "bengali_info": null
         }
       ],
-      "gender_errors": [
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "padhta",
-          "expected_verb": "padhti",
-          "context": "aur mera ek bachcha bhi hai woh english medium mein padhta hai aur aapke tarah padhna wadhna seekhega"
-        }
-      ],
+      "gender_errors": [],
       "ergative_annotations": [],
       "code_switches": [],
       "language_distribution": {
@@ -854,14 +812,6 @@
           "verb_form": "padh raha",
           "expected_verb": "padh rahi",
           "context": "mera ghar mein hindi bengali aur mera bhai beti english mein padh raha woh"
-        },
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "raha",
-          "expected_verb": "rahi",
-          "context": "mera ghar mein hindi bengali aur mera bhai beti english mein padh raha woh"
         }
       ],
       "ergative_annotations": [],
@@ -902,16 +852,7 @@
           "bengali_info": null
         }
       ],
-      "gender_errors": [
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "padhta",
-          "expected_verb": "padhti",
-          "context": "Vivekananda institute mein padhta hai"
-        }
-      ],
+      "gender_errors": [],
       "ergative_annotations": [],
       "code_switches": [],
       "language_distribution": {
@@ -1290,16 +1231,7 @@
           "bengali_info": null
         }
       ],
-      "gender_errors": [
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "bolta",
-          "expected_verb": "bolti",
-          "context": "mera mummy, bohut uhhhhh, woh kya bolta hai bohut uhhhhh"
-        }
-      ],
+      "gender_errors": [],
       "ergative_annotations": [],
       "code_switches": [],
       "language_distribution": {
@@ -1513,32 +1445,7 @@
           "bengali_info": null
         }
       ],
-      "gender_errors": [
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "karta",
-          "expected_verb": "karti",
-          "context": "ro raha tha ki idhar aajao idhar aajao bohot dur tha Bhanwar hospital mein kaam karta tha toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo"
-        },
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "ghus gaya",
-          "expected_verb": "ghus gayi",
-          "context": "ro raha tha ki idhar aajao idhar aajao bohot dur tha Bhanwar hospital mein kaam karta tha toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo"
-        },
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "karta tha",
-          "expected_verb": "karti thi",
-          "context": "ro raha tha ki idhar aajao idhar aajao bohot dur tha Bhanwar hospital mein kaam karta tha toh idhar ghus gaya, mera bhaiya ek train hai woh ghusa diya bola idhar hi kaam karo dheere dheere ghar jao kaam karo"
-        }
-      ],
+      "gender_errors": [],
       "ergative_annotations": [
         {
           "verb_stem": "bol",
@@ -1993,40 +1900,7 @@
           "bengali_info": null
         }
       ],
-      "gender_errors": [
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "padhta tha",
-          "expected_verb": "padhti thi",
-          "context": "pehle BR Ambedkar hall tha toh waha lerka lerki ek saath mein kaam karta tha ek saath mein hi padhta tha, udhar se idhar aaya idhar didi log sab acche se kaam karte hai, didi bohut hi accha hai"
-        },
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "karta",
-          "expected_verb": "karti",
-          "context": "pehle BR Ambedkar hall tha toh waha lerka lerki ek saath mein kaam karta tha ek saath mein hi padhta tha, udhar se idhar aaya idhar didi log sab acche se kaam karte hai, didi bohut hi accha hai"
-        },
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "padhta",
-          "expected_verb": "padhti",
-          "context": "pehle BR Ambedkar hall tha toh waha lerka lerki ek saath mein kaam karta tha ek saath mein hi padhta tha, udhar se idhar aaya idhar didi log sab acche se kaam karte hai, didi bohut hi accha hai"
-        },
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S4 (female speaker)",
-          "verb_form": "karta tha",
-          "expected_verb": "karti thi",
-          "context": "pehle BR Ambedkar hall tha toh waha lerka lerki ek saath mein kaam karta tha ek saath mein hi padhta tha, udhar se idhar aaya idhar didi log sab acche se kaam karte hai, didi bohut hi accha hai"
-        }
-      ],
+      "gender_errors": [],
       "ergative_annotations": [],
       "code_switches": [
         {
@@ -2060,8 +1934,8 @@
       "unknown": 0.0945
     },
     "gender_errors": {
-      "noun_verb": 5,
-      "subject_verb": 19
+      "noun_verb": 4,
+      "subject_verb": 5
     },
     "ergative": {
       "with_ne": 0,

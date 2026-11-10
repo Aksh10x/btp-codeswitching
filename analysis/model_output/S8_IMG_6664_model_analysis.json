@@ -844,7 +844,7 @@
         },
         {
           "word": "daal",
-          "language": "hindi",
+          "language": "unknown",
           "bengali_info": null
         },
         {
@@ -862,9 +862,9 @@
       "ergative_annotations": [],
       "code_switches": [],
       "language_distribution": {
-        "hindi": 0.8235,
+        "hindi": 0.7647,
         "english": 0.1176,
-        "unknown": 0.0588
+        "unknown": 0.1176
       }
     },
     {
@@ -933,16 +933,7 @@
           "bengali_info": null
         }
       ],
-      "gender_errors": [
-        {
-          "error_type": "subject_verb",
-          "rule_id": "R2",
-          "noun_or_subject": "S8 (female speaker)",
-          "verb_form": "hota",
-          "expected_verb": "hoti",
-          "context": "zyada tar hum log ka non-veg hota hai, veg kam hota hai"
-        }
-      ],
+      "gender_errors": [],
       "ergative_annotations": [],
       "code_switches": [],
       "language_distribution": {
@@ -1425,14 +1416,14 @@
   ],
   "summary": {
     "language_distribution": {
-      "hindi": 0.7162,
+      "hindi": 0.7118,
       "bengali": 0.0306,
       "english": 0.1354,
-      "unknown": 0.1179
+      "unknown": 0.1223
     },
     "gender_errors": {
       "noun_verb": 0,
-      "subject_verb": 2
+      "subject_verb": 1
     },
     "ergative": {
       "with_ne": 0,

@@ -223,7 +223,8 @@ class MorphologyAwareAnalyzer:
 
     # ── Gender Error Detection ───────────────────────────────────
 
-    def detect_gender_errors(self, text: str, speaker_code: str) -> list:
+    def detect_gender_errors(self, text: str, speaker_code: str,
+                             addressed: bool = False) -> list:
         errors = []
         words = text.lower().split()
         speaker_gender = SPEAKER_GENDERS.get(speaker_code, "")
@@ -233,16 +234,23 @@ class MorphologyAwareAnalyzer:
 
         # R2: Female speaker + masculine self-reference verb
         if speaker_gender == "F":
-            errors.extend(self._check_subject_verb_agreement(words, text, speaker_code))
+            errors.extend(self._check_subject_verb_agreement(words, text, speaker_code, addressed))
 
-        # Deduplicate: if an R1 and R2 error share the same verb form in the
-        # same context, keep the more specific R1 (noun-verb) and drop R2.
+        # Deduplicate R1/R2 overlap: if R2 verb overlaps with any R1 verb
+        # (exact match or substring containment), keep only R1.
         # Also suppress R2 when 3+ R1 errors exist (listing/description task).
         r1_verbs = {e.verb_form for e in errors if e.rule_id == "R1"}
         r1_count = sum(1 for e in errors if e.rule_id == "R1")
+
+        def r2_overlaps_r1(r2_verb):
+            for r1v in r1_verbs:
+                if r2_verb in r1v or r1v in r2_verb:
+                    return True
+            return False
+
         errors = [e for e in errors
                   if not (e.rule_id == "R2"
-                          and (e.verb_form in r1_verbs or r1_count >= 3))]
+                          and (r2_overlaps_r1(e.verb_form) or r1_count >= 3))]
 
         return errors
 
@@ -261,7 +269,7 @@ class MorphologyAwareAnalyzer:
         # Sort compound patterns longest-first so we match the most specific
         compound_masc = sorted(
             [mv for mv in self._masc_verbs if len(mv.split()) >= 2],
-            key=lambda x: -len(x),
+            key=lambda x: (-len(x), x.startswith("raha")),
         )
 
         for i, w in enumerate(words):
@@ -287,52 +295,71 @@ class MorphologyAwareAnalyzer:
         return errors
 
     def _check_subject_verb_agreement(self, words: list, full_text: str,
-                                       speaker_code: str) -> list:
+                                       speaker_code: str,
+                                       addressed: bool = False) -> list:
         """
         R2: female speaker using masculine verb for self-reference.
 
         Only flag when the verb is plausibly self-referential:
-        - Preceded by first-person pronoun (mai, hum, mera, meri, etc.)
+        - Preceded by first-person subject pronoun (mai, hum, khud)
         - Or a habitual/progressive about the speaker's own routine
           (no explicit third-person subject nearby)
 
         Skip when:
         - Describing a photo/picture (collector asks "kya kar raha hai")
-        - Quoting someone else's speech
-        - Third-person subject present (woh, ladka, bachcha, etc.)
+        - Third-person subject present near the verb
+        - Mixed-gender group subject (masculine default is correct)
+        - Impersonal/generic construction (janam hua, X hota hai)
         """
         errors = []
         text_lower = " ".join(words)
 
-        first_person = {"mai", "mein", "main", "hum", "mera", "meri", "mere",
-                        "hamara", "hamari", "hamare", "apna", "apni", "apne",
-                        "khud"}
+        first_person_subject = {"mai", "main", "hum", "khud"}
+        first_person_possessive = {"mera", "meri", "mere",
+                                   "hamara", "hamari", "hamare",
+                                   "apna", "apni", "apne"}
+        first_person = first_person_subject | first_person_possessive
+
         third_person = {"woh", "wo", "yeh", "ye", "ladka", "ladki", "bachcha",
-                        "aadmi", "aurat", "banda", "student", "students",
-                        "dada", "bhaiya", "sir", "madam", "husband",
-                        "beta", "beti", "bhai", "behen"}
-        # Photo description context: skip entirely
+                        "bachche", "aadmi", "aurat", "banda", "student",
+                        "students", "dada", "bhaiya", "sir", "madam",
+                        "husband", "beta", "beti", "bhai", "behen",
+                        "pitaji", "papa", "mummy", "uncle", "aunty",
+                        "nana", "mama", "teacher", "doctor",
+                        "lerka", "lerki"}
+
         photo_cues = {"photo", "picture", "iss photo", "yeh kya kar"}
         if any(cue in text_lower for cue in photo_cues):
             return errors
 
-        # Only check masculine verbs that appear near first-person markers
-        # or in subjectless habitual/past habitual contexts
+        # Mixed-gender group: masculine default is standard Hindi
+        mixed_group = {"lerka lerki", "lerke lerkiyan", "ladka ladki",
+                       "ladke ladkiyan"}
+        if any(mg in text_lower for mg in mixed_group):
+            return errors
+
         has_first_person = any(w in first_person for w in words)
         has_third_person = any(w in third_person for w in words)
 
-        if has_third_person and not has_first_person:
+        if has_third_person and not (has_first_person or addressed):
             return errors
 
-        # Focused check: only flag specific high-confidence patterns
-        for mv in self._masc_verbs:
+        inanimate_subjects = (
+            (self._hindi_fem | self._hindi_masc) - third_person
+            - {"maa", "ma", "nani", "dadi", "mausi", "bahu", "didi", "bhabhi", "ladies", "baap"}
+        ) | {"glass", "chair", "fan", "bottle", "plate", "kitaab", "paani"}
+
+        # Track flagged word positions to avoid duplicate detections
+        flagged_positions = set()
+
+        # Sort longest-first so compound verbs take priority
+        for mv in sorted(self._masc_verbs, key=lambda x: -len(x)):
             if mv not in text_lower:
                 continue
             expected = self._masculine_to_feminine(mv)
             if not expected or expected in text_lower:
                 continue
 
-            # For compound verbs, check proximity to first-person
             mv_words = mv.split()
             try:
                 if len(mv_words) == 1:
@@ -343,19 +370,54 @@ class MorphologyAwareAnalyzer:
             except (ValueError, IndexError):
                 continue
 
-            # Check within a 6-word window before the verb for first person
+            # Skip if overlapping with an already-flagged verb
+            verb_positions = set(range(idx, idx + len(mv_words)))
+            if verb_positions & flagged_positions:
+                continue
+
             window_start = max(0, idx - 6)
             preceding = words[window_start:idx]
 
-            is_self_ref = any(w in first_person for w in preceding)
-            # Habitual/past habitual without subject is also self-referential
-            habitual_endings = ("karta", "bolta", "padhta", "banata", "sunta",
-                                "dekhta", "seekhta")
+            # Skip if a third-person subject is near this verb
+            if any(w in third_person for w in preceding):
+                continue
+
+            # Skip impersonal "janam hua/ho gaya" constructions
+            if any(w == "janam" for w in preceding):
+                continue
+
+            # For generic verbs (hota/hota hai), require strict subject proximity
+            generic_verbs = {"hota", "hota hai", "hota tha"}
+            if mv in generic_verbs:
+                tight = words[max(0, idx - 2):idx]
+                if not any(w in first_person_subject for w in tight):
+                    continue
+
+            # Inanimate noun directly before a perfective verb is its subject
+            # ("glass gir gaya"), not the speaker.
+            if mv.endswith(("gaya", "hua")):
+                prev = words[idx - 1].strip(".,!?;:") if idx > 0 else ""
+                if prev in inanimate_subjects:
+                    continue
+
+            following = words[idx + len(mv_words): idx + len(mv_words) + 6]
+            if mv in generic_verbs or mv in {"aata", "ata", "hua", "jata", "chala"}:
+                is_self_ref = any(w in first_person_subject for w in words[max(0, idx - 2):idx])
+            else:
+                is_self_ref = any(
+                    w in first_person_subject for w in preceding + following
+                )
+            # Subjectless habitual counts as self-reference only when the
+            # collector's question in this segment was addressed to the speaker.
+            habitual_stems = {"karta", "bolta", "padhta", "banata", "sunta",
+                              "dekhta", "seekhta"}
             is_subjectless_habitual = (
-                mv in habitual_endings or mv.endswith(" tha") or mv.endswith(" hai")
-            ) and not has_third_person
+                mv.split()[0] in habitual_stems and addressed
+                and not any(w in third_person for w in preceding)
+            )
 
             if is_self_ref or is_subjectless_habitual:
+                flagged_positions.update(verb_positions)
                 errors.append(GenderError(
                     error_type="subject_verb",
                     rule_id="R2",
@@ -538,8 +600,11 @@ class MorphologyAwareAnalyzer:
 
         # Extract speaker lines only (ignore collector lines for error analysis)
         speaker_lines = []
+        addressed = False
         for line in lines:
             line = line.strip()
+            if line.startswith("c:") and re.search(r"\baap\w*\b", line.lower()):
+                addressed = True
             if line.startswith("s:"):
                 speaker_lines.append(line[2:].strip())
                 speaker = speaker_code
@@ -563,7 +628,7 @@ class MorphologyAwareAnalyzer:
         lang_dist = {k: round(v / total, 4) for k, v in lang_counts.items() if v > 0}
 
         # Gender errors
-        gender_errors = self.detect_gender_errors(analysis_text, speaker_code)
+        gender_errors = self.detect_gender_errors(analysis_text, speaker_code, addressed)
 
         # Ergative
         ergative = self.detect_ergative(analysis_text)

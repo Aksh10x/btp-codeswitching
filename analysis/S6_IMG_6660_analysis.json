@@ -8,7 +8,7 @@
     {
       "start": 79.11,
       "end": 92.57,
-      "text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)",
+      "text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche",
       "avg_logprob": -1.2367,
       "no_speech_prob": 0.5806,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -16,7 +16,7 @@
     {
       "start": 93.68,
       "end": 106.62,
-      "text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se",
+      "text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se",
       "avg_logprob": -1.2367,
       "no_speech_prob": 0.5806,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -24,7 +24,7 @@
     {
       "start": 206.77,
       "end": 224.65,
-      "text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
+      "text": "haa Hindi bol sakta hu, Odia bhi thoda bohot, Bhojpuri bhi aata hai, Telugu bhi thoda thoda bohot hi accha hai students",
       "avg_logprob": -0.9583,
       "no_speech_prob": 0.2121,
       "note": "Low confidence — possible Bengali, unclear speech, or Whisper hallucination"
@@ -36,7 +36,7 @@
       "start": 79.11,
       "end": 79.17,
       "probability": 0.0436,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)",
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -44,7 +44,7 @@
       "start": 79.17,
       "end": 80.27,
       "probability": 0.397,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)",
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -52,7 +52,7 @@
       "start": 83.84,
       "end": 84.78,
       "probability": 0.3872,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)",
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -60,7 +60,7 @@
       "start": 87.98,
       "end": 88.22,
       "probability": 0.2691,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)",
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -68,7 +68,7 @@
       "start": 88.22,
       "end": 88.54,
       "probability": 0.2565,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)",
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -76,7 +76,7 @@
       "start": 88.54,
       "end": 89.22,
       "probability": 0.228,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)",
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -84,7 +84,7 @@
       "start": 91.51,
       "end": 91.81,
       "probability": 0.2524,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)",
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -92,7 +92,7 @@
       "start": 92.21,
       "end": 92.57,
       "probability": 0.3313,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)",
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -100,7 +100,7 @@
       "start": 95.24,
       "end": 95.42,
       "probability": 0.2442,
-      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se",
+      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -108,7 +108,7 @@
       "start": 97.05,
       "end": 97.79,
       "probability": 0.3117,
-      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se",
+      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -116,7 +116,7 @@
       "start": 97.79,
       "end": 98.15,
       "probability": 0.2407,
-      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se",
+      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -124,7 +124,7 @@
       "start": 102.99,
       "end": 103.45,
       "probability": 0.3947,
-      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se",
+      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -132,7 +132,7 @@
       "start": 103.75,
       "end": 104.65,
       "probability": 0.3784,
-      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se",
+      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -140,7 +140,7 @@
       "start": 104.86,
       "end": 105.52,
       "probability": 0.3285,
-      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se",
+      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -164,7 +164,7 @@
       "start": 197.04,
       "end": 197.18,
       "probability": 0.334,
-      "segment_text": "halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai",
+      "segment_text": "halka koi student use karti hai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein Bengali chalta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -172,7 +172,7 @@
       "start": 198.06,
       "end": 198.16,
       "probability": 0.2869,
-      "segment_text": "halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai",
+      "segment_text": "halka koi student use karti hai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein Bengali chalta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -180,7 +180,7 @@
       "start": 200.79,
       "end": 201.21,
       "probability": 0.3766,
-      "segment_text": "halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai",
+      "segment_text": "halka koi student use karti hai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein Bengali chalta hai",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -188,7 +188,7 @@
       "start": 206.77,
       "end": 207.57,
       "probability": 0.3079,
-      "segment_text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
+      "segment_text": "haa Hindi bol sakta hu, Odia bhi thoda bohot, Bhojpuri bhi aata hai, Telugu bhi thoda thoda bohot hi accha hai students",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -196,7 +196,7 @@
       "start": 211.88,
       "end": 212.16,
       "probability": 0.3336,
-      "segment_text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
+      "segment_text": "haa Hindi bol sakta hu, Odia bhi thoda bohot, Bhojpuri bhi aata hai, Telugu bhi thoda thoda bohot hi accha hai students",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -204,7 +204,7 @@
       "start": 214.31,
       "end": 214.61,
       "probability": 0.0958,
-      "segment_text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
+      "segment_text": "haa Hindi bol sakta hu, Odia bhi thoda bohot, Bhojpuri bhi aata hai, Telugu bhi thoda thoda bohot hi accha hai students",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -212,7 +212,7 @@
       "start": 214.61,
       "end": 215.01,
       "probability": 0.3536,
-      "segment_text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
+      "segment_text": "haa Hindi bol sakta hu, Odia bhi thoda bohot, Bhojpuri bhi aata hai, Telugu bhi thoda thoda bohot hi accha hai students",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -220,7 +220,7 @@
       "start": 216.76,
       "end": 218.24,
       "probability": 0.3134,
-      "segment_text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
+      "segment_text": "haa Hindi bol sakta hu, Odia bhi thoda bohot, Bhojpuri bhi aata hai, Telugu bhi thoda thoda bohot hi accha hai students",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -228,7 +228,7 @@
       "start": 219.23,
       "end": 224.65,
       "probability": 0.2516,
-      "segment_text": "haa hindi bol sakta hu odia bhi thoda bohot, bhojpuri bhi ata hai, telegu bhi thoda thoda bohot hi accha hai students",
+      "segment_text": "haa Hindi bol sakta hu, Odia bhi thoda bohot, Bhojpuri bhi aata hai, Telugu bhi thoda thoda bohot hi accha hai students",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     },
     {
@@ -236,7 +236,7 @@
       "start": 289.2,
       "end": 289.88,
       "probability": 0.3333,
-      "segment_text": "s: kuch safa wagera karna tha pankha wankha woh kiya uske baad dopahar ko lunch karke thoda bohot rest liye aur uske baad duty agaye\nc: aur aapke ghar mein kon kon hai dada?\ns: mera ghar mein mera ek beta aur mera wife\nc: theek hai thankyou dada",
+      "segment_text": "s: kuch safa wagera karna tha pankha wankha woh kiya uske baad dopahar ko lunch karke thoda bohot rest liye aur uske baad duty aa gaye\nc: aur aapke ghar mein kon kon hai dada?\ns: mera ghar mein mera ek beta aur mera wife\nc: theek hai thankyou dada",
       "note": "UNVERIFIED — may be Hindi homophone or Whisper substitution"
     }
   ],
@@ -254,7 +254,7 @@
       "gender_form": "m_sg",
       "start": 73.74,
       "end": 74.16,
-      "segment_text": "roti khabar khacchi",
+      "segment_text": "roti khabaar khacchi",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -262,7 +262,7 @@
       "gender_form": "m_sg",
       "start": 95.88,
       "end": 96.08,
-      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se",
+      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -270,7 +270,7 @@
       "gender_form": "m_sg",
       "start": 105.8,
       "end": 106.04,
-      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se",
+      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -278,7 +278,7 @@
       "gender_form": "m_pl",
       "start": 109.48,
       "end": 109.6,
-      "segment_text": "s: boiti ulto kore rekh chi, chair bhenge gache, pakha bhenge gache, jalna khola something ache",
+      "segment_text": "s: boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche, janala khola [unclear] ache",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -286,7 +286,7 @@
       "gender_form": "m_sg",
       "start": 112.36,
       "end": 112.5,
-      "segment_text": "s: boiti ulto kore rekh chi, chair bhenge gache, pakha bhenge gache, jalna khola something ache",
+      "segment_text": "s: boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche, janala khola [unclear] ache",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -294,7 +294,7 @@
       "gender_form": "m_sg",
       "start": 115.1,
       "end": 115.22,
-      "segment_text": "s: boiti ulto kore rekh chi, chair bhenge gache, pakha bhenge gache, jalna khola something ache",
+      "segment_text": "s: boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche, janala khola [unclear] ache",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -302,7 +302,7 @@
       "gender_form": "m_sg",
       "start": 118.7,
       "end": 119.14,
-      "segment_text": "s: boiti ulto kore rekh chi, chair bhenge gache, pakha bhenge gache, jalna khola something ache",
+      "segment_text": "s: boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche, janala khola [unclear] ache",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -310,7 +310,7 @@
       "gender_form": "f_sg",
       "start": 125.16,
       "end": 125.36,
-      "segment_text": "s: aar?\nc: dada aap kaha se ho aapka backgroudn kya hai\ns: ami tor bangali, khorgoporei jolmo\nc: nahi dada bengali mujhe samajh nahi aayegi hindi mein bliye please\ns: oh mai hindi mein bolu? mai kharagur ke poaida mera hu mai near iit campus\nc: aur dada aap ghar mein konsi bhasha bolte the?",
+      "segment_text": "s: aar?\nc: dada aap kaha se ho aapka background kya hai?\ns: ami tor Bangali, Khorgoporei jonmo\nc: nahi dada Bengali mujhe samajh nahi aayegi Hindi mein boliye please\ns: oh mai Hindi mein bolu? mai Kharagpur ke paida mera hu, mai near IIT campus",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -318,7 +318,7 @@
       "gender_form": "m_sg",
       "start": 125.36,
       "end": 125.56,
-      "segment_text": "s: aar?\nc: dada aap kaha se ho aapka backgroudn kya hai\ns: ami tor bangali, khorgoporei jolmo\nc: nahi dada bengali mujhe samajh nahi aayegi hindi mein bliye please\ns: oh mai hindi mein bolu? mai kharagur ke poaida mera hu mai near iit campus\nc: aur dada aap ghar mein konsi bhasha bolte the?",
+      "segment_text": "s: aar?\nc: dada aap kaha se ho aapka background kya hai?\ns: ami tor Bangali, Khorgoporei jonmo\nc: nahi dada Bengali mujhe samajh nahi aayegi Hindi mein boliye please\ns: oh mai Hindi mein bolu? mai Kharagpur ke paida mera hu, mai near IIT campus",
       "note": "Agreement site — verify gender matches subject/object"
     },
     {
@@ -358,7 +358,7 @@
       "gender_form": "m_pl",
       "start": 293.58,
       "end": 293.72,
-      "segment_text": "s: kuch safa wagera karna tha pankha wankha woh kiya uske baad dopahar ko lunch karke thoda bohot rest liye aur uske baad duty agaye\nc: aur aapke ghar mein kon kon hai dada?\ns: mera ghar mein mera ek beta aur mera wife\nc: theek hai thankyou dada",
+      "segment_text": "s: kuch safa wagera karna tha pankha wankha woh kiya uske baad dopahar ko lunch karke thoda bohot rest liye aur uske baad duty aa gaye\nc: aur aapke ghar mein kon kon hai dada?\ns: mera ghar mein mera ek beta aur mera wife\nc: theek hai thankyou dada",
       "note": "Agreement site — verify gender matches subject/object"
     }
   ],
@@ -380,187 +380,187 @@
       "word": "dorja",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "janala",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "jol",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "pakha",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "boi",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "ghor",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "kedara",
       "start": 0.06,
       "end": 25.78,
-      "segment_text": "c for collector s for speaker dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
+      "segment_text": "dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali"
     },
     {
       "word": "hather",
       "start": 39.23,
       "end": 40.97,
-      "segment_text": "hather panja, chaabi"
+      "segment_text": "s: hather panja, chaabi"
     },
     {
       "word": "khabar",
       "start": 70.96,
       "end": 79.11,
-      "segment_text": "roti khabar khacchi"
+      "segment_text": "roti khabaar khacchi"
     },
     {
       "word": "khacchi",
       "start": 70.96,
       "end": 79.11,
-      "segment_text": "roti khabar khacchi"
+      "segment_text": "roti khabaar khacchi"
     },
     {
       "word": "dorja",
       "start": 79.11,
       "end": 92.57,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)"
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche"
     },
     {
       "word": "khabar",
       "start": 79.11,
       "end": 92.57,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)"
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche"
     },
     {
       "word": "khacchi",
       "start": 79.11,
       "end": 92.57,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)"
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche"
     },
     {
       "word": "korche",
       "start": 79.11,
       "end": 92.57,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)"
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche"
     },
     {
       "word": "porachuna",
       "start": 79.11,
       "end": 92.57,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)"
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche"
     },
     {
       "word": "cheleti",
       "start": 79.11,
       "end": 92.57,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)"
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche"
     },
     {
       "word": "badro",
       "start": 79.11,
       "end": 92.57,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)"
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche"
     },
     {
       "word": "mahila",
       "start": 79.11,
       "end": 92.57,
-      "segment_text": "s: badro mahila khabar khacchi, dorja khule che, cheleti porachuna korche (roughly what i heard)"
+      "segment_text": "s: badro mahila khabaar khacchi, dorja khule ache, cheleti porachuna korche"
     },
     {
       "word": "jol",
       "start": 93.68,
       "end": 106.62,
-      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se"
+      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se"
     },
     {
       "word": "dhalche",
       "start": 93.68,
       "end": 106.62,
-      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se"
+      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se"
     },
     {
       "word": "badro",
       "start": 93.68,
       "end": 106.62,
-      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se"
+      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se"
     },
     {
       "word": "mahila",
       "start": 93.68,
       "end": 106.62,
-      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se"
+      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se"
     },
     {
       "word": "glasser",
       "start": 93.68,
       "end": 106.62,
-      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya pani, pani gir gaya glass se"
+      "segment_text": "s: badro mahila glasser jol dhalche\nc: dada isko aapko hindi mein explain karna hai\ns: yeh hai kya tel ya paani, paani gir gaya glass se"
     },
     {
       "word": "pakha",
       "start": 106.62,
       "end": 120.0,
-      "segment_text": "s: boiti ulto kore rekh chi, chair bhenge gache, pakha bhenge gache, jalna khola something ache"
+      "segment_text": "s: boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche, janala khola [unclear] ache"
     },
     {
       "word": "boi",
       "start": 106.62,
       "end": 120.0,
-      "segment_text": "s: boiti ulto kore rekh chi, chair bhenge gache, pakha bhenge gache, jalna khola something ache"
+      "segment_text": "s: boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche, janala khola [unclear] ache"
     },
     {
       "word": "bhenge",
       "start": 106.62,
       "end": 120.0,
-      "segment_text": "s: boiti ulto kore rekh chi, chair bhenge gache, pakha bhenge gache, jalna khola something ache"
+      "segment_text": "s: boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche, janala khola [unclear] ache"
     },
     {
       "word": "ulto",
       "start": 106.62,
       "end": 120.0,
-      "segment_text": "s: boiti ulto kore rekh chi, chair bhenge gache, pakha bhenge gache, jalna khola something ache"
+      "segment_text": "s: boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche, janala khola [unclear] ache"
     },
     {
       "word": "rekh chi",
       "start": 106.62,
       "end": 120.0,
-      "segment_text": "s: boiti ulto kore rekh chi, chair bhenge gache, pakha bhenge gache, jalna khola something ache"
+      "segment_text": "s: boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche, janala khola [unclear] ache"
     },
     {
       "word": "gache",
       "start": 106.62,
       "end": 120.0,
-      "segment_text": "s: boiti ulto kore rekh chi, chair bhenge gache, pakha bhenge gache, jalna khola something ache"
+      "segment_text": "s: boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche, janala khola [unclear] ache"
     },
     {
       "word": "jol",
       "start": 121.01,
       "end": 147.44,
-      "segment_text": "s: aar?\nc: dada aap kaha se ho aapka backgroudn kya hai\ns: ami tor bangali, khorgoporei jolmo\nc: nahi dada bengali mujhe samajh nahi aayegi hindi mein bliye please\ns: oh mai hindi mein bolu? mai kharagur ke poaida mera hu mai near iit campus\nc: aur dada aap ghar mein konsi bhasha bolte the?"
+      "segment_text": "s: aar?\nc: dada aap kaha se ho aapka background kya hai?\ns: ami tor Bangali, Khorgoporei jonmo\nc: nahi dada Bengali mujhe samajh nahi aayegi Hindi mein boliye please\ns: oh mai Hindi mein bolu? mai Kharagpur ke paida mera hu, mai near IIT campus"
     },
     {
       "word": "bengali",
       "start": 121.01,
       "end": 147.44,
-      "segment_text": "s: aar?\nc: dada aap kaha se ho aapka backgroudn kya hai\ns: ami tor bangali, khorgoporei jolmo\nc: nahi dada bengali mujhe samajh nahi aayegi hindi mein bliye please\ns: oh mai hindi mein bolu? mai kharagur ke poaida mera hu mai near iit campus\nc: aur dada aap ghar mein konsi bhasha bolte the?"
+      "segment_text": "s: aar?\nc: dada aap kaha se ho aapka background kya hai?\ns: ami tor Bangali, Khorgoporei jonmo\nc: nahi dada Bengali mujhe samajh nahi aayegi Hindi mein boliye please\ns: oh mai Hindi mein bolu? mai Kharagpur ke paida mera hu, mai near IIT campus"
     },
     {
       "word": "bengali",
@@ -572,29 +572,29 @@
       "word": "eta",
       "start": 191.42,
       "end": 197.02,
-      "segment_text": "s: nahi baat karna padta hai toh pura karleta hu mai aisa koi problem nahi hai"
+      "segment_text": "s: nahi baat karna padta hai toh pura kar leta hu mai aisa koi problem nahi hai"
     },
     {
       "word": "bengali",
       "start": 197.02,
       "end": 203.49,
-      "segment_text": "halka koi student use kartihai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein bengali chalta hai"
+      "segment_text": "halka koi student use karti hai toh mai karta hu nahi toh mujhe zarurat nahi hoti aapas mein Bengali chalta hai"
     },
     {
       "word": "eta",
       "start": 248.96,
       "end": 274.44,
-      "segment_text": "s: un log puchta hai khana ke baari mein, nahi puchta hai? magar jab puchte hai mai bata deta hu fir khush hojate hai dada aisa nahi aisa bana hai\nc: aur aap batana chahoge aapne subha se lekar kya kya kiya\ns: subha se nahi mera 2 baje se chalu hua\nc: nahi nahi subha se aapke uthne se\ns: uthne se leke toh mai gharmein garden ka kaam tha, o ghar ka bagan thoda sa bagarna tha, uske baad marketting tha , market gaya, then aake ghar mein aur thoda kaam tha"
+      "segment_text": "s: un log puchta hai khana ke baare mein, nahi puchta hai? magar jab puchte hai mai bata deta hu fir khush ho jate hai dada aisa nahi aisa bana hai\nc: aur aap batana chahoge aapne subah se lekar kya kya kiya?\ns: subah se nahi mera 2 baje se chalu hua\nc: nahi nahi subah se aapke uthne se\ns: uthne se leke toh mai ghar mein garden ka kaam tha, o ghar ka bagan thoda sa bagarna tha, uske baad marketing tha, market gaya, then aake ghar mein aur thoda kaam tha"
     },
     {
       "word": "eta",
       "start": 285.54,
       "end": 303.59,
-      "segment_text": "s: kuch safa wagera karna tha pankha wankha woh kiya uske baad dopahar ko lunch karke thoda bohot rest liye aur uske baad duty agaye\nc: aur aapke ghar mein kon kon hai dada?\ns: mera ghar mein mera ek beta aur mera wife\nc: theek hai thankyou dada"
+      "segment_text": "s: kuch safa wagera karna tha pankha wankha woh kiya uske baad dopahar ko lunch karke thoda bohot rest liye aur uske baad duty aa gaye\nc: aur aapke ghar mein kon kon hai dada?\ns: mera ghar mein mera ek beta aur mera wife\nc: theek hai thankyou dada"
     }
   ],
   "summary": {
-    "total_words": 509,
+    "total_words": 493,
     "total_segments": 21,
     "duration_s": 304.7,
     "low_confidence_segments": 3,
