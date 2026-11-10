@@ -5,39 +5,29 @@
         "total_words": 2060,
         "gender_errors": 36,
         "code_switches": 78,
-        "bengali_words": 159
+        "bengali_words": 159,
+        "hallucinations": 0
       },
       "whisper_raw": {
         "total_words": 2957,
         "gender_errors": 0,
         "code_switches": 48,
-        "bengali_words": 52
+        "bengali_words": 52,
+        "hallucinations": 3
       },
-      "indicwhisper": {
+      "indic_small": {
         "total_words": 742,
         "gender_errors": 0,
         "code_switches": 8,
         "bengali_words": 9,
         "hallucinations": 2
-      }
-    },
-    "deltas": {
-      "whisper_vs_corrected": {
-        "gender_errors_hidden": 36,
-        "code_switches_flattened": 30,
-        "bengali_words_lost": 107
       },
-      "indicwhisper_vs_corrected": {
-        "gender_errors_hidden": 36,
-        "code_switches_flattened": 70,
-        "bengali_words_lost": 150,
-        "word_count_delta": 1318
-      },
-      "indicwhisper_vs_whisper": {
-        "gender_errors_delta": 0,
-        "code_switches_delta": -40,
-        "bengali_words_delta": -43,
-        "word_count_delta": -2215
+      "indic_large": {
+        "total_words": 2209,
+        "gender_errors": 2,
+        "code_switches": 40,
+        "bengali_words": 45,
+        "hallucinations": 6
       }
     }
   },
@@ -55,14 +45,13 @@
           "gender_errors": 1,
           "code_switches": 9,
           "bengali_words": 14,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "hindi": 0.6239,
             "unknown": 0.1376,
             "bengali": 0.1284,
             "english": 0.1101
-          }
+          },
+          "hallucinations": []
         },
         "whisper_raw": {
           "speaker_code": "S1",
@@ -72,15 +61,14 @@
           "gender_errors": 0,
           "code_switches": 2,
           "bengali_words": 2,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "unknown": 0.569,
             "hindi": 0.4195,
             "bengali": 0.0115
-          }
+          },
+          "hallucinations": []
         },
-        "indicwhisper": {
+        "indic_small": {
           "speaker_code": "S1",
           "total_words": 40,
           "total_segments": 8,
@@ -93,10 +81,22 @@
             "hindi": 0.375,
             "bengali": 0.025
           },
-          "hallucinations": [],
-          "full_text_hallucination": {
-            "has_hallucination": false
-          }
+          "hallucinations": []
+        },
+        "indic_large": {
+          "speaker_code": "S1",
+          "total_words": 90,
+          "total_segments": 8,
+          "duration_s": 231.19,
+          "gender_errors": 0,
+          "code_switches": 1,
+          "bengali_words": 1,
+          "language_distribution": {
+            "unknown": 0.6,
+            "hindi": 0.3889,
+            "bengali": 0.0111
+          },
+          "hallucinations": []
         }
       },
       {
@@ -111,14 +111,13 @@
           "gender_errors": 0,
           "code_switches": 1,
           "bengali_words": 1,
-          "ergative_total": 2,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "unknown": 0.2029,
             "hindi": 0.5797,
             "english": 0.2029,
             "bengali": 0.0145
-          }
+          },
+          "hallucinations": []
         },
         "whisper_raw": {
           "speaker_code": "S1",
@@ -128,16 +127,15 @@
           "gender_errors": 0,
           "code_switches": 1,
           "bengali_words": 1,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "unknown": 0.5833,
             "hindi": 0.3981,
             "english": 0.0093,
             "bengali": 0.0093
-          }
+          },
+          "hallucinations": []
         },
-        "indicwhisper": {
+        "indic_small": {
           "speaker_code": "S1",
           "total_words": 8,
           "total_segments": 3,
@@ -149,10 +147,21 @@
             "unknown": 0.625,
             "hindi": 0.375
           },
-          "hallucinations": [],
-          "full_text_hallucination": {
-            "has_hallucination": false
-          }
+          "hallucinations": []
+        },
+        "indic_large": {
+          "speaker_code": "S1",
+          "total_words": 69,
+          "total_segments": 3,
+          "duration_s": 76.67,
+          "gender_errors": 0,
+          "code_switches": 0,
+          "bengali_words": 0,
+          "language_distribution": {
+            "unknown": 0.5362,
+            "hindi": 0.4638
+          },
+          "hallucinations": []
         }
       }
     ],
@@ -169,14 +178,13 @@
           "gender_errors": 3,
           "code_switches": 12,
           "bengali_words": 34,
-          "ergative_total": 1,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "hindi": 0.5248,
             "english": 0.104,
             "unknown": 0.203,
             "bengali": 0.1683
-          }
+          },
+          "hallucinations": []
         },
         "whisper_raw": {
           "speaker_code": "S2",
@@ -186,15 +194,22 @@
           "gender_errors": 0,
           "code_switches": 6,
           "bengali_words": 9,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "unknown": 0.6312,
             "hindi": 0.3475,
             "bengali": 0.0213
-          }
+          },
+          "hallucinations": [
+            {
+              "segment_id": 4,
+              "has_hallucination": true,
+              "repeated_phrase": "रहा है,",
+              "repetitions": 5,
+              "ngram_size": 2
+            }
+          ]
         },
-        "indicwhisper": {
+        "indic_small": {
           "speaker_code": "S2",
           "total_words": 158,
           "total_segments": 11,
@@ -214,13 +229,38 @@
               "repetitions": 30,
               "ngram_size": 2
             }
-          ],
-          "full_text_hallucination": {
-            "has_hallucination": true,
-            "repeated_phrase": "दो हजार",
-            "repetitions": 30,
-            "ngram_size": 2
-          }
+          ]
+        },
+        "indic_large": {
+          "speaker_code": "S2",
+          "total_words": 284,
+          "total_segments": 11,
+          "duration_s": 309.36,
+          "gender_errors": 0,
+          "code_switches": 3,
+          "bengali_words": 3,
+          "language_distribution": {
+            "unknown": 0.6549,
+            "hindi": 0.3239,
+            "english": 0.0106,
+            "bengali": 0.0106
+          },
+          "hallucinations": [
+            {
+              "segment_id": 1,
+              "has_hallucination": true,
+              "repeated_phrase": "हाउस हाउस",
+              "repetitions": 60,
+              "ngram_size": 2
+            },
+            {
+              "segment_id": 3,
+              "has_hallucination": true,
+              "repeated_phrase": "रहा है",
+              "repetitions": 9,
+              "ngram_size": 2
+            }
+          ]
         }
       }
     ],
@@ -237,14 +277,13 @@
           "gender_errors": 5,
           "code_switches": 2,
           "bengali_words": 2,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "english": 0.1783,
             "hindi": 0.7217,
             "unknown": 0.0913,
             "bengali": 0.0087
-          }
+          },
+          "hallucinations": []
         },
         "whisper_raw": {
           "speaker_code": "S3",
@@ -254,16 +293,15 @@
           "gender_errors": 0,
           "code_switches": 7,
           "bengali_words": 7,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "unknown": 0.5528,
             "hindi": 0.4246,
             "english": 0.005,
             "bengali": 0.0176
-          }
+          },
+          "hallucinations": []
         },
-        "indicwhisper": {
+        "indic_small": {
           "speaker_code": "S3",
           "total_words": 52,
           "total_segments": 13,
@@ -275,10 +313,38 @@
             "unknown": 0.5385,
             "hindi": 0.4615
           },
-          "hallucinations": [],
-          "full_text_hallucination": {
-            "has_hallucination": false
-          }
+          "hallucinations": []
+        },
+        "indic_large": {
+          "speaker_code": "S3",
+          "total_words": 408,
+          "total_segments": 13,
+          "duration_s": 370.95,
+          "gender_errors": 0,
+          "code_switches": 4,
+          "bengali_words": 4,
+          "language_distribution": {
+            "unknown": 0.6912,
+            "hindi": 0.2966,
+            "bengali": 0.0098,
+            "english": 0.0025
+          },
+          "hallucinations": [
+            {
+              "segment_id": 9,
+              "has_hallucination": true,
+              "repeated_phrase": "बढिया बढिया",
+              "repetitions": 52,
+              "ngram_size": 2
+            },
+            {
+              "segment_id": 12,
+              "has_hallucination": true,
+              "repeated_phrase": "थोड़ा थोड़ा",
+              "repetitions": 52,
+              "ngram_size": 2
+            }
+          ]
         }
       }
     ],
@@ -295,14 +361,13 @@
           "gender_errors": 24,
           "code_switches": 8,
           "bengali_words": 9,
-          "ergative_total": 3,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "hindi": 0.7655,
             "unknown": 0.0945,
             "bengali": 0.0293,
             "english": 0.1107
-          }
+          },
+          "hallucinations": []
         },
         "whisper_raw": {
           "speaker_code": "S4",
@@ -312,16 +377,15 @@
           "gender_errors": 0,
           "code_switches": 5,
           "bengali_words": 5,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "unknown": 0.5927,
             "hindi": 0.3874,
             "bengali": 0.0166,
             "english": 0.0033
-          }
+          },
+          "hallucinations": []
         },
-        "indicwhisper": {
+        "indic_small": {
           "speaker_code": "S4",
           "total_words": 170,
           "total_segments": 12,
@@ -343,13 +407,38 @@
               "repetitions": 67,
               "ngram_size": 2
             }
-          ],
-          "full_text_hallucination": {
-            "has_hallucination": true,
-            "repeated_phrase": "थोड़ा थोड़ा",
-            "repetitions": 67,
-            "ngram_size": 2
-          }
+          ]
+        },
+        "indic_large": {
+          "speaker_code": "S4",
+          "total_words": 421,
+          "total_segments": 12,
+          "duration_s": 341.03,
+          "gender_errors": 1,
+          "code_switches": 4,
+          "bengali_words": 5,
+          "language_distribution": {
+            "unknown": 0.6081,
+            "hindi": 0.3729,
+            "english": 0.0071,
+            "bengali": 0.0119
+          },
+          "hallucinations": [
+            {
+              "segment_id": 3,
+              "has_hallucination": true,
+              "repeated_phrase": "रहा है",
+              "repetitions": 7,
+              "ngram_size": 2
+            },
+            {
+              "segment_id": 9,
+              "has_hallucination": true,
+              "repeated_phrase": "थोड़ा थोड़ा",
+              "repetitions": 53,
+              "ngram_size": 2
+            }
+          ]
         }
       }
     ],
@@ -366,14 +455,13 @@
           "gender_errors": 0,
           "code_switches": 14,
           "bengali_words": 23,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "hindi": 0.6775,
             "bengali": 0.0749,
             "english": 0.1205,
             "unknown": 0.127
-          }
+          },
+          "hallucinations": []
         },
         "whisper_raw": {
           "speaker_code": "S5",
@@ -383,16 +471,15 @@
           "gender_errors": 0,
           "code_switches": 14,
           "bengali_words": 15,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "unknown": 0.597,
             "hindi": 0.3625,
             "english": 0.0085,
             "bengali": 0.032
-          }
+          },
+          "hallucinations": []
         },
-        "indicwhisper": {
+        "indic_small": {
           "speaker_code": "S5",
           "total_words": 158,
           "total_segments": 13,
@@ -405,10 +492,23 @@
             "hindi": 0.3924,
             "bengali": 0.0316
           },
-          "hallucinations": [],
-          "full_text_hallucination": {
-            "has_hallucination": false
-          }
+          "hallucinations": []
+        },
+        "indic_large": {
+          "speaker_code": "S5",
+          "total_words": 321,
+          "total_segments": 13,
+          "duration_s": 387.66,
+          "gender_errors": 0,
+          "code_switches": 14,
+          "bengali_words": 17,
+          "language_distribution": {
+            "unknown": 0.6137,
+            "hindi": 0.3271,
+            "english": 0.0062,
+            "bengali": 0.053
+          },
+          "hallucinations": []
         }
       }
     ],
@@ -425,14 +525,13 @@
           "gender_errors": 0,
           "code_switches": 11,
           "bengali_words": 53,
-          "ergative_total": 2,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "bengali": 0.1773,
             "english": 0.087,
             "hindi": 0.612,
             "unknown": 0.1237
-          }
+          },
+          "hallucinations": []
         },
         "whisper_raw": {
           "speaker_code": "S6",
@@ -442,16 +541,15 @@
           "gender_errors": 0,
           "code_switches": 6,
           "bengali_words": 6,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "unknown": 0.6601,
             "hindi": 0.3034,
             "english": 0.0197,
             "bengali": 0.0169
-          }
+          },
+          "hallucinations": []
         },
-        "indicwhisper": {
+        "indic_small": {
           "speaker_code": "S6",
           "total_words": 45,
           "total_segments": 11,
@@ -463,10 +561,23 @@
             "unknown": 0.6444,
             "hindi": 0.3556
           },
-          "hallucinations": [],
-          "full_text_hallucination": {
-            "has_hallucination": false
-          }
+          "hallucinations": []
+        },
+        "indic_large": {
+          "speaker_code": "S6",
+          "total_words": 132,
+          "total_segments": 11,
+          "duration_s": 304.7,
+          "gender_errors": 0,
+          "code_switches": 3,
+          "bengali_words": 3,
+          "language_distribution": {
+            "english": 0.0076,
+            "unknown": 0.6061,
+            "hindi": 0.3636,
+            "bengali": 0.0227
+          },
+          "hallucinations": []
         }
       }
     ],
@@ -483,14 +594,13 @@
           "gender_errors": 1,
           "code_switches": 14,
           "bengali_words": 16,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "hindi": 0.6948,
             "english": 0.1494,
             "unknown": 0.1039,
             "bengali": 0.0519
-          }
+          },
+          "hallucinations": []
         },
         "whisper_raw": {
           "speaker_code": "S7",
@@ -500,16 +610,23 @@
           "gender_errors": 0,
           "code_switches": 6,
           "bengali_words": 6,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "unknown": 0.6186,
             "hindi": 0.2794,
             "bengali": 0.0133,
             "english": 0.0887
-          }
+          },
+          "hallucinations": [
+            {
+              "segment_id": 4,
+              "has_hallucination": true,
+              "repeated_phrase": "फोटो फोटो",
+              "repetitions": 34,
+              "ngram_size": 2
+            }
+          ]
         },
-        "indicwhisper": {
+        "indic_small": {
           "speaker_code": "S7",
           "total_words": 65,
           "total_segments": 12,
@@ -523,10 +640,23 @@
             "english": 0.0615,
             "bengali": 0.0308
           },
-          "hallucinations": [],
-          "full_text_hallucination": {
-            "has_hallucination": false
-          }
+          "hallucinations": []
+        },
+        "indic_large": {
+          "speaker_code": "S7",
+          "total_words": 241,
+          "total_segments": 12,
+          "duration_s": 330.15,
+          "gender_errors": 0,
+          "code_switches": 8,
+          "bengali_words": 8,
+          "language_distribution": {
+            "unknown": 0.6763,
+            "hindi": 0.2739,
+            "bengali": 0.0332,
+            "english": 0.0166
+          },
+          "hallucinations": []
         }
       }
     ],
@@ -543,14 +673,13 @@
           "gender_errors": 2,
           "code_switches": 7,
           "bengali_words": 7,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "hindi": 0.7162,
             "english": 0.1354,
             "unknown": 0.1179,
             "bengali": 0.0306
-          }
+          },
+          "hallucinations": []
         },
         "whisper_raw": {
           "speaker_code": "S8",
@@ -560,16 +689,23 @@
           "gender_errors": 0,
           "code_switches": 1,
           "bengali_words": 1,
-          "ergative_total": 0,
-          "ergative_with_ne": 0,
           "language_distribution": {
             "hindi": 0.3913,
             "unknown": 0.5978,
             "english": 0.0072,
             "bengali": 0.0036
-          }
+          },
+          "hallucinations": [
+            {
+              "segment_id": 1,
+              "has_hallucination": true,
+              "repeated_phrase": "है यह",
+              "repetitions": 5,
+              "ngram_size": 2
+            }
+          ]
         },
-        "indicwhisper": {
+        "indic_small": {
           "speaker_code": "S8",
           "total_words": 46,
           "total_segments": 8,
@@ -581,10 +717,23 @@
             "unknown": 0.6087,
             "hindi": 0.3913
           },
-          "hallucinations": [],
-          "full_text_hallucination": {
-            "has_hallucination": false
-          }
+          "hallucinations": []
+        },
+        "indic_large": {
+          "speaker_code": "S8",
+          "total_words": 243,
+          "total_segments": 8,
+          "duration_s": 216.4,
+          "gender_errors": 1,
+          "code_switches": 3,
+          "bengali_words": 4,
+          "language_distribution": {
+            "unknown": 0.5926,
+            "hindi": 0.3868,
+            "bengali": 0.0165,
+            "english": 0.0041
+          },
+          "hallucinations": []
         }
       }
     ]
