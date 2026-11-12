@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{report}
+\documentclass[11pt,a4paper]{report}
 
 \usepackage{iftex}
 \ifTUTeX
@@ -30,6 +30,9 @@
 \usepackage{etoolbox}
 \usepackage{fancyhdr}
 \usepackage{pdfpages}
+\usepackage{titlesec}
+\titlespacing*{\chapter}{0pt}{-20pt}{24pt}
+\titleformat{\chapter}[display]{\bfseries\huge}{\chaptertitlename\ \thechapter}{8pt}{\huge}
 \usepackage[normalem]{ulem}
 \usepackage{hyperref}
 
@@ -45,7 +48,7 @@
 \AtBeginEnvironment{table}{\singlespacing}
 \AtBeginEnvironment{figure}{\singlespacing}
 \AtBeginEnvironment{longtable}{\singlespacing}
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{1}
 
 \makeatletter
 \renewcommand{\chaptermark}[1]{\markboth{\@chapapp\ \thechapter.\ \emph{#1}}{}}
@@ -69,10 +72,12 @@
 \vspace*{0.5in}
 {\large\bfseries \TITLE\par}
 \vspace{0.45in}
-B.Tech Project report submitted to\\[6pt]
+B.Tech Project-I report submitted to\\[6pt]
 Indian Institute of Technology Kharagpur\\[6pt]
 in partial fulfilment for the award of the degree of\\[6pt]
-Bachelor of Technology\\[0.35in]
+Bachelor of Technology\\[6pt]
+in\\[6pt]
+\underline{\hspace{3in}}\\[0.3in]
 {\bfseries by}\\[8pt]
 {\bfseries Akshath Surwase (23CH10088)}\\[3pt]
 {\bfseries Shriya Sinha (23IE10038)}\\[3pt]
@@ -92,7 +97,7 @@ Bachelor of Technology\\[0.35in]
 \pagenumbering{roman}
 \setcounter{page}{1}
 \pagestyle{front}
-\doublespacing
+\setstretch{1.04}
 
 %---------------- Declaration
 \phantomsection
@@ -120,7 +125,7 @@ Place: Kharagpur
 (Harsh Bhatt) (23CH10030)\\
 (Katyayani Khola) (23EE10029)
 \end{minipage}
-\doublespacing
+\setstretch{1.04}
 
 %---------------- Certificate
 \clearpage
@@ -134,7 +139,7 @@ Place: Kharagpur
 {\Large\bfseries\itshape CERTIFICATE}
 \end{center}
 \vspace{0.2in}
-\noindent This is to certify that the project report entitled ``\textbf{\TITLE}'' submitted by \textbf{\uline{Akshath Surwase}} (Roll No.\ 23CH10088), \textbf{\uline{Shriya Sinha}} (Roll No.\ 23IE10038), \textbf{\uline{Hiyasha Khobragade}} (Roll No.\ 23CH30012), \textbf{\uline{Harsh Bhatt}} (Roll No.\ 23CH10030) and \textbf{\uline{Katyayani Khola}} (Roll No.\ 23EE10029) to Indian Institute of Technology Kharagpur towards partial fulfilment of requirements for the award of degree of Bachelor of Technology is a record of bona fide work carried out by them under my supervision and guidance during Autumn Semester, 2026-27.
+\noindent This is to certify that the Project-I report entitled ``\textbf{\TITLE}'' submitted by \textbf{\uline{Akshath Surwase}} (Roll No.\ 23CH10088), \textbf{\uline{Shriya Sinha}} (Roll No.\ 23IE10038), \textbf{\uline{Hiyasha Khobragade}} (Roll No.\ 23CH30012), \textbf{\uline{Harsh Bhatt}} (Roll No.\ 23CH10030) and \textbf{\uline{Katyayani Khola}} (Roll No.\ 23EE10029) to Indian Institute of Technology Kharagpur towards partial fulfilment of requirements for the award of degree of Bachelor of Technology in \underline{\hspace{1.6in}} is a record of bona fide work carried out by them under my supervision and guidance during Autumn Semester, 2026-27.
 \vfill
 \singlespacing
 \noindent\begin{minipage}[b]{0.45\textwidth}
@@ -148,7 +153,7 @@ Department of Humanities and Social Sciences\\
 Indian Institute of Technology Kharagpur\\
 Kharagpur - 721302, India
 \end{minipage}
-\doublespacing
+\setstretch{1.04}
 
 %---------------- Abstract
 \clearpage
@@ -176,7 +181,7 @@ Month and year of thesis submission: & \textbf{November 2026}\\
 \setstretch{1.08}
 \noindent This work presents a morphology-aware text analyzer for Bengali-Hindi code-switched speech, targeting a specific and under-studied population: Bengali L1 speakers who use Hindi as L2 in institutional settings. We collect and annotate a corpus of 42.8 minutes of naturalistic speech from 8 campus staff members at IIT Kharagpur (2,060 analysed participant words), documenting systematic L1 transfer patterns including masculine-default gender errors, near-complete avoidance of the ergative marker \textit{ne}, and multi-level code-switching from tag-switches to full inter-sentential Bengali clauses. Our rule-based analyzer operates on Roman-transliterated text and detects gender agreement violations, ergative gaps, and code-switch boundaries with reference to curated Hindi--Bengali lexicons. We describe an iterative error audit in which every one of the analyzer's initial 36 gender-error detections was checked against its transcript context, 17 false positives were traced to six distinct causes, and the rules were revised until the final 21 detections were all confirmed. A key finding is that, in the models we tested, ASR normalization of non-standard forms is \textbf{architectural, not a matter of model size or finetuning}: a four-way comparison of human-corrected transcripts, Whisper-large-v3, Whisper-Hindi-small and Whisper-Hindi-large shows that the ASR systems hide 90--100\% of the gender errors, 38--90\% of the code-switches and 67--94\% of the Bengali words. Even the large Hindi-finetuned model (1.5B parameters) preserves only 2 of 21 errors, while introducing hallucination loops on code-switched audio. Morphological analysis of L1 transfer in code-switched speech therefore requires human-corrected transcripts.
 
-\doublespacing
+\setstretch{1.04}
 %---------------- Acknowledgements
 \clearpage
 \phantomsection
@@ -219,7 +224,7 @@ Month and year of thesis submission: & \textbf{November 2026}\\
 \textbf{WH}   & Whisper-Hindi (Hindi-finetuned Whisper models) \\
 \end{tabular}
 \end{center}
-\doublespacing
+\setstretch{1.04}
 
 %---------------- Symbols
 \clearpage
@@ -237,7 +242,7 @@ $\ddagger$ & detection that depends on the gender assigned to an English loanwor
 $n$ & length of an $n$-gram; speaker number in SC$n$ \\
 \end{tabular}
 \end{center}
-\doublespacing
+\setstretch{1.04}
 
 \clearpage
 \pagenumbering{arabic}
