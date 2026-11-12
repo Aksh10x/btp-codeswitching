@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[12pt,a4paper]{report}
 
 \usepackage{iftex}
 \ifTUTeX
@@ -16,27 +16,25 @@
 \usepackage{multirow}
 \usepackage{longtable}
 \usepackage{tabularx}
-\usepackage{hyperref}
-\usepackage[margin=0.9in]{geometry}
+\usepackage[a4paper,left=1.4in,right=1in,top=1.2in,bottom=1.2in]{geometry}
 \usepackage{natbib}
 \usepackage{float}
-\usepackage{caption}
+\usepackage[labelfont=sc]{caption}
 \usepackage{subcaption}
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage{listings}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
+\usepackage{setspace}
+\usepackage{etoolbox}
+\usepackage{fancyhdr}
+\usepackage{pdfpages}
+\usepackage[normalem]{ulem}
+\usepackage{hyperref}
 
 \setlist{itemsep=1pt, topsep=3pt, parsep=0pt}
-\setlength{\parskip}{3pt}
-\lstset{
-  basicstyle=\ttfamily\small,
-  breaklines=true,
-  frame=single,
-  language=Python,
-}
-
+\lstset{basicstyle=\ttfamily\small, breaklines=true, frame=single, language=Python}
 \definecolor{cR1}{HTML}{3B6EA8}
 \definecolor{cR2}{HTML}{C9803A}
 \definecolor{cA}{HTML}{3B6EA8}
@@ -44,68 +42,214 @@
 \definecolor{cC}{HTML}{5C9E6B}
 \definecolor{cD}{HTML}{9A9A9A}
 
-\title{
-  \textbf{Morphology-Aware Modeling of Code-Mixed Indian Languages:\\
-  A Bengali-Hindi Case Study}\\[0.5em]
-  \large B.Tech Project Report
-}
-\author{
-  \begin{tabular}{rl}
-    Akshath Surwase & (23CH10088) \\
-    Shriya Sinha & (23IE10038) \\
-    Hiyasha Khobragade & (23CH30012) \\
-    Harsh Bhatt & (23CH10030) \\
-    Katyayani Khola & (23EE10029) \\
-  \end{tabular}\\[0.8em]
-  Department of Humanities and Social Sciences\\
-  Indian Institute of Technology Kharagpur\\[0.5em]
-  \textit{Under the supervision of}\\
-  Prof.\ Dripta Piplai
-}
-\date{November 2026}
+\AtBeginEnvironment{table}{\singlespacing}
+\AtBeginEnvironment{figure}{\singlespacing}
+\AtBeginEnvironment{longtable}{\singlespacing}
+\setcounter{tocdepth}{2}
+
+\makeatletter
+\renewcommand{\chaptermark}[1]{\markboth{\@chapapp\ \thechapter.\ \emph{#1}}{}}
+\makeatother
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancypagestyle{front}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+
+\newcommand{\TITLE}{Morphology-Aware Modeling of Code-Mixed Indian Languages: A Bengali-Hindi Case Study}
+\newcommand{\DEPT}{Humanities and Social Sciences}
 
 \begin{document}
+
+%---------------- Title page
+\begin{titlepage}
+\centering
+\vspace*{0.5in}
+{\large\bfseries \TITLE\par}
+\vspace{0.45in}
+B.Tech Project report submitted to\\[6pt]
+Indian Institute of Technology Kharagpur\\[6pt]
+in partial fulfilment for the award of the degree of\\[6pt]
+Bachelor of Technology\\[0.35in]
+{\bfseries by}\\[8pt]
+{\bfseries Akshath Surwase (23CH10088)}\\[3pt]
+{\bfseries Shriya Sinha (23IE10038)}\\[3pt]
+{\bfseries Hiyasha Khobragade (23CH30012)}\\[3pt]
+{\bfseries Harsh Bhatt (23CH10030)}\\[3pt]
+{\bfseries Katyayani Khola (23EE10029)}\\[0.35in]
+{\bfseries Under the supervision of}\\[6pt]
+{\bfseries Professor Dripta Piplai}\\[0.3in]
+\includegraphics[width=1.5in]{assets/iitkgp_logo.png}\\[0.3in]
+{\bfseries Department of Humanities and Social Sciences}\\[4pt]
+{\bfseries Indian Institute of Technology Kharagpur}\\[4pt]
+{\bfseries Autumn Semester, 2026-27}\\[4pt]
+{\bfseries November 2026}
+\end{titlepage}
+
+\clearpage
 \pagenumbering{roman}
+\setcounter{page}{1}
+\pagestyle{front}
+\doublespacing
 
-\maketitle
+%---------------- Declaration
+\phantomsection
+\addcontentsline{toc}{chapter}{Declaration}
+\begin{center}{\Large\bfseries DECLARATION}\end{center}
+\vspace{0.3in}
+\noindent We certify that
+\begin{enumerate}[label=(\alph*), itemsep=6pt]
+  \item The work contained in this report has been done by us under the guidance of our supervisor.
+  \item The work has not been submitted to any other Institute for any degree or diploma.
+  \item We have conformed to the norms and guidelines given in the Ethical Code of Conduct of the Institute.
+  \item Whenever we have used materials (data, theoretical analysis, figures, and text) from other sources, we have given due credit to them by citing them in the text of the thesis and giving their details in the references. Further, we have taken permission from the copyright owners of the sources, whenever necessary.
+\end{enumerate}
+\vfill
+\singlespacing
+\noindent\begin{minipage}[b]{0.45\textwidth}
+Date: \underline{\hspace{3cm}}\\
+Place: Kharagpur
+\end{minipage}\hfill
+\begin{minipage}[b]{0.5\textwidth}
+\raggedleft
+(Akshath Surwase) (23CH10088)\\
+(Shriya Sinha) (23IE10038)\\
+(Hiyasha Khobragade) (23CH30012)\\
+(Harsh Bhatt) (23CH10030)\\
+(Katyayani Khola) (23EE10029)
+\end{minipage}
+\doublespacing
 
-\begin{abstract}
-This work presents a morphology-aware text analyzer for Bengali-Hindi code-switched speech, targeting a specific and under-studied population: Bengali L1 speakers who use Hindi as L2 in institutional settings. We collect and annotate a corpus of 42.8 minutes of naturalistic speech from 8 campus staff members at IIT Kharagpur (2,060 analysed participant words), documenting systematic L1 transfer patterns including masculine-default gender errors, near-complete avoidance of the ergative marker \textit{ne}, and multi-level code-switching from tag-switches to full inter-sentential Bengali clauses. Our rule-based analyzer operates on Roman-transliterated text and detects gender agreement violations, ergative gaps, and code-switch boundaries with reference to curated Hindi--Bengali lexicons. We describe an iterative error audit in which every one of the analyzer's initial 36 gender-error detections was checked against its transcript context, 17 false positives were traced to six distinct causes, and the rules were revised until the final 21 detections were all confirmed. A key finding is that, in the models we tested, ASR normalization of non-standard forms is \textbf{architectural, not a matter of model size or finetuning}: a four-way comparison of human-corrected transcripts, Whisper-large-v3, Whisper-Hindi-small and Whisper-Hindi-large shows that the ASR systems hide 90--100\% of the gender errors, 38--90\% of the code-switches and 67--94\% of the Bengali words. Even the large Hindi-finetuned model (1.5B parameters) preserves only 2 of 21 errors, while introducing hallucination loops on code-switched audio. Morphological analysis of L1 transfer in code-switched speech therefore requires human-corrected transcripts.
-\end{abstract}
-
-\newpage
-\section*{Certificate}
-\addcontentsline{toc}{section}{Certificate}
-This is to certify that the project report entitled \textbf{``Morphology-Aware Modeling of Code-Mixed Indian Languages: A Bengali-Hindi Case Study''}, submitted to the Department of Humanities and Social Sciences, Indian Institute of Technology Kharagpur, by the students listed below, is a record of bona fide work carried out by them under my supervision and guidance.
-
+%---------------- Certificate
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Certificate}
 \begin{center}
-\begin{tabular}{ll}
-Akshath Surwase & 23CH10088 \\
-Shriya Sinha & 23IE10038 \\
-Hiyasha Khobragade & 23CH30012 \\
-Harsh Bhatt & 23CH10030 \\
-Katyayani Khola & 23EE10029 \\
-\end{tabular}
+{\bfseries\uline{DEPARTMENT OF HUMANITIES AND SOCIAL SCIENCES}}\\[6pt]
+{\bfseries\uline{INDIAN INSTITUTE OF TECHNOLOGY KHARAGPUR}}\\[6pt]
+{\bfseries KHARAGPUR - 721302, INDIA}\\[0.3in]
+\includegraphics[width=1.5in]{assets/iitkgp_logo.png}\\[0.3in]
+{\Large\bfseries\itshape CERTIFICATE}
 \end{center}
+\vspace{0.2in}
+\noindent This is to certify that the project report entitled ``\textbf{\TITLE}'' submitted by \textbf{\uline{Akshath Surwase}} (Roll No.\ 23CH10088), \textbf{\uline{Shriya Sinha}} (Roll No.\ 23IE10038), \textbf{\uline{Hiyasha Khobragade}} (Roll No.\ 23CH30012), \textbf{\uline{Harsh Bhatt}} (Roll No.\ 23CH10030) and \textbf{\uline{Katyayani Khola}} (Roll No.\ 23EE10029) to Indian Institute of Technology Kharagpur towards partial fulfilment of requirements for the award of degree of Bachelor of Technology is a record of bona fide work carried out by them under my supervision and guidance during Autumn Semester, 2026-27.
+\vfill
+\singlespacing
+\noindent\begin{minipage}[b]{0.45\textwidth}
+Date: \underline{\hspace{3cm}}\\
+Place: Kharagpur
+\end{minipage}\hfill
+\begin{minipage}[b]{0.5\textwidth}
+\centering
+Professor Dripta Piplai\\
+Department of Humanities and Social Sciences\\
+Indian Institute of Technology Kharagpur\\
+Kharagpur - 721302, India
+\end{minipage}
+\doublespacing
 
-\vspace{2cm}
-\noindent Prof.\ Dripta Piplai\\
-Supervisor\\
-Date: \underline{\hspace{3cm}}\hfill Place: Kharagpur
+%---------------- Abstract
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Abstract}
+\begin{center}{\Huge\itshape Abstract}\end{center}
+\vspace{0.2in}
+\singlespacing
+\noindent\rule{\textwidth}{1.2pt}\\[6pt]
+\begin{tabular}{@{}p{2.15in}p{3.65in}@{}}
+Name of the students: & \textbf{Akshath Surwase} (Roll No: \textbf{23CH10088})\\
+ & \textbf{Shriya Sinha} (Roll No: \textbf{23IE10038})\\
+ & \textbf{Hiyasha Khobragade} (Roll No: \textbf{23CH30012})\\
+ & \textbf{Harsh Bhatt} (Roll No: \textbf{23CH10030})\\
+ & \textbf{Katyayani Khola} (Roll No: \textbf{23EE10029})\\[4pt]
+Degree for which submitted: & \textbf{Bachelor of Technology}\\[4pt]
+Department: & \textbf{Department of Humanities and Social Sciences}\\[4pt]
+Thesis title: & \textbf{\TITLE}\\[4pt]
+Thesis supervisor: & \textbf{Professor Dripta Piplai}\\[4pt]
+Month and year of thesis submission: & \textbf{November 2026}\\
+\end{tabular}\\[6pt]
+\rule{\textwidth}{1.2pt}
+\vspace{0.15in}
 
-\newpage
-\section*{Acknowledgements}
-\addcontentsline{toc}{section}{Acknowledgements}
-We thank our supervisor, Prof.\ Dripta Piplai, for the guidance throughout this project. We are grateful to the campus staff who agreed to be recorded and who spoke with patience and generosity about their work and their languages; this study would not exist without them.
+\setstretch{1.08}
+\noindent This work presents a morphology-aware text analyzer for Bengali-Hindi code-switched speech, targeting a specific and under-studied population: Bengali L1 speakers who use Hindi as L2 in institutional settings. We collect and annotate a corpus of 42.8 minutes of naturalistic speech from 8 campus staff members at IIT Kharagpur (2,060 analysed participant words), documenting systematic L1 transfer patterns including masculine-default gender errors, near-complete avoidance of the ergative marker \textit{ne}, and multi-level code-switching from tag-switches to full inter-sentential Bengali clauses. Our rule-based analyzer operates on Roman-transliterated text and detects gender agreement violations, ergative gaps, and code-switch boundaries with reference to curated Hindi--Bengali lexicons. We describe an iterative error audit in which every one of the analyzer's initial 36 gender-error detections was checked against its transcript context, 17 false positives were traced to six distinct causes, and the rules were revised until the final 21 detections were all confirmed. A key finding is that, in the models we tested, ASR normalization of non-standard forms is \textbf{architectural, not a matter of model size or finetuning}: a four-way comparison of human-corrected transcripts, Whisper-large-v3, Whisper-Hindi-small and Whisper-Hindi-large shows that the ASR systems hide 90--100\% of the gender errors, 38--90\% of the code-switches and 67--94\% of the Bengali words. Even the large Hindi-finetuned model (1.5B parameters) preserves only 2 of 21 errors, while introducing hallucination loops on code-switched audio. Morphological analysis of L1 transfer in code-switched speech therefore requires human-corrected transcripts.
 
-\newpage
-\setcounter{tocdepth}{1}
+\doublespacing
+%---------------- Acknowledgements
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Acknowledgements}
+\begin{center}{\Huge\itshape Acknowledgements}\end{center}
+\vspace{0.2in}
+\noindent We thank our supervisor, Professor Dripta Piplai, for the guidance throughout this project. We are grateful to the campus staff who agreed to be recorded and who spoke with patience and generosity about their work and their languages; this study would not exist without them.
+
+%---------------- Contents
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Contents}
 \tableofcontents
 \clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+
+%---------------- Abbreviations
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Abbreviations}
+\chapter*{Abbreviations}
+\singlespacing
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\textbf{ASR}  & Automatic Speech Recognition \\[3pt]
+\textbf{CLF}  & Classifier (in glosses) \\[3pt]
+\textbf{GE}   & Gender errors \\[3pt]
+\textbf{IIT}  & Indian Institute of Technology \\[3pt]
+\textbf{L1}   & First (native) language \\[3pt]
+\textbf{L2}   & Second language \\[3pt]
+\textbf{SC}   & Speaker code (SC$n$-G-Kharagpur) \\[3pt]
+\textbf{SNR}  & Signal-to-noise ratio \\[3pt]
+\textbf{WER}  & Word error rate \\[3pt]
+\textbf{WH}   & Whisper-Hindi (Hindi-finetuned Whisper models) \\
+\end{tabular}
+\end{center}
+\doublespacing
+
+%---------------- Symbols
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Symbols}
+\chapter*{Symbols}
+\singlespacing
+\begin{center}
+\begin{tabular}{@{}cl@{}}
+R1--R6 & transfer rules defined in Chapter~\ref{sec:rules} \\[3pt]
+\textsc{m}, \textsc{f} & masculine and feminine agreement (in glosses) \\[3pt]
+$\to$ & ``is rendered as'' / ``corresponds to'' \\[3pt]
+$\dagger$ & detection with a borderline (plural or mixed-group) subject \\[3pt]
+$\ddagger$ & detection that depends on the gender assigned to an English loanword \\[3pt]
+$n$ & length of an $n$-gram; speaker number in SC$n$ \\
+\end{tabular}
+\end{center}
+\doublespacing
+
+\clearpage
 \pagenumbering{arabic}
+\setcounter{page}{1}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
 
 %======================================================================
-\section{Introduction}
+\chapter{Introduction}
 \label{sec:intro}
 %======================================================================
 
@@ -121,7 +265,7 @@ This B.Tech project addresses three interconnected questions:
   \item How does the choice of ASR frontend (standard Whisper, Hindi-finetuned Whisper, or human correction) affect the visibility of these patterns to downstream analysis?
 \end{enumerate}
 
-\subsection{Motivation}
+\section{Motivation}
 
 Most NLP work on code-switching in Indian languages focuses on social media text \citep{bali2014borrowing} or targets Hindi-English mixing \citep{singh2018twitter}. Bengali-Hindi code-switching in \textit{spoken} language is comparatively under-studied, despite being common in eastern India where Bengali speakers interact with Hindi-dominant institutions. The IIT Kharagpur campus, located in West Bengal with a Hindi-medium administrative culture and Bengali-speaking staff, provides a natural laboratory for this study.
 
@@ -129,9 +273,9 @@ A second motivation is methodological. Off-the-shelf ASR systems like Whisper ar
 
 A third motivation is practical. The campus staff who participated in this study use Hindi daily with students, colleagues and visitors. Documenting the regularities in their speech, rather than treating them as random mistakes, is a precondition for any tool---an ASR system, a learning aid, an accessibility service---that is meant to work for them.
 
-\subsection{Hypotheses}
+\section{Hypotheses}
 
-We organise the analysis around four testable hypotheses, which are revisited in Section~\ref{sec:discussion}:
+We organise the analysis around four testable hypotheses, which are revisited in Chapter~\ref{sec:discussion}:
 
 \begin{description}[leftmargin=2.2em, style=nextline]
   \item[H1 (Transfer)] Because Bengali lacks grammatical gender, gender-agreement errors in the speakers' Hindi will be predominantly in the direction of the unmarked masculine form.
@@ -140,7 +284,7 @@ We organise the analysis around four testable hypotheses, which are revisited in
   \item[H4 (Opacity)] Standard and Hindi-finetuned ASR will hide the above phenomena irrespective of model size, because they are trained to produce standard-language output.
 \end{description}
 
-\subsection{Contributions}
+\section{Contributions}
 
 \begin{itemize}
   \item A curated corpus of 8 speakers (4 female, 4 male), 42.8 minutes of audio across 9 recordings, 2,060 analysed participant words (2,990 tokens including the data collector's prompts), with human-corrected Roman transliterations preserving all non-standard forms.
@@ -150,45 +294,45 @@ We organise the analysis around four testable hypotheses, which are revisited in
   \item A four-way ASR comparison (human-corrected, Whisper-large-v3, Whisper-Hindi-small, Whisper-Hindi-large) showing that ASR systems hide 90--100\% of gender errors regardless of model size or Hindi finetuning, and that the large Hindi model preserves only 2/21 errors while introducing hallucination on code-switched segments.
 \end{itemize}
 
-\subsection{Scope and Organisation of this Report}
+\section{Scope and Organisation of this Report}
 
-The study is a descriptive case study, not a population survey: with eight speakers and roughly two thousand analysed words, it documents patterns and tests a measurement approach rather than estimating population parameters. Section~\ref{sec:background} sets out the linguistic background; Section~\ref{sec:related} reviews related work; Section~\ref{sec:corpus} describes the corpus and the transcription protocol; Section~\ref{sec:speakers} presents a profile of each speaker; Section~\ref{sec:rules} lists the transfer rules; Section~\ref{sec:system} describes the analyzer; Section~\ref{sec:audit} reports the error audit; Section~\ref{sec:eval} and Section~\ref{sec:asr} present the evaluation and the ASR comparison; Section~\ref{sec:discussion} discusses the findings and their limits; and Section~\ref{sec:conclusion} concludes. Appendices give the full list of detections, the ergative contexts, the audit table, lexicon summaries and reproduction instructions.
+The study is a descriptive case study, not a population survey: with eight speakers and roughly two thousand analysed words, it documents patterns and tests a measurement approach rather than estimating population parameters. Chapter~\ref{sec:background} sets out the linguistic background; Chapter~\ref{sec:related} reviews related work; Chapter~\ref{sec:corpus} describes the corpus and the transcription protocol; Chapter~\ref{sec:speakers} presents a profile of each speaker; Chapter~\ref{sec:rules} lists the transfer rules; Chapter~\ref{sec:system} describes the analyzer; Chapter~\ref{sec:audit} reports the error audit; Chapter~\ref{sec:eval} and Chapter~\ref{sec:asr} present the evaluation and the ASR comparison; Chapter~\ref{sec:discussion} discusses the findings and their limits; and Chapter~\ref{sec:conclusion} concludes. Appendices give the full list of detections, the ergative contexts, the audit table, lexicon summaries and reproduction instructions.
 
 %======================================================================
-\section{Linguistic Background}
+\chapter{Linguistic Background}
 \label{sec:background}
 %======================================================================
 
-\subsection{Gender and Agreement in Hindi}
+\section{Gender and Agreement in Hindi}
 
 Hindi nouns are either masculine or feminine, and the gender of a noun is reflected on adjectives, postpositions such as \textit{ka/ki/ke}, and---most importantly for this study---on the verb. In the perfective, the participle ends in \textit{-a} (masculine) or \textit{-i} (feminine): \textit{kursi toot gayi} ``the chair broke'' (\textsc{f}) versus \textit{darwaza toot gaya} ``the door broke'' (\textsc{m}). In the habitual and progressive aspects, the verb agrees with the subject: \textit{woh padhta hai} (\textsc{m}) versus \textit{woh padhti hai} (\textsc{f}). Speakers whose first language has no gender system must learn both the gender of each noun, which is largely arbitrary for inanimates, and the agreement rules that propagate it.
 
-Two points matter for annotation. First, the gender of a noun is a property of the lexicon: \textit{chawal} ``rice'' and \textit{glass} are masculine, while \textit{roti} ``bread'' and \textit{kitaab} ``book'' are feminine. An analyzer that gets the gender of a noun wrong will produce false errors (Section~\ref{sec:audit} documents exactly this). Second, masculine agreement is the standard form for mixed-gender groups and for impersonal constructions, so a masculine verb is not an error when the referent is a group of boys and girls or when no specific person is referred to.
+Two points matter for annotation. First, the gender of a noun is a property of the lexicon: \textit{chawal} ``rice'' and \textit{glass} are masculine, while \textit{roti} ``bread'' and \textit{kitaab} ``book'' are feminine. An analyzer that gets the gender of a noun wrong will produce false errors (Chapter~\ref{sec:audit} documents exactly this). Second, masculine agreement is the standard form for mixed-gender groups and for impersonal constructions, so a masculine verb is not an error when the referent is a group of boys and girls or when no specific person is referred to.
 
-\subsection{Gender in Bengali}
+\section{Gender in Bengali}
 
 Bengali has no grammatical gender. Nouns do not carry a gender class, adjectives do not agree with nouns, and verbs inflect for person, tense, aspect and honorific level but not for the gender of the subject. The Bengali sentence \textit{boiti ulto kore rekhechi} ``I have kept the book upside down'' is identical whether the speaker is male or female. A Bengali L1 speaker producing Hindi therefore has no gender category to transfer and must acquire one; the typical outcome in the second-language literature is a default to a single unmarked form \citep{sabourin2006transfer, gruter2008article}.
 
-Bengali does have grammatical features that surface in the code-switched data. The classifiers \textit{-ta}, \textit{-ti}, \textit{-khana} follow numerals and nouns (\textit{ek ta chair}), the copula \textit{ache} corresponds to Hindi \textit{hai}, the present-progressive endings \textit{-che/-chi/-cche/-cchi} correspond to Hindi \textit{raha/rahi hai} (\textit{jol dhalche} ``water is being poured''), and the perfective endings \textit{-lam/-lo/-le} mark first-, third- and second-person past. These are the surface markers the analyzer uses to recognise Bengali stretches (Section~\ref{sec:system}).
+Bengali does have grammatical features that surface in the code-switched data. The classifiers \textit{-ta}, \textit{-ti}, \textit{-khana} follow numerals and nouns (\textit{ek ta chair}), the copula \textit{ache} corresponds to Hindi \textit{hai}, the present-progressive endings \textit{-che/-chi/-cche/-cchi} correspond to Hindi \textit{raha/rahi hai} (\textit{jol dhalche} ``water is being poured''), and the perfective endings \textit{-lam/-lo/-le} mark first-, third- and second-person past. These are the surface markers the analyzer uses to recognise Bengali stretches (Chapter~\ref{sec:system}).
 
-\subsection{Ergativity}
+\section{Ergativity}
 
-In Hindi the perfective of transitive verbs is ergative: the agent is marked with the postposition \textit{ne} and the verb agrees with the object rather than the subject, as in \textit{maine kitaab padhi} ``I read the book'' (verb feminine, agreeing with \textit{kitaab}). Ergative alignment is a well-known difficulty for second-language learners \citep{butt1995structure}. Bengali has no ergative marking: the agent is in the nominative, so \textit{ami boi porlam} has the same structure whether the verb is perfective or not. The \textit{ne} construction is thus a candidate for avoidance, in the sense of \citet{schachter1974}: learners may sidestep a structure they find difficult rather than produce it incorrectly.
+In Hindi the perfective of transitive verbs is ergative: the agent is marked with the postposition \textit{ne} and the verb agrees with the object rather than the subject, as in \textit{maine kitaab padhi} ``I read the book'' (verb feminine, agreeing with \textit{kitaab}). The ergative construction is analysed in detail by \citet{butt1995structure} and is commonly regarded as a difficult structure for second-language learners. Bengali has no ergative marking: the agent is in the nominative, so \textit{ami boi porlam} has the same structure whether the verb is perfective or not. The \textit{ne} construction is thus a candidate for avoidance, in the sense of \citet{schachter1974}: learners may sidestep a structure they find difficult rather than produce it incorrectly.
 
-\subsection{Code-Switching Frameworks}
+\section{Code-Switching Frameworks}
 
 \citet{poplack1980sometimes} distinguishes tag-switching, intra-sentential switching and inter-sentential switching, a typology we adopt for classification. \citet{muysken2000bilingual} proposes a complementary typology of insertion, alternation and congruent lexicalisation, which we use in the discussion to ask whether the Bengali material in our data behaves like insertion of single items into a Hindi frame or like alternation between two clauses. \citet{myers1997duelling}'s Matrix Language Frame model adds the notion of a matrix language that supplies the grammatical frame; in our data Hindi is the matrix language of the interview, with Bengali supplying content words and, in some speakers, full clauses.
 
-\subsection{Transliteration and Glossing Conventions}
+\section{Transliteration and Glossing Conventions}
 
-All transcripts used for analysis are in Roman transliteration, following informal conventions that match how Hindi is typed on phones: long vowels are not marked, aspirated consonants are written with \textit{h}, and nasalisation is mostly omitted. Variant spellings are normalised only where the lexicon requires (for example \textit{kitaab/kitab}, \textit{khursi/kursi}); we do \emph{not} normalise grammatical forms. Devanagari output from the ASR systems is retained alongside the Roman form and is converted to Roman only for lexicon matching (Section~\ref{sec:system}). In examples, \textsc{m}/\textsc{f} mark masculine/feminine agreement and \textsc{clf} a classifier; uncertain or inaudible stretches are written \texttt{[unclear]}.
+All transcripts used for analysis are in Roman transliteration, following informal conventions that match how Hindi is typed on phones: long vowels are not marked, aspirated consonants are written with \textit{h}, and nasalisation is mostly omitted. Variant spellings are normalised only where the lexicon requires (for example \textit{kitaab/kitab}, \textit{khursi/kursi}); we do \emph{not} normalise grammatical forms. Devanagari output from the ASR systems is retained alongside the Roman form and is converted to Roman only for lexicon matching (Chapter~\ref{sec:system}). In examples, \textsc{m}/\textsc{f} mark masculine/feminine agreement and \textsc{clf} a classifier; uncertain or inaudible stretches are written \texttt{[unclear]}.
 
 %======================================================================
-\section{Related Work}
+\chapter{Related Work}
 \label{sec:related}
 %======================================================================
 
-\subsection{Code-Switching in Indian Languages}
+\section{Code-Switching in Indian Languages}
 
 \citet{poplack1980sometimes} established the foundational typology of code-switching: tag-switching (insertion of a discourse marker or tag from one language), intra-sentential switching (switching within a clause), and inter-sentential switching (switching at clause or sentence boundaries). This typology remains the standard framework and is adopted in our analysis.
 
@@ -196,22 +340,22 @@ Research on Hindi-English code-switching is extensive, driven by social media da
 
 Bengali-Hindi code-switching has received less attention. \citet{muysken2000bilingual} discusses insertion patterns in South Asian language pairs, and some work exists on Bengali-English mixing \citep{das2014identifying}, but the specific case of Bengali L1 transfer in spoken Hindi L2 is largely unaddressed in the computational linguistics literature.
 
-\subsection{L1 Transfer and Gender Agreement}
+\section{L1 Transfer and Gender Agreement}
 
-The acquisition of grammatical gender by speakers of genderless L1s is well-studied in European language pairs \citep{sabourin2006transfer, gruter2008article}. The consistent finding is that speakers default to the unmarked form---typically masculine in languages like Hindi, French, and Spanish. Our data are consistent with this pattern: all 21 gender errors detected in the corpus are masculine-default, with a single candidate instance of the reverse direction found by manual inspection (Section~\ref{sec:discussion}).
+The acquisition of grammatical gender by speakers of genderless L1s is well-studied in European language pairs \citep{sabourin2006transfer, gruter2008article}. The consistent finding is that speakers default to the unmarked form---typically masculine in languages like Hindi, French, and Spanish. Our data are consistent with this pattern: all 21 gender errors detected in the corpus are masculine-default, with a single candidate instance of the reverse direction found by manual inspection (Chapter~\ref{sec:discussion}).
 
-For Hindi specifically, \citet{sharma2004} documents gender errors in Hindi L2 speakers, and the ergative construction has been studied as a known difficulty for L2 learners \citep{butt1995structure}. Our contribution is the specific documentation of Bengali-to-Hindi transfer patterns with corpus evidence.
+Hindi gender agreement and the ergative construction are described in reference grammars \citep{kachru2006hindi} and in formal work \citep{butt1995structure}; what is missing, to our knowledge, is corpus evidence of Bengali-to-Hindi transfer. Our contribution is the specific documentation of Bengali-to-Hindi transfer patterns with corpus evidence.
 
-\subsection{ASR for Code-Switched Speech}
+\section{ASR for Code-Switched Speech}
 
 Whisper \citep{radford2023robust} and its multilingual variants handle many languages but are trained primarily on monolingual data. For code-switched speech, specialized systems like those from the MUCS shared task \citep{diwan2021multilingual} and AI4Bharat's IndicWhisper \citep{bhogale2023vistaar}, which fine-tunes Whisper on Indian-language ASR data, attempt to handle language mixing. The Hindi-finetuned models evaluated in this report are not AI4Bharat's IndicWhisper but publicly released community fine-tunes of Whisper on Hindi data \citep{vasista22hindi}; they follow the same strategy of adapting Whisper to Hindi and serve here as a proxy for it. However, even these systems are not designed to preserve morphological errors---they aim for ``correct'' transcription, which in our case means hiding the phenomena under study.
 
 %======================================================================
-\section{Corpus and Data Collection}
+\chapter{Corpus and Data Collection}
 \label{sec:corpus}
 %======================================================================
 
-\subsection{Study Design}
+\section{Study Design}
 
 Data was collected from 8 campus staff members at IIT Kharagpur, all Bengali L1 speakers who use Hindi as L2 in their work environment. The study was designed as a structured elicitation task with six sections:
 
@@ -237,41 +381,44 @@ Sections A--D use a set of picture stimuli. In the naming task the participant i
 
 A note on the elicitation. The data collector asks the questions in Hindi and addresses the participant respectfully (``\textit{dada}'', ``\textit{didi}'', ``\textit{aap}''); the participants answer in Hindi, switching into Bengali where they choose. The collector's turns are marked in the transcripts (\texttt{c:}) and are excluded from every count in this report; only participant turns (\texttt{s:}) are analysed.
 
-\subsection{Participants and Recordings}
+\section{Participants and Recordings}
 
-Eight participants (S1--S8) contributed nine recordings; S1 recorded twice. Table~\ref{tab:rec} summarises the recordings together with their acoustic quality measured from the original media.
+Eight participants (SC1--SC8) contributed nine recordings; SC1 recorded twice. Table~\ref{tab:rec} summarises the recordings together with their acoustic quality measured from the original media.
 
 \begin{table}[H]
 \centering
 \caption{Recordings and acoustic quality (from the technical inventory)}
 \label{tab:rec}
-\small
+\footnotesize
+\setlength{\tabcolsep}{4pt}
 \begin{tabular}{llrrrl}
 \toprule
 \textbf{Spk.} & \textbf{File} & \textbf{Dur.\ (s)} & \textbf{SNR (dB)} & \textbf{Speech frac.} & \textbf{Verdict} \\
 \midrule
-S1 & IMG\_6647 & 231.2 & 14.1 & 0.34 & Clean \\
-S1 & IMG\_6648 &  76.7 & 13.1 & 0.40 & Clean \\
-S2 & IMG\_6650 & 309.4 & 19.3 & 0.49 & Clean \\
-S3 & IMG\_6651 & 370.9 & 19.4 & 0.50 & Clean \\
-S4 & IMG\_6652 & 341.0 &  8.4 & 0.22 & Usable, noisy \\
-S5 & IMG\_6654 & 387.7 & 13.5 & 0.39 & Clean \\
-S6 & IMG\_6660 & 304.7 & 12.8 & 0.33 & Clean \\
-S7 & NewRecording7 (audio) & 330.1 & 17.7 & 0.47 & Clean \\
-S8 & IMG\_6664 & 216.4 & --- & --- & Not in inventory \\
+SC1 & IMG\_6647 & 231.2 & 14.1 & 0.34 & Clean \\
+SC1 & IMG\_6648 &  76.7 & 13.1 & 0.40 & Clean \\
+SC2 & IMG\_6650 & 309.4 & 19.3 & 0.49 & Clean \\
+SC3 & IMG\_6651 & 370.9 & 19.4 & 0.50 & Clean \\
+SC4 & IMG\_6652 & 341.0 &  8.4 & 0.22 & Usable, noisy \\
+SC5 & IMG\_6654 & 387.7 & 13.5 & 0.39 & Clean \\
+SC6 & IMG\_6660 & 304.7 & 12.8 & 0.33 & Clean \\
+SC7 & NewRecording7 (audio) & 330.1 & 17.7 & 0.47 & Clean \\
+SC8 & IMG\_6664 & 216.4 & --- & --- & Not in inventory \\
 \midrule
 \multicolumn{2}{l}{\textbf{Total}} & \textbf{2,568.1} & & & 42.8 min \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-The interviews in the technical inventory were recorded as 4K video (HEVC, AAC audio at 48\,kHz) with the exception of one participant (S7), who declined to be filmed and was recorded audio-only, which we treat as an expression of the voluntary nature of participation. No file shows clipping. Four short clips (3--30 seconds: camera checks and false starts) were discarded as too short for analysis. The speech fraction of 22--50\% reflects the interview format, with long pauses and collector turns. S4's recording has the lowest signal-to-noise ratio (8.4\,dB, background noise) and is the one most likely to contain mis-transcribed material; we therefore examine S4's detections with particular care in Section~\ref{sec:audit}.
+The interviews in the technical inventory were recorded as 4K video (HEVC, AAC audio at 48\,kHz) with the exception of one participant (SC7), who declined to be filmed and was recorded audio-only, which we treat as an expression of the voluntary nature of participation. No file shows clipping. Four short clips (3--30 seconds: camera checks and false starts) were discarded as too short for analysis. The speech fraction of 22--50\% reflects the interview format, with long pauses and collector turns. SC4's recording has the lowest signal-to-noise ratio (8.4\,dB, background noise) and is the one most likely to contain mis-transcribed material; we therefore examine SC4's detections with particular care in Chapter~\ref{sec:audit}.
 
-\subsection{Privacy and Ethics}
+\section{Consent, Privacy and Ethics}
 
-Participants are identified in all output only by speaker codes (S1--S8). Where a real name is spoken in a recording it is replaced by \texttt{[NAME]} in the transcript. The audio and video files are kept in a private repository whose ignore rules exclude the recordings and any participant-identifying material from version control. Participants are campus staff in an employment relationship with the institution, and the elicitation tasks were designed to be neutral and non-evaluative; nevertheless, the topic---errors in a language used at work---is potentially sensitive, which is why the individual profiles in Section~\ref{sec:speakers} describe patterns in the speech rather than evaluating anyone's competence.
+Each participant was asked to talk with the team for about five minutes, to look at some pictures and to answer a few easy questions, and was told that the conversation would be recorded. Consent was requested with a one-page form available in Hindi, Bengali and English (Appendix~\ref{app:consent}), which the team read aloud to the participant because some participants may not read comfortably. The form states that taking part is entirely voluntary; that the participant may refuse, stop at any point, or ask for the recording to be deleted later without giving a reason; that the participant's name is not written anywhere and a code (such as S1) is used instead; that the recording stays with the project team and is not put online or given to anyone else; that there is no payment and no bearing on the participant's work or job; and that the team is not judging whether the participant's language is correct. A participant who preferred not to sign could give spoken consent, which stays on the recording. One participant (SC7-M-Kharagpur) declined to be filmed and was recorded audio-only.
 
-\subsection{Transcription Pipeline}
+Participants are identified in all output only by codes of the form SC$n$-G-Kharagpur, where $n$ is the speaker number (1--8), G is the speaker's gender (M or F) and Kharagpur is the location, the IIT Kharagpur campus where all participants work and were recorded. In running text and tables the short form SC$n$ is used; for example SC4 is SC4-F-Kharagpur. The codes S1--S8 on the consent forms and in the project files correspond to SC1--SC8 here. Where a real name is spoken in a recording it is replaced by \texttt{[NAME]} in the transcript. The recordings themselves are not stored in the project repository. Participants are campus staff in an employment relationship with the institution, and the elicitation tasks were designed to be neutral and non-evaluative; nevertheless, the topic---errors in a language used at work---is potentially sensitive, which is why the individual profiles in Chapter~\ref{sec:speakers} describe patterns in the speech rather than evaluating anyone's competence.
+
+\section{Transcription Pipeline}
 
 \begin{enumerate}
   \item \textbf{Audio extraction}: WAV files (16\,kHz, mono) extracted from the interview recordings with \texttt{ffmpeg}.
@@ -280,7 +427,7 @@ Participants are identified in all output only by speaker codes (S1--S8). Where 
   \item \textbf{Annotation}: Gender errors, code-switches, and Bengali insertions are marked in annotator notes and then analysed by the rule-based system.
 \end{enumerate}
 
-\subsection{Transcription Conventions}
+\section{Transcription Conventions}
 
 The corrected transcripts follow a small set of principles, applied throughout the corpus:
 
@@ -293,7 +440,7 @@ The corrected transcripts follow a small set of principles, applied throughout t
   \item Devanagari output is retained, with the Roman transliteration alongside it.
 \end{itemize}
 
-\subsection{Human Verification and Whisper Errors}
+\section{Human Verification and Whisper Errors}
 
 A critical finding during transcription: Whisper systematically ``corrects'' the data:
 \begin{itemize}
@@ -304,7 +451,7 @@ A critical finding during transcription: Whisper systematically ``corrects'' the
 
 Of the 183 segments across all recordings, 171 were verified by a human listener: 144 contain participant speech, 22 contain only the collector's speech, and 5 are noise. Of the 144 participant-speech segments, 120 required correction (83.3\%) and 24 were verified correct as transcribed. Word error rate is not computable because Whisper outputs Devanagari while the corrections are in Roman, so segment-level error rate is used instead. The error types are dominated by wrong words (116 of 120 corrected segments, 96.7\%), followed by missed Bengali (2), hallucination (1) and other (1).
 
-\subsection{Corpus Statistics}
+\section{Corpus Statistics}
 
 \begin{table}[H]
 \centering
@@ -314,14 +461,14 @@ Of the 183 segments across all recordings, 171 were verified by a human listener
 \toprule
 \textbf{Spk.} & \textbf{Gender} & \textbf{Role} & \textbf{Dur.\ (min)} & \textbf{Segs} & \textbf{Words} \\
 \midrule
-S1 & M & Cycle shop   & 5.1 & 14 & 178 \\
-S2 & F & Staff        & 5.2 & 12 & 202 \\
-S3 & F & Staff        & 6.2 & 15 & 230 \\
-S4 & F & Staff        & 5.7 & 15 & 307 \\
-S5 & M & Mess staff   & 6.5 & 17 & 307 \\
-S6 & M & Mess staff   & 5.1 & 15 & 299 \\
-S7 & M & Security     & 5.5 & 19 & 308 \\
-S8 & F & Staff        & 3.6 & 13 & 229 \\
+SC1-M-Kharagpur & M & Cycle shop   & 5.1 & 14 & 178 \\
+SC2-F-Kharagpur & F & Staff        & 5.2 & 12 & 202 \\
+SC3-F-Kharagpur & F & Staff        & 6.2 & 15 & 230 \\
+SC4-F-Kharagpur & F & Staff        & 5.7 & 15 & 307 \\
+SC5-M-Kharagpur & M & Mess staff   & 6.5 & 17 & 307 \\
+SC6-M-Kharagpur & M & Mess staff   & 5.1 & 15 & 299 \\
+SC7-M-Kharagpur & M & Security     & 5.5 & 19 & 308 \\
+SC8-F-Kharagpur & F & Staff        & 3.6 & 13 & 229 \\
 \midrule
 \multicolumn{3}{c}{\textbf{Total}} & \textbf{42.8} & \textbf{120} & \textbf{2,060} \\
 \bottomrule
@@ -331,7 +478,7 @@ S8 & F & Staff        & 3.6 & 13 & 229 \\
 The analysed sample (2,060 words) is smaller than the raw token count of the corrected transcripts (2,990 tokens) because the collector's questions and annotation markers are excluded, and smaller than the raw Whisper word count (2,957) because raw ASR text does not separate the collector's turns from the participant's, so its word count also includes the collector's speech. The number of words per speaker ranges from 178 to 308, which sets the scale at which per-speaker comparisons should be read.
 
 %======================================================================
-\section{Speaker Profiles and Case Studies}
+\chapter{Speaker Profiles and Case Studies}
 \label{sec:speakers}
 %======================================================================
 
@@ -339,85 +486,86 @@ The analysed sample (2,060 words) is smaller than the raw token count of the cor
 \centering
 \caption{Speaker demographics and error counts (21 detected gender errors; 159 Bengali-word candidates)}
 \label{tab:speakers}
-\begin{tabular}{cccrrrr}
+\small
+\begin{tabular}{llrrrr}
 \toprule
-\textbf{Speaker} & \textbf{Gender} & \textbf{Role} & \textbf{Words} & \textbf{Gender Errors} & \textbf{Per 1,000 words} & \textbf{Bengali Words} \\
+\textbf{Code} & \textbf{Role} & \textbf{Words} & \textbf{GE} & \textbf{GE/1,000} & \textbf{Bengali} \\
 \midrule
-S1 & M & Cycle shop & 178\textsuperscript{*} & 1 &  5.6 & 15 \\
-S2 & F & Staff & 202 & 3 & 14.9 & 34 \\
-S3 & F & Staff & 230 & 4 & 17.4 &  2 \\
-S4 & F & Staff & 307 & 11 & 35.8 &  9 \\
-S5 & M & Mess staff & 307 & 0 &  0.0 & 23 \\
-S6 & M & Mess staff & 299 & 0 &  0.0 & 53 \\
-S7 & M & Security & 308 & 1 &  3.2 & 16 \\
-S8 & F & Staff & 229 & 1 &  4.4 &  7 \\
+SC1-M-Kharagpur & Cycle shop & 178\textsuperscript{*} & 1 &  5.6 & 15 \\
+SC2-F-Kharagpur & Staff & 202 & 3 & 14.9 & 34 \\
+SC3-F-Kharagpur & Staff & 230 & 4 & 17.4 &  2 \\
+SC4-F-Kharagpur & Staff & 307 & 11 & 35.8 &  9 \\
+SC5-M-Kharagpur & Mess staff & 307 & 0 &  0.0 & 23 \\
+SC6-M-Kharagpur & Mess staff & 299 & 0 &  0.0 & 53 \\
+SC7-M-Kharagpur & Security & 308 & 1 &  3.2 & 16 \\
+SC8-F-Kharagpur & Staff & 229 & 1 &  4.4 &  7 \\
 \midrule
-\multicolumn{3}{c}{\textbf{Total}} & \textbf{2,060} & \textbf{21} & \textbf{10.2} & \textbf{159} \\
-\multicolumn{7}{l}{\footnotesize \textsuperscript{*}S1 has two recordings (6647 + 6648); word count is the combined total.} \\
+\multicolumn{2}{l}{\textbf{Total}} & \textbf{2,060} & \textbf{21} & \textbf{10.2} & \textbf{159} \\
+\multicolumn{6}{l}{\footnotesize \textsuperscript{*}SC1 has two recordings (6647 + 6648); word count is the combined total.} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 Key observations from speaker profiles:
 \begin{itemize}
-  \item Gender errors are concentrated in female speakers (S2, S3, S4, S8), who account for 19 of the 21 detections (19.6 per 1,000 words against 1.8 for male speakers). Both male-speaker detections (S1, S7) are noun-verb errors in the photo-description task; the subject-verb rule (R2) applies only to female speakers, for whom a masculine self-reference is non-standard.
-  \item S4 shows the highest error rate (35.8 per 1,000 words), consistent with later Hindi acquisition.
-  \item S6 uses the most Bengali words (53) and produces full Bengali clauses, representing the high-Bengali end of the proficiency gradient.
-  \item Male speakers (S1, S5, S7) show few gender errors because masculine default happens to be correct for male speakers' self-reference.
+  \item Gender errors are concentrated in female speakers (SC2, SC3, SC4, SC8), who account for 19 of the 21 detections (19.6 per 1,000 words against 1.8 for male speakers). Both male-speaker detections (SC1, SC7) are noun-verb errors in the photo-description task; the subject-verb rule (R2) applies only to female speakers, for whom a masculine self-reference is non-standard.
+  \item SC4 shows the highest error rate (35.8 per 1,000 words), consistent with later Hindi acquisition.
+  \item SC6 uses the most Bengali words (53) and produces full Bengali clauses, representing the high-Bengali end of the proficiency gradient.
+  \item Male speakers (SC1, SC5, SC7) show few gender errors because masculine default happens to be correct for male speakers' self-reference.
 \end{itemize}
 
-The remainder of this section describes each speaker in turn, using excerpts from the corrected transcripts (Roman transliteration; the English gloss is ours). Because the detector has known limits (Section~\ref{sec:audit}), the descriptions rely on the verified detections and on direct reading of the transcripts rather than on counts alone.
+The remainder of this chapter describes each speaker in turn, using excerpts from the corrected transcripts (Roman transliteration; the English gloss is ours). Because the detector has known limits (Chapter~\ref{sec:audit}), the descriptions rely on the verified detections and on direct reading of the transcripts rather than on counts alone.
 
-\subsection{S1 --- Male, cycle shop}
+\section{SC1-M-Kharagpur (cycle shop)}
 
-S1 has two recordings, 5.1 minutes in total. In the object-naming and description tasks S1 mixes Hindi, Bengali and English within one list, describing the pictures as:
+SC1 has two recordings, 5.1 minutes in total. In the object-naming and description tasks SC1 mixes Hindi, Bengali and English within one list, describing the pictures as:
 \begin{quote}
   \textit{eh bhat kha raha hai, dorja khol raha hai, jol dhalche, jol gir gaya, eh copy khula hai, chair bhenge ache, fan bhanga}\\
   ``this one is eating rice, opening the door, water is being poured, water fell, this notebook is open, the chair is broken, the fan is broken''
 \end{quote}
-Here \textit{bhat} ``rice'', \textit{dorja} ``door'', \textit{jol} ``water'', \textit{dhalche} ``is pouring'' and \textit{bhenge ache} ``is broken'' are Bengali. The one detected gender error is \textit{roti kha raha hai} (feminine \textit{roti} with a masculine progressive). S1 also describes his family and work: \textit{mera cycle shop hai aar mera ek ladki ek ladka, dono study karta hai}, where the masculine singular verb with ``a girl and a boy'' is the standard default for a mixed pair and is therefore not counted. S1 says he studied B.Com for two years (\textit{bcom hum 2 year padha tha}); both ergative-context verbs in his recordings (\textit{padha}) appear without \textit{ne}.
+Here \textit{bhat} ``rice'', \textit{dorja} ``door'', \textit{jol} ``water'', \textit{dhalche} ``is pouring'' and \textit{bhenge ache} ``is broken'' are Bengali. The one detected gender error is \textit{roti kha raha hai} (feminine \textit{roti} with a masculine progressive). SC1 also describes his family and work: \textit{mera cycle shop hai aar mera ek ladki ek ladka, dono study karta hai}, where the masculine singular verb with ``a girl and a boy'' is the standard default for a mixed pair and is therefore not counted. SC1 says he studied B.Com for two years (\textit{bcom hum 2 year padha tha}); both ergative-context verbs in his recordings (\textit{padha}) appear without \textit{ne}.
 
-\subsection{S2 --- Female, staff}
+\section{SC2-F-Kharagpur (staff)}
 
-S2 has the second-highest share of Bengali words (34 candidate words, 16.8\% of tokens) and produces all three inter-sentential switches outside S6. She shows visible lexical searching in Hindi (\textit{eh dinner kya bole, uhhh kya bole}), which is preserved in the transcript. In the picture-description task she makes two noun-verb errors, \textit{roti kha raha hai} and \textit{kitaab padh raha hai}. In the conversational section she says of Telugu, \textit{phir bhi thoda thoda word seekh raha hu}, a masculine progressive with a first-person auxiliary from a female speaker, which is a clear subject-verb error. S2's single self-referential error is a progressive; no habitual or perfective self-reference error was detected for her.
+SC2 has the second-highest share of Bengali words (34 candidate words, 16.8\% of tokens) and produces all three inter-sentential switches outside SC6. She shows visible lexical searching in Hindi (\textit{eh dinner kya bole, uhhh kya bole}), which is preserved in the transcript. In the picture-description task she makes two noun-verb errors, \textit{roti kha raha hai} and \textit{kitaab padh raha hai}. In the conversational section she says of Telugu, \textit{phir bhi thoda thoda word seekh raha hu}, a masculine progressive with a first-person auxiliary from a female speaker, which is a clear subject-verb error. SC2's single self-referential error is a progressive; no habitual or perfective self-reference error was detected for her.
 
-\subsection{S3 --- Female, staff}
+\section{SC3-F-Kharagpur (staff)}
 
-S3 uses the least Bengali (2 candidate words, 0.9\%) and the most English (17.8\%): her code-switching is mostly Hindi-English. She makes two picture-description errors (\textit{kitaab padh raha hai}, \textit{chair tut gaya}) and two self-referential errors while talking about her work and her Hindi: \textit{jo bhi kaam aata hai hum log karta hai} ``whatever work comes, we do'' (a plural subject with a singular masculine verb; since \textit{hum log} may include male colleagues, this one is borderline, see Appendix~\ref{app:detections}) and \textit{itna acchi bhi bol nahi pata hu} ``I can't speak it that well'', in which the habitual \textit{pata} should be feminine \textit{pati}. Importantly, S3 also produces correct feminine self-reference in the same recording (\textit{mai khud banati hu} ``I cook myself''), so her masculine forms are variable rather than categorical. One further form is a candidate counter-instance to the masculine-default pattern: \textit{mera bada ladka school mein thi} (feminine \textit{thi} with masculine \textit{ladka}), which we discuss in Section~\ref{sec:discussion}.
+SC3 uses the least Bengali (2 candidate words, 0.9\%) and the most English (17.8\%): her code-switching is mostly Hindi-English. She makes two picture-description errors (\textit{kitaab padh raha hai}, \textit{chair tut gaya}) and two self-referential errors while talking about her work and her Hindi: \textit{jo bhi kaam aata hai hum log karta hai} ``whatever work comes, we do'' (a plural subject with a singular masculine verb; since \textit{hum log} may include male colleagues, this one is borderline, see Appendix~\ref{app:detections}) and \textit{itna acchi bhi bol nahi pata hu} ``I can't speak it that well'', in which the habitual \textit{pata} should be feminine \textit{pati}. Importantly, SC3 also produces correct feminine self-reference in the same recording (\textit{mai khud banati hu} ``I cook myself''), so her masculine forms are variable rather than categorical. One further form is a candidate counter-instance to the masculine-default pattern: \textit{mera bada ladka school mein thi} (feminine \textit{thi} with masculine \textit{ladka}), which we discuss in Chapter~\ref{sec:discussion}.
 
-\subsection{S4 --- Female, staff}
+\section{SC4-F-Kharagpur (staff)}
 
-S4 produces 11 of the 21 detected errors (52\%). In the picture task she lists a series of states, \textit{almari khul raha hai, kitaab padh raha hai, eh paani dal raha hai, glass tut gaya, kitaab ulta ho gaya, chair tut gaya, fan kharaab ho gaya}; of these, \textit{almari khul raha}, \textit{kitaab padh raha}, \textit{kitaab ulta ho gaya} and \textit{chair tut gaya} are errors, while \textit{glass}, \textit{paani} and \textit{fan} are masculine and correctly agree. Her narrative about her work history is the richest source of subject-verb errors:
+SC4 produces 11 of the 21 detected errors (52\%). In the picture task she lists a series of states, \textit{almari khul raha hai, kitaab padh raha hai, eh paani dal raha hai, glass tut gaya, kitaab ulta ho gaya, chair tut gaya, fan kharaab ho gaya}; of these, \textit{almari khul raha}, \textit{kitaab padh raha}, \textit{kitaab ulta ho gaya} and \textit{chair tut gaya} are errors, while \textit{glass}, \textit{paani} and \textit{fan} are masculine and correctly agree. Her narrative about her work history is the richest source of subject-verb errors:
 \begin{quote}
   \textit{do hazaar pandrah mein kaam mein ghus gaya pehle se hum physiotherapy seekh raha ek accident mein mera kamar hi tut gaya isliye hum physiotherapy chodke idhar a gaya}\\
   ``in 2015 I got into this work; I had been learning physiotherapy, in an accident my back broke, so I left physiotherapy and came here''
 \end{quote}
-In this one sentence S4 produces three masculine self-referential verbs (\textit{ghus gaya}, \textit{seekh raha}, \textit{a gaya}) and one noun-verb error (\textit{kamar tut gaya}). She reports that her Hindi was learned at school (\textit{hum jab 7th class aur 8th class padha aur do class mein hindi seekha}) and that she speaks mostly Bengali at home and with colleagues (\textit{bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai}). The recording has the lowest signal-to-noise ratio of the corpus, so its transcript was corrected with extra care.
+In this one sentence SC4 produces three masculine self-referential verbs (\textit{ghus gaya}, \textit{seekh raha}, \textit{a gaya}) and one noun-verb error (\textit{kamar tut gaya}). She reports that her Hindi was learned at school (\textit{hum jab 7th class aur 8th class padha aur do class mein hindi seekha}) and that she speaks mostly Bengali at home and with colleagues (\textit{bengali mein hi baat karta hai, hindi thodi thodi hi use karta hai}). The recording has the lowest signal-to-noise ratio of the corpus, so its transcript was corrected with extra care.
 
-\subsection{S5 --- Male, mess staff}
+\section{SC5-M-Kharagpur (mess staff)}
 
-S5 shows no gender errors, as expected for a male speaker's self-reference and with a correct noun agreement in the picture tasks. His speech is notable for dense mixing of Bengali function elements with Hindi and English: \textit{yeh toh ek toh dorja rakhe ache} (``there is a door kept here'') and, with a Bengali classifier and deictic around an English noun, \textit{ek ta chair eta} (``this one chair''). Ten of his 14 detected switches are intra-sentential or three-way, i.e.\ Bengali elements inside Hindi/English frames rather than whole clauses. In the background section S5 reports having spent a long time in North India (\textit{kaafi din mai bahar raha North India mein khas karke jaise ki Haryana Punjab Delhi}, ``I was away for a long time in North India, especially Haryana, Punjab, Delhi'') and says that he was obliged to speak Hindi there (\textit{toh waha pe hindi bolna hi tha}); this broader Hindi exposure is a possible reason for his accuracy and is consistent with the proficiency gradient discussed in Section~\ref{sec:discussion}.
+SC5 shows no gender errors, as expected for a male speaker's self-reference and with a correct noun agreement in the picture tasks. His speech is notable for dense mixing of Bengali function elements with Hindi and English: \textit{yeh toh ek toh dorja rakhe ache} (``there is a door kept here'') and, with a Bengali classifier and deictic around an English noun, \textit{ek ta chair eta} (``this one chair''). Ten of his 14 detected switches are intra-sentential or three-way, i.e.\ Bengali elements inside Hindi/English frames rather than whole clauses. In the background section SC5 reports having spent a long time in North India (\textit{kaafi din mai bahar raha North India mein khas karke jaise ki Haryana Punjab Delhi}, ``I was away for a long time in North India, especially Haryana, Punjab, Delhi'') and says that he was obliged to speak Hindi there (\textit{toh waha pe hindi bolna hi tha}); this broader Hindi exposure is a possible reason for his accuracy and is consistent with the proficiency gradient discussed in Chapter~\ref{sec:discussion}.
 
-\subsection{S6 --- Male, mess staff}
+\section{SC6-M-Kharagpur (mess staff)}
 
-S6 produces the most Bengali material (53 candidate words, 17.7\% of tokens) and the only sustained inter-sentential switches (5). In the naming task he lists objects in Bengali almost throughout: \textit{dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali}. In the action and state tasks he describes the pictures in full Bengali clauses, e.g.\ \textit{boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche}. S6 is at the high-Bengali end of the proficiency gradient; he is not an outlier but the extreme of a continuum along which the other speakers are arranged. In the background section he says that he learned Hindi while living at the institute, where he has been since childhood: \textit{maine hindi iit mein rehke seekhi maane bachpan se iit mein hi hu}. The sentence is of particular interest because it contains the corpus' only attested ergative, \textit{maine \ldots seekhi}, with the verb correctly agreeing in the feminine with \textit{hindi}.
+SC6 produces the most Bengali material (53 candidate words, 17.7\% of tokens) and the only sustained inter-sentential switches (5). In the naming task he lists objects in Bengali almost throughout: \textit{dorja, kedara, pakha, boi, ghor, janala, jol bhora glass, parota, khabaar thaali}. In the action and state tasks he describes the pictures in full Bengali clauses, e.g.\ \textit{boiti ulto kore rekhechi, chair bhenge geche, pakha bhenge geche}. SC6 is at the high-Bengali end of the proficiency gradient; he is not an outlier but the extreme of a continuum along which the other speakers are arranged. In the background section he says that he learned Hindi while living at the institute, where he has been since childhood: \textit{maine hindi iit mein rehke seekhi maane bachpan se iit mein hi hu}. The sentence is of particular interest because it contains the corpus' only attested ergative, \textit{maine \ldots seekhi}, with the verb correctly agreeing in the feminine with \textit{hindi}.
 
-\subsection{S7 --- Male, security}
+\section{SC7-M-Kharagpur (security)}
 
-S7, the audio-only participant, has one noun-verb detection, \textit{yeh ek ladies door khol raha hai}, which arises in a picture description where the feminine \textit{ladies} is treated as the agent and takes a masculine progressive. S7 produces 7 three-way and 6 tag switches, mainly single Bengali nouns inside English--Hindi lists (\textit{house ka dorja}; \textit{lunch ya dinner, bhat}), and almost no intra-sentential Bengali.
+SC7, the audio-only participant, has one noun-verb detection, \textit{yeh ek ladies door khol raha hai}, which arises in a picture description where the feminine \textit{ladies} is treated as the agent and takes a masculine progressive. SC7 produces 7 three-way and 6 tag switches, mainly single Bengali nouns inside English--Hindi lists (\textit{house ka dorja}; \textit{lunch ya dinner, bhat}), and almost no intra-sentential Bengali.
 
-\subsection{S8 --- Female, staff}
+\section{SC8-F-Kharagpur (staff)}
 
-S8 has the shortest recording (3.6 minutes) and one detected error, in the self-reference \textit{mai hi banata hai} ``I'm the one who cooks'', where the verb should be feminine \textit{banati}. In the same recording she produces numerous correct feminine forms of self-reference: \textit{jab tak mai idhar kaam pe rehti}, \textit{Hindi use karti hu}, \textit{mai subah ka duty pe aa jati hu}, \textit{ek student ko padhati hu}. S8 is therefore a clear case of variable rather than categorical masculine default: four of her five first-person habitual forms are correct. In the naming task she names household objects in Hindi (\textit{darwaza, fan, kitaab, ghar, khidki, glass, roti, khana, car, haath, chaabi}) with few Bengali items.
+SC8 has the shortest recording (3.6 minutes) and one detected error, in the self-reference \textit{mai hi banata hai} ``I'm the one who cooks'', where the verb should be feminine \textit{banati}. In the same recording she produces numerous correct feminine forms of self-reference: \textit{jab tak mai idhar kaam pe rehti}, \textit{Hindi use karti hu}, \textit{mai subah ka duty pe aa jati hu}, \textit{ek student ko padhati hu}. SC8 is therefore a clear case of variable rather than categorical masculine default: four of her five first-person habitual forms are correct. In the naming task she names household objects in Hindi (\textit{darwaza, fan, kitaab, ghar, khidki, glass, roti, khana, car, haath, chaabi}) with few Bengali items.
 
 %======================================================================
-\section{Morphological Rule Catalog}
+\chapter{Morphological Rule Catalog}
 \label{sec:rules}
 %======================================================================
 
-We identify six systematic transfer rules from the corpus. Counts below are the verified detections of the final analyzer (Section~\ref{sec:audit}).
+We identify six systematic transfer rules from the corpus. Counts below are the verified detections of the final analyzer (Chapter~\ref{sec:audit}).
 
-\subsection{R1: Masculine Default on Feminine Nouns}
+\section{R1: Masculine Default on Feminine Nouns}
 
 Bengali has no grammatical gender. When producing Hindi, speakers default to the unmarked masculine verb form regardless of the noun's grammatical gender.
 
@@ -426,26 +574,26 @@ Bengali has no grammatical gender. When producing Hindi, speakers default to the
   \textbf{Expected:} \textit{kitaab ulti ho gayi} (book upside-down became-\textsc{f})
 \end{quote}
 
-The corpus contains 12 detections of R1 from 5 speakers (S1, S2, S3, S4, S7), involving seven feminine nouns: \textit{kitaab} (4), \textit{roti} (2), \textit{chair} (2), \textit{almari} (1), \textit{kamar} (1), \textit{beti} (1) and \textit{ladies} (1). They affect both the perfective (\textit{tut gaya}, \textit{ulta ho gaya}) and the progressive (\textit{padh raha}, \textit{kha raha}, \textit{khol raha}, \textit{khul raha}). Because R1 depends on the noun rather than the speaker, it appears in male as well as female speakers' picture descriptions. Of the 21 detections, all are masculine-default; manual inspection of the participant speech found one candidate reverse instance (Section~\ref{sec:discussion}). This asymmetry is diagnostic of L1 transfer from a genderless language, as opposed to random gender assignment.
+The corpus contains 12 detections of R1 from 5 speakers (SC1, SC2, SC3, SC4, SC7), involving seven feminine nouns: \textit{kitaab} (4), \textit{roti} (2), \textit{chair} (2), \textit{almari} (1), \textit{kamar} (1), \textit{beti} (1) and \textit{ladies} (1). They affect both the perfective (\textit{tut gaya}, \textit{ulta ho gaya}) and the progressive (\textit{padh raha}, \textit{kha raha}, \textit{khol raha}, \textit{khul raha}). Because R1 depends on the noun rather than the speaker, it appears in male as well as female speakers' picture descriptions. Of the 21 detections, all are masculine-default; manual inspection of the participant speech found one candidate reverse instance (Chapter~\ref{sec:discussion}). This asymmetry is diagnostic of L1 transfer from a genderless language, as opposed to random gender assignment.
 
-\subsection{R2: Masculine Default in Female Self-Reference}
+\section{R2: Masculine Default in Female Self-Reference}
 
 Female speakers use masculine verb forms when talking about themselves:
 
 \begin{quote}
-  \textbf{S4:} \textit{kaam mein ghus gaya} (got-into-\textsc{m} work)\\
+  \textbf{SC4:} \textit{kaam mein ghus gaya} (got-into-\textsc{m} work)\\
   \textbf{Expected:} \textit{ghus gayi} (got-into-\textsc{f})
 \end{quote}
 
-There are 9 detections of R2 from 4 female speakers: S4 (5), S3 (2), S2 (1), S8 (1). They cover the perfective (\textit{ghus gaya}, \textit{a gaya}), the habitual (\textit{karta}, \textit{bolta}, \textit{banata}, \textit{pata hu}) and the progressive (\textit{seekh raha}, \textit{seekh raha hu}). S4's concentration (5 R2 and 6 R1 errors, 11 in total) is consistent with later Hindi acquisition; S2, despite being female, shows only one self-referential error (a progressive in the free-conversation section).
+There are 9 detections of R2 from 4 female speakers: SC4 (5), SC3 (2), SC2 (1), SC8 (1). They cover the perfective (\textit{ghus gaya}, \textit{a gaya}), the habitual (\textit{karta}, \textit{bolta}, \textit{banata}, \textit{pata hu}) and the progressive (\textit{seekh raha}, \textit{seekh raha hu}). SC4's concentration (5 R2 and 6 R1 errors, 11 in total) is consistent with later Hindi acquisition; SC2, despite being female, shows only one self-referential error (a progressive in the free-conversation section).
 
-\subsection{R3: Ergative \textit{ne} Avoidance}
+\section{R3: Ergative \textit{ne} Avoidance}
 
-Bengali has no ergative case marking. In Hindi, the ergative marker \textit{ne} appears with transitive perfective verbs. The analyzer finds 8 candidate transitive perfective contexts across the corpus, of which only one carries \textit{ne} (S6, \textit{maine hindi \ldots seekhi}). We treat this as \textbf{near-complete avoidance}, but note that the number of contexts is very small and that some candidates are not clear transitive perfectives (for example S6 \textit{janala khola ache}, where \textit{khola} is the Bengali adjective ``open'', and S4 \textit{bola} in a reported-speech frame); a manual audit of this rule remains to be done (Section~\ref{sec:limits}).
+Bengali has no ergative case marking. In Hindi, the ergative marker \textit{ne} appears with transitive perfective verbs. The analyzer finds 8 candidate transitive perfective contexts across the corpus, of which only one carries \textit{ne} (SC6, \textit{maine hindi \ldots seekhi}). We treat this as \textbf{near-complete avoidance}, but note that the number of contexts is very small and that some candidates are not clear transitive perfectives (for example SC6 \textit{janala khola ache}, where \textit{khola} is the Bengali adjective ``open'', and SC4 \textit{bola} in a reported-speech frame); a manual audit of this rule remains to be done (Section~\ref{sec:limits}).
 
 This is an \textbf{avoidance strategy}, not an error: speakers restructure sentences to bypass the construction entirely, for example by using bare-subject forms such as \textit{hum \ldots padha tha} ``(I) had studied'' without an overt agent marker.
 
-\subsection{R4: Bengali Lexical Insertion (Tag-Switching)}
+\section{R4: Bengali Lexical Insertion (Tag-Switching)}
 
 Single Bengali content words inserted into Hindi matrix clauses, typically for household objects:
 
@@ -455,23 +603,23 @@ Single Bengali content words inserted into Hindi matrix clauses, typically for h
 
 Common insertions: \textit{dorja} (door), \textit{janala} (window), \textit{jol} (water), \textit{bhat} (rice), \textit{boi} (book), \textit{pakha} (fan). The Bengali words are almost entirely nouns for household objects, which is the pattern predicted by H3.
 
-\subsection{R5: Bengali Inter-Sentential Switching}
+\section{R5: Bengali Inter-Sentential Switching}
 
-Full Bengali clauses between Hindi utterances, most frequent in S6:
+Full Bengali clauses between Hindi utterances, most frequent in SC6:
 
 \begin{quote}
-  \textbf{S6:} \textit{cheleti porachuna korche} (the boy/child is studying)\\
-  \textbf{S6:} \textit{boiti ulto kore rekhechi} (kept the book upside down)
+  \textbf{SC6:} \textit{cheleti porachuna korche} (the boy/child is studying)\\
+  \textbf{SC6:} \textit{boiti ulto kore rekhechi} (kept the book upside down)
 \end{quote}
 
-S6 sits at the high-Bengali end of the proficiency gradient; S2 also produces inter-sentential switches, and S1 and S5 produce longer intra-sentential Bengali stretches.
+SC6 sits at the high-Bengali end of the proficiency gradient; SC2 also produces inter-sentential switches, and SC1 and SC5 produce longer intra-sentential Bengali stretches.
 
-\subsection{R6: Three-Way Code-Mixing}
+\section{R6: Three-Way Code-Mixing}
 
 Bengali, Hindi, and English elements combined within a single phrase:
 
 \begin{quote}
-  \textbf{S5:} \textit{ek \textbf{ta} chair \textbf{eta}} (one-\textsc{clf} chair here)
+  \textbf{SC5:} \textit{ek \textbf{ta} chair \textbf{eta}} (one-\textsc{clf} chair here)
 \end{quote}
 
 Bengali classifier \textit{ta} + English \textit{chair} + Bengali deictic \textit{eta}.
@@ -480,7 +628,8 @@ Bengali classifier \textit{ta} + English \textit{chair} + Bengali deictic \texti
 \centering
 \caption{Summary of the transfer rules and their counts in the corpus}
 \label{tab:rulesummary}
-\begin{tabular}{llp{5.2cm}r}
+\small
+\begin{tabular}{llp{4cm}r}
 \toprule
 \textbf{Rule} & \textbf{Phenomenon} & \textbf{Typical evidence} & \textbf{Count} \\
 \midrule
@@ -495,11 +644,11 @@ R6 & Three-way mixing & \textit{ek ta chair eta} & 28 \\
 \end{table}
 
 %======================================================================
-\section{System Architecture}
+\chapter{System Architecture}
 \label{sec:system}
 %======================================================================
 
-\subsection{Pipeline Overview}
+\section{Pipeline Overview}
 
 \begin{verbatim}
 Audio (.wav)
@@ -523,7 +672,7 @@ Linguistic Annotations (per-segment JSON)
 
 The analyzer is a single Python class operating on one segment at a time. For each segment it first separates participant turns (\texttt{s:}) from collector turns (\texttt{c:}); only participant text is analysed, but the presence of a collector question addressed to the participant (a question containing \textit{aap}) is recorded and used as evidence of self-reference (Section~\ref{sec:r2}). Devanagari text is transliterated to Roman before analysis, so that the same lexicons serve both human-corrected and ASR text.
 
-\subsection{Lexicon Design}
+\section{Lexicon Design}
 
 The analyzer relies on curated lexicons in Roman transliteration. Table~\ref{tab:lex} gives their sizes in the final version.
 
@@ -531,7 +680,8 @@ The analyzer relies on curated lexicons in Roman transliteration. Table~\ref{tab
 \centering
 \caption{Lexicon sizes (distinct lower-cased entries)}
 \label{tab:lex}
-\begin{tabular}{lrl}
+\small
+\begin{tabular}{p{2.1in}rp{2.5in}}
 \toprule
 \textbf{Lexicon} & \textbf{Entries} & \textbf{Examples} \\
 \midrule
@@ -547,13 +697,13 @@ English common words & 256 & \textit{school, chair, duty, hospital} \\
 \end{tabular}
 \end{table}
 
-Three design decisions deserve comment. First, the noun lexicons are \emph{hand-curated from the corpus} plus common household vocabulary, not drawn from a dictionary; this keeps the analyzer transparent but means that its recall is limited by what the lexicon knows. Second, English loanwords are assigned a Hindi gender by analogy with their Hindi equivalents (\textit{chair} follows \textit{kursi}, feminine; \textit{glass} is masculine), which is an analytical choice rather than an uncontroversial grammatical fact: English loanwords in colloquial Hindi may take masculine agreement (for example \textit{yeh chair toota hai}), so detections that depend on a loanword's gender are flagged in Appendix~\ref{app:detections} and discussed in Section~\ref{sec:limits}. Third, the lexicons were corrected as part of the audit: \textit{chawal} and \textit{glass} were wrongly listed as feminine and were removed from the feminine list, and \textit{chair} was added (Section~\ref{sec:audit}).
+Three design decisions deserve comment. First, the noun lexicons are \emph{hand-curated from the corpus} plus common household vocabulary, not drawn from a dictionary; this keeps the analyzer transparent but means that its recall is limited by what the lexicon knows. Second, English loanwords are assigned a Hindi gender by analogy with their Hindi equivalents (\textit{chair} follows \textit{kursi}, feminine; \textit{glass} is masculine), which is an analytical choice rather than an uncontroversial grammatical fact: English loanwords in colloquial Hindi may take masculine agreement (for example \textit{yeh chair toota hai}), so detections that depend on a loanword's gender are flagged in Appendix~\ref{app:detections} and discussed in Section~\ref{sec:limits}. Third, the lexicons were corrected as part of the audit: \textit{chawal} and \textit{glass} were wrongly listed as feminine and were removed from the feminine list, and \textit{chair} was added (Chapter~\ref{sec:audit}).
 
-\subsection{Word-Level Language Identification}
+\section{Word-Level Language Identification}
 
 A token is classified in a fixed order of precedence: (1) exact match in the Bengali word list; (2) Bengali morphological marker (\textit{ache}, \textit{ta}, \ldots); (3) Bengali verb suffix (\textit{-cchi, -che, -eche, -lam, -le, -lo}) on a word of sufficient length; (4) English common word; (5) Hindi lexicon or verb pattern; (6) generic Hindi endings (\textit{-ta, -ti, -ne, \ldots}) on words longer than three letters; otherwise \emph{unknown}. The \emph{unknown} class is deliberately the default rather than a guess, in line with the rule that language identity should be flagged rather than decided when unclear. As Section~\ref{sec:limits} explains, the suffix heuristic in step (3) over-triggers on some Hindi words.
 
-\subsection{Gender Error Detection}
+\section{Gender Error Detection}
 
 \paragraph{R1 (noun-verb).} For each occurrence of a feminine noun in the segment, the analyzer scans a five-word window for \emph{compound} masculine verb forms (\textit{tut gaya}, \textit{ulta ho gaya}, \textit{khol raha}, \textit{padh raha}). Longest patterns are tried first, and each noun \emph{occurrence} can raise at most one error. Only compound patterns are matched because single-word forms such as \textit{karta} are too ambiguous: they may agree with an implicit subject rather than with the nearest noun.
 
@@ -572,11 +722,11 @@ The ambiguous token \textit{mein} is \emph{not} treated as a first-person pronou
 
 \paragraph{Deduplication.} If an R2 detection overlaps an R1 detection on the same verb (exact or substring match), only the more specific R1 is kept, and R2 is suppressed in listing-style segments with three or more R1 detections.
 
-\subsection{Ergative \textit{ne} Analysis}
+\section{Ergative \textit{ne} Analysis}
 
 A perfective form whose stem is in the transitive-verb list (\textit{kha, pi, bol, sun, dekh, likh, padh, bana, seekh, khol, \ldots}) is recorded as a candidate transitive perfective context. The analyzer looks five words backward for \textit{ne} or one of the fused pronoun forms \textit{maine, humne, tune, tumne, usne, isne, unhone, inhone, aapne}. The fused forms were added during the audit after a context with \textit{maine} had initially been counted as lacking \textit{ne}.
 
-\subsection{Code-Switch Classification}
+\section{Code-Switch Classification}
 
 \begin{enumerate}
   \item Words are classified as Hindi, Bengali, English, or unknown via lexicon lookup and morphological suffix matching.
@@ -590,22 +740,22 @@ A perfective form whose stem is in the transitive-verb list (\textit{kha, pi, bo
   \end{itemize}
 \end{enumerate}
 
-\subsection{Devanagari Transliteration}
+\section{Devanagari Transliteration}
 
 Whisper outputs Devanagari script. For ASR comparison, a basic Devanagari-to-Roman transliterator maps characters to their informal Roman equivalents (e.g., \deva{क}$\to$\textit{k}, \deva{खा}$\to$\textit{kha}), with schwa deletion at word boundaries. This is approximate but sufficient for lexicon matching; it does mean that ASR text is analysed through an extra, lossy step (for example \deva{उलट} may map to \textit{ulat} rather than to the corrected \textit{ulta}).
 
 %======================================================================
-\section{Iterative Error Audit}
+\chapter{Iterative Error Audit}
 \label{sec:audit}
 %======================================================================
 
 A rule-based analyzer's output is only as credible as its measured precision. An early version of the analyzer reported 36 gender errors, a number that was later set against an informally compiled list of 23 ``manually counted'' errors, and the discrepancy was unexplained. This section documents the audit that resolved it.
 
-\subsection{Method}
+\section{Method}
 
 Every one of the 36 detections was dumped with its rule, noun or subject, verb form, expected form and the full text of its segment, and each was classified as a true positive (a genuine masculine-default error by the speaker) or a false positive by reading the sentence in context and applying standard Hindi agreement. Where the segment alone was insufficient, the neighbouring segments and the collector's question were read. The audit was carried out by a single annotator; it therefore measures consistency with one reading of Hindi grammar, and a second annotator is the most important extension (Section~\ref{sec:limits}).
 
-\subsection{Findings: Seventeen False Positives, Six Causes}
+\section{Findings: Seventeen False Positives, Six Causes}
 
 \begin{table}[H]
 \centering
@@ -630,7 +780,7 @@ R1/R2 duplicate detection & 3 & the same verb counted twice, or flagged as R2 wh
 
 Of the 36 original detections, 19 were genuine, giving an initial precision of 53\%. The causes are instructive: none is a failure of the idea of the rule but each is a failure of the knowledge the rule depends on---a noun's gender, whether a word is a verb or a noun, who the subject is, and whether the construction is personal at all. The full list is given in Appendix~\ref{app:audit}.
 
-\subsection{Iterations}
+\section{Iterations}
 
 \begin{table}[H]
 \centering
@@ -644,27 +794,27 @@ Of the 36 original detections, 19 were genuine, giving an initial precision of 5
 1 & Remove \textit{chawal, glass, daal} from the feminine lexicon; add a third-person subject check, a mixed-group exclusion and an impersonal-construction exclusion; deduplicate R1/R2 overlaps & 21 & removes lexicon and third-person errors \\
 2 & Skip inanimate subjects before perfective verbs; require a collector question addressed to the speaker for subjectless habitual forms & 19 & removes ``glass gir gaya'' and a stray R2 on a picture-description list \\
 3 & Stop treating \textit{mein} as ``I''; require first-person evidence within six words of the verb; restrict generic verbs & 16 & removes the last false positive (a sentence about a child's schooling); costs two true positives \\
-4 & Recall repairs: score each noun occurrence separately (a repeated \textit{kitaab} was being skipped); add \textit{chair} to the feminine lexicon; add the explicit first-person auxiliary rule & 21 & recovers \textit{chair tut gaya} (S3, S4), \textit{kitaab ulta ho gaya} (S4), \textit{seekh raha hu} (S2), \textit{pata hu} (S3) \\
+4 & Recall repairs: score each noun occurrence separately (a repeated \textit{kitaab} was being skipped); add \textit{chair} to the feminine lexicon; add the explicit first-person auxiliary rule & 21 & recovers \textit{chair tut gaya} (SC3, SC4), \textit{kitaab ulta ho gaya} (SC4), \textit{seekh raha hu} (SC2), \textit{pata hu} (SC3) \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
 Step 3 shows a general trade-off. The most obvious way to remove a false positive about a third person is to demand first-person evidence nearby, but that also discards some correct detections whose first-person marker is elsewhere in the discourse. Step 4 then showed a different kind of problem: a genuine \emph{recall} bug, in which the dedup logic keyed on the noun type rather than on each occurrence, so that a second \textit{kitaab} in the same segment could never be flagged.
 
-\subsection{Reconciling the ``23 Manually Counted'' Errors}
+\section{Reconciling the ``23 Manually Counted'' Errors}
 
-An earlier, informally compiled catalogue in the repository listed 23 gender errors and had been quoted as the manual ground truth. Checking each entry against the verified transcripts showed that it cannot serve as ground truth in its current form. Five entries could not be located in any verified transcript segment (for example S8 \textit{khursi toot gaya}, \textit{kitaab ulat gaya}, \textit{gaadi kharab ho gaya}); four are not gender-agreement errors under the audit criteria (\textit{janam hua}; \textit{hum kaam kiya} and \textit{apne course liya}, where \textit{kiya/liya} correctly agree with masculine \textit{kaam/course}; and \textit{mai study kiya}, which is contested); two have a mixed-gender group as subject; and one is a double count of the same segment. Only the remaining entries correspond to genuine detections. We therefore treat the 23-item list as superseded, and use the audited list in Appendix~\ref{app:detections} as the reference.
+An earlier, informally compiled catalogue in the repository listed 23 gender errors and had been quoted as the manual ground truth. Checking each entry against the verified transcripts showed that it cannot serve as ground truth in its current form. Five entries could not be located in any verified transcript segment (for example SC8 \textit{khursi toot gaya}, \textit{kitaab ulat gaya}, \textit{gaadi kharab ho gaya}); four are not gender-agreement errors under the audit criteria (\textit{janam hua}; \textit{hum kaam kiya} and \textit{apne course liya}, where \textit{kiya/liya} correctly agree with masculine \textit{kaam/course}; and \textit{mai study kiya}, which is contested); two have a mixed-gender group as subject; and one is a double count of the same segment. Only the remaining entries correspond to genuine detections. We therefore treat the 23-item list as superseded, and use the audited list in Appendix~\ref{app:detections} as the reference.
 
-\subsection{Resulting Precision and Recall}
+\section{Resulting Precision and Recall}
 
-After the fourth iteration the analyzer reports 21 gender errors, of which all 21 were judged correct on reading, i.e.\ precision $21/21$ on the audited set; however, five of the 21 are contestable on grounds other than the correctness of the rules. Two have a plural or mixed-group subject (S4 \textit{mera bhai beti english mein padh raha}, where \textit{bhai beti} is a mixed group; S3 \textit{hum log karta hai}, where the plural subject may include men and the standard form would be plural, \textit{karte/karti hain}), and three depend on treating the English loanwords \textit{chair} (S3, S4) and \textit{ladies} (S7) as feminine, which is an analytical choice by analogy with \textit{kursi} and \textit{aurat} rather than an uncontroversial grammatical fact. Excluding all five leaves 16 uncontested detections, so precision on the audited set lies between $16/21$ (76\%, if every contestable case is counted as wrong) and $21/21$. Two further genuine errors in the audited material are still missed: S4's \textit{kaam karta tha} and \textit{ghus gaya} in a narrative segment (``\textit{[NAME] hospital mein kaam karta tha toh idhar ghus gaya}'') have no first-person marker anywhere near them, and attributing the verbs to the speaker requires discourse-level reasoning about who the narrative is about. This gives recall of $21/23$ (91\%) on the audited material. These figures should be read with two cautions: the rules were tuned on the same audit, so they are optimistic, and recall is measured only against errors found by the same reader who built the rules. A held-out set of speakers, annotated by a second reader, is needed for an unbiased estimate.
+After the fourth iteration the analyzer reports 21 gender errors, of which all 21 were judged correct on reading, i.e.\ precision $21/21$ on the audited set; however, five of the 21 are contestable on grounds other than the correctness of the rules. Two have a plural or mixed-group subject (SC4 \textit{mera bhai beti english mein padh raha}, where \textit{bhai beti} is a mixed group; SC3 \textit{hum log karta hai}, where the plural subject may include men and the standard form would be plural, \textit{karte/karti hain}), and three depend on treating the English loanwords \textit{chair} (SC3, SC4) and \textit{ladies} (SC7) as feminine, which is an analytical choice by analogy with \textit{kursi} and \textit{aurat} rather than an uncontroversial grammatical fact. Excluding all five leaves 16 uncontested detections, so precision on the audited set lies between $16/21$ (76\%, if every contestable case is counted as wrong) and $21/21$. Two further genuine errors in the audited material are still missed: SC4's \textit{kaam karta tha} and \textit{ghus gaya} in a narrative segment (``\textit{[NAME] hospital mein kaam karta tha toh idhar ghus gaya}'') have no first-person marker anywhere near them, and attributing the verbs to the speaker requires discourse-level reasoning about who the narrative is about. This gives recall of $21/23$ (91\%) on the audited material. These figures should be read with two cautions: the rules were tuned on the same audit, so they are optimistic, and recall is measured only against errors found by the same reader who built the rules. A held-out set of speakers, annotated by a second reader, is needed for an unbiased estimate.
 
 %======================================================================
-\section{Evaluation}
+\chapter{Evaluation}
 \label{sec:eval}
 %======================================================================
 
-\subsection{Analyzer Output on Corrected Transcripts}
+\section{Analyzer Output on Corrected Transcripts}
 
 Running the final analyzer on the human-corrected transcripts:
 
@@ -698,7 +848,7 @@ Transitive perfective contexts & 8 \\
 
 The ``unknown'' language category (12.5\%) consists primarily of proper nouns (Kharagpur, IIT), numbers, hesitation markers (\textit{uhhh}), and bracket annotations (\texttt{[unclear]}). The lexicon covers 87.5\% of tokens.
 
-\subsection{Language Distribution by Speaker}
+\section{Language Distribution by Speaker}
 
 \begin{table}[H]
 \centering
@@ -708,14 +858,14 @@ The ``unknown'' language category (12.5\%) consists primarily of proper nouns (K
 \toprule
 \textbf{Spk.} & \textbf{Tokens} & \textbf{Hindi} & \textbf{English} & \textbf{Bengali} & \textbf{Unknown} \\
 \midrule
-S1 & 178 & 60.7 & 14.6 &  8.4 & 16.3 \\
-S2 & 202 & 52.5 & 10.4 & 16.8 & 20.3 \\
-S3 & 230 & 71.7 & 17.8 &  0.9 &  9.6 \\
-S4 & 307 & 76.5 & 11.1 &  2.9 &  9.4 \\
-S5 & 307 & 67.8 & 12.1 &  7.5 & 12.7 \\
-S6 & 299 & 61.2 &  8.7 & 17.7 & 12.4 \\
-S7 & 308 & 69.5 & 14.9 &  5.2 & 10.4 \\
-S8 & 229 & 71.2 & 13.5 &  3.1 & 12.2 \\
+SC1 & 178 & 60.7 & 14.6 &  8.4 & 16.3 \\
+SC2 & 202 & 52.5 & 10.4 & 16.8 & 20.3 \\
+SC3 & 230 & 71.7 & 17.8 &  0.9 &  9.6 \\
+SC4 & 307 & 76.5 & 11.1 &  2.9 &  9.4 \\
+SC5 & 307 & 67.8 & 12.1 &  7.5 & 12.7 \\
+SC6 & 299 & 61.2 &  8.7 & 17.7 & 12.4 \\
+SC7 & 308 & 69.5 & 14.9 &  5.2 & 10.4 \\
+SC8 & 229 & 71.2 & 13.5 &  3.1 & 12.2 \\
 \midrule
 All & 2,060 & 67.1 & 12.7 & 7.7 & 12.5 \\
 \bottomrule
@@ -723,30 +873,30 @@ All & 2,060 & 67.1 & 12.7 & 7.7 & 12.5 \\
 \end{table}
 
 
-The two highest-Bengali speakers are S6 (17.7\%) and S2 (16.8\%); the two lowest are S3 (0.9\%) and S4 (2.9\%). The ordering is not the same as the ordering by gender errors, which is why the profile in Section~\ref{sec:speakers} treats Bengali use and Hindi accuracy as distinct dimensions: S4 uses little Bengali yet makes the most errors, while S6 uses the most Bengali and makes none in the structures the analyzer searches for.
+The two highest-Bengali speakers are SC6 (17.7\%) and SC2 (16.8\%); the two lowest are SC3 (0.9\%) and SC4 (2.9\%). The ordering is not the same as the ordering by gender errors, which is why the profile in Chapter~\ref{sec:speakers} treats Bengali use and Hindi accuracy as distinct dimensions: SC4 uses little Bengali yet makes the most errors, while SC6 uses the most Bengali and makes none in the structures the analyzer searches for.
 
-\subsection{Gender Errors by Speaker and Rule}
+\section{Gender Errors by Speaker and Rule}
 
 \begin{figure}[H]
 \centering
 \begin{tikzpicture}
 \begin{axis}[
   ybar stacked, width=0.92\textwidth, height=5cm,
-  symbolic x coords={S1,S2,S3,S4,S5,S6,S7,S8}, xtick=data,
+  symbolic x coords={SC1,SC2,SC3,SC4,SC5,SC6,SC7,SC8}, xtick=data,
   ylabel={Detected gender errors}, ymin=0, ymax=12, bar width=16pt,
   legend style={at={(0.02,0.97)},anchor=north west,draw=none},
   enlarge x limits=0.08,
 ]
-\addplot[fill=cR1] coordinates {(S1,1)(S2,2)(S3,2)(S4,6)(S5,0)(S6,0)(S7,1)(S8,0)};
-\addplot[fill=cR2] coordinates {(S1,0)(S2,1)(S3,2)(S4,5)(S5,0)(S6,0)(S7,0)(S8,1)};
+\addplot[fill=cR1] coordinates {(SC1,1)(SC2,2)(SC3,2)(SC4,6)(SC5,0)(SC6,0)(SC7,1)(SC8,0)};
+\addplot[fill=cR2] coordinates {(SC1,0)(SC2,1)(SC3,2)(SC4,5)(SC5,0)(SC6,0)(SC7,0)(SC8,1)};
 \legend{R1 noun-verb, R2 subject-verb}
 \end{axis}
 \end{tikzpicture}
-\caption{Verified gender-error detections per speaker, split by rule. R2 applies only to female speakers (S2, S3, S4, S8).}
+\caption{Verified gender-error detections per speaker, split by rule. R2 applies only to female speakers (SC2, SC3, SC4, SC8).}
 \label{fig:ge}
 \end{figure}
 
-\subsection{Code-Switch Typology by Speaker}
+\section{Code-Switch Typology by Speaker}
 
 \begin{table}[H]
 \centering
@@ -756,14 +906,14 @@ The two highest-Bengali speakers are S6 (17.7\%) and S2 (16.8\%); the two lowest
 \toprule
 \textbf{Spk.} & \textbf{Tag} & \textbf{Intra-sent.} & \textbf{Inter-sent.} & \textbf{Three-way} & \textbf{Total} \\
 \midrule
-S1 & 4 & 1 & 0 & 5 & 10 \\
-S2 & 5 & 2 & 3 & 2 & 12 \\
-S3 & 1 & 0 & 0 & 1 &  2 \\
-S4 & 5 & 1 & 0 & 2 &  8 \\
-S5 & 4 & 3 & 0 & 7 & 14 \\
-S6 & 1 & 4 & 5 & 1 & 11 \\
-S7 & 6 & 1 & 0 & 7 & 14 \\
-S8 & 4 & 0 & 0 & 3 &  7 \\
+SC1 & 4 & 1 & 0 & 5 & 10 \\
+SC2 & 5 & 2 & 3 & 2 & 12 \\
+SC3 & 1 & 0 & 0 & 1 &  2 \\
+SC4 & 5 & 1 & 0 & 2 &  8 \\
+SC5 & 4 & 3 & 0 & 7 & 14 \\
+SC6 & 1 & 4 & 5 & 1 & 11 \\
+SC7 & 6 & 1 & 0 & 7 & 14 \\
+SC8 & 4 & 0 & 0 & 3 &  7 \\
 \midrule
 \textbf{Total} & \textbf{30} & \textbf{12} & \textbf{8} & \textbf{28} & \textbf{78} \\
 \bottomrule
@@ -771,13 +921,13 @@ S8 & 4 & 0 & 0 & 3 &  7 \\
 \end{table}
 
 
-Three patterns stand out. First, tag and three-way switches together account for 58 of 78 switches (74\%): most Bengali material in the corpus is inserted at word level, not as full clauses. Second, inter-sentential switching is confined to two speakers, S6 (5) and S2 (3), who are also the two highest-Bengali speakers. Third, the \emph{three-way} category---a Bengali element in the neighbourhood of English words---is the largest single category for S1, S5 and S7, reflecting that these speakers' Hindi frames are themselves rich in English loanwords (\textit{chair, door, photo, shop}).
+Three patterns stand out. First, tag and three-way switches together account for 58 of 78 switches (74\%): most Bengali material in the corpus is inserted at word level, not as full clauses. Second, inter-sentential switching is confined to two speakers, SC6 (5) and SC2 (3), who are also the two highest-Bengali speakers. Third, the \emph{three-way} category---a Bengali element in the neighbourhood of English words---is the largest single category for SC1, SC5 and SC7, reflecting that these speakers' Hindi frames are themselves rich in English loanwords (\textit{chair, door, photo, shop}).
 
-\subsection{Ergative \textit{ne} Contexts}
+\section{Ergative \textit{ne} Contexts}
 
-The analyzer detects 8 candidate transitive perfective contexts (Appendix~\ref{app:erg}): two for S1 (\textit{padha} in ``\textit{bcom hum 2 year padha tha}'' and ``\textit{padha toh bcom tak}''), one for S2 (\textit{bola}), three for S4 (\textit{padha}, \textit{seekha}, \textit{bola}) and two for S6 (\textit{khola}, \textit{seekhi}). One carries a fused \textit{ne} (S6, \textit{maine hindi \ldots seekhi}). The most informative contexts are the first-person ones: in \textit{hum jab 7th class aur 8th class padha aur do class mein hindi seekha} (S4) the standard form would be \textit{maine \ldots padha \ldots seekhi} with the verb agreeing with feminine \textit{hindi}; S4 instead uses the bare subject \textit{hum} with a masculine verb. In this example the absence of \textit{ne} goes together with a default masculine verb, which suggests that the two transfer phenomena may be linked, although one example cannot establish it. The sample is too small for any quantitative claim, and some contexts are not clean examples (\textit{khola} is a Bengali adjective).
+The analyzer detects 8 candidate transitive perfective contexts (Appendix~\ref{app:erg}): two for SC1 (\textit{padha} in ``\textit{bcom hum 2 year padha tha}'' and ``\textit{padha toh bcom tak}''), one for SC2 (\textit{bola}), three for SC4 (\textit{padha}, \textit{seekha}, \textit{bola}) and two for SC6 (\textit{khola}, \textit{seekhi}). One carries a fused \textit{ne} (SC6, \textit{maine hindi \ldots seekhi}). The most informative contexts are the first-person ones: in \textit{hum jab 7th class aur 8th class padha aur do class mein hindi seekha} (SC4) the standard form would be \textit{maine \ldots padha \ldots seekhi} with the verb agreeing with feminine \textit{hindi}; SC4 instead uses the bare subject \textit{hum} with a masculine verb. In this example the absence of \textit{ne} goes together with a default masculine verb, which suggests that the two transfer phenomena may be linked, although one example cannot establish it. The sample is too small for any quantitative claim, and some contexts are not clean examples (\textit{khola} is a Bengali adjective).
 
-\subsection{Section-Level Error Distribution}
+\section{Section-Level Error Distribution}
 
 Table~\ref{tab:section} breaks down detected phenomena by questionnaire section. This reveals where each transfer pattern is most active.
 
@@ -804,19 +954,19 @@ Key observations:
 \begin{itemize}
   \item Section A (naming) elicits the most Bengali lexical items per word, confirming that household vocabulary triggers L1 access (H3).
   \item Section C (action descriptions) has the highest code-switch density (16 switches in 206 words = 7.8\%), because speakers describe photos using Bengali verb forms.
-  \item Section B (the adjective/comparison task) has the highest density of gender errors (4 in 74 words, 54 per 1,000), but from a tiny base; all four come from S4's list of states.
+  \item Section B (the adjective/comparison task) has the highest density of gender errors (4 in 74 words, 54 per 1,000), but from a tiny base; all four come from SC4's list of states.
   \item Gender errors in the two conversational sections (E and F) are 11 of 21, i.e.\ over half; they are mostly R2 errors, which arise in spontaneous self-narrative where speakers are least monitoring their output.
   \item Section D (intransitive states) is subsumed into sections A and C in practice, as speakers describe broken/open/fallen objects within the same photo-description task.
 \end{itemize}
 
 %======================================================================
-\section{ASR Comparison: Corrected vs.\ Whisper vs.\ Hindi-Finetuned Whisper}
+\chapter{ASR Comparison: Corrected vs.\ Whisper vs.\ Hindi-Finetuned Whisper}
 \label{sec:asr}
 %======================================================================
 
-We compare four text sources: human-corrected transcripts (the reference), Whisper-large-v3 raw output, and two Hindi-finetuned Whisper variants---\texttt{vasista22/whisper-hindi-small} (244M parameters) and \texttt{vasista22/whisper-hindi-large-v2} (1.5B parameters), which we abbreviate WH-small and WH-large (these are community fine-tunes of Whisper on Hindi data, not AI4Bharat's IndicWhisper). The Whisper-Hindi models were run on the same audio, in 30-second chunks, on a laptop GPU through the \texttt{transformers} speech-recognition pipeline. All four texts are passed through the \emph{same} analyzer so that differences in output reflect differences in the text, not the analysis. One caveat applies throughout: the ASR outputs do not separate collector from participant turns, so their word counts include the collector's speech and are measures of coverage rather than of accuracy; the comparison of \emph{preserved phenomena} is unaffected, since the collector's speech is standard Hindi.
+We compare four text sources: human-corrected transcripts (the reference), Whisper-large-v3 raw output, and two Hindi-finetuned Whisper variants---\allowbreak\texttt{vasista22/\allowbreak whisper-\allowbreak hindi-\allowbreak small} (244M parameters) and \texttt{vasista22/\allowbreak whisper-\allowbreak hindi-\allowbreak large-v2} (1.5B parameters), which we abbreviate WH-small and WH-large (these are community fine-tunes of Whisper on Hindi data, not AI4Bharat's IndicWhisper). The Whisper-Hindi models were run on the same audio, in 30-second chunks, on a laptop GPU through the \texttt{transformers} speech-recognition pipeline. All four texts are passed through the \emph{same} analyzer so that differences in output reflect differences in the text, not the analysis. One caveat applies throughout: the ASR outputs do not separate collector from participant turns, so their word counts include the collector's speech and are measures of coverage rather than of accuracy; the comparison of \emph{preserved phenomena} is unaffected, since the collector's speech is standard Hindi.
 
-\subsection{Main Results}
+\section{Main Results}
 
 \begin{table}[H]
 \centering
@@ -862,7 +1012,7 @@ Bengali words       & ---   & 67\%  & 94\%  & 72\%  \\
 
 \textbf{Key findings:}
 \begin{enumerate}
-  \item \textbf{Gender error normalization is near-total across all models.} Whisper-large-v3 and Whisper-Hindi-small hide 100\% of gender errors; Whisper-Hindi-large preserves only 2 of 21 (90\% hidden). The two surviving errors are in S4 and S8, suggesting that the large model occasionally reproduces non-standard forms when the speaker's actual pronunciation is sufficiently clear, but this is unreliable.
+  \item \textbf{Gender error normalization is near-total across all models.} Whisper-large-v3 and Whisper-Hindi-small hide 100\% of gender errors; Whisper-Hindi-large preserves only 2 of 21 (90\% hidden). The two surviving errors are in SC4 and SC8, suggesting that the large model occasionally reproduces non-standard forms when the speaker's actual pronunciation is sufficiently clear, but this is unreliable.
 
   \item \textbf{Model size matters for coverage but not for morphological fidelity.} Whisper-Hindi-large (2,209 words) achieves comparable coverage to Whisper-large-v3 (2,957 words), while Whisper-Hindi-small produces only 742 words---a 64\% loss. However, even with adequate word counts, the large Hindi model still hides 90\% of gender errors.
 
@@ -875,7 +1025,7 @@ Bengali words       & ---   & 67\%  & 94\%  & 72\%  \\
 
 These results demonstrate that the ASR normalization problem is \textbf{architectural, not a matter of model size or language-specific finetuning}. All three ASR configurations---multilingual large, Hindi-finetuned small, and Hindi-finetuned large---hide the majority of non-standard morphological forms. Human-corrected transcripts are necessary, not merely preferable, for studying L1 transfer in code-switched speech.
 
-\subsection{Per-Speaker Results}
+\section{Per-Speaker Results}
 
 \begin{table}[H]
 \centering
@@ -888,43 +1038,45 @@ These results demonstrate that the ASR normalization problem is \textbf{architec
 \cmidrule(lr){2-5}\cmidrule(lr){6-9}
 \textbf{Spk.} & C & W & S & L & C & W & S & L & C / L \\
 \midrule
-S1 & 178 & 282 &  48 & 159 & 15 &  3 & 1 &  1 & 1 / 0 \\
-S2 & 202 & 423 & 158 & 284 & 34 &  9 & 0 &  3 & 3 / 0 \\
-S3 & 230 & 398 &  52 & 408 &  2 &  7 & 0 &  4 & 4 / 0 \\
-S4 & 307 & 302 & 170 & 421 &  9 &  5 & 1 &  5 & 11 / 1 \\
-S5 & 307 & 469 & 158 & 321 & 23 & 15 & 5 & 17 & 0 / 0 \\
-S6 & 299 & 356 &  45 & 132 & 53 &  6 & 0 &  3 & 0 / 0 \\
-S7 & 308 & 451 &  65 & 241 & 16 &  6 & 2 &  8 & 1 / 0 \\
-S8 & 229 & 276 &  46 & 243 &  7 &  1 & 0 &  4 & 1 / 1 \\
+SC1 & 178 & 282 &  48 & 159 & 15 &  3 & 1 &  1 & 1 / 0 \\
+SC2 & 202 & 423 & 158 & 284 & 34 &  9 & 0 &  3 & 3 / 0 \\
+SC3 & 230 & 398 &  52 & 408 &  2 &  7 & 0 &  4 & 4 / 0 \\
+SC4 & 307 & 302 & 170 & 421 &  9 &  5 & 1 &  5 & 11 / 1 \\
+SC5 & 307 & 469 & 158 & 321 & 23 & 15 & 5 & 17 & 0 / 0 \\
+SC6 & 299 & 356 &  45 & 132 & 53 &  6 & 0 &  3 & 0 / 0 \\
+SC7 & 308 & 451 &  65 & 241 & 16 &  6 & 2 &  8 & 1 / 0 \\
+SC8 & 229 & 276 &  46 & 243 &  7 &  1 & 0 &  4 & 1 / 1 \\
 \midrule
 \textbf{All} & 2,060 & 2,957 & 742 & 2,209 & 159 & 52 & 9 & 45 & 21 / 2 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-Three things are visible in Table~\ref{tab:asrspk}. The small model's coverage collapses on the longest and most Bengali recordings (S1: 48 of 178 words; S6: 45 of 299). S6, the highest-Bengali speaker, loses most under every system (53 corrected Bengali words against 6, 0 and 3), which is what one would expect if the models are trained to produce Hindi. And S3, who uses almost no Bengali, shows \emph{more} ``Bengali'' words in some ASR outputs than in the corrected text (7 and 4 against 2): these are Hindi words that the suffix heuristic mis-labels in noisier text, which illustrates the interaction between ASR output and a heuristic language-identifier that is discussed in Section~\ref{sec:limits}.
+Three things are visible in Table~\ref{tab:asrspk}. The small model's coverage collapses on the longest and most Bengali recordings (SC1: 48 of 178 words; SC6: 45 of 299). SC6, the highest-Bengali speaker, loses most under every system (53 corrected Bengali words against 6, 0 and 3), which is what one would expect if the models are trained to produce Hindi. And SC3, who uses almost no Bengali, shows \emph{more} ``Bengali'' words in some ASR outputs than in the corrected text (7 and 4 against 2): these are Hindi words that the suffix heuristic mis-labels in noisier text, which illustrates the interaction between ASR output and a heuristic language-identifier that is discussed in Section~\ref{sec:limits}.
 
-\subsection{Whisper Segment-Level Error Analysis}
+\section{Whisper Segment-Level Error Analysis}
 
-Measured at segment level against the human corrections (Section~\ref{sec:corpus}), Whisper-large-v3 needs correction in 120 of 144 participant-speech segments (83.3\%). The error rate ranges from 60\% (S2) to 100\% (S1, S7, S8); the noisiest recording (S4) and the most Bengali recording (S6) are both at 94\%.
+Measured at segment level against the human corrections (Chapter~\ref{sec:corpus}), Whisper-large-v3 needs correction in 120 of 144 participant-speech segments (83.3\%). The error rate ranges from 60\% (SC2) to 100\% (SC1, SC7, SC8); the noisiest recording (SC4) and the most Bengali recording (SC6) are both at 94\%.
 
 \begin{table}[H]
 \centering
 \caption{Whisper-large-v3 segment-level error rate by recording}
 \label{tab:whisperseg}
+\small
+\setlength{\tabcolsep}{4pt}
 \begin{tabular}{lrrrrr}
 \toprule
-\textbf{Recording} & \textbf{Segments} & \textbf{Corrected} & \textbf{Verified OK} & \textbf{Error rate} & \textbf{Bengali segs.\ missed} \\
+\textbf{Recording} & \textbf{Segments} & \textbf{Corrected} & \textbf{Verified OK} & \textbf{Error rate} & \textbf{Bengali missed} \\
 \midrule
-S1 (6647) & 11 &  9 & 0 & 100\% &  1 \\
-S1 (6648) &  9 &  5 & 0 & 100\% &  1 \\
-S2        & 30 & 12 & 8 &  60\% &  6 \\
-S3        & 27 & 15 & 5 &  75\% &  1 \\
-S4        & 18 & 15 & 1 &  94\% &  3 \\
-S5        & 34 & 17 & 9 &  65\% &  5 \\
-S6        & 21 & 15 & 1 &  94\% & 12 \\
-S7        & 20 & 19 & 0 & 100\% &  5 \\
-S8        & 13 & 13 & 0 & 100\% &  3 \\
+SC1 (6647) & 11 &  9 & 0 & 100\% &  1 \\
+SC1 (6648) &  9 &  5 & 0 & 100\% &  1 \\
+SC2        & 30 & 12 & 8 &  60\% &  6 \\
+SC3        & 27 & 15 & 5 &  75\% &  1 \\
+SC4        & 18 & 15 & 1 &  94\% &  3 \\
+SC5        & 34 & 17 & 9 &  65\% &  5 \\
+SC6        & 21 & 15 & 1 &  94\% & 12 \\
+SC7        & 20 & 19 & 0 & 100\% &  5 \\
+SC8        & 13 & 13 & 0 & 100\% &  3 \\
 \midrule
 \textbf{Total} & \textbf{183} & \textbf{120} & \textbf{24} & \textbf{83.3\%} & \textbf{37} \\
 \bottomrule
@@ -933,7 +1085,7 @@ S8        & 13 & 13 & 0 & 100\% &  3 \\
 
 (Segment counts include collector-only and noise segments; the error rate is corrected divided by corrected plus verified-OK.) Of 28 distinct Bengali words appearing in the corpus (71 instances), Whisper detected none as Bengali: all were converted to Hindi equivalents or to garbled Devanagari.
 
-\subsection{How the Models Rewrite Bengali}
+\section{How the Models Rewrite Bengali}
 
 \begin{table}[H]
 \centering
@@ -956,7 +1108,7 @@ S8        & 13 & 13 & 0 & 100\% &  3 \\
 
 The pattern is that single lexical items are replaced by the Hindi equivalent (so the switch is deleted but the sentence stays grammatical) while whole Bengali clauses, which have no Hindi equivalent form, are rendered as nonsense. Both outcomes remove the evidence of code-switching; the first does so silently.
 
-\subsection{Hallucination Loops}
+\section{Hallucination Loops}
 
 \begin{table}[H]
 \centering
@@ -966,59 +1118,59 @@ The pattern is that single lexical items are replaced by the Hindi equivalent (s
 \toprule
 \textbf{Speaker} & \textbf{Model} & \textbf{Seg.} & \textbf{Repeated phrase} & \textbf{Repeats} \\
 \midrule
-S2 & small & 11 & \deva{दो हजार} & 30 \\
-S4 & small &  9 & \deva{थोड़ा थोड़ा} & 67 \\
-S2 & large &  1 & \deva{हाउस हाउस} & 60 \\
-S2 & large &  3 & \deva{रहा है} & 9 \\
-S3 & large &  9 & \deva{बढिया बढिया} & 52 \\
-S3 & large & 12 & \deva{थोड़ा थोड़ा} & 52 \\
-S4 & large &  3 & \deva{रहा है} & 7 \\
-S4 & large &  9 & \deva{थोड़ा थोड़ा} & 53 \\
+SC2 & small & 11 & \deva{दो हजार} & 30 \\
+SC4 & small &  9 & \deva{थोड़ा थोड़ा} & 67 \\
+SC2 & large &  1 & \deva{हाउस हाउस} & 60 \\
+SC2 & large &  3 & \deva{रहा है} & 9 \\
+SC3 & large &  9 & \deva{बढिया बढिया} & 52 \\
+SC3 & large & 12 & \deva{थोड़ा थोड़ा} & 52 \\
+SC4 & large &  3 & \deva{रहा है} & 7 \\
+SC4 & large &  9 & \deva{थोड़ा थोड़ा} & 53 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-Hallucination in the large model is not limited to loops. In S6's recording, the large model replaces a stretch of Hindi-Bengali speech with fluent but fabricated news-agency prose about a politician's statement, which cannot be detected by repetition and was found only by reading. For a downstream analysis this is arguably the worst case: the output is well-formed Hindi that bears no relation to the audio.
+Hallucination in the large model is not limited to loops. In SC6's recording, the large model replaces a stretch of Hindi-Bengali speech with fluent but fabricated news-agency prose about a politician's statement, which cannot be detected by repetition and was found only by reading. For a downstream analysis this is arguably the worst case: the output is well-formed Hindi that bears no relation to the audio.
 
 %======================================================================
-\section{Discussion}
+\chapter{Discussion}
 \label{sec:discussion}
 %======================================================================
 
-\subsection{Evaluating the Hypotheses}
+\section{Evaluating the Hypotheses}
 
-\textbf{H1 (Transfer): supported, with a caveat.} All 21 verified gender errors are masculine-default. Because the analyzer searches only for masculine forms where feminine is expected, this on its own is partly circular. We therefore also scanned all participant speech for feminine verb forms. Most are correct: \textit{khud banati hu}, \textit{rehti}, \textit{padhati hu}, \textit{karti hu}, \textit{aa jati hu}, \textit{student use karti hai}, \textit{maine hindi seekhi}. One is a candidate reverse error, S3's \textit{mera bada ladka school mein thi} (feminine \textit{thi} for masculine \textit{ladka}), which could be an agreement slip, a mis-hearing for \textit{ladki}, or an overgeneralisation. The honest summary is therefore 21 masculine-default errors against one candidate feminine-on-masculine instance, rather than the absolute unidirectionality sometimes claimed.
+\textbf{H1 (Transfer): supported, with a caveat.} All 21 verified gender errors are masculine-default. Because the analyzer searches only for masculine forms where feminine is expected, this on its own is partly circular. We therefore also scanned all participant speech for feminine verb forms. Most are correct: \textit{khud banati hu}, \textit{rehti}, \textit{padhati hu}, \textit{karti hu}, \textit{aa jati hu}, \textit{student use karti hai}, \textit{maine hindi seekhi}. One is a candidate reverse error, SC3's \textit{mera bada ladka school mein thi} (feminine \textit{thi} for masculine \textit{ladka}), which could be an agreement slip, a mis-hearing for \textit{ladki}, or an overgeneralisation. The honest summary is therefore 21 masculine-default errors against one candidate feminine-on-masculine instance, rather than the absolute unidirectionality sometimes claimed.
 
-\textbf{H2 (Avoidance): partially supported.} Of the eight candidate ergative contexts only one contains \textit{ne} (S6, \textit{maine}). Seven of eight is consistent with avoidance, but the denominator is tiny and one context is not a Hindi perfective, so the result should be read as suggestive.
+\textbf{H2 (Avoidance): partially supported.} Of the eight candidate ergative contexts only one contains \textit{ne} (SC6, \textit{maine}). Seven of eight is consistent with avoidance, but the denominator is tiny and one context is not a Hindi perfective, so the result should be read as suggestive.
 
 \textbf{H3 (Salience): supported.} Bengali is concentrated in the naming section (36 Bengali words in 270 words, 13.3\% of tokens, against 4.3\% in the conversation section and 7.1\% in the background section) and is dominated by household nouns.
 
-\textbf{H4 (Opacity): supported.} Section~\ref{sec:asr} shows that three ASR systems hide 90--100\% of gender errors. The hypothesis is about the output of the systems; it does not claim that they could not be modified (for example by finetuning on code-switched data), only that the available Hindi-finetuned models do not.
+\textbf{H4 (Opacity): supported.} Chapter~\ref{sec:asr} shows that three ASR systems hide 90--100\% of gender errors. The hypothesis is about the output of the systems; it does not claim that they could not be modified (for example by finetuning on code-switched data), only that the available Hindi-finetuned models do not.
 
-\subsection{Variable Rather than Categorical Masculine Default}
+\section{Variable Rather than Categorical Masculine Default}
 
-Several female speakers produce both correct and incorrect forms in the same recording: S3 says \textit{mai khud banati hu} but \textit{hum log karta hai}; S8 produces four correct feminine first-person habituals and one masculine (\textit{mai hi banata hai}); S4's \textit{mai} is more consistently masculine. This is the pattern one would expect from partial acquisition: speakers know the feminine forms, and the masculine form appears as a default under production pressure rather than as a complete absence of the category. The error rate per speaker is therefore a measure of the \emph{rate of defaulting}, not of whether the category is known, which is consistent with the interlanguage view of L2 development.
+Several female speakers produce both correct and incorrect forms in the same recording: SC3 says \textit{mai khud banati hu} but \textit{hum log karta hai}; SC8 produces four correct feminine first-person habituals and one masculine (\textit{mai hi banata hai}); SC4's \textit{mai} is more consistently masculine. This is the pattern one would expect from partial acquisition: speakers know the feminine forms, and the masculine form appears as a default under production pressure rather than as a complete absence of the category. The error rate per speaker is therefore a measure of the \emph{rate of defaulting}, not of whether the category is known, which is consistent with the interlanguage view of L2 development.
 
-\subsection{Proficiency Gradient}
+\section{Proficiency Gradient}
 
 Error frequency correlates inversely with Hindi exposure:
 \begin{itemize}
-  \item S4 (11 errors, 35.8 per 1,000 words): Hindi learned in school, Bengali the main language among colleagues, noisy recording.
-  \item S3 (4 errors) and S2 (3 errors): intermediate; S3 uses almost no Bengali but still defaults on self-reference.
-  \item S8 (1 error): mostly correct feminine self-reference; shortest recording.
-  \item S5, S6 (0 errors): male speakers---masculine default is correct for self-reference. S5 reports years of residence in North India; S6 learned Hindi at the institute and produces the most Bengali.
+  \item SC4 (11 errors, 35.8 per 1,000 words): Hindi learned in school, Bengali the main language among colleagues, noisy recording.
+  \item SC3 (4 errors) and SC2 (3 errors): intermediate; SC3 uses almost no Bengali but still defaults on self-reference.
+  \item SC8 (1 error): mostly correct feminine self-reference; shortest recording.
+  \item SC5, SC6 (0 errors): male speakers---masculine default is correct for self-reference. SC5 reports years of residence in North India; SC6 learned Hindi at the institute and produces the most Bengali.
 \end{itemize}
-The gradient should be read as a description of this sample, not as a causal claim: with eight speakers, other explanations (age, task effects, noise in S4's recording) cannot be separated.
+The gradient should be read as a description of this sample, not as a causal claim: with eight speakers, other explanations (age, task effects, noise in SC4's recording) cannot be separated.
 
-\subsection{Avoidance as Strategy}
+\section{Avoidance as Strategy}
 
-The near-total absence of ergative \textit{ne} (1 of 8 candidate contexts) is consistent with an avoidance strategy, not ignorance. Speakers restructure sentences or use bare-subject forms (\textit{hum \ldots padha}) rather than producing incorrect \textit{ne} constructions. This is linguistically more sophisticated than error production and consistent with the Avoidance Hypothesis \citep{schachter1974}. The only attested \textit{ne} (S6) is accompanied by correct object agreement (\textit{seekhi}), which suggests that when the construction is produced it is produced accurately.
+The near-total absence of ergative \textit{ne} (1 of 8 candidate contexts) is consistent with an avoidance strategy, not ignorance. Speakers restructure sentences or use bare-subject forms (\textit{hum \ldots padha}) rather than producing incorrect \textit{ne} constructions. This is linguistically more sophisticated than error production and consistent with the Avoidance Hypothesis \citep{schachter1974}. The only attested \textit{ne} (SC6) is accompanied by correct object agreement (\textit{seekhi}), which suggests that when the construction is produced it is produced accurately.
 
-\subsection{Insertion or Alternation?}
+\section{Insertion or Alternation?}
 
-In \citeauthor{muysken2000bilingual}'s typology, the dominance of single-word and short-run Bengali material inside a Hindi or English frame (58 of 78 switches are tag or three-way) is characteristic of \emph{insertion}, with Hindi as the matrix language. The inter-sentential switches of S6 and S2, in which whole Bengali clauses alternate with Hindi, are characteristic of \emph{alternation}. The corpus thus contains both, and the balance depends on the speaker: it looks like a continuum from insertional (S3, S4, S8) to alternational (S6), with S2 and S5 in between. We note that this classification is based on lexicon-detected runs and should be confirmed by manual annotation.
+In \citeauthor{muysken2000bilingual}'s typology, the dominance of single-word and short-run Bengali material inside a Hindi or English frame (58 of 78 switches are tag or three-way) is characteristic of \emph{insertion}, with Hindi as the matrix language. The inter-sentential switches of SC6 and SC2, in which whole Bengali clauses alternate with Hindi, are characteristic of \emph{alternation}. The corpus thus contains both, and the balance depends on the speaker: it looks like a continuum from insertional (SC3, SC4, SC8) to alternational (SC6), with SC2 and SC5 in between. We note that this classification is based on lexicon-detected runs and should be confirmed by manual annotation.
 
-\subsection{Implications for ASR and NLP}
+\section{Implications for ASR and NLP}
 
 \begin{itemize}
   \item \textbf{Evaluation.} Word error rate against a standardised reference rewards exactly the normalisation that destroys morphological evidence. A system that turns \textit{kitaab padh raha} into \textit{kitaab padh rahi} \emph{lowers} its WER against a standard reference while erasing the speaker's grammar. Evaluation of ASR for linguistically diverse speakers should include a measure of preservation of non-standard forms.
@@ -1026,25 +1178,25 @@ In \citeauthor{muysken2000bilingual}'s typology, the dominance of single-word an
   \item \textbf{Pipelines.} Until such models exist, studies of L1 transfer must keep a human in the loop, and the human correction step should be treated as part of the instrument and its cost reported.
 \end{itemize}
 
-\subsection{Limitations}
+\section{Limitations}
 \label{sec:limits}
 
 \begin{enumerate}
   \item \textbf{Corpus size}: 8 speakers and 2,060 words is small for statistical generalization, though sufficient for documenting qualitative patterns. Counts per speaker (1--11 errors) are too low for significance testing.
   \item \textbf{Rule-based approach}: The analyzer cannot detect novel patterns not encoded in its lexicons and rules. A machine learning approach would require a larger annotated corpus.
   \item \textbf{Unknown words}: 12.5\% of words are classified as ``unknown,'' primarily proper nouns and numbers outside the lexicon's scope.
-  \item \textbf{Gender error precision and recall}: The audit (Section~\ref{sec:audit}) gives precision between $16/21$ and $21/21$ (depending on how the five contestable detections are counted) and recall $21/23$ on the audited material, but the rules were tuned on that same material by a single annotator. The figures are optimistic and should be validated on held-out speakers with a second annotator.
-  \item \textbf{Loanword gender}: Treating \textit{chair} and \textit{ladies} as feminine is an analytical choice by analogy with \textit{kursi} and \textit{aurat}; English loanwords in colloquial Hindi often take masculine agreement (for example \textit{yeh chair toota hai}) even among native speakers. Three of the 21 detections (S3 and S4 \textit{chair tut gaya}, S7 \textit{ladies door khol raha}) depend on this choice; without them the corpus has 18 detections (9 noun-verb, 9 subject-verb), and the native-noun detections (\textit{kitaab}, \textit{roti}, \textit{almari}, \textit{kamar}, \textit{beti}) are unaffected.
-  \item \textbf{Plural first-person subjects}: S3's \textit{hum log karta hai} has a plural subject, for which standard Hindi requires plural agreement (\textit{karte hain}, or \textit{karti hain} for an all-female group). The verb shows unmarked singular-masculine agreement, but because \textit{hum log} may refer to a mixed team, whether feminine agreement is the target is uncertain. The analyzer does not distinguish singular \textit{hum} (``I'') from plural \textit{hum log}.
-  \item \textbf{Language-identification precision}: The Bengali-word and code-switch counts (159 words, 78 switches) are \emph{candidate} counts. The suffix and marker heuristics also match some Hindi words: for example \textit{ke} and \textit{khana} (listed Bengali markers) and words ending in \textit{-le/-che/-chi} such as \textit{bole, pehle, role, acchi, bachche}, and the Hindi numeral \textit{che} ``six'' in \textit{che mahine}, were flagged as Bengali in some segments. The true counts of Bengali words and of code-switches are therefore lower than reported, and the counts should be treated as upper bounds. A manual audit of language identification, analogous to the gender audit, has not yet been done. The \emph{relative} patterns (S6 and S2 highest, S3 lowest; naming section highest) are robust to this because the false-positive words are spread across speakers, but the absolute figures are not.
+  \item \textbf{Gender error precision and recall}: The audit (Chapter~\ref{sec:audit}) gives precision between $16/21$ and $21/21$ (depending on how the five contestable detections are counted) and recall $21/23$ on the audited material, but the rules were tuned on that same material by a single annotator. The figures are optimistic and should be validated on held-out speakers with a second annotator.
+  \item \textbf{Loanword gender}: Treating \textit{chair} and \textit{ladies} as feminine is an analytical choice by analogy with \textit{kursi} and \textit{aurat}; English loanwords in colloquial Hindi often take masculine agreement (for example \textit{yeh chair toota hai}) even among native speakers. Three of the 21 detections (SC3 and SC4 \textit{chair tut gaya}, SC7 \textit{ladies door khol raha}) depend on this choice; without them the corpus has 18 detections (9 noun-verb, 9 subject-verb), and the native-noun detections (\textit{kitaab}, \textit{roti}, \textit{almari}, \textit{kamar}, \textit{beti}) are unaffected.
+  \item \textbf{Plural first-person subjects}: SC3's \textit{hum log karta hai} has a plural subject, for which standard Hindi requires plural agreement (\textit{karte hain}, or \textit{karti hain} for an all-female group). The verb shows unmarked singular-masculine agreement, but because \textit{hum log} may refer to a mixed team, whether feminine agreement is the target is uncertain. The analyzer does not distinguish singular \textit{hum} (``I'') from plural \textit{hum log}.
+  \item \textbf{Language-identification precision}: The Bengali-word and code-switch counts (159 words, 78 switches) are \emph{candidate} counts. The suffix and marker heuristics also match some Hindi words: for example \textit{ke} and \textit{khana} (listed Bengali markers) and words ending in \textit{-le/-che/-chi} such as \textit{bole, pehle, role, acchi, bachche}, and the Hindi numeral \textit{che} ``six'' in \textit{che mahine}, were flagged as Bengali in some segments. The true counts of Bengali words and of code-switches are therefore lower than reported, and the counts should be treated as upper bounds. A manual audit of language identification, analogous to the gender audit, has not yet been done. The \emph{relative} patterns (SC6 and SC2 highest, SC3 lowest; naming section highest) are robust to this because the false-positive words are spread across speakers, but the absolute figures are not.
   \item \textbf{Ergative contexts}: The eight candidate contexts have not been manually audited. At least one (\textit{khola}) is not a Hindi perfective, so the denominator may be seven or fewer.
   \item \textbf{Elicitation effects}: Many errors arise in the picture-description tasks, where the speaker describes a third party; R1 is therefore partly a function of the task. R2 errors arise in free conversation and are less task-dependent.
-  \item \textbf{Acoustic quality}: S4's recording is the noisiest, and misheard forms there would be indistinguishable from errors in the transcript; the high S4 error count should be read with this in mind.
-  \item \textbf{ASR comparison}: The Hindi-finetuned models tested are community fine-tunes of Whisper; AI4Bharat's IndicWhisper \citep{bhogale2023vistaar}, trained on a much larger and more diverse corpus, was not evaluated, so the ``architectural'' conclusion applies to the models tested. ASR word counts include the collector's speech (Section~\ref{sec:asr}). The comparison runs all texts through the same lexicon-based analyzer. Part of the ASR systems' apparent loss of Bengali words is genuine, but part is due to differences in orthography after transliteration from Devanagari. The direction of the result (heavy normalisation) is large and consistent enough to be robust, but the exact percentages are not precise.
+  \item \textbf{Acoustic quality}: SC4's recording is the noisiest, and misheard forms there would be indistinguishable from errors in the transcript; the high SC4 error count should be read with this in mind.
+  \item \textbf{ASR comparison}: The Hindi-finetuned models tested are community fine-tunes of Whisper; AI4Bharat's IndicWhisper \citep{bhogale2023vistaar}, trained on a much larger and more diverse corpus, was not evaluated, so the ``architectural'' conclusion applies to the models tested. ASR word counts include the collector's speech (Chapter~\ref{sec:asr}). The comparison runs all texts through the same lexicon-based analyzer. Part of the ASR systems' apparent loss of Bengali words is genuine, but part is due to differences in orthography after transliteration from Devanagari. The direction of the result (heavy normalisation) is large and consistent enough to be robust, but the exact percentages are not precise.
 \end{enumerate}
 
 %======================================================================
-\section{Conclusion and Future Work}
+\chapter{Conclusion and Future Work}
 \label{sec:conclusion}
 %======================================================================
 
@@ -1057,7 +1209,7 @@ We have presented a morphology-aware analyzer for Bengali-Hindi code-switched sp
   \item The same discipline needs to be applied to language identification and ergative detection, whose counts are currently candidates rather than verified numbers.
 \end{enumerate}
 
-\subsection{Future Directions}
+\section{Future Directions}
 
 \begin{itemize}
   \item \textbf{Held-out validation}: Collect recordings from additional speakers and have two independent annotators label them, so that precision, recall and inter-annotator agreement can be estimated without the tuning bias in the present audit.
@@ -1071,111 +1223,11 @@ We have presented a morphology-aware analyzer for Bengali-Hindi code-switched sp
 \end{itemize}
 
 %======================================================================
-% References
-%======================================================================
-
-\bibliographystyle{plainnat}
-
-\begin{thebibliography}{99}
-
-\bibitem[Bali et al.(2014)]{bali2014borrowing}
-K.~Bali, J.~Sharma, M.~Choudhury, and Y.~Vyas.
-\newblock ``I am borrowing ya mixing?'' An analysis of English-Hindi code mixing in Facebook.
-\newblock In \textit{Proc.\ First Workshop on Computational Approaches to Code Switching}, 2014.
-
-\bibitem[Bhatia and Ritchie(2004)]{bhatia2004world}
-T.K.~Bhatia and W.C.~Ritchie.
-\newblock \textit{The Handbook of Bilingualism}.
-\newblock Blackwell, 2004.
-
-\bibitem[Bhogale et al.(2023)]{bhogale2023vistaar}
-K.~Bhogale, et al.
-\newblock Vistaar: Diverse benchmarks and training sets for Indian language ASR.
-\newblock In \textit{Proc.\ Interspeech}, 2023. arXiv:2305.15386.
-
-\bibitem[Butt(1995)]{butt1995structure}
-M.~Butt.
-\newblock \textit{The Structure of Complex Predicates in Urdu}.
-\newblock CSLI Publications, 1995.
-
-\bibitem[Das and Gamb{\"a}ck(2014)]{das2014identifying}
-A.~Das and B.~Gamb{\"a}ck.
-\newblock Identifying languages at the word level in code-mixed Indian social media text.
-\newblock In \textit{Proc.\ 11th International Conference on Natural Language Processing}, 2014.
-
-\bibitem[Diwan et al.(2021)]{diwan2021multilingual}
-A.~Diwan, R.~Vaideeswaran, S.~Shah, et al.
-\newblock Multilingual and code-switching ASR challenges for low resource Indian languages.
-\newblock In \textit{Proc.\ Interspeech}, 2021.
-
-\bibitem[Gr{\"u}ter et al.(2012)]{gruter2008article}
-T.~Gr{\"u}ter, M.~Lew-Williams, and A.~Fernald.
-\newblock Grammatical gender in L2: A production or a real-time processing problem?
-\newblock \textit{Second Language Research}, 28(2):191--215, 2012.
-
-\bibitem[Kachru(2006)]{kachru2006hindi}
-Y.~Kachru.
-\newblock \textit{Hindi}.
-\newblock John Benjamins, 2006.
-
-\bibitem[Khanuja et al.(2020)]{khanuja2020gluecos}
-S.~Khanuja, S.~Bansal, M.~Mehtani, et al.
-\newblock GLUECoS: An evaluation benchmark for code-switched NLP.
-\newblock In \textit{Proc.\ ACL}, 2020.
-
-\bibitem[Muysken(2000)]{muysken2000bilingual}
-P.~Muysken.
-\newblock \textit{Bilingual Speech: A Typology of Code-Mixing}.
-\newblock Cambridge University Press, 2000.
-
-\bibitem[Myers-Scotton(1997)]{myers1997duelling}
-C.~Myers-Scotton.
-\newblock \textit{Duelling Languages: Grammatical Structure in Codeswitching}.
-\newblock Oxford University Press, 1997.
-
-\bibitem[Poplack(1980)]{poplack1980sometimes}
-S.~Poplack.
-\newblock Sometimes I'll start a sentence in Spanish y termino en espa{\~n}ol.
-\newblock \textit{Linguistics}, 18(7-8):581--618, 1980.
-
-\bibitem[Radford et al.(2023)]{radford2023robust}
-A.~Radford, J.W.~Kim, T.~Xu, G.~Brockman, C.~McLeavey, and I.~Sutskever.
-\newblock Robust speech recognition via large-scale weak supervision.
-\newblock In \textit{Proc.\ ICML}, 2023.
-
-\bibitem[Sabourin et al.(2006)]{sabourin2006transfer}
-L.~Sabourin, L.~Stowe, and G.~de Haan.
-\newblock Transfer effects in learning a second language grammatical gender system.
-\newblock \textit{Second Language Research}, 22(1):1--29, 2006.
-
-\bibitem[Schachter(1974)]{schachter1974}
-J.~Schachter.
-\newblock An error in error analysis.
-\newblock \textit{Language Learning}, 24(2):205--214, 1974.
-
-\bibitem[Sharma(2004)]{sharma2004}
-D.~Sharma.
-\newblock \textit{The Grammar of Hindi Gender}.
-\newblock Manuscript, 2004.
-
-\bibitem[Singh et al.(2018)]{singh2018twitter}
-V.~Singh, D.~Dasgupta, S.~Ghosh, et al.
-\newblock Twitter Hindi-English code-mixed corpus.
-\newblock In \textit{Proc.\ LREC}, 2018.
-
-\bibitem[vasista22(n.d.)]{vasista22hindi}
-vasista22.
-\newblock \textit{whisper-hindi-small} and \textit{whisper-hindi-large-v2}: Whisper models fine-tuned on Hindi ASR data.
-\newblock Hugging Face model cards, \url{https://huggingface.co/vasista22/whisper-hindi-large-v2}.
-
-\end{thebibliography}
-
-%======================================================================
 % Appendices
 %======================================================================
 \appendix
 
-\section{Verified Gender-Error Detections}
+\chapter{Verified Gender-Error Detections}
 \label{app:detections}
 
 Table~\ref{tab:alldet} lists all 21 detections of the final analyzer with the questionnaire section of the segment in which each occurs. ``Segment'' is the segment number within the speaker's transcript.
@@ -1189,34 +1241,34 @@ Table~\ref{tab:alldet} lists all 21 detections of the final analyzer with the qu
 \toprule
 \textbf{\#} & \textbf{Spk.} & \textbf{Seg.} & \textbf{Sec.} & \textbf{Rule} & \textbf{Produced} & \textbf{Expected} \\
 \midrule
- 1 & S1 &  2 & A & R1 & \textit{roti kha raha} & \textit{kha rahi} \\
- 2 & S2 &  4 & C & R1 & \textit{roti kha raha} & \textit{kha rahi} \\
- 3 & S2 &  4 & C & R1 & \textit{kitaab padh raha} & \textit{padh rahi} \\
- 4 & S2 &  8 & E & R2 & \textit{seekh raha hu} & \textit{seekh rahi hu} \\
- 5 & S3 &  6 & A & R1 & \textit{kitaab padh raha} & \textit{padh rahi} \\
- 6 & S3 &  7 & A & R1 & \textit{chair tut gaya}\textsuperscript{$\ddagger$} & \textit{tut gayi} \\
- 7 & S3 & 10 & E & R2 & \textit{hum log karta hai}\textsuperscript{$\dagger$} & \textit{karti hai (pl.\ \textit{karti hain})} \\
- 8 & S3 & 15 & F & R2 & \textit{bol nahi pata hu} & \textit{pati hu} \\
- 9 & S4 &  1 & B & R1 & \textit{almari khul raha} & \textit{khul rahi} \\
-10 & S4 &  1 & B & R1 & \textit{kitaab padh raha} & \textit{padh rahi} \\
-11 & S4 &  1 & B & R1 & \textit{kitaab ulta ho gaya} & \textit{ulti ho gayi} \\
-12 & S4 &  1 & B & R1 & \textit{chair tut gaya}\textsuperscript{$\ddagger$} & \textit{tut gayi} \\
-13 & S4 &  3 & E & R1 & \textit{kamar tut gaya} & \textit{tut gayi} \\
-14 & S4 &  3 & E & R2 & \textit{seekh raha} & \textit{seekh rahi} \\
-15 & S4 &  3 & E & R2 & \textit{ghus gaya} & \textit{ghus gayi} \\
-16 & S4 &  3 & E & R2 & \textit{a gaya} & \textit{a gayi} \\
-17 & S4 &  5 & F & R1 & \textit{beti padh raha}\textsuperscript{$\dagger$} & \textit{padh rahi} \\
-18 & S4 & 16 & F & R2 & \textit{bengali mein hi bolta hai} & \textit{bolti hai} \\
-19 & S4 & 17 & F & R2 & \textit{baat karta hai} & \textit{karti hai} \\
-20 & S7 &  4 & C & R1 & \textit{ladies door khol raha}\textsuperscript{$\ddagger$} & \textit{khol rahi} \\
-21 & S8 &  8 & F & R2 & \textit{mai hi banata hai} & \textit{banati hai} \\
+ 1 & SC1 &  2 & A & R1 & \textit{roti kha raha} & \textit{kha rahi} \\
+ 2 & SC2 &  4 & C & R1 & \textit{roti kha raha} & \textit{kha rahi} \\
+ 3 & SC2 &  4 & C & R1 & \textit{kitaab padh raha} & \textit{padh rahi} \\
+ 4 & SC2 &  8 & E & R2 & \textit{seekh raha hu} & \textit{seekh rahi hu} \\
+ 5 & SC3 &  6 & A & R1 & \textit{kitaab padh raha} & \textit{padh rahi} \\
+ 6 & SC3 &  7 & A & R1 & \textit{chair tut gaya}\textsuperscript{$\ddagger$} & \textit{tut gayi} \\
+ 7 & SC3 & 10 & E & R2 & \textit{hum log karta hai}\textsuperscript{$\dagger$} & \textit{karti hai (pl.\ \textit{karti hain})} \\
+ 8 & SC3 & 15 & F & R2 & \textit{bol nahi pata hu} & \textit{pati hu} \\
+ 9 & SC4 &  1 & B & R1 & \textit{almari khul raha} & \textit{khul rahi} \\
+10 & SC4 &  1 & B & R1 & \textit{kitaab padh raha} & \textit{padh rahi} \\
+11 & SC4 &  1 & B & R1 & \textit{kitaab ulta ho gaya} & \textit{ulti ho gayi} \\
+12 & SC4 &  1 & B & R1 & \textit{chair tut gaya}\textsuperscript{$\ddagger$} & \textit{tut gayi} \\
+13 & SC4 &  3 & E & R1 & \textit{kamar tut gaya} & \textit{tut gayi} \\
+14 & SC4 &  3 & E & R2 & \textit{seekh raha} & \textit{seekh rahi} \\
+15 & SC4 &  3 & E & R2 & \textit{ghus gaya} & \textit{ghus gayi} \\
+16 & SC4 &  3 & E & R2 & \textit{a gaya} & \textit{a gayi} \\
+17 & SC4 &  5 & F & R1 & \textit{beti padh raha}\textsuperscript{$\dagger$} & \textit{padh rahi} \\
+18 & SC4 & 16 & F & R2 & \textit{bengali mein hi bolta hai} & \textit{bolti hai} \\
+19 & SC4 & 17 & F & R2 & \textit{baat karta hai} & \textit{karti hai} \\
+20 & SC7 &  4 & C & R1 & \textit{ladies door khol raha}\textsuperscript{$\ddagger$} & \textit{khol rahi} \\
+21 & SC8 &  8 & F & R2 & \textit{mai hi banata hai} & \textit{banati hai} \\
 \bottomrule
 \multicolumn{7}{l}{\footnotesize \textsuperscript{$\dagger$}Borderline subject: \textit{bhai beti} (mixed group); \textit{hum log} (plural, may include men).} \\
 \multicolumn{7}{l}{\footnotesize \textsuperscript{$\ddagger$}Depends on assigning feminine gender to an English loanword (\textit{chair}, \textit{ladies}).}
 \end{tabular}
 \end{table}
 
-\section{Ergative Candidate Contexts}
+\chapter{Ergative Candidate Contexts}
 \label{app:erg}
 
 \begin{table}[H]
@@ -1228,19 +1280,19 @@ Table~\ref{tab:alldet} lists all 21 detections of the final analyzer with the qu
 \toprule
 \textbf{Spk.} & \textbf{Seg.} & \textbf{Verb} & \textbf{\textit{ne}?} & \textbf{Context} \\
 \midrule
-S1 &  9 & \textit{padha} & no & \textit{bcom hum 2 year padha tha} \\
-S1 & 10 & \textit{padha} & no & \textit{padha toh bcom tak hi english} \\
-S2 &  8 & \textit{bola}  & no & \textit{\ldots usko seekh ke sunne se ha woh yeh bola} \\
-S4 & 10 & \textit{padha} & no & \textit{hum jab 7th class aur 8th class padha} \\
-S4 & 10 & \textit{seekha} & no & \textit{\ldots do class mein hindi seekha} \\
-S4 & 15 & \textit{bola}  & no & \textit{\ldots woh ghusa diya bola idhar hi kaam karo} \\
-S6 & 11 & \textit{khola} & no & \textit{janala khola [unclear] ache} (Bengali adjective ``open'') \\
-S6 & 13 & \textit{seekhi} & \textbf{yes} & \textit{maine hindi iit mein rehke seekhi} \\
+SC1 &  9 & \textit{padha} & no & \textit{bcom hum 2 year padha tha} \\
+SC1 & 10 & \textit{padha} & no & \textit{padha toh bcom tak hi english} \\
+SC2 &  8 & \textit{bola}  & no & \textit{\ldots usko seekh ke sunne se ha woh yeh bola} \\
+SC4 & 10 & \textit{padha} & no & \textit{hum jab 7th class aur 8th class padha} \\
+SC4 & 10 & \textit{seekha} & no & \textit{\ldots do class mein hindi seekha} \\
+SC4 & 15 & \textit{bola}  & no & \textit{\ldots woh ghusa diya bola idhar hi kaam karo} \\
+SC6 & 11 & \textit{khola} & no & \textit{janala khola [unclear] ache} (Bengali adjective ``open'') \\
+SC6 & 13 & \textit{seekhi} & \textbf{yes} & \textit{maine hindi iit mein rehke seekhi} \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
-\section{Audit of the 36 Initial Detections}
+\chapter{Audit of the 36 Initial Detections}
 \label{app:audit}
 
 Of the 36 initial detections, the following 17 were judged false positives. (Numbers are those of the original audit listing, in order of speaker and segment.)
@@ -1254,44 +1306,147 @@ Of the 36 initial detections, the following 17 were judged false positives. (Num
 \toprule
 \textbf{\#} & \textbf{Spk.} & \textbf{Phrase} & \textbf{Cause} & \textbf{Reason} \\
 \midrule
- 3 & S2 & \textit{chawal kha raha hai} & lexicon & \textit{chawal} is masculine \\
- 6 & S3 & \textit{paani daal raha hai} & homograph & \textit{daal} is the verb ``pour'' \\
- 7 & S3 & \textit{glass \ldots raha hai} & lexicon & \textit{glass} is masculine \\
- 9 & S3 & \textit{janam hua} & impersonal & birth happened; \textit{janam} masculine \\
-12 & S4 & \textit{glass tut gaya} & lexicon & \textit{glass} is masculine \\
-13 & S4 & \textit{pitaji gujar gaya} & third person & subject is the speaker's father \\
-19 & S4 & \textit{seekh raha} (repeat) & duplicate & same verb already counted \\
-20 & S4 & \textit{woh padhta hai} & third person & \textit{woh} is a male child \\
-22 & S4 & \textit{padh raha} (R2) & duplicate & already counted as R1 \\
-23 & S4 & \textit{padhta hai} & third person & about someone's child \\
-24 & S4 & \textit{woh kya bolta hai} & third person & \textit{woh} is another person \\
-27 & S4 & \textit{karta tha} (repeat) & duplicate & same verb already counted \\
-30 & S4 & \textit{kaam karta tha} & mixed group & \textit{lerka lerki} (boys and girls) \\
-31 & S4 & \textit{padhta tha} & mixed group & \textit{lerka lerki} \\
-32 & S4 & \textit{karta tha} & mixed group & \textit{lerka lerki} \\
-33 & S4 & \textit{padhta} & mixed group & \textit{lerka lerki} \\
-36 & S8 & \textit{non-veg hota hai} & impersonal & generic statement about food \\
+ 3 & SC2 & \textit{chawal kha raha hai} & lexicon & \textit{chawal} is masculine \\
+ 6 & SC3 & \textit{paani daal raha hai} & homograph & \textit{daal} is the verb ``pour'' \\
+ 7 & SC3 & \textit{glass \ldots raha hai} & lexicon & \textit{glass} is masculine \\
+ 9 & SC3 & \textit{janam hua} & impersonal & birth happened; \textit{janam} masculine \\
+12 & SC4 & \textit{glass tut gaya} & lexicon & \textit{glass} is masculine \\
+13 & SC4 & \textit{pitaji gujar gaya} & third person & subject is the speaker's father \\
+19 & SC4 & \textit{seekh raha} (repeat) & duplicate & same verb already counted \\
+20 & SC4 & \textit{woh padhta hai} & third person & \textit{woh} is a male child \\
+22 & SC4 & \textit{padh raha} (R2) & duplicate & already counted as R1 \\
+23 & SC4 & \textit{padhta hai} & third person & about someone's child \\
+24 & SC4 & \textit{woh kya bolta hai} & third person & \textit{woh} is another person \\
+27 & SC4 & \textit{karta tha} (repeat) & duplicate & same verb already counted \\
+30 & SC4 & \textit{kaam karta tha} & mixed group & \textit{lerka lerki} (boys and girls) \\
+31 & SC4 & \textit{padhta tha} & mixed group & \textit{lerka lerki} \\
+32 & SC4 & \textit{karta tha} & mixed group & \textit{lerka lerki} \\
+33 & SC4 & \textit{padhta} & mixed group & \textit{lerka lerki} \\
+36 & SC8 & \textit{non-veg hota hai} & impersonal & generic statement about food \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
 The other 19 detections were true positives. After the four iterations of Table~\ref{tab:iter}, they reappear in Appendix~\ref{app:detections} together with the recall repairs.
 
-\section{Reproducing the Results}
+\chapter{Reproducing the Results}
 \label{app:repro}
 
-The repository is organised as follows: \texttt{transcripts/} holds the per-recording transcript JSON (Whisper text and corrected text per segment) and the Whisper-Hindi outputs (in the \texttt{indicwhisper*} directories); \texttt{verification/} holds the human correction records; \texttt{model/} holds the analyzer, the lexicons, the transliterator and the section labeller; \texttt{analysis/} holds all generated outputs; and \texttt{scripts/} holds the extraction, transcription, comparison and IndicWhisper scripts. The commands below regenerate every table in Sections~\ref{sec:eval} and \ref{sec:asr}.
+The repository is organised as follows: \texttt{transcripts/} holds the per-recording transcript JSON (Whisper text and corrected text per segment) and the Whisper-Hindi outputs (in the \texttt{indicwhisper*} directories); \texttt{verification/} holds the human correction records; \texttt{model/} holds the analyzer, the lexicons, the transliterator and the section labeller; \texttt{analysis/} holds all generated outputs; and \texttt{scripts/} holds the extraction, transcription, comparison and Whisper-Hindi scripts. The commands below regenerate every table in Chapters~\ref{sec:eval} and \ref{sec:asr}; all steps are deterministic, and this report is compiled with XeLaTeX (the Devanagari examples require a Unicode engine).
 
 \begin{verbatim}
-python3 run_analysis.py                    # per-speaker JSON, corpus summary,
-                                           # evaluation report, section labels
-python3 scripts/03_linguistic_analysis.py --use-corrections \
-        transcripts analysis               # per-recording analyses
-python3 scripts/compare_indicwhisper.py    # four-way ASR comparison
-python3 scripts/run_indicwhisper.py        # (optional) rerun Whisper-Hindi
-                                           # on a machine with a GPU
+python3 run_analysis.py
+    # per-speaker JSON, corpus summary,
+    # evaluation report, section labels
+python3 scripts/03_linguistic_analysis.py \
+    --use-corrections transcripts analysis
+    # per-recording analyses
+python3 scripts/compare_indicwhisper.py
+    # four-way ASR comparison
+python3 scripts/run_indicwhisper.py
+    # (optional) rerun Whisper-Hindi
+    # on a machine with a GPU
 \end{verbatim}
 
-\noindent All steps are deterministic. This report is compiled with XeLaTeX (the Devanagari examples require a Unicode engine).
+\chapter{Consent Forms}
+\label{app:consent}
+
+The consent form used to record each participant is reproduced on the following pages in Hindi, Bengali and English. The speaker codes S1--S8 on the forms correspond to SC1--SC8 in this report.
+
+\includepdf[pages={1-3}, scale=0.82, offset=0 0.6cm, pagecommand={\thispagestyle{plain}}]{assets/consent_form.pdf}
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{plainnat}
+\begin{thebibliography}{99}
+
+\bibitem[Bali et al.(2014)]{bali2014borrowing}
+Bali, K., Sharma, J., Choudhury, M., and Vyas, Y. (2014).
+\newblock ``I am borrowing ya mixing?'' An analysis of English-Hindi code mixing in Facebook.
+\newblock In \textit{Proc.\ First Workshop on Computational Approaches to Code Switching}.
+
+\bibitem[Bhatia and Ritchie(2004)]{bhatia2004world}
+Bhatia, T.~K. and Ritchie, W.~C. (2004).
+\newblock \textit{The Handbook of Bilingualism}.
+\newblock Blackwell.
+
+\bibitem[Bhogale et al.(2023)]{bhogale2023vistaar}
+Bhogale, K., et al. (2023).
+\newblock Vistaar: Diverse benchmarks and training sets for Indian language ASR.
+\newblock In \textit{Proc.\ Interspeech}. arXiv:2305.15386.
+
+\bibitem[Butt(1995)]{butt1995structure}
+Butt, M. (1995).
+\newblock \textit{The Structure of Complex Predicates in Urdu}.
+\newblock CSLI Publications.
+
+\bibitem[Das and Gamb{\"a}ck(2014)]{das2014identifying}
+Das, A. and Gamb{\"a}ck, B. (2014).
+\newblock Identifying languages at the word level in code-mixed Indian social media text.
+\newblock In \textit{Proc.\ 11th International Conference on Natural Language Processing}.
+
+\bibitem[Diwan et al.(2021)]{diwan2021multilingual}
+Diwan, A., Vaideeswaran, R., Shah, S., et al. (2021).
+\newblock Multilingual and code-switching ASR challenges for low resource Indian languages.
+\newblock In \textit{Proc.\ Interspeech}.
+
+\bibitem[Gr{\"u}ter et al.(2012)]{gruter2008article}
+Gr{\"u}ter, T., Lew-Williams, C., and Fernald, A. (2012).
+\newblock Grammatical gender in L2: A production or a real-time processing problem?
+\newblock \textit{Second Language Research}, 28(2):191--215.
+
+\bibitem[Kachru(2006)]{kachru2006hindi}
+Kachru, Y. (2006).
+\newblock \textit{Hindi}.
+\newblock John Benjamins.
+
+\bibitem[Khanuja et al.(2020)]{khanuja2020gluecos}
+Khanuja, S., Bansal, S., Mehtani, M., et al. (2020).
+\newblock GLUECoS: An evaluation benchmark for code-switched NLP.
+\newblock In \textit{Proc.\ ACL}.
+
+\bibitem[Muysken(2000)]{muysken2000bilingual}
+Muysken, P. (2000).
+\newblock \textit{Bilingual Speech: A Typology of Code-Mixing}.
+\newblock Cambridge University Press.
+
+\bibitem[Myers-Scotton(1997)]{myers1997duelling}
+Myers-Scotton, C. (1997).
+\newblock \textit{Duelling Languages: Grammatical Structure in Codeswitching}.
+\newblock Oxford University Press.
+
+\bibitem[Poplack(1980)]{poplack1980sometimes}
+Poplack, S. (1980).
+\newblock Sometimes I'll start a sentence in Spanish y termino en espa{\~n}ol.
+\newblock \textit{Linguistics}, 18(7-8):581--618.
+
+\bibitem[Radford et al.(2023)]{radford2023robust}
+Radford, A., Kim, J.~W., Xu, T., Brockman, G., McLeavey, C., and Sutskever, I. (2023).
+\newblock Robust speech recognition via large-scale weak supervision.
+\newblock In \textit{Proc.\ ICML}.
+
+\bibitem[Sabourin et al.(2006)]{sabourin2006transfer}
+Sabourin, L., Stowe, L.~A., and de~Haan, G.~J. (2006).
+\newblock Transfer effects in learning a second language grammatical gender system.
+\newblock \textit{Second Language Research}, 22(1):1--29.
+
+\bibitem[Schachter(1974)]{schachter1974}
+Schachter, J. (1974).
+\newblock An error in error analysis.
+\newblock \textit{Language Learning}, 24(2):205--214.
+
+\bibitem[Singh et al.(2018)]{singh2018twitter}
+Singh, K., Sen, I., and Kumaraguru, P. (2018).
+\newblock A Twitter corpus for Hindi-English code mixed POS tagging.
+\newblock In \textit{Proc.\ Sixth International Workshop on Natural Language Processing for Social Media}, pages 12--17.
+
+\bibitem[vasista22(n.d.)]{vasista22hindi}
+vasista22 (n.d.).
+\newblock \textit{whisper-hindi-small} and \textit{whisper-hindi-large-v2}: Whisper models fine-tuned on Hindi ASR data.
+\newblock Hugging Face model cards, \url{https://huggingface.co/vasista22/whisper-hindi-large-v2}.
+
+\end{thebibliography}
+
 
 \end{document}

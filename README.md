@@ -6,7 +6,7 @@
 **Supervisor:** Prof. Dripta Piplai  
 
 ## Overview
-This project investigates sociolinguistic code-switching and morphological transfer patterns in campus staff at IIT Kharagpur. The speaker population predominantly consists of first-language Bengali adults who acquired Hindi naturalistically in workplace settings (with a baseline comparison case of an L1 Hindi speaker from Uttar Pradesh).
+This project investigates sociolinguistic code-switching and morphological transfer patterns in campus staff at IIT Kharagpur. All speakers are first-language Bengali adults who acquired Hindi naturalistically in workplace settings.
 
 ### Key Research Questions
 1. **Code-Switching Dynamics**: Characterizing where Bengali enters Hindi discourse and categorizing switch typologies (tag-switching, inter-sentential switching, intra-sentential switching).
