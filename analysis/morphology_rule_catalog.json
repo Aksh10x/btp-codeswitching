@@ -93,7 +93,7 @@
       "description": "Full Bengali sentences or clauses inserted between Hindi utterances.",
       "l1_explanation": "Speakers switch to Bengali for entire clauses, especially when describing familiar domestic scenes or when Hindi vocabulary is insufficient.",
       "examples": [
-        {"said": "cheleti porachuna korche", "meaning": "the girl is studying", "speaker": "S6"},
+        {"said": "cheleti porachuna korche", "meaning": "the child is studying", "speaker": "S6"},
         {"said": "boiti ulto kore rekh chi", "meaning": "kept the book upside down", "speaker": "S6"},
         {"said": "chair bhenge gache", "meaning": "the chair has broken", "speaker": "S6"},
         {"said": "jol bhora glass", "meaning": "glass filled with water", "speaker": "S6"},

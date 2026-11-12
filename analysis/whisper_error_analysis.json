@@ -34,7 +34,7 @@
         {"bengali": "jol", "whisper_produced": "paani (Hindi equivalent)", "meaning": "water"},
         {"bengali": "bhat", "whisper_produced": "chawal (Hindi equivalent)", "meaning": "rice"},
         {"bengali": "pakha", "whisper_produced": "pankha (Hindi equivalent)", "meaning": "fan"},
-        {"bengali": "cheleti porachuna korche", "whisper_produced": "garbled Devanagari", "meaning": "the girl is studying"},
+        {"bengali": "cheleti porachuna korche", "whisper_produced": "garbled Devanagari", "meaning": "the child is studying"},
         {"bengali": "boi ulto kore rekh chi", "whisper_produced": "garbled Devanagari", "meaning": "kept the book upside down"}
       ]
     },
